@@ -103,8 +103,8 @@ export class PreviewPlayer {
     const ticket = this.ticket;
     this.set({ trackId, status: 'loading' });
 
-    const stored = this.refreshed.get(trackId) ?? apple.previewUrl;
-    let outcome = await this.tryUrl(stored, ticket);
+    const stored = this.refreshed.get(trackId) || apple.previewUrl;
+    let outcome: 'playing' | 'failed' | 'blocked' | 'stale' = stored ? await this.tryUrl(stored, ticket) : 'failed';
     if (outcome === 'failed') {
       const fresh = await lookupPreviewUrl(apple);
       if (ticket !== this.ticket) return;

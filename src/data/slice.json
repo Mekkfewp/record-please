@@ -1,0 +1,1812 @@
+{
+ "label": "1980s UK/US · Punk / Post-Punk / Hardcore",
+ "yearStart": 1980,
+ "yearEnd": 1989,
+ "countries": {
+  "GB": "英国",
+  "US": "美国"
+ },
+ "genres": [
+  {
+   "id": "punkpostpunkhardcore",
+   "name": "Punk / Post-Punk / Hardcore",
+   "parent": null
+  },
+  {
+   "id": "punkpostpunkhardcore.cowpunk",
+   "name": "Cowpunk",
+   "parent": "punkpostpunkhardcore"
+  },
+  {
+   "id": "punkpostpunkhardcore.folkpunk",
+   "name": "Folk Punk",
+   "parent": "punkpostpunkhardcore"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk",
+   "name": "Hardcore [Punk]",
+   "parent": "punkpostpunkhardcore"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk.hardcorepunk",
+   "name": "Hardcore Punk",
+   "parent": "punkpostpunkhardcore.hardcorepunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.crossoverthrash",
+   "name": "Crossover Thrash",
+   "parent": "punkpostpunkhardcore.hardcorepunk.hardcorepunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.melodichardcore",
+   "name": "Melodic Hardcore",
+   "parent": "punkpostpunkhardcore.hardcorepunk.hardcorepunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.streetpunk",
+   "name": "Street Punk",
+   "parent": "punkpostpunkhardcore.hardcorepunk.hardcorepunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.thrashcore",
+   "name": "Thrashcore",
+   "parent": "punkpostpunkhardcore.hardcorepunk.hardcorepunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk.posthardcore",
+   "name": "Post-Hardcore",
+   "parent": "punkpostpunkhardcore.hardcorepunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.hardcorepunk.posthardcore.emocore",
+   "name": "Emocore",
+   "parent": "punkpostpunkhardcore.hardcorepunk.posthardcore"
+  },
+  {
+   "id": "punkpostpunkhardcore.postpunk",
+   "name": "Post-Punk",
+   "parent": "punkpostpunkhardcore"
+  },
+  {
+   "id": "punkpostpunkhardcore.postpunk.dancepunk",
+   "name": "Dance-Punk",
+   "parent": "punkpostpunkhardcore.postpunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.postpunk.gothicrock",
+   "name": "Gothic Rock",
+   "parent": "punkpostpunkhardcore.postpunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.postpunk.gothicrock.deathrock",
+   "name": "Deathrock",
+   "parent": "punkpostpunkhardcore.postpunk.gothicrock"
+  },
+  {
+   "id": "punkpostpunkhardcore.postpunk.nowave",
+   "name": "No Wave",
+   "parent": "punkpostpunkhardcore.postpunk"
+  },
+  {
+   "id": "punkpostpunkhardcore.punkpoetry",
+   "name": "Punk Poetry",
+   "parent": "punkpostpunkhardcore"
+  },
+  {
+   "id": "punkpostpunkhardcore.punkrock",
+   "name": "Punk Rock",
+   "parent": "punkpostpunkhardcore"
+  },
+  {
+   "id": "punkpostpunkhardcore.punkrock.anarchopunk",
+   "name": "Anarcho-Punk",
+   "parent": "punkpostpunkhardcore.punkrock"
+  },
+  {
+   "id": "punkpostpunkhardcore.punkrock.oi",
+   "name": "Oi!",
+   "parent": "punkpostpunkhardcore.punkrock"
+  },
+  {
+   "id": "punkpostpunkhardcore.punkrock.poppunk",
+   "name": "Pop Punk",
+   "parent": "punkpostpunkhardcore.punkrock"
+  },
+  {
+   "id": "punkpostpunkhardcore.punkrock.psychobilly",
+   "name": "Psychobilly",
+   "parent": "punkpostpunkhardcore.punkrock"
+  },
+  {
+   "id": "punkpostpunkhardcore.punkrock.skatepunk",
+   "name": "Skate Punk",
+   "parent": "punkpostpunkhardcore.punkrock"
+  }
+ ],
+ "records": [
+  {
+   "id": "televisionpersonalities-anddontthekidsjustloveit",
+   "artist": "Television Personalities",
+   "country": "GB",
+   "title": "...And Don't the Kids Just Love It",
+   "kind": "album",
+   "year": 1981,
+   "track": "This Angry Silence",
+   "genre": "punkpostpunkhardcore",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/...And_Don't_the_Kids_Just_Love_It"
+   },
+   "apple": {
+    "trackId": 1668408627,
+    "collectionId": 1668408274,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/ae/be/0a/aebe0a44-b68f-3bf8-6940-6a20f17b0dd9/mzaf_12268084852851457579.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/91/a0/d6/91a0d6d7-9ba7-e923-5bfe-09855bca8b26/829410481359_cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1668408274?i=1668408627"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Television%20Personalities%20This%20Angry%20Silence&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Television%20Personalities%20This%20Angry%20Silence&t=song"
+   }
+  },
+  {
+   "id": "jasonandthescorchers-fervor",
+   "artist": "Jason & the Scorchers",
+   "country": "US",
+   "title": "Fervor",
+   "kind": "ep",
+   "year": 1983,
+   "track": "Absolutely Sweet Marie",
+   "genre": "punkpostpunkhardcore.cowpunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "cowpunk",
+    "url": "https://en.wikipedia.org/wiki/Fervor_EP"
+   },
+   "apple": {
+    "trackId": 6801364961,
+    "collectionId": 6801364948,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/87/4a/5e/874a5ef4-e343-8c0f-2b5a-b6eb786fb522/mzaf_9874364867506405192.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/9c/21/d3/9c21d3f6-c07b-7d87-c5e5-bcb18db52f5f/23UMGIM61320.rgb.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/6801364948?i=6801364961"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Jason%20%26%20the%20Scorchers%20Absolutely%20Sweet%20Marie&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Jason%20%26%20the%20Scorchers%20Absolutely%20Sweet%20Marie&t=song"
+   }
+  },
+  {
+   "id": "thebeatfarmers-talesofthenewwest",
+   "artist": "The Beat Farmers",
+   "country": "US",
+   "title": "Tales of the New West",
+   "kind": "album",
+   "year": 1985,
+   "track": "Bigger Stones (Remastered)",
+   "genre": "punkpostpunkhardcore.cowpunk",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "cowpunk",
+    "url": "https://musicbrainz.org/release-group/7a643460-ffe1-3c86-b9c9-78c592d03f15"
+   },
+   "apple": {
+    "trackId": 1532827796,
+    "collectionId": 1532827793,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/1c/37/731c3748-a3a8-a8e4-4c54-f7d592d12fb2/mzaf_13097354236478053534.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/69/ae/57/69ae575a-b30e-b810-848a-1601f9cc74c4/195497149148.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1532827793?i=1532827796"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Beat%20Farmers%20Bigger%20Stones%20(Remastered)&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Beat%20Farmers%20Bigger%20Stones%20(Remastered)&t=song"
+   }
+  },
+  {
+   "id": "bloodonthesaddle-bloodonthesaddle",
+   "artist": "Blood on the Saddle",
+   "country": "US",
+   "title": "Blood on the Saddle",
+   "kind": "album",
+   "year": 1984,
+   "track": "Blood on the Saddle",
+   "genre": "punkpostpunkhardcore",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "punk",
+    "url": "https://musicbrainz.org/release-group/c11ce09a-f7b9-496d-a677-13942746f799"
+   },
+   "apple": {
+    "trackId": 1713058509,
+    "collectionId": 1713058508,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/61/58/0b/61580beb-3e44-fdd5-e41e-1c5aef45baa1/mzaf_16797870367332777534.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ae/1c/74/ae1c7445-04bc-bff5-605b-53510a4d4293/196779635946_cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1713058508?i=1713058509"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Blood%20on%20the%20Saddle%20Blood%20on%20the%20Saddle&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Blood%20on%20the%20Saddle%20Blood%20on%20the%20Saddle&t=song"
+   }
+  },
+  {
+   "id": "billybragg-lifesariotwithspyvsspy",
+   "artist": "Billy Bragg",
+   "country": "GB",
+   "title": "Life's a Riot with Spy vs Spy",
+   "kind": "album",
+   "year": 1983,
+   "track": "The Milkman of Human Kindness",
+   "genre": "punkpostpunkhardcore.folkpunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "folk punk",
+    "url": "https://en.wikipedia.org/wiki/Life's_a_Riot_with_Spy_vs_Spy"
+   },
+   "apple": {
+    "trackId": 6764789967,
+    "collectionId": 1895916010,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/c3/45/6dc34569-856d-28a0-0f04-605047fc1f5c/mzaf_6025216967948766310.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/d8/b3/3ed8b35d-4ae8-059c-8906-5f639659aac4/126168.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1895916010?i=6764789967"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Billy%20Bragg%20The%20Milkman%20of%20Human%20Kindness&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Billy%20Bragg%20The%20Milkman%20of%20Human%20Kindness&t=song"
+   }
+  },
+  {
+   "id": "thementheycouldnthang-nightofathousandcandles",
+   "artist": "The Men They Couldn't Hang",
+   "country": "GB",
+   "title": "Night of a Thousand Candles",
+   "kind": "album",
+   "year": 1985,
+   "track": "The Day After",
+   "genre": "punkpostpunkhardcore.folkpunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "folk-punk",
+    "url": "https://en.wikipedia.org/wiki/Night_of_a_Thousand_Candles"
+   },
+   "apple": {
+    "trackId": 293440372,
+    "collectionId": 293440321,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/6e/d9/d9/6ed9d913-a9b7-0605-2fec-9f9e13090978/mzaf_12014138632854976828.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music4/v4/d9/d5/90/d9d59049-481d-40e5-6c73-4b16dc535bc6/dj.mxgofkra.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/293440321?i=293440372"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Men%20They%20Couldn't%20Hang%20The%20Day%20After&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Men%20They%20Couldn't%20Hang%20The%20Day%20After&t=song"
+   }
+  },
+  {
+   "id": "negativeapproach-tieddown",
+   "artist": "Negative Approach",
+   "country": "US",
+   "title": "Tied Down",
+   "kind": "album",
+   "year": 1983,
+   "track": "Tied Down",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "hardcore punk",
+    "url": "https://en.wikipedia.org/wiki/Tied_Down"
+   },
+   "apple": {
+    "trackId": 1120330146,
+    "collectionId": 1120329776,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/0c/41/3c/0c413c44-33e1-7df1-1d90-36751415978a/mzaf_8989534556214146847.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/15/d2/fe/15d2fedd-4ff5-b975-f1f7-7580d1839b2b/cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1120329776?i=1120330146"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Negative%20Approach%20Tied%20Down&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Negative%20Approach%20Tied%20Down&t=song"
+   }
+  },
+  {
+   "id": "diekreuzen-diekreuzen",
+   "artist": "Die Kreuzen",
+   "country": "US",
+   "title": "Die Kreuzen",
+   "kind": "album",
+   "year": 1984,
+   "track": "Rumors",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "hardcore punk",
+    "url": "https://en.wikipedia.org/wiki/Die_Kreuzen_(album)"
+   },
+   "apple": {
+    "trackId": 1120066602,
+    "collectionId": 1120066525,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3c/32/5f/3c325f53-a07a-0c74-62a6-d1140a5eb960/mzaf_10214050363744422308.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/62/19/7a/62197aec-877a-cc68-1254-029a4111722f/66097.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1120066525?i=1120066602"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Die%20Kreuzen%20Rumors&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Die%20Kreuzen%20Rumors&t=song"
+   }
+  },
+  {
+   "id": "thefaith-subjecttochange",
+   "artist": "The Faith",
+   "country": "US",
+   "title": "Subject to Change",
+   "kind": "ep",
+   "year": 1983,
+   "track": "Aware",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "hardcore punk",
+    "url": "https://en.wikipedia.org/wiki/Subject_to_Change_(EP)"
+   },
+   "apple": {
+    "trackId": 54533194,
+    "collectionId": 54533355,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/ca/49/20/ca4920eb-e185-a75a-f21e-85b29565694d/mzaf_12369218074121531083.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m03/d29/h07/s05.tmyoyjzg.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/54533355?i=54533194"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Faith%20Aware&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Faith%20Aware&t=song"
+   }
+  },
+  {
+   "id": "corrosionofconformity-animosity",
+   "artist": "Corrosion of Conformity",
+   "country": "US",
+   "title": "Animosity",
+   "kind": "album",
+   "year": 1985,
+   "track": "Loss for Words",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.crossoverthrash",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "crossover thrash",
+    "url": "https://en.wikipedia.org/wiki/Animosity_(Corrosion_of_Conformity_album)"
+   },
+   "apple": {
+    "trackId": 219810047,
+    "collectionId": 219810007,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f2/63/3a/f2633a4d-f934-e573-942f-7de01fc0c138/mzaf_13044559638316605450.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/e9/94/54/mzi.ewumviwk.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/219810007?i=219810047"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Corrosion%20of%20Conformity%20Loss%20for%20Words&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Corrosion%20of%20Conformity%20Loss%20for%20Words&t=song"
+   }
+  },
+  {
+   "id": "cromags-theageofquarrel",
+   "artist": "Cro-Mags",
+   "country": "US",
+   "title": "The Age of Quarrel",
+   "kind": "album",
+   "year": 1986,
+   "track": "We Gotta Know",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "hardcore punk",
+    "url": "https://en.wikipedia.org/wiki/The_Age_of_Quarrel"
+   },
+   "apple": {
+    "trackId": 1474115350,
+    "collectionId": 1474115345,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/5d/f4/9d/5df49dfb-2e9f-ddee-8a71-759d32b2c0fe/mzaf_2752429993066891488.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/12/6e/9e/126e9e2f-1947-77d4-c79d-8684360d1cc8/artwork.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1474115345?i=1474115350"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Cro-Mags%20We%20Gotta%20Know&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Cro-Mags%20We%20Gotta%20Know&t=song"
+   }
+  },
+  {
+   "id": "excel-splitimage",
+   "artist": "Excel",
+   "country": "US",
+   "title": "Split Image",
+   "kind": "album",
+   "year": 1987,
+   "track": "Your Life, My Life",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.crossoverthrash",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "crossover thrash",
+    "url": "https://en.wikipedia.org/wiki/Split_Image_(album)"
+   },
+   "apple": {
+    "trackId": 918880413,
+    "collectionId": 918880328,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/a8/5f/41/a85f4117-4134-b9eb-de31-86916e5f2015/mzaf_14464793858771289575.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6d/08/47/6d08479e-5a2a-4943-7dc9-577d2619f239/886444779876.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/918880328?i=918880413"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Excel%20Your%20Life%2C%20My%20Life&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Excel%20Your%20Life%2C%20My%20Life&t=song"
+   }
+  },
+  {
+   "id": "thevarukers-bloodsuckers",
+   "artist": "The Varukers",
+   "country": "GB",
+   "title": "Bloodsuckers",
+   "kind": "album",
+   "year": 1983,
+   "track": "Protest and Survive",
+   "genre": "punkpostpunkhardcore",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "punk",
+    "url": "https://musicbrainz.org/release-group/3dc5cc93-d4bb-35be-bcbc-872468bce5ab"
+   },
+   "apple": {
+    "trackId": 1677837422,
+    "collectionId": 1677837421,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/1e/6c/d9/1e6cd94c-0a55-35a0-cb29-ad8416754a61/mzaf_16703007588875082312.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/46/d0/6a/46d06add-0c29-8400-d091-5b1a3c5017f7/5037300018775.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1677837421?i=1677837422"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Varukers%20Protest%20and%20Survive&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Varukers%20Protest%20and%20Survive&t=song"
+   }
+  },
+  {
+   "id": "dagnasty-canisay",
+   "artist": "Dag Nasty",
+   "country": "US",
+   "title": "Can I Say",
+   "kind": "album",
+   "year": 1986,
+   "track": "Values Here",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.melodichardcore",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "melodic hardcore",
+    "url": "https://en.wikipedia.org/wiki/Can_I_Say"
+   },
+   "apple": {
+    "trackId": 54534550,
+    "collectionId": 54535002,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9b/76/1a/9b761ab1-d113-16e1-0727-7401bbd6a9da/mzaf_11896507264490217144.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m03/d29/h08/s05.pmqzasgw.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/54535002?i=54534550"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Dag%20Nasty%20Values%20Here&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Dag%20Nasty%20Values%20Here&t=song"
+   }
+  },
+  {
+   "id": "verbalassault-trial",
+   "artist": "Verbal Assault",
+   "country": "US",
+   "title": "Trial",
+   "kind": "album",
+   "year": 1987,
+   "track": "Trial",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.melodichardcore",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "melodic hardcore",
+    "url": "https://musicbrainz.org/release-group/2e6fd8dc-7357-4f38-9d67-44970b369f8a"
+   },
+   "apple": {
+    "trackId": 1419871830,
+    "collectionId": 1419871825,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/1d/6d/59/1d6d59aa-ee9d-d096-61f2-b5be3102d5bc/mzaf_11019027430011035103.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/9b/af/bd/9bafbd8c-74a7-d7f2-1b81-582e53348613/192562828212.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1419871825?i=1419871830"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Verbal%20Assault%20Trial&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Verbal%20Assault%20Trial&t=song"
+   }
+  },
+  {
+   "id": "marginalman-identity",
+   "artist": "Marginal Man",
+   "country": "US",
+   "title": "Identity",
+   "kind": "ep",
+   "year": 1984,
+   "track": "Missing Rungs",
+   "genre": "punkpostpunkhardcore",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "punk",
+    "url": "https://musicbrainz.org/release-group/12a9b4c2-51e9-3eb5-a94e-72a7c45b9189"
+   },
+   "apple": {
+    "trackId": 54533374,
+    "collectionId": 54533496,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/2c/94/56/2c94564d-d125-8962-b9ad-d308d0617eef/mzaf_2163486842947374528.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2005/m03/d29/h07/s05.xikzrbag.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/54533496?i=54533374"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Marginal%20Man%20Missing%20Rungs&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Marginal%20Man%20Missing%20Rungs&t=song"
+   }
+  },
+  {
+   "id": "gbh-citybabyattackedbyrats",
+   "artist": "GBH",
+   "country": "GB",
+   "title": "City Baby Attacked by Rats",
+   "kind": "album",
+   "year": 1982,
+   "track": "Ha Ha",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.streetpunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "street punk",
+    "url": "https://en.wikipedia.org/wiki/City_Baby_Attacked_by_Rats"
+   },
+   "apple": {
+    "trackId": 1073946278,
+    "collectionId": 1073946274,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/bf/ce/29/bfce29a2-9b24-0ab1-174d-12b484a80276/mzaf_17351772348840356210.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/16/4f/fa/164ffad6-5ad5-a748-1a57-24917880cf5d/GBH_City_Baby_CD_1600px_pack.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1073946274?i=1073946278"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=GBH%20Ha%20Ha&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=GBH%20Ha%20Ha&t=song"
+   }
+  },
+  {
+   "id": "vicesquad-nocauseforconcern",
+   "artist": "Vice Squad",
+   "country": "GB",
+   "title": "No Cause for Concern",
+   "kind": "album",
+   "year": 1981,
+   "track": "Young Blood",
+   "genre": "punkpostpunkhardcore",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "punk rock",
+    "url": "https://en.wikipedia.org/wiki/No_Cause_for_Concern"
+   },
+   "apple": {
+    "trackId": 691470844,
+    "collectionId": 691469882,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/76/2d/41/762d41cc-d3a5-d40e-9fef-59941aa8aa63/mzaf_6909378570469773372.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/25/2f/44/252f4463-4a23-697c-8f26-6424b16e0892/5099962641357_2000x2000_399dpi.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/691469882?i=691470844"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Vice%20Squad%20Young%20Blood&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Vice%20Squad%20Young%20Blood&t=song"
+   }
+  },
+  {
+   "id": "onewaysystem-allsystemsgo",
+   "artist": "One Way System",
+   "country": "GB",
+   "title": "All Systems Go",
+   "kind": "album",
+   "year": 1983,
+   "track": "Ain't No Answers",
+   "genre": "punkpostpunkhardcore",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "punk",
+    "url": "https://musicbrainz.org/release-group/1ac4ca7b-0fef-3653-b493-4c3d5a0c3014"
+   },
+   "apple": {
+    "trackId": 1601298385,
+    "collectionId": 1601298384,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/14/c4/19/14c419a3-6b0b-a6b9-e86e-84916293f64c/mzaf_13306836502595067906.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7b/20/5b/7b205ba7-eb75-7196-8f40-0cf8ad0ce114/192562120620.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1601298384?i=1601298385"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=One%20Way%20System%20Ain't%20No%20Answers&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=One%20Way%20System%20Ain't%20No%20Answers&t=song"
+   }
+  },
+  {
+   "id": "dri-dirtyrottenlp",
+   "artist": "D.R.I.",
+   "country": "US",
+   "title": "Dirty Rotten LP",
+   "kind": "album",
+   "year": 1983,
+   "track": "I Don't Need Society",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.thrashcore",
+   "tier": 2,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "thrashcore",
+    "url": "https://musicbrainz.org/release-group/d19cca76-883f-3887-b88e-08dbddfc1c88"
+   },
+   "apple": {
+    "trackId": 251723779,
+    "collectionId": 251723777,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d1/1c/69/d11c69ac-4d57-5e45-8060-aff96b994999/mzaf_14239649203179750414.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/fc/7c/00/fc7c00c8-0720-6a5d-08b7-c096973d3991/mzi.fwwzwjsv.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/251723777?i=251723779"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=D.R.I.%20I%20Don't%20Need%20Society&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=D.R.I.%20I%20Don't%20Need%20Society&t=song"
+   }
+  },
+  {
+   "id": "siege-dropdead",
+   "artist": "Siege",
+   "country": "US",
+   "title": "Drop Dead",
+   "kind": "ep",
+   "year": 1984,
+   "track": "Drop Dead",
+   "genre": "punkpostpunkhardcore.hardcorepunk.hardcorepunk.thrashcore",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "thrashcore",
+    "url": "https://en.wikipedia.org/wiki/Drop_Dead_(album)"
+   },
+   "apple": {
+    "trackId": 975341364,
+    "collectionId": 975341363,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/d3/d0/3e/d3d03e18-9632-6915-c7a2-189c7c83c008/mzaf_3676273034964526145.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0d/43/3d/0d433d9b-56ec-25b9-9d5a-06610e9b2cf6/889176698873.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/975341363?i=975341364"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Siege%20Drop%20Dead&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Siege%20Drop%20Dead&t=song"
+   }
+  },
+  {
+   "id": "heresy-faceuptoit",
+   "artist": "Heresy",
+   "country": "GB",
+   "title": "Face Up to It!",
+   "kind": "album",
+   "year": 1988,
+   "track": "Consume",
+   "genre": "punkpostpunkhardcore",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "punk",
+    "url": "https://musicbrainz.org/release-group/2bdc846c-954c-4204-9aee-bd89b69e56f0"
+   },
+   "apple": {
+    "trackId": 284028547,
+    "collectionId": 284028541,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/41/40/9b/41409bb8-f60e-c365-0285-c9727b6fb588/mzaf_7734321662499160280.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/5d/dc/0e/mzi.cpqzebst.tif/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/284028541?i=284028547"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Heresy%20Consume&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Heresy%20Consume&t=song"
+   }
+  },
+  {
+   "id": "squirrelbait-skagheaven",
+   "artist": "Squirrel Bait",
+   "country": "US",
+   "title": "Skag Heaven",
+   "kind": "album",
+   "year": 1986,
+   "track": "Kid Dynamite",
+   "genre": "punkpostpunkhardcore.hardcorepunk.posthardcore",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-hardcore",
+    "url": "https://en.wikipedia.org/wiki/Skag_Heaven"
+   },
+   "apple": {
+    "trackId": 81451577,
+    "collectionId": 81451635,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/39/c5/f7/39c5f724-ba09-5d47-41be-d0bcfe001933/mzaf_3830536815222766056.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/c3/10/4e/c3104ec3-3443-791e-bc2f-3eaf01b62412/078148410326.png/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/81451635?i=81451577"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Squirrel%20Bait%20Kid%20Dynamite&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Squirrel%20Bait%20Kid%20Dynamite&t=song"
+   }
+  },
+  {
+   "id": "saccharinetrust-paganicons",
+   "artist": "Saccharine Trust",
+   "country": "US",
+   "title": "Paganicons",
+   "kind": "ep",
+   "year": 1981,
+   "track": "I Have...",
+   "genre": "punkpostpunkhardcore.hardcorepunk.posthardcore",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-hardcore",
+    "url": "https://en.wikipedia.org/wiki/Paganicons"
+   },
+   "apple": {
+    "trackId": 117332688,
+    "collectionId": 117332747,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/b6/32/22/b6322294-8c23-fa20-2f45-34f276056abd/mzaf_4055784285871007676.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7b/d2/0f/7bd20fd3-72ee-abb2-f9a9-0f92eabac814/669910740156.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/117332747?i=117332688"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Saccharine%20Trust%20I%20Have...&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Saccharine%20Trust%20I%20Have...&t=song"
+   }
+  },
+  {
+   "id": "bitchmagnet-umber",
+   "artist": "Bitch Magnet",
+   "country": "US",
+   "title": "Umber",
+   "kind": "album",
+   "year": 1989,
+   "track": "Motor",
+   "genre": "punkpostpunkhardcore.hardcorepunk.posthardcore",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-hardcore",
+    "url": "https://en.wikipedia.org/wiki/Umber_(album)"
+   },
+   "apple": {
+    "trackId": 480750962,
+    "collectionId": 480750958,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/8e/4c/f6/8e4cf6ac-ce53-b6bb-5f3f-291a4f2eb16a/mzaf_11212887640705475010.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/ba/17/7e/mzi.tgzqicjy.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/480750958?i=480750962"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Bitch%20Magnet%20Motor&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Bitch%20Magnet%20Motor&t=song"
+   }
+  },
+  {
+   "id": "ritesofspring-ritesofspring",
+   "artist": "Rites of Spring",
+   "country": "US",
+   "title": "Rites of Spring",
+   "kind": "album",
+   "year": 1985,
+   "track": "Spring",
+   "genre": "punkpostpunkhardcore.hardcorepunk.posthardcore.emocore",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "emo",
+    "url": "https://en.wikipedia.org/wiki/Rites_of_Spring_(album)"
+   },
+   "apple": {
+    "trackId": 49249760,
+    "collectionId": 49249797,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/32/c8/9e/32c89ee6-3781-136e-aa23-62a989e7ea03/mzaf_15078058178297105270.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/00/42/cf/0042cfa2-4ebd-0008-663f-c1b4b43f195e/s05.rtzzrrha.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/49249797?i=49249760"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Rites%20of%20Spring%20Spring&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Rites%20of%20Spring%20Spring&t=song"
+   }
+  },
+  {
+   "id": "joydivision-closer",
+   "artist": "Joy Division",
+   "country": "GB",
+   "title": "Closer",
+   "kind": "album",
+   "year": 1980,
+   "track": "Atrocity Exhibition",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 1,
+   "door": true,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/Closer_(Joy_Division_album)"
+   },
+   "apple": {
+    "trackId": 266610016,
+    "collectionId": 266610001,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/10/87/e3/1087e381-bec1-4c1a-9695-9956698c648e/mzaf_15145448487833035829.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/d9/2a/d1/d92ad12e-cdf2-e567-9612-af2fdfa82237/dj.uzqznczn.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/266610001?i=266610016"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Joy%20Division%20Atrocity%20Exhibition&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Joy%20Division%20Atrocity%20Exhibition&t=song"
+   }
+  },
+  {
+   "id": "thecure-seventeenseconds",
+   "artist": "The Cure",
+   "country": "GB",
+   "title": "Seventeen Seconds",
+   "kind": "album",
+   "year": 1980,
+   "track": "A Reflection",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 1,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/Seventeen_Seconds"
+   },
+   "apple": {
+    "trackId": 286646355,
+    "collectionId": 286646354,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/cb/a3/71/cba37106-2e89-35c6-1579-202ff9f41562/mzaf_13862333099913179596.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/95/f8/89/mzi.lzqbugyp.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/286646354?i=286646355"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Cure%20A%20Reflection&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Cure%20A%20Reflection&t=song"
+   }
+  },
+  {
+   "id": "thechameleons-scriptofthebridge",
+   "artist": "The Chameleons",
+   "country": "GB",
+   "title": "Script of the Bridge",
+   "kind": "album",
+   "year": 1983,
+   "track": "Don't Fall",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/Script_of_the_Bridge"
+   },
+   "apple": {
+    "trackId": 506784831,
+    "collectionId": 506784553,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a2/61/df/a261dfe7-71c8-adb3-926a-3341284ec518/mzaf_16071243326557575913.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/7d/21/037d2113-f1f3-f893-27c0-621f7c6e2eb3/mzi.fygdftta.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/506784553?i=506784831"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Chameleons%20Don't%20Fall&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Chameleons%20Don't%20Fall&t=song"
+   }
+  },
+  {
+   "id": "missionofburma-vs",
+   "artist": "Mission of Burma",
+   "country": "US",
+   "title": "Vs.",
+   "kind": "album",
+   "year": 1982,
+   "track": "Secrets",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/Vs._(Mission_of_Burma_album)"
+   },
+   "apple": {
+    "trackId": 1589146526,
+    "collectionId": 1589146509,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/aa/56/67/aa566797-d9a1-e893-c3e8-7798dd5669b2/mzaf_2338837963944013067.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f6/12/82/f61282d3-574e-1685-db66-50d33dea34d9/744861073161.png/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1589146509?i=1589146526"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Mission%20of%20Burma%20Secrets&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Mission%20of%20Burma%20Secrets&t=song"
+   }
+  },
+  {
+   "id": "thesound-fromthelionsmouth",
+   "artist": "The Sound",
+   "country": "GB",
+   "title": "From the Lions Mouth",
+   "kind": "album",
+   "year": 1981,
+   "track": "Winning",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/From_the_Lions_Mouth"
+   },
+   "apple": {
+    "trackId": 544910201,
+    "collectionId": 544910200,
+    "storefront": "gb",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b8/f9/e1/b8f9e1a8-f6c9-996f-f09f-259a58148d6b/mzaf_16345813165046828973.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/11/44/ce1144f5-727e-e673-8afb-96ca1f19f913/825646562862.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/gb/album/544910200?i=544910201"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Sound%20Winning&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Sound%20Winning&t=song"
+   }
+  },
+  {
+   "id": "thecomsatangels-sleepnomore",
+   "artist": "The Comsat Angels",
+   "country": "GB",
+   "title": "Sleep No More",
+   "kind": "album",
+   "year": 1981,
+   "track": "The Eye Dance",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/Sleep_No_More_(The_Comsat_Angels_album)"
+   },
+   "apple": {
+    "trackId": 1443426811,
+    "collectionId": 1443426549,
+    "storefront": "gb",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f6/63/06/f66306c9-e4cd-d2e5-08ef-42ffb7698c15/mzaf_7151013463661216918.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c9/18/b2/c918b270-34e0-8896-a067-22b2ceb666cc/00602517543287.rgb.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/gb/album/1443426549?i=1443426811"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Comsat%20Angels%20The%20Eye%20Dance&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Comsat%20Angels%20The%20Eye%20Dance&t=song"
+   }
+  },
+  {
+   "id": "josefk-theonlyfunintown",
+   "artist": "Josef K",
+   "country": "GB",
+   "title": "The Only Fun in Town",
+   "kind": "album",
+   "year": 1981,
+   "track": "Fun 'N' Frenzy",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/The_Only_Fun_in_Town"
+   },
+   "apple": {
+    "trackId": 881702332,
+    "collectionId": 881702328,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/04/f0/99/04f09987-ccdb-3c25-721d-b573540bda08/mzaf_15144063744127944280.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ec/59/73/ec597369-d675-95f8-c734-4d84826365d1/708527002346.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/881702328?i=881702332"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Josef%20K%20Fun%20'N'%20Frenzy&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Josef%20K%20Fun%20'N'%20Frenzy&t=song"
+   }
+  },
+  {
+   "id": "pylon-gyrate",
+   "artist": "Pylon",
+   "country": "US",
+   "title": "Gyrate",
+   "kind": "album",
+   "year": 1980,
+   "track": "Volume (Remastered)",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/Gyrate_(album)"
+   },
+   "apple": {
+    "trackId": 1527592120,
+    "collectionId": 1527592119,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/a1/94/43a194d0-0b37-c5e7-a136-57ac624037b3/mzaf_11168048866189961747.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bd/df/da/bddfdac7-e522-475a-078f-ac71b9e2334e/607396649334.png/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1527592119?i=1527592120"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Pylon%20Volume%20(Remastered)&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Pylon%20Volume%20(Remastered)&t=song"
+   }
+  },
+  {
+   "id": "liquidliquid-optimo",
+   "artist": "Liquid Liquid",
+   "country": "US",
+   "title": "Optimo",
+   "kind": "ep",
+   "year": 1983,
+   "track": "Optimo",
+   "genre": "punkpostpunkhardcore.postpunk.dancepunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "dance-punk",
+    "url": "https://en.wikipedia.org/wiki/Optimo_(EP)"
+   },
+   "apple": {
+    "trackId": 1403570079,
+    "collectionId": 1403570064,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a9/08/44/a908447c-a52f-5b61-3d7e-bdb47a092e1f/mzaf_7838677410199836432.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/a1/06/baa106d9-ef9a-7c4a-a038-42fee9072061/3.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1403570064?i=1403570079"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Liquid%20Liquid%20Optimo&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Liquid%20Liquid%20Optimo&t=song"
+   }
+  },
+  {
+   "id": "acertainratio-toeach",
+   "artist": "A Certain Ratio",
+   "country": "GB",
+   "title": "To Each...",
+   "kind": "album",
+   "year": 1981,
+   "track": "Felch",
+   "genre": "punkpostpunkhardcore.postpunk.dancepunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "funk punk",
+    "url": "https://en.wikipedia.org/wiki/To_Each..."
+   },
+   "apple": {
+    "trackId": 1158366151,
+    "collectionId": 1158365615,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview22/v4/50/7b/3d/507b3dd0-1c27-d0cd-a2aa-9633ee126cbf/mzaf_5235604227135366713.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/46/0d/e8/460de81c-946c-ad3d-e202-ddad06dba6c2/724596966112.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1158365615?i=1158366151"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=A%20Certain%20Ratio%20Felch&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=A%20Certain%20Ratio%20Felch&t=song"
+   }
+  },
+  {
+   "id": "esg-comeawaywithesg",
+   "artist": "ESG",
+   "country": "US",
+   "title": "Come Away with ESG",
+   "kind": "album",
+   "year": 1983,
+   "track": "Come Away",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "post-punk",
+    "url": "https://en.wikipedia.org/wiki/Come_Away_with_ESG"
+   },
+   "apple": {
+    "trackId": 1668437326,
+    "collectionId": 1668437008,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/15/51/b415519c-6e84-cdb0-a992-26eebfc2c223/mzaf_9396809119972581281.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/fd/ef/31fdefbc-d21e-3c65-1b3f-b4098a748fc4/809236114006_cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1668437008?i=1668437326"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=ESG%20Come%20Away&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=ESG%20Come%20Away&t=song"
+   }
+  },
+  {
+   "id": "bushtetras-toomanycreeps",
+   "artist": "Bush Tetras",
+   "country": "US",
+   "title": "Too Many Creeps",
+   "kind": "single",
+   "year": 1980,
+   "track": "Too Many Creeps",
+   "genre": "punkpostpunkhardcore.postpunk",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "post-punk",
+    "url": "https://musicbrainz.org/release-group/f5811867-2727-42bb-9126-c515ad611a5f"
+   },
+   "apple": {
+    "trackId": 1083612416,
+    "collectionId": 1083611271,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/05/61/4c/05614cab-a147-442d-0ae2-27e5e53ae2cb/mzaf_6911351047066412461.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/d4/2f/c8/d42fc8e3-59fa-ddaf-4243-efd3a4838613/5026328503288.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/too-many-creeps/1083611271?i=1083612416&uo=4"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Bush%20Tetras%20Too%20Many%20Creeps&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Bush%20Tetras%20Too%20Many%20Creeps&t=song"
+   }
+  },
+  {
+   "id": "siouxsieandthebanshees-juju",
+   "artist": "Siouxsie and the Banshees",
+   "country": "GB",
+   "title": "Juju",
+   "kind": "album",
+   "year": 1981,
+   "track": "Spellbound",
+   "genre": "punkpostpunkhardcore.postpunk.gothicrock",
+   "tier": 1,
+   "door": true,
+   "placed": {
+    "by": "wikipedia",
+    "term": "gothic rock",
+    "url": "https://en.wikipedia.org/wiki/Juju_(Siouxsie_and_the_Banshees_album)"
+   },
+   "apple": {
+    "trackId": 1440764575,
+    "collectionId": 1440764567,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/50/d9/2350d99d-7d2b-533b-aad9-8b00d3581ced/mzaf_3107346655049562120.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/44/01/32440139-f4aa-0be8-cb1d-51742508c535/00602498369142.rgb.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1440764567?i=1440764575"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Siouxsie%20and%20the%20Banshees%20Spellbound&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Siouxsie%20and%20the%20Banshees%20Spellbound&t=song"
+   }
+  },
+  {
+   "id": "thesistersofmercy-firstandlastandalways",
+   "artist": "The Sisters of Mercy",
+   "country": "GB",
+   "title": "First and Last and Always",
+   "kind": "album",
+   "year": 1985,
+   "track": "Black Planet",
+   "genre": "punkpostpunkhardcore.postpunk.gothicrock",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "gothic rock",
+    "url": "https://en.wikipedia.org/wiki/First_and_Last_and_Always"
+   },
+   "apple": {
+    "trackId": 1002376679,
+    "collectionId": 1002376675,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/29/6e/4f/296e4f5f-8efe-a2b1-06d5-a2f0b787bc8e/mzaf_15356398771594920176.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/0c/c0/470cc0e1-da2e-50a4-998f-b4d13f9cf8d9/825646126682.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1002376675?i=1002376679"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Sisters%20of%20Mercy%20Black%20Planet&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Sisters%20of%20Mercy%20Black%20Planet&t=song"
+   }
+  },
+  {
+   "id": "fieldsofthenephilim-thenephilim",
+   "artist": "Fields of the Nephilim",
+   "country": "GB",
+   "title": "The Nephilim",
+   "kind": "album",
+   "year": 1988,
+   "track": "Endemoniada",
+   "genre": "punkpostpunkhardcore.postpunk.gothicrock",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "gothic rock",
+    "url": "https://en.wikipedia.org/wiki/The_Nephilim_(album)"
+   },
+   "apple": {
+    "trackId": 1027468028,
+    "collectionId": 1027467835,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6d/94/0a/6d940a1e-9279-93c1-c85e-6a481e6ed2a4/mzaf_2307149396417284746.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/d3/d2/8cd3d212-906c-7d98-0491-c9a2544b8dcb/607618002237.png/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1027467835?i=1027468028"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Fields%20of%20the%20Nephilim%20Endemoniada&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Fields%20of%20the%20Nephilim%20Endemoniada&t=song"
+   }
+  },
+  {
+   "id": "sexgangchildren-songandlegend",
+   "artist": "Sex Gang Children",
+   "country": "GB",
+   "title": "Song and Legend",
+   "kind": "album",
+   "year": 1983,
+   "track": "The Crack Up",
+   "genre": "punkpostpunkhardcore.postpunk.gothicrock",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "gothic rock",
+    "url": "https://en.wikipedia.org/wiki/Song_and_Legend"
+   },
+   "apple": {
+    "trackId": 1371111773,
+    "collectionId": 1371110973,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0f/32/a9/0f32a951-db38-5f18-4de5-dc19e2899416/mzaf_11839311413045874879.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/41/37/d3/4137d32a-cdaa-da00-e48c-1f005eb7adc9/889466086663.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1371110973?i=1371111773"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Sex%20Gang%20Children%20The%20Crack%20Up&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Sex%20Gang%20Children%20The%20Crack%20Up&t=song"
+   }
+  },
+  {
+   "id": "christiandeath-onlytheatreofpain",
+   "artist": "Christian Death",
+   "country": "US",
+   "title": "Only Theatre of Pain",
+   "kind": "album",
+   "year": 1982,
+   "track": "Cavity - First Communion",
+   "genre": "punkpostpunkhardcore.postpunk.gothicrock.deathrock",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "deathrock",
+    "url": "https://en.wikipedia.org/wiki/Only_Theatre_of_Pain"
+   },
+   "apple": {
+    "trackId": 498752015,
+    "collectionId": 498751948,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4f/ee/52/4fee5202-b203-d4b6-6d43-3cb7554dacf5/mzaf_18269564352066126306.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/fa/c0/d9fac070-ba83-0720-e508-bd949d0d69dd/mzi.gjjxxioa.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/498751948?i=498752015"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Christian%20Death%20Cavity%20-%20First%20Communion&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Christian%20Death%20Cavity%20-%20First%20Communion&t=song"
+   }
+  },
+  {
+   "id": "45grave-sleepinsafety",
+   "artist": "45 Grave",
+   "country": "US",
+   "title": "Sleep in Safety",
+   "kind": "album",
+   "year": 1983,
+   "track": "Insurance from God",
+   "genre": "punkpostpunkhardcore.postpunk.gothicrock.deathrock",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "deathrock",
+    "url": "https://en.wikipedia.org/wiki/Sleep_in_Safety"
+   },
+   "apple": {
+    "trackId": 162551610,
+    "collectionId": 162551605,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/01/08/9e/01089e3b-2259-584a-207b-677b158e685f/mzaf_11661109087284879356.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/f8/f0/7ef8f095-fd96-fe80-861b-48fa9410c94a/mzi.xbzrsdvi.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/162551605?i=162551610"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=45%20Grave%20Insurance%20from%20God&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=45%20Grave%20Insurance%20from%20God&t=song"
+   }
+  },
+  {
+   "id": "superheroines-cryforhelp",
+   "artist": "Super Heroines",
+   "country": "US",
+   "title": "Cry for Help",
+   "kind": "album",
+   "year": 1982,
+   "track": "The Beast",
+   "genre": "punkpostpunkhardcore.postpunk.gothicrock.deathrock",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "deathrock",
+    "url": "https://musicbrainz.org/release-group/e0b53d98-74f8-4e34-8661-f083b4e8c8aa"
+   },
+   "apple": {
+    "trackId": 968441838,
+    "collectionId": 968441837,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/78/36/e6/7836e61d-00e7-adb5-e8f8-2403d88ad88e/mzaf_1928738668963578187.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/a1/74/59/a17459d4-e882-112c-a536-3a9a29df1e3e/889176206160.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/968441837?i=968441838"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Super%20Heroines%20The%20Beast&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Super%20Heroines%20The%20Beast&t=song"
+   }
+  },
+  {
+   "id": "swans-filth",
+   "artist": "Swans",
+   "country": "US",
+   "title": "Filth",
+   "kind": "album",
+   "year": 1983,
+   "track": "Stay Here",
+   "genre": "punkpostpunkhardcore.postpunk.nowave",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "no wave",
+    "url": "https://en.wikipedia.org/wiki/Filth_(Swans_album)"
+   },
+   "apple": {
+    "trackId": 1233425077,
+    "collectionId": 1233424119,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7c/00/64/7c0064ad-45bc-ad5a-c167-6db73e9eb449/mzaf_7478019391404974953.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music127/v4/a1/f3/bf/a1f3bf73-e41a-5c67-1a49-f25f43b85ec1/658457004869_cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1233424119?i=1233425077"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Swans%20Stay%20Here&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Swans%20Stay%20Here&t=song"
+   }
+  },
+  {
+   "id": "johncooperclarke-snapcrackleandbop",
+   "artist": "John Cooper Clarke",
+   "country": "GB",
+   "title": "Snap, Crackle & Bop",
+   "kind": "album",
+   "year": 1980,
+   "track": "Evidently Chickentown",
+   "genre": "punkpostpunkhardcore.punkpoetry",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "punk poetry",
+    "url": "https://en.wikipedia.org/wiki/Snap%2C_Crackle_%26_Bop"
+   },
+   "apple": {
+    "trackId": 269407811,
+    "collectionId": 269407784,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/da/4a/3c/da4a3c7f-c0a2-cca0-6003-6ce2b0560e91/mzaf_3715449377013342768.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/7f/cb/94/mzi.bxpipbeo.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/269407784?i=269407811"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=John%20Cooper%20Clarke%20Evidently%20Chickentown&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=John%20Cooper%20Clarke%20Evidently%20Chickentown&t=song"
+   }
+  },
+  {
+   "id": "deadkennedys-freshfruitforrottingvegetables",
+   "artist": "Dead Kennedys",
+   "country": "US",
+   "title": "Fresh Fruit for Rotting Vegetables",
+   "kind": "album",
+   "year": 1980,
+   "track": "Kill the Poor",
+   "genre": "punkpostpunkhardcore.punkrock",
+   "tier": 1,
+   "door": true,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "punk",
+    "url": "https://musicbrainz.org/release-group/3495fca0-ce60-3342-93f2-23fd525d8069"
+   },
+   "apple": {
+    "trackId": 269624000,
+    "collectionId": 269623995,
+    "storefront": "gb",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a4/25/82/a425820f-38cd-c2b8-c689-ad74666c7ad8/mzaf_1967874955784174370.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/b9/c7/07/mzi.bhgzidhi.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/gb/album/269623995?i=269624000"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Dead%20Kennedys%20Kill%20the%20Poor&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Dead%20Kennedys%20Kill%20the%20Poor&t=song"
+   }
+  },
+  {
+   "id": "x-losangeles",
+   "artist": "X",
+   "country": "US",
+   "title": "Los Angeles",
+   "kind": "album",
+   "year": 1980,
+   "track": "Your Phone's off the Hook, But You're Not",
+   "genre": "punkpostpunkhardcore.punkrock",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "punk rock",
+    "url": "https://en.wikipedia.org/wiki/Los_Angeles_(X_album)"
+   },
+   "apple": {
+    "trackId": 1416228488,
+    "collectionId": 1416228338,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c8/fe/1c/c8fe1cce-23c1-80ed-13a9-78ce3a82043f/mzaf_8542027069538918548.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a0/c4/dc/a0c4dc37-1cf1-9f5a-c80c-af6f9945d07d/192562795828.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1416228338?i=1416228488"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=X%20Your%20Phone's%20off%20the%20Hook%2C%20But%20You're%20Not&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=X%20Your%20Phone's%20off%20the%20Hook%2C%20But%20You're%20Not&t=song"
+   }
+  },
+  {
+   "id": "wipers-youthofamerica",
+   "artist": "Wipers",
+   "country": "US",
+   "title": "Youth of America",
+   "kind": "album",
+   "year": 1981,
+   "track": "No Fair",
+   "genre": "punkpostpunkhardcore.punkrock",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "punk",
+    "url": "https://en.wikipedia.org/wiki/Youth_of_America"
+   },
+   "apple": {
+    "trackId": 1031831706,
+    "collectionId": 1031831705,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/0d/5a/4e/0d5a4e6c-2a7b-7b56-3dca-5ed1c010ae7f/mzaf_17062037381876049455.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1a/86/8c/1a868caa-a5b7-2987-5eb1-8843689bb63e/889326354338_Cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1031831705?i=1031831706"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Wipers%20No%20Fair&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Wipers%20No%20Fair&t=song"
+   }
+  },
+  {
+   "id": "nakedraygun-throbthrob",
+   "artist": "Naked Raygun",
+   "country": "US",
+   "title": "Throb Throb",
+   "kind": "album",
+   "year": 1984,
+   "track": "Rat Patrol",
+   "genre": "punkpostpunkhardcore.punkrock",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "punk rock",
+    "url": "https://en.wikipedia.org/wiki/Throb_Throb"
+   },
+   "apple": {
+    "trackId": 1120061019,
+    "collectionId": 1120061012,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/09/f9/ee09f995-e5da-d843-2c8b-fcd722a5fcf0/mzaf_7995534275786295822.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/6b/97/80/6b9780ae-8bed-ba33-8f17-cac2f7cb05eb/cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1120061012?i=1120061019"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Naked%20Raygun%20Rat%20Patrol&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Naked%20Raygun%20Rat%20Patrol&t=song"
+   }
+  },
+  {
+   "id": "zounds-thecurseofzounds",
+   "artist": "Zounds",
+   "country": "GB",
+   "title": "The Curse of Zounds",
+   "kind": "album",
+   "year": 1982,
+   "track": "War / Subvert",
+   "genre": "punkpostpunkhardcore.punkrock.anarchopunk",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "anarcho-punk",
+    "url": "https://musicbrainz.org/release-group/b1bbcf76-df47-3c43-9571-b6df887c76a1"
+   },
+   "apple": {
+    "trackId": 214073351,
+    "collectionId": 214073280,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/c4/92/f5/c492f5ec-5449-9563-3f0c-9a54a529bc54/mzaf_3028381025909802058.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/5a/b5/02/5ab502d3-a9d5-fa32-0f7e-ef694ac6d1df/mzi.dkrmzwij.tif/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/214073280?i=214073351"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Zounds%20War%20%2F%20Subvert&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Zounds%20War%20%2F%20Subvert&t=song"
+   }
+  },
+  {
+   "id": "thebusiness-suburbanrebels",
+   "artist": "The Business",
+   "country": "GB",
+   "title": "Suburban Rebels",
+   "kind": "album",
+   "year": 1983,
+   "track": "Get Out While You Can",
+   "genre": "punkpostpunkhardcore.punkrock.oi",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "oi",
+    "url": "https://musicbrainz.org/release-group/f098c950-9852-397e-acb3-2cdc8e466125"
+   },
+   "apple": {
+    "trackId": 1583233412,
+    "collectionId": 1583233409,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/07/6e/9d/076e9da4-c5d9-f624-b4a3-88f4caaf2926/mzaf_8412263943849007296.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/fb/a0/fd/fba0fd18-0a77-d066-8125-794b845adba6/191773652562.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1583233409?i=1583233412"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Business%20Get%20Out%20While%20You%20Can&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Business%20Get%20Out%20While%20You%20Can&t=song"
+   }
+  },
+  {
+   "id": "descendents-milogoestocollege",
+   "artist": "Descendents",
+   "country": "US",
+   "title": "Milo Goes to College",
+   "kind": "album",
+   "year": 1982,
+   "track": "Myage",
+   "genre": "punkpostpunkhardcore.punkrock.poppunk",
+   "tier": 1,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "pop punk",
+    "url": "https://musicbrainz.org/release-group/6f180553-2c6a-3529-a380-636f1232313d"
+   },
+   "apple": {
+    "trackId": 117619996,
+    "collectionId": 117620243,
+    "storefront": "gb",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/58/6f/9a/586f9ae5-b415-3a4d-4f38-f3f3d87a0e09/mzaf_1223178961035001291.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/96/af/7b/96af7b2b-effe-a906-5bc9-16c6b7d87c42/669910745755.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/gb/album/117620243?i=117619996"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Descendents%20Myage&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Descendents%20Myage&t=song"
+   }
+  },
+  {
+   "id": "theundertones-hypnotised",
+   "artist": "The Undertones",
+   "country": "GB",
+   "title": "Hypnotised",
+   "kind": "album",
+   "year": 1980,
+   "track": "More Songs About Chocolate and Girls",
+   "genre": "punkpostpunkhardcore.punkrock.poppunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "pop punk",
+    "url": "https://en.wikipedia.org/wiki/Hypnotised_(album)"
+   },
+   "apple": {
+    "trackId": 1713860209,
+    "collectionId": 1713860208,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview116/v4/10/5f/83/105f83ed-c437-239a-afc2-df1d6747c26a/mzaf_6247397974894041700.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/c7/0d/a5/c70da51a-5524-4213-ce06-65eef4787f8e/0698458352781.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1713860208?i=1713860209"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Undertones%20More%20Songs%20About%20Chocolate%20and%20Girls&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Undertones%20More%20Songs%20About%20Chocolate%20and%20Girls&t=song"
+   }
+  },
+  {
+   "id": "themrtexperience-everybodysentitledtotheirownopinion",
+   "artist": "The Mr. T Experience",
+   "country": "US",
+   "title": "Everybody's Entitled to Their Own Opinion",
+   "kind": "album",
+   "year": 1986,
+   "track": "One Big Lie",
+   "genre": "punkpostpunkhardcore.punkrock.poppunk",
+   "tier": 3,
+   "placed": {
+    "by": "wikipedia",
+    "term": "pop punk",
+    "url": "https://en.wikipedia.org/wiki/Everybody's_Entitled_to_Their_Own_Opinion"
+   },
+   "apple": {
+    "trackId": 520381023,
+    "collectionId": 520381013,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/37/3b/bd/373bbd1c-bb9e-87d3-ede8-8554a10d7c6f/mzaf_16455725186543376391.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/c7/23/ab/c723aba8-3134-8db3-16fd-0960c316fb29/886788743205.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/520381013?i=520381023"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Mr.%20T%20Experience%20One%20Big%20Lie&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Mr.%20T%20Experience%20One%20Big%20Lie&t=song"
+   }
+  },
+  {
+   "id": "thecramps-songsthelordtaughtus",
+   "artist": "The Cramps",
+   "country": "US",
+   "title": "Songs the Lord Taught Us",
+   "kind": "album",
+   "year": 1980,
+   "track": "TV Set",
+   "genre": "punkpostpunkhardcore.punkrock.psychobilly",
+   "tier": 1,
+   "placed": {
+    "by": "wikipedia",
+    "term": "psychobilly",
+    "url": "https://en.wikipedia.org/wiki/Songs_the_Lord_Taught_Us"
+   },
+   "apple": {
+    "trackId": 724503464,
+    "collectionId": 724503155,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bd/86/66/bd866693-bde2-9278-57c5-ba0bde4f5baf/mzaf_16480445595095949873.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/31/93/9a/31939ab8-82f1-5062-3833-9ed75ff3036d/00724349383654.rgb.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/724503155?i=724503464"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=The%20Cramps%20TV%20Set&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=The%20Cramps%20TV%20Set&t=song"
+   }
+  },
+  {
+   "id": "kingkurt-oohwallahwallah",
+   "artist": "King Kurt",
+   "country": "GB",
+   "title": "Ooh Wallah Wallah",
+   "kind": "album",
+   "year": 1983,
+   "track": "Zulu Beat",
+   "genre": "punkpostpunkhardcore.punkrock.psychobilly",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "psychobilly",
+    "url": "https://musicbrainz.org/release-group/ed243e56-0029-38b3-ad48-c854a6c2ff4f"
+   },
+   "apple": {
+    "trackId": 334129797,
+    "collectionId": 334128355,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/ae/c3/6b/aec36bdd-d4f4-8f09-accf-f2a17dcde6ef/mzaf_6654391819495574660.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/54/3e/8c/543e8c66-72c6-1299-4288-9ede3529862b/mzi.vxhibxrm.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/334128355?i=334129797"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=King%20Kurt%20Zulu%20Beat&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=King%20Kurt%20Zulu%20Beat&t=song"
+   }
+  },
+  {
+   "id": "agentorange-livingindarkness",
+   "artist": "Agent Orange",
+   "country": "US",
+   "title": "Living in Darkness",
+   "kind": "album",
+   "year": 1981,
+   "track": "Too Young to Die",
+   "genre": "punkpostpunkhardcore.punkrock.skatepunk",
+   "tier": 2,
+   "placed": {
+    "by": "wikipedia",
+    "term": "skate punk",
+    "url": "https://en.wikipedia.org/wiki/Living_in_Darkness"
+   },
+   "apple": {
+    "trackId": 6815162244,
+    "collectionId": 6815162239,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1c/a4/d2/1ca4d26a-288c-9a6d-2c5a-04be1e2264ee/mzaf_17135475493716812672.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/98/85/56/988556eb-5f73-1a28-f4f8-4cb0bcb11150/859747115269_cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/6815162239?i=6815162244"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Agent%20Orange%20Too%20Young%20to%20Die&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Agent%20Orange%20Too%20Young%20to%20Die&t=song"
+   }
+  },
+  {
+   "id": "nervousgender-musicfromhell",
+   "artist": "Nervous Gender",
+   "country": "US",
+   "title": "Music from Hell",
+   "kind": "album",
+   "year": 1981,
+   "track": "Monsters",
+   "genre": "punkpostpunkhardcore",
+   "tier": 3,
+   "placed": {
+    "by": "musicbrainz",
+    "term": "punk",
+    "url": "https://musicbrainz.org/release-group/67988932-5b36-3916-a1da-6ba4134b4ce7"
+   },
+   "apple": {
+    "trackId": 1705994990,
+    "collectionId": 1705994986,
+    "storefront": "us",
+    "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview126/v4/e8/9f/85/e89f85ef-3e47-b893-2e24-20a380be3ba5/mzaf_4864001250149489263.plus.aac.p.m4a",
+    "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d4/b5/8f/d4b58fef-6b08-ed6f-203a-7164516043c3/196922620997_Cover.jpg/100x100bb.jpg",
+    "url": "https://music.apple.com/us/album/1705994986?i=1705994990"
+   },
+   "links": {
+    "netease": "https://music.163.com/#/search/m/?s=Nervous%20Gender%20Monsters&type=1",
+    "qq": "https://y.qq.com/n/ryqq/search?w=Nervous%20Gender%20Monsters&t=song"
+   }
+  }
+ ],
+ "ties": []
+}

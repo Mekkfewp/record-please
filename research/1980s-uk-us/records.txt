@@ -1,0 +1,1252 @@
+# Format: "## path" opens a leaf (RYM names, parent > child; "?" after a name = parent not sure).
+# Record lines: tier|artist|release|year|type   tier 1 = well known, 2 = known inside the genre, 3 = obscure; type a=album e=EP s=single
+## Rock > Alternative Rock > Indie Rock
+1|Pixies|Surfer Rosa|1988|a
+2|Dinosaur Jr.|You're Living All Over Me|1987|a
+2|The Replacements|Let It Be|1984|a
+3|Yo La Tengo|President Yo La Tengo|1989|a
+3|Eleventh Dream Day|Prairie School Freakout|1988|a
+3|Volcano Suns|The Bright Orange Years|1985|a
+## Rock > Alternative Rock > Indie Rock > Slacker Rock
+2|Daniel Johnston|Hi, How Are You|1983|a
+3|Jandek|Blue Corpse|1987|a
+3|Guided by Voices|Devil Between My Toes|1987|a
+3|Sebadoh|The Freed Man|1989|a
+## Rock > Alternative Rock > Jangle Pop
+1|R.E.M.|Murmur|1983|a
+1|The Smiths|The Queen Is Dead|1986|a
+2|Felt|Forever Breathes the Lonely Word|1986|a
+2|The Feelies|The Good Earth|1986|a
+3|The dB's|Stands for Decibels|1981|a
+3|Miracle Legion|Surprise Surprise Surprise|1987|a
+## Rock > Alternative Rock > Dream Pop
+1|Julee Cruise|Floating into the Night|1989|a
+2|Galaxie 500|On Fire|1989|a
+2|A.R. Kane|69|1988|a
+3|Dif Juz|Extractions|1985|a
+3|Lowlife|Permanent Sleep|1986|a
+## Darkwave > Ethereal Wave
+1|Cocteau Twins|Treasure|1984|a
+1|This Mortal Coil|It'll End in Tears|1984|a
+3|Black Tape for a Blue Girl|The Rope|1986|a
+3|Cindytalk|Camouflage Heart|1984|a
+## Rock > Alternative Rock > Shoegaze
+1|My Bloody Valentine|Isn't Anything|1988|a
+2|Lush|Scar|1989|e
+3|The Telescopes|Taste|1989|a
+3|Kitchens of Distinction|Love Is Hell|1989|a
+## Rock > Alternative Rock > Indie Rock > Noise Pop
+1|The Jesus and Mary Chain|Psychocandy|1985|a
+2|The Primitives|Lovely|1988|a
+3|The Shop Assistants|Shop Assistants|1986|a
+3|Meat Whiplash|Don't Slip Up|1985|s
+## Rock > Alternative Rock > Grunge
+1|Nirvana|Bleach|1989|a
+2|Mudhoney|Superfuzz Bigmuff|1988|e
+2|Soundgarden|Ultramega OK|1988|a
+3|Green River|Rehab Doll|1988|a
+3|Melvins|Gluey Porch Treatments|1987|a
+3|Tad|God's Balls|1989|a
+## Rock > Alternative Rock > Alternative Dance
+1|New Order|Blue Monday|1983|s
+2|The Shamen|In Gorbachev We Trust|1989|a
+3|Colourbox|Colourbox|1985|a
+3|The Woodentops|Giant|1986|a
+## Rock > Alternative Rock > Indie Rock > Baggy
+1|The Stone Roses|The Stone Roses|1989|a
+2|Happy Mondays|Bummed|1988|a
+3|Inspiral Carpets|Joe|1989|s
+## Punk / Post-Punk / Hardcore > Post-Punk
+1|Joy Division|Closer|1980|a
+1|The Cure|Seventeen Seconds|1980|a
+2|The Fall|Hex Enduction Hour|1982|a
+2|The Chameleons|Script of the Bridge|1983|a
+2|Mission of Burma|Vs.|1982|a
+3|The Sound|From the Lions Mouth|1981|a
+3|The Comsat Angels|Sleep No More|1981|a
+3|Josef K|The Only Fun in Town|1981|a
+3|Au Pairs|Playing with a Different Sex|1981|a
+3|Pylon|Gyrate|1980|a
+## Punk / Post-Punk / Hardcore > Post-Punk > Gothic Rock
+1|Bauhaus|In the Flat Field|1980|a
+1|Siouxsie and the Banshees|Juju|1981|a
+2|The Sisters of Mercy|First and Last and Always|1985|a
+2|Fields of the Nephilim|The Nephilim|1988|a
+3|Sex Gang Children|Song and Legend|1983|a
+3|Skeletal Family|Burning Oil|1984|a
+3|The Danse Society|Seduction|1982|a
+## Punk / Post-Punk / Hardcore > Post-Punk > Gothic Rock > Deathrock
+2|Christian Death|Only Theatre of Pain|1982|a
+2|45 Grave|Sleep in Safety|1983|a
+3|Kommunity FK|The Vision and the Voice|1983|a
+3|Super Heroines|Cry for Help|1982|a
+## Punk / Post-Punk / Hardcore > Post-Punk > Dance-Punk
+2|ESG|Come Away with ESG|1983|a
+2|Liquid Liquid|Optimo|1983|e
+2|A Certain Ratio|To Each...|1981|a
+3|Bush Tetras|Too Many Creeps|1980|s
+3|Maximum Joy|Station M.X.J.Y.|1982|a
+3|Konk|Yo!|1983|a
+## Punk / Post-Punk / Hardcore > Post-Punk > No Wave!
+2|Lydia Lunch|Queen of Siam|1980|a
+2|DNA|A Taste of DNA|1981|e
+2|Swans|Filth|1983|a
+3|Ut|In Gut's House|1987|a
+## Rock > New Wave
+1|Talking Heads|Remain in Light|1980|a
+1|Devo|Freedom of Choice|1980|a
+1|The B-52's|Wild Planet|1980|a
+2|XTC|English Settlement|1982|a
+2|Wall of Voodoo|Call of the West|1982|a
+3|Suburban Lawns|Suburban Lawns|1981|a
+3|Romeo Void|It's a Condition|1981|a
+3|Units|Digital Stimulation|1980|a
+## Rock > New Wave > New Romantic!
+1|Duran Duran|Rio|1982|a
+1|Visage|Visage|1980|a
+2|Japan|Gentlemen Take Polaroids|1980|a
+2|Ultravox|Vienna|1980|a
+3|Classix Nouveaux|Night People|1981|a
+## Rock > New Wave > Mod Revival
+1|The Jam|Sound Affects|1980|a
+2|Secret Affair|Behind Closed Doors|1980|a
+3|The Chords|So Far Away|1980|a
+3|The Lambrettas|Beat Boys in the Jet Age|1980|a
+3|Purple Hearts|Beat That!|1980|a
+## Rock > Experimental Rock
+1|Tom Waits|Rain Dogs|1985|a
+2|This Heat|Deceit|1981|a
+2|Captain Beefheart and the Magic Band|Doc at the Radar Station|1980|a
+2|The Residents|The Commercial Album|1980|a
+3|Pere Ubu|The Art of Walking|1980|a
+3|Half Japanese|1/2 Gentlemen/Not Beasts|1980|a
+## Rock > Noise Rock
+1|Sonic Youth|Daydream Nation|1988|a
+2|Big Black|Atomizer|1986|a
+2|Butthole Surfers|Locust Abortion Technician|1987|a
+2|Flipper|Album – Generic Flipper|1982|a
+3|Scratch Acid|Just Keep Eating|1986|a
+3|Live Skull|Bringing Home the Bait|1985|a
+3|Band of Susans|Hope Against Hope|1988|a
+## Rock > Progressive Rock > Neo-Prog
+1|Marillion|Misplaced Childhood|1985|a
+2|IQ|The Wake|1985|a
+3|Twelfth Night|Fact and Fiction|1982|a
+3|Pendragon|The Jewel|1985|a
+3|Pallas|The Sentinel|1984|a
+## Rock > Progressive Rock > Avant-Prog
+2|Cardiacs|A Little Man and a House and the Whole World Window|1988|a
+2|Fred Frith|Gravity|1980|a
+3|Art Bears|The World as It Is Today|1981|a
+3|Thinking Plague|In This Life|1989|a
+3|News from Babel|Work Resumed on the Tower|1984|a
+## Rock > Art Rock
+1|Peter Gabriel|Peter Gabriel|1980|a
+1|Talk Talk|Spirit of Eden|1988|a
+2|David Sylvian|Secrets of the Beehive|1987|a
+2|King Crimson|Discipline|1981|a
+3|Scott Walker|Climate of Hunter|1984|a
+3|Bill Nelson|Quit Dreaming and Get on the Beam|1981|a
+## Rock > Hard Rock
+1|Guns N' Roses|Appetite for Destruction|1987|a
+2|The Cult|Electric|1987|a
+3|The Dogs D'Amour|In the Dynamite Jet Saloon|1988|a
+3|Circus of Power|Circus of Power|1988|a
+## Rock > Hard Rock > Glam Metal
+1|Mötley Crüe|Shout at the Devil|1983|a
+1|Def Leppard|Pyromania|1983|a
+2|Ratt|Out of the Cellar|1984|a
+2|Kix|Blow My Fuse|1988|a
+3|Wrathchild|Stakk Attakk|1984|a
+3|Black 'n Blue|Black 'n Blue|1984|a
+## Rock > AOR
+1|Journey|Escape|1981|a
+1|Toto|Toto IV|1982|a
+3|FM|Indiscreet|1986|a
+3|Strangeways|Native Sons|1987|a
+3|Giuffria|Giuffria|1984|a
+## Rock > Heartland Rock
+1|Bruce Springsteen|Born in the U.S.A.|1984|a
+1|Tom Petty|Full Moon Fever|1989|a
+2|John Mellencamp|Scarecrow|1985|a
+3|The Iron City Houserockers|Have a Good Time but Get Out Alive!|1980|a
+3|BoDeans|Love & Hope & Sex & Dreams|1986|a
+## Rock > Roots Rock
+2|Los Lobos|How Will the Wolf Survive?|1984|a
+2|The Blasters|The Blasters|1981|a
+3|The Long Ryders|Native Sons|1984|a
+3|Green on Red|Gas Food Lodging|1985|a
+3|The Del Fuegos|The Longest Day|1984|a
+## Rock > Pop Rock > Power Pop
+1|The Romantics|The Romantics|1980|a
+2|Marshall Crenshaw|Marshall Crenshaw|1982|a
+2|The Plimsouls|Everywhere at Once|1983|a
+3|Shoes|Tongue Twister|1981|a
+3|Game Theory|Real Nighttime|1985|a
+3|20/20|Look Out!|1981|a
+## Rock > Garage Rock > Garage Rock Revival
+2|The Fleshtones|Roman Gods|1982|a
+2|Lyres|On Fyre|1984|a
+3|The Chesterfield Kings|Here Are the Chesterfield Kings|1982|a
+3|The Fuzztones|Lysergic Emanations|1985|a
+3|Thee Mighty Caesars|Thee Mighty Caesars|1985|a
+3|The Gories|Houserockin'|1989|a
+## Psychedelia > Neo-Psychedelia?
+1|Echo & the Bunnymen|Ocean Rain|1984|a
+2|The Soft Boys|Underwater Moonlight|1980|a
+2|The Teardrop Explodes|Kilimanjaro|1980|a
+3|The Flaming Lips|Hear It Is|1986|a
+3|The Bevis Frond|Miasma|1987|a
+3|Plasticland|Plasticland|1984|a
+## Psychedelia > Neo-Psychedelia? > Paisley Underground
+2|The Dream Syndicate|The Days of Wine and Roses|1982|a
+2|Rain Parade|Emergency Third Rail Power Trip|1983|a
+3|The Three O'Clock|Sixteen Tambourines|1983|a
+3|Opal|Happy Nightmare Baby|1987|a
+3|True West|Drifters|1984|a
+## Rock > Psychedelic Rock > Space Rock > Space Rock Revival
+2|Spacemen 3|The Perfect Prescription|1987|a
+3|Loop|Heaven's End|1987|a
+3|Hawkwind|Levitation|1980|a
+## Punk / Post-Punk / Hardcore > Punk Rock
+1|Dead Kennedys|Fresh Fruit for Rotting Vegetables|1980|a
+2|X|Los Angeles|1980|a
+2|Wipers|Youth of America|1981|a
+2|The Gun Club|Fire of Love|1981|a
+3|Adolescents|Adolescents|1981|a
+3|Naked Raygun|Throb Throb|1985|a
+3|Zero Boys|Vicious Circle|1982|a
+## Punk / Post-Punk / Hardcore > Punk Rock > Anarcho-Punk
+2|Crass|Penis Envy|1981|a
+2|Subhumans|The Day the Country Died|1983|a
+3|Rudimentary Peni|Death Church|1983|a
+3|Flux of Pink Indians|Strive to Survive Causing Least Suffering Possible|1982|a
+3|Zounds|The Curse of Zounds|1981|a
+3|The Mob|Let the Tribe Increase|1983|a
+## Punk / Post-Punk / Hardcore > Punk Rock > Oi!
+2|Cock Sparrer|Shock Troops|1982|a
+2|Cockney Rejects|Greatest Hits Vol. 1|1980|a
+3|The Business|Suburban Rebels|1983|a
+3|The Oppressed|Oi! Oi! Music|1984|a
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Street Punk
+2|The Exploited|Punks Not Dead|1981|a
+2|GBH|City Baby Attacked by Rats|1982|a
+2|Blitz|Voice of a Generation|1982|a
+3|Vice Squad|No Cause for Concern|1981|a
+3|Chaos UK|Chaos UK|1983|a
+3|One Way System|All Systems Go|1983|a
+## Punk / Post-Punk / Hardcore > Punk Rock > Pop Punk
+1|Descendents|Milo Goes to College|1982|a
+2|The Undertones|Hypnotised|1980|a
+2|Screeching Weasel|Boogadaboogadaboogada!|1988|a
+3|Snuff|Snuff Said|1989|a
+3|The Mr. T Experience|Everybody's Entitled to Their Own Opinion|1986|a
+## Punk / Post-Punk / Hardcore > Punk Rock > Horror Punk
+1|Misfits|Walk Among Us|1982|a
+2|Samhain|Initium|1984|a
+2|T.S.O.L.|Dance with Me|1981|a
+3|The Undead|Nine Toes Later|1982|e
+## Punk / Post-Punk / Hardcore > Punk Rock > Psychobilly
+1|The Cramps|Songs the Lord Taught Us|1980|a
+2|The Meteors|In Heaven|1981|a
+3|King Kurt|Ooh Wallah Wallah|1983|a
+3|Guana Batz|Held Down to Vinyl... at Last!|1985|a
+3|Demented Are Go|In Sickness & in Health|1986|a
+## Punk / Post-Punk / Hardcore > Cowpunk
+1|Meat Puppets|Meat Puppets II|1984|a
+2|Jason & the Scorchers|Fervor|1983|e
+2|The Mekons|Fear and Whiskey|1985|a
+3|Rank and File|Sundown|1982|a
+3|The Beat Farmers|Tales of the New West|1985|a
+3|Blood on the Saddle|Blood on the Saddle|1984|a
+## Punk / Post-Punk / Hardcore > Folk Punk
+1|Violent Femmes|Violent Femmes|1983|a
+1|The Pogues|Rum Sodomy & the Lash|1985|a
+2|Billy Bragg|Life's a Riot with Spy vs Spy|1983|a
+2|Camper Van Beethoven|Telephone Free Landslide Victory|1985|a
+3|The Men They Couldn't Hang|Night of a Thousand Candles|1985|a
+## Punk / Post-Punk / Hardcore > Art Punk
+2|Television Personalities|...And Don't the Kids Just Love It|1981|a
+2|Swell Maps|Jane from Occupied Europe|1980|a
+2|Tuxedomoon|Half-Mute|1980|a
+3|The Homosexuals|The Homosexuals' Record|1984|a
+3|The Embarrassment|Death Travels West|1983|e
+## Punk / Post-Punk / Hardcore > Synth Punk
+2|Suicide|Suicide: Alan Vega and Martin Rev|1980|a
+3|Nervous Gender|Music from Hell|1981|a
+3|Crash Course in Science|Signals from Pier Thirteen|1981|e
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk
+1|Black Flag|Damaged|1981|a
+1|Bad Brains|Bad Brains|1982|a
+1|Minor Threat|Out of Step|1983|a
+2|Circle Jerks|Group Sex|1980|a
+2|Poison Idea|Kings of Punk|1986|a
+3|Negative Approach|Tied Down|1983|a
+3|Die Kreuzen|Die Kreuzen|1984|a
+3|Jerry's Kids|Is This My World?|1983|a
+3|The Faith|Subject to Change|1983|e
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > D-Beat
+1|Discharge|Hear Nothing See Nothing Say Nothing|1982|a
+3|The Varukers|Bloodsuckers|1983|a
+3|Disorder|Under the Scalpel Blade|1984|a
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Crust Punk
+2|Amebix|Arise!|1985|a
+2|Extreme Noise Terror|A Holocaust in Your Head|1989|a
+3|Antisect|In Darkness There Is No Choice|1983|a
+3|Doom|War Crimes (Inhuman Beings)|1988|a
+3|Deviated Instinct|Rock 'n' Roll Conformity|1988|a
+3|Hellbastard|Heading for Internal Darkness|1988|a
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Thrashcore
+2|D.R.I.|Dirty Rotten LP|1983|a
+3|Siege|Drop Dead|1984|e
+3|Septic Death|Now That I Have the Attention What Do I Do with It?|1986|a
+3|Heresy|Face Up to It!|1988|a
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Crossover Thrash
+1|Suicidal Tendencies|Suicidal Tendencies|1983|a
+2|Corrosion of Conformity|Animosity|1985|a
+2|Cro-Mags|The Age of Quarrel|1986|a
+3|Cryptic Slaughter|Convicted|1986|a
+3|Excel|Split Image|1987|a
+3|English Dogs|Forward into Battle|1985|a
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Melodic Hardcore
+1|Bad Religion|Suffer|1988|a
+2|Dag Nasty|Can I Say|1986|a
+2|7 Seconds|The Crew|1984|a
+3|Marginal Man|Identity|1984|e
+3|Verbal Assault|Trial|1987|a
+## Punk / Post-Punk / Hardcore > Punk Rock > Skate Punk
+2|Agent Orange|Living in Darkness|1981|a
+3|JFA|Valley of the Yakes|1983|a
+3|Big Boys|Lullabies Help the Brain Grow|1983|a
+3|RKL|Keep Laughing|1985|a
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Post-Hardcore
+1|Hüsker Dü|Zen Arcade|1984|a
+1|Minutemen|Double Nickels on the Dime|1984|a
+1|Fugazi|Fugazi|1988|e
+3|Squirrel Bait|Skag Heaven|1987|a
+3|Saccharine Trust|Paganicons|1981|e
+3|Moving Targets|Burning in Water|1986|a
+3|Bitch Magnet|Umber|1989|a
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Post-Hardcore > Emocore
+2|Rites of Spring|Rites of Spring|1985|a
+2|Embrace|Embrace|1987|a
+3|Gray Matter|Food for Thought|1985|a
+3|Fire Party|Fire Party|1988|e
+## Metal > Heavy Metal
+1|Iron Maiden|The Number of the Beast|1982|a
+1|Judas Priest|British Steel|1980|a
+1|Dio|Holy Diver|1983|a
+2|Manowar|Hail to England|1984|a
+3|Cirith Ungol|King of the Dead|1984|a
+3|Manilla Road|Crystal Logic|1983|a
+3|Brocas Helm|Into Battle|1984|a
+## Metal > Heavy Metal > NWOBHM!
+1|Saxon|Wheels of Steel|1980|a
+2|Diamond Head|Lightning to the Nations|1980|a
+2|Angel Witch|Angel Witch|1980|a
+3|Tygers of Pan Tang|Spellbound|1981|a
+3|Satan|Court in the Act|1983|a
+3|Holocaust|The Nightcomers|1981|a
+3|Raven|Rock Until You Drop|1981|a
+## Metal > Heavy Metal > US Power Metal
+2|Riot|Thundersteel|1988|a
+2|Crimson Glory|Transcendence|1988|a
+3|Jag Panzer|Ample Destruction|1984|a
+3|Omen|Battle Cry|1984|a
+3|Helstar|Nosferatu|1989|a
+## Metal > Heavy Metal > Speed Metal
+1|Motörhead|Ace of Spades|1980|a
+2|Venom|Welcome to Hell|1981|a
+2|Metal Church|Metal Church|1984|a
+3|Agent Steel|Skeptics Apocalypse|1985|a
+3|Savage Grace|Master of Disguise|1985|a
+## Metal > Thrash Metal
+1|Metallica|Master of Puppets|1986|a
+1|Slayer|Reign in Blood|1986|a
+1|Megadeth|Peace Sells... but Who's Buying?|1986|a
+2|Exodus|Bonded by Blood|1985|a
+2|Dark Angel|Darkness Descends|1986|a
+3|Onslaught|The Force|1986|a
+3|Sabbat|History of a Time to Come|1988|a
+3|Vio-lence|Eternal Nightmare|1988|a
+3|Heathen|Breaking the Silence|1987|a
+## Metal > Thrash Metal > Technical Thrash Metal
+3|Watchtower|Control and Resistance|1989|a
+3|Toxik|World Circus|1987|a
+3|Realm|Endless War|1988|a
+## Metal > Death Metal
+1|Death|Scream Bloody Gore|1987|a
+2|Possessed|Seven Churches|1985|a
+2|Morbid Angel|Altars of Madness|1989|a
+2|Bolt Thrower|Realm of Chaos|1989|a
+3|Autopsy|Severed Survival|1989|a
+3|Necrophagia|Season of the Dead|1987|a
+## Metal > Doom Metal > Traditional Doom Metal
+2|Saint Vitus|Born Too Late|1986|a
+2|Trouble|Psalm 9|1984|a
+2|Pentagram|Pentagram|1985|a
+3|Witchfinder General|Death Penalty|1982|a
+3|Dream Death|Journey into Mystery|1987|a
+## Metal > Progressive Metal
+1|Queensrÿche|Operation: Mindcrime|1988|a
+2|Fates Warning|Awaken the Guardian|1986|a
+2|Dream Theater|When Dream and Day Unite|1989|a
+## Metal > Alternative Metal > Funk Metal
+1|Faith No More|The Real Thing|1989|a
+1|Living Colour|Vivid|1988|a
+2|Fishbone|Truth and Soul|1988|a
+3|24-7 Spyz|Harder Than You|1989|a
+## Metal > Grindcore
+1|Napalm Death|Scum|1987|a
+2|Terrorizer|World Downfall|1989|a
+2|Repulsion|Horrified|1989|a
+3|Unseen Terror|Human Error|1987|a
+3|Sore Throat|Disgrace to the Corpse of Sid|1989|a
+## Metal > Grindcore > Goregrind
+2|Carcass|Reek of Putrefaction|1988|a
+## Pop > Synthpop
+1|The Human League|Dare|1981|a
+1|Depeche Mode|Music for the Masses|1987|a
+1|Soft Cell|Non-Stop Erotic Cabaret|1981|a
+1|Pet Shop Boys|Please|1986|a
+2|Orchestral Manoeuvres in the Dark|Architecture & Morality|1981|a
+2|Yazoo|Upstairs at Eric's|1982|a
+2|John Foxx|Metamatic|1980|a
+2|Fad Gadget|Fireside Favourites|1980|a
+3|Thomas Leer|4 Movements|1981|e
+3|Section 25|From the Hip|1984|a
+3|Book of Love|Book of Love|1986|a
+3|Our Daughter's Wedding|Digital Cowboy|1981|e
+## Electronic > Minimal Wave > Minimal Synth
+3|Solid Space|Space Museum|1982|a
+3|Oppenheimer Analysis|New Mexico|1982|a
+3|Experimental Products|Prototype|1982|a
+3|Eleven Pond|Bas Relief|1986|a
+3|Lives of Angels|Elevator to Eden|1986|a
+## Pop > Dance-Pop
+1|Madonna|Like a Virgin|1984|a
+1|Michael Jackson|Thriller|1982|a
+1|Whitney Houston|Whitney|1987|a
+1|Rick Astley|Whenever You Need Somebody|1987|a
+2|Bananarama|True Confessions|1986|a
+2|Mel & Kim|F.L.M.|1987|a
+3|Stacey Q|Better Than Heaven|1986|a
+## Pop > Sophisti-Pop
+1|Sade|Diamond Life|1984|a
+1|The Style Council|Café Bleu|1984|a
+2|Prefab Sprout|Steve McQueen|1985|a
+2|The Blue Nile|Hats|1989|a
+2|Everything but the Girl|Eden|1984|a
+2|Scritti Politti|Cupid & Psyche 85|1985|a
+3|Danny Wilson|Meet Danny Wilson|1987|a
+3|The Lotus Eaters|No Sense of Sin|1984|a
+3|Working Week|Working Nights|1985|a
+3|Weekend|La Variété|1982|a
+## Pop > Art Pop
+1|Kate Bush|Hounds of Love|1985|a
+1|Laurie Anderson|Big Science|1982|a
+2|The Associates|Sulk|1982|a
+2|Japan|Tin Drum|1981|a
+3|Arthur Russell|World of Echo|1986|a
+3|Robert Wyatt|Old Rottenhat|1985|a
+3|Virginia Astley|From Gardens Where We Feel Secure|1983|a
+## Pop > Indie Pop
+1|Aztec Camera|High Land, Hard Rain|1983|a
+2|Orange Juice|You Can't Hide Your Love Forever|1982|a
+2|The Wedding Present|George Best|1987|a
+2|Young Marble Giants|Colossal Youth|1980|a
+3|The Vaselines|Dum-Dum|1989|a
+3|The Field Mice|Snowball|1989|a
+## Pop > Indie Pop > Twee Pop
+2|Beat Happening|Jamboree|1988|a
+2|The Pastels|Up for a Bit with The Pastels|1987|a
+3|Marine Girls|Lazy Ways|1983|a
+3|Talulah Gosh|Rock Legends: Volume 69|1987|a
+3|Another Sunny Day|I'm in Love with a Girl Who Doesn't Know I Exist|1988|s
+## Pop > Indie Pop > C86
+2|Primal Scream|Velocity Girl|1986|s
+3|The June Brides|There Are Eight Million Stories...|1985|a
+3|McCarthy|I Am a Wallet|1987|a
+3|Close Lobsters|Foxheads Stalk This Land|1987|a
+3|The Bodines|Played|1987|a
+## Dance > Disco > Electro-Disco > Hi-NRG
+1|Dead or Alive|Youthquake|1985|a
+2|Sylvester|All I Need|1982|a
+2|Patrick Cowley|Megatron Man|1981|a
+2|Evelyn Thomas|High Energy|1984|a
+2|Hazell Dean|Heart First|1984|a
+3|Miquel Brown|So Many Men, So Little Time|1983|s
+3|Paul Parker|Right on Target|1982|s
+3|Man 2 Man|Male Stripper|1986|s
+## Dance > Electronic Dance Music > Freestyle
+1|Shannon|Let the Music Play|1984|a
+2|Lisa Lisa and Cult Jam|Lisa Lisa & Cult Jam with Full Force|1985|a
+2|Exposé|Exposure|1987|a
+2|Debbie Deb|When I Hear Music|1983|s
+3|Nayobe|Please Don't Go|1984|s
+3|Connie|Funky Little Beat|1985|s
+3|TKA|Scars of Love|1987|a
+3|Noel|Noel|1988|a
+## Dance > Electronic Dance Music > Electro
+1|Afrika Bambaataa & Soulsonic Force|Planet Rock|1982|s
+1|Herbie Hancock|Future Shock|1983|a
+2|Cybotron|Enter|1983|a
+2|Man Parrish|Man Parrish|1982|a
+2|Egyptian Lover|On the Nile|1984|a
+2|Newcleus|Jam on Revenge|1984|a
+2|Hashim|Al-Naafiysh (The Soul)|1983|s
+3|The Jonzun Crew|Lost in Space|1983|a
+3|Twilight 22|Twilight 22|1984|a
+3|Warp 9|It's a Beat Wave|1983|a
+3|Planet Patrol|Planet Patrol|1983|a
+3|Tyrone Brunson|Sticky Situation|1983|a
+## Dance > Electronic Dance Music > House > Chicago House
+1|Marshall Jefferson|Move Your Body|1986|s
+1|Frankie Knuckles|Your Love|1987|s
+2|Farley "Jackmaster" Funk|Love Can't Turn Around|1986|s
+2|Steve "Silk" Hurley|Jack Your Body|1986|s
+2|Joe Smooth|Promised Land|1987|s
+2|Lil Louis|French Kiss|1989|s
+3|Jesse Saunders|On and On|1984|s
+3|Adonis|No Way Back|1986|s
+3|Chip E.|Like This|1985|s
+3|Ralphi Rosario|You Used to Hold Me|1987|s
+3|Sterling Void|It's All Right|1987|s
+## Dance > Electronic Dance Music > House > Acid House
+1|Phuture|Acid Tracks|1987|s
+1|A Guy Called Gerald|Voodoo Ray|1988|s
+2|808 State|Newbuild|1988|a
+2|Humanoid|Stakker Humanoid|1988|s
+2|D Mob|We Call It Acieed|1988|s
+3|Sleezy D.|I've Lost Control|1986|s
+3|Armando|Land of Confusion|1987|s
+3|Bam Bam|Where's Your Child?|1988|s
+3|Baby Ford|Oochy Koochy (F.U. Baby Yeh Yeh)|1988|s
+3|Tyree|Acid Over|1987|s
+## Dance > Electronic Dance Music > House > Deep House
+1|Mr. Fingers|Can You Feel It|1986|s
+2|Fingers Inc.|Another Side|1988|a
+2|Ten City|Foundation|1989|a
+3|Virgo|Virgo|1989|a
+3|Marshall Jefferson presents Truth|Open Our Eyes|1988|s
+## Dance > Electronic Dance Music > House > Garage House
+2|Colonel Abrams|Colonel Abrams|1985|a
+2|Adeva|Adeva!|1989|a
+2|Peech Boys|Don't Make Me Wait|1982|s
+3|Blaze|If You Should Need a Friend|1987|s
+3|Phase II|Reachin'|1988|s
+3|Turntable Orchestra|You're Gonna Miss Me|1988|s
+## Dance > Electronic Dance Music > House > Hip House
+1|Jungle Brothers|I'll House You|1988|s
+2|Fast Eddie|Yo Yo Get Funky|1988|s
+2|The Beatmasters|Rok da House|1987|s
+3|Tyree Cooper|Turn Up the Bass|1988|s
+3|Doug Lazy|Let It Roll|1989|s
+3|Mr. Lee|Get Busy|1989|s
+## Dance > Electronic Dance Music > Techno > Detroit Techno
+1|Inner City|Paradise|1989|a
+1|Rhythim Is Rhythim|Strings of Life|1987|s
+2|Model 500|No UFO's|1985|s
+3|Reese|Just Want Another Chance|1988|s
+3|Blake Baxter|When We Used to Play|1987|s
+3|Eddie "Flashin'" Fowlkes|Goodbye Kiss|1986|s
+## Dance > Electronic Dance Music > Techno > Bleep Techno
+3|Unique 3|The Theme|1989|s
+3|Forgemasters|Track with No Name|1989|s
+3|Nightmares on Wax|Dextrous|1989|s
+## Electronic > Progressive Electronic
+3|Synergy|Audion|1981|a
+3|Wavestar|Moonwind|1987|a
+## Industrial / Noise > Industrial
+1|Cabaret Voltaire|Red Mecca|1981|a
+2|Throbbing Gristle|Heathen Earth|1980|a
+2|23 Skidoo|Seven Songs|1982|a
+2|Test Dept|Beating the Retreat|1984|a
+2|Chris & Cosey|Trance|1982|a
+3|Clock DVA|Thirst|1981|a
+3|Nocturnal Emissions|Drowning in a Sea of Bliss|1983|a
+3|Hunting Lodge|Will|1983|a
+3|Savage Republic|Tragic Figures|1982|a
+## Industrial / Noise > Post-Industrial
+1|Coil|Horse Rotorvator|1986|a
+2|Current 93|Earth Covers Earth|1988|a
+2|Nurse with Wound|Homotopy to Marie|1982|a
+2|Psychic TV|Force the Hand of Chance|1982|a
+3|:zoviet*france:|Shouting at the Ground|1988|a
+3|The Hafler Trio|Bang! An Open Letter|1984|a
+## Industrial / Noise > Post-Industrial > EBM
+1|Nitzer Ebb|That Total Age|1987|a
+2|Ministry|Twitch|1986|a
+2|Revolting Cocks|Big Sexy Land|1986|a
+3|Portion Control|...Step Forward|1984|a
+3|Die Warzau|Disco Rigido|1989|a
+3|Manufacture|Terrorvision|1988|a
+## Industrial / Noise > Post-Industrial > Electro-Industrial
+2|Cabaret Voltaire|The Crackdown|1983|a
+2|Clock DVA|Buried Dreams|1989|a
+3|Attrition|The Attrition of Reason|1984|a
+3|My Life with the Thrill Kill Kult|I See Good Spirits and I See Bad Spirits|1988|a
+## Industrial / Noise > Post-Industrial > Industrial Rock
+1|Nine Inch Nails|Pretty Hate Machine|1989|a
+1|Killing Joke|Killing Joke|1980|a
+2|Swans|Children of God|1987|a
+2|Chrome|3rd from the Sun|1982|a
+3|Cop Shoot Cop|Headkick Facsimile|1989|e
+3|Missing Foundation|1933 Your House Is Mine|1988|a
+3|Pailhead|Trait|1988|e
+## Industrial / Noise > Post-Industrial > Industrial Metal
+1|Ministry|The Land of Rape and Honey|1988|a
+2|Godflesh|Streetcleaner|1989|a
+3|Head of David|Dustbowl|1988|a
+## Industrial / Noise > Noise
+3|The New Blockaders|Changez les Blockeurs|1982|a
+3|Controlled Bleeding|Knees and Bones|1985|a
+3|Smegma|Pigs for Lepers|1982|a
+3|Borbetomagus|Borbetomagus|1980|a
+## Hip Hop > Boom Bap
+1|Eric B. & Rakim|Paid in Full|1987|a
+1|Boogie Down Productions|Criminal Minded|1987|a
+2|Big Daddy Kane|Long Live the Kane|1988|a
+2|Ultramagnetic MCs|Critical Beatdown|1988|a
+2|EPMD|Strictly Business|1988|a
+2|Marley Marl|In Control, Volume 1|1988|a
+3|Kool G Rap & DJ Polo|Road to the Riches|1989|a
+3|Gang Starr|No More Mr. Nice Guy|1989|a
+3|Lakim Shabazz|Pure Righteousness|1988|a
+3|Just-Ice|Back to the Old School|1986|a
+## Hip Hop > Hardcore Hip Hop
+1|Run-D.M.C.|Raising Hell|1986|a
+1|LL Cool J|Radio|1985|a
+2|Schoolly D|Schoolly D|1985|a
+2|Slick Rick|The Great Adventures of Slick Rick|1988|a
+3|T La Rock|It's Yours|1984|s
+3|MC Shan|Down by Law|1987|a
+## Hip Hop > Conscious Hip Hop
+1|Grandmaster Flash & The Furious Five|The Message|1982|a
+1|De La Soul|3 Feet High and Rising|1989|a
+2|Jungle Brothers|Straight out the Jungle|1988|a
+2|Queen Latifah|All Hail the Queen|1989|a
+3|Stetsasonic|In Full Gear|1988|a
+3|Divine Styler|Word Power|1989|a
+## Hip Hop > Political Hip Hop
+1|Public Enemy|It Takes a Nation of Millions to Hold Us Back|1988|a
+2|Boogie Down Productions|By All Means Necessary|1988|a
+3|Brother D with Collective Effort|How We Gonna Make the Black Nation Rise?|1980|s
+## Hip Hop > Hardcore Hip Hop > Gangsta Rap
+1|N.W.A|Straight Outta Compton|1988|a
+2|Ice-T|Rhyme Pays|1987|a
+2|Eazy-E|Eazy-Duz-It|1988|a
+2|Too Short|Life Is... Too Short|1988|a
+3|King Tee|Act a Fool|1988|a
+3|Toddy Tee|Batterram|1985|s
+3|The D.O.C.|No One Can Do It Better|1989|a
+## Hip Hop > Miami Bass
+2|J.J. Fad|Supersonic|1988|a
+2|L'Trimm|Grab It!|1988|a
+3|Dynamix II|Just Give the DJ a Break|1987|s
+3|Afro-Rican|Give It All You Got|1987|s
+3|MC A.D.E.|Bass Rock Express|1985|s
+## Hip Hop > Pop Rap
+1|Beastie Boys|Licensed to Ill|1986|a
+1|Salt-N-Pepa|Hot, Cool & Vicious|1986|a
+1|DJ Jazzy Jeff & The Fresh Prince|He's the DJ, I'm the Rapper|1988|a
+2|Whodini|Escape|1984|a
+2|Biz Markie|The Biz Never Sleeps|1989|a
+2|Rob Base & DJ E-Z Rock|It Takes Two|1988|a
+3|Sweet Tee|It's Tee Time|1988|a
+## Hip Hop > Hardcore Hip Hop > Britcore
+3|Hijack|Hold No Hostage|1988|s
+3|Overlord X|Weapon Is My Lyric|1989|a
+3|Demon Boyz|Recognition|1989|a
+3|Silver Bullet|20 Seconds to Comply|1989|s
+## Hip Hop > Turntablism
+2|Grandmaster Flash|The Adventures of Grandmaster Flash on the Wheels of Steel|1981|s
+2|Coldcut|Say Kids What Time Is It?|1987|s
+3|The 45 King|The 900 Number|1987|s
+3|Double Dee and Steinski|Lesson 1 – The Payoff Mix|1985|s
+## R&B / Soul / Funk > Contemporary R&B?
+1|Janet Jackson|Control|1986|a
+1|Luther Vandross|Never Too Much|1981|a
+2|Loose Ends|So Where Are You?|1985|a
+2|Alexander O'Neal|Hearsay|1987|a
+## R&B / Soul / Funk > Contemporary R&B? > New Jack Swing?
+1|Bobby Brown|Don't Be Cruel|1988|a
+2|Guy|Guy|1988|a
+2|Keith Sweat|Make It Last Forever|1987|a
+2|Al B. Sure!|In Effect Mode|1988|a
+3|Today|Today|1988|a
+3|Wreckx-n-Effect|Wrecks-n-Effect|1989|a
+3|Redhead Kingpin and the F.B.I.|A Shade of Red|1989|a
+## R&B / Soul / Funk > Soul? > Smooth Soul?
+1|Anita Baker|Rapture|1986|a
+2|Freddie Jackson|Rock Me Tonight|1985|a
+3|Phyllis Hyman|Living All Alone|1986|a
+3|Miki Howard|Come Share My Love|1986|a
+## R&B / Soul / Funk > Funk? > Synth Funk?
+1|Prince|1999|1982|a
+1|Rick James|Street Songs|1981|a
+1|Cameo|Word Up!|1986|a
+2|Zapp|Zapp|1980|a
+2|Midnight Star|No Parking on the Dance Floor|1983|a
+3|One Way|Who's Foolin' Who|1982|a
+3|André Cymone|Livin' in the New Wave|1982|a
+## R&B / Soul / Funk > Funk? > Synth Funk? > Minneapolis Sound!
+2|The Time|What Time Is It?|1982|a
+2|Sheila E.|The Glamorous Life|1984|a
+2|Vanity 6|Vanity 6|1982|a
+3|The Family|The Family|1985|a
+3|Mazarati|Mazarati|1986|a
+## R&B / Soul / Funk > Funk? > Go-Go?
+1|E.U.|Da Butt|1988|s
+2|Trouble Funk|Drop the Bomb|1982|a
+2|Chuck Brown & the Soul Searchers|We Need Some Money|1984|s
+3|Rare Essence|Body Moves|1981|s
+3|Junk Yard Band|The Word|1986|s
+## Dance > Disco > Boogie
+1|Patrice Rushen|Straight from the Heart|1982|a
+2|Evelyn "Champagne" King|Get Loose|1982|a
+2|The S.O.S. Band|On the Rise|1983|a
+2|D Train|You're the One for Me|1982|a
+3|Kashif|Kashif|1983|a
+3|Sharon Redd|Redd Hott|1982|a
+3|Unlimited Touch|Unlimited Touch|1981|a
+3|Logg|Logg|1981|a
+## R&B / Soul / Funk > Funk? > Britfunk?
+2|Level 42|Level 42|1981|a
+2|Freeez|Southern Freeez|1981|a
+2|Imagination|Body Talk|1981|a
+3|Central Line|Central Line|1981|a
+3|Light of the World|Round Trip|1980|a
+3|Linx|Intuition|1981|a
+## Jazz > Jazz Fusion?
+1|Pat Metheny Group|Offramp|1982|a
+1|Miles Davis|Tutu|1986|a
+2|Allan Holdsworth|Metal Fatigue|1985|a
+2|Ornette Coleman|Of Human Feelings|1982|a
+3|James Blood Ulmer|Are You Glad to Be in America?|1980|a
+3|Ronald Shannon Jackson and The Decoding Society|Barbeque Dog|1983|a
+3|Material|Memory Serves|1981|a
+## Jazz > Post-Bop?
+1|Wynton Marsalis|Black Codes (From the Underground)|1985|a
+2|Keith Jarrett|Standards, Vol. 1|1983|a
+2|Joe Henderson|The State of the Tenor, Vol. 1|1986|a
+3|Woody Shaw|United|1981|a
+3|Dave Holland Quintet|Jumpin' In|1984|a
+3|Geri Allen|The Printmakers|1984|a
+3|Steve Coleman Group|Motherland Pulse|1985|a
+## Jazz > Avant-Garde Jazz?
+1|John Zorn|The Big Gundown|1986|a
+2|The Lounge Lizards|The Lounge Lizards|1981|a
+2|David Murray Octet|Ming|1980|a
+2|Sun Ra|Nuclear War|1984|a
+3|Henry Threadgill Sextet|Just the Facts and Pass the Bucket|1983|a
+3|World Saxophone Quartet|Revue|1982|a
+3|Tim Berne|Fulton Street Maul|1987|a
+3|Last Exit|Last Exit|1986|a
+3|Loose Tubes|Open Letter|1988|a
+## Jazz > ECM Style Jazz?
+2|Pat Metheny|80/81|1980|a
+3|Azimuth|Départ|1980|a
+3|John Surman|Withholding Pattern|1985|a
+3|Oregon|Oregon|1983|a
+3|John Abercrombie|Getting There|1988|a
+## Jazz > Smooth Jazz?
+1|Kenny G|Duotones|1986|a
+1|Grover Washington, Jr.|Winelight|1980|a
+1|George Benson|Give Me the Night|1980|a
+2|David Sanborn|Voyeur|1981|a
+2|Shakatak|Night Birds|1982|a
+3|Yellowjackets|Four Corners|1987|a
+3|Najee|Najee's Theme|1986|a
+## Ambient
+1|Brian Eno|Ambient 4: On Land|1982|a
+1|Harold Budd & Brian Eno|The Pearl|1984|a
+2|Laraaji|Ambient 3: Day of Radiance|1980|a
+2|Jon Hassell & Brian Eno|Fourth World, Vol. 1: Possible Musics|1980|a
+3|Roger Eno|Voices|1985|a
+3|Harold Budd|Lovely Thunder|1986|a
+## Electronic > Space Ambient
+2|Steve Roach|Structures from Silence|1984|a
+3|Michael Stearns|Planetary Unfolding|1981|a
+3|Constance Demby|Novus Magnificat|1986|a
+3|Pauline Anna Strom|Trans-Millenia Consort|1982|a
+## Ambient > Tribal Ambient?
+2|Steve Roach|Dreamtime Return|1988|a
+3|Robert Rich|Numena|1987|a
+3|O Yuki Conjugate|Into Dark Water|1987|a
+## Industrial / Noise > Post-Industrial > Dark Ambient
+2|Lustmord|Paradise Disowned|1986|a
+3|:zoviet*france:|Mohnomishe|1983|a
+3|Nocturnal Emissions|Spiritflesh|1988|a
+## New Age
+1|George Winston|Autumn|1980|a
+2|Ray Lynch|Deep Breakfast|1984|a
+2|Suzanne Ciani|Seven Waves|1982|a
+2|Michael Hedges|Aerial Boundaries|1984|a
+3|William Ackerman|Passage|1981|a
+3|Emerald Web|Valley of the Birds|1981|a
+## Classical Music > Modern Classical? > Minimalism?
+1|Philip Glass|Glassworks|1982|a
+1|Steve Reich|Different Trains / Electric Counterpoint|1989|a
+2|Meredith Monk|Dolmen Music|1981|a
+2|Michael Nyman|The Draughtsman's Contract|1982|a
+3|Ingram Marshall|Fog Tropes|1984|a
+3|Arnold Dreyblatt|Nodal Excitation|1982|a
+## Classical Music > Modern Classical? > Totalism?
+2|Glenn Branca|The Ascension|1981|a
+3|Rhys Chatham|Die Donnergötter|1987|a
+## Experimental > Sound Collage?
+1|Brian Eno & David Byrne|My Life in the Bush of Ghosts|1981|a
+2|Negativland|Escape from Noise|1987|a
+3|Nurse with Wound|The Sylvie and Babs Hi-Fi Companion|1985|a
+3|The Tape-beatles|A Subtle Buoyancy of Pulse|1988|a
+3|Christian Marclay|Record Without a Cover|1985|a
+## Experimental > Drone?
+2|Pauline Oliveros|Deep Listening|1989|a
+3|Phill Niblock|Nothin to Look at Just a Record|1982|a
+3|Stuart Dempster|In the Great Abbey of Clement VI|1987|a
+## Experimental > Free Improvisation?
+3|AMM|Generative Themes|1983|a
+3|Evan Parker|Six of One|1980|a
+3|Derek Bailey|Aida|1980|a
+## Folk > Contemporary Folk?
+1|Tracy Chapman|Tracy Chapman|1988|a
+1|Suzanne Vega|Solitude Standing|1987|a
+2|Nanci Griffith|The Last of the True Believers|1986|a
+3|Michelle Shocked|The Texas Campfire Tapes|1986|a
+3|Kath Bloom & Loren Mazzacane Connors|Moonlight|1984|a
+3|Ted Hawkins|Watch Your Step|1982|a
+## Folk > Contemporary Folk? > Anti-Folk?
+3|Roger Manning|Roger Manning|1988|a
+3|Cindy Lee Berryhill|Who's Gonna Save the World?|1987|a
+## Rock > Folk Rock > British Folk Rock
+2|Richard & Linda Thompson|Shoot Out the Lights|1982|a
+3|June Tabor|Abyssinians|1983|a
+3|Oysterband|Step Outside|1986|a
+## Country > Neotraditional Country?
+1|Randy Travis|Storms of Life|1986|a
+1|George Strait|Strait from the Heart|1982|a
+2|Dwight Yoakam|Guitars, Cadillacs, Etc., Etc.|1986|a
+2|Steve Earle|Guitar Town|1986|a
+2|Keith Whitley|Don't Close Your Eyes|1988|a
+3|The O'Kanes|The O'Kanes|1986|a
+3|Joe Ely|Musta Notta Gotta Lotta|1981|a
+## Blues > Electric Blues?
+1|Stevie Ray Vaughan and Double Trouble|Texas Flood|1983|a
+2|Robert Cray|Strong Persuader|1986|a
+2|Albert Collins|Frostbite|1980|a
+3|Son Seals|Chicago Fire|1980|a
+3|Johnny Copeland|Copeland Special|1981|a
+## Reggae / Ska / Dancehall > Ska? > 2 Tone
+1|The Specials|More Specials|1980|a
+1|Madness|Absolutely|1980|a
+2|The Beat|I Just Can't Stop It|1980|a
+2|The Selecter|Too Much Pressure|1980|a
+3|Bad Manners|Ska 'n' B|1980|a
+3|The Bodysnatchers|Let's Do Rock Steady|1980|s
+## Reggae / Ska / Dancehall > Ska? > Third Wave Ska?
+2|Operation Ivy|Energy|1989|a
+2|Fishbone|Fishbone|1985|e
+3|The Toasters|Skaboom!|1987|a
+3|The Untouchables|Wild Child|1985|a
+3|Bim Skala Bim|Bim Skala Bim|1986|a
+## Reggae / Ska / Dancehall > Reggae? > Lovers Rock?
+1|Maxi Priest|Maxi|1987|a
+2|Carroll Thompson|Hopelessly in Love|1981|a
+3|Louisa Mark|Breakout|1981|a
+3|Jean Adebambo|Paradise|1981|s
+## Reggae / Ska / Dancehall > Reggae? > Roots Reggae?
+1|UB40|Signing Off|1980|a
+2|Steel Pulse|True Democracy|1982|a
+2|Aswad|New Chapter|1981|a
+3|Misty in Roots|Wise and Foolish|1981|a
+## Reggae / Ska / Dancehall > Reggae? > Dub Poetry?
+2|Linton Kwesi Johnson|Bass Culture|1980|a
+3|Benjamin Zephaniah|Rasta|1982|a
+## Reggae / Ska / Dancehall > Dub?
+3|Creation Rebel|Starship Africa|1980|a
+3|African Head Charge|My Life in a Hole in the Ground|1981|a
+3|New Age Steppers|The New Age Steppers|1981|a
+3|Dub Syndicate|The Pounding System|1982|a
+3|Mad Professor|Dub Me Crazy|1982|a
+## Reggae / Ska / Dancehall > Dancehall?
+2|Smiley Culture|Police Officer|1984|s
+3|Tippa Irie|Is It Really Happening to Me|1986|a
+3|Papa Levi|Mi God Mi King|1984|s
+
+# ---- second batch: genres missing from the first pass ----
+
+## Rock > Blues Rock
+1|ZZ Top|Eliminator|1983|a
+2|George Thorogood and the Destroyers|Bad to the Bone|1982|a
+2|The Fabulous Thunderbirds|Tuff Enuff|1986|a
+3|The Paladins|The Paladins|1987|a
+
+## Rock > Southern Rock
+1|38 Special|Wild-Eyed Southern Boys|1981|a
+2|The Georgia Satellites|Georgia Satellites|1986|a
+2|Molly Hatchet|Beatin' the Odds|1980|a
+3|Blackfoot|Marauder|1981|a
+3|Drivin N Cryin|Mystery Road|1989|a
+
+## Rock > Pop Rock > Soft Rock
+1|Richard Marx|Repeat Offender|1989|a
+1|Phil Collins|Face Value|1981|a
+2|Christopher Cross|Another Page|1983|a
+2|Chris Rea|On the Beach|1986|a
+
+## Rock > Pop Rock > Soft Rock > Yacht Rock
+1|Steely Dan|Gaucho|1980|a
+1|Michael McDonald|If That's What It Takes|1982|a
+2|Donald Fagen|The Nightfly|1982|a
+2|Kenny Loggins|High Adventure|1982|a
+3|Pages|Pages|1981|a
+3|Bill LaBounty|Bill LaBounty|1982|a
+3|Airplay|Airplay|1980|a
+3|Robbie Dupree|Robbie Dupree|1980|a
+
+## Rock > Rock & Roll > Rockabilly > Rockabilly Revival!
+1|Stray Cats|Stray Cats|1981|a
+2|Shakin' Stevens|Shaky|1981|a
+2|The Polecats|Polecats Are Go!|1981|a
+3|Robert Gordon|Are You Gonna Be the One|1981|a
+3|The Rockats|Live at the Ritz|1981|a
+3|Restless|Why Don't You... Just Rock!|1982|a
+
+## Pop > Adult Contemporary
+1|Lionel Richie|Can't Slow Down|1983|a
+1|Whitney Houston|Whitney Houston|1985|a
+1|Glenn Medeiros|Glenn Medeiros|1987|a
+2|Bette Midler|Beaches|1988|a
+
+## Pop > Teen Pop
+1|Debbie Gibson|Out of the Blue|1987|a
+1|New Kids on the Block|Hangin' Tough|1988|a
+2|Tiffany|Tiffany|1987|a
+2|Bros|Push|1988|a
+
+## Pop > Progressive Pop
+1|Tears for Fears|The Seeds of Love|1989|a
+1|The Alan Parsons Project|Eye in the Sky|1982|a
+2|Electric Light Orchestra|Time|1981|a
+2|Thomas Dolby|The Flat Earth|1984|a
+3|Godley & Creme|Ismism|1981|a
+3|The Buggles|Adventures in Modern Recording|1981|a
+
+## Pop > Pop Soul
+1|Stevie Wonder|Hotter than July|1980|a
+1|Wham!|Make It Big|1984|a
+2|Hall & Oates|Private Eyes|1981|a
+2|Simply Red|Picture Book|1985|a
+3|The Blow Monkeys|She Was Only a Grocer's Daughter|1987|a
+3|Hue and Cry|Seduced and Abandoned|1987|a
+
+## R&B / Soul / Funk > Soul? > Southern Soul?
+2|Bobby "Blue" Bland|Members Only|1985|a
+2|Johnnie Taylor|This Is Your Night|1984|a
+3|Denise LaSalle|A Lady in the Street|1983|a
+3|Latimore|Singing in the Key of Love|1982|a
+3|Little Milton|Playing for Keeps|1984|a
+
+## R&B / Soul / Funk > Contemporary R&B? > UK Street Soul?
+2|Soul II Soul|Club Classics Vol. One|1989|a
+2|Loose Ends|Zagora|1986|a
+3|Mica Paris|So Good|1988|a
+3|52nd Street|Children of the Night|1986|a
+
+## R&B / Soul / Funk > Funk? > Jazz-Funk?
+1|George Duke|Dream On|1982|a
+2|Tom Browne|Love Approach|1980|a
+2|Roy Ayers|Africa, Center of the World|1981|a
+3|Incognito|Jazz Funk|1981|a
+3|Morrissey–Mullen|Badness|1981|a
+
+## R&B / Soul / Funk > Funk? > P-Funk?
+1|George Clinton|Computer Games|1982|a
+2|Funkadelic|The Electric Spanking of War Babies|1981|a
+2|Parliament|Trombipulation|1980|a
+3|Bootsy Collins|Ultra Wave|1980|a
+3|Sweat Band|Sweat Band|1980|a
+
+## Gospel
+1|The Winans|Decisions|1987|a
+2|Andraé Crouch|Don't Give Up|1981|a
+2|The Clark Sisters|You Brought the Sunshine|1981|a
+3|Commissioned|Go Tell Somebody|1986|a
+3|London Community Gospel Choir|Fill My Cup|1985|a
+
+## Jazz > Avant-Garde Jazz? > Free Jazz?
+1|Ornette Coleman & Prime Time|In All Languages|1987|a
+2|Cecil Taylor|For Olim|1987|a
+2|Art Ensemble of Chicago|Full Force|1980|a
+3|Jimmy Lyons|Wee Sneezawee|1984|a
+3|William Parker|Through Acceptance of the Mystery Peace|1980|a
+3|Charles Gayle|Homeless|1989|a
+
+## Jazz > Spiritual Jazz?
+1|Pharoah Sanders|Journey to the One|1980|a
+2|Alice Coltrane|Turiya Sings|1982|a
+3|Phil Ranelin|Love Dream|1986|a
+3|Idris Ackamoor|The Pyramids|1980|a
+
+## Jazz > Vocal Jazz?
+1|Bobby McFerrin|Simple Pleasures|1988|a
+2|Cassandra Wilson|Blue Skies|1988|a
+2|Betty Carter|The Audience with Betty Carter|1980|a
+3|Carmen Lundy|Good Morning Kiss|1986|a
+
+## Jazz > Big Band?
+2|Carla Bley|Social Studies|1981|a
+2|Gil Evans|Live at the Public Theater (New York 1980)|1981|a
+3|Mike Westbrook|The Cortège|1982|a
+3|George Russell|The African Game|1985|a
+
+## Electronic > Progressive Electronic > Berlin School
+2|Steve Roach|Now|1982|a
+2|Mark Shreeve|Assassin|1984|a
+3|Ian Boddy|The Climb|1983|a
+3|Paul Nagle|Earthshaper|1985|a
+3|Michael Garrison|Prisms|1981|a
+
+## Electronic > Electroacoustic
+2|Alvin Lucier|I Am Sitting in a Room|1981|a
+1|Laurie Spiegel|The Expanding Universe|1980|a
+2|Charles Dodge|Any Resemblance Is Purely Coincidental|1980|a
+3|Carl Stone|Wave-Heat|1983|a
+3|Maggi Payne|Crystal|1986|a
+3|Joel Chadabe|Rhythms|1981|a
+
+
+## Classical Music > Modern Classical? > Post-Minimalism?
+1|John Adams|Harmonielehre|1985|a
+2|Gavin Bryars|Three Viennese Dancers|1986|a
+3|Paul Dresher|Night Songs|1984|a
+3|Daniel Lentz|Missa Umbrarum|1985|a
+3|Peter Garland|Peñasco Blanco|1984|a
+
+## Spoken Word > Poetry?
+1|Gil Scott-Heron|Reflections|1981|a
+3|Anne Clark|Changing Places|1983|a
+3|John Giorno|Who Are You Staring At?|1982|a
+3|Ivor Cutler|Privilege|1983|a
+
+## Singer-Songwriter
+1|Bruce Springsteen|Nebraska|1982|a
+1|Paul Simon|Hearts and Bones|1983|a
+2|John Martyn|Grace and Danger|1980|a
+2|Townes Van Zandt|At My Window|1987|a
+3|Kevin Coyne|Pointing the Finger|1981|a
+3|Vic Godard|What's the Matter Boy?|1980|a
+
+## Folk > Traditional Folk Music? > English Folk Music?
+1|Nic Jones|Penguin Eggs|1980|a
+2|Martin Carthy|Out of the Cut|1982|a
+2|The Watersons|Green Fields|1981|a
+3|Peter Bellamy|Second Wind|1985|a
+
+## Folk > Traditional Folk Music? > Scottish Folk Music?
+1|Dick Gaughan|Handful of Earth|1981|a
+2|Silly Wizard|Wild and Beautiful|1981|a
+2|The Battlefield Band|Home Is Where the Van Is|1980|a
+3|Ossian|Seal Song|1981|a
+3|Capercaillie|Cascade|1984|a
+
+## Pop > Country Pop
+1|Dolly Parton|9 to 5 and Odd Jobs|1980|a
+1|Kenny Rogers|Eyes That See in the Dark|1983|a
+2|Rosanne Cash|Seven Year Ache|1981|a
+2|Juice Newton|Juice|1981|a
+3|Sylvia|Just Sylvia|1982|a
+
+## Country > Progressive Country? > Outlaw Country?
+1|Willie Nelson|Always on My Mind|1982|a
+1|The Highwaymen|Highwayman|1985|a
+2|Waylon Jennings|Black on Black|1982|a
+3|Billy Joe Shaver|I'm Just an Old Chunk of Coal|1981|a
+3|Guy Clark|The South Coast of Texas|1981|a
+3|Gary Stewart|Cactus and a Rose|1980|a
+
+## Country > Progressive Country?
+1|Lyle Lovett|Pontiac|1987|a
+2|Lucinda Williams|Lucinda Williams|1988|a
+2|k.d. lang|Shadowland|1988|a
+3|Butch Hancock|Diamond Hill|1980|a
+3|Jimmie Dale Gilmore|Fair & Square|1988|a
+3|Terry Allen|Smokin the Dummy|1980|a
+
+## Country > Bluegrass? > Progressive Bluegrass?
+1|New Grass Revival|On the Boulevard|1984|a
+2|Tony Rice|Cold on the Shoulder|1984|a
+2|Béla Fleck|Drive|1988|a
+3|Hot Rize|Untold Stories|1987|a
+3|The Seldom Scene|After Midnight|1981|a
+3|David Grisman Quintet|Quintet '80|1980|a
+
+## Blues > Soul Blues?
+1|Z.Z. Hill|Down Home|1982|a
+2|Bobby Rush|Sue|1982|a
+
+## Blues > Delta Blues?
+3|Jessie Mae Hemphill|She-Wolf|1981|a
+3|Boyd Rivers|You Can't Make Me Doubt|1985|a
+
+## Regional Music > Northern American Music? > Cajun & Creole Music? > Zydeco?
+1|Buckwheat Zydeco|On a Night Like This|1987|a
+2|Clifton Chenier|I'm Here!|1982|a
+2|Queen Ida|Queen Ida and the Bon Temps Zydeco Band on Tour|1982|a
+3|Boozoo Chavis|Louisiana Zydeco Music|1986|a
+3|Rockin' Dopsie|Crowned Prince of Zydeco|1987|a
+
+## Regional Music > Hispanic American Music? > Tejano?
+1|Los Lobos|La pistola y el corazón|1988|a
+2|Flaco Jiménez|Ay Te Dejo en San Antonio|1986|a
+3|Steve Jordan|The Return of El Parche|1988|a
+3|Little Joe y La Familia|25th Silver Anniversary|1986|a
+
+## Regional Music > South Asian Music? > Punjabi Music? > Bhangra?
+2|Alaap|Teri Chunni De Sitare|1982|a
+2|Heera|Diamonds from Heera|1986|a
+3|Holle Holle|Holle Holle|1986|a
+3|Premi|Chhamak Jehi Mutiyar|1986|a
+3|Apna Sangeet|Mera Yaar Vajavey Dhol|1988|a
+
+## Metal > Black Metal
+1|Venom|Black Metal|1982|a
+
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Thrashcore > Powerviolence
+3|Infest|Slave|1988|a
+3|No Comment|Common Senseless|1989|e
+
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > New York Hardcore!
+1|Agnostic Front|Victim in Pain|1984|a
+2|Gorilla Biscuits|Start Today|1989|a
+2|Youth of Today|Break Down the Walls|1987|a
+3|Judge|Bringin' It Down|1989|a
+3|Antidote|Thou Shalt Not Kill|1983|e
+3|Urban Waste|Urban Waste|1982|e
+
+
+## Rock > Jam Band
+1|Grateful Dead|In the Dark|1987|a
+2|Phish|Junta|1989|a
+
+# ---- third batch: after reconciling with the RYM tree (internal/rym-genre-tree-1980s.md) ----
+# Lines marked from RYM's own genre pages are picked up by build-map.mjs from that file.
+
+## Hip Hop > UK Hip Hop!
+2|Derek B|Bullet from a Gun|1988|a
+2|Cookie Crew|Born This Way!|1989|a
+3|London Posse|Money Mad|1988|s
+
+## Hip Hop > Disco Rap
+2|Kurtis Blow|Kurtis Blow|1980|a
+1|The Sugarhill Gang|Sugarhill Gang|1980|a
+2|Funky 4 + 1|That's the Joint|1980|s
+3|Treacherous Three|The Body Rock|1980|s
+
+## Punk / Post-Punk / Hardcore > Punk Poetry
+2|John Cooper Clarke|Snap, Crackle & Bop|1980|a
+2|Attila the Stockbroker|Ranting at the Nation|1983|a
+3|Joolz|Never Never Land|1985|a
+
+## Darkwave
+2|Dark Day|Exterminating Angel|1980|a
+3|In the Nursery|Twins|1986|a
+3|Lycia|Wake|1989|a
+3|A.C. Marias|Drop|1981|s
+
+## Dance > Disco > Mutant Disco
+1|Kid Creole and the Coconuts|Tropical Gangsters|1982|a
+2|Was (Not Was)|Was (Not Was)|1981|a
+2|Dinosaur L|24→24 Music|1981|a
+3|Cristina|Sleep It Off|1984|a
+3|Coati Mundi|The Former 12 Year Old Genius|1983|a
+
+## Rock > Pop Rock > Big Music
+1|Simple Minds|Once Upon a Time|1985|a
+1|Big Country|The Crossing|1983|a
+2|The Waterboys|This Is the Sea|1985|a
+2|The Alarm|Declaration|1984|a
+3|The Icicle Works|The Icicle Works|1984|a
+3|Then Jerico|First (The Sound of Music)|1987|a
+
+## Rock > Alternative Rock > Dream Pop
+2|The Durutti Column|LC|1981|a
+2|The Passions|I'm in Love with a German Film Star|1981|s
+3|Kevin McCormick & David Horridge|Light Patterns|1982|a
+
+## Rock > Alternative Rock > Indie Rock
+3|Wah! Heat|Better Scream|1980|s
+3|Nikki Sudden|Back to the Start|1980|s
+
+## Rock > Alternative Rock > Indie Rock > Noise Pop
+3|Age of Chance|Motor City|1985|s
+
+## Pop > Indie Pop > C86
+3|Biff Bang Pow!|Fifty Years of Fun|1984|s
+3|Yeah Yeah Noh|Cottage Industry|1984|e
+
+## Psychedelia > Neo-Psychedelia? > Paisley Underground
+3|The Last|Fade to Black|1981|e
+
+## Punk / Post-Punk / Hardcore > Post-Punk > Gothic Rock
+3|UK Decay|The Black 45 EP|1980|e
+3|Modern Eon|Euthenics|1980|s
+
+## Punk / Post-Punk / Hardcore > Post-Punk > Gothic Rock > Deathrock
+3|13th Chime|Cuts of Love|1981|s
+3|Theatre of Ice|Mouse Blood|1982|a
+3|Part 1|Funeral Parade|1982|e
+
+## Rock > New Wave > New Romantic!
+3|Shock|Angel Face|1980|s
+
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Street Punk
+2|Anti-Pasti|The Last Call|1981|a
+3|Demob|No Room for You|1981|s
+3|The Fits|You Said We'd Never Make It|1981|e
+
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Hardcore Punk > Crust Punk
+2|Sacrilege|Behind the Realms of Madness|1985|a
+3|Concrete Sox|Your Turn Next|1985|a
+
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Post-Hardcore
+3|Man Sized Action|Claustrophobia|1983|a
+3|Blight|Blight|1983|e
+
+## Punk / Post-Punk / Hardcore > Hardcore [Punk] > Post-Hardcore > Emocore
+3|The Hated|No More We Cry|1985|e
+3|Dain Bramage|I Scream Not Coming Down|1986|a
+
+## Dance > Electronic Dance Music > Electro
+2|A Number of Names|Sharevari|1981|s
+3|Quadrant Six|Body Mechanic|1982|s
+
+## Dance > Electronic Dance Music > House
+3|Z-Factor|Fantasy|1984|s
+3|Serious Intention|You Don't Know|1984|s
+
+## Dance > Electronic Dance Music > Techno
+3|Channel One|Technicolor|1986|s
+3|Kreem|Triangle of Love|1986|s
+3|X-Ray|Let's Go|1986|s
+
+## Industrial / Noise > Post-Industrial > Industrial Rock
+3|Factrix|Empire of Passion|1980|s
+3|Crawling Chaos|Sex Machine|1980|s
+
+## Hip Hop > Boom Bap
+2|J.V.C. F.O.R.C.E.|Strong Island|1987|s
+3|Super Kids|The Tragedy (Don't Do It)|1986|s
+
+## Hip Hop > Hardcore Hip Hop
+3|Jimmy Spicer|Money (Dollar Bill Y'all)|1983|s
+3|Dimples D.|Sucker DJ's (I Will Survive)|1983|s
+3|Crash Crew|Breaking Bells (Take Me to the Mardi Gras)|1982|s
+
+## Hip Hop > Hardcore Hip Hop > Gangsta Rap
+3|The Showboys|Drag Rap|1986|s
+
+## Rock > Hard Rock > Glam Metal
+2|Dokken|Breaking the Chains|1981|a
+3|Girl|Sheer Greed|1980|a
