@@ -14,6 +14,10 @@ npm run test:e2e   # builds, then plays the game in Chrome and checks the screen
 npm run lint
 ```
 
+## Publishing
+
+Every push to `main` runs the lint, the tests and the browser run, and if they pass deploys `dist/` to GitHub Pages (`.github/workflows/deploy.yml`). The build uses relative asset paths (`base: './'` in `vite.config.ts`), so the same build works at a domain root and under a sub-path such as `/record-please/`.
+
 ## How it works
 
 - `src/data/catalog.json` is the only source of content: cards (one recording each), artists, albums, the decade × region entry cards, lineages, books and films, personas. `npm run validate` enforces its rules and the build fails without it.
