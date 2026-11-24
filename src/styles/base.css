@@ -1,0 +1,160 @@
+:root {
+  --bg-wall: #1a211d;
+  --bg-booth: #232c27;
+  --bg-desk: #241c17;
+  --bg-desk-mat: #2d241d;
+  --paper-kraft: #dfd3b8;
+  --paper-cream: #ece3cc;
+  --paper-manila: #d7c397;
+  --paper-lore: #e4d6b5;
+  --ink-dark: #191613;
+  --ink-muted: #574e40;
+  --border-olive: #48574d;
+  --stamp-green: #1e6b3a;
+  --stamp-green-bright: #2e8f51;
+  --stamp-red: #962828;
+  --stamp-red-bright: #bd3737;
+  --stamp-blue: #284b7a;
+  --brass: #d4a247;
+  --font-pixel: "WenQuanYi Micro Hei Mono", "Noto Sans Mono CJK SC", "Courier New", monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--bg-wall);
+  color: var(--ink-dark);
+  font-family: var(--font-pixel);
+  -webkit-font-smoothing: none;
+  letter-spacing: 0.02em;
+}
+
+.pixel-canvas {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+  display: block;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 50% 34%, rgba(235, 192, 112, 0.13) 0%, rgba(20, 25, 22, 0.92) 74%),
+    repeating-linear-gradient(0deg, #1d2420 0px, #1d2420 3px, #19201c 3px, #19201c 6px);
+  display: flex;
+  flex-direction: column;
+}
+
+.top-brass-bar {
+  background: #161c19;
+  border-bottom: 3px solid var(--border-olive);
+  color: var(--paper-cream);
+  padding: 8px 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.brand-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.brand-emblem {
+  background: var(--brass);
+  color: #161412;
+  padding: 2px 7px;
+  font-size: 12px;
+  font-weight: 900;
+  box-shadow: 2px 2px 0 #0d0f0e;
+}
+
+.top-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.pixel-btn {
+  font-family: var(--font-pixel);
+  background: var(--paper-kraft);
+  color: var(--ink-dark);
+  border: 2px solid var(--ink-dark);
+  box-shadow: 3px 3px 0 #100e0c;
+  padding: 6px 12px;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: transform 0.06s ease, box-shadow 0.06s ease;
+}
+
+.pixel-btn:hover:not(:disabled) {
+  background: var(--paper-cream);
+  transform: translate(-1px, -1px);
+  box-shadow: 4px 4px 0 #100e0c;
+}
+
+.pixel-btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 #100e0c;
+}
+
+.pixel-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.pixel-btn.brass {
+  background: var(--brass);
+  color: #171411;
+}
+
+.pixel-btn.approve {
+  background: var(--stamp-green);
+  color: #f3efe4;
+}
+
+.pixel-btn.crimson {
+  background: var(--stamp-red);
+  color: #f3efe4;
+}
+
+.paper-sheet {
+  background: var(--paper-kraft);
+  border: 3px solid var(--ink-dark);
+  box-shadow: inset 0 0 0 2px #bcae91, 6px 6px 0 rgba(10, 8, 7, 0.72);
+  position: relative;
+}
+
+.ink-stamp-mark {
+  display: inline-block;
+  padding: 4px 12px;
+  border: 3px solid currentColor;
+  font-weight: 900;
+  font-size: 15px;
+  letter-spacing: 0.08em;
+  transform: rotate(-6deg);
+  text-transform: uppercase;
+  box-shadow: inset 0 0 0 1px currentColor;
+  background: rgba(236, 227, 204, 0.86);
+  pointer-events: none;
+}
+
+.ink-stamp-mark.approve {
+  color: var(--stamp-green);
+}
+
+.ink-stamp-mark.pass {
+  color: var(--stamp-red);
+  transform: rotate(5deg);
+}

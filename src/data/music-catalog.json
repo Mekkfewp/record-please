@@ -1,0 +1,3756 @@
+{
+  "metadata": {
+    "gameTitleEn": "Record, Please",
+    "gameTitleZh": "请出示唱片",
+    "schemaVersion": "1.0.0",
+    "curatedDate": "2026-11-23",
+    "descriptionZh": "基于 Rate Your Music (RYM) 八大核心流派谱系的年代×地区切入矩阵、单曲→音乐家→专辑进阶树、代表性音乐文化文献与终局音乐家人格数据集"
+  },
+  "eras": [
+    {
+      "id": "1970s",
+      "labelZh": "1970年代出生（70后）",
+      "labelEn": "Born in the 1970s",
+      "birthYears": "1970-1979",
+      "formativeListeningYears": "1985-1996",
+      "mediaFormatZh": "卡式磁带、短波与调频电台、MTV黄金时代、早期打口磁带",
+      "culturalContextZh": "冷战尾声至九十年代初全球另类文化觉醒，华语世界经历台湾新音乐运动与北京摇滚爆发。"
+    },
+    {
+      "id": "1980s",
+      "labelZh": "1980年代出生（80后）",
+      "labelEn": "Born in the 1980s",
+      "birthYears": "1980-1989",
+      "formativeListeningYears": "1995-2006",
+      "mediaFormatZh": "打口CD/磁带、随身听 Discman、音乐杂志附赠光盘、早期 MP3 与独立论坛",
+      "culturalContextZh": "英伦摇滚、千禧电子实验、黄金年代嘻哈与打口文化交汇，实体唱片的最后黄金十年。"
+    },
+    {
+      "id": "1990s",
+      "labelZh": "1990年代出生（90后）",
+      "labelEn": "Born in the 1990s",
+      "birthYears": "1990-1999",
+      "formativeListeningYears": "2005-2016",
+      "mediaFormatZh": "iPod、豆瓣FM、MySpace、独立博客、早期流媒体与城市音乐节",
+      "culturalContextZh": "互联网打破地域壁垒，独立民谣、后摇、自赏复兴与当代跨界说唱同步进入青年视野。"
+    },
+    {
+      "id": "2000s",
+      "labelZh": "2000年代出生（00后）",
+      "labelEn": "Born in the 2000s",
+      "birthYears": "2000-2009",
+      "formativeListeningYears": "2015-2025",
+      "mediaFormatZh": "Spotify、网易云音乐、Bandcamp、短视频算法挖掘、RYM高分榜与黑胶回潮",
+      "culturalContextZh": "去中心化挖碟世代，昭和City Pop、东欧冷浪潮、南伦敦新爵士与当代实验说唱跨时空并置。"
+    }
+  ],
+  "regions": [
+    {
+      "id": "cn-mainland",
+      "nameZh": "中国大陆",
+      "nameEn": "Mainland China",
+      "sceneSummaryZh": "从崔健、魔岩三杰与打口带地下启蒙，演进至黄河民谣、石家庄工业诗学与当代后朋自赏浪潮。"
+    },
+    {
+      "id": "hk-tw",
+      "nameZh": "港台",
+      "nameEn": "Hong Kong & Taiwan",
+      "sceneSummaryZh": "兼具台湾校园民歌/新音乐批判传统、香港达明一派与王菲另类先锋，以及当代台湾独立乐团生态。"
+    },
+    {
+      "id": "jp",
+      "nameZh": "日本",
+      "nameEn": "Japan",
+      "sceneSummaryZh": "以极致唱片店文化孕育出细野晴臣/YMO、City Pop、涩谷系、日式梦泡后摇与前卫重型噪音。"
+    },
+    {
+      "id": "us",
+      "nameZh": "美国",
+      "nameEn": "United States",
+      "sceneSummaryZh": "爵士与嘻哈母体，同时诞生纽约地下朋克/无浪潮、学院独立、中西部Emo与底特律/芝加哥舞曲。"
+    },
+    {
+      "id": "uk",
+      "nameZh": "英国",
+      "nameEn": "United Kingdom",
+      "sceneSummaryZh": "后朋克、叮当独立、盯鞋音墙、IDM以及从Jungle到Dubstep/Nu-Jazz的低音俱乐部文化重镇。"
+    },
+    {
+      "id": "eu-continent",
+      "nameZh": "欧洲大陆",
+      "nameEn": "Continental Europe",
+      "sceneSummaryZh": "西德泡菜摇滚与电子先驱、法国冷浪潮与法式浩室、北欧极地艺术流行与法式黑自赏发源地。"
+    },
+    {
+      "id": "latam",
+      "nameZh": "拉美",
+      "nameEn": "Latin America",
+      "sceneSummaryZh": "巴西Bossa Nova与热带主义实验、阿根廷摇滚与电子采样美学，以及当代拉美前卫俱乐部与新民谣。"
+    }
+  ],
+  "entryPoints": [
+    {
+      "id": "1970s-cn-mainland",
+      "eraId": "1970s",
+      "regionId": "cn-mainland",
+      "formativeYears": "1985-1996",
+      "globalPopIcon": {
+        "artist": "Nirvana / Michael Jackson",
+        "work": "Nevermind / Dangerous",
+        "year": 1991
+      },
+      "localSignatureMusician": {
+        "artist": "窦唯 (Dou Wei) / 崔健 (Cui Jian)",
+        "single": "黑色梦中",
+        "album": "黑梦 (Black Dream)",
+        "year": 1994,
+        "rymGenres": [
+          "Post-Punk",
+          "Dream Pop"
+        ]
+      },
+      "bridgeLineageIds": [
+        "punk-post-punk",
+        "indie-shoegaze-post-rock",
+        "folk-psych-regional"
+      ],
+      "bridgeNodeIds": [
+        "post-punk",
+        "dream-pop",
+        "chinese-folk-dakou"
+      ],
+      "clerkNoteZh": "从《黑梦》的冷冽贝斯与梦境混响可无缝引向The Cure、Bauhaus与Cocteau Twins。"
+    },
+    {
+      "id": "1970s-hk-tw",
+      "eraId": "1970s",
+      "regionId": "hk-tw",
+      "formativeYears": "1985-1996",
+      "globalPopIcon": {
+        "artist": "Madonna / Pet Shop Boys",
+        "work": "Like a Prayer / Actually",
+        "year": 1989
+      },
+      "localSignatureMusician": {
+        "artist": "王菲 (Faye Wong) / 达明一派 / 罗大佑",
+        "single": "浮躁",
+        "album": "浮躁 (Fuzao) / 石头记",
+        "year": 1996,
+        "rymGenres": [
+          "Dream Pop",
+          "Synthpop"
+        ]
+      },
+      "bridgeLineageIds": [
+        "indie-shoegaze-post-rock",
+        "electronic-club",
+        "art-pop-city-pop"
+      ],
+      "bridgeNodeIds": [
+        "dream-pop",
+        "synthpop",
+        "art-rock"
+      ],
+      "clerkNoteZh": "王菲1996年《浮躁》由极地双子星跨刀制作，是华语流行通往4AD仙音与自赏派的天然桥梁。"
+    },
+    {
+      "id": "1970s-jp",
+      "eraId": "1970s",
+      "regionId": "jp",
+      "formativeYears": "1985-1996",
+      "globalPopIcon": {
+        "artist": "David Bowie / Prince",
+        "work": "Let's Dance / Purple Rain",
+        "year": 1984
+      },
+      "localSignatureMusician": {
+        "artist": "山下达郎 (Tatsuro Yamashita) / Flipper's Guitar",
+        "single": "Sparkle / Plastic Love (竹内玛莉亚)",
+        "album": "For You / Camera Talk",
+        "year": 1982,
+        "rymGenres": [
+          "City Pop",
+          "Shibuya-kei"
+        ]
+      },
+      "bridgeLineageIds": [
+        "art-pop-city-pop",
+        "indie-shoegaze-post-rock",
+        "jazz"
+      ],
+      "bridgeNodeIds": [
+        "city-pop-shibuya-kei",
+        "jangle-pop",
+        "spiritual-jazz-fusion"
+      ],
+      "clerkNoteZh": "从泡沫经济都会律动与涩谷唱片行拼贴美学切入City Pop、叮当吉他与爵士融合。"
+    },
+    {
+      "id": "1970s-us",
+      "eraId": "1970s",
+      "regionId": "us",
+      "formativeYears": "1985-1996",
+      "globalPopIcon": {
+        "artist": "Prince / Nirvana",
+        "work": "Sign o' the Times / Nevermind",
+        "year": 1987
+      },
+      "localSignatureMusician": {
+        "artist": "Sonic Youth / R.E.M. / Public Enemy",
+        "single": "Teen Age Riot",
+        "album": "Daydream Nation / Murmur",
+        "year": 1988,
+        "rymGenres": [
+          "Noise Rock",
+          "Jangle Pop",
+          "Hardcore Hip-Hop"
+        ]
+      },
+      "bridgeLineageIds": [
+        "punk-post-punk",
+        "indie-shoegaze-post-rock",
+        "hip-hop-beats"
+      ],
+      "bridgeNodeIds": [
+        "no-wave-noise-rock",
+        "jangle-pop",
+        "golden-age-boom-bap"
+      ],
+      "clerkNoteZh": "美国大学电台与MTV世代，可分流至噪音摇滚、学院叮当流行与黄金年代硬核说唱。"
+    },
+    {
+      "id": "1970s-uk",
+      "eraId": "1970s",
+      "regionId": "uk",
+      "formativeYears": "1985-1996",
+      "globalPopIcon": {
+        "artist": "New Order / Oasis",
+        "work": "Blue Monday / (What's the Story) Morning Glory?",
+        "year": 1983
+      },
+      "localSignatureMusician": {
+        "artist": "The Smiths / My Bloody Valentine",
+        "single": "There Is a Light That Never Goes Out",
+        "album": "The Queen Is Dead / Loveless",
+        "year": 1986,
+        "rymGenres": [
+          "Jangle Pop",
+          "Shoegaze"
+        ]
+      },
+      "bridgeLineageIds": [
+        "indie-shoegaze-post-rock",
+        "punk-post-punk",
+        "electronic-club"
+      ],
+      "bridgeNodeIds": [
+        "jangle-pop",
+        "shoegaze",
+        "synthpop"
+      ],
+      "clerkNoteZh": "曼彻斯特独立吉他与第二爱情之夏舞池双线并行，直通Indie、Shoegaze与俱乐部电子。"
+    },
+    {
+      "id": "1970s-eu-continent",
+      "eraId": "1970s",
+      "regionId": "eu-continent",
+      "formativeYears": "1985-1996",
+      "globalPopIcon": {
+        "artist": "Depeche Mode / Kraftwerk",
+        "work": "Violator / Computer World",
+        "year": 1990
+      },
+      "localSignatureMusician": {
+        "artist": "Asylum Party / Einstürzende Neubauten",
+        "single": "Julia",
+        "album": "Borderline / Halber Mensch",
+        "year": 1989,
+        "rymGenres": [
+          "Coldwave",
+          "Industrial"
+        ]
+      },
+      "bridgeLineageIds": [
+        "punk-post-punk",
+        "electronic-club",
+        "heavy-industrial-avant"
+      ],
+      "bridgeNodeIds": [
+        "coldwave-goth",
+        "krautrock-kosmische",
+        "industrial"
+      ],
+      "clerkNoteZh": "法式冷浪潮与柏林工业废铁声学，精准导向Coldwave、Krautrock与早期工业实验。"
+    },
+    {
+      "id": "1970s-latam",
+      "eraId": "1970s",
+      "regionId": "latam",
+      "formativeYears": "1985-1996",
+      "globalPopIcon": {
+        "artist": "The Cure / Queen",
+        "work": "Disintegration / The Works",
+        "year": 1989
+      },
+      "localSignatureMusician": {
+        "artist": "Charly García / Soda Stereo",
+        "single": "Nos siguen pegando abajo / De música ligera",
+        "album": "Clics modernos / Canción animal",
+        "year": 1983,
+        "rymGenres": [
+          "New Wave",
+          "Alternative Rock"
+        ]
+      },
+      "bridgeLineageIds": [
+        "art-pop-city-pop",
+        "punk-post-punk",
+        "indie-shoegaze-post-rock"
+      ],
+      "bridgeNodeIds": [
+        "art-rock",
+        "post-punk",
+        "shoegaze"
+      ],
+      "clerkNoteZh": "阿根廷民主化前后的新浪潮与拉美摇滚巨擘，自然过渡至Art Rock、Post-Punk与Shoegaze。"
+    },
+    {
+      "id": "1980s-cn-mainland",
+      "eraId": "1980s",
+      "regionId": "cn-mainland",
+      "formativeYears": "1995-2006",
+      "globalPopIcon": {
+        "artist": "Radiohead / Linkin Park",
+        "work": "OK Computer / Hybrid Theory",
+        "year": 1997
+      },
+      "localSignatureMusician": {
+        "artist": "朴树 (Pu Shu) / 野孩子 (Wild Children) / 清醒",
+        "single": "那些花儿 / 黄河谣",
+        "album": "我去2000年 / 咒语",
+        "year": 1999,
+        "rymGenres": [
+          "Indie Pop",
+          "Chinese Folk"
+        ]
+      },
+      "bridgeLineageIds": [
+        "folk-psych-regional",
+        "indie-shoegaze-post-rock",
+        "electronic-club"
+      ],
+      "bridgeNodeIds": [
+        "chinese-folk-dakou",
+        "post-rock",
+        "ambient-idm"
+      ],
+      "clerkNoteZh": "打口碟世代核心旅客：借Radiohead连接Post-Rock与IDM，借野孩子连接黄河民谣与打口摇滚。"
+    },
+    {
+      "id": "1980s-hk-tw",
+      "eraId": "1980s",
+      "regionId": "hk-tw",
+      "formativeYears": "1995-2006",
+      "globalPopIcon": {
+        "artist": "Coldplay / Britney Spears",
+        "work": "Parachutes / ...Baby One More Time",
+        "year": 2000
+      },
+      "localSignatureMusician": {
+        "artist": "周杰伦 (Jay Chou) / 陈绮贞 (Cheer Chen)",
+        "single": "爱在西元前 / 小步舞曲",
+        "album": "范特西 / 吉他手",
+        "year": 2001,
+        "rymGenres": [
+          "Mandopop",
+          "Indie Folk",
+          "Contemporary R&B"
+        ]
+      },
+      "bridgeLineageIds": [
+        "folk-psych-regional",
+        "art-pop-city-pop",
+        "hip-hop-beats"
+      ],
+      "bridgeNodeIds": [
+        "indie-freak-folk",
+        "chamber-baroque-pop",
+        "instrumental-beats-plunderphonics"
+      ],
+      "clerkNoteZh": "由陈绮贞原声清新审美切入独立民谣，由千禧华语编曲中的古典与R&B采样拆解至节拍艺术。"
+    },
+    {
+      "id": "1980s-jp",
+      "eraId": "1980s",
+      "regionId": "jp",
+      "formativeYears": "1995-2006",
+      "globalPopIcon": {
+        "artist": "宇多田光 (Utada Hikaru) / Björk",
+        "work": "First Love / Homogenic",
+        "year": 1999
+      },
+      "localSignatureMusician": {
+        "artist": "Fishmans / 椎名林檎 (Sheena Ringo) / Nujabes",
+        "single": "Long Season / Luv(sic)",
+        "album": "Long Season / 无罪偿还 / Modal Soul",
+        "year": 1996,
+        "rymGenres": [
+          "Dream Pop",
+          "Art Rock",
+          "Jazz Rap"
+        ]
+      },
+      "bridgeLineageIds": [
+        "indie-shoegaze-post-rock",
+        "hip-hop-beats",
+        "art-pop-city-pop"
+      ],
+      "bridgeNodeIds": [
+        "dream-pop",
+        "jazz-rap",
+        "indietronica-art-pop"
+      ],
+      "clerkNoteZh": "千禧前后日本百花齐放，Fishmans与Nujabes分别是通往梦幻后摇与器乐爵士嘻哈的黄金入口。"
+    },
+    {
+      "id": "1980s-us",
+      "eraId": "1980s",
+      "regionId": "us",
+      "formativeYears": "1995-2006",
+      "globalPopIcon": {
+        "artist": "Eminem / The Strokes",
+        "work": "The Marshall Mathers LP / Is This It",
+        "year": 2001
+      },
+      "localSignatureMusician": {
+        "artist": "Neutral Milk Hotel / American Football / Madvillain",
+        "single": "Never Meant / All Caps",
+        "album": "In the Aeroplane Over the Sea / American Football / Madvillainy",
+        "year": 1999,
+        "rymGenres": [
+          "Indie Folk",
+          "Midwest Emo",
+          "Abstract Hip-Hop"
+        ]
+      },
+      "bridgeLineageIds": [
+        "folk-psych-regional",
+        "indie-shoegaze-post-rock",
+        "hip-hop-beats"
+      ],
+      "bridgeNodeIds": [
+        "indie-freak-folk",
+        "slowcore-midwest-emo",
+        "experimental-hip-hop"
+      ],
+      "clerkNoteZh": "北美独立厂牌与地下说唱黄金期，直通Indie Folk、Midwest Emo与抽象实验嘻哈。"
+    },
+    {
+      "id": "1980s-uk",
+      "eraId": "1980s",
+      "regionId": "uk",
+      "formativeYears": "1995-2006",
+      "globalPopIcon": {
+        "artist": "Blur / Radiohead",
+        "work": "Parklife / Kid A",
+        "year": 2000
+      },
+      "localSignatureMusician": {
+        "artist": "Portishead / Aphex Twin / Mogwai",
+        "single": "Glory Box / Windowlicker",
+        "album": "Dummy / Richard D. James Album / Young Team",
+        "year": 1996,
+        "rymGenres": [
+          "Trip Hop",
+          "IDM",
+          "Post-Rock"
+        ]
+      },
+      "bridgeLineageIds": [
+        "electronic-club",
+        "indie-shoegaze-post-rock"
+      ],
+      "bridgeNodeIds": [
+        "ambient-idm",
+        "uk-bass",
+        "post-rock"
+      ],
+      "clerkNoteZh": "从Britpop退潮后的迷幻电子与格拉斯哥器乐摇滚切入IDM、UK Bass与Post-Rock。"
+    },
+    {
+      "id": "1980s-eu-continent",
+      "eraId": "1980s",
+      "regionId": "eu-continent",
+      "formativeYears": "1995-2006",
+      "globalPopIcon": {
+        "artist": "Daft Punk / Björk",
+        "work": "Discovery / Vespertine",
+        "year": 2001
+      },
+      "localSignatureMusician": {
+        "artist": "Air / Sigur Rós",
+        "single": "Sexy Boy / Svefn-g-englar",
+        "album": "Moon Safari / Ágætis byrjun",
+        "year": 1999,
+        "rymGenres": [
+          "Downtempo",
+          "Post-Rock"
+        ]
+      },
+      "bridgeLineageIds": [
+        "electronic-club",
+        "art-pop-city-pop",
+        "indie-shoegaze-post-rock"
+      ],
+      "bridgeNodeIds": [
+        "house-detroit-techno",
+        "indietronica-art-pop",
+        "post-rock"
+      ],
+      "clerkNoteZh": "French Touch电子浪潮与冰岛极光后摇共同打开俱乐部浩室、艺术流行与交响后摇。"
+    },
+    {
+      "id": "1980s-latam",
+      "eraId": "1980s",
+      "regionId": "latam",
+      "formativeYears": "1995-2006",
+      "globalPopIcon": {
+        "artist": "Shakira / Manu Chao",
+        "work": "Dónde Están los Ladrones? / Clandestino",
+        "year": 1998
+      },
+      "localSignatureMusician": {
+        "artist": "Gustavo Cerati / Café Tacvba",
+        "single": "Puente",
+        "album": "Bocanada / Re",
+        "year": 1999,
+        "rymGenres": [
+          "Art Pop",
+          "Trip Hop",
+          "Latin Alternative"
+        ]
+      },
+      "bridgeLineageIds": [
+        "hip-hop-beats",
+        "art-pop-city-pop",
+        "folk-psych-regional"
+      ],
+      "bridgeNodeIds": [
+        "instrumental-beats-plunderphonics",
+        "indietronica-art-pop",
+        "tropicalia"
+      ],
+      "clerkNoteZh": "Cerati《Bocanada》以MPC采样融合迷幻摇滚与电子慢拍，是拉美乐迷跨入采样拼贴与艺术流行的钥匙。"
+    },
+    {
+      "id": "1990s-cn-mainland",
+      "eraId": "1990s",
+      "regionId": "cn-mainland",
+      "formativeYears": "2005-2016",
+      "globalPopIcon": {
+        "artist": "Avril Lavigne / Taylor Swift",
+        "work": "Under My Skin / 1989",
+        "year": 2014
+      },
+      "localSignatureMusician": {
+        "artist": "万能青年旅店 (Omnipotent Youth Society) / 周云蓬 / 刺猬",
+        "single": "杀死那个石家庄人",
+        "album": "万能青年旅店 / 中国孩子",
+        "year": 2010,
+        "rymGenres": [
+          "Indie Rock",
+          "Progressive Rock",
+          "Chinese Folk"
+        ]
+      },
+      "bridgeLineageIds": [
+        "folk-psych-regional",
+        "indie-shoegaze-post-rock",
+        "art-pop-city-pop"
+      ],
+      "bridgeNodeIds": [
+        "chinese-folk-dakou",
+        "post-rock",
+        "art-rock"
+      ],
+      "clerkNoteZh": "豆瓣FM世代的共同精神锚点：从万青的小号与长篇器乐可顺畅延伸至Art Rock、Post-Rock与民谣。"
+    },
+    {
+      "id": "1990s-hk-tw",
+      "eraId": "1990s",
+      "regionId": "hk-tw",
+      "formativeYears": "2005-2016",
+      "globalPopIcon": {
+        "artist": "五月天 (Mayday) / Adele",
+        "work": "第二人生 / 21",
+        "year": 2011
+      },
+      "localSignatureMusician": {
+        "artist": "草东没有派对 (No Party For Cao Dong) / 苏打绿 / 张悬",
+        "single": "大风吹 / 山海",
+        "album": "丑奴儿 / 冬 未了",
+        "year": 2016,
+        "rymGenres": [
+          "Indie Rock",
+          "Post-Rock",
+          "Chamber Pop"
+        ]
+      },
+      "bridgeLineageIds": [
+        "indie-shoegaze-post-rock",
+        "art-pop-city-pop",
+        "punk-post-punk"
+      ],
+      "bridgeNodeIds": [
+        "post-rock",
+        "slowcore-midwest-emo",
+        "chamber-baroque-pop"
+      ],
+      "clerkNoteZh": "《丑奴儿》的静动反差与数学节拍可引向Midwest Emo与Post-Rock，苏打绿则通向室内巴洛克流行。"
+    },
+    {
+      "id": "1990s-jp",
+      "eraId": "1990s",
+      "regionId": "jp",
+      "formativeYears": "2005-2016",
+      "globalPopIcon": {
+        "artist": "Perfume / RADWIMPS",
+        "work": "GAME / 君の名は。",
+        "year": 2008
+      },
+      "localSignatureMusician": {
+        "artist": "toe / きのこ帝国 (Kinoko Teikoku)",
+        "single": "グッドバイ / クロノスタシス",
+        "album": "the book about my idle plot on a vague anxiety / 渦になる",
+        "year": 2005,
+        "rymGenres": [
+          "Math Rock",
+          "Post-Rock",
+          "Shoegaze"
+        ]
+      },
+      "bridgeLineageIds": [
+        "indie-shoegaze-post-rock",
+        "electronic-club",
+        "art-pop-city-pop"
+      ],
+      "bridgeNodeIds": [
+        "slowcore-midwest-emo",
+        "post-rock",
+        "shoegaze",
+        "synthpop"
+      ],
+      "clerkNoteZh": "日式数摇名团toe与蘑菇帝国构成通往Midwest Emo、Post-Rock与Shoegaze的高速通道。"
+    },
+    {
+      "id": "1990s-us",
+      "eraId": "1990s",
+      "regionId": "us",
+      "formativeYears": "2005-2016",
+      "globalPopIcon": {
+        "artist": "Kanye West / Frank Ocean",
+        "work": "My Beautiful Dark Twisted Fantasy / Blonde",
+        "year": 2010
+      },
+      "localSignatureMusician": {
+        "artist": "Kendrick Lamar / Beach House / Deafheaven",
+        "single": "Alright / Myth / Dream House",
+        "album": "To Pimp a Butterfly / Teen Dream / Sunbather",
+        "year": 2015,
+        "rymGenres": [
+          "Jazz Rap",
+          "Dream Pop",
+          "Blackgaze"
+        ]
+      },
+      "bridgeLineageIds": [
+        "hip-hop-beats",
+        "jazz",
+        "indie-shoegaze-post-rock",
+        "heavy-industrial-avant"
+      ],
+      "bridgeNodeIds": [
+        "jazz-rap",
+        "spiritual-jazz-fusion",
+        "dream-pop",
+        "blackgaze"
+      ],
+      "clerkNoteZh": "Pitchfork与博客黄金年代，一举打通爵士说唱、灵性爵士、梦幻流行与粉红黑自赏。"
+    },
+    {
+      "id": "1990s-uk",
+      "eraId": "1990s",
+      "regionId": "uk",
+      "formativeYears": "2005-2016",
+      "globalPopIcon": {
+        "artist": "Arctic Monkeys / Amy Winehouse",
+        "work": "Whatever People Say I Am, That's What I'm Not / Back to Black",
+        "year": 2006
+      },
+      "localSignatureMusician": {
+        "artist": "Burial / Yussef Kamaal / FKA twigs",
+        "single": "Archangel / Strings of Light",
+        "album": "Untrue / Black Focus / LP1",
+        "year": 2007,
+        "rymGenres": [
+          "Dubstep",
+          "Nu-Jazz",
+          "Art Pop"
+        ]
+      },
+      "bridgeLineageIds": [
+        "electronic-club",
+        "jazz",
+        "art-pop-city-pop"
+      ],
+      "bridgeNodeIds": [
+        "uk-bass",
+        "nu-jazz",
+        "indietronica-art-pop"
+      ],
+      "clerkNoteZh": "南伦敦海盗电台与低音脉络直接串联Burial的雨夜Dubstep与Yussef Kamaal的新爵士。"
+    },
+    {
+      "id": "1990s-eu-continent",
+      "eraId": "1990s",
+      "regionId": "eu-continent",
+      "formativeYears": "2005-2016",
+      "globalPopIcon": {
+        "artist": "Stromae / Phoenix",
+        "work": "Racine carrée / Wolfgang Amadeus Phoenix",
+        "year": 2013
+      },
+      "localSignatureMusician": {
+        "artist": "Alcest / Moderat",
+        "single": "Percées de lumière / Bad Kingdom",
+        "album": "Écailles de lune / II",
+        "year": 2010,
+        "rymGenres": [
+          "Blackgaze",
+          "IDM"
+        ]
+      },
+      "bridgeLineageIds": [
+        "heavy-industrial-avant",
+        "indie-shoegaze-post-rock",
+        "electronic-club"
+      ],
+      "bridgeNodeIds": [
+        "blackgaze",
+        "shoegaze",
+        "ambient-idm"
+      ],
+      "clerkNoteZh": "法国Alcest与柏林Moderat分别开启黑自赏音墙与精细电子节拍两条进阶路线。"
+    },
+    {
+      "id": "1990s-latam",
+      "eraId": "1990s",
+      "regionId": "latam",
+      "formativeYears": "2005-2016",
+      "globalPopIcon": {
+        "artist": "Calle 13 / Julieta Venegas",
+        "work": "Entren los que quieran / Limón y Sal",
+        "year": 2010
+      },
+      "localSignatureMusician": {
+        "artist": "Natalia Lafourcade / Juana Molina",
+        "single": "Hasta la Raíz / Eras",
+        "album": "Hasta la Raíz / Wed 21",
+        "year": 2015,
+        "rymGenres": [
+          "Chamber Folk",
+          "Folktronica"
+        ]
+      },
+      "bridgeLineageIds": [
+        "folk-psych-regional",
+        "art-pop-city-pop"
+      ],
+      "bridgeNodeIds": [
+        "tropicalia",
+        "indie-freak-folk",
+        "indietronica-art-pop"
+      ],
+      "clerkNoteZh": "当代拉美新民谣与实验循环电子，向上回溯巴西热带主义传统，向下连接独立电子艺术流行。"
+    },
+    {
+      "id": "2000s-cn-mainland",
+      "eraId": "2000s",
+      "regionId": "cn-mainland",
+      "formativeYears": "2015-2025",
+      "globalPopIcon": {
+        "artist": "Billie Eilish / The Weeknd",
+        "work": "When We All Fall Asleep, Where Do We Go? / After Hours",
+        "year": 2019
+      },
+      "localSignatureMusician": {
+        "artist": "重塑雕像的权利 (Re-TROS) / 缺省 (Default) / 绝对纯洁",
+        "single": "Pigs in the River",
+        "album": "Before the Applause (喝彩之后) / California Nebula",
+        "year": 2017,
+        "rymGenres": [
+          "Post-Punk",
+          "Krautrock",
+          "Shoegaze"
+        ]
+      },
+      "bridgeLineageIds": [
+        "punk-post-punk",
+        "electronic-club",
+        "indie-shoegaze-post-rock"
+      ],
+      "bridgeNodeIds": [
+        "post-punk",
+        "krautrock-kosmische",
+        "shoegaze"
+      ],
+      "clerkNoteZh": "流媒体与乐队综艺后世代，重塑雕像的权利直接桥接Bauhaus、Gang of Four与德国Motorik律动。"
+    },
+    {
+      "id": "2000s-hk-tw",
+      "eraId": "2000s",
+      "regionId": "hk-tw",
+      "formativeYears": "2015-2025",
+      "globalPopIcon": {
+        "artist": "NewJeans / Dua Lipa",
+        "work": "Get Up / Future Nostalgia",
+        "year": 2023
+      },
+      "localSignatureMusician": {
+        "artist": "落日飞车 (Sunset Rollercoaster) / 大象体操 (Elephant Gym)",
+        "single": "My Jinji / 水底",
+        "album": "Cassa Nova / 水底 (Underwater)",
+        "year": 2018,
+        "rymGenres": [
+          "City Pop",
+          "Sophisti-Pop",
+          "Math Rock"
+        ]
+      },
+      "bridgeLineageIds": [
+        "art-pop-city-pop",
+        "jazz",
+        "indie-shoegaze-post-rock"
+      ],
+      "bridgeNodeIds": [
+        "city-pop-shibuya-kei",
+        "nu-jazz",
+        "post-rock"
+      ],
+      "clerkNoteZh": "落日飞车的浪漫合成器直通80年代日本City Pop，大象体操的贝斯领奏则连接数摇与新爵士。"
+    },
+    {
+      "id": "2000s-jp",
+      "eraId": "2000s",
+      "regionId": "jp",
+      "formativeYears": "2015-2025",
+      "globalPopIcon": {
+        "artist": "米津玄师 (Kenshi Yonezu) / 藤井风 (Fujii Kaze)",
+        "work": "STRAY SHEEP / HELP EVER HURT NEVER",
+        "year": 2020
+      },
+      "localSignatureMusician": {
+        "artist": "青叶市子 (Ichiko Aoba) / 羊文学 / 坂本慎太郎",
+        "single": "Porcelain / 光るとき",
+        "album": "アダンの風 (Windswept Adan) / our hope",
+        "year": 2020,
+        "rymGenres": [
+          "Chamber Folk",
+          "Alternative Rock",
+          "Psychedelic Pop"
+        ]
+      },
+      "bridgeLineageIds": [
+        "folk-psych-regional",
+        "art-pop-city-pop",
+        "jazz"
+      ],
+      "bridgeNodeIds": [
+        "60s-70s-folk-revival",
+        "chamber-baroque-pop",
+        "cool-modal"
+      ],
+      "clerkNoteZh": "青叶市子在RYM全球年轻乐迷中奉若神明，自然引向Nick Drake式室内民谣与巴洛克编曲。"
+    },
+    {
+      "id": "2000s-us",
+      "eraId": "2000s",
+      "regionId": "us",
+      "formativeYears": "2015-2025",
+      "globalPopIcon": {
+        "artist": "Tyler, the Creator / Olivia Rodrigo",
+        "work": "IGOR / SOUR",
+        "year": 2019
+      },
+      "localSignatureMusician": {
+        "artist": "Weyes Blood / JPEGMAFIA / Phoebe Bridgers",
+        "single": "Andromeda / BALD! / Kyoto",
+        "album": "Titanic Rising / Veteran / Punisher",
+        "year": 2019,
+        "rymGenres": [
+          "Chamber Pop",
+          "Experimental Hip-Hop",
+          "Indie Folk"
+        ]
+      },
+      "bridgeLineageIds": [
+        "art-pop-city-pop",
+        "hip-hop-beats",
+        "folk-psych-regional"
+      ],
+      "bridgeNodeIds": [
+        "chamber-baroque-pop",
+        "experimental-hip-hop",
+        "indie-freak-folk"
+      ],
+      "clerkNoteZh": "Bandcamp与RYM原生代，从Tyler与JPEGMAFIA切入实验说唱，从Weyes Blood回溯《Pet Sounds》。"
+    },
+    {
+      "id": "2000s-uk",
+      "eraId": "2000s",
+      "regionId": "uk",
+      "formativeYears": "2015-2025",
+      "globalPopIcon": {
+        "artist": "Charli xcx / Central Cee",
+        "work": "BRAT / Doja",
+        "year": 2024
+      },
+      "localSignatureMusician": {
+        "artist": "Black Country, New Road / black midi / The Comet Is Coming",
+        "single": "Concorde / Summon the Fire",
+        "album": "Ants From Up There / Schlagenheim / Trust in the Lifeforce...",
+        "year": 2022,
+        "rymGenres": [
+          "Post-Rock",
+          "Noise Rock",
+          "Nu-Jazz"
+        ]
+      },
+      "bridgeLineageIds": [
+        "indie-shoegaze-post-rock",
+        "punk-post-punk",
+        "jazz"
+      ],
+      "bridgeNodeIds": [
+        "post-rock",
+        "no-wave-noise-rock",
+        "nu-jazz"
+      ],
+      "clerkNoteZh": "南伦敦Windmill酒馆场景与Hyperpop并存，直接通往Slint式后摇、No Wave噪音与太空新爵士。"
+    },
+    {
+      "id": "2000s-eu-continent",
+      "eraId": "2000s",
+      "regionId": "eu-continent",
+      "formativeYears": "2015-2025",
+      "globalPopIcon": {
+        "artist": "ROSALÍA / Måneskin",
+        "work": "MOTOMAMI / Teatro d'ira: Vol. I",
+        "year": 2022
+      },
+      "localSignatureMusician": {
+        "artist": "ROSALÍA / Molchat Doma",
+        "single": "MALAMENTE / Судно (Sudno)",
+        "album": "El mal querer / Этажи (Etazhi)",
+        "year": 2018,
+        "rymGenres": [
+          "Art Pop",
+          "Nuevo Flamenco",
+          "Coldwave"
+        ]
+      },
+      "bridgeLineageIds": [
+        "art-pop-city-pop",
+        "punk-post-punk",
+        "folk-psych-regional"
+      ],
+      "bridgeNodeIds": [
+        "indietronica-art-pop",
+        "coldwave-goth"
+      ],
+      "clerkNoteZh": "短视频翻红的东欧冷浪潮Molchat Doma直通80年代Coldwave，ROSALÍA则打开前卫艺术流行。"
+    },
+    {
+      "id": "2000s-latam",
+      "eraId": "2000s",
+      "regionId": "latam",
+      "formativeYears": "2015-2025",
+      "globalPopIcon": {
+        "artist": "Bad Bunny / Karol G",
+        "work": "Un verano sin ti / Mañana Será Bonito",
+        "year": 2022
+      },
+      "localSignatureMusician": {
+        "artist": "Arca / Tim Bernardes",
+        "single": "Time / Nascer, Viver, Morrer",
+        "album": "KiCk i / Mil Coisas Invisíveis",
+        "year": 2020,
+        "rymGenres": [
+          "Deconstructed Club",
+          "Art Pop",
+          "Chamber Folk"
+        ]
+      },
+      "bridgeLineageIds": [
+        "art-pop-city-pop",
+        "heavy-industrial-avant",
+        "folk-psych-regional"
+      ],
+      "bridgeNodeIds": [
+        "indietronica-art-pop",
+        "industrial",
+        "tropicalia"
+      ],
+      "clerkNoteZh": "委内瑞拉制作人Arca衔接Björk与工业解构俱乐部，巴西Tim Bernardes温润承接热带主义血脉。"
+    }
+  ],
+  "lineages": [
+    {
+      "id": "jazz",
+      "order": 1,
+      "nameEn": "Jazz",
+      "nameZh": "爵士谱系",
+      "rymCoreGenres": [
+        "Bebop",
+        "Cool Jazz",
+        "Modal Jazz",
+        "Hard Bop",
+        "Post-Bop",
+        "Spiritual Jazz",
+        "Jazz-Fusion",
+        "Nu-Jazz"
+      ],
+      "summaryZh": "从40年代纽约俱乐部高难度比波普即兴，经调式留白与灵性祈祷，延伸至当代伦敦低音跨界新爵士。",
+      "nodes": [
+        {
+          "id": "bebop",
+          "tier": 1,
+          "subgenreEn": "Bebop",
+          "subgenreZh": "比波普",
+          "rymTags": [
+            "Bebop"
+          ],
+          "single": {
+            "title": "Ko-Ko",
+            "artist": "Charlie Parker",
+            "year": 1945,
+            "hookZh": "疾速和弦替代与自由飞翔的中音萨克斯独奏，开启现代爵士革命。"
+          },
+          "artist": {
+            "name": "Charlie Parker",
+            "nameZh": "查理·帕克",
+            "origin": "US (Kansas City / NYC)",
+            "activeEra": "1937-1955",
+            "significanceZh": "与Dizzy Gillespie、Thelonious Monk重塑现代爵士和声与即兴语法。"
+          },
+          "album": {
+            "essential": {
+              "title": "Jazz at Massey Hall",
+              "artist": "The Quintet",
+              "year": 1953,
+              "rymTags": [
+                "Bebop"
+              ],
+              "reasonZh": "集结Parker、Gillespie、Bud Powell、Mingus、Max Roach五大宗师的现场巅峰。"
+            },
+            "advancedFollowUp": {
+              "title": "Genius of Modern Music: Volume 1",
+              "artist": "Thelonious Monk",
+              "year": 1951,
+              "rymTags": [
+                "Bebop"
+              ],
+              "reasonZh": "棱角分明的不协和音程与留白节奏美学。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "hip-hop-beats",
+              "targetNodeId": "jazz-rap",
+              "reasonZh": "比波普切分韵律与蓝音唱片直接成为90年代爵士说唱采样矿藏。"
+            }
+          ]
+        },
+        {
+          "id": "cool-modal",
+          "tier": 2,
+          "subgenreEn": "Cool & Modal",
+          "subgenreZh": "冷爵士与调式爵士",
+          "rymTags": [
+            "Modal Jazz",
+            "Cool Jazz"
+          ],
+          "single": {
+            "title": "So What",
+            "artist": "Miles Davis",
+            "year": 1959,
+            "hookZh": "极简贝斯问答引入朵利亚调式，松弛留白极易令摇滚与古典听众沉浸。"
+          },
+          "artist": {
+            "name": "Miles Davis",
+            "nameZh": "迈尔斯·戴维斯",
+            "origin": "US (Illinois / NYC)",
+            "activeEra": "1944-1991",
+            "significanceZh": "五次引领爵士范式转移的传奇小号手与乐队统帅。"
+          },
+          "album": {
+            "essential": {
+              "title": "Kind of Blue",
+              "artist": "Miles Davis",
+              "year": 1959,
+              "rymTags": [
+                "Modal Jazz",
+                "Cool Jazz"
+              ],
+              "reasonZh": "调式爵士不朽圣经，跨越一切流派壁垒的终极入门唱片。"
+            },
+            "advancedFollowUp": {
+              "title": "Sunday at the Village Vanguard",
+              "artist": "Bill Evans Trio",
+              "year": 1961,
+              "rymTags": [
+                "Cool Jazz",
+                "Post-Bop"
+              ],
+              "reasonZh": "印象派钢琴和声与贝斯手Scott LaFaro三方平等对话的室内极品。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "ambient-idm",
+              "reasonZh": "调式留白与空间呼吸直接启发环境音乐先驱。"
+            }
+          ]
+        },
+        {
+          "id": "hard-bop-post-bop",
+          "tier": 3,
+          "subgenreEn": "Hard Bop & Post-Bop",
+          "subgenreZh": "硬波普与后波普",
+          "rymTags": [
+            "Hard Bop",
+            "Post-Bop"
+          ],
+          "single": {
+            "title": "Moanin'",
+            "artist": "Art Blakey and the Jazz Messengers",
+            "year": 1958,
+            "hookZh": "浓郁福音钢琴呼应与布鲁斯摇摆律动一秒抓耳。"
+          },
+          "artist": {
+            "name": "Wayne Shorter",
+            "nameZh": "韦恩·肖特",
+            "origin": "US (Newark)",
+            "activeEra": "1958-2023",
+            "significanceZh": "串联Jazz Messengers与Miles第二五重奏的Blue Note后波普作曲巨匠。"
+          },
+          "album": {
+            "essential": {
+              "title": "Moanin'",
+              "artist": "Art Blakey and the Jazz Messengers",
+              "year": 1958,
+              "rymTags": [
+                "Hard Bop"
+              ],
+              "reasonZh": "硬波普黄金年代最具生命力的标杆名盘。"
+            },
+            "advancedFollowUp": {
+              "title": "Speak No Evil",
+              "artist": "Wayne Shorter",
+              "year": 1966,
+              "rymTags": [
+                "Post-Bop",
+                "Modal Jazz"
+              ],
+              "reasonZh": "游走于冷峻悬疑和声与自由边缘的后波普典范。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "hip-hop-beats",
+              "targetNodeId": "golden-age-boom-bap",
+              "reasonZh": "Blue Note硬波普鼓点与铜管切片构筑了东海岸Boom Bap骨架。"
+            }
+          ]
+        },
+        {
+          "id": "spiritual-jazz-fusion",
+          "tier": 4,
+          "subgenreEn": "Spiritual & Jazz-Fusion",
+          "subgenreZh": "灵性爵士与爵士融合",
+          "rymTags": [
+            "Spiritual Jazz",
+            "Jazz-Fusion",
+            "Avant-Garde Jazz"
+          ],
+          "single": {
+            "title": "Acknowledgment",
+            "artist": "John Coltrane",
+            "year": 1965,
+            "hookZh": "四音动机层层升腾如冥想咒语，将器乐演奏化为超越宗教的精神洗礼。"
+          },
+          "artist": {
+            "name": "John Coltrane",
+            "nameZh": "约翰·科特兰",
+            "origin": "US (North Carolina / Philadelphia)",
+            "activeEra": "1945-1967",
+            "significanceZh": "开创灵性爵士与自由萨克斯探索，深远影响迷幻摇滚与极简主义。"
+          },
+          "album": {
+            "essential": {
+              "title": "A Love Supreme",
+              "artist": "John Coltrane",
+              "year": 1965,
+              "rymTags": [
+                "Spiritual Jazz",
+                "Modal Jazz"
+              ],
+              "reasonZh": "RYM全站殿堂神作，灵性爵士精神灯塔。"
+            },
+            "advancedFollowUp": {
+              "title": "In a Silent Way",
+              "artist": "Miles Davis",
+              "year": 1969,
+              "rymTags": [
+                "Jazz-Fusion",
+                "Ambient"
+              ],
+              "reasonZh": "插电键盘与磁带剪辑催生爵士融合与后摇空间美学（亦可延伸至1970《Bitches Brew》）。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "krautrock-kosmische",
+              "reasonZh": "电声融合与长篇磁带剪辑与西德Can等泡菜摇滚乐团同频共振。"
+            }
+          ]
+        },
+        {
+          "id": "nu-jazz",
+          "tier": 5,
+          "subgenreEn": "Nu-Jazz",
+          "subgenreZh": "新爵士",
+          "rymTags": [
+            "Nu-Jazz",
+            "Jazz-Funk",
+            "Broken Beat"
+          ],
+          "single": {
+            "title": "Strings of Light",
+            "artist": "Yussef Kamaal",
+            "year": 2016,
+            "hookZh": "南伦敦碎拍鼓点与温暖电钢琴交织出当代俱乐部夜色。"
+          },
+          "artist": {
+            "name": "Yussef Kamaal",
+            "nameZh": "Yussef Kamaal (Yussef Dayes & Kamaal Williams)",
+            "origin": "UK (South London)",
+            "activeEra": "2015-2017",
+            "significanceZh": "将英国海盗电台低音律动注入70年代爵士放克，引爆当代伦敦新爵士浪潮。"
+          },
+          "album": {
+            "essential": {
+              "title": "Black Focus",
+              "artist": "Yussef Kamaal",
+              "year": 2016,
+              "rymTags": [
+                "Nu-Jazz",
+                "Jazz-Funk",
+                "Broken Beat"
+              ],
+              "reasonZh": "2010年代英国新爵士复兴破圈代表作。"
+            },
+            "advancedFollowUp": {
+              "title": "Trust in the Lifeforce of the Deep Mystery",
+              "artist": "The Comet Is Coming",
+              "year": 2019,
+              "rymTags": [
+                "Nu-Jazz",
+                "Psychedelic",
+                "Jazz-Rock"
+              ],
+              "reasonZh": "Shabaka Hutchings以迷幻合成器与高能萨克斯连接灵性爵士与太空舞池。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "uk-bass",
+              "reasonZh": "共享南伦敦UK Garage、Jungle与低频俱乐部基因。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-how-to-listen-to-jazz",
+          "titleOriginal": "How to Listen to Jazz",
+          "titleZh": "如何听爵士",
+          "creator": "Ted Gioia",
+          "year": 2016,
+          "type": "书籍",
+          "summaryZh": "摒弃晦涩乐理，用结构与即兴听觉策略带新人听懂百年爵士脉络。"
+        },
+        {
+          "id": "lore-miles-autobiography",
+          "titleOriginal": "Miles: The Autobiography",
+          "titleZh": "迈尔斯·戴维斯自传",
+          "creator": "Miles Davis & Quincy Troupe",
+          "year": 1989,
+          "type": "口述史/自传",
+          "summaryZh": "第一人称街头口吻亲历从比波普到电声融合的五十年风云现场。"
+        },
+        {
+          "id": "lore-ken-burns-jazz",
+          "titleOriginal": "Jazz",
+          "titleZh": "爵士乐",
+          "creator": "Ken Burns",
+          "year": 2001,
+          "type": "纪录片",
+          "summaryZh": "十集史诗影像档案，呈现爵士与美国种族平权及现代都市史的共生。"
+        },
+        {
+          "id": "lore-summer-of-soul",
+          "titleOriginal": "Summer of Soul (...Or, When the Revolution Could Not Be Televised)",
+          "titleZh": "灵魂乐之夏",
+          "creator": "Questlove",
+          "year": 2021,
+          "type": "纪录片/现场电影",
+          "summaryZh": "重现1969年哈莱姆文化节，见证爵士、福音与放克点燃黑人文化觉醒。"
+        }
+      ]
+    },
+    {
+      "id": "punk-post-punk",
+      "order": 2,
+      "nameEn": "Punk & Post-Punk",
+      "nameZh": "朋克与后朋克谱系",
+      "rymCoreGenres": [
+        "Proto-Punk",
+        "Punk Rock",
+        "Post-Punk",
+        "Coldwave",
+        "Gothic Rock",
+        "No Wave",
+        "Noise Rock"
+      ],
+      "summaryZh": "从纽约工厂持续低音与七七朋克三和弦爆破，裂变为曼彻斯特冷冽空间美学、暗黑冷浪潮与微分音噪音实验。",
+      "nodes": [
+        {
+          "id": "proto-punk",
+          "tier": 1,
+          "subgenreEn": "Proto-Punk",
+          "subgenreZh": "原始朋克",
+          "rymTags": [
+            "Proto-Punk",
+            "Art Rock"
+          ],
+          "single": {
+            "title": "I'm Waiting for the Man",
+            "artist": "The Velvet Underground",
+            "year": 1967,
+            "hookZh": "粗粝桶式钢琴敲击与纽约街头纪实，刺破嬉皮乌托邦幻梦。"
+          },
+          "artist": {
+            "name": "The Velvet Underground",
+            "nameZh": "地下丝绒",
+            "origin": "US (New York)",
+            "activeEra": "1964-1973",
+            "significanceZh": "将先锋派持续音与文学现实注入摇滚，成为全球另类与独立音乐总源头。"
+          },
+          "album": {
+            "essential": {
+              "title": "The Velvet Underground & Nico",
+              "artist": "The Velvet Underground & Nico",
+              "year": 1967,
+              "rymTags": [
+                "Art Rock",
+                "Proto-Punk",
+                "Experimental Rock"
+              ],
+              "reasonZh": "摇滚史上最具开创性的地下启蒙大碟。"
+            },
+            "advancedFollowUp": {
+              "title": "Fun House",
+              "artist": "The Stooges",
+              "year": 1970,
+              "rymTags": [
+                "Proto-Punk",
+                "Garage Rock",
+                "Noise Rock"
+              ],
+              "reasonZh": "Iggy Pop原始嘶吼与自由萨克斯冲撞出的狂暴能量巅峰。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "art-rock",
+              "reasonZh": "John Cale与Lou Reed直接开启70年代艺术摇滚实验。"
+            }
+          ]
+        },
+        {
+          "id": "77-punk",
+          "tier": 2,
+          "subgenreEn": "'77 Punk",
+          "subgenreZh": "七七朋克",
+          "rymTags": [
+            "Punk Rock",
+            "Art Punk"
+          ],
+          "single": {
+            "title": "Complete Control",
+            "artist": "The Clash",
+            "year": 1977,
+            "hookZh": "三分钟高能吉他冲锋，由雷鬼传奇Lee \"Scratch\" Perry监制反击唱片工业。"
+          },
+          "artist": {
+            "name": "The Clash",
+            "nameZh": "冲撞乐队",
+            "origin": "UK (London)",
+            "activeEra": "1976-1986",
+            "significanceZh": "将牙买加雷鬼、Dub与工人阶级政治意识熔入朋克摇滚。"
+          },
+          "album": {
+            "essential": {
+              "title": "London Calling",
+              "artist": "The Clash",
+              "year": 1979,
+              "rymTags": [
+                "Punk Rock",
+                "New Wave",
+                "Post-Punk"
+              ],
+              "reasonZh": "跨越朋克、雷鬼、Ska与根源摇滚的双张史诗经典。"
+            },
+            "advancedFollowUp": {
+              "title": "Pink Flag",
+              "artist": "Wire",
+              "year": 1977,
+              "rymTags": [
+                "Art Punk",
+                "Punk Rock",
+                "Post-Punk"
+              ],
+              "reasonZh": "21首极简断章解构摇滚陈规，架起通向后朋克的桥梁。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "folk-psych-regional",
+              "targetNodeId": "zamrock-afrobeat",
+              "reasonZh": "由雷鬼/Dub跨种族反抗政治可进一步连接第三世界律动觉醒。"
+            }
+          ]
+        },
+        {
+          "id": "post-punk",
+          "tier": 3,
+          "subgenreEn": "Post-Punk",
+          "subgenreZh": "后朋克",
+          "rymTags": [
+            "Post-Punk"
+          ],
+          "single": {
+            "title": "Love Will Tear Us Apart",
+            "artist": "Joy Division",
+            "year": 1980,
+            "hookZh": "高把位旋律贝斯与凄冷合成器弦乐烘托出令人心碎的疏离挽歌。"
+          },
+          "artist": {
+            "name": "Joy Division",
+            "nameZh": "乔伊·迪维讯（快乐小分队）",
+            "origin": "UK (Manchester)",
+            "activeEra": "1976-1980",
+            "significanceZh": "携手制作人Martin Hannett将工业废墟空间混响转化为永恒后朋克美学。"
+          },
+          "album": {
+            "essential": {
+              "title": "Unknown Pleasures",
+              "artist": "Joy Division",
+              "year": 1979,
+              "rymTags": [
+                "Post-Punk"
+              ],
+              "reasonZh": "后朋克历史坐标与视觉听觉双重图腾。"
+            },
+            "advancedFollowUp": {
+              "title": "Entertainment!",
+              "artist": "Gang of Four",
+              "year": 1979,
+              "rymTags": [
+                "Post-Punk",
+                "Dance-Punk"
+              ],
+              "reasonZh": "刀锋切分吉他与放克律动剖析日常生活政治。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "synthpop",
+              "reasonZh": "Joy Division重组为New Order后直接打通后朋克与电子舞池。"
+            }
+          ]
+        },
+        {
+          "id": "coldwave-goth",
+          "tier": 4,
+          "subgenreEn": "Coldwave & Goth",
+          "subgenreZh": "冷浪潮与哥特摇滚",
+          "rymTags": [
+            "Gothic Rock",
+            "Coldwave",
+            "Darkwave"
+          ],
+          "single": {
+            "title": "Bela Lugosi's Dead",
+            "artist": "Bauhaus",
+            "year": 1979,
+            "hookZh": "九分钟Dub混响留白、极简鼓点与暗夜戏剧感定义哥特诞生时刻。"
+          },
+          "artist": {
+            "name": "The Cure",
+            "nameZh": "治疗乐队",
+            "origin": "UK (Crawley)",
+            "activeEra": "1978-present",
+            "significanceZh": "Robert Smith以幽闭鼓机、凄美合唱吉他与暗潮诗意影响全球另类青年。"
+          },
+          "album": {
+            "essential": {
+              "title": "Pornography",
+              "artist": "The Cure",
+              "year": 1982,
+              "rymTags": [
+                "Gothic Rock",
+                "Post-Punk"
+              ],
+              "reasonZh": "压抑部落鼓点与冰封吉他织体构筑的哥特摇滚巅峰。"
+            },
+            "advancedFollowUp": {
+              "title": "Borderline",
+              "artist": "Asylum Party",
+              "year": 1989,
+              "rymTags": [
+                "Coldwave",
+                "Post-Punk"
+              ],
+              "reasonZh": "80年代末法国冷浪潮代表作，机械鼓机与忧郁贝斯线交相辉映。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "indie-shoegaze-post-rock",
+              "targetNodeId": "dream-pop",
+              "reasonZh": "哥特与暗潮的合唱混响吉他直接滋养了4AD仙音与梦幻流行。"
+            }
+          ]
+        },
+        {
+          "id": "no-wave-noise-rock",
+          "tier": 5,
+          "subgenreEn": "No Wave & Noise Rock",
+          "subgenreZh": "无浪潮与噪音摇滚",
+          "rymTags": [
+            "Noise Rock",
+            "No Wave",
+            "Alternative Rock"
+          ],
+          "single": {
+            "title": "Teen Age Riot",
+            "artist": "Sonic Youth",
+            "year": 1988,
+            "hookZh": "迷幻特殊调弦吉他泛音铺垫后骤然迸发昂扬地下青春赞歌。"
+          },
+          "artist": {
+            "name": "Sonic Youth",
+            "nameZh": "音速青年",
+            "origin": "US (New York)",
+            "activeEra": "1981-2011",
+            "significanceZh": "把纽约No Wave微分音噪音实验带入美国独立与另类摇滚主流视野。"
+          },
+          "album": {
+            "essential": {
+              "title": "Daydream Nation",
+              "artist": "Sonic Youth",
+              "year": 1988,
+              "rymTags": [
+                "Noise Rock",
+                "Indie Rock"
+              ],
+              "reasonZh": "噪音吉他交响与地下摇滚曲式完美融合的双张巨作。"
+            },
+            "advancedFollowUp": {
+              "title": "The Ascension",
+              "artist": "Glenn Branca",
+              "year": 1981,
+              "rymTags": [
+                "No Wave",
+                "Totalism",
+                "Experimental Rock"
+              ],
+              "reasonZh": "多把电吉他齐奏泛音洪流的纽约无浪潮源头杰作。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "indie-shoegaze-post-rock",
+              "targetNodeId": "shoegaze",
+              "reasonZh": "音速青年的回授噪音实验直接启发了英伦自赏派音墙。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-please-kill-me",
+          "titleOriginal": "Please Kill Me: The Uncensored Oral History of Punk",
+          "titleZh": "请杀了我：朋克无删减口述史",
+          "creator": "Legs McNeil & Gillian McCain",
+          "year": 1996,
+          "type": "口述史",
+          "summaryZh": "串联Lou Reed、Iggy Pop、Patti Smith与Ramones原声访谈，重返纽约CBGB地下现场。"
+        },
+        {
+          "id": "lore-rip-it-up",
+          "titleOriginal": "Rip It Up and Start Again: Postpunk 1978–1984",
+          "titleZh": "撕碎重来：后朋克 1978–1984",
+          "creator": "Simon Reynolds",
+          "year": 2005,
+          "type": "书籍",
+          "summaryZh": "后朋克断代史权威巨著，剖析朋克后青年如何拥抱电子、Dub与先锋艺术。"
+        },
+        {
+          "id": "lore-decline-western-civ",
+          "titleOriginal": "The Decline of Western Civilization",
+          "titleZh": "西方文明的衰落",
+          "creator": "Penelope Spheeris",
+          "year": 1981,
+          "type": "纪录片",
+          "summaryZh": "直击1980年前后洛杉矶硬核朋克地下现场的生猛纪实经典。"
+        },
+        {
+          "id": "lore-joy-division-doc",
+          "titleOriginal": "Joy Division",
+          "titleZh": "乔伊·迪维讯",
+          "creator": "Grant Gee",
+          "year": 2007,
+          "type": "纪录片",
+          "summaryZh": "将曼彻斯特后工业城市记忆与乐队短暂传奇熔为一体的影像杰作。"
+        }
+      ]
+    },
+    {
+      "id": "indie-shoegaze-post-rock",
+      "order": 3,
+      "nameEn": "Indie, Shoegaze & Post-Rock",
+      "nameZh": "独立、自赏与后摇滚谱系",
+      "rymCoreGenres": [
+        "Jangle Pop",
+        "Shoegaze",
+        "Dream Pop",
+        "Slowcore",
+        "Midwest Emo",
+        "Post-Rock"
+      ],
+      "summaryZh": "从清脆叮当吉他独立精神出发，潜入失真混响音墙与梦幻仙音，最终走向奇数拍私语与恢弘无词后摇史诗。",
+      "nodes": [
+        {
+          "id": "jangle-pop",
+          "tier": 1,
+          "subgenreEn": "Jangle Pop",
+          "subgenreZh": "叮当流行",
+          "rymTags": [
+            "Jangle Pop",
+            "Indie Pop"
+          ],
+          "single": {
+            "title": "There Is a Light That Never Goes Out",
+            "artist": "The Smiths",
+            "year": 1986,
+            "hookZh": "晶莹叠录的叮当吉他与合成器弦乐，承载英伦青春最孤绝浪漫的夜车。"
+          },
+          "artist": {
+            "name": "The Smiths",
+            "nameZh": "史密斯乐队",
+            "origin": "UK (Manchester)",
+            "activeEra": "1982-1987",
+            "significanceZh": "Johnny Marr繁复清音吉他与Morrissey文学词作确立现代英伦Indie范式。"
+          },
+          "album": {
+            "essential": {
+              "title": "The Queen Is Dead",
+              "artist": "The Smiths",
+              "year": 1986,
+              "rymTags": [
+                "Jangle Pop",
+                "Indie Pop"
+              ],
+              "reasonZh": "80年代英国独立摇滚巅峰之作。"
+            },
+            "advancedFollowUp": {
+              "title": "Murmur",
+              "artist": "R.E.M.",
+              "year": 1983,
+              "rymTags": [
+                "Jangle Pop",
+                "College Rock"
+              ],
+              "reasonZh": "开启美国大学电台独立网络与另类摇滚时代的里程碑。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "city-pop-shibuya-kei",
+              "reasonZh": "Rough Trade叮当吉他美学直接催生日本涩谷系Flipper's Guitar。"
+            }
+          ]
+        },
+        {
+          "id": "shoegaze",
+          "tier": 2,
+          "subgenreEn": "Shoegaze",
+          "subgenreZh": "自赏派（盯鞋摇滚）",
+          "rymTags": [
+            "Shoegaze",
+            "Noise Pop"
+          ],
+          "single": {
+            "title": "Only Shallow",
+            "artist": "My Bloody Valentine",
+            "year": 1991,
+            "hookZh": "四声军鼓后失真却温柔起伏的摇把滑音音墙瞬间吞没听觉。"
+          },
+          "artist": {
+            "name": "My Bloody Valentine",
+            "nameZh": "我的血腥情人节",
+            "origin": "Ireland / UK",
+            "activeEra": "1983-present",
+            "significanceZh": "Kevin Shields独创Glide Guitar摇把滑音与反向混响，重新定义吉他音色边界。"
+          },
+          "album": {
+            "essential": {
+              "title": "Loveless",
+              "artist": "My Bloody Valentine",
+              "year": 1991,
+              "rymTags": [
+                "Shoegaze",
+                "Noise Pop"
+              ],
+              "reasonZh": "RYM自赏流派无可争议的至高圣典。"
+            },
+            "advancedFollowUp": {
+              "title": "Souvlaki",
+              "artist": "Slowdive",
+              "year": 1993,
+              "rymTags": [
+                "Shoegaze",
+                "Dream Pop"
+              ],
+              "reasonZh": "以空间延迟混响与伤感旋律构筑空灵星河的自赏另一极。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "heavy-industrial-avant",
+              "targetNodeId": "blackgaze",
+              "reasonZh": "自赏失真音墙与黑金属高速轮拨结合即诞生Blackgaze。"
+            }
+          ]
+        },
+        {
+          "id": "dream-pop",
+          "tier": 3,
+          "subgenreEn": "Dream Pop",
+          "subgenreZh": "梦幻流行",
+          "rymTags": [
+            "Dream Pop",
+            "Ethereal Wave"
+          ],
+          "single": {
+            "title": "Cherry-coloured Funk",
+            "artist": "Cocteau Twins",
+            "year": 1990,
+            "hookZh": "水波般的合唱吉他与超越语义的仙音吟唱令人如坠云端。"
+          },
+          "artist": {
+            "name": "Cocteau Twins",
+            "nameZh": "极地双子星",
+            "origin": "UK (Scotland)",
+            "activeEra": "1979-1997",
+            "significanceZh": "4AD厂牌灵魂，Elizabeth Fraser与Robin Guthrie重塑全球（含王菲《浮躁》）梦幻听觉。"
+          },
+          "album": {
+            "essential": {
+              "title": "Heaven or Las Vegas",
+              "artist": "Cocteau Twins",
+              "year": 1990,
+              "rymTags": [
+                "Dream Pop"
+              ],
+              "reasonZh": "梦幻流行最通透明亮的巅峰杰作。"
+            },
+            "advancedFollowUp": {
+              "title": "Long Season",
+              "artist": "Fishmans",
+              "year": 1996,
+              "rymTags": [
+                "Dream Pop",
+                "Neo-Psychedelia",
+                "Post-Rock"
+              ],
+              "reasonZh": "日本乐团以35分钟单曲打通Dream Pop、Dub与后摇循环。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "ambient-idm",
+              "reasonZh": "梦幻音景进一步抽离人声与鼓点即可自然滑入环境电子。"
+            }
+          ]
+        },
+        {
+          "id": "slowcore-midwest-emo",
+          "tier": 4,
+          "subgenreEn": "Slowcore & Midwest Emo",
+          "subgenreZh": "慢核与中西部情绪摇滚",
+          "rymTags": [
+            "Midwest Emo",
+            "Math Rock",
+            "Slowcore"
+          ],
+          "single": {
+            "title": "Never Meant",
+            "artist": "American Football",
+            "year": 1999,
+            "hookZh": "开放调弦清音双吉他交错点弦与奇数拍律动，凝结青春告别时刻。"
+          },
+          "artist": {
+            "name": "American Football",
+            "nameZh": "美式足球",
+            "origin": "US (Urbana, Illinois)",
+            "activeEra": "1997-present",
+            "significanceZh": "Mike Kinsella等人将硬核后内省情绪与数摇清音琶音完美缝合。"
+          },
+          "album": {
+            "essential": {
+              "title": "American Football",
+              "artist": "American Football",
+              "year": 1999,
+              "rymTags": [
+                "Midwest Emo",
+                "Math Rock"
+              ],
+              "reasonZh": "全球中西部Emo与清音数摇乐队的共同圣经。"
+            },
+            "advancedFollowUp": {
+              "title": "Stratosphere",
+              "artist": "Duster",
+              "year": 1998,
+              "rymTags": [
+                "Slowcore",
+                "Space Rock Revival"
+              ],
+              "reasonZh": "四轨机低保真录制的太空慢核经典，RYM年轻世代重估神作。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "folk-psych-regional",
+              "targetNodeId": "indie-freak-folk",
+              "reasonZh": "极简慢核的卧室低保真气质与独立民谣一脉相承。"
+            }
+          ]
+        },
+        {
+          "id": "post-rock",
+          "tier": 5,
+          "subgenreEn": "Post-Rock",
+          "subgenreZh": "后摇滚",
+          "rymTags": [
+            "Post-Rock"
+          ],
+          "single": {
+            "title": "Mogwai Fear Satan",
+            "artist": "Mogwai",
+            "year": 1997,
+            "hookZh": "轻柔长笛与吉他细语骤然引爆轰鸣音墙，直观展现后摇静动美学。"
+          },
+          "artist": {
+            "name": "Godspeed You! Black Emperor",
+            "nameZh": "天佑黑帝",
+            "origin": "Canada (Montreal)",
+            "activeEra": "1994-present",
+            "significanceZh": "以弦乐铜管大编制、磁带现场采样与交响乐章赋予后摇史诗悲悯。"
+          },
+          "album": {
+            "essential": {
+              "title": "Lift Your Skinny Fists Like Antennas to Heaven",
+              "artist": "Godspeed You! Black Emperor",
+              "year": 2000,
+              "rymTags": [
+                "Post-Rock"
+              ],
+              "reasonZh": "交响后摇领域的珠穆朗玛峰。"
+            },
+            "advancedFollowUp": {
+              "title": "Spiderland",
+              "artist": "Slint",
+              "year": 1991,
+              "rymTags": [
+                "Post-Rock",
+                "Math Rock"
+              ],
+              "reasonZh": "冷峻念白与奇数拍张力构筑的第一波后摇源头。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "heavy-industrial-avant",
+              "targetNodeId": "post-metal",
+              "reasonZh": "后摇的宏大空间递进遇上重型降调污泥音色即演化为后金属。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-our-band",
+          "titleOriginal": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981–1991",
+          "titleZh": "我们的乐队也可以成为你的生活",
+          "creator": "Michael Azerrad",
+          "year": 2001,
+          "type": "书籍",
+          "summaryZh": "详述Sonic Youth、Fugazi、Dinosaur Jr.等13支乐队靠DIY巡演搭建美国独立地下网络的十年。"
+        },
+        {
+          "id": "lore-beautiful-noise",
+          "titleOriginal": "Beautiful Noise",
+          "titleZh": "美丽噪音",
+          "creator": "Eric Green",
+          "year": 2014,
+          "type": "纪录片",
+          "summaryZh": "汇聚MBV、Slowdive与Cocteau Twins核心成员，回溯自赏音墙运动全貌。"
+        },
+        {
+          "id": "lore-fearless-post-rock",
+          "titleOriginal": "Fearless: The Making of Post-Rock",
+          "titleZh": "无畏：后摇滚的诞生",
+          "creator": "Jeanette Leech",
+          "year": 2017,
+          "type": "书籍",
+          "summaryZh": "从Talk Talk、Slint写到GY!BE，深度追踪摇滚如何挣脱主副歌走向空间声学实验。"
+        },
+        {
+          "id": "lore-upside-down-creation",
+          "titleOriginal": "Upside Down: The Creation Records Story",
+          "titleZh": "天翻地覆：Creation唱片传奇",
+          "creator": "Danny O'Connor",
+          "year": 2010,
+          "type": "纪录片",
+          "summaryZh": "见证英国传奇独立厂牌Creation在艺术执念与商业狂飙间的兴衰。"
+        }
+      ]
+    },
+    {
+      "id": "electronic-club",
+      "order": 4,
+      "nameEn": "Electronic & Club Culture",
+      "nameZh": "电子与俱乐部文化谱系",
+      "rymCoreGenres": [
+        "Krautrock",
+        "Berlin School",
+        "Synthpop",
+        "Chicago House",
+        "Detroit Techno",
+        "Ambient",
+        "IDM",
+        "Dubstep",
+        "Jungle"
+      ],
+      "summaryZh": "从西德战后机械推进律动与人机合成器美学，经芝加哥/底特律黑人地下舞池，延伸至卧室IDM与南伦敦雨夜超低频。",
+      "nodes": [
+        {
+          "id": "krautrock-kosmische",
+          "tier": 1,
+          "subgenreEn": "Krautrock & Kosmische",
+          "subgenreZh": "泡菜摇滚与宇宙音乐",
+          "rymTags": [
+            "Krautrock",
+            "Berlin School",
+            "Progressive Electronic"
+          ],
+          "single": {
+            "title": "Hallogallo",
+            "artist": "Neu!",
+            "year": 1972,
+            "hookZh": "十分钟笔直飞驰的Motorik 4/4高速公路节拍，纯粹而催眠。"
+          },
+          "artist": {
+            "name": "Can",
+            "nameZh": "罐头乐队",
+            "origin": "Germany (Cologne)",
+            "activeEra": "1968-1979",
+            "significanceZh": "融合现代派电子、磁带剪辑与催眠复节奏，重塑战后欧洲实验摇滚。"
+          },
+          "album": {
+            "essential": {
+              "title": "Tago Mago",
+              "artist": "Can",
+              "year": 1971,
+              "rymTags": [
+                "Krautrock",
+                "Experimental Rock"
+              ],
+              "reasonZh": "泡菜摇滚最具想象力的双张实验巨作。"
+            },
+            "advancedFollowUp": {
+              "title": "Phaedra",
+              "artist": "Tangerine Dream",
+              "year": 1974,
+              "rymTags": [
+                "Berlin School",
+                "Progressive Electronic"
+              ],
+              "reasonZh": "模拟音序器开启柏林学派宇宙电子冥想先河。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "punk-post-punk",
+              "targetNodeId": "post-punk",
+              "reasonZh": "Motorik机械鼓点直接成为后朋克与独立摇滚的核心节奏语言。"
+            }
+          ]
+        },
+        {
+          "id": "synthpop",
+          "tier": 2,
+          "subgenreEn": "Synthpop",
+          "subgenreZh": "合成器流行",
+          "rymTags": [
+            "Synthpop",
+            "Electronic"
+          ],
+          "single": {
+            "title": "The Model (Das Model)",
+            "artist": "Kraftwerk",
+            "year": 1978,
+            "hookZh": "冷艳精准的全合成器旋律钩子，奠定现代电子流行范式。"
+          },
+          "artist": {
+            "name": "Kraftwerk",
+            "nameZh": "发电站乐队",
+            "origin": "Germany (Düsseldorf)",
+            "activeEra": "1970-present",
+            "significanceZh": "以“人机合一”工业电子美学成为Synthpop、Techno与Electro共同鼻祖。"
+          },
+          "album": {
+            "essential": {
+              "title": "Trans-Europe Express",
+              "artist": "Kraftwerk",
+              "year": 1977,
+              "rymTags": [
+                "Electronic",
+                "Progressive Electronic",
+                "Synthpop"
+              ],
+              "reasonZh": "铁轨脉冲与极简电子旋律交织的传世经典。"
+            },
+            "advancedFollowUp": {
+              "title": "Violator",
+              "artist": "Depeche Mode",
+              "year": 1990,
+              "rymTags": [
+                "Synthpop",
+                "Darkwave"
+              ],
+              "reasonZh": "将工业采样质感与暗黑流行旋律推向全球体育场巅峰。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "city-pop-shibuya-kei",
+              "reasonZh": "Kraftwerk与YMO的合成器美学深度渗入日本80年代都会流行。"
+            }
+          ]
+        },
+        {
+          "id": "house-detroit-techno",
+          "tier": 3,
+          "subgenreEn": "House & Detroit Techno",
+          "subgenreZh": "浩室与底特律科技舞曲",
+          "rymTags": [
+            "Detroit Techno",
+            "Chicago House",
+            "French House"
+          ],
+          "single": {
+            "title": "Strings of Life",
+            "artist": "Rhythim Is Rhythim (Derrick May)",
+            "year": 1987,
+            "hookZh": "澎湃钢琴弦乐采样撞击909鼓机律动，赋予机器滚烫灵魂。"
+          },
+          "artist": {
+            "name": "Derrick May & The Belleville Three / Frankie Knuckles",
+            "nameZh": "底特律三杰与芝加哥浩室先驱",
+            "origin": "US (Detroit / Chicago)",
+            "activeEra": "1981-present",
+            "significanceZh": "在黑人酷儿俱乐部与工业衰败之城发明House与Techno，点燃全球锐舞文化。"
+          },
+          "album": {
+            "essential": {
+              "title": "Homework",
+              "artist": "Daft Punk",
+              "year": 1997,
+              "rymTags": [
+                "French House",
+                "Acid House",
+                "Techno"
+              ],
+              "reasonZh": "直接致敬芝加哥与底特律先驱、最易令摇滚与流行听众迷上4/4舞池的经典。"
+            },
+            "advancedFollowUp": {
+              "title": "Neptune's Lair",
+              "artist": "Drexciya",
+              "year": 1999,
+              "rymTags": [
+                "Electro",
+                "Detroit Techno"
+              ],
+              "reasonZh": "底特律黑人未来主义深海神话概念专辑。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "hip-hop-beats",
+              "targetNodeId": "old-school",
+              "reasonZh": "早期Electro鼓机（TR-808）同时哺育了底特律Techno与老派嘻哈。"
+            }
+          ]
+        },
+        {
+          "id": "ambient-idm",
+          "tier": 4,
+          "subgenreEn": "Ambient & IDM",
+          "subgenreZh": "环境音乐与智能舞曲",
+          "rymTags": [
+            "Ambient Techno",
+            "IDM",
+            "Ambient"
+          ],
+          "single": {
+            "title": "Xtal",
+            "artist": "Aphex Twin",
+            "year": 1992,
+            "hookZh": "空灵女声混响、温暖磁带底噪与轻盈鼓点如晨雾般抚慰耳膜。"
+          },
+          "artist": {
+            "name": "Aphex Twin",
+            "nameZh": "艾菲克斯双胞胎 (Richard D. James)",
+            "origin": "UK (Cornwall)",
+            "activeEra": "1985-present",
+            "significanceZh": "将俱乐部电子带入居家冥想与超高精度算法碎拍编程。"
+          },
+          "album": {
+            "essential": {
+              "title": "Selected Ambient Works 85–92",
+              "artist": "Aphex Twin",
+              "year": 1992,
+              "rymTags": [
+                "Ambient Techno",
+                "IDM"
+              ],
+              "reasonZh": "连接环境氛围与电子节拍的不朽启蒙名盘。"
+            },
+            "advancedFollowUp": {
+              "title": "Music Has the Right to Children",
+              "artist": "Boards of Canada",
+              "year": 1998,
+              "rymTags": [
+                "IDM",
+                "Downtempo",
+                "Hauntology"
+              ],
+              "reasonZh": "失谐模拟合成器唤醒集体童年记忆幻觉。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "indietronica-art-pop",
+              "reasonZh": "Warp厂牌IDM微节拍直接催化了Radiohead《Kid A》与Björk《Vespertine》。"
+            }
+          ]
+        },
+        {
+          "id": "uk-bass",
+          "tier": 5,
+          "subgenreEn": "UK Bass",
+          "subgenreZh": "英伦低音文化",
+          "rymTags": [
+            "Dubstep",
+            "Future Garage",
+            "Jungle",
+            "Drum and Bass"
+          ],
+          "single": {
+            "title": "Archangel",
+            "artist": "Burial",
+            "year": 2007,
+            "hookZh": "破碎R&B人声采样、雨夜黑胶底噪与错位2-Step鼓点直击都市孤独。"
+          },
+          "artist": {
+            "name": "Burial",
+            "nameZh": "葬礼 (William Bevan)",
+            "origin": "UK (South London)",
+            "activeEra": "2005-present",
+            "significanceZh": "提炼海盗电台、Jungle与UK Garage残响，缔造后锐舞幽灵学低音经典。"
+          },
+          "album": {
+            "essential": {
+              "title": "Untrue",
+              "artist": "Burial",
+              "year": 2007,
+              "rymTags": [
+                "Dubstep",
+                "Future Garage",
+                "UK Garage"
+              ],
+              "reasonZh": "21世纪最具情感感染力的电子音乐里程碑。"
+            },
+            "advancedFollowUp": {
+              "title": "Timeless",
+              "artist": "Goldie",
+              "year": 1995,
+              "rymTags": [
+                "Drum and Bass",
+                "Atmospheric Drum and Bass",
+                "Jungle"
+              ],
+              "reasonZh": "切碎Amen Break碎拍与交响环境铺底融合的90年代英国低音史诗。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "jazz",
+              "targetNodeId": "nu-jazz",
+              "reasonZh": "南伦敦碎拍与超低频美学直接汇入当代Nu-Jazz场景。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-energy-flash",
+          "titleOriginal": "Energy Flash: A Journey Through Rave Music and Dance Culture",
+          "titleZh": "能量闪耀：锐舞音乐与舞曲文化之旅",
+          "creator": "Simon Reynolds",
+          "year": 1998,
+          "type": "书籍",
+          "summaryZh": "贯穿底特律Techno、酸浩室、英国露天锐舞到Jungle与IDM的舞曲文化圣经。"
+        },
+        {
+          "id": "lore-electrochoc",
+          "titleOriginal": "Électrochoc",
+          "titleZh": "电击",
+          "creator": "Laurent Garnier & David Brun-Lambert",
+          "year": 2003,
+          "type": "口述回忆录/书籍",
+          "summaryZh": "传奇DJ从1987年曼彻斯特Haçienda俱乐部亲历全球电子浪潮的第一手纪实。"
+        },
+        {
+          "id": "lore-krautrock-bbc",
+          "titleOriginal": "Krautrock: The Rebirth of Germany",
+          "titleZh": "泡菜摇滚：德国的重生",
+          "creator": "Ben Whalley",
+          "year": 2009,
+          "type": "纪录片",
+          "summaryZh": "BBC纪录片，解析战后德国一代乐手如何从零创造现代电子与实验摇滚语言。"
+        },
+        {
+          "id": "lore-high-tech-soul",
+          "titleOriginal": "High Tech Soul: The Creation of Techno Music",
+          "titleZh": "高科技灵魂：科技舞曲的诞生",
+          "creator": "Gary Bredow",
+          "year": 2006,
+          "type": "纪录片",
+          "summaryZh": "深入底特律对话Atkins、May与Mills，揭示工业废墟上绽放的黑人电子未来主义。"
+        }
+      ]
+    },
+    {
+      "id": "hip-hop-beats",
+      "order": 5,
+      "nameEn": "Hip-Hop & Beats",
+      "nameZh": "嘻哈与节拍谱系",
+      "rymCoreGenres": [
+        "East Coast Hip-Hop",
+        "Boom Bap",
+        "Jazz Rap",
+        "Instrumental Hip-Hop",
+        "Plunderphonics",
+        "Experimental Hip-Hop",
+        "Abstract Hip-Hop"
+      ],
+      "summaryZh": "从南布朗克斯双唱盘搓盘革命与东海岸黄金采样节拍，深入爵士黑胶挖掘、纯器乐微醺错拍与地下实验韵脚迷宫。",
+      "nodes": [
+        {
+          "id": "old-school",
+          "tier": 1,
+          "subgenreEn": "Old School",
+          "subgenreZh": "老派嘻哈",
+          "rymTags": [
+            "Old School Hip-Hop",
+            "Electro"
+          ],
+          "single": {
+            "title": "The Message",
+            "artist": "Grandmaster Flash and the Furious Five",
+            "year": 1982,
+            "hookZh": "合成器律动承载冷峻贫民窟现实独白，让嘻哈首次拥有严肃社会文学重量。"
+          },
+          "artist": {
+            "name": "Grandmaster Flash",
+            "nameZh": "闪耀大师",
+            "origin": "US (South Bronx, NYC)",
+            "activeEra": "1976-present",
+            "significanceZh": "创立双唱盘快速混音理论，将黑胶唱机变为现代打击乐器。"
+          },
+          "album": {
+            "essential": {
+              "title": "Raising Hell",
+              "artist": "Run-D.M.C.",
+              "year": 1986,
+              "rymTags": [
+                "Hardcore Hip-Hop",
+                "East Coast Hip-Hop"
+              ],
+              "reasonZh": "极简硬朗鼓机与摇滚吉他破壁结合，开启说唱专辑黄金时代。"
+            },
+            "advancedFollowUp": {
+              "title": "Paid in Full",
+              "artist": "Eric B. & Rakim",
+              "year": 1987,
+              "rymTags": [
+                "East Coast Hip-Hop",
+                "Boom Bap"
+              ],
+              "reasonZh": "Rakim以冷静多音节内押韵彻底革新现代说唱Flow。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "synthpop",
+              "reasonZh": "Afrika Bambaataa采样Kraftwerk直接促成Electro与电子舞曲交汇。"
+            }
+          ]
+        },
+        {
+          "id": "golden-age-boom-bap",
+          "tier": 2,
+          "subgenreEn": "Golden Age Boom Bap",
+          "subgenreZh": "黄金年代硬核节拍",
+          "rymTags": [
+            "Boom Bap",
+            "East Coast Hip-Hop",
+            "Hardcore Hip-Hop"
+          ],
+          "single": {
+            "title": "N.Y. State of Mind",
+            "artist": "Nas",
+            "year": 1994,
+            "hookZh": "DJ Premier阴冷爵士钢琴循环与铁锤军鼓之上，一气呵成展开街头长镜头。"
+          },
+          "artist": {
+            "name": "Nas",
+            "nameZh": "纳斯",
+            "origin": "US (Queensbridge, NYC)",
+            "activeEra": "1991-present",
+            "significanceZh": "携手DJ Premier、Large Professor等制作巨匠，铸就东海岸街头诗学巅峰。"
+          },
+          "album": {
+            "essential": {
+              "title": "Illmatic",
+              "artist": "Nas",
+              "year": 1994,
+              "rymTags": [
+                "Boom Bap",
+                "East Coast Hip-Hop"
+              ],
+              "reasonZh": "黄金年代Boom Bap结构最精炼完美的教科书。"
+            },
+            "advancedFollowUp": {
+              "title": "Enter the Wu-Tang (36 Chambers)",
+              "artist": "Wu-Tang Clan",
+              "year": 1993,
+              "rymTags": [
+                "East Coast Hip-Hop",
+                "Hardcore Hip-Hop",
+                "Boom Bap"
+              ],
+              "reasonZh": "邵氏功夫片采样与粗粝地下灵魂乐切片构筑群像传奇。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "jazz",
+              "targetNodeId": "hard-bop-post-bop",
+              "reasonZh": "逆向追踪Boom Bap采样源头即可直抵60年代Blue Note硬波普宝库。"
+            }
+          ]
+        },
+        {
+          "id": "jazz-rap",
+          "tier": 3,
+          "subgenreEn": "Jazz Rap",
+          "subgenreZh": "爵士说唱",
+          "rymTags": [
+            "Jazz Rap",
+            "Conscious Hip-Hop"
+          ],
+          "single": {
+            "title": "Electric Relaxation",
+            "artist": "A Tribe Called Quest",
+            "year": 1993,
+            "hookZh": "温暖爵士吉他循环与低频摇摆贝斯营造令人彻底放松的夜行氛围。"
+          },
+          "artist": {
+            "name": "A Tribe Called Quest",
+            "nameZh": "探索一族",
+            "origin": "US (Queens, NYC)",
+            "activeEra": "1985-2016",
+            "significanceZh": "Native Tongues运动核心，打通黑胶爵士挖掘与思辨幽默说唱。"
+          },
+          "album": {
+            "essential": {
+              "title": "The Low End Theory",
+              "artist": "A Tribe Called Quest",
+              "year": 1991,
+              "rymTags": [
+                "Jazz Rap",
+                "East Coast Hip-Hop"
+              ],
+              "reasonZh": "爵士贝斯大师Ron Carter献奏的Jazz Rap奠基丰碑。"
+            },
+            "advancedFollowUp": {
+              "title": "To Pimp a Butterfly",
+              "artist": "Kendrick Lamar",
+              "year": 2015,
+              "rymTags": [
+                "Conscious Hip-Hop",
+                "Jazz Rap",
+                "Funk"
+              ],
+              "reasonZh": "集结当代爵士与放克巨匠的21世纪音乐史诗，RYM全站总榜冠军。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "jazz",
+              "targetNodeId": "spiritual-jazz-fusion",
+              "reasonZh": "从Kamasi Washington与Thundercat顺流回溯John Coltrane灵性爵士。"
+            }
+          ]
+        },
+        {
+          "id": "instrumental-beats-plunderphonics",
+          "tier": 4,
+          "subgenreEn": "Instrumental Beats & Plunderphonics",
+          "subgenreZh": "器乐节拍与掠夺音学拼贴",
+          "rymTags": [
+            "Instrumental Hip-Hop",
+            "Plunderphonics",
+            "Turntablism"
+          ],
+          "single": {
+            "title": "Midnight in a Perfect World",
+            "artist": "DJ Shadow",
+            "year": 1996,
+            "hookZh": "深邃钢琴与幽远人声采样层叠，证明纯采样器乐同样能构筑灵魂交响。"
+          },
+          "artist": {
+            "name": "J Dilla",
+            "nameZh": "J Dilla (James Dewitt Yancey)",
+            "origin": "US (Detroit)",
+            "activeEra": "1992-2006",
+            "significanceZh": "在MPC3000上创造不量化微醺错拍律动“Dilla Time”，改写21世纪流行与爵士节奏感。"
+          },
+          "album": {
+            "essential": {
+              "title": "Donuts",
+              "artist": "J Dilla",
+              "year": 2006,
+              "rymTags": [
+                "Instrumental Hip-Hop",
+                "Plunderphonics"
+              ],
+              "reasonZh": "31首灵魂乐微型拼贴组成的生命绝唱。"
+            },
+            "advancedFollowUp": {
+              "title": "Since I Left You",
+              "artist": "The Avalanches",
+              "year": 2000,
+              "rymTags": [
+                "Plunderphonics",
+                "Dance"
+              ],
+              "reasonZh": "以三千五百余处黑胶采样缝合出绚丽航海梦境（并可同参DJ Shadow 1996《Endtroducing.....》）。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "city-pop-shibuya-kei",
+              "reasonZh": "高密度唱片拼贴美学与日本涩谷系Cornelius遥相呼应。"
+            }
+          ]
+        },
+        {
+          "id": "experimental-hip-hop",
+          "tier": 5,
+          "subgenreEn": "Experimental Hip-Hop",
+          "subgenreZh": "实验与抽象嘻哈",
+          "rymTags": [
+            "Abstract Hip-Hop",
+            "Experimental Hip-Hop",
+            "Industrial Hip-Hop"
+          ],
+          "single": {
+            "title": "All Caps",
+            "artist": "Madvillain",
+            "year": 2004,
+            "hookZh": "老派美漫弦乐采样与无副歌连环内押韵展现天马行空的地下怪才。"
+          },
+          "artist": {
+            "name": "MF DOOM & Madlib (Madvillain)",
+            "nameZh": "金属面具毁灭博士与Madlib",
+            "origin": "UK/US (NY & California)",
+            "activeEra": "2002-2020",
+            "significanceZh": "以面具反派叙事与迷幻冷门采样彻底解构主流说唱范式。"
+          },
+          "album": {
+            "essential": {
+              "title": "Madvillainy",
+              "artist": "Madvillain",
+              "year": 2004,
+              "rymTags": [
+                "Abstract Hip-Hop",
+                "Jazz Rap",
+                "Experimental Hip-Hop"
+              ],
+              "reasonZh": "地下抽象与实验嘻哈最高分传奇经典。"
+            },
+            "advancedFollowUp": {
+              "title": "Atrocity Exhibition",
+              "artist": "Danny Brown",
+              "year": 2016,
+              "rymTags": [
+                "Experimental Hip-Hop",
+                "Hardcore Hip-Hop"
+              ],
+              "reasonZh": "致敬Joy Division，将后朋克偏执与怪诞工业节拍推向极致。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "heavy-industrial-avant",
+              "targetNodeId": "industrial",
+              "reasonZh": "实验工业说唱（如Death Grips、JPEGMAFIA）直接连通工业噪音谱系。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-cant-stop-wont-stop",
+          "titleOriginal": "Can't Stop Won't Stop: A History of the Hip-Hop Generation",
+          "titleZh": "永不止步：嘻哈世代史",
+          "creator": "Jeff Chang",
+          "year": 2005,
+          "type": "书籍",
+          "summaryZh": "从牙买加音响系统与南布朗克斯废墟写起，全景展现嘻哈文化与社会史。"
+        },
+        {
+          "id": "lore-dilla-time",
+          "titleOriginal": "Dilla Time: The Life and Afterlife of J Dilla, the Hip-Hop Producer Who Reinvented Rhythm",
+          "titleZh": "迪拉时间",
+          "creator": "Dan Charnas",
+          "year": 2022,
+          "type": "书籍",
+          "summaryZh": "融合人物传记与可视化节奏音乐学，破译J Dilla如何重塑当代时间律动。"
+        },
+        {
+          "id": "lore-style-wars",
+          "titleOriginal": "Style Wars",
+          "titleZh": "风格之战",
+          "creator": "Tony Silver & Henry Chalfant",
+          "year": 1983,
+          "type": "纪录片",
+          "summaryZh": "早期纽约地铁涂鸦、街舞与老派街头说唱的原生态影像圣经。"
+        },
+        {
+          "id": "lore-scratch",
+          "titleOriginal": "Scratch",
+          "titleZh": "搓盘手",
+          "creator": "Doug Pray",
+          "year": 2001,
+          "type": "纪录片",
+          "summaryZh": "深入DJ Shadow等大师地下唱片室，揭示黑胶挖掘与唱盘主义精神。"
+        }
+      ]
+    },
+    {
+      "id": "art-pop-city-pop",
+      "order": 6,
+      "nameEn": "Art Pop, City Pop & Synth",
+      "nameZh": "艺术流行、都会流行与合成器谱系",
+      "rymCoreGenres": [
+        "Art Rock",
+        "New Wave",
+        "City Pop",
+        "Shibuya-kei",
+        "Baroque Pop",
+        "Chamber Pop",
+        "Art Pop",
+        "Indietronica"
+      ],
+      "summaryZh": "以录音室为画布：从纽约与柏林艺术摇滚、东京泡沫都会律动与涩谷拼贴，走向室内管弦建筑与极地独立电子。",
+      "nodes": [
+        {
+          "id": "art-rock",
+          "tier": 1,
+          "subgenreEn": "Art Rock",
+          "subgenreZh": "艺术摇滚",
+          "rymTags": [
+            "Art Rock",
+            "New Wave",
+            "Post-Punk"
+          ],
+          "single": {
+            "title": "Once in a Lifetime",
+            "artist": "Talking Heads",
+            "year": 1980,
+            "hookZh": "非洲复节奏放克循环托起现代都市存在主义追问，既先锋又律动十足。"
+          },
+          "artist": {
+            "name": "Talking Heads",
+            "nameZh": "传声头乐队",
+            "origin": "US (New York)",
+            "activeEra": "1975-1991",
+            "significanceZh": "David Byrne与Brian Eno将观念艺术、合成器与非洲节拍融为现代流行语言。"
+          },
+          "album": {
+            "essential": {
+              "title": "Remain in Light",
+              "artist": "Talking Heads",
+              "year": 1980,
+              "rymTags": [
+                "New Wave",
+                "Post-Punk",
+                "Art Rock",
+                "Afrobeat"
+              ],
+              "reasonZh": "艺术摇滚与跨文化复节奏融合的巅峰。"
+            },
+            "advancedFollowUp": {
+              "title": "Low",
+              "artist": "David Bowie",
+              "year": 1977,
+              "rymTags": [
+                "Art Rock",
+                "Ambient",
+                "Electronic"
+              ],
+              "reasonZh": "柏林三部曲开篇，半张破碎流行与半张电子音景改写摇滚专辑结构。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "folk-psych-regional",
+              "targetNodeId": "zamrock-afrobeat",
+              "reasonZh": "《Remain in Light》的复节奏直接取经自Fela Kuti的Afrobeat。"
+            }
+          ]
+        },
+        {
+          "id": "city-pop-shibuya-kei",
+          "tier": 2,
+          "subgenreEn": "Japanese City Pop & Shibuya-kei",
+          "subgenreZh": "日本都会流行与涩谷系",
+          "rymTags": [
+            "City Pop",
+            "Shibuya-kei",
+            "Jazz-Funk",
+            "Neo-Psychedelia"
+          ],
+          "single": {
+            "title": "Plastic Love (プラスティック・ラブ)",
+            "artist": "Mariya Takeuchi (竹内玛莉亚)",
+            "year": 1984,
+            "hookZh": "山下达郎精雕细琢的放克吉他切分与都会霓虹忧郁，穿越时空风靡全球。"
+          },
+          "artist": {
+            "name": "Tatsuro Yamashita & Cornelius",
+            "nameZh": "山下达郎与小山田圭吾 (Cornelius)",
+            "origin": "Japan (Tokyo)",
+            "activeEra": "1973-present",
+            "significanceZh": "分别代表80年代东京顶级录音室都会律动与90年代涩谷唱片行元拼贴浪潮。"
+          },
+          "album": {
+            "essential": {
+              "title": "For You",
+              "artist": "Tatsuro Yamashita (山下达郎)",
+              "year": 1982,
+              "rymTags": [
+                "City Pop",
+                "Boogie",
+                "Funk"
+              ],
+              "reasonZh": "夏日海风与精湛放克律动交织的City Pop第一名盘。"
+            },
+            "advancedFollowUp": {
+              "title": "Fantasma",
+              "artist": "Cornelius",
+              "year": 1997,
+              "rymTags": [
+                "Shibuya-kei",
+                "Neo-Psychedelia",
+                "Indietronica"
+              ],
+              "reasonZh": "涩谷系万花筒式立体声实验巅峰。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "folk-psych-regional",
+              "targetNodeId": "tropicalia",
+              "reasonZh": "涩谷系对巴西Bossa Nova与热带主义和声的痴迷形成跨洋回响。"
+            }
+          ]
+        },
+        {
+          "id": "chamber-baroque-pop",
+          "tier": 3,
+          "subgenreEn": "Chamber & Baroque Pop",
+          "subgenreZh": "室内流行与巴洛克流行",
+          "rymTags": [
+            "Baroque Pop",
+            "Chamber Pop",
+            "Art Pop"
+          ],
+          "single": {
+            "title": "God Only Knows",
+            "artist": "The Beach Boys",
+            "year": 1966,
+            "hookZh": "法国圆号、羽管键琴与天籁多声部对位在三分钟内构筑神圣情感殿堂。"
+          },
+          "artist": {
+            "name": "Brian Wilson / The Beach Boys",
+            "nameZh": "布莱恩·威尔逊与海滩男孩",
+            "origin": "US (California)",
+            "activeEra": "1961-present",
+            "significanceZh": "首创以现代录音室为管弦画布的巴洛克流行编曲范式。"
+          },
+          "album": {
+            "essential": {
+              "title": "Pet Sounds",
+              "artist": "The Beach Boys",
+              "year": 1966,
+              "rymTags": [
+                "Baroque Pop",
+                "Sunshine Pop"
+              ],
+              "reasonZh": "现代流行专辑艺术化与巴洛克编配的开山圣典。"
+            },
+            "advancedFollowUp": {
+              "title": "Titanic Rising",
+              "artist": "Weyes Blood",
+              "year": 2019,
+              "rymTags": [
+                "Chamber Pop",
+                "Soft Rock",
+                "Art Pop"
+              ],
+              "reasonZh": "胶片感恢弘弦乐包裹末世温柔的当代室内流行代表作。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "folk-psych-regional",
+              "targetNodeId": "indie-freak-folk",
+              "reasonZh": "Van Dyke Parks式巴洛克管弦直接连接Joanna Newsom《Ys》等当代奇想民谣。"
+            }
+          ]
+        },
+        {
+          "id": "indietronica-art-pop",
+          "tier": 4,
+          "subgenreEn": "Indietronica & Art Pop",
+          "subgenreZh": "独立电子与当代艺术流行",
+          "rymTags": [
+            "Art Pop",
+            "Electronic",
+            "Indietronica",
+            "Glitch Pop"
+          ],
+          "single": {
+            "title": "Jóga",
+            "artist": "Björk",
+            "year": 1997,
+            "hookZh": "冰岛火山般壮阔古典弦乐与粗粝电子火山碎拍碰撞出极致情感张力。"
+          },
+          "artist": {
+            "name": "Björk",
+            "nameZh": "比约克",
+            "origin": "Iceland (Reykjavík)",
+            "activeEra": "1977-present",
+            "significanceZh": "将古典器乐、前沿微节拍电子与先锋视觉融为一体的当代艺术流行女祭司。"
+          },
+          "album": {
+            "essential": {
+              "title": "Vespertine",
+              "artist": "Björk",
+              "year": 2001,
+              "rymTags": [
+                "Art Pop",
+                "Glitch Pop",
+                " Folktronica"
+              ],
+              "reasonZh": "以八音盒、竖琴与微采样编织极北冬夜私密宇宙。"
+            },
+            "advancedFollowUp": {
+              "title": "Dots and Loops",
+              "artist": "Stereolab",
+              "year": 1997,
+              "rymTags": [
+                "Indietronica",
+                "Art Pop",
+                "Post-Rock"
+              ],
+              "reasonZh": "将Krautrock、Bossa Nova与电子切片优雅拼贴的独立电子杰作。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "ambient-idm",
+              "reasonZh": "微采样与故障节拍直接连通Warp厂牌IDM电子美学。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-stop-making-sense",
+          "titleOriginal": "Stop Making Sense",
+          "titleZh": "别讲道理",
+          "creator": "Jonathan Demme & Talking Heads",
+          "year": 1984,
+          "type": "演唱会电影",
+          "summaryZh": "影史最佳现场电影，逐曲叠加乐手与布景，直观展现现代流行编曲的舞台魔力。"
+        },
+        {
+          "id": "lore-how-music-works",
+          "titleOriginal": "How Music Works",
+          "titleZh": "音乐是怎么起作用的",
+          "creator": "David Byrne",
+          "year": 2012,
+          "type": "书籍",
+          "summaryZh": "从建筑声学、录音媒介到产业逻辑，通透剖析环境与技术如何塑造音乐。"
+        },
+        {
+          "id": "lore-sakamoto-coda",
+          "titleOriginal": "Ryuichi Sakamoto: Coda",
+          "titleZh": "坂本龙一：终曲",
+          "creator": "Stephen Nomura Schible",
+          "year": 2017,
+          "type": "纪录片",
+          "summaryZh": "回望坂本龙一从YMO合成器浪潮到北极冰川自然采样的声音哲学人生。"
+        },
+        {
+          "id": "lore-citypop-shibuya-books",
+          "titleOriginal": "「シティポップの基本」がこの100枚でわかる！ / 渋谷音楽図鑑",
+          "titleZh": "100张唱片读懂City Pop / 涩谷音乐图鉴",
+          "creator": "栗本齐 (2022) / 牧村宪一、藤井丈司、柴那典 (2017)",
+          "year": 2022,
+          "type": "书籍",
+          "summaryZh": "系统梳理日本都会流行名盘谱系与涩谷街区五十年独立唱片文化磁场。"
+        }
+      ]
+    },
+    {
+      "id": "folk-psych-regional",
+      "order": 7,
+      "nameEn": "Folk, Psych & Regional Scenes",
+      "nameZh": "民谣、迷幻与在地场景谱系",
+      "rymCoreGenres": [
+        "Contemporary Folk",
+        "Indie Folk",
+        "Freak Folk",
+        "Tropicália",
+        "MPB",
+        "Afrobeat",
+        "Zamrock",
+        "Chinese Folk",
+        "Indie Rock"
+      ],
+      "summaryZh": "跨越英美中心叙事：从原声吉他内省私语与独立怪诞民谣，远航至巴西热带主义、非洲复节奏抗争与中国打口世代土地诗篇。",
+      "nodes": [
+        {
+          "id": "60s-70s-folk-revival",
+          "tier": 1,
+          "subgenreEn": "60s-70s Folk Revival",
+          "subgenreZh": "六七十年代民谣复兴",
+          "rymTags": [
+            "Contemporary Folk",
+            "Singer-Songwriter"
+          ],
+          "single": {
+            "title": "Pink Moon",
+            "artist": "Nick Drake",
+            "year": 1972,
+            "hookZh": "特殊调弦木吉他温润指弹与简短钢琴点缀，两分多钟道尽静夜孤寂。"
+          },
+          "artist": {
+            "name": "Nick Drake",
+            "nameZh": "尼克·德雷克",
+            "origin": "UK (Warwickshire)",
+            "activeEra": "1968-1974",
+            "significanceZh": "生前隐逸无闻，身后成为全球独立民谣与室内指弹美学的精神原点。"
+          },
+          "album": {
+            "essential": {
+              "title": "Pink Moon",
+              "artist": "Nick Drake",
+              "year": 1972,
+              "rymTags": [
+                "Contemporary Folk",
+                "Singer-Songwriter"
+              ],
+              "reasonZh": "仅凭一人一琴完成的纯粹室内民谣绝唱。"
+            },
+            "advancedFollowUp": {
+              "title": "Highway 61 Revisited",
+              "artist": "Bob Dylan",
+              "year": 1965,
+              "rymTags": [
+                "Folk Rock",
+                "Singer-Songwriter"
+              ],
+              "reasonZh": "民谣插电转向超现实摇滚长诗的历史拐点。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "indie-shoegaze-post-rock",
+              "targetNodeId": "slowcore-midwest-emo",
+              "reasonZh": "Nick Drake的特殊开放调弦直接影响后世独立慢核与数摇吉他手。"
+            }
+          ]
+        },
+        {
+          "id": "indie-freak-folk",
+          "tier": 2,
+          "subgenreEn": "Indie & Freak Folk",
+          "subgenreZh": "独立民谣与怪诞民谣",
+          "rymTags": [
+            "Indie Folk",
+            "Freak Folk",
+            "Chamber Folk"
+          ],
+          "single": {
+            "title": "Holland, 1945",
+            "artist": "Neutral Milk Hotel",
+            "year": 1998,
+            "hookZh": "爆裂过载木吉他扫弦与悲喜交加的铜管号角喷薄而出。"
+          },
+          "artist": {
+            "name": "Neutral Milk Hotel",
+            "nameZh": "中性牛奶旅馆 (Jeff Mangum)",
+            "origin": "US (Louisiana / Athens, GA)",
+            "activeEra": "1989-1998",
+            "significanceZh": "Elephant 6音乐公社灵魂，以低保真炽烈诗意改写现代独立民谣想象边界。"
+          },
+          "album": {
+            "essential": {
+              "title": "In the Aeroplane Over the Sea",
+              "artist": "Neutral Milk Hotel",
+              "year": 1998,
+              "rymTags": [
+                "Indie Folk",
+                "Psychedelic Folk",
+                "Lo-Fi"
+              ],
+              "reasonZh": "90年代末独立民谣至高圣典。"
+            },
+            "advancedFollowUp": {
+              "title": "Ys",
+              "artist": "Joanna Newsom",
+              "year": 2006,
+              "rymTags": [
+                "Chamber Folk",
+                "Progressive Folk",
+                "Freak Folk"
+              ],
+              "reasonZh": "踏板竖琴与恢弘管弦编配交织的五首叙事史诗。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "chamber-baroque-pop",
+              "reasonZh": "《Ys》由Van Dyke Parks编曲，直通巴洛克流行传统。"
+            }
+          ]
+        },
+        {
+          "id": "tropicalia",
+          "tier": 3,
+          "subgenreEn": "Tropicália",
+          "subgenreZh": "巴西热带主义",
+          "rymTags": [
+            "Tropicália",
+            "MPB",
+            "Psychedelic Pop"
+          ],
+          "single": {
+            "title": "A Minha Menina",
+            "artist": "Os Mutantes",
+            "year": 1968,
+            "hookZh": "桑巴阳光律动突遇自制法兹踏板迷幻电吉他，鲜活戏谑而自由。"
+          },
+          "artist": {
+            "name": "Caetano Veloso, Gilberto Gil & Os Mutantes",
+            "nameZh": "卡埃塔诺·维洛索、吉尔贝托·吉尔与变种人乐队",
+            "origin": "Brazil (Bahia / São Paulo)",
+            "activeEra": "1967-present",
+            "significanceZh": "在军政府独裁下发起“文化食人主义”，吞吐Bossa Nova、迷幻摇滚与先锋诗歌。"
+          },
+          "album": {
+            "essential": {
+              "title": "Os Mutantes",
+              "artist": "Os Mutantes",
+              "year": 1968,
+              "rymTags": [
+                "Tropicália",
+                "Psychedelic Rock"
+              ],
+              "reasonZh": "热带主义最具实验奇想的开山代表作。"
+            },
+            "advancedFollowUp": {
+              "title": "Clube da Esquina",
+              "artist": "Milton Nascimento & Lô Borges",
+              "year": 1972,
+              "rymTags": [
+                "MPB",
+                "Psychedelic Pop",
+                "Folk Baroque"
+              ],
+              "reasonZh": "后热带主义时代巴西流行与迷幻和声的至高双张神作。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "city-pop-shibuya-kei",
+              "reasonZh": "巴西复杂的爵士桑巴和声深刻滋养了日本City Pop与涩谷系。"
+            }
+          ]
+        },
+        {
+          "id": "zamrock-afrobeat",
+          "tier": 4,
+          "subgenreEn": "Zamrock & Afrobeat",
+          "subgenreZh": "赞比亚摇滚与非洲节拍",
+          "rymTags": [
+            "Afrobeat",
+            "Zamrock",
+            "Psychedelic Rock"
+          ],
+          "single": {
+            "title": "Zombie",
+            "artist": "Fela Kuti",
+            "year": 1976,
+            "hookZh": "催眠式复节奏双吉他、咆哮铜管群与政治讽刺呼应令人热血沸腾。"
+          },
+          "artist": {
+            "name": "Fela Kuti & W.I.T.C.H.",
+            "nameZh": "费拉·库蒂与赞比亚W.I.T.C.H.乐队",
+            "origin": "Nigeria (Lagos) / Zambia (Kitwe)",
+            "activeEra": "1970-1997",
+            "significanceZh": "分别在西非与中南部非洲将高生活律动、放克与车库法兹迷幻锻造成反殖音乐武器。"
+          },
+          "album": {
+            "essential": {
+              "title": "Zombie",
+              "artist": "Fela Kuti & Africa 70",
+              "year": 1976,
+              "rymTags": [
+                "Afrobeat"
+              ],
+              "reasonZh": "Afrobeat政治锋芒与Tony Allen精密鼓律的巅峰结晶。"
+            },
+            "advancedFollowUp": {
+              "title": "Lazy Bones!!",
+              "artist": "W.I.T.C.H.",
+              "year": 1975,
+              "rymTags": [
+                "Zamrock",
+                "Garage Psych"
+              ],
+              "reasonZh": "70年代赞比亚铜带省迷幻车库摇滚经典。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "art-pop-city-pop",
+              "targetNodeId": "art-rock",
+              "reasonZh": "Afrobeat复节奏直接启发Talking Heads与Brian Eno的纽约实验。"
+            }
+          ]
+        },
+        {
+          "id": "chinese-folk-dakou",
+          "tier": 5,
+          "subgenreEn": "Chinese Folk & Dakou-era Rock",
+          "subgenreZh": "中国民谣与打口世代摇滚",
+          "rymTags": [
+            "Indie Rock",
+            "Chinese Folk",
+            "Post-Punk",
+            "Progressive Rock"
+          ],
+          "single": {
+            "title": "杀死那个石家庄人",
+            "artist": "万能青年旅店 (Omnipotent Youth Society)",
+            "year": 2010,
+            "hookZh": "木吉他平静道出北方工业家庭黄昏，中段小号破雾而出震撼人心。"
+          },
+          "artist": {
+            "name": "窦唯 / 野孩子 / 万能青年旅店",
+            "nameZh": "窦唯、野孩子与万能青年旅店",
+            "origin": "China (Beijing / Lanzhou / Shijiazhuang)",
+            "activeEra": "1990-present",
+            "significanceZh": "经90年代打口带地下洗礼，分别开辟东方梦境后朋、黄河土地民谣与华北工业现实诗学。"
+          },
+          "album": {
+            "essential": {
+              "title": "黑梦 (Black Dream)",
+              "artist": "窦唯 (Dou Wei)",
+              "year": 1994,
+              "rymTags": [
+                "Post-Punk",
+                "Dream Pop"
+              ],
+              "reasonZh": "中国摇滚走向心理梦境与后朋克空间美学的里程碑。"
+            },
+            "advancedFollowUp": {
+              "title": "万能青年旅店 (Omnipotent Youth Society)",
+              "artist": "万能青年旅店",
+              "year": 2010,
+              "rymTags": [
+                "Indie Rock",
+                "Progressive Rock"
+              ],
+              "reasonZh": "中文独立摇滚在RYM国际社群评分最高的时代史诗（民谣脉络同参野孩子1999《咒语》）。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "punk-post-punk",
+              "targetNodeId": "post-punk",
+              "reasonZh": "从打口时代的后朋克养分回溯英伦与欧陆暗潮源流。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-ba-qingchun-changwan",
+          "titleOriginal": "把青春唱完：1990–1999 中国摇滚与一个文化群体的生活影像",
+          "titleZh": "把青春唱完",
+          "creator": "高原",
+          "year": 2015,
+          "type": "摄影纪实/书籍",
+          "summaryZh": "近距离定格90年代中国摇滚黄金十年音乐人排练与生活现场。"
+        },
+        {
+          "id": "lore-yanjun-dakou",
+          "titleOriginal": "内心的噪音 (2001) / China with a Cut (2010)",
+          "titleZh": "内心的噪音 / 打口中国",
+          "creator": "颜峻 / Jeroen de Kloet",
+          "year": 2001,
+          "type": "书籍",
+          "summaryZh": "记录世纪之交中国地下噪音民谣潜行现场与打口磁带亚文化启蒙。"
+        },
+        {
+          "id": "lore-bossa-nova-castro",
+          "titleOriginal": "Chega de Saudade (Bossa Nova: The Story of the Brazilian Music That Seduced the World)",
+          "titleZh": "波萨诺瓦史",
+          "creator": "Ruy Castro",
+          "year": 1990,
+          "type": "书籍",
+          "summaryZh": "详述里约青年如何发明Bossa Nova并为巴西现代流行革命奠基。"
+        },
+        {
+          "id": "lore-tropicalia-doc",
+          "titleOriginal": "Tropicália",
+          "titleZh": "热带主义",
+          "creator": "Marcelo Machado",
+          "year": 2012,
+          "type": "纪录片",
+          "summaryZh": "珍贵档案重现Caetano Veloso、Gilberto Gil与Os Mutantes对抗独裁的艺术风暴。"
+        },
+        {
+          "id": "lore-finding-fela",
+          "titleOriginal": "Finding Fela",
+          "titleZh": "寻找费拉",
+          "creator": "Alex Gibney",
+          "year": 2014,
+          "type": "纪录片",
+          "summaryZh": "全景呈现Fela Kuti如何以Afrobeat与Kalakuta共和国挑战军政威权。"
+        }
+      ]
+    },
+    {
+      "id": "heavy-industrial-avant",
+      "order": 8,
+      "nameEn": "Heavy, Industrial & Avant-Garde",
+      "nameZh": "重型、工业与前卫金属谱系",
+      "rymCoreGenres": [
+        "Heavy Metal",
+        "Doom Metal",
+        "Heavy Psych",
+        "Stoner Metal",
+        "Post-Metal",
+        "Industrial",
+        "Industrial Rock",
+        "Blackgaze"
+      ],
+      "summaryZh": "从伯明翰工厂降调三全音与泥沼厄运低频，经工业噪音解构与后金属建筑浪潮，抵达明媚而暴烈的粉红黑自赏。",
+      "nodes": [
+        {
+          "id": "heavy-psych-doom",
+          "tier": 1,
+          "subgenreEn": "Heavy Psych & Doom",
+          "subgenreZh": "重型迷幻与厄运金属",
+          "rymTags": [
+            "Heavy Metal",
+            "Traditional Doom Metal",
+            "Stoner Metal"
+          ],
+          "single": {
+            "title": "Paranoid",
+            "artist": "Black Sabbath",
+            "year": 1970,
+            "hookZh": "紧凑凶猛的下拨Riff与阴沉低频宣告重金属纪元开启。"
+          },
+          "artist": {
+            "name": "Black Sabbath",
+            "nameZh": "黑色安息日",
+            "origin": "UK (Birmingham)",
+            "activeEra": "1968-2017",
+            "significanceZh": "Tony Iommi断指后调松琴弦降调演奏，无意间铸造重金属与Doom母体。"
+          },
+          "album": {
+            "essential": {
+              "title": "Paranoid",
+              "artist": "Black Sabbath",
+              "year": 1970,
+              "rymTags": [
+                "Heavy Metal",
+                "Hard Rock",
+                "Traditional Doom Metal"
+              ],
+              "reasonZh": "重型音乐一切分支的共同基石。"
+            },
+            "advancedFollowUp": {
+              "title": "Dopethrone",
+              "artist": "Electric Wizard",
+              "year": 2000,
+              "rymTags": [
+                "Stoner Metal",
+                "Doom Metal"
+              ],
+              "reasonZh": "巨型法兹音墙构筑的极致低频厄运金属神作。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "punk-post-punk",
+              "targetNodeId": "no-wave-noise-rock",
+              "reasonZh": "极致放大器过载与持续低频进一步延伸至Swans与Boris等噪音实验。"
+            }
+          ]
+        },
+        {
+          "id": "post-metal",
+          "tier": 2,
+          "subgenreEn": "Post-Metal",
+          "subgenreZh": "后金属",
+          "rymTags": [
+            "Atmospheric Sludge Metal",
+            "Post-Metal"
+          ],
+          "single": {
+            "title": "So Did We",
+            "artist": "Isis",
+            "year": 2004,
+            "hookZh": "厚重污泥吉他与清澈空间延迟交错推进，兼具巨石重量与海洋辽阔感。"
+          },
+          "artist": {
+            "name": "Isis",
+            "nameZh": "Isis",
+            "origin": "US (Boston / Los Angeles)",
+            "activeEra": "1997-2010",
+            "significanceZh": "Aaron Turner领衔将后摇滚的留白叙事引入污泥金属，确立后金属美学高度。"
+          },
+          "album": {
+            "essential": {
+              "title": "Panopticon",
+              "artist": "Isis",
+              "year": 2004,
+              "rymTags": [
+                "Atmospheric Sludge Metal",
+                "Post-Metal"
+              ],
+              "reasonZh": "以全景敞视社会为主题的后金属巅峰概念大碟。"
+            },
+            "advancedFollowUp": {
+              "title": "Through Silver in Blood",
+              "artist": "Neurosis",
+              "year": 1996,
+              "rymTags": [
+                "Atmospheric Sludge Metal",
+                "Industrial Metal"
+              ],
+              "reasonZh": "部落双鼓与末世压迫感开创大气污泥与后金属先河。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "indie-shoegaze-post-rock",
+              "targetNodeId": "post-rock",
+              "reasonZh": "卸下极端嘶吼即可无缝回流Mogwai与GY!BE式的器乐后摇。"
+            }
+          ]
+        },
+        {
+          "id": "industrial",
+          "tier": 3,
+          "subgenreEn": "Industrial",
+          "subgenreZh": "工业音乐与工业摇滚",
+          "rymTags": [
+            "Industrial Rock",
+            "Industrial"
+          ],
+          "single": {
+            "title": "Closer",
+            "artist": "Nine Inch Nails",
+            "year": 1994,
+            "hookZh": "机械脉冲鼓机与层层畸变合成器交叠出危险而迷人的工业张力。"
+          },
+          "artist": {
+            "name": "Nine Inch Nails & Throbbing Gristle",
+            "nameZh": "九寸钉与悸动软骨",
+            "origin": "US (Ohio) / UK (Hull & London)",
+            "activeEra": "1975-present",
+            "significanceZh": "从70年代英国反艺术声音游击战演进至90年代震撼主流的工业摇滚录音室巨制。"
+          },
+          "album": {
+            "essential": {
+              "title": "The Downward Spiral",
+              "artist": "Nine Inch Nails",
+              "year": 1994,
+              "rymTags": [
+                "Industrial Rock"
+              ],
+              "reasonZh": "连接另类摇滚听众与极端工业噪音的概念巅峰。"
+            },
+            "advancedFollowUp": {
+              "title": "20 Jazz Funk Greats",
+              "artist": "Throbbing Gristle",
+              "year": 1979,
+              "rymTags": [
+                "Industrial",
+                "Minimal Synth"
+              ],
+              "reasonZh": "甜美风景封面反讽消费主义的初代工业实验圣经。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "electronic-club",
+              "targetNodeId": "house-detroit-techno",
+              "reasonZh": "工业机械节拍（EBM）与暗黑Techno俱乐部文化血脉相连。"
+            }
+          ]
+        },
+        {
+          "id": "blackgaze",
+          "tier": 4,
+          "subgenreEn": "Blackgaze",
+          "subgenreZh": "黑自赏",
+          "rymTags": [
+            "Blackgaze",
+            "Post-Black Metal"
+          ],
+          "single": {
+            "title": "Dream House",
+            "artist": "Deafheaven",
+            "year": 2013,
+            "hookZh": "暴风雪般的黑金属双踩轮拨在大调和弦中迸发出令人热泪盈眶的盛夏暖光。"
+          },
+          "artist": {
+            "name": "Alcest & Deafheaven",
+            "nameZh": "Alcest 与 Deafheaven",
+            "origin": "France / US (San Francisco)",
+            "activeEra": "2000-present",
+            "significanceZh": "将挪威黑金属凄厉织体与自赏派梦幻吉他音墙嫁接，实现重型音乐最惊艳的破圈。"
+          },
+          "album": {
+            "essential": {
+              "title": "Sunbather",
+              "artist": "Deafheaven",
+              "year": 2013,
+              "rymTags": [
+                "Blackgaze",
+                "Post-Black Metal"
+              ],
+              "reasonZh": "粉橙封面颠覆金属刻板印象的RYM跨圈神作。"
+            },
+            "advancedFollowUp": {
+              "title": "Écailles de lune",
+              "artist": "Alcest",
+              "year": 2010,
+              "rymTags": [
+                "Blackgaze",
+                "Shoegaze"
+              ],
+              "reasonZh": "法国音乐人Neige奠定黑自赏海洋月光美学的里程碑。"
+            }
+          },
+          "nextLineageHints": [
+            {
+              "targetLineageId": "indie-shoegaze-post-rock",
+              "targetNodeId": "shoegaze",
+              "reasonZh": "顺着柔光吉他音墙可直返My Bloody Valentine与Slowdive。"
+            }
+          ]
+        }
+      ],
+      "loreWorks": [
+        {
+          "id": "lore-assimilate",
+          "titleOriginal": "Assimilate: A Critical History of Industrial Music",
+          "titleZh": "同化：工业音乐批判史",
+          "creator": "S. Alexander Reed",
+          "year": 2013,
+          "type": "书籍",
+          "summaryZh": "从未来主义、Throbbing Gristle到九寸钉的权威工业音乐思想史。"
+        },
+        {
+          "id": "lore-industrial-handbook",
+          "titleOriginal": "RE/Search #6/7: Industrial Culture Handbook",
+          "titleZh": "工业文化手册",
+          "creator": "V. Vale & Andrea Juno",
+          "year": 1983,
+          "type": "访谈档案/口述史",
+          "summaryZh": "收录初代工业噪音与行为艺术先锋第一手宣言的地下圣经。"
+        },
+        {
+          "id": "lore-japrocksampler",
+          "titleOriginal": "Japrocksampler: How the Post-War Japanese Blew Their Minds on Rock 'n' Roll",
+          "titleZh": "日本摇滚采样志",
+          "creator": "Julian Cope",
+          "year": 2007,
+          "type": "书籍",
+          "summaryZh": "挖掘Flower Travellin' Band与裸体集会等战后日本重迷幻噪音传奇。"
+        },
+        {
+          "id": "lore-black-metal-cult",
+          "titleOriginal": "Black Metal: Evolution of the Cult / Until the Light Takes Us",
+          "titleZh": "黑金属：邪典演进史 / 直到光芒带走我们",
+          "creator": "Dayal Patterson (2013) / Aaron Aites & Audrey Ewell (2008)",
+          "year": 2013,
+          "type": "书籍/纪录片",
+          "summaryZh": "梳理黑金属从北欧地下走向全球后黑金属与黑自赏的美学蜕变。"
+        }
+      ]
+    }
+  ],
+  "personas": [
+    {
+      "id": "persona-midnight-modalist",
+      "nameZh": "午夜蓝音萨克斯手",
+      "nameEn": "The Midnight Modalist",
+      "dominantLineageIds": [
+        "jazz"
+      ],
+      "secondaryLineageIds": [
+        "hip-hop-beats",
+        "electronic-club"
+      ],
+      "signatureArtists": [
+        "Miles Davis",
+        "John Coltrane",
+        "Yussef Kamaal"
+      ],
+      "iconicGearZh": "Selmer Mark VI 次中音萨克斯与蓝音黑胶唱盘",
+      "badgeQuoteZh": "真正的自由不在音符密度里，而在两次呼吸之间的留白里。",
+      "descriptionZh": "你偏爱即兴对话、调式呼吸与南伦敦雨夜碎拍，总能在复杂和声背后听见直抵灵魂的克制与祈祷。",
+      "recommendedLoreWorkIds": [
+        "lore-how-to-listen-to-jazz",
+        "lore-miles-autobiography",
+        "lore-summer-of-soul"
+      ]
+    },
+    {
+      "id": "persona-post-industrial-bassist",
+      "nameZh": "后工业暗房贝斯手",
+      "nameEn": "The Post-Industrial Bassist",
+      "dominantLineageIds": [
+        "punk-post-punk"
+      ],
+      "secondaryLineageIds": [
+        "electronic-club",
+        "heavy-industrial-avant"
+      ],
+      "signatureArtists": [
+        "Joy Division",
+        "The Cure",
+        "Sonic Youth"
+      ],
+      "iconicGearZh": "高把位合唱效果贝斯与冷冽板式混响器",
+      "badgeQuoteZh": "当霓虹熄灭，空旷厂房里的回声才刚开始诚实说话。",
+      "descriptionZh": "你对甜腻虚假的流行套路天生免疫，钟情棱角分明的切分线条、冷浪潮鼓机与锋利的地下现实感。",
+      "recommendedLoreWorkIds": [
+        "lore-please-kill-me",
+        "lore-rip-it-up",
+        "lore-joy-division-doc"
+      ]
+    },
+    {
+      "id": "persona-pedalboard-shoegazer",
+      "nameZh": "混响踏板筑梦师",
+      "nameEn": "The Pedalboard Shoegazer",
+      "dominantLineageIds": [
+        "indie-shoegaze-post-rock"
+      ],
+      "secondaryLineageIds": [
+        "punk-post-punk",
+        "heavy-industrial-avant"
+      ],
+      "signatureArtists": [
+        "My Bloody Valentine",
+        "Cocteau Twins",
+        "Godspeed You! Black Emperor"
+      ],
+      "iconicGearZh": "Fender Jazzmaster 摇把与串联十块混响失真单块板",
+      "badgeQuoteZh": "把音量旋钮拧到尽头，噪音就会化作最温柔的海啸。",
+      "descriptionZh": "你迷恋模糊人声边界的轰鸣音墙、奇数拍清音吉他与二十分钟无词长曲里缓慢升腾的末世希望。",
+      "recommendedLoreWorkIds": [
+        "lore-beautiful-noise",
+        "lore-fearless-post-rock",
+        "lore-our-band"
+      ]
+    },
+    {
+      "id": "persona-4am-modular-alchemist",
+      "nameZh": "凌晨四点模组炼金师",
+      "nameEn": "The 4AM Modular Alchemist",
+      "dominantLineageIds": [
+        "electronic-club"
+      ],
+      "secondaryLineageIds": [
+        "art-pop-city-pop",
+        "jazz"
+      ],
+      "signatureArtists": [
+        "Kraftwerk",
+        "Aphex Twin",
+        "Burial"
+      ],
+      "iconicGearZh": "Roland TR-808/909 鼓机与模块化合成器跳线矩阵",
+      "badgeQuoteZh": "机器从不冰冷，只要你听见过凌晨四点大巴车窗上的低频雨声。",
+      "descriptionZh": "从杜塞尔多夫铁轨脉冲到底特律仓库与南伦敦夜雨，你在循环脉冲与微采样里捕捉现代都市的幽灵。",
+      "recommendedLoreWorkIds": [
+        "lore-energy-flash",
+        "lore-electrochoc",
+        "lore-high-tech-soul"
+      ]
+    },
+    {
+      "id": "persona-crate-digging-beatmaker",
+      "nameZh": "地下唱片箱挖掘者",
+      "nameEn": "The Crate-Digging Beatmaker",
+      "dominantLineageIds": [
+        "hip-hop-beats"
+      ],
+      "secondaryLineageIds": [
+        "jazz",
+        "electronic-club"
+      ],
+      "signatureArtists": [
+        "A Tribe Called Quest",
+        "J Dilla",
+        "Madvillain"
+      ],
+      "iconicGearZh": "Akai MPC3000 采样器与满载七十年代灵魂黑胶的木箱",
+      "badgeQuoteZh": "每一张蒙尘旧唱片的第47秒，都藏着尚未诞生的新世界。",
+      "descriptionZh": "你痴迷于不量化的微醺错拍、精妙多音节内押韵与跨时空黑胶采样缝合术。",
+      "recommendedLoreWorkIds": [
+        "lore-cant-stop-wont-stop",
+        "lore-dilla-time",
+        "lore-scratch"
+      ]
+    },
+    {
+      "id": "persona-neon-studio-architect",
+      "nameZh": "霓虹录音室建筑师",
+      "nameEn": "The Neon Studio Architect",
+      "dominantLineageIds": [
+        "art-pop-city-pop"
+      ],
+      "secondaryLineageIds": [
+        "jazz",
+        "indie-shoegaze-post-rock"
+      ],
+      "signatureArtists": [
+        "Talking Heads",
+        "Tatsuro Yamashita",
+        "Björk"
+      ],
+      "iconicGearZh": "多轨模拟调音台、Fender Rhodes 电钢琴与室内弦乐总谱",
+      "badgeQuoteZh": "流行曲并非速朽快消品，而是三分钟内的巴洛克建筑。",
+      "descriptionZh": "你同时拥抱东京海岸线的精致放克切分、室内管弦对位与大胆先锋的舞台艺术观念。",
+      "recommendedLoreWorkIds": [
+        "lore-stop-making-sense",
+        "lore-how-music-works",
+        "lore-citypop-shibuya-books"
+      ]
+    },
+    {
+      "id": "persona-borderless-troubadour",
+      "nameZh": "赤道与黄河漫游吟游者",
+      "nameEn": "The Borderless Troubadour",
+      "dominantLineageIds": [
+        "folk-psych-regional"
+      ],
+      "secondaryLineageIds": [
+        "jazz",
+        "indie-shoegaze-post-rock"
+      ],
+      "signatureArtists": [
+        "Nick Drake",
+        "Os Mutantes",
+        "Fela Kuti",
+        "万能青年旅店"
+      ],
+      "iconicGearZh": "特殊调弦木吉他、手鼓与边缘带锯齿切口的打口磁带",
+      "badgeQuoteZh": "真正的世界音乐不在异域明信片上，而在每片土地不肯沉默的喉咙里。",
+      "descriptionZh": "你跨越英美中心视角，在巴伊亚热带狂欢、拉各斯复节奏铜管与华北平原小号里听见时代体温。",
+      "recommendedLoreWorkIds": [
+        "lore-ba-qingchun-changwan",
+        "lore-yanjun-dakou",
+        "lore-tropicalia-doc",
+        "lore-finding-fela"
+      ]
+    },
+    {
+      "id": "persona-sunlit-doomsmith",
+      "nameZh": "粉红音墙锻铁匠",
+      "nameEn": "The Sunlit Doomsmith",
+      "dominantLineageIds": [
+        "heavy-industrial-avant"
+      ],
+      "secondaryLineageIds": [
+        "indie-shoegaze-post-rock",
+        "punk-post-punk"
+      ],
+      "signatureArtists": [
+        "Black Sabbath",
+        "Isis",
+        "Nine Inch Nails",
+        "Deafheaven"
+      ],
+      "iconicGearZh": "降C调电吉他、全管放大器墙与工业采样合成器",
+      "badgeQuoteZh": "唯有潜入最深沉的铁砧轰鸣，才能锻出最刺眼的破晓微光。",
+      "descriptionZh": "你不惧重型降调与工业噪音的压迫感，深知极端声压背后往往藏着最纯粹的悲悯与超越感。",
+      "recommendedLoreWorkIds": [
+        "lore-assimilate",
+        "lore-japrocksampler",
+        "lore-black-metal-cult"
+      ]
+    },
+    {
+      "id": "persona-shibuya-record-clerk",
+      "nameZh": "涩谷唱片行全能策展人",
+      "nameEn": "The Shibuya Record Clerk",
+      "dominantLineageIds": [
+        "art-pop-city-pop",
+        "indie-shoegaze-post-rock",
+        "jazz",
+        "hip-hop-beats"
+      ],
+      "secondaryLineageIds": [
+        "electronic-club",
+        "folk-psych-regional"
+      ],
+      "signatureArtists": [
+        "Cornelius",
+        "Stereolab",
+        "The Avalanches",
+        "Fishmans"
+      ],
+      "iconicGearZh": "手写推荐卡（POP卡片）、监听耳机与跨流派分栏唱片架",
+      "badgeQuoteZh": "流派从来不是高墙，而是唱片店过道里擦肩而过的暗号。",
+      "descriptionZh": "你在审查台前打通四条以上谱系，擅长把巴西和声、英伦自赏、爵士采样与电子拼贴编织成一张奇妙歌单。",
+      "recommendedLoreWorkIds": [
+        "lore-citypop-shibuya-books",
+        "lore-how-music-works",
+        "lore-scratch"
+      ]
+    },
+    {
+      "id": "persona-rym-deep-cut-archivist",
+      "nameZh": "RYM 深夜档案管理员",
+      "nameEn": "The RYM Deep-Cut Archivist",
+      "dominantLineageIds": [
+        "jazz",
+        "punk-post-punk",
+        "electronic-club",
+        "heavy-industrial-avant"
+      ],
+      "secondaryLineageIds": [
+        "indie-shoegaze-post-rock",
+        "hip-hop-beats",
+        "folk-psych-regional",
+        "art-pop-city-pop"
+      ],
+      "signatureArtists": [
+        "Glenn Branca",
+        "Drexciya",
+        "W.I.T.C.H.",
+        "Alcest"
+      ],
+      "iconicGearZh": "贴满流派谱系便签的深夜显示屏幕与绝版首版黑胶内页",
+      "badgeQuoteZh": "排行榜只记录潮水表面，真正的暗流藏在每一张进阶延伸唱片背面。",
+      "descriptionZh": "你总是跳过显学爆款直奔进阶B面与口述文献，执着于还原半个世纪地下音乐彼此共振的隐秘星图。",
+      "recommendedLoreWorkIds": [
+        "lore-rip-it-up",
+        "lore-energy-flash",
+        "lore-japrocksampler",
+        "lore-yanjun-dakou"
+      ]
+    }
+  ]
+}
