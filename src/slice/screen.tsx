@@ -230,25 +230,21 @@ export function SliceApp() {
     <div className={`slice shop room-${region} f${scene.floor} look-${scene.phase === 'start' ? 'postpunk' : look}`} data-testid="slice-screen" data-floor={scene.floor} data-phase={scene.phase} data-pose={pose}>
       <p className="slice-live" aria-live="polite">{spoken}</p>
       <div className="street" aria-hidden="true">
-        <i className="sky" />
-        <i className="terrace" />
-        <i className="bus" />
-        <i className="pillar" />
-        <i className="car" />
-        <i className="hydrant" />
-        <i className="well" />
-        <i className="soil" />
-        <i className="passer look-pass" />
+        <div className="street-ground">
+          <i className="terrace" />
+          <i className="bus" />
+          <i className="pillar" />
+          <i className="car" />
+          <i className="hydrant" />
+          <i className="well" />
+          <i className="soil" />
+          <i className="passer" />
+        </div>
       </div>
       <div className="room">
         <div className="wall" aria-hidden="true">
           <i className="poster a" />
           <i className="poster b" />
-          <button type="button" className={`stair ${scene.floor < 3 ? 'can-go' : ''}`} data-testid="slice-stair" aria-label={FLOOR[scene.floor]}>
-            <span className="stair-mark">{floorMark}</span>
-            <span className="stair-arrow" />
-            <span className="stair-bulb" />
-          </button>
         </div>
 
         {scene.phase === 'start' && (
@@ -269,6 +265,7 @@ export function SliceApp() {
             <Thing object={scene.objects.supply} testId="slice-supply" onPress={() => press(scene.objects.supply)}>
               <span className="supply-box" aria-hidden="true" />
             </Thing>
+            <Stair floor={scene.floor} mark={floorMark} />
           </main>
         )}
 
@@ -324,6 +321,7 @@ export function SliceApp() {
               <Thing object={scene.objects.shelf} testId="slice-shelf" onPress={() => press(scene.objects.shelf)}>
                 <span className="shelf-body" aria-hidden="true" />
               </Thing>
+              <Stair floor={scene.floor} mark={floorMark} />
             </div>
             <AppleCredit />
           </main>
@@ -352,6 +350,16 @@ export function SliceApp() {
         )}
       </div>
     </div>
+  );
+}
+
+function Stair({ floor, mark }: { floor: number; mark: string }) {
+  return (
+    <button type="button" className={`stair ${floor < 3 ? 'can-go' : ''}`} data-testid="slice-stair" aria-label={FLOOR[floor]}>
+      <span className="stair-mark">{mark}</span>
+      <span className="stair-arrow" />
+      <span className="stair-bulb" />
+    </button>
   );
 }
 
