@@ -284,9 +284,6 @@
    ],
    "artistId": "cedc54a0-9fe1-43aa-8ace-a294795cebe4"
   },
-  "Dinosaur Jr.|You're Living All Over Me": {
-   "found": false
-  },
   "Lowlife|Permanent Sleep": {
    "found": true,
    "id": "366d700b-c493-3586-b259-e10f68f3344a",
@@ -475,12 +472,6 @@
     "twee pop"
    ],
    "artistId": "9a407ae8-afbb-4a3a-abb1-1fab4b3c26af"
-  },
-  "The Shop Assistants|Shop Assistants": {
-   "found": false
-  },
-  "Meat Whiplash|Don't Slip Up": {
-   "found": false
   },
   "Nirvana|Bleach": {
    "found": true,
@@ -1213,6 +1204,4046 @@
     "synth-pop"
    ],
    "artistId": "127f591a-7e27-4435-92db-0780f219f3a1"
+  },
+  "XTC|English Settlement": {
+   "found": true,
+   "id": "d1cf6125-2cbb-3be0-81fb-a60c9491e9a5",
+   "title": "English Settlement",
+   "credit": "XTC",
+   "type": "Album",
+   "first": "1982-02-12",
+   "genres": [
+    "new wave",
+    "art rock",
+    "rock",
+    "post-punk",
+    "jangle pop",
+    "pop rock",
+    "folk pop",
+    "art pop"
+   ],
+   "artistId": "97c86b2c-2765-46a2-aef8-76a7e24c430f"
+  },
+  "Wall of Voodoo|Call of the West": {
+   "found": true,
+   "id": "74f5d2db-bb04-3ddb-83ba-69a5d91d4811",
+   "title": "Call of the West",
+   "credit": "Wall of Voodoo",
+   "type": "Album",
+   "first": "1982-08-17",
+   "genres": [
+    "new wave",
+    "rock",
+    "electronic",
+    "post-punk"
+   ],
+   "artistId": "1154b8aa-1cc1-4b01-afff-eca45ae590fa"
+  },
+  "Suburban Lawns|Suburban Lawns": {
+   "found": true,
+   "id": "84afc3a0-4f81-33cd-930e-6a23b309bb8c",
+   "title": "Suburban Lawns",
+   "credit": "Suburban Lawns",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "new wave",
+    "rock",
+    "electronic",
+    "punk",
+    "post-punk"
+   ],
+   "artistId": "f2e5a6f8-e72e-46a7-8e2e-34960339220a"
+  },
+  "Romeo Void|It's a Condition": {
+   "found": true,
+   "id": "91ed556a-dd77-4488-a290-3a99e998fa0c",
+   "title": "It’s a Condition",
+   "credit": "Romeo Void",
+   "type": "Album",
+   "first": "1981-07",
+   "genres": [
+    "new wave",
+    "rock",
+    "post-punk",
+    "indie rock",
+    "dance-rock"
+   ],
+   "artistId": "70693ef1-2d81-4b35-a483-bd78553db176"
+  },
+  "Units|Digital Stimulation": {
+   "found": true,
+   "id": "6a8765ce-00c2-3c56-8561-9aa2d6b48ca9",
+   "title": "Digital Stimulation",
+   "credit": "Units",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "new wave",
+    "rock",
+    "electronic",
+    "post-punk",
+    "synth-pop"
+   ],
+   "artistId": "a08d716e-a51e-4a02-8092-93c3b0fb1322"
+  },
+  "Duran Duran|Rio": {
+   "found": true,
+   "id": "3c638420-8208-3c01-b723-f061b10e3f3a",
+   "title": "Rio",
+   "credit": "Duran Duran",
+   "type": "Album",
+   "first": "1982-05-10",
+   "genres": [
+    "new wave",
+    "synth-pop",
+    "new romantic",
+    "pop",
+    "trance"
+   ],
+   "artistId": "1a1cd7f3-e5df-4eca-bae2-2757c9e656b5"
+  },
+  "Visage|Visage": {
+   "found": true,
+   "id": "5cb2f9b4-af0c-3e1b-919b-5c62ad72e2f1",
+   "title": "Visage",
+   "credit": "Visage",
+   "type": "Album",
+   "first": "1980-11-10",
+   "genres": [
+    "new wave",
+    "electronic",
+    "synth-pop",
+    "rock",
+    "pop",
+    "new romantic"
+   ],
+   "artistId": "74f5365e-d77c-4a33-9715-7d5f049c9fbb"
+  },
+  "Japan|Gentlemen Take Polaroids": {
+   "found": true,
+   "id": "5349dcf4-8d8b-43c3-8996-f7a45212e63b",
+   "title": "Gentlemen Take Polaroids",
+   "credit": "Japan",
+   "type": "Single",
+   "first": "1980-10",
+   "genres": [
+    "electronic",
+    "new wave",
+    "synth-pop"
+   ],
+   "artistId": "697e7111-5630-4c77-83f3-39821bacc61a"
+  },
+  "Ultravox|Vienna": {
+   "found": true,
+   "id": "7793c026-9479-35b8-9f54-fc0bdd03e676",
+   "title": "Vienna",
+   "credit": "Ultravox",
+   "type": "Album",
+   "first": "1980-07-11",
+   "genres": [
+    "new wave",
+    "new romantic",
+    "synth-pop",
+    "art pop",
+    "rock",
+    "pop"
+   ],
+   "artistId": "7e786a4c-c743-4713-9340-a6f12d8515d4"
+  },
+  "Classix Nouveaux|Night People": {
+   "found": true,
+   "id": "e3fca651-9a19-3a36-b88c-d6d49ead17c8",
+   "title": "Night People",
+   "credit": "Classix Nouveaux",
+   "type": "Album",
+   "first": "1981-05",
+   "genres": [
+    "rock",
+    "electronic",
+    "new wave",
+    "synth-pop"
+   ],
+   "artistId": "055f48d8-781c-4d0c-b31f-4e901d11d87b"
+  },
+  "The Jam|Sound Affects": {
+   "found": true,
+   "id": "720d64da-e200-3bea-ae34-9cc0ea83c66e",
+   "title": "Sound Affects",
+   "credit": "The Jam",
+   "type": "Album",
+   "first": "1980-11-28",
+   "genres": [
+    "rock",
+    "post-punk",
+    "new wave",
+    "mod revival",
+    "power pop"
+   ],
+   "artistId": "23228f18-01d5-493e-94ce-cfcde82a8db2"
+  },
+  "Secret Affair|Behind Closed Doors": {
+   "found": true,
+   "id": "be3aec3b-23a7-3067-add6-6ee10a0be402",
+   "title": "Behind Closed Doors",
+   "credit": "Secret Affair",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "new wave",
+    "mod"
+   ],
+   "artistId": "d5117a22-1cf3-46c8-8b6e-5417a04e8c8a"
+  },
+  "The Chords|So Far Away": {
+   "found": true,
+   "id": "23de7804-e8ba-30ab-97ab-3fef81e65a76",
+   "title": "So Far Away",
+   "credit": "The Chords",
+   "type": "Album",
+   "first": "1980-05-15",
+   "genres": [],
+   "artistId": "c37b0a84-3eaf-4495-99f0-5a8158698864"
+  },
+  "The Lambrettas|Beat Boys in the Jet Age": {
+   "found": true,
+   "id": "fe8e1c82-292f-3d1c-bf35-bb8df23fb6cd",
+   "title": "Beat Boys in the Jet Age",
+   "credit": "The Lambrettas",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "new wave",
+    "power pop",
+    "mod",
+    "mod revival"
+   ],
+   "artistId": "6f5b4564-6402-4c60-9e31-b85107c3617a"
+  },
+  "Purple Hearts|Beat That!": {
+   "found": true,
+   "id": "778040f5-dec5-33f6-ba90-44efa3c4df74",
+   "title": "Beat That!",
+   "credit": "Purple Hearts",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "new wave",
+    "power pop",
+    "mod"
+   ],
+   "artistId": "35dc36a6-3017-45e4-95c6-9b87cf1637c8"
+  },
+  "Tom Waits|Rain Dogs": {
+   "found": true,
+   "id": "fb25a883-2270-3ec4-8c62-85c7ed857e6f",
+   "title": "Rain Dogs",
+   "credit": "Tom Waits",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "blues rock",
+    "rock",
+    "experimental rock",
+    "alternative rock",
+    "blues",
+    "experimental",
+    "singer-songwriter",
+    "americana",
+    "avant-garde"
+   ],
+   "artistId": "c3aeb863-7b26-4388-94e8-5a240f2be21b"
+  },
+  "This Heat|Deceit": {
+   "found": true,
+   "id": "db33265e-8494-32f1-8892-4fa0add9cf16",
+   "title": "Deceit",
+   "credit": "This Heat",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "post-punk",
+    "experimental rock",
+    "experimental",
+    "avant-garde",
+    "rock",
+    "post-rock",
+    "industrial",
+    "art rock",
+    "tape music",
+    "musique concrète",
+    "avant-prog",
+    "avant-folk"
+   ],
+   "artistId": "8e538a69-fc3b-43e1-9a6b-801ea56d6d48"
+  },
+  "Captain Beefheart and the Magic Band|Doc at the Radar Station": {
+   "found": true,
+   "id": "d7e00c52-d84e-3390-acb4-90ed8d94b8d8",
+   "title": "Doc at the Radar Station",
+   "credit": "Captain Beefheart and the Magic Band",
+   "type": "Album",
+   "first": "1980-09",
+   "genres": [
+    "experimental rock",
+    "art rock",
+    "avant-garde"
+   ],
+   "artistId": "8dcd04e4-7695-4d80-bae9-1d7d680a38ef"
+  },
+  "Pere Ubu|The Art of Walking": {
+   "found": true,
+   "id": "d39806ba-f7ce-3e03-bc54-361d86317dd8",
+   "title": "The Art of Walking",
+   "credit": "Pere Ubu",
+   "type": "Album",
+   "first": "1980-07-04",
+   "genres": [
+    "post-punk",
+    "experimental",
+    "new wave",
+    "experimental rock",
+    "rock and roll",
+    "avant-garde"
+   ],
+   "artistId": "5a54b72e-bfb3-4ca6-944a-e17261399965"
+  },
+  "Sonic Youth|Daydream Nation": {
+   "found": true,
+   "id": "24769a99-8189-3d8c-947e-dbc8574dad5c",
+   "title": "Daydream Nation",
+   "credit": "Sonic Youth",
+   "type": "Album",
+   "first": "1988-10",
+   "genres": [
+    "alternative rock",
+    "rock",
+    "noise rock",
+    "post-punk",
+    "experimental rock",
+    "slacker rock",
+    "noise",
+    "indie rock",
+    "post-hardcore",
+    "art punk",
+    "no wave"
+   ],
+   "artistId": "5cbef01b-cc35-4f52-af7b-d0df0c4f61b9"
+  },
+  "Big Black|Atomizer": {
+   "found": true,
+   "id": "94e3e968-4a8d-3d2f-9538-b96c0bfa2a06",
+   "title": "Atomizer",
+   "credit": "Big Black",
+   "type": "Album",
+   "first": "1986-01",
+   "genres": [
+    "post-hardcore",
+    "rock",
+    "electronic",
+    "punk rock",
+    "post-punk",
+    "indie rock",
+    "noise rock"
+   ],
+   "artistId": "9463868f-edc8-427e-ac07-ea89698e5f15"
+  },
+  "Butthole Surfers|Locust Abortion Technician": {
+   "found": true,
+   "id": "505efa10-c8c9-3741-814f-9d9fe44e49cf",
+   "title": "Locust Abortion Technician",
+   "credit": "Butthole Surfers",
+   "type": "Album",
+   "first": "1987-03",
+   "genres": [
+    "alternative rock",
+    "rock",
+    "electronic",
+    "punk",
+    "experimental",
+    "avant-garde"
+   ],
+   "artistId": "2339bc21-aa92-4850-86f0-4bb9433910c8"
+  },
+  "Scratch Acid|Just Keep Eating": {
+   "found": true,
+   "id": "f4036bdc-a20a-4533-b829-131c2b2d0406",
+   "title": "Just Keep Eating",
+   "credit": "Scratch Acid",
+   "type": "Album",
+   "first": "1986-04-07",
+   "genres": [
+    "noise rock"
+   ],
+   "artistId": "75687111-1585-4df2-83e6-ce52e7fa2bb0"
+  },
+  "Live Skull|Bringing Home the Bait": {
+   "found": true,
+   "id": "a191d6dc-ee4e-3120-b5a1-aa73074ee7d1",
+   "title": "Bringing Home the Bait",
+   "credit": "Live Skull",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "post-punk",
+    "indie rock"
+   ],
+   "artistId": "cb712405-f411-4ba7-b687-f6ecafad0f65"
+  },
+  "Band of Susans|Hope Against Hope": {
+   "found": true,
+   "id": "1ef36914-8729-35ad-9a2e-1bbf29aa6952",
+   "title": "Hope Against Hope",
+   "credit": "Band of Susans",
+   "type": "Album",
+   "first": "1988-04-01",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "noise",
+    "drone",
+    "noise rock"
+   ],
+   "artistId": "12858790-851b-4899-ac07-9ac6373cf133"
+  },
+  "Marillion|Misplaced Childhood": {
+   "found": true,
+   "id": "06896217-3aba-31d3-8b34-bd193c9e2b98",
+   "title": "Misplaced Childhood",
+   "credit": "Marillion",
+   "type": "Album",
+   "first": "1985-06-17",
+   "genres": [
+    "progressive rock",
+    "pop rock",
+    "neo-progressive rock",
+    "rock",
+    "progressive pop",
+    "pop",
+    "hard rock",
+    "art rock",
+    "symphonic rock"
+   ],
+   "artistId": "1932f5b6-0b7b-4050-b1df-833ca89e5f44"
+  },
+  "IQ|The Wake": {
+   "found": true,
+   "id": "fab32d72-8f68-338c-9975-f58690e8f5a7",
+   "title": "The Wake",
+   "credit": "IQ",
+   "type": "Album",
+   "first": "1985-05",
+   "genres": [
+    "rock",
+    "blues",
+    "neo-progressive rock"
+   ],
+   "artistId": "9a5cf59b-5da0-4021-b885-b6b78dd6886e"
+  },
+  "Twelfth Night|Fact and Fiction": {
+   "found": true,
+   "id": "4cbfab59-1615-3809-a469-d7560520ba56",
+   "title": "Fact and Fiction",
+   "credit": "Twelfth Night",
+   "type": "Album",
+   "first": "1982-12",
+   "genres": [
+    "rock",
+    "neo-progressive rock"
+   ],
+   "artistId": "69c1a984-3456-420b-9475-c5a4ccad6b4f"
+  },
+  "Pendragon|The Jewel": {
+   "found": true,
+   "id": "7ae479f8-ca02-328d-98c7-2fc4adfd02b6",
+   "title": "The Jewel",
+   "credit": "Pendragon",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock"
+   ],
+   "artistId": "702cded2-ac87-476d-8e56-caa1999064a7"
+  },
+  "Pallas|The Sentinel": {
+   "found": true,
+   "id": "743e46d7-13f4-3835-9373-bd5aa34c52fe",
+   "title": "The Sentinel",
+   "credit": "Pallas",
+   "type": "Album",
+   "first": "1984-02-13",
+   "genres": [
+    "progressive rock",
+    "rock",
+    "electronic"
+   ],
+   "artistId": "be51870d-2bdc-4586-b55a-d18d21e301c3"
+  },
+  "Cardiacs|A Little Man and a House and the Whole World Window": {
+   "found": true,
+   "id": "ffd0d9f2-3b52-48a8-9222-9a620016634e",
+   "title": "A Little Man and a House and the Whole World Window",
+   "credit": "Cardiacs",
+   "type": "Album",
+   "first": "1988-03-21",
+   "genres": [
+    "rock",
+    "progressive rock",
+    "post-punk",
+    "indie rock",
+    "art rock",
+    "art punk",
+    "2 tone",
+    "avant-prog",
+    "progressive pop",
+    "zolo"
+   ],
+   "artistId": "f7338f2a-136b-4d5e-b099-5504cf997f58"
+  },
+  "Fred Frith|Gravity": {
+   "found": true,
+   "id": "c2af60d6-3f02-3b42-8630-62a4a3a3a55f",
+   "title": "Gravity",
+   "credit": "Fred Frith",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "jazz",
+    "folk rock",
+    "avant-garde"
+   ],
+   "artistId": "4801bad4-1b42-4c9e-84b1-bf61067ab67c"
+  },
+  "Art Bears|The World as It Is Today": {
+   "found": true,
+   "id": "2a446bb5-1dd9-3011-a8f7-3f9ff5a10ca2",
+   "title": "The World as It Is Today",
+   "credit": "Art Bears",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "art rock",
+    "experimental rock",
+    "avant-garde"
+   ],
+   "artistId": "aaf0c715-407f-418e-8674-ba933d4d89db"
+  },
+  "Thinking Plague|In This Life": {
+   "found": true,
+   "id": "720610dd-c8a3-3b60-8628-7464f12656ae",
+   "title": "In This Life",
+   "credit": "Thinking Plague",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "rock",
+    "avant-garde"
+   ],
+   "artistId": "50de12e7-a48b-463b-ab9d-fa0f37d51b5f"
+  },
+  "Peter Gabriel|Peter Gabriel": {
+   "found": true,
+   "id": "4e6f2a81-ec6d-378c-a824-0cd0538bbb21",
+   "title": "Peter Gabriel",
+   "credit": "Peter Gabriel",
+   "type": "Album",
+   "first": "1977-02-25",
+   "genres": [
+    "progressive rock",
+    "rock",
+    "art rock",
+    "pop rock",
+    "pop"
+   ],
+   "artistId": "8e66ea2b-b57b-47d9-8df0-df4630aeb8e5"
+  },
+  "Talk Talk|Spirit of Eden": {
+   "found": true,
+   "id": "fd29e2cd-9bd7-32c6-adf9-ce80ab1cadfc",
+   "title": "Spirit of Eden",
+   "credit": "Talk Talk",
+   "type": "Album",
+   "first": "1988-09-16",
+   "genres": [
+    "post-rock",
+    "art rock",
+    "ambient"
+   ],
+   "artistId": "a74f43e4-50c4-4b19-a2ce-c05ce9bccb03"
+  },
+  "David Sylvian|Secrets of the Beehive": {
+   "found": true,
+   "id": "5bfa5dfa-7eae-340f-8d21-ba7df71be29b",
+   "title": "Secrets of the Beehive",
+   "credit": "David Sylvian",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "ambient pop",
+    "art rock"
+   ],
+   "artistId": "719db6b1-0d91-458c-8d18-875ec44105bf"
+  },
+  "King Crimson|Discipline": {
+   "found": true,
+   "id": "d498c31d-3b72-3748-a142-df0bf774a920",
+   "title": "Discipline",
+   "credit": "King Crimson",
+   "type": "Album",
+   "first": "1981-09-22",
+   "genres": [
+    "rock",
+    "progressive rock",
+    "new wave",
+    "art rock"
+   ],
+   "artistId": "b38225b8-8e5f-42aa-bcdc-7bae5b5bdab3"
+  },
+  "Scott Walker|Climate of Hunter": {
+   "found": true,
+   "id": "79ddeaa9-7199-33ad-8f2d-29cdb27d777d",
+   "title": "Climate of Hunter",
+   "credit": "Scott Walker",
+   "type": "Album",
+   "first": "1984-03",
+   "genres": [
+    "art rock",
+    "rock",
+    "art pop"
+   ],
+   "artistId": "99524243-dc2e-4bf3-82c0-72395391d21f"
+  },
+  "Bill Nelson|Quit Dreaming and Get on the Beam": {
+   "found": true,
+   "id": "c07be3ba-2f30-3d70-b030-bd4f27baedb0",
+   "title": "Quit Dreaming and Get on the Beam",
+   "credit": "Bill Nelson",
+   "type": "Album",
+   "first": "1981-05-08",
+   "genres": [
+    "rock",
+    "electronic",
+    "synth-pop"
+   ],
+   "artistId": "8d463dee-ffae-4028-a3af-ec8ccb595906"
+  },
+  "Guns N' Roses|Appetite for Destruction": {
+   "found": true,
+   "id": "a0b94d0a-210b-4b15-bd1d-93be2196c14a",
+   "title": "Appetite for Destruction",
+   "credit": "Guns N' Roses",
+   "type": "Album",
+   "first": "1987-07-21",
+   "genres": [
+    "hard rock",
+    "rock",
+    "heavy metal",
+    "glam metal",
+    "metal",
+    "sleaze rock",
+    "pop rock"
+   ],
+   "artistId": "eeb1195b-f213-4ce1-b28c-8565211f8e43"
+  },
+  "The Cult|Electric": {
+   "found": true,
+   "id": "e9e740ec-a09f-3f29-802f-43af41b7e440",
+   "title": "Electric",
+   "credit": "The Cult",
+   "type": "Album",
+   "first": "1987-05-21",
+   "genres": [
+    "hard rock",
+    "rock",
+    "alternative rock",
+    "heavy metal",
+    "metal",
+    "glam metal"
+   ],
+   "artistId": "8846e4ff-0c19-4af2-872b-7a8dc7497f68"
+  },
+  "The Dogs D'Amour|In the Dynamite Jet Saloon": {
+   "found": true,
+   "id": "56a0d499-4ddb-31b3-8a9c-9217340f1d03",
+   "title": "In the Dynamite Jet Saloon",
+   "credit": "The Dogs D’Amour",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "hard rock",
+    "rock",
+    "glam rock",
+    "sleaze rock"
+   ],
+   "artistId": "15676fc4-ba0b-4871-ac8d-ef058895b075"
+  },
+  "Circus of Power|Circus of Power": {
+   "found": true,
+   "id": "2c5e925f-a090-3ecf-bbbc-73d2aebb8f34",
+   "title": "Circus of Power",
+   "credit": "Circus of Power",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "rock",
+    "hard rock"
+   ],
+   "artistId": "1ab6b6cb-0e04-4ea8-8f07-60deb30a9358"
+  },
+  "Mötley Crüe|Shout at the Devil": {
+   "found": true,
+   "id": "1d53b31a-6fed-3dcd-860f-d49be19a0228",
+   "title": "Shout at the Devil",
+   "credit": "Mötley Crüe",
+   "type": "Album",
+   "first": "1983-09-26",
+   "genres": [
+    "heavy metal",
+    "hard rock",
+    "rock",
+    "metal",
+    "glam metal",
+    "glam"
+   ],
+   "artistId": "26f07661-e115-471d-a930-206f5c89d17c"
+  },
+  "Def Leppard|Pyromania": {
+   "found": true,
+   "id": "d77df681-b779-3d6d-b66a-3bfd15985e3e",
+   "title": "Pyromania",
+   "credit": "Def Leppard",
+   "type": "Album",
+   "first": "1983-01-20",
+   "genres": [
+    "hard rock",
+    "rock",
+    "heavy metal",
+    "aor"
+   ],
+   "artistId": "7249b899-8db8-43e7-9e6e-22f1e736024e"
+  },
+  "Ratt|Out of the Cellar": {
+   "found": true,
+   "id": "691df04f-0c34-3e2f-8f47-537a54cd741d",
+   "title": "Out of the Cellar",
+   "credit": "Ratt",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "heavy metal",
+    "hard rock",
+    "glam metal",
+    "rock"
+   ],
+   "artistId": "e0827234-3be3-4973-be59-1aa9575b9c76"
+  },
+  "Kix|Blow My Fuse": {
+   "found": true,
+   "id": "b7fe0703-9c25-3bb0-80d1-692343fb9086",
+   "title": "Blow My Fuse",
+   "credit": "Kix",
+   "type": "Album",
+   "first": "1988-09-06",
+   "genres": [
+    "rock",
+    "hard rock"
+   ],
+   "artistId": "04a15a94-2a32-4f48-9596-ce3ea14e7d52"
+  },
+  "Wrathchild|Stakk Attakk": {
+   "found": true,
+   "id": "dc1d0242-5f58-3244-a287-d2f3487474e9",
+   "title": "Stakk Attakk",
+   "credit": "Wrathchild",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "heavy metal"
+   ],
+   "artistId": "e08c1c82-390f-45c2-8315-518ca8716e5e"
+  },
+  "Black 'n Blue|Black 'n Blue": {
+   "found": true,
+   "id": "4b19b14e-0cd4-3a32-a3a5-283297fd775e",
+   "title": "Black ’N Blue",
+   "credit": "Black ’N Blue",
+   "type": "Album",
+   "first": "1984-08",
+   "genres": [
+    "rock",
+    "hard rock"
+   ],
+   "artistId": "345e274e-6ce9-48c0-9712-5dad15c7e27c"
+  },
+  "Journey|Escape": {
+   "found": true,
+   "id": "89ed7ed6-4292-3892-b0de-c9c27005c08d",
+   "title": "Escape",
+   "credit": "Journey",
+   "type": "Album",
+   "first": "1981-07-17",
+   "genres": [
+    "rock",
+    "hard rock",
+    "pop rock",
+    "arena rock",
+    "classic rock"
+   ],
+   "artistId": "abd506e1-6f2b-4d6f-b937-92c267f6f88b"
+  },
+  "Toto|Toto IV": {
+   "found": true,
+   "id": "0d70d25f-a64a-3eed-8b26-13fe068a4519",
+   "title": "Toto IV",
+   "credit": "Toto",
+   "type": "Album",
+   "first": "1982-04-08",
+   "genres": [
+    "pop rock",
+    "rock",
+    "pop",
+    "classic rock",
+    "soft rock",
+    "hard rock",
+    "aor"
+   ],
+   "artistId": "aab5c954-cabe-432e-899e-1c4f99757327"
+  },
+  "FM|Indiscreet": {
+   "found": true,
+   "id": "49185729-94d8-3835-850e-b9b68040fbe6",
+   "title": "Indiscreet",
+   "credit": "FM",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "hard rock",
+    "aor"
+   ],
+   "artistId": "669bb68b-c55d-44f5-8da2-6eb1e27def62"
+  },
+  "Strangeways|Native Sons": {
+   "found": true,
+   "id": "44ec5833-e0b2-392e-862e-0dbbb72820d1",
+   "title": "Native Sons",
+   "credit": "Strangeways",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "hard rock",
+    "pop rock",
+    "aor"
+   ],
+   "artistId": "f050dc07-a382-4f03-af7f-ead70715ceaa"
+  },
+  "Giuffria|Giuffria": {
+   "found": true,
+   "id": "f7887e2d-3e02-3f32-9484-3f83687eedca",
+   "title": "Giuffria",
+   "credit": "Giuffria",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "hard rock"
+   ],
+   "artistId": "2dff1040-3fdf-4d4b-918e-326711467720"
+  },
+  "Bruce Springsteen|Born in the U.S.A.": {
+   "found": true,
+   "id": "6b56d7c1-b1c0-43fb-ba21-1a0b5004ce3e",
+   "title": "Born in the U.S.A.",
+   "credit": "Bruce Springsteen",
+   "type": "EP",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "americana",
+    "classic rock",
+    "pop rock",
+    "arena rock"
+   ],
+   "artistId": "70248960-cb53-4ea4-943a-edb18f7d336f"
+  },
+  "Tom Petty|Full Moon Fever": {
+   "found": true,
+   "id": "ffbef03e-3651-39db-8a2f-e140dc5aa219",
+   "title": "Full Moon Fever",
+   "credit": "Tom Petty",
+   "type": "Album",
+   "first": "1989-04-25",
+   "genres": [
+    "rock",
+    "classic rock",
+    "heartland rock",
+    "pop rock",
+    "folk rock",
+    "southern rock"
+   ],
+   "artistId": "5ca3f318-d028-4151-ac73-78e2b2d6cdcc"
+  },
+  "John Mellencamp|Scarecrow": {
+   "found": true,
+   "id": "53bc159b-dd34-3486-a37d-e4f7a2b94991",
+   "title": "Scarecrow",
+   "credit": "John Mellencamp",
+   "type": "Album",
+   "first": "1985-09-05",
+   "genres": [
+    "rock",
+    "classic rock",
+    "southern rock",
+    "rock and roll"
+   ],
+   "artistId": "0aad6b52-fd93-4ea4-9c5d-1f66e1bc9f0a"
+  },
+  "BoDeans|Love & Hope & Sex & Dreams": {
+   "found": true,
+   "id": "b768a8cd-d0bd-3ea4-a461-3e2310a9ce8b",
+   "title": "Love & Hope & Sex & Dreams",
+   "credit": "BoDeans",
+   "type": "Album",
+   "first": "1986-05",
+   "genres": [
+    "rock",
+    "country rock",
+    "roots rock"
+   ],
+   "artistId": "84c38d3a-3400-4c28-b988-90558bb6fae0"
+  },
+  "Los Lobos|How Will the Wolf Survive?": {
+   "found": true,
+   "id": "2478de4b-9470-311b-be17-68fb79388e89",
+   "title": "How Will the Wolf Survive?",
+   "credit": "Los Lobos",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "latin",
+    "blues",
+    "tex-mex"
+   ],
+   "artistId": "2b9967c7-3246-4658-a561-ded5408dd9af"
+  },
+  "The Blasters|The Blasters": {
+   "found": true,
+   "id": "3a1a4ee4-ca3f-3b46-8bbc-dc2ae3ad9c70",
+   "title": "The Blasters",
+   "credit": "The Blasters",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "rockabilly",
+    "rock and roll"
+   ],
+   "artistId": "ce0a5b20-7485-4074-85c8-bdb6a3668d12"
+  },
+  "The Long Ryders|Native Sons": {
+   "found": true,
+   "id": "a39ba96d-f782-3292-be82-a8d2ee3e0ff0",
+   "title": "Native Sons",
+   "credit": "The Long Ryders",
+   "type": "Album",
+   "first": "1984-10",
+   "genres": [
+    "country rock",
+    "rock",
+    "alternative rock",
+    "indie rock"
+   ],
+   "artistId": "c26ba79c-dedc-4eae-b42f-1a68ddc3c104"
+  },
+  "Green on Red|Gas Food Lodging": {
+   "found": true,
+   "id": "231eb494-c2e2-498f-bd0f-6261b9919df1",
+   "title": "Gas Food Lodging",
+   "credit": "Green on Red",
+   "type": "Single",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "country rock"
+   ],
+   "artistId": "5af94151-9549-4259-97b0-16c348d82f91"
+  },
+  "The Del Fuegos|The Longest Day": {
+   "found": true,
+   "id": "ee2a67ca-35ff-3942-91a2-b239c131efcb",
+   "title": "The Longest Day",
+   "credit": "The Del Fuegos",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "trance"
+   ],
+   "artistId": "f7abb874-76eb-4551-a3e7-a5bb636db304"
+  },
+  "The Romantics|The Romantics": {
+   "found": true,
+   "id": "580c83e1-271c-3046-946d-d45e3b544dfd",
+   "title": "The Romantics",
+   "credit": "The Romantics",
+   "type": "Album",
+   "first": "1979-01-01",
+   "genres": [
+    "new wave",
+    "power pop",
+    "rock",
+    "pop",
+    "pop rock"
+   ],
+   "artistId": "f5e31fda-bbf5-4ab6-8194-bcc9209b53f8"
+  },
+  "Marshall Crenshaw|Marshall Crenshaw": {
+   "found": true,
+   "id": "baeb0d31-810d-3466-9182-fa9d1182f251",
+   "title": "Marshall Crenshaw",
+   "credit": "Marshall Crenshaw",
+   "type": "Album",
+   "first": "1982-04-28",
+   "genres": [
+    "rock",
+    "pop",
+    "power pop",
+    "pop rock",
+    "rock and roll"
+   ],
+   "artistId": "3a389027-814a-4f99-8f12-44e5276595cf"
+  },
+  "The Plimsouls|Everywhere at Once": {
+   "found": true,
+   "id": "4b08acbe-f16e-3a6e-ba47-d09df057bf4d",
+   "title": "Everywhere at Once",
+   "credit": "The Plimsouls",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "power pop",
+    "rock",
+    "alternative rock"
+   ],
+   "artistId": "43670151-f762-4c71-b560-d279d389eb44"
+  },
+  "Shoes|Tongue Twister": {
+   "found": true,
+   "id": "afcff330-2aca-4aab-8cde-1b4992613d21",
+   "title": "Tongue Twister",
+   "credit": "Shoes",
+   "type": "Album",
+   "first": "1981-01",
+   "genres": [],
+   "artistId": "d6ae350f-a837-44ad-be5d-d24e3964cd03"
+  },
+  "Game Theory|Real Nighttime": {
+   "found": true,
+   "id": "a4b06354-ff71-3ed0-8c3f-8265845f2a3c",
+   "title": "Real Nighttime",
+   "credit": "Game Theory",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "alternative rock"
+   ],
+   "artistId": "850ebe74-9084-4398-a5ec-76ab1b3f412d"
+  },
+  "20/20|Look Out!": {
+   "found": true,
+   "id": "78940f2e-efc1-4aba-992d-f6f2a03f6956",
+   "title": "Look Out!",
+   "credit": "20/20",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "pop",
+    "power pop"
+   ],
+   "artistId": "8dfab703-e6e3-4ed3-bee4-7855b683c2b5"
+  },
+  "The Fleshtones|Roman Gods": {
+   "found": true,
+   "id": "d669db86-2915-3c57-a471-89a91c176b4c",
+   "title": "Roman Gods",
+   "credit": "The Fleshtones",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "garage rock"
+   ],
+   "artistId": "8d0c6147-90f0-4045-810f-97f5789f9bd3"
+  },
+  "Lyres|On Fyre": {
+   "found": true,
+   "id": "7fa13c2f-5ad7-36e4-9ccc-604e52d88c19",
+   "title": "On Fyre",
+   "credit": "Lyres",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "garage rock",
+    "rock and roll"
+   ],
+   "artistId": "f15227ba-75e0-490c-a817-63bf8f54fee7"
+  },
+  "The Chesterfield Kings|Here Are the Chesterfield Kings": {
+   "found": true,
+   "id": "228bb3bf-21e7-311d-963b-c754ca017b3c",
+   "title": "Here Are The Chesterfield Kings",
+   "credit": "The Chesterfield Kings",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "rock",
+    "garage rock"
+   ],
+   "artistId": "1d2dcc85-837a-4aa3-8b28-da0019f4fc61"
+  },
+  "The Fuzztones|Lysergic Emanations": {
+   "found": true,
+   "id": "e94faa0d-543a-3f69-8639-9a45f4a2461b",
+   "title": "Lysergic Emanations",
+   "credit": "The Fuzztones",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "garage rock"
+   ],
+   "artistId": "611db85b-f31e-4af7-8f16-95282d7b25da"
+  },
+  "Thee Mighty Caesars|Thee Mighty Caesars": {
+   "found": true,
+   "id": "ebd64943-bcf5-47f7-b3fa-457eef93948c",
+   "title": "Thee Mighty Caesars",
+   "credit": "Thee Mighty Caesars",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "punk",
+    "garage rock"
+   ],
+   "artistId": "a81c3775-80b0-41ed-a6bc-8ea9d627252e"
+  },
+  "Echo & the Bunnymen|Ocean Rain": {
+   "found": true,
+   "id": "ecbe6d07-c2e4-37fe-9a99-8484dd7f9a20",
+   "title": "Ocean Rain",
+   "credit": "Echo & the Bunnymen",
+   "type": "Album",
+   "first": "1984-05-04",
+   "genres": [
+    "post-punk",
+    "rock",
+    "indie rock",
+    "jangle pop",
+    "neo-psychedelia",
+    "pop"
+   ],
+   "artistId": "ccd4879c-5e88-4385-b131-bf65296bf245"
+  },
+  "The Soft Boys|Underwater Moonlight": {
+   "found": true,
+   "id": "d9046296-1811-3504-8199-4a557cf97872",
+   "title": "Underwater Moonlight",
+   "credit": "The Soft Boys",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "post-punk",
+    "alternative rock",
+    "psychedelic",
+    "jangle pop",
+    "neo-psychedelia"
+   ],
+   "artistId": "ae362950-090f-4686-82da-9d22a5f88f2e"
+  },
+  "The Teardrop Explodes|Kilimanjaro": {
+   "found": true,
+   "id": "8bad0855-1673-393c-a247-1e88d856815d",
+   "title": "Kilimanjaro",
+   "credit": "The Teardrop Explodes",
+   "type": "Album",
+   "first": "1980-10",
+   "genres": [
+    "pop",
+    "new wave",
+    "rock",
+    "post-punk"
+   ],
+   "artistId": "8002d7ee-2a0e-4ea8-8984-3c69a81a4b7e"
+  },
+  "The Flaming Lips|Hear It Is": {
+   "found": true,
+   "id": "b22f66d5-9455-393f-9f8a-d2e1528789fa",
+   "title": "Hear It Is",
+   "credit": "The Flaming Lips",
+   "type": "Album",
+   "first": "1986-01-21",
+   "genres": [
+    "indie rock",
+    "rock",
+    "neo-psychedelia",
+    "post-punk",
+    "garage punk",
+    "psychedelic rock",
+    "gothic rock",
+    "noise rock",
+    "slacker rock",
+    "pigfuck"
+   ],
+   "artistId": "1f43d76f-8edf-44f6-aaf1-b65f05ad9402"
+  },
+  "The Bevis Frond|Miasma": {
+   "found": true,
+   "id": "7d906a25-1a63-34c2-93fc-766ddf53d847",
+   "title": "Miasma",
+   "credit": "The Bevis Frond",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "rock",
+    "psychedelic rock",
+    "garage rock"
+   ],
+   "artistId": "e7c51ed9-29f3-4349-8cf7-5be043caaa21"
+  },
+  "Plasticland|Plasticland": {
+   "found": true,
+   "id": "01268f5f-5c1f-42e2-ab45-25804d16f719",
+   "title": "Plasticland",
+   "credit": "Plasticland",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "psychedelic rock",
+    "garage rock"
+   ],
+   "artistId": "f63c52c8-01ca-495f-80eb-9326f555af41"
+  },
+  "The Dream Syndicate|The Days of Wine and Roses": {
+   "found": true,
+   "id": "cad1a3b9-d054-328f-850e-6381314cd767",
+   "title": "The Days of Wine and Roses",
+   "credit": "The Dream Syndicate",
+   "type": "Album",
+   "first": "1982-10-28",
+   "genres": [
+    "rock",
+    "post-punk",
+    "jangle pop",
+    "paisley underground"
+   ],
+   "artistId": "8577c385-d06a-4a64-b4e7-6ebf25f2cb20"
+  },
+  "Rain Parade|Emergency Third Rail Power Trip": {
+   "found": true,
+   "id": "963ebe2c-a121-3086-81bd-8b1a6368086c",
+   "title": "Emergency Third Rail Power Trip",
+   "credit": "The Rain Parade",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "psychedelic rock",
+    "psychedelic pop",
+    "jangle pop"
+   ],
+   "artistId": "59b6510e-f7f1-4631-be8f-0c493db2502d"
+  },
+  "The Three O'Clock|Sixteen Tambourines": {
+   "found": true,
+   "id": "b9d4779c-f61e-310a-8da4-e1d12622c522",
+   "title": "Sixteen Tambourines",
+   "credit": "The Three O’Clock",
+   "type": "Album",
+   "first": "1983-12",
+   "genres": [
+    "rock",
+    "pop rock"
+   ],
+   "artistId": "68c6d2ae-36a7-4bf6-92fd-687355ef18e8"
+  },
+  "Opal|Happy Nightmare Baby": {
+   "found": true,
+   "id": "07871553-e942-3cf2-bf5c-a534400fe275",
+   "title": "Happy Nightmare Baby",
+   "credit": "Opal",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "indie rock",
+    "folk rock",
+    "psychedelic rock",
+    "dream pop",
+    "glam",
+    "paisley underground"
+   ],
+   "artistId": "711a78ab-184f-4a38-9e5f-e43b4ce50aca"
+  },
+  "True West|Drifters": {
+   "found": true,
+   "id": "439acac2-a5e4-4bf0-9517-25e0fdb0c81d",
+   "title": "Drifters",
+   "credit": "True West",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "indie rock",
+    "psychedelic rock",
+    "country rock"
+   ],
+   "artistId": "47102710-aa57-411a-b031-e6c1a37b8550"
+  },
+  "Spacemen 3|The Perfect Prescription": {
+   "found": true,
+   "id": "d2e3c169-3f87-3ffe-bc88-ad95386cc378",
+   "title": "The Perfect Prescription",
+   "credit": "Spacemen 3",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "indie rock",
+    "pop",
+    "psychedelic rock",
+    "neo-psychedelia"
+   ],
+   "artistId": "19e818e4-0bbe-41fc-9589-c444b4165bf1"
+  },
+  "Loop|Heaven's End": {
+   "found": true,
+   "id": "8dfd2392-7cd9-30c9-9e4c-65319faece05",
+   "title": "Heaven's End",
+   "credit": "Loop",
+   "type": "Album",
+   "first": "1987-11",
+   "genres": [
+    "space rock",
+    "rock",
+    "indie rock",
+    "psychedelic rock",
+    "garage rock"
+   ],
+   "artistId": "c9cf28e7-e8bd-471d-9452-539d79583905"
+  },
+  "Hawkwind|Levitation": {
+   "found": true,
+   "id": "4174e539-f5ee-382e-ac9f-f776b12c293e",
+   "title": "Levitation",
+   "credit": "Hawkwind",
+   "type": "Album",
+   "first": "1980-10-27",
+   "genres": [
+    "rock",
+    "electronic",
+    "space rock",
+    "hard rock"
+   ],
+   "artistId": "5a28f8c2-31fb-4047-ae57-c5c326989262"
+  },
+  "Dead Kennedys|Fresh Fruit for Rotting Vegetables": {
+   "found": true,
+   "id": "3495fca0-ce60-3342-93f2-23fd525d8069",
+   "title": "Fresh Fruit for Rotting Vegetables",
+   "credit": "Dead Kennedys",
+   "type": "Album",
+   "first": "1980-09",
+   "genres": [
+    "punk",
+    "hardcore punk",
+    "rock",
+    "punk rock",
+    "anarcho-punk",
+    "surf punk"
+   ],
+   "artistId": "37c78aeb-d196-42b5-b991-6afb4fc9bc2e"
+  },
+  "X|Los Angeles": {
+   "found": true,
+   "id": "700da083-bd95-3301-91f1-af571a001414",
+   "title": "Los Angeles",
+   "credit": "X",
+   "type": "Album",
+   "first": "1980-04",
+   "genres": [
+    "rock",
+    "punk",
+    "punk rock",
+    "rock and roll"
+   ],
+   "artistId": "ddd553d4-977e-416c-8f57-e4b72c0fc746"
+  },
+  "Wipers|Youth of America": {
+   "found": true,
+   "id": "6f0dbdca-67c5-3334-93ab-0b5acd31e7fd",
+   "title": "Youth of America",
+   "credit": "Wipers",
+   "type": "Album",
+   "first": "1981-05-19",
+   "genres": [
+    "rock",
+    "punk",
+    "post-punk"
+   ],
+   "artistId": "65aac2dc-216c-4b1a-8501-45567c901c0e"
+  },
+  "The Gun Club|Fire of Love": {
+   "found": true,
+   "id": "95b4ac0b-3286-3208-8821-b292ab88dfac",
+   "title": "Fire of Love",
+   "credit": "The Gun Club",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "psychobilly",
+    "punk blues",
+    "post-punk",
+    "rock",
+    "punk rock",
+    "gothic country"
+   ],
+   "artistId": "e78cc47f-9b89-4ef7-86f8-8f9df4f9dac9"
+  },
+  "Adolescents|Adolescents": {
+   "found": true,
+   "id": "fb58c604-6e45-3212-b559-6b7be21bcaef",
+   "title": "Adolescents",
+   "credit": "Adolescents",
+   "type": "Album",
+   "first": "1981-05",
+   "genres": [
+    "rock",
+    "punk",
+    "hardcore punk",
+    "alternative rock"
+   ],
+   "artistId": "c43c7134-5d6f-4bfa-8275-b4012ae97c46"
+  },
+  "Naked Raygun|Throb Throb": {
+   "found": true,
+   "id": "b75ef4a9-9dc9-300d-adbf-31875d8a125a",
+   "title": "Throb Throb",
+   "credit": "Naked Raygun",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "punk",
+    "post-hardcore"
+   ],
+   "artistId": "85d2e30c-92fd-4c7f-a2dc-f988a70e234d"
+  },
+  "Zero Boys|Vicious Circle": {
+   "found": true,
+   "id": "1b8ad40d-0b48-393b-a31f-a1d424c730c3",
+   "title": "Vicious Circle",
+   "credit": "Zero Boys",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "69bfa502-bd53-44ba-a434-e1eed107c0f1"
+  },
+  "Crass|Penis Envy": {
+   "found": true,
+   "id": "727947d2-a713-30c0-bde7-12b7c7e1c541",
+   "title": "Penis Envy",
+   "credit": "Crass",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "punk",
+    "rock",
+    "anarcho-punk",
+    "punk rock",
+    "hardcore punk"
+   ],
+   "artistId": "c7437df4-6fac-4c89-99ae-f8640f268222"
+  },
+  "Subhumans|The Day the Country Died": {
+   "found": true,
+   "id": "f130fbc3-3d46-3230-9b70-d4f60f66c588",
+   "title": "The Day the Country Died",
+   "credit": "Subhumans",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "punk",
+    "anarcho-punk"
+   ],
+   "artistId": "3a13b4b9-00cf-4b4c-bc6b-8101190d3c8c"
+  },
+  "Rudimentary Peni|Death Church": {
+   "found": true,
+   "id": "72694c54-5308-356d-b9d8-70dd403ae0f9",
+   "title": "Death Church",
+   "credit": "Rudimentary Peni",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "punk",
+    "anarcho-punk"
+   ],
+   "artistId": "a41ba687-a775-4d65-80e8-2b47ff7f0100"
+  },
+  "Flux of Pink Indians|Strive to Survive Causing Least Suffering Possible": {
+   "found": true,
+   "id": "8df63964-e459-3b14-928e-2108b58a0a31",
+   "title": "Strive to Survive Causing Least Suffering Possible",
+   "credit": "Flux of Pink Indians",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "punk",
+    "rock",
+    "anarcho-punk",
+    "punk rock"
+   ],
+   "artistId": "8acd25b8-04ab-4916-b73a-c65814541a0c"
+  },
+  "Zounds|The Curse of Zounds": {
+   "found": true,
+   "id": "b1bbcf76-df47-3c43-9571-b6df887c76a1",
+   "title": "The Curse of Zounds",
+   "credit": "Zounds",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "rock",
+    "punk",
+    "post-punk",
+    "anarcho-punk"
+   ],
+   "artistId": "cfa8d24d-efca-44c0-87af-09421183005c"
+  },
+  "The Mob|Let the Tribe Increase": {
+   "found": true,
+   "id": "4474c749-3a8a-3790-a8f8-64f30a8686f2",
+   "title": "Let the Tribe Increase",
+   "credit": "The Mob",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "punk",
+    "anarcho-punk",
+    "rock"
+   ],
+   "artistId": "1d479f81-6305-4cbf-8e12-30b227492cd8"
+  },
+  "Cock Sparrer|Shock Troops": {
+   "found": true,
+   "id": "64771495-a553-34c7-ace1-c308245bfab9",
+   "title": "Shock Troops",
+   "credit": "Cock Sparrer",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "punk",
+    "punk rock",
+    "oi"
+   ],
+   "artistId": "bbcc9824-31c0-4c70-a7af-d24090ea161e"
+  },
+  "The Business|Suburban Rebels": {
+   "found": true,
+   "id": "f098c950-9852-397e-acb3-2cdc8e466125",
+   "title": "Suburban Rebels",
+   "credit": "The Business",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "punk",
+    "oi",
+    "rock",
+    "street punk"
+   ],
+   "artistId": "9557fdd9-41a0-4029-84d9-cb3ae944ee8a"
+  },
+  "The Oppressed|Oi! Oi! Music": {
+   "found": true,
+   "id": "1dd4e412-ab67-399e-a6a3-d5a7f36de1d4",
+   "title": "Oi! Oi! Music!",
+   "credit": "The Oppressed",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "punk",
+    "rock",
+    "oi"
+   ],
+   "artistId": "fc004e1b-4e20-49cb-8322-d131a3a961e7"
+  },
+  "The Exploited|Punks Not Dead": {
+   "found": true,
+   "id": "b6a64811-5c0d-36e1-9444-6ea2fb0a0832",
+   "title": "Punks Not Dead",
+   "credit": "The Exploited",
+   "type": "Album",
+   "first": "1981-05-04",
+   "genres": [
+    "punk",
+    "rock",
+    "hardcore punk"
+   ],
+   "artistId": "9876cc18-e3c4-487a-b330-e67b08eee2b2"
+  },
+  "GBH|City Baby Attacked by Rats": {
+   "found": true,
+   "id": "98739012-2ddc-358b-9ba8-dd5a09f97847",
+   "title": "City Baby Attacked by Rats",
+   "credit": "GBH",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "punk",
+    "rock",
+    "street punk"
+   ],
+   "artistId": "72f62c54-ffa6-4c67-a396-3aa890840fc7"
+  },
+  "Blitz|Voice of a Generation": {
+   "found": true,
+   "id": "3a05f177-eaa0-34b7-8064-da62cb1158b1",
+   "title": "Voice of a Generation",
+   "credit": "Blitz",
+   "type": "Album",
+   "first": "1982-11-06",
+   "genres": [
+    "punk",
+    "rock",
+    "oi"
+   ],
+   "artistId": "1ee6658f-9375-45b2-ab7a-54c145b513d9"
+  },
+  "Vice Squad|No Cause for Concern": {
+   "found": true,
+   "id": "25b760c5-b1bc-3ea5-bf29-9263f0c15a3b",
+   "title": "No Cause for Concern",
+   "credit": "Vice Squad",
+   "type": "Album",
+   "first": "1981-10",
+   "genres": [
+    "rock",
+    "punk",
+    "punk rock"
+   ],
+   "artistId": "6e6c2ffc-2a12-470b-8675-49d68edd7ba9"
+  },
+  "Chaos UK|Chaos UK": {
+   "found": true,
+   "id": "0a4e5b79-dc56-3be4-b6bc-fea95c2d4b7e",
+   "title": "Chaos UK",
+   "credit": "Chaos UK",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "punk",
+    "rock"
+   ],
+   "artistId": "3b41164c-3a72-4b95-8bf4-5e1096cecc86"
+  },
+  "One Way System|All Systems Go": {
+   "found": true,
+   "id": "1ac4ca7b-0fef-3653-b493-4c3d5a0c3014",
+   "title": "All Systems Go",
+   "credit": "One Way System",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "punk",
+    "rock"
+   ],
+   "artistId": "3e3dec63-6256-48f8-8380-d31894b0a4db"
+  },
+  "Descendents|Milo Goes to College": {
+   "found": true,
+   "id": "6f180553-2c6a-3529-a380-636f1232313d",
+   "title": "Milo Goes to College",
+   "credit": "Descendents",
+   "type": "Album",
+   "first": "1982-11-15",
+   "genres": [
+    "punk",
+    "hardcore punk",
+    "punk rock",
+    "rock",
+    "pop punk",
+    "skate punk"
+   ],
+   "artistId": "f035837e-4117-438d-a524-cacf43500e68"
+  },
+  "The Undertones|Hypnotised": {
+   "found": true,
+   "id": "3b92033a-4d04-3e5d-9b8e-fb7e0da79a30",
+   "title": "Hypnotised",
+   "credit": "The Undertones",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "punk",
+    "punk rock",
+    "new wave",
+    "pop punk"
+   ],
+   "artistId": "d188e4cd-d187-4df2-8516-6ff8dfd3735c"
+  },
+  "Screeching Weasel|Boogadaboogadaboogada!": {
+   "found": true,
+   "id": "58b50c09-24b2-33ce-a124-6c3ce35fd2b5",
+   "title": "Boogadaboogadaboogada!",
+   "credit": "Screeching Weasel",
+   "type": "Album",
+   "first": "1989-01-12",
+   "genres": [
+    "punk rock",
+    "hardcore punk",
+    "pop punk",
+    "punk",
+    "indie rock",
+    "skate punk",
+    "melodic hardcore"
+   ],
+   "artistId": "e4a135d0-1948-4620-bc07-b0217d09ccc1"
+  },
+  "The Mr. T Experience|Everybody's Entitled to Their Own Opinion": {
+   "found": true,
+   "id": "5e3894e4-d34a-3039-9a63-752b0183e8b8",
+   "title": "Everybody’s Entitled to Their Own Opinion",
+   "credit": "The Mr. T Experience",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "79c3a221-4cf6-4594-8181-eb1539d9860f"
+  },
+  "Misfits|Walk Among Us": {
+   "found": true,
+   "id": "f0a28cfc-0f99-3513-8720-005643bfd95e",
+   "title": "Walk Among Us",
+   "credit": "Misfits",
+   "type": "Album",
+   "first": "1982-03",
+   "genres": [
+    "horror punk",
+    "punk",
+    "hardcore punk",
+    "rock",
+    "oi",
+    "punk rock"
+   ],
+   "artistId": "936addc3-91aa-49de-8ec0-0dc186de151f"
+  },
+  "Samhain|Initium": {
+   "found": true,
+   "id": "d0467d55-bab2-34ba-b31c-71213c05ad08",
+   "title": "Initium",
+   "credit": "Samhain",
+   "type": "Album",
+   "first": "1984-08",
+   "genres": [
+    "punk",
+    "rock"
+   ],
+   "artistId": "7991397c-2baf-49f3-8d73-c78e428825f8"
+  },
+  "T.S.O.L.|Dance with Me": {
+   "found": true,
+   "id": "c5dfa763-9d48-3c30-902b-36b1c9f89f47",
+   "title": "Dance With Me",
+   "credit": "T.S.O.L.",
+   "type": "Album",
+   "first": "1981-06",
+   "genres": [
+    "rock",
+    "punk",
+    "hardcore punk"
+   ],
+   "artistId": "e3207b63-ab05-42bc-924e-b1299b89c406"
+  },
+  "The Cramps|Songs the Lord Taught Us": {
+   "found": true,
+   "id": "4b60e6ef-b29a-3a26-9146-07f35c7e285d",
+   "title": "Songs the Lord Taught Us",
+   "credit": "The Cramps",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "psychobilly",
+    "garage punk",
+    "garage rock",
+    "punk",
+    "lo-fi",
+    "neo-rockabilly"
+   ],
+   "artistId": "96c1edac-1011-4cb8-882c-27248de35071"
+  },
+  "The Meteors|In Heaven": {
+   "found": true,
+   "id": "da3d95ce-0658-4a48-af89-19ed93c7f04d",
+   "title": "In Heaven",
+   "credit": "The Meteors",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "psychobilly",
+    "rock",
+    "rockabilly"
+   ],
+   "artistId": "8df95482-901f-469f-a268-73b34e05dad9"
+  },
+  "King Kurt|Ooh Wallah Wallah": {
+   "found": true,
+   "id": "ed243e56-0029-38b3-ad48-c854a6c2ff4f",
+   "title": "Ooh Wallah Wallah",
+   "credit": "King Kurt",
+   "type": "Album",
+   "first": "1983-11-18",
+   "genres": [
+    "rock",
+    "rockabilly",
+    "psychobilly"
+   ],
+   "artistId": "7f7797c0-169a-4961-8c2f-d1b7892f868c"
+  },
+  "Demented Are Go|In Sickness & in Health": {
+   "found": true,
+   "id": "4f28d1fa-87e5-3373-936b-cde7783aa379",
+   "title": "In Sickness & In Health",
+   "credit": "Demented Are Go!",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "psychobilly",
+    "rock",
+    "punk"
+   ],
+   "artistId": "8a1f012c-acc1-4dda-878f-43ac02f2366f"
+  },
+  "Meat Puppets|Meat Puppets II": {
+   "found": true,
+   "id": "d33dbcf6-ab44-3c91-872b-9563f724dc0f",
+   "title": "Meat Puppets II",
+   "credit": "Meat Puppets",
+   "type": "Album",
+   "first": "1984-04",
+   "genres": [
+    "rock",
+    "alternative rock"
+   ],
+   "artistId": "3df040ee-2b8b-446b-937a-3f86f4b2cabf"
+  },
+  "Jason & the Scorchers|Fervor": {
+   "found": true,
+   "id": "7256ba34-8e48-38d7-b0a9-c6b1c434b5e9",
+   "title": "Fervor",
+   "credit": "Jason & the Scorchers",
+   "type": "EP",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk",
+    "country rock"
+   ],
+   "artistId": "ff168ff4-cc8e-43c6-bda6-44a232f15da8"
+  },
+  "Rank and File|Sundown": {
+   "found": true,
+   "id": "11d4e6e2-90f9-3776-8f5a-d017521cc802",
+   "title": "Sundown",
+   "credit": "Rank and File",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "rock",
+    "punk",
+    "new wave",
+    "country rock"
+   ],
+   "artistId": "2ea03b2b-1826-4338-b92c-cf061f873d07"
+  },
+  "The Beat Farmers|Tales of the New West": {
+   "found": true,
+   "id": "7a643460-ffe1-3c86-b9c9-78c592d03f15",
+   "title": "Tales of the New West",
+   "credit": "The Beat Farmers",
+   "type": "Album",
+   "first": "1985-05",
+   "genres": [
+    "rock",
+    "comedy",
+    "country rock",
+    "jangle pop",
+    "cowpunk",
+    "roots rock"
+   ],
+   "artistId": "fa5d4d6f-bfca-4412-869e-def05b4974bb"
+  },
+  "Blood on the Saddle|Blood on the Saddle": {
+   "found": true,
+   "id": "c11ce09a-f7b9-496d-a677-13942746f799",
+   "title": "Blood on the Saddle",
+   "credit": "Blood on the Saddle",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "punk",
+    "country rock"
+   ],
+   "artistId": "e85f9755-ae96-4272-a6f7-0d1fb8c5e8bc"
+  },
+  "Violent Femmes|Violent Femmes": {
+   "found": true,
+   "id": "616a1d80-83d0-3234-bf71-fe3de8109f99",
+   "title": "Violent Femmes",
+   "credit": "Violent Femmes",
+   "type": "Album",
+   "first": "1983-04",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "indie rock",
+    "folk punk",
+    "post-punk",
+    "new wave",
+    "punk rock",
+    "folk rock"
+   ],
+   "artistId": "2aab61bc-67f4-4722-8c6e-e1821b2e32a6"
+  },
+  "The Pogues|Rum Sodomy & the Lash": {
+   "found": true,
+   "id": "ba1f6641-9085-36a0-8962-65ad6e48afd1",
+   "title": "Rum Sodomy & the Lash",
+   "credit": "The Pogues",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "celtic punk",
+    "folk punk",
+    "folk rock",
+    "celtic rock",
+    "rock",
+    "folk",
+    "new wave"
+   ],
+   "artistId": "d41a6875-b626-4c0f-89a1-aecb643d29ff"
+  },
+  "Billy Bragg|Life's a Riot with Spy vs Spy": {
+   "found": true,
+   "id": "56b50d0f-37ad-32b3-bcac-2304f44bc9a8",
+   "title": "Life’s a Riot With Spy vs Spy",
+   "credit": "Billy Bragg",
+   "type": "Album",
+   "first": "1983-11",
+   "genres": [
+    "rock",
+    "folk",
+    "indie rock",
+    "folk rock",
+    "anti-folk",
+    "alternative folk"
+   ],
+   "artistId": "7cec4a03-0a83-4308-856a-afb8aa5db0fc"
+  },
+  "Camper Van Beethoven|Telephone Free Landslide Victory": {
+   "found": true,
+   "id": "0e98fddd-81b9-3bb7-b030-8a18e3f05fae",
+   "title": "Telephone Free Landslide Victory",
+   "credit": "Camper Van Beethoven",
+   "type": "Album",
+   "first": "1985-01-01",
+   "genres": [
+    "rock",
+    "pop",
+    "folk rock",
+    "psychedelic rock",
+    "country rock",
+    "garage rock",
+    "alternative rock",
+    "stoner rock"
+   ],
+   "artistId": "0ee7e64d-90ca-406b-b59a-3e551c556dbe"
+  },
+  "The Men They Couldn't Hang|Night of a Thousand Candles": {
+   "found": true,
+   "id": "471f043f-34e7-3954-a207-f17ce4653617",
+   "title": "Night of a Thousand Candles",
+   "credit": "The Men They Couldn’t Hang",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "indie rock",
+    "folk rock",
+    "psychobilly"
+   ],
+   "artistId": "b2afe159-4e43-425d-9167-597a3fe8136b"
+  },
+  "Television Personalities|...And Don't the Kids Just Love It": {
+   "found": true,
+   "id": "175cb867-2d75-3f75-b966-465a077809f3",
+   "title": "…and Don’t the Kids Just Love It",
+   "credit": "Television Personalities",
+   "type": "Album",
+   "first": "1981-01",
+   "genres": [
+    "rock",
+    "punk",
+    "mod"
+   ],
+   "artistId": "62c2cd94-30a8-43ed-9d06-8f689111c69c"
+  },
+  "Tuxedomoon|Half-Mute": {
+   "found": true,
+   "id": "020eb72a-614c-3414-b6e5-a80f7eff6c77",
+   "title": "Half-Mute",
+   "credit": "Tuxedomoon",
+   "type": "Album",
+   "first": "1980-03-15",
+   "genres": [
+    "rock",
+    "electronic",
+    "experimental",
+    "new wave"
+   ],
+   "artistId": "98298c40-5977-4fa2-9085-db36ee51b90b"
+  },
+  "The Homosexuals|The Homosexuals' Record": {
+   "found": true,
+   "id": "35fa9058-366f-35e3-8a68-42465e0491bb",
+   "title": "The Homosexuals' Record",
+   "credit": "The Homosexuals",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "new wave",
+    "punk",
+    "experimental",
+    "post-punk",
+    "art rock"
+   ],
+   "artistId": "091babe9-0e5a-4b85-8f7b-bb5f41165ee3"
+  },
+  "The Embarrassment|Death Travels West": {
+   "found": true,
+   "id": "bfd164d3-7ca5-4213-a892-97c2758f245b",
+   "title": "Death Travels West",
+   "credit": "The Embarrassment",
+   "type": "EP",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk",
+    "indie rock"
+   ],
+   "artistId": "487904ff-d3ef-477e-813a-c27548bc0570"
+  },
+  "Nervous Gender|Music from Hell": {
+   "found": true,
+   "id": "67988932-5b36-3916-a1da-6ba4134b4ce7",
+   "title": "Music From Hell",
+   "credit": "Nervous Gender",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "electronic",
+    "industrial",
+    "punk",
+    "experimental",
+    "post-punk",
+    "no wave"
+   ],
+   "artistId": "fa39d1ff-d84b-4606-ac91-e91beec7a381"
+  },
+  "Crash Course in Science|Signals from Pier Thirteen": {
+   "found": true,
+   "id": "cf755a21-c9ce-44d2-baf2-52efadbeb968",
+   "title": "Signals From Pier Thirteen",
+   "credit": "Crash Course in Science",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "electronic",
+    "industrial",
+    "electro"
+   ],
+   "artistId": "3f3338e9-8004-4848-ab6a-efe7b096c738"
+  },
+  "Black Flag|Damaged": {
+   "found": true,
+   "id": "2cf40300-0f67-3136-9b84-57104f1f7a50",
+   "title": "Damaged",
+   "credit": "Black Flag",
+   "type": "Album",
+   "first": "1981-11-16",
+   "genres": [
+    "hardcore punk",
+    "punk",
+    "noise rock",
+    "pigfuck"
+   ],
+   "artistId": "9941a936-196a-4a62-ae53-a69cbc33f20e"
+  },
+  "Bad Brains|Bad Brains": {
+   "found": true,
+   "id": "458f4bdf-ffbe-3643-977a-73e80d3d7b08",
+   "title": "Bad Brains",
+   "credit": "Bad Brains",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "punk",
+    "hardcore punk",
+    "rock",
+    "reggae"
+   ],
+   "artistId": "e919b253-da5b-4aae-a444-6a368376a2d6"
+  },
+  "Minor Threat|Out of Step": {
+   "found": true,
+   "id": "db4d417f-8295-3843-829d-2b8c0b649517",
+   "title": "Out of Step",
+   "credit": "Minor Threat",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "hardcore punk",
+    "rock",
+    "punk"
+   ],
+   "artistId": "09037f07-42bc-46ac-a1ee-37f834451fee"
+  },
+  "Circle Jerks|Group Sex": {
+   "found": true,
+   "id": "8f5c4731-688f-3612-b5fe-318842359579",
+   "title": "Group Sex",
+   "credit": "Circle Jerks",
+   "type": "Album",
+   "first": "1980-11",
+   "genres": [
+    "rock",
+    "punk",
+    "punk rock",
+    "hardcore punk"
+   ],
+   "artistId": "22995eba-1238-4b4f-a937-ac2c5767ab9f"
+  },
+  "Poison Idea|Kings of Punk": {
+   "found": true,
+   "id": "08a3bf77-af16-3f7c-9fce-14468e1d3ecb",
+   "title": "Kings of Punk",
+   "credit": "Poison Idea",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "punk",
+    "hardcore punk"
+   ],
+   "artistId": "86871dd7-f50c-40bb-a298-a144775b64ae"
+  },
+  "Negative Approach|Tied Down": {
+   "found": true,
+   "id": "f6835e3f-1353-470d-a8da-efc22f94f3f7",
+   "title": "Tied Down",
+   "credit": "Negative Approach",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "286e4fb9-4d6a-40de-ac50-01eff6a3c13e"
+  },
+  "Die Kreuzen|Die Kreuzen": {
+   "found": true,
+   "id": "afff89cd-ef8f-3af0-98f7-b3831ce51e3b",
+   "title": "Die Kreuzen",
+   "credit": "Die Kreuzen",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "7550b236-f9c2-450c-81a6-fac63bf9d23e"
+  },
+  "Jerry's Kids|Is This My World?": {
+   "found": true,
+   "id": "0c5a466c-c7fe-3faf-9927-6dbcdfae8c68",
+   "title": "Is This My World?",
+   "credit": "Jerry’s Kids",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "d151e227-c42f-4c61-be80-28faf2d02f34"
+  },
+  "The Faith|Subject to Change": {
+   "found": true,
+   "id": "cc7ad032-a4da-311a-8e27-1f29c90430e2",
+   "title": "Subject to Change",
+   "credit": "The Faith",
+   "type": "EP",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "f735a867-9a16-451f-8f83-669ed42e2574"
+  },
+  "Discharge|Hear Nothing See Nothing Say Nothing": {
+   "found": true,
+   "id": "ee0a4f40-7619-3acb-9584-6afbf6040bb9",
+   "title": "Hear Nothing See Nothing Say Nothing",
+   "credit": "Discharge",
+   "type": "Album",
+   "first": "1982-05",
+   "genres": [
+    "hardcore punk",
+    "rock",
+    "punk",
+    "punk rock",
+    "d-beat"
+   ],
+   "artistId": "0c9bfbdc-4e64-497d-bf80-5c891e6766a3"
+  },
+  "The Varukers|Bloodsuckers": {
+   "found": true,
+   "id": "3dc5cc93-d4bb-35be-bcbc-872468bce5ab",
+   "title": "Bloodsuckers",
+   "credit": "The Varukers",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "fc5922c7-9a42-4965-9641-012aac697caf"
+  },
+  "Disorder|Under the Scalpel Blade": {
+   "found": true,
+   "id": "de205555-8cd6-34bb-8b88-07ffd77455c3",
+   "title": "Under the Scalpel Blade",
+   "credit": "Disorder",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "punk",
+    "rock"
+   ],
+   "artistId": "98b8b8e8-b36d-4955-81c1-65465f91db51"
+  },
+  "Amebix|Arise!": {
+   "found": true,
+   "id": "a7f4d243-2eac-33c8-a18e-8703271541bb",
+   "title": "Arise!",
+   "credit": "Amebix",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "punk",
+    "crust punk",
+    "rock",
+    "anarcho-punk",
+    "heavy metal",
+    "metal",
+    "punk rock",
+    "post-punk"
+   ],
+   "artistId": "612a476e-4d27-415f-b87c-a3a173284d4e"
+  },
+  "Extreme Noise Terror|A Holocaust in Your Head": {
+   "found": true,
+   "id": "7679a1a7-d9aa-3834-ab3e-659bf6118500",
+   "title": "A Holocaust in Your Head",
+   "credit": "Extreme Noise Terror",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "rock",
+    "punk",
+    "grindcore"
+   ],
+   "artistId": "709af0d0-dcb6-4858-b76d-05a13fc9a0a6"
+  },
+  "Antisect|In Darkness There Is No Choice": {
+   "found": true,
+   "id": "0c623a3b-64a6-3025-a59c-9c4e3b6cd54b",
+   "title": "In Darkness, There Is No Choice",
+   "credit": "Antisect",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk",
+    "anarcho-punk",
+    "punk rock",
+    "hardcore punk",
+    "crust punk"
+   ],
+   "artistId": "e88b075e-952b-401f-966d-e784eb0a899b"
+  },
+  "Doom|War Crimes (Inhuman Beings)": {
+   "found": true,
+   "id": "8a420eae-e4e4-3aa4-884b-5560c9951073",
+   "title": "War Crimes: Inhuman Beings",
+   "credit": "Doom",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "punk"
+   ],
+   "artistId": "87a9283d-ae6a-42b0-97e5-a0e439a37c85"
+  },
+  "Deviated Instinct|Rock 'n' Roll Conformity": {
+   "found": true,
+   "id": "8a3cbf08-8b44-3b10-85f0-2d770090ed5d",
+   "title": "Rock ’n’ Roll Conformity",
+   "credit": "Deviated Instinct",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "9dc9e7e5-e576-42f0-8c50-10c4d0578262"
+  },
+  "Hellbastard|Heading for Internal Darkness": {
+   "found": true,
+   "id": "6dadeea2-70b6-4af5-b633-dbf37902d1b7",
+   "title": "Heading for Internal Darkness",
+   "credit": "Hellbastard",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "rock"
+   ],
+   "artistId": "5052f557-5055-4b6a-bf85-4d7712e8c3e1"
+  },
+  "D.R.I.|Dirty Rotten LP": {
+   "found": true,
+   "id": "d19cca76-883f-3887-b88e-08dbddfc1c88",
+   "title": "Dirty Rotten LP",
+   "credit": "D.R.I.",
+   "type": "Album",
+   "first": "1983-03",
+   "genres": [
+    "rock",
+    "punk",
+    "hardcore punk",
+    "heavy metal",
+    "punk rock",
+    "thrashcore"
+   ],
+   "artistId": "95f6e954-8bed-4f8e-a53e-d155bb6f7ace"
+  },
+  "Siege|Drop Dead": {
+   "found": true,
+   "id": "c09f949d-56a3-3939-9c12-993921327a8b",
+   "title": "Drop Dead",
+   "credit": "Siege",
+   "type": "EP",
+   "first": "1984",
+   "genres": [
+    "powerviolence",
+    "heavy metal",
+    "punk",
+    "hardcore punk"
+   ],
+   "artistId": "36f3f621-553e-41ec-a6ec-287e95ed267f"
+  },
+  "Septic Death|Now That I Have the Attention What Do I Do with It?": {
+   "found": true,
+   "id": "1be60540-35f3-48f2-8300-30c589f231c3",
+   "title": "Now That I Have The Attention What Do I Do With It?",
+   "credit": "Septic Death",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "85644347-7650-4992-986b-2a7b1e19af28"
+  },
+  "Suicidal Tendencies|Suicidal Tendencies": {
+   "found": true,
+   "id": "81308511-4b3d-36e8-8cee-c4f2209f97e6",
+   "title": "Suicidal Tendencies",
+   "credit": "Suicidal Tendencies",
+   "type": "Album",
+   "first": "1983-07-05",
+   "genres": [
+    "hardcore punk",
+    "skate punk",
+    "punk",
+    "punk rock"
+   ],
+   "artistId": "e9e2a634-984f-4c10-bf7b-7970179e1ef1"
+  },
+  "Corrosion of Conformity|Animosity": {
+   "found": true,
+   "id": "a144906c-73d5-310c-bc38-969a03fc4955",
+   "title": "Animosity",
+   "credit": "Corrosion of Conformity",
+   "type": "Album",
+   "first": "1985-08",
+   "genres": [
+    "metal",
+    "crossover thrash",
+    "punk",
+    "hardcore punk",
+    "rock",
+    "thrash metal"
+   ],
+   "artistId": "0f6e80ef-1972-4dee-8896-dc9955f1beeb"
+  },
+  "Cro-Mags|The Age of Quarrel": {
+   "found": true,
+   "id": "eb781e95-4c6a-3f55-9222-b6514b5795a9",
+   "title": "The Age of Quarrel",
+   "credit": "Cro‐Mags",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "rock",
+    "hardcore punk",
+    "tough guy hardcore"
+   ],
+   "artistId": "9ffa627f-32c2-4cb1-bfad-00cf348abc70"
+  },
+  "Cryptic Slaughter|Convicted": {
+   "found": true,
+   "id": "473cda3c-62cc-35f9-ada6-2188dc92d1f7",
+   "title": "Convicted",
+   "credit": "Cryptic Slaughter",
+   "type": "Album",
+   "first": "1986-07",
+   "genres": [
+    "rock",
+    "crossover thrash"
+   ],
+   "artistId": "b95eff39-8cb9-4c0d-a828-220c25ebd30b"
+  },
+  "Excel|Split Image": {
+   "found": true,
+   "id": "a27ba831-3a7e-3be7-a229-c41796d309d6",
+   "title": "Split Image",
+   "credit": "Excel",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "crossover thrash",
+    "thrash metal",
+    "metal"
+   ],
+   "artistId": "b3ba644a-ea94-4e81-9ebd-ca4640cd0442"
+  },
+  "English Dogs|Forward into Battle": {
+   "found": true,
+   "id": "54ce8438-d244-4397-a20a-eb73e49c07a6",
+   "title": "Forward Into Battle",
+   "credit": "English Dogs",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "punk",
+    "rock"
+   ],
+   "artistId": "a7802675-634d-4e12-b878-8c485a91c8d0"
+  },
+  "Bad Religion|Suffer": {
+   "found": true,
+   "id": "67ba7dda-893f-32ed-930c-f8ff5f5df18a",
+   "title": "Suffer",
+   "credit": "Bad Religion",
+   "type": "Album",
+   "first": "1988-11-01",
+   "genres": [
+    "punk",
+    "punk rock",
+    "rock",
+    "hardcore punk",
+    "melodic hardcore"
+   ],
+   "artistId": "149e6720-4e4a-41a4-afca-6d29083fc091"
+  },
+  "Dag Nasty|Can I Say": {
+   "found": true,
+   "id": "0f055ef0-a8a5-3fb3-ae3c-8d0934276eac",
+   "title": "Can I Say",
+   "credit": "Dag Nasty",
+   "type": "Album",
+   "first": "1986-06",
+   "genres": [
+    "alternative rock",
+    "punk",
+    "hardcore punk"
+   ],
+   "artistId": "4709dd69-1034-4634-9e88-d1099453b192"
+  },
+  "Marginal Man|Identity": {
+   "found": true,
+   "id": "12a9b4c2-51e9-3eb5-a94e-72a7c45b9189",
+   "title": "Identity",
+   "credit": "Marginal Man",
+   "type": "EP",
+   "first": "1984",
+   "genres": [
+    "punk",
+    "rock"
+   ],
+   "artistId": "fff14e91-ae03-4105-8fbb-3a318d6c01ca"
+  },
+  "Verbal Assault|Trial": {
+   "found": true,
+   "id": "2e6fd8dc-7357-4f38-9d67-44970b369f8a",
+   "title": "Trial",
+   "credit": "Verbal Assault",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "punk",
+    "melodic hardcore",
+    "post-hardcore"
+   ],
+   "artistId": "0fa07a0c-c7e6-4242-a6c6-0582edcdd4df"
+  },
+  "Agent Orange|Living in Darkness": {
+   "found": true,
+   "id": "8864e056-f46b-3e38-97aa-949d292fb506",
+   "title": "Living in Darkness",
+   "credit": "Agent Orange",
+   "type": "Album",
+   "first": "1981-11-19",
+   "genres": [
+    "rock",
+    "punk",
+    "punk rock",
+    "hardcore punk",
+    "interview",
+    "non-music"
+   ],
+   "artistId": "3214be8b-6d78-4c8e-9c93-b1e31a9bc4d6"
+  },
+  "JFA|Valley of the Yakes": {
+   "found": true,
+   "id": "6ef42107-fe54-3e0e-a932-bda74ec12825",
+   "title": "Valley of the Yakes",
+   "credit": "JFA",
+   "type": "Album",
+   "first": "1983-07-01",
+   "genres": [
+    "rock",
+    "punk",
+    "surf"
+   ],
+   "artistId": "ed1cc87f-1e93-48aa-ad09-e67ccb77be37"
+  },
+  "Big Boys|Lullabies Help the Brain Grow": {
+   "found": true,
+   "id": "48c1ed4e-710b-4940-a726-e7fe34a1905c",
+   "title": "Lullabies Help the Brain Grow",
+   "credit": "Big Boys",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "punk"
+   ],
+   "artistId": "fde1cff2-5a7b-4e8c-9666-110fa90500fb"
+  },
+  "Hüsker Dü|Zen Arcade": {
+   "found": true,
+   "id": "ce6f4b2d-a51a-35ac-992f-3657e7c531d5",
+   "title": "Zen Arcade",
+   "credit": "Hüsker Dü",
+   "type": "Album",
+   "first": "1984-07",
+   "genres": [
+    "hardcore punk",
+    "post-hardcore",
+    "alternative rock",
+    "punk",
+    "rock",
+    "indie rock",
+    "noise rock",
+    "emocore"
+   ],
+   "artistId": "5c4c90a4-539f-4101-83cf-301bc6a94e06"
+  },
+  "Minutemen|Double Nickels on the Dime": {
+   "found": true,
+   "id": "0bcb9f3e-e341-3ed5-ac5b-8ed5e17f9a7e",
+   "title": "Double Nickels on the Dime",
+   "credit": "Minutemen",
+   "type": "Album",
+   "first": "1984-07",
+   "genres": [
+    "post-punk",
+    "alternative rock",
+    "hardcore punk",
+    "rock",
+    "punk",
+    "progressive",
+    "post-hardcore",
+    "art punk"
+   ],
+   "artistId": "d4ad0149-d8ae-4105-8009-0221fce9ff35"
+  },
+  "Fugazi|Fugazi": {
+   "found": true,
+   "id": "5be01c92-bb45-326c-9634-badf08f9ad7f",
+   "title": "Fugazi",
+   "credit": "Fugazi",
+   "type": "EP",
+   "first": "1988",
+   "genres": [
+    "post-hardcore",
+    "rock"
+   ],
+   "artistId": "233fc3f3-6de2-465c-985e-e721dbabbace"
+  },
+  "Squirrel Bait|Skag Heaven": {
+   "found": true,
+   "id": "cb79f979-5c47-3f4c-8732-13f3e246feb1",
+   "title": "Skag Heaven",
+   "credit": "Squirrel Bait",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "alternative rock",
+    "rock",
+    "punk",
+    "post-hardcore"
+   ],
+   "artistId": "5dbf117b-c076-4d3b-b7ae-13517c25b2cf"
+  },
+  "Saccharine Trust|Paganicons": {
+   "found": true,
+   "id": "06ff0c83-4c02-3286-b0f1-c75c9245d782",
+   "title": "Paganicons",
+   "credit": "Saccharine Trust",
+   "type": "EP",
+   "first": "1981-12-10",
+   "genres": [
+    "rock",
+    "punk",
+    "experimental",
+    "hardcore punk",
+    "post-hardcore"
+   ],
+   "artistId": "0bd450a7-32dd-496f-a0d4-1f71a2226add"
+  },
+  "Moving Targets|Burning in Water": {
+   "found": true,
+   "id": "8e552f9f-32ad-3efc-8c29-76018f5219f5",
+   "title": "Burning in Water",
+   "credit": "Moving Targets",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "rock",
+    "punk",
+    "art rock"
+   ],
+   "artistId": "62312663-b05f-431c-a6bd-15d9cd1e2a63"
+  },
+  "Bitch Magnet|Umber": {
+   "found": true,
+   "id": "7c34fb22-1f80-38ec-9389-0860bb3aa41a",
+   "title": "Umber",
+   "credit": "Bitch Magnet",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "rock",
+    "indie rock",
+    "post-hardcore"
+   ],
+   "artistId": "6be97715-b3fe-421b-b478-c4462ee9de15"
+  },
+  "Rites of Spring|Rites of Spring": {
+   "found": true,
+   "id": "06b45a02-b374-3c2b-b243-cf34f14dce50",
+   "title": "Rites of Spring",
+   "credit": "Rites of Spring",
+   "type": "Album",
+   "first": "1985-06",
+   "genres": [
+    "rock",
+    "punk",
+    "emo"
+   ],
+   "artistId": "b2ff1a6d-9198-4646-b068-8965242d245b"
+  },
+  "Embrace|Embrace": {
+   "found": true,
+   "id": "41f63936-0590-31d4-8e29-d6da74d8385c",
+   "title": "Embrace",
+   "credit": "Embrace",
+   "type": "Album",
+   "first": "1987-09",
+   "genres": [
+    "emo",
+    "post-punk",
+    "post-hardcore",
+    "emocore"
+   ],
+   "artistId": "9d1ad8e3-8740-429a-bdc5-52f96a9c4431"
+  },
+  "Gray Matter|Food for Thought": {
+   "found": true,
+   "id": "3008090d-0866-4401-b2e8-e522703cb303",
+   "title": "Food for Thought",
+   "credit": "Gray Matter",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "c9065214-ba09-4c2c-b341-35713b702264"
+  },
+  "Fire Party|Fire Party": {
+   "found": true,
+   "id": "e0c08e5f-c9be-3c88-a63b-4ddcebf64294",
+   "title": "Fire Party",
+   "credit": "Fire Party",
+   "type": "Album",
+   "first": "1996-10-28",
+   "genres": [
+    "rock",
+    "punk",
+    "indie rock"
+   ],
+   "artistId": "430d9771-8feb-4b81-ba2d-c33ddcd0c8c1"
+  },
+  "Iron Maiden|The Number of the Beast": {
+   "found": true,
+   "id": "4ebfe175-e7ed-34cd-8e91-67c7e4a53579",
+   "title": "The Number of the Beast",
+   "credit": "Iron Maiden",
+   "type": "Album",
+   "first": "1982-03-29",
+   "genres": [
+    "heavy metal",
+    "metal",
+    "nwobhm"
+   ],
+   "artistId": "ca891d65-d9b0-4258-89f7-e6ba29d83767"
+  },
+  "Judas Priest|British Steel": {
+   "found": true,
+   "id": "5bd56af7-2bd6-392e-a815-b39354e3780d",
+   "title": "British Steel",
+   "credit": "Judas Priest",
+   "type": "Album",
+   "first": "1980-04-14",
+   "genres": [
+    "heavy metal",
+    "metal",
+    "hard rock"
+   ],
+   "artistId": "6b335658-22c8-485d-93de-0bc29a1d0349"
+  },
+  "Dio|Holy Diver": {
+   "found": true,
+   "id": "4e7b34de-0d87-356a-a3da-b21f769b7d4d",
+   "title": "Holy Diver",
+   "credit": "Dio",
+   "type": "Album",
+   "first": "1983-05-25",
+   "genres": [
+    "heavy metal",
+    "hard rock",
+    "rock"
+   ],
+   "artistId": "c55193fb-f5d2-4839-a263-4c044fca1456"
+  },
+  "Manowar|Hail to England": {
+   "found": true,
+   "id": "3920f3dd-1079-3981-ad81-a70a5cef6a07",
+   "title": "Hail to England",
+   "credit": "Manowar",
+   "type": "Album",
+   "first": "1984-07",
+   "genres": [
+    "power metal",
+    "heavy metal",
+    "rock",
+    "metal"
+   ],
+   "artistId": "00eeed6b-5897-4359-8347-b8cd28375331"
+  },
+  "Cirith Ungol|King of the Dead": {
+   "found": true,
+   "id": "7a9a17bb-ebaa-30cd-b495-7b7d33453c9d",
+   "title": "King of the Dead",
+   "credit": "Cirith Ungol",
+   "type": "Album",
+   "first": "1984-07-02",
+   "genres": [
+    "rock",
+    "progressive rock",
+    "heavy metal",
+    "doom metal",
+    "hard rock",
+    "art rock"
+   ],
+   "artistId": "c1341251-e2c7-4eae-989c-645f0c22487c"
+  },
+  "Manilla Road|Crystal Logic": {
+   "found": true,
+   "id": "38d32b32-3c3d-3d77-ad19-b3734534901a",
+   "title": "Crystal Logic",
+   "credit": "Manilla Road",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "heavy metal",
+    "rock"
+   ],
+   "artistId": "71dc0b7d-64f7-49ba-8723-f60804911b4e"
+  },
+  "Brocas Helm|Into Battle": {
+   "found": true,
+   "id": "3711cf49-f134-3c94-aaad-d3513ab23d04",
+   "title": "Into Battle",
+   "credit": "Brocas Helm",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "heavy metal"
+   ],
+   "artistId": "3e3ad5dd-8285-4eda-aa7c-b73307dd3ea7"
+  },
+  "Saxon|Wheels of Steel": {
+   "found": true,
+   "id": "ca3a3feb-236a-447d-93eb-f3a3d6ef2b73",
+   "title": "Wheels of Steel",
+   "credit": "Saxon",
+   "type": "Single",
+   "first": "1980-03",
+   "genres": [
+    "rock",
+    "heavy metal"
+   ],
+   "artistId": "bbd80354-597e-4d53-94e4-92b3a7cb8f2c"
+  },
+  "Diamond Head|Lightning to the Nations": {
+   "found": true,
+   "id": "450d4fe3-826d-3552-8de8-4a068371dd32",
+   "title": "Lightning to the Nations",
+   "credit": "Diamond Head",
+   "type": "Album",
+   "first": "1980-10-03",
+   "genres": [
+    "heavy metal",
+    "rock",
+    "metal",
+    "nwobhm"
+   ],
+   "artistId": "d3dd86df-2f57-4a97-8100-d09915343f60"
+  },
+  "Angel Witch|Angel Witch": {
+   "found": true,
+   "id": "ebc5137f-18da-4733-8182-f9e771094bb5",
+   "title": "Angel Witch",
+   "credit": "Angel Witch",
+   "type": "Single",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "hard rock"
+   ],
+   "artistId": "8e8bce36-51e0-4d10-8be4-19a8931b73b1"
+  },
+  "Tygers of Pan Tang|Spellbound": {
+   "found": true,
+   "id": "14b2ccc5-420e-3cf7-bd33-820260d7d696",
+   "title": "Spellbound",
+   "credit": "Tygers of Pan Tang",
+   "type": "Album",
+   "first": "1981-04-10",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "nwobhm"
+   ],
+   "artistId": "fe179f28-3cab-4337-9575-c13f8d077b13"
+  },
+  "Satan|Court in the Act": {
+   "found": true,
+   "id": "1cdc2d57-da61-3a7a-b666-b71a22b04c81",
+   "title": "Court in the Act",
+   "credit": "Satan",
+   "type": "Album",
+   "first": "1983-06",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "nwobhm"
+   ],
+   "artistId": "ee2c4239-6a04-492a-a157-1382837962db"
+  },
+  "Holocaust|The Nightcomers": {
+   "found": true,
+   "id": "3f658056-6d34-3e36-a841-8e55c6542218",
+   "title": "The Nightcomers",
+   "credit": "Holocaust",
+   "type": "Album",
+   "first": "1981-04",
+   "genres": [
+    "heavy metal",
+    "rock",
+    "metal",
+    "nwobhm"
+   ],
+   "artistId": "a1959ff4-d00d-4e07-9bba-54593ffef5df"
+  },
+  "Raven|Rock Until You Drop": {
+   "found": true,
+   "id": "9ca8355b-c428-4ec2-ae96-1927d05b46af",
+   "title": "Rock Until You Drop",
+   "credit": "Raven",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "heavy metal",
+    "hard rock",
+    "nwobhm",
+    "metal",
+    "glam metal"
+   ],
+   "artistId": "b4854d3a-2678-4f0b-8024-ea78e5c32800"
+  },
+  "Riot|Thundersteel": {
+   "found": true,
+   "id": "a15d3e84-a798-38a1-8fca-634b36d4b90a",
+   "title": "Thundersteel",
+   "credit": "Riot",
+   "type": "Album",
+   "first": "1988-03-24",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "us power metal"
+   ],
+   "artistId": "ca04e657-2ffc-4949-9150-cb43d9f231e2"
+  },
+  "Crimson Glory|Transcendence": {
+   "found": true,
+   "id": "6d0c2874-b224-3e80-8c98-d11eab5792c8",
+   "title": "Transcendence",
+   "credit": "Crimson Glory",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "heavy metal",
+    "progressive metal",
+    "power metal"
+   ],
+   "artistId": "83560efc-3ead-446a-9652-02476a5f18c3"
+  },
+  "Jag Panzer|Ample Destruction": {
+   "found": true,
+   "id": "62fae377-e740-3a5c-809c-c9119cf38edb",
+   "title": "Ample Destruction",
+   "credit": "Jag Panzer",
+   "type": "Album",
+   "first": "1984-08",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "power metal"
+   ],
+   "artistId": "5a732686-71d3-486d-b076-cae027a2f057"
+  },
+  "Omen|Battle Cry": {
+   "found": true,
+   "id": "35fd40b1-31f7-3943-ae1a-9bc7328f07e2",
+   "title": "Battle Cry",
+   "credit": "Omen",
+   "type": "Album",
+   "first": "1984-01-01",
+   "genres": [
+    "heavy metal",
+    "rock",
+    "power metal"
+   ],
+   "artistId": "596cc676-32c7-480c-9bf4-dcc9d8ff62d3"
+  },
+  "Helstar|Nosferatu": {
+   "found": true,
+   "id": "672fb773-2b38-30c6-9355-ea03c33e98ec",
+   "title": "Nosferatu",
+   "credit": "Helstar",
+   "type": "Album",
+   "first": "1989-09-19",
+   "genres": [
+    "rock",
+    "power metal"
+   ],
+   "artistId": "3b0f2300-1f53-4cc1-acbc-0e9a78871661"
+  },
+  "Motörhead|Ace of Spades": {
+   "found": true,
+   "id": "8295af95-1ffe-30ee-9c4f-e85578e4b900",
+   "title": "Ace of Spades",
+   "credit": "Motörhead",
+   "type": "Single",
+   "first": "1980-10",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "electronic"
+   ],
+   "artistId": "57961a97-3796-4bf7-9f02-a985a8979ae9"
+  },
+  "Venom|Welcome to Hell": {
+   "found": true,
+   "id": "3c943530-e44e-3f1a-a847-b3e6d8422c8f",
+   "title": "Welcome to Hell",
+   "credit": "Venom",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "black metal",
+    "heavy metal",
+    "rock",
+    "nwobhm",
+    "metal",
+    "speed metal"
+   ],
+   "artistId": "d2ad8774-9173-4970-8427-06b04df201c1"
+  },
+  "Metal Church|Metal Church": {
+   "found": true,
+   "id": "ab8f58b0-abbc-3371-8241-d08ff430ba45",
+   "title": "Metal Church",
+   "credit": "Metal Church",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "heavy metal",
+    "power metal",
+    "us power metal"
+   ],
+   "artistId": "09830e79-cc8d-422f-ae25-6efde4320b73"
+  },
+  "Agent Steel|Skeptics Apocalypse": {
+   "found": true,
+   "id": "0a2873e5-db1e-3d36-b392-19e9cb15e47f",
+   "title": "Skeptics Apocalypse",
+   "credit": "Agent Steel",
+   "type": "Album",
+   "first": "1985-06",
+   "genres": [
+    "rock",
+    "speed metal"
+   ],
+   "artistId": "40051770-9f53-485a-b794-0a1d56c42e7d"
+  },
+  "Savage Grace|Master of Disguise": {
+   "found": true,
+   "id": "cfc245cd-1435-4956-8822-6ec5c0673f13",
+   "title": "Master of Disguise",
+   "credit": "Savage Grace",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "rock",
+    "speed metal"
+   ],
+   "artistId": "c3d6148b-e923-458d-b420-b367ba1cbcd3"
+  },
+  "Metallica|Master of Puppets": {
+   "found": true,
+   "id": "cd526fb3-27a6-465e-810b-ab9653cbe84e",
+   "title": "Master of Puppets",
+   "credit": "Metallica",
+   "type": "Single",
+   "first": "1986",
+   "genres": [
+    "heavy metal",
+    "rock",
+    "metal"
+   ],
+   "artistId": "65f4f0c5-ef9e-490c-aee3-909e7ae6b2ab"
+  },
+  "Slayer|Reign in Blood": {
+   "found": true,
+   "id": "dbf1b3c0-1efb-4e5f-9fe1-4c42b144aa24",
+   "title": "Reign in Blood",
+   "credit": "Slayer",
+   "type": "Album",
+   "first": "1986-10-07",
+   "genres": [
+    "thrash metal",
+    "metal",
+    "heavy metal",
+    "rock",
+    "death metal"
+   ],
+   "artistId": "bdacc37b-8633-4bf8-9dd5-4662ee651aec"
+  },
+  "Megadeth|Peace Sells... but Who's Buying?": {
+   "found": true,
+   "id": "4eea6bcc-3226-3c0d-a71d-af682a0a1dd8",
+   "title": "Peace Sells… but Who’s Buying?",
+   "credit": "Megadeth",
+   "type": "Album",
+   "first": "1986-07-20",
+   "genres": [
+    "thrash metal",
+    "heavy metal",
+    "speed metal",
+    "metal"
+   ],
+   "artistId": "a9044915-8be3-4c7e-b11f-9e2d2ea0a91e"
+  },
+  "Exodus|Bonded by Blood": {
+   "found": true,
+   "id": "08e23bf4-ab01-3d24-9a71-bfcbc1567fe3",
+   "title": "Bonded by Blood",
+   "credit": "Exodus",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "thrash metal",
+    "metal",
+    "speed metal"
+   ],
+   "artistId": "18e9bfd5-db23-4bc1-be0f-5710e5d656e4"
+  },
+  "Dark Angel|Darkness Descends": {
+   "found": true,
+   "id": "cfc3b110-37c4-30f3-852d-78afb438f512",
+   "title": "Darkness Descends",
+   "credit": "Dark Angel",
+   "type": "Album",
+   "first": "1986-11-17",
+   "genres": [
+    "thrash metal",
+    "metal"
+   ],
+   "artistId": "1dd1f238-839c-4609-9bcb-5f866c82b3e8"
+  },
+  "Onslaught|The Force": {
+   "found": true,
+   "id": "716e8784-412d-3ed2-a0cd-5f69775810cb",
+   "title": "The Force",
+   "credit": "Onslaught",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "thrash metal"
+   ],
+   "artistId": "faa76524-c57c-4303-843e-925f5aa02f87"
+  },
+  "Sabbat|History of a Time to Come": {
+   "found": true,
+   "id": "42104512-f1cf-3532-a2c8-decfe37d8922",
+   "title": "History of a Time to Come",
+   "credit": "Sabbat",
+   "type": "Album",
+   "first": "1988-01-15",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "thrash metal"
+   ],
+   "artistId": "cad31485-4806-4c2a-8a70-2bdadacc05f8"
+  },
+  "Vio-lence|Eternal Nightmare": {
+   "found": true,
+   "id": "cedf8ed4-35ad-4d67-8fa0-2cba3d891174",
+   "title": "Eternal Nightmare",
+   "credit": "Vio‐lence",
+   "type": "Single",
+   "first": "1988",
+   "genres": [],
+   "artistId": "cf2544d6-b4f2-405d-a525-08c1ec5034f1"
+  },
+  "Heathen|Breaking the Silence": {
+   "found": true,
+   "id": "2b878c8e-37b4-39fe-8300-0e5318b6e6c0",
+   "title": "Breaking the Silence",
+   "credit": "Heathen",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "speed metal"
+   ],
+   "artistId": "dfbfe956-7719-4cd6-b4db-b9c22657c925"
+  },
+  "Watchtower|Control and Resistance": {
+   "found": true,
+   "id": "363bb9b9-45df-3fcd-89ca-f1e03cc63f00",
+   "title": "Control and Resistance",
+   "credit": "Watchtower",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "progressive metal",
+    "technical thrash metal",
+    "jazz fusion",
+    "avant-garde metal",
+    "avant-prog"
+   ],
+   "artistId": "6d6b617a-f1ab-462a-8bb2-c934eda37668"
+  },
+  "Toxik|World Circus": {
+   "found": true,
+   "id": "5790c50c-af80-3513-b973-837743de475e",
+   "title": "World Circus",
+   "credit": "Toxik",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "heavy metal",
+    "speed metal"
+   ],
+   "artistId": "a646910b-3889-4092-b703-0e0ae36b426a"
+  },
+  "Realm|Endless War": {
+   "found": true,
+   "id": "89e8cb60-a439-3828-9c97-e4a52caace14",
+   "title": "Endless War",
+   "credit": "Realm",
+   "type": "Album",
+   "first": "1988-11-08",
+   "genres": [
+    "heavy metal",
+    "rock",
+    "hard rock"
+   ],
+   "artistId": "088ff671-d84e-42a3-b1b2-d43c8d156c8d"
+  },
+  "Death|Scream Bloody Gore": {
+   "found": true,
+   "id": "4b2378ca-9617-3b4a-bac3-dcc23a0467bf",
+   "title": "Scream Bloody Gore",
+   "credit": "Death",
+   "type": "Album",
+   "first": "1987-05-25",
+   "genres": [
+    "death metal",
+    "thrash metal"
+   ],
+   "artistId": "dbb3b771-ae77-4381-b61c-758b5b7898ec"
+  },
+  "Possessed|Seven Churches": {
+   "found": true,
+   "id": "2c3217e0-2d81-3dcd-9560-34f7aacefef5",
+   "title": "Seven Churches",
+   "credit": "Possessed",
+   "type": "Album",
+   "first": "1985-12",
+   "genres": [
+    "death metal",
+    "thrash metal"
+   ],
+   "artistId": "709e937c-496d-4b7f-9219-d5eb9d8b2e2f"
+  },
+  "Morbid Angel|Altars of Madness": {
+   "found": true,
+   "id": "e5be441e-53ec-376a-b261-426e8f06e144",
+   "title": "Altars of Madness",
+   "credit": "Morbid Angel",
+   "type": "Album",
+   "first": "1989-09",
+   "genres": [
+    "death metal",
+    "metal",
+    "rock",
+    "old school death metal"
+   ],
+   "artistId": "4355a36d-805e-478d-8589-64f0292724b2"
+  },
+  "Bolt Thrower|Realm of Chaos": {
+   "found": true,
+   "id": "bbd6ba1c-2f44-3b90-91ab-fd8786707ad4",
+   "title": "Realm of Chaos",
+   "credit": "Bolt Thrower",
+   "type": "Album",
+   "first": "1989-10-28",
+   "genres": [
+    "death metal",
+    "old school death metal",
+    "war metal"
+   ],
+   "artistId": "68bd8072-0412-44b1-81dd-807aa6c1918c"
+  },
+  "Autopsy|Severed Survival": {
+   "found": true,
+   "id": "d838cbc8-2ae7-3d4e-9fca-e4baab207df8",
+   "title": "Severed Survival",
+   "credit": "Autopsy",
+   "type": "Album",
+   "first": "1989-05",
+   "genres": [
+    "death metal"
+   ],
+   "artistId": "1d097d38-d5ca-4cd4-9200-7f08eedd0875"
+  },
+  "Heresy|Face Up to It!": {
+   "found": true,
+   "id": "2bdc846c-954c-4204-9aee-bd89b69e56f0",
+   "title": "Face Up to It",
+   "credit": "Heresy",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "rock",
+    "punk"
+   ],
+   "artistId": "6126d4ea-653e-4ba9-8fac-67d19f09a80f"
+  },
+  "Necrophagia|Season of the Dead": {
+   "found": true,
+   "id": "faca677c-ce18-3573-b3c9-b355f316b7c7",
+   "title": "Season of the Dead",
+   "credit": "Necrophagia",
+   "type": "Album",
+   "first": "1987-02",
+   "genres": [
+    "rock",
+    "death metal"
+   ],
+   "artistId": "f65a3677-c6dc-47e4-afd8-ec364f2e3035"
+  },
+  "Saint Vitus|Born Too Late": {
+   "found": true,
+   "id": "d3e57636-7a78-3192-aa29-63c9c517b1a4",
+   "title": "Born Too Late",
+   "credit": "Saint Vitus",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "doom metal",
+    "rock"
+   ],
+   "artistId": "707d26d5-51ee-42b2-9bc4-19884689d51c"
+  },
+  "Trouble|Psalm 9": {
+   "found": true,
+   "id": "20846efe-75de-4a51-8f0f-1f5a142108b5",
+   "title": "Psalm 9 / The Skull",
+   "credit": "Trouble",
+   "type": "Album",
+   "first": "1991",
+   "genres": [
+    "heavy metal",
+    "doom metal"
+   ],
+   "artistId": "2bfd6269-90a6-405e-8ce2-db6ad23a489c"
+  },
+  "Pentagram|Pentagram": {
+   "found": true,
+   "id": "9c415e00-1b88-43df-847c-1e0e4f3c02f0",
+   "title": "Pentagram",
+   "credit": "Pentagram",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "doom metal",
+    "heavy metal",
+    "rock"
+   ],
+   "artistId": "d7e9b9e7-8ac3-4be4-85c8-64601d68261c"
+  },
+  "Witchfinder General|Death Penalty": {
+   "found": true,
+   "id": "203ec0db-f89d-39bb-9b22-7095cfc0ebf1",
+   "title": "Death Penalty",
+   "credit": "Witchfinder General",
+   "type": "Album",
+   "first": "1982-10",
+   "genres": [
+    "rock",
+    "heavy metal"
+   ],
+   "artistId": "89618a45-ff4a-4e5f-942e-3ef93c8c555c"
+  },
+  "Dream Death|Journey into Mystery": {
+   "found": true,
+   "id": "7a503e2e-2e8f-47b7-b887-feee5ce24798",
+   "title": "Journey Into Mystery",
+   "credit": "Dream Death",
+   "type": "Album",
+   "first": "1987-10-16",
+   "genres": [
+    "rock",
+    "thrash metal",
+    "death metal",
+    "doom metal"
+   ],
+   "artistId": "12c4f572-5f4c-47b4-a601-a4fbc608b027"
+  },
+  "Queensrÿche|Operation: Mindcrime": {
+   "found": true,
+   "id": "1bdbbbcd-6380-3726-b039-86fe0559f273",
+   "title": "Operation: Mindcrime",
+   "credit": "Queensrÿche",
+   "type": "Album",
+   "first": "1988-05-02",
+   "genres": [
+    "progressive metal",
+    "heavy metal",
+    "metal",
+    "rock",
+    "hard rock",
+    "progressive rock",
+    "power metal",
+    "art rock",
+    "us power metal"
+   ],
+   "artistId": "deeea939-7f89-4762-b09f-79269cd70d3b"
+  },
+  "Fates Warning|Awaken the Guardian": {
+   "found": true,
+   "id": "557e1ff1-9e2d-3f15-a0c2-ab89bb87b86d",
+   "title": "Awaken the Guardian",
+   "credit": "Fates Warning",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "progressive metal",
+    "heavy metal",
+    "rock",
+    "us power metal"
+   ],
+   "artistId": "17fbada3-6dac-42f3-8a6c-8c1c1484f730"
+  },
+  "Dream Theater|When Dream and Day Unite": {
+   "found": true,
+   "id": "37302ce5-6ce0-336e-8b9d-9c73930a7bea",
+   "title": "When Dream and Day Unite",
+   "credit": "Dream Theater",
+   "type": "Album",
+   "first": "1989-03-06",
+   "genres": [
+    "progressive metal",
+    "rock",
+    "symphonic rock",
+    "progressive rock",
+    "heavy metal",
+    "hard rock",
+    "art rock",
+    "neo-progressive rock"
+   ],
+   "artistId": "28503ab7-8bf2-4666-a7bd-2644bfc7cb1d"
+  },
+  "Faith No More|The Real Thing": {
+   "found": true,
+   "id": "1ba7c980-4882-31fb-9918-12791f59d303",
+   "title": "The Real Thing",
+   "credit": "Faith No More",
+   "type": "Album",
+   "first": "1989-06-20",
+   "genres": [
+    "alternative metal",
+    "funk metal",
+    "hard rock",
+    "rap metal",
+    "alternative rock",
+    "rock"
+   ],
+   "artistId": "b15ebd71-a252-417d-9e1c-3e6863da68f8"
+  },
+  "Living Colour|Vivid": {
+   "found": true,
+   "id": "8ce498ba-26f5-3ea9-b499-9007212ae269",
+   "title": "Vivid",
+   "credit": "Living Colour",
+   "type": "Album",
+   "first": "1988-05-02",
+   "genres": [
+    "funk metal",
+    "alternative metal",
+    "rock",
+    "heavy metal",
+    "hard rock",
+    "funk rock"
+   ],
+   "artistId": "dc6f8c1f-626b-42b0-9115-7e66ae4cecd6"
+  },
+  "Fishbone|Truth and Soul": {
+   "found": true,
+   "id": "98b3437a-6c67-34cb-bc5a-f808bb2b467c",
+   "title": "Truth and Soul",
+   "credit": "Fishbone",
+   "type": "Album",
+   "first": "1988-08-01",
+   "genres": [
+    "rock",
+    "ska",
+    "funk rock",
+    "funk metal"
+   ],
+   "artistId": "9f3764c0-c9f4-4e20-b7a8-9993124fb1b2"
+  },
+  "24-7 Spyz|Harder Than You": {
+   "found": true,
+   "id": "367837e2-7d14-32a2-8167-be26255bc791",
+   "title": "Harder Than You",
+   "credit": "24‐7 Spyz",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "funk metal",
+    "rock",
+    "alternative rock",
+    "alternative metal"
+   ],
+   "artistId": "d30381e1-27bd-4596-a9c8-d28d6fdceb83"
+  },
+  "Napalm Death|Scum": {
+   "found": true,
+   "id": "ed677402-a3d0-4c1f-99c0-81eed8bfbbb5",
+   "title": "Scum",
+   "credit": "Napalm Death",
+   "type": "EP",
+   "first": "1986-08-11",
+   "genres": [],
+   "artistId": "ce7bba8b-026b-4aa6-bddb-f98ed6d595e4"
+  },
+  "Terrorizer|World Downfall": {
+   "found": true,
+   "id": "5012c7d6-0f68-339a-bc0d-b45128f25bea",
+   "title": "World Downfall",
+   "credit": "Terrorizer",
+   "type": "Album",
+   "first": "1989-11",
+   "genres": [
+    "grindcore",
+    "death metal",
+    "deathgrind"
+   ],
+   "artistId": "7cd29567-b431-4989-9870-a81bc5596dd2"
+  },
+  "Repulsion|Horrified": {
+   "found": true,
+   "id": "12e26259-5b9d-3af8-8ba9-4fe40b166de1",
+   "title": "Horrified",
+   "credit": "Repulsion",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "rock",
+    "death metal",
+    "grindcore"
+   ],
+   "artistId": "d1981d41-caf3-4ccb-a1c7-462d74e22f07"
+  },
+  "Unseen Terror|Human Error": {
+   "found": true,
+   "id": "10bd7cb9-ba0e-3c0e-ab64-b596cebbe34a",
+   "title": "Human Error",
+   "credit": "Unseen Terror",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "metal",
+    "death metal",
+    "grindcore"
+   ],
+   "artistId": "f9ea5d1c-83be-43c7-bd79-1ddef3b86315"
+  },
+  "Sore Throat|Disgrace to the Corpse of Sid": {
+   "found": true,
+   "id": "20e7fe93-89f2-4877-ac28-f9ee7e9713dd",
+   "title": "Disgrace to the Corpse of Sid",
+   "credit": "Sore Throat",
+   "type": "Album",
+   "first": "1989-09-05",
+   "genres": [
+    "noisecore",
+    "rock",
+    "punk"
+   ],
+   "artistId": "c673c46a-a19d-46c7-8eaf-f692255a1c6b"
+  },
+  "Carcass|Reek of Putrefaction": {
+   "found": true,
+   "id": "0c06aef5-fd13-3dad-b431-2a7127a451e4",
+   "title": "Reek of Putrefaction",
+   "credit": "Carcass",
+   "type": "Album",
+   "first": "1988-06",
+   "genres": [
+    "grindcore",
+    "goregrind",
+    "metal",
+    "death metal"
+   ],
+   "artistId": "d50a4b89-ff1f-4659-9fde-f76f8d5b3c89"
+  },
+  "The Human League|Dare": {
+   "found": true,
+   "id": "e8e7999e-0b87-3298-947d-2ad22717fc27",
+   "title": "Dare",
+   "credit": "The Human League",
+   "type": "Album",
+   "first": "1981-10-16",
+   "genres": [
+    "new wave",
+    "pop",
+    "dance-pop",
+    "new romantic",
+    "electronic",
+    "synth-pop",
+    "dance-rock"
+   ],
+   "artistId": "7adaabfb-acfb-47bc-8c7c-59471c2f0db8"
+  },
+  "Depeche Mode|Music for the Masses": {
+   "found": true,
+   "id": "e59021bd-1710-3c13-9449-b78560039592",
+   "title": "Music for the Masses",
+   "credit": "Depeche Mode",
+   "type": "Album",
+   "first": "1987-09-28",
+   "genres": [
+    "synth-pop",
+    "electronic",
+    "rock",
+    "pop",
+    "trance",
+    "industrial",
+    "ambient",
+    "jazz",
+    "house",
+    "pop rock",
+    "dance",
+    "dark wave"
+   ],
+   "artistId": "8538e728-ca0b-4321-b7e5-cff6565dd4c0"
+  },
+  "Soft Cell|Non-Stop Erotic Cabaret": {
+   "found": true,
+   "id": "e5bc1607-7947-3044-8558-6b4eae334c51",
+   "title": "Non‐Stop Erotic Cabaret",
+   "credit": "Soft Cell",
+   "type": "Album",
+   "first": "1981-11-23",
+   "genres": [
+    "pop",
+    "new wave",
+    "electronic",
+    "dance-pop",
+    "rock",
+    "pop rock",
+    "minimal synth",
+    "electro-disco"
+   ],
+   "artistId": "7fb50287-029d-47cc-825a-235ca28024b2"
+  },
+  "Pet Shop Boys|Please": {
+   "found": true,
+   "id": "4bb45b34-c884-3179-a518-2cabdc8e7210",
+   "title": "Please",
+   "credit": "Pet Shop Boys",
+   "type": "Album",
+   "first": "1986-03-24",
+   "genres": [
+    "synth-pop",
+    "electronic",
+    "pop",
+    "dance-pop"
+   ],
+   "artistId": "be540c02-7898-4b79-9acc-c8122c7d9e83"
+  },
+  "Orchestral Manoeuvres in the Dark|Architecture & Morality": {
+   "found": true,
+   "id": "88e332db-8b1c-3f6c-8418-86d617dd5436",
+   "title": "Architecture & Morality & More",
+   "credit": "Orchestral Manoeuvres in the Dark",
+   "type": "Album",
+   "first": "2008-04-28",
+   "genres": [
+    "electronic",
+    "pop",
+    "synth-pop"
+   ],
+   "artistId": "6d072aa8-c851-49c5-92f9-cbca05f4bed9"
+  },
+  "Yazoo|Upstairs at Eric's": {
+   "found": true,
+   "id": "ca189e76-5704-3097-8dad-b6e1923bc917",
+   "title": "Upstairs at Eric’s",
+   "credit": "Yazoo",
+   "type": "Album",
+   "first": "1982-08-23",
+   "genres": [
+    "new wave",
+    "synth-pop",
+    "pop",
+    "electronic",
+    "dance",
+    "dance-pop",
+    "alternative dance"
+   ],
+   "artistId": "42922db2-2e80-44b8-9cdf-0b3a6634c124"
+  },
+  "John Foxx|Metamatic": {
+   "found": true,
+   "id": "fc58e1ed-fdbb-38ce-ab9c-1bdd38fc4dfa",
+   "title": "Metamatic",
+   "credit": "John Foxx",
+   "type": "Album",
+   "first": "1980-01-17",
+   "genres": [
+    "synth-pop",
+    "rock",
+    "electronic"
+   ],
+   "artistId": "6e913bad-4812-4286-b6cc-18548422f194"
+  },
+  "Fad Gadget|Fireside Favourites": {
+   "found": true,
+   "id": "ac4532c4-2934-3420-943d-42a099dbb26a",
+   "title": "Fireside Favourites",
+   "credit": "Fad Gadget",
+   "type": "Album",
+   "first": "1980-09-01",
+   "genres": [
+    "rock",
+    "electronic",
+    "synth-pop"
+   ],
+   "artistId": "5c96def1-68a5-4aa3-8f71-3ae427a33eb4"
+  },
+  "Thomas Leer|4 Movements": {
+   "found": true,
+   "id": "b921c680-e374-4840-8511-8ea274d22a33",
+   "title": "4 Movements",
+   "credit": "Thomas Leer",
+   "type": "EP",
+   "first": "1981",
+   "genres": [
+    "electronic",
+    "synth-pop"
+   ],
+   "artistId": "408f6af4-3551-4ac3-9df5-7fa8ce4fe3b7"
+  },
+  "Section 25|From the Hip": {
+   "found": true,
+   "id": "5d6ebde5-bdac-3cb2-bb56-c5e0e68e9ff6",
+   "title": "From the Hip",
+   "credit": "Section 25",
+   "type": "Album",
+   "first": "1984-03",
+   "genres": [
+    "electronic",
+    "electro",
+    "synth-pop"
+   ],
+   "artistId": "82e26f64-813d-4b22-a442-44d182f7f9eb"
+  },
+  "Book of Love|Book of Love": {
+   "found": true,
+   "id": "e07e7061-adef-362e-bec6-51edc74e544d",
+   "title": "Book of Love",
+   "credit": "Book of Love",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "synth-pop",
+    "electronic",
+    "dance-rock"
+   ],
+   "artistId": "874b3a85-db6e-49f2-b8bf-747ca5c10d27"
+  },
+  "Our Daughter's Wedding|Digital Cowboy": {
+   "found": true,
+   "id": "13f2b11c-f153-32ac-acfd-742c505e5d80",
+   "title": "Digital Cowboy",
+   "credit": "Our Daughter’s Wedding",
+   "type": "EP",
+   "first": "1981",
+   "genres": [
+    "electronic",
+    "synth-pop"
+   ],
+   "artistId": "8015bb00-a3ae-40de-ade8-712cdba27df0"
+  },
+  "Solid Space|Space Museum": {
+   "found": true,
+   "id": "c218ddbd-9f88-4097-ab55-354db7cb0eb9",
+   "title": "Space Museum",
+   "credit": "Solid Space",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "synth-pop",
+    "post-punk",
+    "neo-psychedelia",
+    "minimal synth",
+    "minimal wave"
+   ],
+   "artistId": "5b23257b-6cb8-4c0b-8fa1-1eeb564f97e2"
+  },
+  "Oppenheimer Analysis|New Mexico": {
+   "found": true,
+   "id": "140caa89-adf3-4a28-870d-9492cf3792c4",
+   "title": "New Mexico",
+   "credit": "Oppenheimer Analysis",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "electronic",
+    "synth-pop",
+    "minimal synth",
+    "minimal wave"
+   ],
+   "artistId": "c9d5bc22-1c37-4164-a08f-143cc4547205"
+  },
+  "Experimental Products|Prototype": {
+   "found": true,
+   "id": "c69e2348-9afe-3e2d-a314-bac0a0656b70",
+   "title": "Prototype",
+   "credit": "Experimental Products",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "electronic",
+    "synth-pop"
+   ],
+   "artistId": "0bf31e8a-b7d7-4fd0-aee4-dc1ff116b268"
+  },
+  "Eleven Pond|Bas Relief": {
+   "found": true,
+   "id": "27feec35-7961-4ded-8137-e9ac00c8421e",
+   "title": "Bas Relief",
+   "credit": "Eleven Pond",
+   "type": "Album",
+   "first": "1986-10-10",
+   "genres": [
+    "rock",
+    "electronic",
+    "pop",
+    "post-punk",
+    "new wave",
+    "synth-pop"
+   ],
+   "artistId": "7c730df8-82c6-407d-ba69-c98d94a0e7de"
+  },
+  "Lives of Angels|Elevator to Eden": {
+   "found": true,
+   "id": "a5062025-d243-4781-a2c6-20a5917c556a",
+   "title": "Elevator to Eden",
+   "credit": "Lives of Angels",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "electronic",
+    "new wave"
+   ],
+   "artistId": "42b7c094-f586-4d90-8581-ce068fd742e6"
+  },
+  "Madonna|Like a Virgin": {
+   "found": true,
+   "id": "b6dce9d9-5dec-3a88-856b-1f9b7c241957",
+   "title": "Like a Virgin",
+   "credit": "Madonna",
+   "type": "Single",
+   "first": "1984-11-05",
+   "genres": [
+    "electronic",
+    "synth-pop",
+    "pop",
+    "disco"
+   ],
+   "artistId": "79239441-bfd5-4981-a70c-55c3f15c1287"
+  },
+  "Michael Jackson|Thriller": {
+   "found": true,
+   "id": "f32fab67-77dd-3937-addc-9062e28e4c37",
+   "title": "Thriller",
+   "credit": "Michael Jackson",
+   "type": "Album",
+   "first": "1982-11-30",
+   "genres": [
+    "pop",
+    "contemporary r&b",
+    "dance-pop",
+    "disco",
+    "funk",
+    "pop soul",
+    "r&b",
+    "rock",
+    "synth funk",
+    "trance",
+    "ambient",
+    "jazz",
+    "house",
+    "quiet storm",
+    "boogie"
+   ],
+   "artistId": "f27ec8db-af05-4f36-916e-3d57f91ecf5e"
+  },
+  "Whitney Houston|Whitney": {
+   "found": true,
+   "id": "4f5bfc50-7a41-385e-9961-3db0feaec430",
+   "title": "Whitney",
+   "credit": "Whitney Houston",
+   "type": "Album",
+   "first": "1987-06-01",
+   "genres": [
+    "dance-pop",
+    "pop",
+    "contemporary r&b",
+    "electronic",
+    "dance",
+    "synth-pop",
+    "disco",
+    "freestyle",
+    "club",
+    "pop soul"
+   ],
+   "artistId": "0307edfc-437c-4b48-8700-80680e66a228"
+  },
+  "Rick Astley|Whenever You Need Somebody": {
+   "found": true,
+   "id": "ee90118c-f87c-44b1-b6ad-a27f141fae03",
+   "title": "Whenever You Need Somebody",
+   "credit": "Rick Astley",
+   "type": "Single",
+   "first": "1987",
+   "genres": [],
+   "artistId": "db92a151-1ac2-438b-bc43-b82e149ddd50"
+  },
+  "Bananarama|True Confessions": {
+   "found": true,
+   "id": "5eaa3a47-5743-31d0-8d39-297e160612b1",
+   "title": "True Confessions",
+   "credit": "Bananarama",
+   "type": "Album",
+   "first": "1986-06-13",
+   "genres": [
+    "pop",
+    "synth-pop",
+    "electronic",
+    "new wave",
+    "dance-pop",
+    "dance-rock"
+   ],
+   "artistId": "84d06499-0643-46b8-9e1f-45f743a53f5e"
+  },
+  "Mel & Kim|F.L.M.": {
+   "found": true,
+   "id": "ba2303f9-fb92-4c28-b555-1dc83bbfacb3",
+   "title": "F.L.M.",
+   "credit": "Mel & Kim",
+   "type": "Single",
+   "first": "1987",
+   "genres": [
+    "pop",
+    "electronic",
+    "house",
+    "electro",
+    "synth-pop",
+    "europop"
+   ],
+   "artistId": "7a9e37d6-4396-415b-80f6-4b23b1c041df"
+  },
+  "Stacey Q|Better Than Heaven": {
+   "found": true,
+   "id": "5c2a59b2-5c8a-3748-907f-dc8c0623464c",
+   "title": "Better Than Heaven",
+   "credit": "Stacey Q",
+   "type": "Album",
+   "first": "1986-09-15",
+   "genres": [
+    "electronic",
+    "pop",
+    "hi-nrg",
+    "rock",
+    "dance-pop",
+    "synth-pop"
+   ],
+   "artistId": "55cf7705-e0bc-4b70-8cba-b85544e2eac9"
+  },
+  "Sade|Diamond Life": {
+   "found": true,
+   "id": "af2a0c41-e612-3232-949d-bdca340c407c",
+   "title": "Diamond Life",
+   "credit": "Sade",
+   "type": "Album",
+   "first": "1984-07-28",
+   "genres": [
+    "smooth soul",
+    "sophisti-pop",
+    "soul",
+    "pop",
+    "downtempo",
+    "quiet storm",
+    "smooth jazz",
+    "jazz",
+    "pop soul"
+   ],
+   "artistId": "67930b3e-e00b-469f-8c74-fd69f20522ec"
+  },
+  "The Style Council|Café Bleu": {
+   "found": true,
+   "id": "49081a6f-8f76-3159-aba2-8527126d9384",
+   "title": "Café Bleu",
+   "credit": "The Style Council",
+   "type": "Album",
+   "first": "1984-03-23",
+   "genres": [
+    "electronic",
+    "sophisti-pop",
+    "jazz",
+    "rock",
+    "downtempo",
+    "pop",
+    "synth-pop",
+    "smooth jazz"
+   ],
+   "artistId": "34e56f20-ddda-48c9-a4bb-6bb12df57de0"
   }
  },
  "artists": {
@@ -1677,6 +5708,120 @@
    "country": "US",
    "area": "United States",
    "begin": "Athens"
+  },
+  "97c86b2c-2765-46a2-aef8-76a7e24c430f": {
+   "name": "XTC",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Swindon"
+  },
+  "1154b8aa-1cc1-4b01-afff-eca45ae590fa": {
+   "name": "Wall of Voodoo",
+   "country": "US",
+   "area": "United States",
+   "begin": "Los Angeles"
+  },
+  "f2e5a6f8-e72e-46a7-8e2e-34960339220a": {
+   "name": "Suburban Lawns",
+   "country": "US",
+   "area": "United States",
+   "begin": "Long Beach"
+  },
+  "70693ef1-2d81-4b35-a483-bd78553db176": {
+   "name": "Romeo Void",
+   "country": "US",
+   "area": "United States",
+   "begin": "San Francisco"
+  },
+  "a08d716e-a51e-4a02-8092-93c3b0fb1322": {
+   "name": "Units",
+   "country": "US",
+   "area": "United States",
+   "begin": "San Francisco"
+  },
+  "1a1cd7f3-e5df-4eca-bae2-2757c9e656b5": {
+   "name": "Duran Duran",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Birmingham"
+  },
+  "74f5365e-d77c-4a33-9715-7d5f049c9fbb": {
+   "name": "Visage",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "697e7111-5630-4c77-83f3-39821bacc61a": {
+   "name": "Japan",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Catford"
+  },
+  "7e786a4c-c743-4713-9340-a6f12d8515d4": {
+   "name": "Ultravox",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "055f48d8-781c-4d0c-b31f-4e901d11d87b": {
+   "name": "Classix Nouveaux",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "23228f18-01d5-493e-94ce-cfcde82a8db2": {
+   "name": "The Jam",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Woking"
+  },
+  "d5117a22-1cf3-46c8-8b6e-5417a04e8c8a": {
+   "name": "Secret Affair",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": null
+  },
+  "c37b0a84-3eaf-4495-99f0-5a8158698864": {
+   "name": "The Chords",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "6f5b4564-6402-4c60-9e31-b85107c3617a": {
+   "name": "The Lambrettas",
+   "country": "GB",
+   "area": "Brighton",
+   "begin": null
+  },
+  "35dc36a6-3017-45e4-95c6-9b87cf1637c8": {
+   "name": "Purple Hearts",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Romford"
+  },
+  "c3aeb863-7b26-4388-94e8-5a240f2be21b": {
+   "name": "Tom Waits",
+   "country": "US",
+   "area": "United States",
+   "begin": "Pomona"
+  },
+  "8e538a69-fc3b-43e1-9a6b-801ea56d6d48": {
+   "name": "This Heat",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Camberwell"
+  },
+  "8dcd04e4-7695-4d80-bae9-1d7d680a38ef": {
+   "name": "Captain Beefheart & His Magic Band",
+   "country": "US",
+   "area": "United States",
+   "begin": "Lancaster"
+  },
+  "5a54b72e-bfb3-4ca6-944a-e17261399965": {
+   "name": "Pere Ubu",
+   "country": "US",
+   "area": "United States",
+   "begin": "Cleveland"
   }
  }
 }

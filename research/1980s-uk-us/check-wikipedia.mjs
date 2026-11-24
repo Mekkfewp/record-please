@@ -37,29 +37,46 @@ function genresOf(value) {
   return [...new Set(names.map((s) => s.toLowerCase()))];
 }
 
+const inRange = (y) => y >= 1980 && y <= 1989;
 const records = readRecords();
+const redo = process.argv.includes('--redo');
 let n = 0;
 for (const r of records) {
   n += 1;
-  if (out[r.key]) continue;
-  const entry = (out[r.key] = { found: false });
+  const old = out[r.key];
+  if (old && !(redo && (!old.found || !old.released || !inRange(old.released)))) continue;
   const kind = r.type === 's' ? 'song' : r.type === 'e' ? 'EP' : 'album';
-  const search = await api(`action=query&list=search&srlimit=5&srsearch=${encodeURIComponent(`"${r.title}" ${r.artist} ${kind}`)}`);
-  for (const hit of search?.query?.search ?? []) {
-    const t = norm(hit.title.replace(/\s*\([^)]*\)$/, ''));
-    const want = norm(r.title);
-    if (!(t === want || t.startsWith(want) || want.startsWith(t))) continue;
+  const want = norm(r.title);
+  const artistWant = norm(r.artist);
+  const hits = [];
+  const seen = new Set();
+  for (const query of [`"${r.title}" ${r.artist} ${kind}`, `${r.title} ${r.artist}`]) {
+    const search = await api(`action=query&list=search&srlimit=6&srsearch=${encodeURIComponent(query)}`);
+    for (const hit of search?.query?.search ?? []) {
+      if (seen.has(hit.title)) continue;
+      seen.add(hit.title);
+      const t = norm(hit.title.replace(/\s*\([^)]*\)$/, ''));
+      if (t === want) hits.push({ title: hit.title, exact: true });
+      else if (t.startsWith(want) || want.startsWith(t)) hits.push({ title: hit.title, exact: false });
+    }
+    if (hits.some((h) => h.exact)) break;
+  }
+  hits.sort((a, b) => Number(b.exact) - Number(a.exact));
+  const candidates = [];
+  for (const hit of hits.slice(0, 5)) {
     let text = await raw(hit.title);
     const redirect = text?.match(/^#REDIRECT\s*\[\[([^\]#|]+)/i);
     if (redirect) text = await raw(redirect[1]);
     if (!text || !/\{\{\s*Infobox (album|song|single|EP)/i.test(text)) continue;
     const artistField = norm(field(text, 'artist'));
-    const artistWant = norm(r.artist);
     if (!(artistField.includes(artistWant) || (artistField.length > 3 && artistWant.includes(artistField)))) continue;
     const released = field(text, 'released').match(/\b(19|20)\d\d\b/);
-    Object.assign(entry, { found: true, title: redirect ? redirect[1] : hit.title, genres: genresOf(field(text, 'genre')), released: released ? Number(released[0]) : null });
-    break;
+    candidates.push({ found: true, title: redirect ? redirect[1] : hit.title, exact: hit.exact, genres: genresOf(field(text, 'genre')), released: released ? Number(released[0]) : null });
+    if (hit.exact && released && inRange(Number(released[0]))) break;
   }
+  // An article whose release year is in the 1980s wins over a later record of the same name.
+  candidates.sort((a, b) => Number(inRange(b.released ?? 0)) - Number(inRange(a.released ?? 0)) || Number(b.exact) - Number(a.exact));
+  const entry = (out[r.key] = candidates[0] ?? { found: false });
   if (n % 10 === 0) writeFileSync(file, JSON.stringify(out, null, 1));
   console.log(`[${n}/${records.length}] ${entry.found ? 'ok ' : '-- '} ${r.key}${entry.found ? ` | ${entry.released} | ${entry.genres.join(', ')}` : ''}`);
 }

@@ -1,0 +1,8351 @@
+{
+ "Pixies|Surfer Rosa": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 6807969853,
+  "name": "Surfer Rosa",
+  "artist": "Pixies",
+  "releaseDate": "1988-01-01",
+  "trackCount": 13,
+  "url": "https://music.apple.com/us/album/surfer-rosa/6807969853?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2c/0d/18/2c0d182b-7e47-32af-7c53-525430648c3f/652637080353.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 6807969858,
+    "name": "Bone Machine",
+    "disc": 1,
+    "number": 1,
+    "ms": 183347,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807969984,
+    "name": "Break My Body",
+    "disc": 1,
+    "number": 2,
+    "ms": 126200,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807969986,
+    "name": "Something Against You",
+    "disc": 1,
+    "number": 3,
+    "ms": 108413,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807969989,
+    "name": "Broken Face",
+    "disc": 1,
+    "number": 4,
+    "ms": 90640,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807969994,
+    "name": "Gigantic",
+    "disc": 1,
+    "number": 5,
+    "ms": 235707,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970002,
+    "name": "River Euphrates",
+    "disc": 1,
+    "number": 6,
+    "ms": 152907,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970004,
+    "name": "Where Is My Mind?",
+    "disc": 1,
+    "number": 7,
+    "ms": 234973,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970007,
+    "name": "Cactus",
+    "disc": 1,
+    "number": 8,
+    "ms": 136613,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970009,
+    "name": "Tony's Theme",
+    "disc": 1,
+    "number": 9,
+    "ms": 112960,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970224,
+    "name": "Oh My Golly!",
+    "disc": 1,
+    "number": 10,
+    "ms": 153160,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970225,
+    "name": "Vamos",
+    "disc": 1,
+    "number": 11,
+    "ms": 262787,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970228,
+    "name": "I'm Amazed",
+    "disc": 1,
+    "number": 12,
+    "ms": 103267,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6807970240,
+    "name": "Brick Is Red",
+    "disc": 1,
+    "number": 13,
+    "ms": 122440,
+    "preview": true,
+    "artist": "Pixies",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Dinosaur Jr.|You're Living All Over Me": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1497701141,
+  "name": "You're Living All Over Me (Bonus Track Version)",
+  "artist": "Dinosaur Jr.",
+  "releaseDate": "1987-12-14",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/youre-living-all-over-me-bonus-track-version/1497701141?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9c/73/59/9c73597a-d4fd-6726-4524-ad87333fe2b9/cover.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1497701144,
+    "name": "Little Fury Things",
+    "disc": 1,
+    "number": 1,
+    "ms": 186893,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701151,
+    "name": "Kracked",
+    "disc": 1,
+    "number": 2,
+    "ms": 170960,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701165,
+    "name": "SludgeFeast",
+    "disc": 1,
+    "number": 3,
+    "ms": 317040,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701319,
+    "name": "The Lung",
+    "disc": 1,
+    "number": 4,
+    "ms": 231307,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701327,
+    "name": "Raisans",
+    "disc": 1,
+    "number": 5,
+    "ms": 230600,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701329,
+    "name": "Tarpit",
+    "disc": 1,
+    "number": 6,
+    "ms": 276133,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701336,
+    "name": "In a Jar",
+    "disc": 1,
+    "number": 7,
+    "ms": 208667,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701344,
+    "name": "Lose",
+    "disc": 1,
+    "number": 8,
+    "ms": 191067,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701597,
+    "name": "Poledo",
+    "disc": 1,
+    "number": 9,
+    "ms": 343600,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1497701601,
+    "name": "Just Like Heaven",
+    "disc": 1,
+    "number": 10,
+    "ms": 173560,
+    "preview": true,
+    "artist": "Dinosaur Jr.",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Replacements|Let It Be": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 162563989,
+  "name": "Let It Be",
+  "artist": "The Replacements",
+  "releaseDate": "1984-10-02",
+  "trackCount": 11,
+  "url": "https://music.apple.com/us/album/let-it-be/162563989?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/0c/a6/08/0ca6088a-2080-af21-ff00-89d00a718d7a/mzi.rxizoyov.jpg/100x100bb.jpg",
+  "others": 1,
+  "tracks": [
+   {
+    "trackId": 162563992,
+    "name": "I Will Dare",
+    "disc": 1,
+    "number": 1,
+    "ms": 198667,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564001,
+    "name": "Favorite Thing",
+    "disc": 1,
+    "number": 2,
+    "ms": 139827,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564041,
+    "name": "We're Comin' Out",
+    "disc": 1,
+    "number": 3,
+    "ms": 141640,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564047,
+    "name": "Tommy Gets His Tonsils Out",
+    "disc": 1,
+    "number": 4,
+    "ms": 113560,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564054,
+    "name": "Androgynous",
+    "disc": 1,
+    "number": 5,
+    "ms": 191573,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564064,
+    "name": "Black Diamond",
+    "disc": 1,
+    "number": 6,
+    "ms": 160893,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564072,
+    "name": "Unsatisfied",
+    "disc": 1,
+    "number": 7,
+    "ms": 241667,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564077,
+    "name": "Seen Your Video",
+    "disc": 1,
+    "number": 8,
+    "ms": 188533,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564082,
+    "name": "Gary's Got a Boner",
+    "disc": 1,
+    "number": 9,
+    "ms": 148867,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564084,
+    "name": "Sixteen Blue",
+    "disc": 1,
+    "number": 10,
+    "ms": 264133,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162564112,
+    "name": "Answering Machine",
+    "disc": 1,
+    "number": 11,
+    "ms": 220400,
+    "preview": true,
+    "artist": "The Replacements",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Yo La Tengo|President Yo La Tengo": {
+  "found": false
+ },
+ "Eleventh Dream Day|Prairie School Freakout": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 6655175,
+  "name": "Prairie School Freakout",
+  "artist": "Eleventh Dream Day",
+  "releaseDate": "1988-01-01",
+  "trackCount": 13,
+  "url": "https://music.apple.com/us/album/prairie-school-freakout/6655175?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/y2004/m04/d09/h13/s05.mqkhecsu.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 6655149,
+    "name": "Watching the Candles Burn",
+    "disc": 1,
+    "number": 1,
+    "ms": 241067,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655151,
+    "name": "Sweet Smell",
+    "disc": 1,
+    "number": 2,
+    "ms": 277400,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655153,
+    "name": "Coercion",
+    "disc": 1,
+    "number": 3,
+    "ms": 227267,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655155,
+    "name": "Driving Song",
+    "disc": 1,
+    "number": 4,
+    "ms": 249400,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655157,
+    "name": "Tarantula",
+    "disc": 1,
+    "number": 5,
+    "ms": 336667,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655159,
+    "name": "Among the Pines",
+    "disc": 1,
+    "number": 6,
+    "ms": 384000,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655161,
+    "name": "Through My Mouth",
+    "disc": 1,
+    "number": 7,
+    "ms": 297227,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655163,
+    "name": "Beach Miner",
+    "disc": 1,
+    "number": 8,
+    "ms": 222533,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655165,
+    "name": "Death of Albert C. Sampson",
+    "disc": 1,
+    "number": 9,
+    "ms": 284573,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655167,
+    "name": "Life On a String",
+    "disc": 1,
+    "number": 10,
+    "ms": 304733,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655169,
+    "name": "Tenth Leaving Train",
+    "disc": 1,
+    "number": 11,
+    "ms": 679067,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655171,
+    "name": "Southern Pacific",
+    "disc": 1,
+    "number": 12,
+    "ms": 304360,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6655173,
+    "name": "Go",
+    "disc": 1,
+    "number": 13,
+    "ms": 290267,
+    "preview": true,
+    "artist": "Eleventh Dream Day",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Volcano Suns|The Bright Orange Years": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1839078001,
+  "name": "The Bright Orange Years",
+  "artist": "Volcano Suns",
+  "releaseDate": "1985-01-01",
+  "trackCount": 21,
+  "url": "https://music.apple.com/us/album/the-bright-orange-years/1839078001?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/55/b8/2a/55b82afc-fb1c-de94-8bc4-4ef033ebc762/56632.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1839078003,
+    "name": "Jak",
+    "disc": 1,
+    "number": 1,
+    "ms": 134147,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078245,
+    "name": "Descent Into Hell",
+    "disc": 1,
+    "number": 2,
+    "ms": 145387,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078246,
+    "name": "Truth Is Stranger Than Fishing",
+    "disc": 1,
+    "number": 3,
+    "ms": 159067,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078248,
+    "name": "Balancing Act",
+    "disc": 1,
+    "number": 4,
+    "ms": 211333,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078249,
+    "name": "Promise Me",
+    "disc": 1,
+    "number": 5,
+    "ms": 135707,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078250,
+    "name": "(I'm Gonna) Make You Mine",
+    "disc": 1,
+    "number": 6,
+    "ms": 189947,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078251,
+    "name": "Cover",
+    "disc": 1,
+    "number": 7,
+    "ms": 140427,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078264,
+    "name": "The Mouth That Roared",
+    "disc": 1,
+    "number": 8,
+    "ms": 198547,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078265,
+    "name": "Cornfield",
+    "disc": 1,
+    "number": 9,
+    "ms": 229533,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078266,
+    "name": "Animals",
+    "disc": 1,
+    "number": 10,
+    "ms": 148853,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078270,
+    "name": "It's Stewtime",
+    "disc": 1,
+    "number": 11,
+    "ms": 237627,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078272,
+    "name": "Silvertone",
+    "disc": 1,
+    "number": 12,
+    "ms": 194960,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078273,
+    "name": "Sea Cruise",
+    "disc": 1,
+    "number": 13,
+    "ms": 207467,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078396,
+    "name": "Greasy Spine",
+    "disc": 1,
+    "number": 14,
+    "ms": 241320,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078397,
+    "name": "Tree Stomp",
+    "disc": 1,
+    "number": 15,
+    "ms": 111053,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078398,
+    "name": "Nature and Me",
+    "disc": 1,
+    "number": 16,
+    "ms": 124320,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078401,
+    "name": "Old Paint",
+    "disc": 1,
+    "number": 17,
+    "ms": 183067,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078402,
+    "name": "The Central",
+    "disc": 1,
+    "number": 18,
+    "ms": 184080,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078404,
+    "name": "Local Wise Man",
+    "disc": 1,
+    "number": 19,
+    "ms": 107973,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078422,
+    "name": "Testify (Live on WERS)",
+    "disc": 1,
+    "number": 20,
+    "ms": 305453,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1839078423,
+    "name": "1999 (Live on WERS)",
+    "disc": 1,
+    "number": 21,
+    "ms": 296627,
+    "preview": true,
+    "artist": "Volcano Suns",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Daniel Johnston|Hi, How Are You": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1558590143,
+  "name": "Hi How Are You",
+  "artist": "Daniel Johnston",
+  "releaseDate": "1983-09-01",
+  "trackCount": 15,
+  "url": "https://music.apple.com/us/album/hi-how-are-you/1558590143?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/55/9f/70/559f70c6-64e6-1580-07d9-dcee3af82d2e/196006261788.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1558590145,
+    "name": "Poor You",
+    "disc": 1,
+    "number": 1,
+    "ms": 123040,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590151,
+    "name": "Big Business Monkey",
+    "disc": 1,
+    "number": 2,
+    "ms": 122105,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590576,
+    "name": "Walking the Cow",
+    "disc": 1,
+    "number": 3,
+    "ms": 214491,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590577,
+    "name": "I Picture Myself with a Guitar",
+    "disc": 1,
+    "number": 4,
+    "ms": 44785,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590578,
+    "name": "Despair Came Knocking",
+    "disc": 1,
+    "number": 5,
+    "ms": 164386,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590581,
+    "name": "I Am a Baby (In My Universe)",
+    "disc": 1,
+    "number": 6,
+    "ms": 96758,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590585,
+    "name": "Nervous Love",
+    "disc": 1,
+    "number": 7,
+    "ms": 18278,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590593,
+    "name": "I'll Never Marry",
+    "disc": 1,
+    "number": 8,
+    "ms": 20531,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590598,
+    "name": "Get Yourself Together",
+    "disc": 1,
+    "number": 9,
+    "ms": 32452,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590604,
+    "name": "Running Water",
+    "disc": 1,
+    "number": 10,
+    "ms": 91998,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590605,
+    "name": "Desperate Man Blues",
+    "disc": 1,
+    "number": 11,
+    "ms": 219679,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590997,
+    "name": "Hey Joe",
+    "disc": 1,
+    "number": 12,
+    "ms": 164278,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558590999,
+    "name": "She Called Pest Control",
+    "disc": 1,
+    "number": 13,
+    "ms": 52732,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558591005,
+    "name": "Keep Punching Joe",
+    "disc": 1,
+    "number": 14,
+    "ms": 191279,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1558591007,
+    "name": "No More Pushing Joe Around",
+    "disc": 1,
+    "number": 15,
+    "ms": 282265,
+    "preview": true,
+    "artist": "Daniel Johnston",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Jandek|Blue Corpse": {
+  "found": false
+ },
+ "Guided by Voices|Devil Between My Toes": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 280170635,
+  "name": "Devil Between My Toes",
+  "artist": "Guided By Voices",
+  "releaseDate": "1987-02-15",
+  "trackCount": 14,
+  "url": "https://music.apple.com/us/album/devil-between-my-toes/280170635?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/57/cf/46/mzi.dswnnxir.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 280170647,
+    "name": "Old Battery",
+    "disc": 1,
+    "number": 1,
+    "ms": 106400,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170649,
+    "name": "Discussing Wallace Chambers",
+    "disc": 1,
+    "number": 2,
+    "ms": 108333,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170652,
+    "name": "Cyclops",
+    "disc": 1,
+    "number": 3,
+    "ms": 110360,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170694,
+    "name": "Crux",
+    "disc": 1,
+    "number": 4,
+    "ms": 144533,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170734,
+    "name": "A Portrait Destroyed By Fire",
+    "disc": 1,
+    "number": 5,
+    "ms": 309600,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170735,
+    "name": "3 Year Old Man",
+    "disc": 1,
+    "number": 6,
+    "ms": 99640,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170783,
+    "name": "Dog's Out",
+    "disc": 1,
+    "number": 7,
+    "ms": 129133,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170795,
+    "name": "A Proud and Booming Industry",
+    "disc": 1,
+    "number": 8,
+    "ms": 63000,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170797,
+    "name": "Hank's Little Fingers",
+    "disc": 1,
+    "number": 9,
+    "ms": 133467,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170816,
+    "name": "Artboat",
+    "disc": 1,
+    "number": 10,
+    "ms": 147893,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170818,
+    "name": "Hey Hey, Spaceman",
+    "disc": 1,
+    "number": 11,
+    "ms": 171640,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170819,
+    "name": "The Tumblers",
+    "disc": 1,
+    "number": 12,
+    "ms": 159720,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170820,
+    "name": "Bread Alone",
+    "disc": 1,
+    "number": 13,
+    "ms": 69773,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 280170821,
+    "name": "Captain's Dead",
+    "disc": 1,
+    "number": 14,
+    "ms": 120600,
+    "preview": true,
+    "artist": "Guided By Voices",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Sebadoh|The Freed Man": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 256910692,
+  "name": "The Freed Man",
+  "artist": "Sebadoh",
+  "releaseDate": "1989-09-01",
+  "trackCount": 52,
+  "url": "https://music.apple.com/us/album/the-freed-man/256910692?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/d5/80/bd/mzi.nybhumzg.tif/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 256910750,
+    "name": "Healthy Sick",
+    "disc": 1,
+    "number": 1,
+    "ms": 108867,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256910791,
+    "name": "Level Anything",
+    "disc": 1,
+    "number": 2,
+    "ms": 97373,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256910808,
+    "name": "Soulmate",
+    "disc": 1,
+    "number": 3,
+    "ms": 91347,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256910868,
+    "name": "Ladybugs",
+    "disc": 1,
+    "number": 4,
+    "ms": 114440,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256910895,
+    "name": "Close Enough",
+    "disc": 1,
+    "number": 5,
+    "ms": 71253,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256910909,
+    "name": "True Hardcore",
+    "disc": 1,
+    "number": 6,
+    "ms": 125267,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256910947,
+    "name": "Julienne",
+    "disc": 1,
+    "number": 7,
+    "ms": 161400,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911084,
+    "name": "Wrists",
+    "disc": 1,
+    "number": 8,
+    "ms": 100733,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911239,
+    "name": "Amherst Hanging House",
+    "disc": 1,
+    "number": 9,
+    "ms": 47013,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911344,
+    "name": "McKinley's Lament",
+    "disc": 1,
+    "number": 10,
+    "ms": 78560,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911365,
+    "name": "Solid Brown",
+    "disc": 1,
+    "number": 11,
+    "ms": 60200,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911374,
+    "name": "Narrow Stories",
+    "disc": 1,
+    "number": 12,
+    "ms": 112293,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911394,
+    "name": "Bridge Was You",
+    "disc": 1,
+    "number": 13,
+    "ms": 101653,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911432,
+    "name": "Drifts On Thru",
+    "disc": 1,
+    "number": 14,
+    "ms": 54467,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911487,
+    "name": "Overturns",
+    "disc": 1,
+    "number": 15,
+    "ms": 64200,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911526,
+    "name": "Yellow Submarine",
+    "disc": 1,
+    "number": 16,
+    "ms": 118400,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911549,
+    "name": "Squirrel Freedom Overdrive",
+    "disc": 1,
+    "number": 17,
+    "ms": 46627,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911554,
+    "name": "Little Man",
+    "disc": 1,
+    "number": 18,
+    "ms": 52147,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911560,
+    "name": "Land of the Lords",
+    "disc": 1,
+    "number": 19,
+    "ms": 62933,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911596,
+    "name": "Bolder",
+    "disc": 1,
+    "number": 20,
+    "ms": 83600,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911606,
+    "name": "Believe",
+    "disc": 1,
+    "number": 21,
+    "ms": 73400,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911617,
+    "name": "Deny",
+    "disc": 1,
+    "number": 22,
+    "ms": 112987,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911637,
+    "name": "Wall of Doubt",
+    "disc": 1,
+    "number": 23,
+    "ms": 87960,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911650,
+    "name": "Crumbs",
+    "disc": 1,
+    "number": 24,
+    "ms": 135453,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911784,
+    "name": "I Love Me",
+    "disc": 1,
+    "number": 25,
+    "ms": 61547,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256911899,
+    "name": "K-Sensa-My",
+    "disc": 1,
+    "number": 26,
+    "ms": 109360,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912023,
+    "name": "Lou Rap",
+    "disc": 1,
+    "number": 27,
+    "ms": 54147,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912030,
+    "name": "Punch In the Nose",
+    "disc": 1,
+    "number": 28,
+    "ms": 114307,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912101,
+    "name": "Resistance to Flo",
+    "disc": 1,
+    "number": 29,
+    "ms": 134040,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912190,
+    "name": "Stop the Wheel",
+    "disc": 1,
+    "number": 30,
+    "ms": 63427,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912221,
+    "name": "Loose N Screw",
+    "disc": 1,
+    "number": 31,
+    "ms": 71160,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912274,
+    "name": "Oak Street Raga",
+    "disc": 1,
+    "number": 32,
+    "ms": 100467,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912280,
+    "name": "Last Day of School",
+    "disc": 1,
+    "number": 33,
+    "ms": 101280,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912347,
+    "name": "Jealous Evil",
+    "disc": 1,
+    "number": 34,
+    "ms": 135133,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912401,
+    "name": "Moldy Bread",
+    "disc": 1,
+    "number": 35,
+    "ms": 142800,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912419,
+    "name": "Made Real",
+    "disc": 1,
+    "number": 36,
+    "ms": 77813,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912450,
+    "name": "Cindy",
+    "disc": 1,
+    "number": 37,
+    "ms": 71400,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912462,
+    "name": "Nest",
+    "disc": 1,
+    "number": 38,
+    "ms": 70187,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912499,
+    "name": "My Decision",
+    "disc": 1,
+    "number": 39,
+    "ms": 66387,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912512,
+    "name": "Fire of July",
+    "disc": 1,
+    "number": 40,
+    "ms": 110827,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912545,
+    "name": "Jaundice",
+    "disc": 1,
+    "number": 41,
+    "ms": 128440,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912566,
+    "name": "Design",
+    "disc": 1,
+    "number": 42,
+    "ms": 63027,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912574,
+    "name": "Dance",
+    "disc": 1,
+    "number": 43,
+    "ms": 110400,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912586,
+    "name": "Cyster",
+    "disc": 1,
+    "number": 44,
+    "ms": 45600,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912602,
+    "name": "Powerbroker",
+    "disc": 1,
+    "number": 45,
+    "ms": 48893,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912610,
+    "name": "The Lorax",
+    "disc": 1,
+    "number": 46,
+    "ms": 68840,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912665,
+    "name": "Pig",
+    "disc": 1,
+    "number": 47,
+    "ms": 117253,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912702,
+    "name": "Hung Up",
+    "disc": 1,
+    "number": 48,
+    "ms": 154507,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912715,
+    "name": "Slow to Learn",
+    "disc": 1,
+    "number": 49,
+    "ms": 128693,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912764,
+    "name": "Elements",
+    "disc": 1,
+    "number": 50,
+    "ms": 92880,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912773,
+    "name": "Attention",
+    "disc": 1,
+    "number": 51,
+    "ms": 51920,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 256912778,
+    "name": "Your Long Journey",
+    "disc": 1,
+    "number": 52,
+    "ms": 90773,
+    "preview": true,
+    "artist": "Sebadoh",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "R.E.M.|Murmur": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1440872981,
+  "name": "Murmur",
+  "artist": "R.E.M.",
+  "releaseDate": "1983-04-12",
+  "trackCount": 12,
+  "url": "https://music.apple.com/us/album/murmur/1440872981?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6c/e2/c3/6ce2c349-4169-df92-e5ca-2faba4cf087f/09UMGIM13824.rgb.jpg/100x100bb.jpg",
+  "others": 2,
+  "tracks": [
+   {
+    "trackId": 1440872983,
+    "name": "Radio Free Europe",
+    "disc": 1,
+    "number": 1,
+    "ms": 244149,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872984,
+    "name": "Pilgrimage",
+    "disc": 1,
+    "number": 2,
+    "ms": 269495,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872985,
+    "name": "Laughing",
+    "disc": 1,
+    "number": 3,
+    "ms": 238018,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872986,
+    "name": "Talk About the Passion",
+    "disc": 1,
+    "number": 4,
+    "ms": 203160,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872988,
+    "name": "Moral Kiosk",
+    "disc": 1,
+    "number": 5,
+    "ms": 211497,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872989,
+    "name": "Perfect Circle",
+    "disc": 1,
+    "number": 6,
+    "ms": 212320,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872990,
+    "name": "Catapult",
+    "disc": 1,
+    "number": 7,
+    "ms": 235099,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872991,
+    "name": "Sitting Still",
+    "disc": 1,
+    "number": 8,
+    "ms": 198060,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872993,
+    "name": "9-9",
+    "disc": 1,
+    "number": 9,
+    "ms": 184544,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872995,
+    "name": "Shaking Through",
+    "disc": 1,
+    "number": 10,
+    "ms": 269534,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872997,
+    "name": "We Walk",
+    "disc": 1,
+    "number": 11,
+    "ms": 180584,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440872998,
+    "name": "West of the Fields",
+    "disc": 1,
+    "number": 12,
+    "ms": 197376,
+    "preview": true,
+    "artist": "R.E.M.",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Smiths|The Queen Is Dead": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 800092985,
+  "name": "The Queen Is Dead",
+  "artist": "The Smiths",
+  "releaseDate": "1986-06-16",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/the-queen-is-dead/800092985?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1a/e8/70/1ae870c3-b402-096b-c4c4-8022af5a2ed9/745099189662.jpg/100x100bb.jpg",
+  "others": 1,
+  "tracks": [
+   {
+    "trackId": 800102910,
+    "name": "The Queen Is Dead",
+    "disc": 1,
+    "number": 1,
+    "ms": 385187,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800103407,
+    "name": "Frankly, Mr. Shankly",
+    "disc": 1,
+    "number": 2,
+    "ms": 139253,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800117452,
+    "name": "I Know It's Over",
+    "disc": 1,
+    "number": 3,
+    "ms": 349600,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800124401,
+    "name": "Never Had No One Ever",
+    "disc": 1,
+    "number": 4,
+    "ms": 217493,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800131938,
+    "name": "Cemetry Gates",
+    "disc": 1,
+    "number": 5,
+    "ms": 161067,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800132386,
+    "name": "Bigmouth Strikes Again",
+    "disc": 1,
+    "number": 6,
+    "ms": 193480,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800145908,
+    "name": "The Boy with the Thorn In His Side",
+    "disc": 1,
+    "number": 7,
+    "ms": 197067,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800146220,
+    "name": "Vicar In a Tutu",
+    "disc": 1,
+    "number": 8,
+    "ms": 143600,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800157892,
+    "name": "There Is a Light That Never Goes Out",
+    "disc": 1,
+    "number": 9,
+    "ms": 244387,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 800161888,
+    "name": "Some Girls Are Bigger Than Others",
+    "disc": 1,
+    "number": 10,
+    "ms": 197960,
+    "preview": true,
+    "artist": "The Smiths",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Felt|Forever Breathes the Lonely Word": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1502162797,
+  "name": "Forever Breathes the Lonely Word (Remastered Edition)",
+  "artist": "Felt",
+  "releaseDate": "1986-01-01",
+  "trackCount": 8,
+  "url": "https://music.apple.com/us/album/forever-breathes-the-lonely-word-remastered-edition/1502162797?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/17/5f/09/175f0921-a4bc-d5d3-f8de-4899677445cc/192562800652.jpg/100x100bb.jpg",
+  "others": 1,
+  "tracks": [
+   {
+    "trackId": 1502162801,
+    "name": "Rain of Crystal Spires",
+    "disc": 1,
+    "number": 1,
+    "ms": 236947,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1502162813,
+    "name": "Down But Not Yet Out",
+    "disc": 1,
+    "number": 2,
+    "ms": 219027,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1502162814,
+    "name": "September Lady",
+    "disc": 1,
+    "number": 3,
+    "ms": 226360,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1502162816,
+    "name": "Grey Streets",
+    "disc": 1,
+    "number": 4,
+    "ms": 228213,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1502162820,
+    "name": "All the People I Like and Those That are Dead",
+    "disc": 1,
+    "number": 5,
+    "ms": 312280,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1502162823,
+    "name": "Gather Up Your Wings and Fly",
+    "disc": 1,
+    "number": 6,
+    "ms": 236387,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1502162976,
+    "name": "A Wave Crashed on the Rocks",
+    "disc": 1,
+    "number": 7,
+    "ms": 173320,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1502162981,
+    "name": "Hours of Darkness Have Changed My Mind",
+    "disc": 1,
+    "number": 8,
+    "ms": 286360,
+    "preview": true,
+    "artist": "Felt",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Feelies|The Good Earth": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1517986959,
+  "name": "The Good Earth",
+  "artist": "The Feelies",
+  "releaseDate": "1986-06-06",
+  "trackCount": 11,
+  "url": "https://music.apple.com/us/album/the-good-earth/1517986959?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/43/4b/b7/434bb70d-433c-9c82-e444-cab1d3fe78b9/cover.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1517986963,
+    "name": "On The Roof",
+    "disc": 1,
+    "number": 1,
+    "ms": 178600,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517986974,
+    "name": "The High Road",
+    "disc": 1,
+    "number": 2,
+    "ms": 262773,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517986977,
+    "name": "The Last Roundup",
+    "disc": 1,
+    "number": 3,
+    "ms": 174080,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517986979,
+    "name": "Slipping (Into Something)",
+    "disc": 1,
+    "number": 4,
+    "ms": 358133,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517986980,
+    "name": "When Company Comes",
+    "disc": 1,
+    "number": 5,
+    "ms": 136387,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517986981,
+    "name": "Let's Go",
+    "disc": 1,
+    "number": 6,
+    "ms": 159720,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517986984,
+    "name": "Two Rooms",
+    "disc": 1,
+    "number": 7,
+    "ms": 155653,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517986985,
+    "name": "The Good Earth",
+    "disc": 1,
+    "number": 8,
+    "ms": 230933,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517987166,
+    "name": "Tomorrow Today",
+    "disc": 1,
+    "number": 9,
+    "ms": 332960,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517987167,
+    "name": "Slow Down",
+    "disc": 1,
+    "number": 10,
+    "ms": 195773,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1517987171,
+    "name": "She Said She Said",
+    "disc": 1,
+    "number": 11,
+    "ms": 170680,
+    "preview": true,
+    "artist": "The Feelies",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The dB's|Stands for Decibels": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1740185463,
+  "name": "Stands for deciBels (2024 Remaster)",
+  "artist": "The dB's",
+  "releaseDate": "1981-01-15",
+  "trackCount": 12,
+  "url": "https://music.apple.com/us/album/stands-for-decibels-2024-remaster/1740185463?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/48/77/ff/4877ffe8-a38b-ef2c-a579-21e8407c805a/102670.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1740185469,
+    "name": "Black and White (2024 Remaster)",
+    "disc": 1,
+    "number": 1,
+    "ms": 191173,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185718,
+    "name": "Dynamite (2024 Remaster)",
+    "disc": 1,
+    "number": 2,
+    "ms": 156827,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185721,
+    "name": "She's Not Worried (2024 Remaster)",
+    "disc": 1,
+    "number": 3,
+    "ms": 187907,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185733,
+    "name": "The Fight (2024 Remaster)",
+    "disc": 1,
+    "number": 4,
+    "ms": 176027,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185734,
+    "name": "Espionage (2024 Remaster)",
+    "disc": 1,
+    "number": 5,
+    "ms": 162533,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185738,
+    "name": "Tearjerkin' (2024 Remaster)",
+    "disc": 1,
+    "number": 6,
+    "ms": 237107,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185741,
+    "name": "Cycles per Second (2024 Remaster)",
+    "disc": 1,
+    "number": 7,
+    "ms": 186467,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185743,
+    "name": "Bad Reputation (2024 Remaster)",
+    "disc": 1,
+    "number": 8,
+    "ms": 191627,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185968,
+    "name": "Big Brown Eyes (2024 Remaster)",
+    "disc": 1,
+    "number": 9,
+    "ms": 120973,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185972,
+    "name": "I'm in Love (2024 Remaster)",
+    "disc": 1,
+    "number": 10,
+    "ms": 212027,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185973,
+    "name": "Moving in Your Sleep (2024 Remaster)",
+    "disc": 1,
+    "number": 11,
+    "ms": 243427,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1740185975,
+    "name": "Judy (2024 Remaster)",
+    "disc": 1,
+    "number": 12,
+    "ms": 172893,
+    "preview": true,
+    "artist": "The dB's",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Miracle Legion|Surprise Surprise Surprise": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1450174043,
+  "name": "Surprise Surprise Surprise",
+  "artist": "Miracle Legion",
+  "releaseDate": "1987-08-10",
+  "trackCount": 11,
+  "url": "https://music.apple.com/us/album/surprise-surprise-surprise/1450174043?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/01/ff/59/01ff59b6-cda8-ec78-3c8d-3a4296b9bf57/859704703614.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1450174044,
+    "name": "Mr Mingo",
+    "disc": 1,
+    "number": 1,
+    "ms": 199147,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174045,
+    "name": "All for the Best",
+    "disc": 1,
+    "number": 2,
+    "ms": 308307,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174166,
+    "name": "Paradise",
+    "disc": 1,
+    "number": 3,
+    "ms": 184973,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174167,
+    "name": "Truly",
+    "disc": 1,
+    "number": 4,
+    "ms": 344413,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174168,
+    "name": "Storyteller",
+    "disc": 1,
+    "number": 5,
+    "ms": 342987,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174169,
+    "name": "Country Boy",
+    "disc": 1,
+    "number": 6,
+    "ms": 286107,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174170,
+    "name": "Crooked Path",
+    "disc": 1,
+    "number": 7,
+    "ms": 193880,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174171,
+    "name": "Everyone in Heaven",
+    "disc": 1,
+    "number": 8,
+    "ms": 190920,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174172,
+    "name": "Wonderment",
+    "disc": 1,
+    "number": 9,
+    "ms": 236373,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174173,
+    "name": "Little Man",
+    "disc": 1,
+    "number": 10,
+    "ms": 281680,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1450174174,
+    "name": "Will You Wait",
+    "disc": 1,
+    "number": 11,
+    "ms": 190360,
+    "preview": true,
+    "artist": "Miracle Legion",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Julee Cruise|Floating into the Night": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 300947363,
+  "name": "Floating Into the Night",
+  "artist": "Julee Cruise",
+  "releaseDate": "1989-09-12",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/floating-into-the-night/300947363?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/39/67/75/396775b5-242b-9235-f3d9-0a6b6d011f04/075992585927.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 300947364,
+    "name": "Floating",
+    "disc": 1,
+    "number": 1,
+    "ms": 294707,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947365,
+    "name": "Falling",
+    "disc": 1,
+    "number": 2,
+    "ms": 321853,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947373,
+    "name": "I Remember",
+    "disc": 1,
+    "number": 3,
+    "ms": 253093,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947374,
+    "name": "Rockin' Back Inside My Heart",
+    "disc": 1,
+    "number": 4,
+    "ms": 349067,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947378,
+    "name": "Mysteries of Love",
+    "disc": 1,
+    "number": 5,
+    "ms": 269107,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947381,
+    "name": "Into the Night",
+    "disc": 1,
+    "number": 6,
+    "ms": 284333,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947384,
+    "name": "I Float Alone",
+    "disc": 1,
+    "number": 7,
+    "ms": 275600,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947386,
+    "name": "The Nightingale",
+    "disc": 1,
+    "number": 8,
+    "ms": 296200,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947388,
+    "name": "The Swan",
+    "disc": 1,
+    "number": 9,
+    "ms": 152800,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 300947391,
+    "name": "The World Spins",
+    "disc": 1,
+    "number": 10,
+    "ms": 398067,
+    "preview": true,
+    "artist": "Julee Cruise",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Galaxie 500|On Fire": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 310810412,
+  "name": "On Fire",
+  "artist": "Galaxie 500",
+  "releaseDate": "1989-09-01",
+  "trackCount": 13,
+  "url": "https://music.apple.com/us/album/on-fire/310810412?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/97/25/11/mzi.hhgolqoz.tif/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 310810454,
+    "name": "Blue Thunder",
+    "disc": 1,
+    "number": 1,
+    "ms": 227813,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810459,
+    "name": "Tell Me",
+    "disc": 1,
+    "number": 2,
+    "ms": 231880,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810464,
+    "name": "Snowstorm",
+    "disc": 1,
+    "number": 3,
+    "ms": 312560,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810466,
+    "name": "Strange",
+    "disc": 1,
+    "number": 4,
+    "ms": 197467,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810468,
+    "name": "When Will You Come Home",
+    "disc": 1,
+    "number": 5,
+    "ms": 321613,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810469,
+    "name": "Decomposing Trees",
+    "disc": 1,
+    "number": 6,
+    "ms": 246880,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810473,
+    "name": "Another Day",
+    "disc": 1,
+    "number": 7,
+    "ms": 223200,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810474,
+    "name": "Leave the Planet",
+    "disc": 1,
+    "number": 8,
+    "ms": 161720,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810475,
+    "name": "Plastic Bird",
+    "disc": 1,
+    "number": 9,
+    "ms": 197933,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810478,
+    "name": "Isn't It a Pity",
+    "disc": 1,
+    "number": 10,
+    "ms": 312360,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810479,
+    "name": "Victory Garden",
+    "disc": 1,
+    "number": 11,
+    "ms": 170067,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810480,
+    "name": "Ceremony",
+    "disc": 1,
+    "number": 12,
+    "ms": 356880,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 310810481,
+    "name": "Cold Night",
+    "disc": 1,
+    "number": 13,
+    "ms": 156427,
+    "preview": true,
+    "artist": "Galaxie 500",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "A.R. Kane|69": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1698316344,
+  "name": "69",
+  "artist": "A.R. Kane",
+  "releaseDate": "1988-01-01",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/69/1698316344?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6a/8a/19/6a8a1976-9790-9129-fbf1-8a7a805cd7e5/197188569464.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1698316345,
+    "name": "Crazy Blue",
+    "disc": 1,
+    "number": 1,
+    "ms": 206222,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316350,
+    "name": "Suicide Kiss",
+    "disc": 1,
+    "number": 2,
+    "ms": 216533,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316352,
+    "name": "Baby Milk Snatcher",
+    "disc": 1,
+    "number": 3,
+    "ms": 196431,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316359,
+    "name": "Scab",
+    "disc": 1,
+    "number": 4,
+    "ms": 205596,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316361,
+    "name": "Sulliday",
+    "disc": 1,
+    "number": 5,
+    "ms": 393733,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316363,
+    "name": "Dizzy",
+    "disc": 1,
+    "number": 6,
+    "ms": 227267,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316606,
+    "name": "Spermwhale Trip Over",
+    "disc": 1,
+    "number": 7,
+    "ms": 280133,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316608,
+    "name": "The Sun Falls Into The Sea",
+    "disc": 1,
+    "number": 8,
+    "ms": 345173,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316612,
+    "name": "The Madonna Is With Child",
+    "disc": 1,
+    "number": 9,
+    "ms": 229960,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1698316617,
+    "name": "Spanish Quay (3)",
+    "disc": 1,
+    "number": 10,
+    "ms": 126707,
+    "preview": true,
+    "artist": "A.R. Kane",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Dif Juz|Extractions": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 273722000,
+  "name": "Extractions",
+  "artist": "Dif Juz",
+  "releaseDate": "1985-07-01",
+  "trackCount": 13,
+  "url": "https://music.apple.com/us/album/extractions/273722000?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b9/0e/7c/b90e7c86-8174-3df0-2a9f-58c46995ac4e/652637050523.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 273722126,
+    "name": "Crosswinds",
+    "disc": 1,
+    "number": 1,
+    "ms": 463173,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722258,
+    "name": "A Starting Point",
+    "disc": 1,
+    "number": 2,
+    "ms": 219160,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722270,
+    "name": "Silver Passage",
+    "disc": 1,
+    "number": 3,
+    "ms": 235000,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722305,
+    "name": "The Last Day",
+    "disc": 1,
+    "number": 4,
+    "ms": 240667,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722337,
+    "name": "Love Insane",
+    "disc": 1,
+    "number": 5,
+    "ms": 191333,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722451,
+    "name": "Marooned",
+    "disc": 1,
+    "number": 6,
+    "ms": 242440,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722538,
+    "name": "Two Fine Days (And a Thunderstorm)",
+    "disc": 1,
+    "number": 7,
+    "ms": 148560,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722619,
+    "name": "Echo Wreck",
+    "disc": 1,
+    "number": 8,
+    "ms": 276973,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722633,
+    "name": "Twin and Earth",
+    "disc": 1,
+    "number": 9,
+    "ms": 269200,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722797,
+    "name": "Gunet",
+    "disc": 1,
+    "number": 10,
+    "ms": 318627,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722861,
+    "name": "Soarn",
+    "disc": 1,
+    "number": 11,
+    "ms": 347333,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722866,
+    "name": "Hu",
+    "disc": 1,
+    "number": 12,
+    "ms": 174973,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 273722941,
+    "name": "Re",
+    "disc": 1,
+    "number": 13,
+    "ms": 267427,
+    "preview": true,
+    "artist": "Dif Juz",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Lowlife|Permanent Sleep": {
+  "found": false
+ },
+ "Cocteau Twins|Treasure": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1027469081,
+  "name": "Treasure",
+  "artist": "Cocteau Twins",
+  "releaseDate": "1984-11-12",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/treasure/1027469081?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/88/93/da/8893da24-c559-a08a-b750-07185eb9960a/652637041200.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1027469100,
+    "name": "Ivo",
+    "disc": 1,
+    "number": 1,
+    "ms": 233160,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469102,
+    "name": "Lorelei",
+    "disc": 1,
+    "number": 2,
+    "ms": 223267,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469225,
+    "name": "Beatrix",
+    "disc": 1,
+    "number": 3,
+    "ms": 192000,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469233,
+    "name": "Persephone",
+    "disc": 1,
+    "number": 4,
+    "ms": 260427,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469235,
+    "name": "Pandora (For Cindy)",
+    "disc": 1,
+    "number": 5,
+    "ms": 335307,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469239,
+    "name": "Amelia",
+    "disc": 1,
+    "number": 6,
+    "ms": 211667,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469242,
+    "name": "Aloysius",
+    "disc": 1,
+    "number": 7,
+    "ms": 206667,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469245,
+    "name": "Cicely",
+    "disc": 1,
+    "number": 8,
+    "ms": 209533,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469248,
+    "name": "Otterley",
+    "disc": 1,
+    "number": 9,
+    "ms": 244067,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027469264,
+    "name": "Donimo",
+    "disc": 1,
+    "number": 10,
+    "ms": 379067,
+    "preview": true,
+    "artist": "Cocteau Twins",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "This Mortal Coil|It'll End in Tears": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 545247463,
+  "name": "It'll End in Tears (Remastered)",
+  "artist": "This Mortal Coil",
+  "releaseDate": "1984-10-01",
+  "trackCount": 12,
+  "url": "https://music.apple.com/us/album/itll-end-in-tears-remastered/545247463?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/ef/e1/b2/efe1b283-47f3-be10-05cc-9629d87428fb/652637300468.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 545247465,
+    "name": "Kangaroo",
+    "disc": 1,
+    "number": 1,
+    "ms": 209093,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247466,
+    "name": "Song to the Siren",
+    "disc": 1,
+    "number": 2,
+    "ms": 211093,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247468,
+    "name": "Holocaust",
+    "disc": 1,
+    "number": 3,
+    "ms": 217493,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247950,
+    "name": "FYT",
+    "disc": 1,
+    "number": 4,
+    "ms": 263987,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247951,
+    "name": "Fond Affections",
+    "disc": 1,
+    "number": 5,
+    "ms": 265147,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247952,
+    "name": "The Last Ray",
+    "disc": 1,
+    "number": 6,
+    "ms": 215027,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247953,
+    "name": "Another Day",
+    "disc": 1,
+    "number": 7,
+    "ms": 174200,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247956,
+    "name": "Waves Become Wings",
+    "disc": 1,
+    "number": 8,
+    "ms": 267000,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247957,
+    "name": "Barramundi",
+    "disc": 1,
+    "number": 9,
+    "ms": 234613,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247959,
+    "name": "Dreams Made Flesh",
+    "disc": 1,
+    "number": 10,
+    "ms": 228107,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247960,
+    "name": "Not Me",
+    "disc": 1,
+    "number": 11,
+    "ms": 224533,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 545247961,
+    "name": "A Single Wish",
+    "disc": 1,
+    "number": 12,
+    "ms": 150613,
+    "preview": true,
+    "artist": "This Mortal Coil",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Black Tape for a Blue Girl|The Rope": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 616309300,
+  "name": "The Rope (25Th Anniversary - Remastered)",
+  "artist": "Black Tape for a Blue Girl",
+  "releaseDate": "1986-08-18",
+  "trackCount": 24,
+  "url": "https://music.apple.com/us/album/the-rope-25th-anniversary-remastered/616309300?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music2/v4/08/a1/58/08a158c2-549c-7984-12b2-576c9ff65c2b/617026002026.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 616309623,
+    "name": "Memory, Uncaring Friend",
+    "disc": 1,
+    "number": 1,
+    "ms": 218840,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309624,
+    "name": "Hide In Yourself",
+    "disc": 1,
+    "number": 2,
+    "ms": 237907,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309625,
+    "name": "Within These Walls",
+    "disc": 1,
+    "number": 3,
+    "ms": 226587,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309626,
+    "name": "The Holy Terrors",
+    "disc": 1,
+    "number": 4,
+    "ms": 120813,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309627,
+    "name": "End",
+    "disc": 1,
+    "number": 5,
+    "ms": 141253,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309628,
+    "name": "Seven Days Till Sunrise",
+    "disc": 1,
+    "number": 6,
+    "ms": 135400,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309789,
+    "name": "The Rope",
+    "disc": 1,
+    "number": 7,
+    "ms": 190520,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309790,
+    "name": "The Few Remaining Threads",
+    "disc": 1,
+    "number": 8,
+    "ms": 205013,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309791,
+    "name": "The Lingering Flicker",
+    "disc": 1,
+    "number": 9,
+    "ms": 354067,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309792,
+    "name": "Slow Blur",
+    "disc": 1,
+    "number": 10,
+    "ms": 307840,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309793,
+    "name": "The Floor Was Hard But Home",
+    "disc": 1,
+    "number": 11,
+    "ms": 211680,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309794,
+    "name": "We Return",
+    "disc": 1,
+    "number": 12,
+    "ms": 255653,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309795,
+    "name": "Memory, Uncaring Friend (2011)",
+    "disc": 2,
+    "number": 1,
+    "ms": 221867,
+    "preview": true,
+    "artist": "Black Tape for a Blue Girl",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309796,
+    "name": "The Rope",
+    "disc": 2,
+    "number": 2,
+    "ms": 209627,
+    "preview": true,
+    "artist": "All My Faith Lost ...",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309799,
+    "name": "The Floor Was Hard But Home",
+    "disc": 2,
+    "number": 3,
+    "ms": 198373,
+    "preview": true,
+    "artist": "Mirabilis",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309800,
+    "name": "Within These Walls",
+    "disc": 2,
+    "number": 4,
+    "ms": 292253,
+    "preview": true,
+    "artist": "Erik Wøllo",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309801,
+    "name": "Hide In Yourself",
+    "disc": 2,
+    "number": 5,
+    "ms": 253267,
+    "preview": true,
+    "artist": "Forrest Fang",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309802,
+    "name": "Lingering (Vintage Mix)",
+    "disc": 2,
+    "number": 6,
+    "ms": 332293,
+    "preview": true,
+    "artist": "Dirk Serries",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309803,
+    "name": "Blurred (Lo-Fi Mix)",
+    "disc": 2,
+    "number": 7,
+    "ms": 270547,
+    "preview": true,
+    "artist": "Dirk Serries",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309804,
+    "name": "Seven Days Till Sunrise",
+    "disc": 2,
+    "number": 8,
+    "ms": 197067,
+    "preview": true,
+    "artist": "Walter Holland",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309807,
+    "name": "The Holy Terrors",
+    "disc": 2,
+    "number": 9,
+    "ms": 127427,
+    "preview": true,
+    "artist": "Kho Hat Hasa",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309810,
+    "name": "End",
+    "disc": 2,
+    "number": 10,
+    "ms": 199013,
+    "preview": true,
+    "artist": "Rajna",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309813,
+    "name": "Memory, Uncaring Friend",
+    "disc": 2,
+    "number": 11,
+    "ms": 258813,
+    "preview": true,
+    "artist": "Attrition",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 616309816,
+    "name": "We Return",
+    "disc": 2,
+    "number": 12,
+    "ms": 296987,
+    "preview": true,
+    "artist": "Lux Interna",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Cindytalk|Camouflage Heart": {
+  "found": false
+ },
+ "My Bloody Valentine|Isn't Anything": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1556913225,
+  "name": "Isn’t Anything",
+  "artist": "my bloody valentine",
+  "releaseDate": "1988-11-21",
+  "trackCount": 12,
+  "url": "https://music.apple.com/us/album/isnt-anything/1556913225?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/ed/21/ad/ed21ad88-eead-909a-5303-e8d02fd2fed1/887830015868.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1556913228,
+    "name": "Soft as Snow (But Warm Inside)",
+    "disc": 1,
+    "number": 1,
+    "ms": 141227,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913229,
+    "name": "Lose My Breath",
+    "disc": 1,
+    "number": 2,
+    "ms": 218000,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913230,
+    "name": "Cupid Come",
+    "disc": 1,
+    "number": 3,
+    "ms": 269813,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913231,
+    "name": "(When You Wake) You’re Still in a Dream",
+    "disc": 1,
+    "number": 4,
+    "ms": 198640,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913232,
+    "name": "No More Sorry",
+    "disc": 1,
+    "number": 5,
+    "ms": 167800,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913233,
+    "name": "All I Need",
+    "disc": 1,
+    "number": 6,
+    "ms": 185027,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913234,
+    "name": "Feed Me with Your Kiss",
+    "disc": 1,
+    "number": 7,
+    "ms": 234933,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913235,
+    "name": "Sueisfine",
+    "disc": 1,
+    "number": 8,
+    "ms": 132947,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913236,
+    "name": "Several Girls Galore",
+    "disc": 1,
+    "number": 9,
+    "ms": 141160,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913237,
+    "name": "You Never Should",
+    "disc": 1,
+    "number": 10,
+    "ms": 203040,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913238,
+    "name": "Nothing Much to Lose",
+    "disc": 1,
+    "number": 11,
+    "ms": 197707,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1556913239,
+    "name": "I Can See It (But I Can’t Feel It)",
+    "disc": 1,
+    "number": 12,
+    "ms": 192680,
+    "preview": true,
+    "artist": "my bloody valentine",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Lush|Scar": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 205873753,
+  "name": "Scar",
+  "artist": "Lush",
+  "releaseDate": "1989-10-09",
+  "trackCount": 6,
+  "url": "https://music.apple.com/us/album/scar/205873753?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8f/ef/91/8fef91dc-308a-787a-2b92-7ef383f42b45/5014436911026.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 205873756,
+    "name": "Baby Talk",
+    "disc": 1,
+    "number": 1,
+    "ms": 140360,
+    "preview": true,
+    "artist": "Lush",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 205873757,
+    "name": "Thoughtforms",
+    "disc": 1,
+    "number": 2,
+    "ms": 167507,
+    "preview": true,
+    "artist": "Lush",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 205873762,
+    "name": "Scarlet",
+    "disc": 1,
+    "number": 3,
+    "ms": 209333,
+    "preview": true,
+    "artist": "Lush",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 205873775,
+    "name": "Bitter",
+    "disc": 1,
+    "number": 4,
+    "ms": 124667,
+    "preview": true,
+    "artist": "Lush",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 205873777,
+    "name": "Second Sight",
+    "disc": 1,
+    "number": 5,
+    "ms": 162293,
+    "preview": true,
+    "artist": "Lush",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 205873828,
+    "name": "Etheriel",
+    "disc": 1,
+    "number": 6,
+    "ms": 207600,
+    "preview": true,
+    "artist": "Lush",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Telescopes|Taste": {
+  "found": true,
+  "kind": "album",
+  "storefront": "gb",
+  "collectionId": 1513591450,
+  "name": "Taste (Expanded Edition)",
+  "artist": "The Telescopes",
+  "releaseDate": "1989-01-01",
+  "trackCount": 16,
+  "url": "https://music.apple.com/gb/album/taste-expanded-edition/1513591450?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/50/2f/c1/502fc110-a16e-8d03-920a-7605cfff3b3b/190296862977.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1513591451,
+    "name": "And Let Me Drift Away",
+    "disc": 1,
+    "number": 1,
+    "ms": 138787,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591452,
+    "name": "I Fall, She Screams",
+    "disc": 1,
+    "number": 2,
+    "ms": 160480,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591453,
+    "name": "Oil Seed Rape",
+    "disc": 1,
+    "number": 3,
+    "ms": 178013,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591454,
+    "name": "Violence",
+    "disc": 1,
+    "number": 4,
+    "ms": 214267,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591455,
+    "name": "Threadbare",
+    "disc": 1,
+    "number": 5,
+    "ms": 97733,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591456,
+    "name": "The Perfect Needle",
+    "disc": 1,
+    "number": 6,
+    "ms": 207893,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591457,
+    "name": "There Is No Floor",
+    "disc": 1,
+    "number": 7,
+    "ms": 195973,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591458,
+    "name": "Anticipating Nowhere",
+    "disc": 1,
+    "number": 8,
+    "ms": 107200,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591459,
+    "name": "Please, Before You Go",
+    "disc": 1,
+    "number": 9,
+    "ms": 207240,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591460,
+    "name": "Suffercation",
+    "disc": 1,
+    "number": 10,
+    "ms": 160520,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591461,
+    "name": "Silent Water",
+    "disc": 1,
+    "number": 11,
+    "ms": 207907,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591462,
+    "name": "Suicide",
+    "disc": 1,
+    "number": 12,
+    "ms": 480147,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591465,
+    "name": "There Is No Floor (Bonus Track)",
+    "disc": 1,
+    "number": 13,
+    "ms": 192280,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591466,
+    "name": "Sadness Pale",
+    "disc": 1,
+    "number": 14,
+    "ms": 167027,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591467,
+    "name": "Threadbare (Bonus Track)",
+    "disc": 1,
+    "number": 15,
+    "ms": 83853,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1513591468,
+    "name": "Suicide (Bonus Track)",
+    "disc": 1,
+    "number": 16,
+    "ms": 461280,
+    "preview": true,
+    "artist": "The Telescopes",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Kitchens of Distinction|Love Is Hell": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1726662410,
+  "name": "Love Is Hell",
+  "artist": "Kitchens of Distinction",
+  "releaseDate": "1989-04-01",
+  "trackCount": 9,
+  "url": "https://music.apple.com/us/album/love-is-hell/1726662410?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/73/0f/81/730f81d0-6172-49a3-545e-78ab7cb71c5a/5016958093808.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1726662411,
+    "name": "In a Cave",
+    "disc": 1,
+    "number": 1,
+    "ms": 275027,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662412,
+    "name": "Time to Groan",
+    "disc": 1,
+    "number": 2,
+    "ms": 235333,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662413,
+    "name": "Shiver",
+    "disc": 1,
+    "number": 3,
+    "ms": 319867,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662414,
+    "name": "Prize",
+    "disc": 1,
+    "number": 4,
+    "ms": 326133,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662415,
+    "name": "The 3rd Time We Opened the Capsule",
+    "disc": 1,
+    "number": 5,
+    "ms": 200173,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662416,
+    "name": "Her Last Day in Bed",
+    "disc": 1,
+    "number": 6,
+    "ms": 272067,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662418,
+    "name": "Courage, Mother",
+    "disc": 1,
+    "number": 7,
+    "ms": 170333,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662419,
+    "name": "Mainly Mornings",
+    "disc": 1,
+    "number": 8,
+    "ms": 194467,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1726662421,
+    "name": "Hammer",
+    "disc": 1,
+    "number": 9,
+    "ms": 362600,
+    "preview": true,
+    "artist": "Kitchens of Distinction",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Jesus and Mary Chain|Psychocandy": {
+  "found": false
+ },
+ "The Primitives|Lovely": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 349996859,
+  "name": "Lovely",
+  "artist": "The Primitives",
+  "releaseDate": "1988-01-01",
+  "trackCount": 15,
+  "url": "https://music.apple.com/us/album/lovely/349996859?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/ac/74/28/mzi.ltxvfnfv.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 349996921,
+    "name": "Crash",
+    "disc": 1,
+    "number": 1,
+    "ms": 151621,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349996955,
+    "name": "Spacehead",
+    "disc": 1,
+    "number": 2,
+    "ms": 131362,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349996983,
+    "name": "Carry Me Home",
+    "disc": 1,
+    "number": 3,
+    "ms": 174707,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997026,
+    "name": "Shadow",
+    "disc": 1,
+    "number": 4,
+    "ms": 208686,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997097,
+    "name": "Thru' the Flowers",
+    "disc": 1,
+    "number": 5,
+    "ms": 150469,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997242,
+    "name": "Dreamwalk Baby",
+    "disc": 1,
+    "number": 6,
+    "ms": 121447,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997321,
+    "name": "I'll Stick With You",
+    "disc": 1,
+    "number": 7,
+    "ms": 153055,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997417,
+    "name": "Way Behind Me",
+    "disc": 1,
+    "number": 8,
+    "ms": 188360,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997480,
+    "name": "Nothing Left",
+    "disc": 1,
+    "number": 9,
+    "ms": 184287,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997499,
+    "name": "Stop Killing Me",
+    "disc": 1,
+    "number": 10,
+    "ms": 124810,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997669,
+    "name": "Out of Reach",
+    "disc": 1,
+    "number": 11,
+    "ms": 139991,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997694,
+    "name": "Ocean Blue",
+    "disc": 1,
+    "number": 12,
+    "ms": 204787,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997703,
+    "name": "Run Baby Run",
+    "disc": 1,
+    "number": 13,
+    "ms": 152626,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997720,
+    "name": "Don't Want Anything to Change",
+    "disc": 1,
+    "number": 14,
+    "ms": 112416,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 349997721,
+    "name": "Buzz Buzz Buzz",
+    "disc": 1,
+    "number": 15,
+    "ms": 121822,
+    "preview": true,
+    "artist": "The Primitives",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Shop Assistants|Shop Assistants": {
+  "found": false
+ },
+ "Meat Whiplash|Don't Slip Up": {
+  "found": true,
+  "kind": "song",
+  "storefront": "us",
+  "candidates": [
+   {
+    "trackId": 1549768006,
+    "collectionId": 1549766333,
+    "name": "Don't Slip Up",
+    "artist": "Meat Whiplash",
+    "album": "Creation Artifact (The Dawn Of Creation Records 1983-1985)",
+    "releaseDate": "2015-09-25",
+    "ms": 200093,
+    "url": "https://music.apple.com/us/album/dont-slip-up/1549766333?i=1549768006&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b5/a9/84/b5a98471-2a92-c259-120c-54246f99fea2/885890747880.jpg/100x100bb.jpg",
+    "penalty": 1
+   },
+   {
+    "trackId": 1455118762,
+    "collectionId": 1455116594,
+    "name": "Don't Slip Up",
+    "artist": "Meat Whiplash",
+    "album": "Big Gold Dreams: a Story of Scottish Independent Music 1977-1989",
+    "releaseDate": "2015-09-25",
+    "ms": 201293,
+    "url": "https://music.apple.com/us/album/dont-slip-up/1455116594?i=1455118762&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/bc/79/c2/bc79c235-558c-07fe-de51-72508eb04438/193483486277.jpg/100x100bb.jpg",
+    "penalty": 3
+   },
+   {
+    "trackId": 1614731707,
+    "collectionId": 1614730243,
+    "name": "Don't Slip Up",
+    "artist": "Meat Whiplash",
+    "album": "Big Gold Dreams: a Story of Scottish Independent Music 1977-1989",
+    "releaseDate": "2015-09-25",
+    "ms": 201293,
+    "url": "https://music.apple.com/us/album/dont-slip-up/1614730243?i=1614731707&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/1c/ff/6d/1cff6d6d-5c80-84c7-a55b-50f72b266bf7/193483486277.jpg/100x100bb.jpg",
+    "penalty": 3
+   }
+  ]
+ },
+ "Nirvana|Bleach": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 6830857209,
+  "name": "Bleach",
+  "artist": "Nirvana",
+  "releaseDate": "1989-06-01",
+  "trackCount": 13,
+  "url": "https://music.apple.com/us/album/bleach/6830857209?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/88/e9/cf/88e9cfd7-8e05-9419-8bdb-bb199c27f33d/098787003468.png/100x100bb.jpg",
+  "others": 2,
+  "tracks": [
+   {
+    "trackId": 6830857211,
+    "name": "Blew",
+    "disc": 1,
+    "number": 1,
+    "ms": 174134,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857216,
+    "name": "Floyd the Barber",
+    "disc": 1,
+    "number": 2,
+    "ms": 138048,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857218,
+    "name": "About a Girl",
+    "disc": 1,
+    "number": 3,
+    "ms": 168429,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857221,
+    "name": "School",
+    "disc": 1,
+    "number": 4,
+    "ms": 162116,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857222,
+    "name": "Love Buzz",
+    "disc": 1,
+    "number": 5,
+    "ms": 215203,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857223,
+    "name": "Paper Cuts",
+    "disc": 1,
+    "number": 6,
+    "ms": 246139,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857225,
+    "name": "Negative Creep",
+    "disc": 1,
+    "number": 7,
+    "ms": 175745,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857227,
+    "name": "Scoff",
+    "disc": 1,
+    "number": 8,
+    "ms": 250252,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857230,
+    "name": "Swap Meet",
+    "disc": 1,
+    "number": 9,
+    "ms": 183068,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857231,
+    "name": "Mr. Moustache",
+    "disc": 1,
+    "number": 10,
+    "ms": 203929,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857232,
+    "name": "Sifting",
+    "disc": 1,
+    "number": 11,
+    "ms": 322529,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857234,
+    "name": "Big Cheese",
+    "disc": 1,
+    "number": 12,
+    "ms": 222320,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 6830857236,
+    "name": "Downer",
+    "disc": 1,
+    "number": 13,
+    "ms": 103745,
+    "preview": true,
+    "artist": "Nirvana",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Mudhoney|Superfuzz Bigmuff": {
+  "found": false
+ },
+ "Soundgarden|Ultramega OK": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1188051263,
+  "name": "Ultramega OK (Expanded Reissue)",
+  "artist": "Soundgarden",
+  "releaseDate": "1988-10-31",
+  "trackCount": 20,
+  "url": "https://music.apple.com/us/album/ultramega-ok-expanded-reissue/1188051263?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/ab/c2/86/abc286aa-246f-946d-88a2-e2fb62aa666e/Soundgarden_UltramegaOK_cover_3000x3000_300.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1188051439,
+    "name": "Flower",
+    "disc": 1,
+    "number": 1,
+    "ms": 206223,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051440,
+    "name": "All Your Lies",
+    "disc": 1,
+    "number": 2,
+    "ms": 229915,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051443,
+    "name": "665",
+    "disc": 1,
+    "number": 3,
+    "ms": 98662,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051450,
+    "name": "Beyond the Wheel",
+    "disc": 1,
+    "number": 4,
+    "ms": 262551,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051451,
+    "name": "667",
+    "disc": 1,
+    "number": 5,
+    "ms": 55999,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051452,
+    "name": "Mood for Trouble",
+    "disc": 1,
+    "number": 6,
+    "ms": 260785,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051453,
+    "name": "Circle of Power",
+    "disc": 1,
+    "number": 7,
+    "ms": 124538,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051456,
+    "name": "He Didn't",
+    "disc": 1,
+    "number": 8,
+    "ms": 167270,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051458,
+    "name": "Smokestack Lightning",
+    "disc": 1,
+    "number": 9,
+    "ms": 276121,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051459,
+    "name": "Nazi Driver",
+    "disc": 1,
+    "number": 10,
+    "ms": 232300,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051460,
+    "name": "Head Injury",
+    "disc": 1,
+    "number": 11,
+    "ms": 140707,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051521,
+    "name": "Incessant Mace",
+    "disc": 1,
+    "number": 12,
+    "ms": 381590,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051522,
+    "name": "One Minute of Silence",
+    "disc": 1,
+    "number": 13,
+    "ms": 62404,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051523,
+    "name": "Head Injury (Early Version)",
+    "disc": 1,
+    "number": 14,
+    "ms": 179167,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051524,
+    "name": "Beyond the Wheel (Early Version)",
+    "disc": 1,
+    "number": 15,
+    "ms": 295312,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051526,
+    "name": "Incessant Mace (Short) [Early Version]",
+    "disc": 1,
+    "number": 16,
+    "ms": 382072,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051527,
+    "name": "He Didn't (Early Version)",
+    "disc": 1,
+    "number": 17,
+    "ms": 174399,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051528,
+    "name": "All Your Lies (Early Version)",
+    "disc": 1,
+    "number": 18,
+    "ms": 224978,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1188051529,
+    "name": "Incessant Mace (Long) [Early Version]",
+    "disc": 1,
+    "number": 19,
+    "ms": 469585,
+    "preview": true,
+    "artist": "Soundgarden",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Green River|Rehab Doll": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1439516220,
+  "name": "Rehab Doll (Deluxe Edition)",
+  "artist": "Green River",
+  "releaseDate": "1988-05-01",
+  "trackCount": 19,
+  "url": "https://music.apple.com/us/album/rehab-doll-deluxe-edition/1439516220?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/a9/f6/24/a9f624a0-fe11-7b2c-ac50-f9d33069b85a/GreenRiver_RehabDoll_Cover_3000x3000.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1439516221,
+    "name": "Forever Means",
+    "disc": 1,
+    "number": 1,
+    "ms": 259840,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516222,
+    "name": "Rehab Doll",
+    "disc": 1,
+    "number": 2,
+    "ms": 202261,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516225,
+    "name": "Swallow My Pride",
+    "disc": 1,
+    "number": 3,
+    "ms": 179947,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516226,
+    "name": "Together We'll Never",
+    "disc": 1,
+    "number": 4,
+    "ms": 239807,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516227,
+    "name": "Smilin' and Dyin'",
+    "disc": 1,
+    "number": 5,
+    "ms": 205675,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516228,
+    "name": "Porkfist",
+    "disc": 1,
+    "number": 6,
+    "ms": 192678,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516229,
+    "name": "Take a Dive",
+    "disc": 1,
+    "number": 7,
+    "ms": 209132,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516230,
+    "name": "One More Stitch",
+    "disc": 1,
+    "number": 8,
+    "ms": 234795,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516471,
+    "name": "10000 Things (Rehab Recovery)",
+    "disc": 1,
+    "number": 9,
+    "ms": 204775,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516472,
+    "name": "Hangin' Tree (Rehab Recovery)",
+    "disc": 1,
+    "number": 10,
+    "ms": 236855,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516473,
+    "name": "Rehab Doll (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 11,
+    "ms": 206415,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516474,
+    "name": "Swallow My Pride (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 12,
+    "ms": 171403,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516476,
+    "name": "Together We'll Never (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 13,
+    "ms": 242236,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516479,
+    "name": "Smilin' and Dyin' (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 14,
+    "ms": 181064,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516487,
+    "name": "Porkfist (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 15,
+    "ms": 171544,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516496,
+    "name": "Take a Dive (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 16,
+    "ms": 182669,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516500,
+    "name": "Somebody (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 17,
+    "ms": 199029,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1439516506,
+    "name": "Queen Bitch (Reciprocal 8-track)",
+    "disc": 1,
+    "number": 18,
+    "ms": 203604,
+    "preview": true,
+    "artist": "Green River",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Melvins|Gluey Porch Treatments": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1891414923,
+  "name": "Gluey Porch Treatments",
+  "artist": "Melvins",
+  "releaseDate": "1999-01-01",
+  "trackCount": 29,
+  "url": "https://music.apple.com/us/album/gluey-porch-treatments/1891414923?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/18/81/93/18819325-9282-23a9-56d1-43099e35af8c/64546.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1891414924,
+    "name": "Eye Flys",
+    "disc": 1,
+    "number": 1,
+    "ms": 376387,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891414926,
+    "name": "Echo / Don't Piece Me",
+    "disc": 1,
+    "number": 2,
+    "ms": 171120,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415297,
+    "name": "Heater Moves & Eyes",
+    "disc": 1,
+    "number": 3,
+    "ms": 232493,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415298,
+    "name": "Steve Instant Neuman",
+    "disc": 1,
+    "number": 4,
+    "ms": 91813,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415300,
+    "name": "Influence of Atmosphere",
+    "disc": 1,
+    "number": 5,
+    "ms": 111947,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415301,
+    "name": "Exact Paperbacks",
+    "disc": 1,
+    "number": 6,
+    "ms": 43493,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415302,
+    "name": "Happy Gray or Black",
+    "disc": 1,
+    "number": 7,
+    "ms": 121747,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415304,
+    "name": "Leeech",
+    "disc": 1,
+    "number": 8,
+    "ms": 152013,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415307,
+    "name": "Glow God",
+    "disc": 1,
+    "number": 9,
+    "ms": 51133,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415308,
+    "name": "Big as Mountain",
+    "disc": 1,
+    "number": 10,
+    "ms": 57427,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415311,
+    "name": "Heaviness of the Load",
+    "disc": 1,
+    "number": 11,
+    "ms": 186187,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415319,
+    "name": "Flex With You",
+    "disc": 1,
+    "number": 12,
+    "ms": 54480,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415321,
+    "name": "Bitten Into Sympathy",
+    "disc": 1,
+    "number": 13,
+    "ms": 105293,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415322,
+    "name": "Gluey Porch Treatments",
+    "disc": 1,
+    "number": 14,
+    "ms": 48187,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415566,
+    "name": "Clippng Roses",
+    "disc": 1,
+    "number": 15,
+    "ms": 49200,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415569,
+    "name": "As It Was",
+    "disc": 1,
+    "number": 16,
+    "ms": 171653,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415572,
+    "name": "Over from Under the Excrement",
+    "disc": 1,
+    "number": 17,
+    "ms": 279440,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415573,
+    "name": "Echohead (Demo)",
+    "disc": 1,
+    "number": 18,
+    "ms": 32373,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415576,
+    "name": "Flex With You (Demo)",
+    "disc": 1,
+    "number": 19,
+    "ms": 58640,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415580,
+    "name": "Don't Piece Me (Demo)",
+    "disc": 1,
+    "number": 20,
+    "ms": 140867,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415581,
+    "name": "Bitten Into Sympathy (Demo)",
+    "disc": 1,
+    "number": 21,
+    "ms": 90613,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415582,
+    "name": "Exact Paperbacks (Demo)",
+    "disc": 1,
+    "number": 22,
+    "ms": 46347,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415583,
+    "name": "Glow God / Big as a Mountain (Demo)",
+    "disc": 1,
+    "number": 23,
+    "ms": 115213,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415584,
+    "name": "Heaviness of the Load (Demo)",
+    "disc": 1,
+    "number": 24,
+    "ms": 184480,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415585,
+    "name": "Happy Gray or Black (Demo)",
+    "disc": 1,
+    "number": 25,
+    "ms": 119040,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415589,
+    "name": "Heater Moves & Eyes (Demo)",
+    "disc": 1,
+    "number": 26,
+    "ms": 269360,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415590,
+    "name": "Gluey Porch Treatments (Demo)",
+    "disc": 1,
+    "number": 27,
+    "ms": 52587,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415591,
+    "name": "Eye Flys (Demo)",
+    "disc": 1,
+    "number": 28,
+    "ms": 191947,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1891415593,
+    "name": "Clipping Roses (Demo)",
+    "disc": 1,
+    "number": 29,
+    "ms": 55520,
+    "preview": true,
+    "artist": "Melvins",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Tad|God's Balls": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1146564671,
+  "name": "God's Balls (Deluxe Edition)",
+  "artist": "TAD",
+  "releaseDate": "1989-03-01",
+  "trackCount": 14,
+  "url": "https://music.apple.com/us/album/gods-balls-deluxe-edition/1146564671?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music62/v4/79/cf/1e/79cf1ea8-5502-e15c-4d38-4d67130b888e/TAD_GodsBalls_2400.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1146564765,
+    "name": "Behemoth (Remastered)",
+    "disc": 1,
+    "number": 1,
+    "ms": 248640,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564782,
+    "name": "Pork Chop (Remastered)",
+    "disc": 1,
+    "number": 2,
+    "ms": 263253,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564784,
+    "name": "Helot (Remastered)",
+    "disc": 1,
+    "number": 3,
+    "ms": 176147,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564786,
+    "name": "Tuna Car (Remastered)",
+    "disc": 1,
+    "number": 4,
+    "ms": 155693,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564791,
+    "name": "Sex God Missy (Lumberjack Mix) [Remastered]",
+    "disc": 1,
+    "number": 5,
+    "ms": 268080,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564793,
+    "name": "Cyanide Bath (Remastered)",
+    "disc": 1,
+    "number": 6,
+    "ms": 216867,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564826,
+    "name": "Boiler Room (Remastered)",
+    "disc": 1,
+    "number": 7,
+    "ms": 290627,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564856,
+    "name": "Satan's Chainsaw (Remastered)",
+    "disc": 1,
+    "number": 8,
+    "ms": 190587,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564857,
+    "name": "Hollow Man (Remastered)",
+    "disc": 1,
+    "number": 9,
+    "ms": 245560,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564858,
+    "name": "Nipple Belt (Remastered)",
+    "disc": 1,
+    "number": 10,
+    "ms": 196280,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564859,
+    "name": "Ritual Device (Remastered)",
+    "disc": 1,
+    "number": 11,
+    "ms": 174053,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564860,
+    "name": "Daisy (Remastered)",
+    "disc": 1,
+    "number": 12,
+    "ms": 179573,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1146564861,
+    "name": "Tuna Car (First Version)",
+    "disc": 1,
+    "number": 13,
+    "ms": 152053,
+    "preview": true,
+    "artist": "TAD",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "New Order|Blue Monday": {
+  "found": true,
+  "kind": "song",
+  "storefront": "us",
+  "candidates": [
+   {
+    "trackId": 1530256511,
+    "collectionId": 1530256325,
+    "name": "Blue Monday",
+    "artist": "New Order",
+    "album": "Substance",
+    "releaseDate": "1983-03-07",
+    "ms": 449160,
+    "url": "https://music.apple.com/us/album/blue-monday/1530256325?i=1530256511&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/10/38/a1/1038a176-a759-df9a-6aa0-e8497bb0cfd0/190295211592.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 439593497,
+    "collectionId": 439593473,
+    "name": "Blue Monday",
+    "artist": "New Order",
+    "album": "Total",
+    "releaseDate": "1983-03-07",
+    "ms": 449907,
+    "url": "https://music.apple.com/us/album/blue-monday/439593473?i=439593497&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/bc/99/92/bc9992ae-4e10-e0ea-7b38-b4a9b70f75f6/dj.eoborrdr.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 1599084712,
+    "collectionId": 1599084318,
+    "name": "Blue Monday (12\" Version)",
+    "artist": "New Order",
+    "album": "House Of Gucci (Music taken from the Motion Picture)",
+    "releaseDate": "1983-03-07",
+    "ms": 450333,
+    "url": "https://music.apple.com/us/album/blue-monday-12-version/1599084318?i=1599084712&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/3a/60/0f/3a600fbf-ee5e-759d-d7f5-b1ce035e4ca4/21UM1IM40591.rgb.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 439807777,
+    "collectionId": 439807768,
+    "name": "Blue Monday",
+    "artist": "New Order",
+    "album": "Total (Deluxe Version)",
+    "releaseDate": "1983-03-07",
+    "ms": 449907,
+    "url": "https://music.apple.com/us/album/blue-monday/439807768?i=439807777&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7a/aa/3b/7aaa3b57-eae5-c92f-1c0f-a2759dd87a97/mzi.wodhbxea.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 1488637990,
+    "collectionId": 1488637696,
+    "name": "Blue Monday",
+    "artist": "New Order",
+    "album": "Factory Records: Communications 1978 - 92",
+    "releaseDate": "1983-03-07",
+    "ms": 450933,
+    "url": "https://music.apple.com/us/album/blue-monday/1488637696?i=1488637990&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/9e/ea/3a/9eea3a1c-368c-75cf-6230-15694ec813e7/190295439071.jpg/100x100bb.jpg",
+    "penalty": 0
+   }
+  ]
+ },
+ "The Shamen|In Gorbachev We Trust": {
+  "found": false
+ },
+ "Colourbox|Colourbox": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 522120231,
+  "name": "Colourbox (Remastered)",
+  "artist": "Colourbox",
+  "releaseDate": "1985-08-12",
+  "trackCount": 33,
+  "url": "https://music.apple.com/us/album/colourbox-remastered/522120231?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/20/57/8c2057c0-c1be-defd-4328-a946141ac24c/652637320466.png/100x100bb.jpg",
+  "others": 3,
+  "tracks": [
+   {
+    "trackId": 522120247,
+    "name": "Sleepwalker",
+    "disc": 1,
+    "number": 1,
+    "ms": 134808,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120473,
+    "name": "Just Give 'Em Whiskey",
+    "disc": 1,
+    "number": 2,
+    "ms": 258648,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120476,
+    "name": "Say You",
+    "disc": 1,
+    "number": 3,
+    "ms": 237896,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120483,
+    "name": "The Moon Is Blue",
+    "disc": 1,
+    "number": 4,
+    "ms": 276596,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120484,
+    "name": "Inside Informer",
+    "disc": 1,
+    "number": 5,
+    "ms": 265236,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120486,
+    "name": "Punch",
+    "disc": 1,
+    "number": 6,
+    "ms": 300533,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120487,
+    "name": "Suspicion",
+    "disc": 1,
+    "number": 7,
+    "ms": 267745,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120530,
+    "name": "Manic",
+    "disc": 1,
+    "number": 8,
+    "ms": 146864,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120531,
+    "name": "You Keep Me Hanging On",
+    "disc": 1,
+    "number": 9,
+    "ms": 337868,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120534,
+    "name": "Arena",
+    "disc": 1,
+    "number": 10,
+    "ms": 265774,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120539,
+    "name": "Edit the Dragon",
+    "disc": 1,
+    "number": 11,
+    "ms": 163609,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120542,
+    "name": "Hipnition",
+    "disc": 1,
+    "number": 12,
+    "ms": 186824,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120544,
+    "name": "We Walk Around the Streets",
+    "disc": 1,
+    "number": 13,
+    "ms": 24719,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120547,
+    "name": "Arena II",
+    "disc": 1,
+    "number": 14,
+    "ms": 301498,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120750,
+    "name": "Manic II",
+    "disc": 1,
+    "number": 15,
+    "ms": 353734,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120772,
+    "name": "Fast Dump",
+    "disc": 1,
+    "number": 16,
+    "ms": 340967,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120778,
+    "name": "Sex Gun (Remastered)",
+    "disc": 1,
+    "number": 17,
+    "ms": 246020,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120818,
+    "name": "Baby I Love You So (7\" Version)",
+    "disc": 2,
+    "number": 1,
+    "ms": 200079,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120845,
+    "name": "The Official Colourbox World Cup Theme (7\" Version)",
+    "disc": 2,
+    "number": 2,
+    "ms": 189271,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120954,
+    "name": "Hot Doggie",
+    "disc": 2,
+    "number": 3,
+    "ms": 177709,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120957,
+    "name": "The Moon Is Blue (7\" Version)",
+    "disc": 2,
+    "number": 4,
+    "ms": 275635,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120959,
+    "name": "Breakdown (7\" Version 1)",
+    "disc": 2,
+    "number": 5,
+    "ms": 254949,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120965,
+    "name": "Tarantula (7\" Version 1)",
+    "disc": 2,
+    "number": 6,
+    "ms": 227421,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522120968,
+    "name": "Philip Glass",
+    "disc": 2,
+    "number": 7,
+    "ms": 212253,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121032,
+    "name": "Looks Like We're Shy One Horse (7\" Version)",
+    "disc": 2,
+    "number": 8,
+    "ms": 278426,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121039,
+    "name": "Say You (7\" Version)",
+    "disc": 2,
+    "number": 9,
+    "ms": 261404,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121057,
+    "name": "Fast Dump (7\" Version)",
+    "disc": 2,
+    "number": 10,
+    "ms": 249644,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121075,
+    "name": "Keep On Pushing (7\" Version)",
+    "disc": 2,
+    "number": 11,
+    "ms": 228296,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121085,
+    "name": "You Keep Me Hanging On (7\" Version)",
+    "disc": 2,
+    "number": 12,
+    "ms": 160772,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121131,
+    "name": "Breakdown (7\" Version 2)",
+    "disc": 2,
+    "number": 13,
+    "ms": 239918,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121136,
+    "name": "Tarantula (7\" Version 2)",
+    "disc": 2,
+    "number": 14,
+    "ms": 257787,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121148,
+    "name": "Shadows in the Room",
+    "disc": 2,
+    "number": 15,
+    "ms": 299941,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 522121199,
+    "name": "Punch (7\" Version)",
+    "disc": 2,
+    "number": 16,
+    "ms": 221012,
+    "preview": true,
+    "artist": "Colourbox",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Woodentops|Giant": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 199076258,
+  "name": "Giant",
+  "artist": "The Woodentops",
+  "releaseDate": "1986-01-01",
+  "trackCount": 16,
+  "url": "https://music.apple.com/us/album/giant/199076258?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bc/83/25/bc8325cd-4798-1b55-f4d3-a4dfe9b3c836/5013929119024.png/100x100bb.jpg",
+  "others": 1,
+  "tracks": [
+   {
+    "trackId": 199076276,
+    "name": "Get It On",
+    "disc": 1,
+    "number": 1,
+    "ms": 200693,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199076618,
+    "name": "Good Thing",
+    "disc": 1,
+    "number": 2,
+    "ms": 229107,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199077118,
+    "name": "Give It Time",
+    "disc": 1,
+    "number": 3,
+    "ms": 224387,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199077704,
+    "name": "Love Train",
+    "disc": 1,
+    "number": 4,
+    "ms": 185213,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199078204,
+    "name": "Hear Me James",
+    "disc": 1,
+    "number": 5,
+    "ms": 215853,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199078452,
+    "name": "Love Affair With Everyday Living",
+    "disc": 1,
+    "number": 6,
+    "ms": 229467,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199078972,
+    "name": "So Good Today",
+    "disc": 1,
+    "number": 7,
+    "ms": 180360,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199079499,
+    "name": "Shout",
+    "disc": 1,
+    "number": 8,
+    "ms": 131693,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199079683,
+    "name": "History",
+    "disc": 1,
+    "number": 9,
+    "ms": 199653,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199080311,
+    "name": "Travelling Man",
+    "disc": 1,
+    "number": 10,
+    "ms": 197027,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199080795,
+    "name": "Last Time",
+    "disc": 1,
+    "number": 11,
+    "ms": 248747,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199081304,
+    "name": "Everything Breaks",
+    "disc": 1,
+    "number": 12,
+    "ms": 288453,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199081741,
+    "name": "Well Well Well",
+    "disc": 1,
+    "number": 13,
+    "ms": 262160,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199082479,
+    "name": "It Will Come",
+    "disc": 1,
+    "number": 14,
+    "ms": 191920,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199082707,
+    "name": "Special Friend",
+    "disc": 1,
+    "number": 15,
+    "ms": 251787,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 199083169,
+    "name": "Plutonium Rock",
+    "disc": 1,
+    "number": 16,
+    "ms": 254067,
+    "preview": true,
+    "artist": "The Woodentops",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Stone Roses|The Stone Roses": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 322969529,
+  "name": "The Stone Roses (Remastered 2009)",
+  "artist": "The Stone Roses",
+  "releaseDate": "1989-05-02",
+  "trackCount": 12,
+  "url": "https://music.apple.com/us/album/the-stone-roses-remastered-2009/322969529?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/de/bd/71/debd715a-d49b-1ec8-6b4d-bf3f25e0e90b/dj.rldpqukx.jpg/100x100bb.jpg",
+  "others": 3,
+  "tracks": [
+   {
+    "trackId": 322969530,
+    "name": "I Wanna Be Adored (Remastered 2009)",
+    "disc": 1,
+    "number": 1,
+    "ms": 292800,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969531,
+    "name": "She Bangs the Drums (Remastered 2009)",
+    "disc": 1,
+    "number": 2,
+    "ms": 232333,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969532,
+    "name": "Waterfall (Remastered 2009)",
+    "disc": 1,
+    "number": 3,
+    "ms": 278827,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969533,
+    "name": "Don't Stop (Remastered 2009)",
+    "disc": 1,
+    "number": 4,
+    "ms": 320552,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969537,
+    "name": "Bye Bye Bad Man (Remastered 2009)",
+    "disc": 1,
+    "number": 5,
+    "ms": 243978,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969538,
+    "name": "Elizabeth My Dear (Remastered 2009)",
+    "disc": 1,
+    "number": 6,
+    "ms": 53113,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969539,
+    "name": "(Song for My) Sugar Spun Sister (Remastered 2009)",
+    "disc": 1,
+    "number": 7,
+    "ms": 206730,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969540,
+    "name": "Made of Stone (Remastered 2009)",
+    "disc": 1,
+    "number": 8,
+    "ms": 254604,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969541,
+    "name": "Shoot You Down (Remastered 2009)",
+    "disc": 1,
+    "number": 9,
+    "ms": 253438,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969542,
+    "name": "This Is the One (Remastered 2009)",
+    "disc": 1,
+    "number": 10,
+    "ms": 299320,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969546,
+    "name": "I Am the Resurrection (Remastered 2009)",
+    "disc": 1,
+    "number": 11,
+    "ms": 492947,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 322969547,
+    "name": "Fools Gold (Remastered 2009)",
+    "disc": 1,
+    "number": 12,
+    "ms": 594453,
+    "preview": true,
+    "artist": "The Stone Roses",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Happy Mondays|Bummed": {
+  "found": false
+ },
+ "Inspiral Carpets|Joe": {
+  "found": true,
+  "kind": "song",
+  "storefront": "us",
+  "candidates": [
+   {
+    "trackId": 1439711234,
+    "collectionId": 1439711231,
+    "name": "Joe",
+    "artist": "Inspiral Carpets",
+    "album": "Cool As",
+    "releaseDate": "1990-01-01",
+    "ms": 203667,
+    "url": "https://music.apple.com/us/album/joe/1439711231?i=1439711234&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/d5/bd/24/d5bd2400-cb89-7555-ec4d-12dfb3a7999a/0094638536253.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 1439133840,
+    "collectionId": 1439133836,
+    "name": "Joe",
+    "artist": "Inspiral Carpets",
+    "album": "Dung 4",
+    "releaseDate": "1989-05-01",
+    "ms": 225600,
+    "url": "https://music.apple.com/us/album/joe/1439133836?i=1439133840&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/b4/7a/26/b47a2631-f4e8-776c-56da-023acfd685f5/193483048499.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 1611067932,
+    "collectionId": 1611067613,
+    "name": "Joe",
+    "artist": "Inspiral Carpets",
+    "album": "Dung 4",
+    "releaseDate": "1989-05-01",
+    "ms": 225600,
+    "url": "https://music.apple.com/us/album/joe/1611067613?i=1611067932&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bc/c7/09/bcc709e2-0998-ec2c-9a6b-e6beaf6b4ccb/193483048499.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 1435629677,
+    "collectionId": 1435629676,
+    "name": "Joe",
+    "artist": "Inspiral Carpets",
+    "album": "The Singles",
+    "releaseDate": "1990-01-01",
+    "ms": 204040,
+    "url": "https://music.apple.com/us/album/joe/1435629676?i=1435629677&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/25/1d/8f/251d8f35-55ea-7537-a906-803c228674da/0724357812252.jpg/100x100bb.jpg",
+    "penalty": 2
+   },
+   {
+    "trackId": 1435991691,
+    "collectionId": 1435991687,
+    "name": "Joe",
+    "artist": "Inspiral Carpets",
+    "album": "Greatest Hits",
+    "releaseDate": "1990-01-01",
+    "ms": 203667,
+    "url": "https://music.apple.com/us/album/joe/1435991687?i=1435991691&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/93/83/1b/93831bfa-024d-de6f-d437-0a5aa94b7f14/0724359506258.jpg/100x100bb.jpg",
+    "penalty": 2
+   }
+  ]
+ },
+ "Joy Division|Closer": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 266610001,
+  "name": "Closer (Collector's Edition)",
+  "artist": "Joy Division",
+  "releaseDate": "1980-07-18",
+  "trackCount": 21,
+  "url": "https://music.apple.com/us/album/closer-collectors-edition/266610001?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/d9/2a/d1/d92ad12e-cdf2-e567-9612-af2fdfa82237/dj.uzqznczn.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 266610016,
+    "name": "Atrocity Exhibition",
+    "disc": 1,
+    "number": 1,
+    "ms": 364760,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266610131,
+    "name": "Isolation",
+    "disc": 1,
+    "number": 2,
+    "ms": 175093,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266610154,
+    "name": "Passover",
+    "disc": 1,
+    "number": 3,
+    "ms": 285000,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266610258,
+    "name": "Colony",
+    "disc": 1,
+    "number": 4,
+    "ms": 235053,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266610368,
+    "name": "A Means to an End",
+    "disc": 1,
+    "number": 5,
+    "ms": 249000,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266610397,
+    "name": "Heart and Soul",
+    "disc": 1,
+    "number": 6,
+    "ms": 353106,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266610592,
+    "name": "Twenty Four Hours",
+    "disc": 1,
+    "number": 7,
+    "ms": 268013,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266610638,
+    "name": "The Eternal",
+    "disc": 1,
+    "number": 8,
+    "ms": 364293,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611075,
+    "name": "Decades",
+    "disc": 1,
+    "number": 9,
+    "ms": 374413,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611219,
+    "name": "Dead Souls (Live)",
+    "disc": 1,
+    "number": 10,
+    "ms": 298946,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611257,
+    "name": "Glass (Live)",
+    "disc": 1,
+    "number": 11,
+    "ms": 222226,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611270,
+    "name": "A Means to an End (Live)",
+    "disc": 1,
+    "number": 12,
+    "ms": 240706,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611312,
+    "name": "Twenty Four Hours (Live)",
+    "disc": 1,
+    "number": 13,
+    "ms": 245973,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611396,
+    "name": "Passover (Live)",
+    "disc": 1,
+    "number": 14,
+    "ms": 293866,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611507,
+    "name": "Insight (Live)",
+    "disc": 1,
+    "number": 15,
+    "ms": 241266,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611575,
+    "name": "Colony (Live)",
+    "disc": 1,
+    "number": 16,
+    "ms": 244080,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611730,
+    "name": "These Days (Live)",
+    "disc": 1,
+    "number": 17,
+    "ms": 257346,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611899,
+    "name": "Love Will Tear Us Apart (Live)",
+    "disc": 1,
+    "number": 18,
+    "ms": 193453,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611947,
+    "name": "Isolation (Live)",
+    "disc": 1,
+    "number": 19,
+    "ms": 281573,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266611986,
+    "name": "The Eternal (Live) [Encore]",
+    "disc": 1,
+    "number": 20,
+    "ms": 390413,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 266612189,
+    "name": "Digital (Live) [Encore]",
+    "disc": 1,
+    "number": 21,
+    "ms": 194146,
+    "preview": true,
+    "artist": "Joy Division",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Cure|Seventeen Seconds": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 286646354,
+  "name": "Seventeen Seconds",
+  "artist": "The Cure",
+  "releaseDate": "1980-04-22",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/seventeen-seconds/286646354?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/95/f8/89/mzi.lzqbugyp.jpg/100x100bb.jpg",
+  "others": 1,
+  "tracks": [
+   {
+    "trackId": 286646355,
+    "name": "A Reflection",
+    "disc": 1,
+    "number": 1,
+    "ms": 132493,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646356,
+    "name": "Play for Today",
+    "disc": 1,
+    "number": 2,
+    "ms": 220640,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646357,
+    "name": "Secrets",
+    "disc": 1,
+    "number": 3,
+    "ms": 200160,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646358,
+    "name": "In Your House",
+    "disc": 1,
+    "number": 4,
+    "ms": 247533,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646359,
+    "name": "Three",
+    "disc": 1,
+    "number": 5,
+    "ms": 156333,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646360,
+    "name": "The Final Sound",
+    "disc": 1,
+    "number": 6,
+    "ms": 52307,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646361,
+    "name": "A Forest",
+    "disc": 1,
+    "number": 7,
+    "ms": 354933,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646364,
+    "name": "M",
+    "disc": 1,
+    "number": 8,
+    "ms": 184293,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646365,
+    "name": "At Night",
+    "disc": 1,
+    "number": 9,
+    "ms": 354240,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 286646366,
+    "name": "Seventeen Seconds",
+    "disc": 1,
+    "number": 10,
+    "ms": 240400,
+    "preview": true,
+    "artist": "The Cure",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Fall|Hex Enduction Hour": {
+  "found": false
+ },
+ "The Chameleons|Script of the Bridge": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 506784553,
+  "name": "Script of the Bridge (Remastered)",
+  "artist": "The Chameleons",
+  "releaseDate": "1983-01-01",
+  "trackCount": 12,
+  "url": "https://music.apple.com/us/album/script-of-the-bridge-remastered/506784553?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/03/7d/21/037d2113-f1f3-f893-27c0-621f7c6e2eb3/mzi.fygdftta.jpg/100x100bb.jpg",
+  "others": 1,
+  "tracks": [
+   {
+    "trackId": 506784831,
+    "name": "Don't Fall",
+    "disc": 1,
+    "number": 1,
+    "ms": 246573,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784833,
+    "name": "Here Today",
+    "disc": 1,
+    "number": 2,
+    "ms": 237627,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784834,
+    "name": "Monkeyland",
+    "disc": 1,
+    "number": 3,
+    "ms": 317240,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784836,
+    "name": "Second Skin",
+    "disc": 1,
+    "number": 4,
+    "ms": 410587,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784837,
+    "name": "Up the Down Escalator",
+    "disc": 1,
+    "number": 5,
+    "ms": 237787,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784839,
+    "name": "Less Than Human",
+    "disc": 1,
+    "number": 6,
+    "ms": 256013,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784840,
+    "name": "Pleasure and Pain",
+    "disc": 1,
+    "number": 7,
+    "ms": 311880,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784842,
+    "name": "Thursdays Child",
+    "disc": 1,
+    "number": 8,
+    "ms": 212920,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784844,
+    "name": "As High As You Can Go",
+    "disc": 1,
+    "number": 9,
+    "ms": 215280,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506784845,
+    "name": "A Person Isn't Safe Anywhere These Days",
+    "disc": 1,
+    "number": 10,
+    "ms": 343187,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506785089,
+    "name": "Paper Tigers",
+    "disc": 1,
+    "number": 11,
+    "ms": 257107,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 506785090,
+    "name": "View from a Hill",
+    "disc": 1,
+    "number": 12,
+    "ms": 400667,
+    "preview": true,
+    "artist": "The Chameleons",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Mission of Burma|Vs.": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1589146509,
+  "name": "Vs.",
+  "artist": "Mission of Burma",
+  "releaseDate": "1982-10-11",
+  "trackCount": 16,
+  "url": "https://music.apple.com/us/album/vs/1589146509?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/f6/12/82/f61282d3-574e-1685-db66-50d33dea34d9/744861073161.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1589146526,
+    "name": "Secrets",
+    "disc": 1,
+    "number": 1,
+    "ms": 202533,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146530,
+    "name": "Train",
+    "disc": 1,
+    "number": 2,
+    "ms": 211893,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146626,
+    "name": "Trem Two",
+    "disc": 1,
+    "number": 3,
+    "ms": 250840,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146627,
+    "name": "New Nails",
+    "disc": 1,
+    "number": 4,
+    "ms": 180787,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146630,
+    "name": "Dead Pool",
+    "disc": 1,
+    "number": 5,
+    "ms": 246067,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146634,
+    "name": "Learn How",
+    "disc": 1,
+    "number": 6,
+    "ms": 236293,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146644,
+    "name": "Mica",
+    "disc": 1,
+    "number": 7,
+    "ms": 214893,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146645,
+    "name": "Weatherbox",
+    "disc": 1,
+    "number": 8,
+    "ms": 207587,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146649,
+    "name": "The Ballad of Johnny Burma",
+    "disc": 1,
+    "number": 9,
+    "ms": 122867,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146653,
+    "name": "Einstein's Day",
+    "disc": 1,
+    "number": 10,
+    "ms": 275560,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146956,
+    "name": "Fun World",
+    "disc": 1,
+    "number": 11,
+    "ms": 221133,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146957,
+    "name": "That's How I Escaped My Certain Fate",
+    "disc": 1,
+    "number": 12,
+    "ms": 125827,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146959,
+    "name": "Laugh the World Away",
+    "disc": 1,
+    "number": 13,
+    "ms": 233307,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146972,
+    "name": "Forget",
+    "disc": 1,
+    "number": 14,
+    "ms": 179253,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589146978,
+    "name": "Progress",
+    "disc": 1,
+    "number": 15,
+    "ms": 186707,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1589147085,
+    "name": "OK/No Way",
+    "disc": 1,
+    "number": 16,
+    "ms": 117947,
+    "preview": true,
+    "artist": "Mission of Burma",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Sound|From the Lions Mouth": {
+  "found": true,
+  "kind": "album",
+  "storefront": "gb",
+  "collectionId": 544910200,
+  "name": "From the Lion's Mouth",
+  "artist": "The Sound",
+  "releaseDate": "1981-11-01",
+  "trackCount": 10,
+  "url": "https://music.apple.com/gb/album/from-the-lions-mouth/544910200?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ce/11/44/ce1144f5-727e-e673-8afb-96ca1f19f913/825646562862.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 544910201,
+    "name": "Winning",
+    "disc": 1,
+    "number": 1,
+    "ms": 258080,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910202,
+    "name": "Sense of Purpose",
+    "disc": 1,
+    "number": 2,
+    "ms": 232107,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910203,
+    "name": "Contact the Fact",
+    "disc": 1,
+    "number": 3,
+    "ms": 261533,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910204,
+    "name": "Skeletons",
+    "disc": 1,
+    "number": 4,
+    "ms": 207267,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910205,
+    "name": "Judgement",
+    "disc": 1,
+    "number": 5,
+    "ms": 303573,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910206,
+    "name": "Fatal Flaw",
+    "disc": 1,
+    "number": 6,
+    "ms": 276667,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910207,
+    "name": "Possession",
+    "disc": 1,
+    "number": 7,
+    "ms": 205360,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910208,
+    "name": "The Fire",
+    "disc": 1,
+    "number": 8,
+    "ms": 172907,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910589,
+    "name": "Silent Air",
+    "disc": 1,
+    "number": 9,
+    "ms": 254067,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 544910590,
+    "name": "New Dark Age",
+    "disc": 1,
+    "number": 10,
+    "ms": 646867,
+    "preview": true,
+    "artist": "The Sound",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Comsat Angels|Sleep No More": {
+  "found": true,
+  "kind": "album",
+  "storefront": "gb",
+  "collectionId": 1443426549,
+  "name": "Sleep No More",
+  "artist": "The Comsat Angels",
+  "releaseDate": "1981-09-01",
+  "trackCount": 10,
+  "url": "https://music.apple.com/gb/album/sleep-no-more/1443426549?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/c9/18/b2/c918b270-34e0-8896-a067-22b2ceb666cc/00602517543287.rgb.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1443426811,
+    "name": "The Eye Dance",
+    "disc": 1,
+    "number": 1,
+    "ms": 222560,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443426976,
+    "name": "Sleep No More",
+    "disc": 1,
+    "number": 2,
+    "ms": 171360,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443426984,
+    "name": "Be Brave",
+    "disc": 1,
+    "number": 3,
+    "ms": 228987,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443426992,
+    "name": "Gone",
+    "disc": 1,
+    "number": 4,
+    "ms": 207053,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443427244,
+    "name": "Dark Parade",
+    "disc": 1,
+    "number": 5,
+    "ms": 307893,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443427259,
+    "name": "Diagram",
+    "disc": 1,
+    "number": 6,
+    "ms": 232533,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443427270,
+    "name": "Restless",
+    "disc": 1,
+    "number": 7,
+    "ms": 193960,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443427414,
+    "name": "Goat of the West",
+    "disc": 1,
+    "number": 8,
+    "ms": 203013,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443427486,
+    "name": "Light Years",
+    "disc": 1,
+    "number": 9,
+    "ms": 264347,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1443427496,
+    "name": "Our Secret",
+    "disc": 1,
+    "number": 10,
+    "ms": 250267,
+    "preview": true,
+    "artist": "The Comsat Angels",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Josef K|The Only Fun in Town": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 881702328,
+  "name": "The Only Fun in Town",
+  "artist": "Josef K",
+  "releaseDate": "1981-01-01",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/the-only-fun-in-town/881702328?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/ec/59/73/ec597369-d675-95f8-c734-4d84826365d1/708527002346.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 881702332,
+    "name": "Fun 'N' Frenzy",
+    "disc": 1,
+    "number": 1,
+    "ms": 125573,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702333,
+    "name": "Revelation",
+    "disc": 1,
+    "number": 2,
+    "ms": 256280,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702338,
+    "name": "Crazy to Exist",
+    "disc": 1,
+    "number": 3,
+    "ms": 179187,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702345,
+    "name": "It's Kinda Funny",
+    "disc": 1,
+    "number": 4,
+    "ms": 210533,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702346,
+    "name": "The Angle",
+    "disc": 1,
+    "number": 5,
+    "ms": 163133,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702347,
+    "name": "Forever Drone",
+    "disc": 1,
+    "number": 6,
+    "ms": 121653,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702349,
+    "name": "Heart of Song",
+    "disc": 1,
+    "number": 7,
+    "ms": 175293,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702350,
+    "name": "16 Years",
+    "disc": 1,
+    "number": 8,
+    "ms": 152413,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702351,
+    "name": "Citizens",
+    "disc": 1,
+    "number": 9,
+    "ms": 180453,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 881702352,
+    "name": "Sorry for Laughing",
+    "disc": 1,
+    "number": 10,
+    "ms": 191707,
+    "preview": true,
+    "artist": "Josef K",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Au Pairs|Playing with a Different Sex": {
+  "found": false
+ },
+ "Pylon|Gyrate": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1527592119,
+  "name": "Gyrate (Remastered)",
+  "artist": "Pylon",
+  "releaseDate": "1980-11-18",
+  "trackCount": 11,
+  "url": "https://music.apple.com/us/album/gyrate-remastered/1527592119?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/bd/df/da/bddfdac7-e522-475a-078f-ac71b9e2334e/607396649334.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1527592120,
+    "name": "Volume (Remastered)",
+    "disc": 1,
+    "number": 1,
+    "ms": 253840,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592121,
+    "name": "Feast On My Heart (Remastered)",
+    "disc": 1,
+    "number": 2,
+    "ms": 215413,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592130,
+    "name": "Precaution (Remastered)",
+    "disc": 1,
+    "number": 3,
+    "ms": 168480,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592131,
+    "name": "Weather Radio (Remastered)",
+    "disc": 1,
+    "number": 4,
+    "ms": 136267,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592132,
+    "name": "The Human Body (Remastered)",
+    "disc": 1,
+    "number": 5,
+    "ms": 191013,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592136,
+    "name": "Read a Book (Remastered)",
+    "disc": 1,
+    "number": 6,
+    "ms": 122440,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592236,
+    "name": "Driving School (Remastered)",
+    "disc": 1,
+    "number": 7,
+    "ms": 233347,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592241,
+    "name": "Gravity (Remastered)",
+    "disc": 1,
+    "number": 8,
+    "ms": 157280,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592252,
+    "name": "Danger (Remastered)",
+    "disc": 1,
+    "number": 9,
+    "ms": 338053,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592253,
+    "name": "Working Is No Problem (Remastered)",
+    "disc": 1,
+    "number": 10,
+    "ms": 209693,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1527592255,
+    "name": "Stop It (Remastered)",
+    "disc": 1,
+    "number": 11,
+    "ms": 186853,
+    "preview": true,
+    "artist": "Pylon",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Bauhaus|In the Flat Field": {
+  "found": false
+ },
+ "Siouxsie and the Banshees|Juju": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1440764567,
+  "name": "Ju Ju (Remastered)",
+  "artist": "Siouxsie & The Banshees",
+  "releaseDate": "1981-08-01",
+  "trackCount": 12,
+  "url": "https://music.apple.com/us/album/ju-ju-remastered/1440764567?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/44/01/32440139-f4aa-0be8-cb1d-51742508c535/00602498369142.rgb.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1440764575,
+    "name": "Spellbound",
+    "disc": 1,
+    "number": 1,
+    "ms": 197013,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440764821,
+    "name": "Into the Light",
+    "disc": 1,
+    "number": 2,
+    "ms": 253920,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440764982,
+    "name": "Arabian Knights",
+    "disc": 1,
+    "number": 3,
+    "ms": 185947,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440764990,
+    "name": "Halloween",
+    "disc": 1,
+    "number": 4,
+    "ms": 221467,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440764999,
+    "name": "Monitor",
+    "disc": 1,
+    "number": 5,
+    "ms": 334667,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440765009,
+    "name": "Night Shift",
+    "disc": 1,
+    "number": 6,
+    "ms": 364200,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440765105,
+    "name": "Sin In My Heart",
+    "disc": 1,
+    "number": 7,
+    "ms": 217120,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440765113,
+    "name": "Head Cut",
+    "disc": 1,
+    "number": 8,
+    "ms": 262800,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440765117,
+    "name": "Voodoo Dolly",
+    "disc": 1,
+    "number": 9,
+    "ms": 425040,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440765125,
+    "name": "Spellbound (12\" Mix)",
+    "disc": 1,
+    "number": 10,
+    "ms": 281627,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440765379,
+    "name": "Arabian Knights (12\" Vocoder Mix)",
+    "disc": 1,
+    "number": 11,
+    "ms": 188040,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1440765385,
+    "name": "Fireworks (12\" Nigel Gray Mix)",
+    "disc": 1,
+    "number": 12,
+    "ms": 255787,
+    "preview": true,
+    "artist": "Siouxsie & The Banshees",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "The Sisters of Mercy|First and Last and Always": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1002376675,
+  "name": "First and Last and Always",
+  "artist": "The Sisters of Mercy",
+  "releaseDate": "1985-01-01",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/first-and-last-and-always/1002376675?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/47/0c/c0/470cc0e1-da2e-50a4-998f-b4d13f9cf8d9/825646126682.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1002376679,
+    "name": "Black Planet",
+    "disc": 1,
+    "number": 1,
+    "ms": 268317,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002376680,
+    "name": "Walk Away",
+    "disc": 1,
+    "number": 2,
+    "ms": 203320,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002376681,
+    "name": "No Time to Cry",
+    "disc": 1,
+    "number": 3,
+    "ms": 242572,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002376682,
+    "name": "A Rock and a Hard Place",
+    "disc": 1,
+    "number": 4,
+    "ms": 216245,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002376683,
+    "name": "Marian (Version)",
+    "disc": 1,
+    "number": 5,
+    "ms": 344765,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002376684,
+    "name": "First and Last and Always",
+    "disc": 1,
+    "number": 6,
+    "ms": 242282,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002377405,
+    "name": "Possession",
+    "disc": 1,
+    "number": 7,
+    "ms": 279156,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002377406,
+    "name": "Nine While Nine",
+    "disc": 1,
+    "number": 8,
+    "ms": 252256,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002377407,
+    "name": "Amphetamine Logic",
+    "disc": 1,
+    "number": 9,
+    "ms": 290134,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1002377408,
+    "name": "Some Kind of Stranger",
+    "disc": 1,
+    "number": 10,
+    "ms": 440484,
+    "preview": true,
+    "artist": "The Sisters of Mercy",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Fields of the Nephilim|The Nephilim": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1027467835,
+  "name": "The Nephilim",
+  "artist": "Fields of the Nephilim",
+  "releaseDate": "1988-09-05",
+  "trackCount": 9,
+  "url": "https://music.apple.com/us/album/the-nephilim/1027467835?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/8c/d3/d2/8cd3d212-906c-7d98-0491-c9a2544b8dcb/607618002237.png/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1027468028,
+    "name": "Endemoniada",
+    "disc": 1,
+    "number": 1,
+    "ms": 435400,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468030,
+    "name": "The Watchmen",
+    "disc": 1,
+    "number": 2,
+    "ms": 331467,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468031,
+    "name": "Phobia",
+    "disc": 1,
+    "number": 3,
+    "ms": 217440,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468032,
+    "name": "Moonchild",
+    "disc": 1,
+    "number": 4,
+    "ms": 340627,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468035,
+    "name": "Chord of Souls",
+    "disc": 1,
+    "number": 5,
+    "ms": 308067,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468036,
+    "name": "Shiva",
+    "disc": 1,
+    "number": 6,
+    "ms": 290267,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468037,
+    "name": "Celebrate",
+    "disc": 1,
+    "number": 7,
+    "ms": 383307,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468038,
+    "name": "Love Under Will",
+    "disc": 1,
+    "number": 8,
+    "ms": 453693,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1027468039,
+    "name": "Last Exit for the Lost",
+    "disc": 1,
+    "number": 9,
+    "ms": 587173,
+    "preview": true,
+    "artist": "Fields of the Nephilim",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Sex Gang Children|Song and Legend": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1371110973,
+  "name": "Song and Legend",
+  "artist": "Sex Gang Children",
+  "releaseDate": "1983-07-01",
+  "trackCount": 17,
+  "url": "https://music.apple.com/us/album/song-and-legend/1371110973?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/41/37/d3/4137d32a-cdaa-da00-e48c-1f005eb7adc9/889466086663.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1371111773,
+    "name": "The Crack Up",
+    "disc": 1,
+    "number": 1,
+    "ms": 220874,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371111845,
+    "name": "German Nun",
+    "disc": 1,
+    "number": 2,
+    "ms": 187773,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371112943,
+    "name": "(Chant) State of Mind",
+    "disc": 1,
+    "number": 3,
+    "ms": 208993,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371113397,
+    "name": "Sebastiane",
+    "disc": 1,
+    "number": 4,
+    "ms": 193720,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371113618,
+    "name": "Draconian Dream",
+    "disc": 1,
+    "number": 5,
+    "ms": 232139,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371114205,
+    "name": "Shout and Scream",
+    "disc": 1,
+    "number": 6,
+    "ms": 208245,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371114709,
+    "name": "Killer K",
+    "disc": 1,
+    "number": 7,
+    "ms": 195200,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371114721,
+    "name": "Cannibal Queen",
+    "disc": 1,
+    "number": 8,
+    "ms": 120907,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371114725,
+    "name": "Abyss",
+    "disc": 1,
+    "number": 9,
+    "ms": 144027,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371116937,
+    "name": "Kill Machine",
+    "disc": 1,
+    "number": 10,
+    "ms": 120491,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371117487,
+    "name": "Song and Legend",
+    "disc": 1,
+    "number": 11,
+    "ms": 228167,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371117949,
+    "name": "Dream Reprise",
+    "disc": 1,
+    "number": 12,
+    "ms": 181827,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371118822,
+    "name": "The Crack Up (Alt Mix)",
+    "disc": 1,
+    "number": 13,
+    "ms": 219313,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371119539,
+    "name": "Sebastiane (Alt Mix)",
+    "disc": 1,
+    "number": 14,
+    "ms": 211254,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371119543,
+    "name": "Shout and Scream (Alt Mix)",
+    "disc": 1,
+    "number": 15,
+    "ms": 206747,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371120697,
+    "name": "Cannibal Queen (Alt Mix)",
+    "disc": 1,
+    "number": 16,
+    "ms": 120296,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1371120894,
+    "name": "Kill Dub",
+    "disc": 1,
+    "number": 17,
+    "ms": 135689,
+    "preview": true,
+    "artist": "Sex Gang Children",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Skeletal Family|Burning Oil": {
+  "found": false
+ },
+ "The Danse Society|Seduction": {
+  "found": false
+ },
+ "Christian Death|Only Theatre of Pain": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 498751948,
+  "name": "Only Theatre of Pain",
+  "artist": "Christian Death",
+  "releaseDate": "1982-01-01",
+  "trackCount": 16,
+  "url": "https://music.apple.com/us/album/only-theatre-of-pain/498751948?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d9/fa/c0/d9fac070-ba83-0720-e508-bd949d0d69dd/mzi.gjjxxioa.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 498752015,
+    "name": "Cavity - First Communion",
+    "disc": 1,
+    "number": 1,
+    "ms": 247413,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752018,
+    "name": "Figurative Theater",
+    "disc": 1,
+    "number": 2,
+    "ms": 161800,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752020,
+    "name": "Burnt Offerings",
+    "disc": 1,
+    "number": 3,
+    "ms": 223973,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752023,
+    "name": "Mysterium Inquitatis",
+    "disc": 1,
+    "number": 4,
+    "ms": 166347,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752026,
+    "name": "Dream for Mother",
+    "disc": 1,
+    "number": 5,
+    "ms": 199707,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752109,
+    "name": "Stairs - Uncertain Journey",
+    "disc": 1,
+    "number": 6,
+    "ms": 186560,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752111,
+    "name": "Spiritual Cramp",
+    "disc": 1,
+    "number": 7,
+    "ms": 175800,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752114,
+    "name": "Romeo's Distress",
+    "disc": 1,
+    "number": 8,
+    "ms": 196107,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752117,
+    "name": "Resurrection - Sixth Communion",
+    "disc": 1,
+    "number": 9,
+    "ms": 225080,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752161,
+    "name": "Prayer",
+    "disc": 1,
+    "number": 10,
+    "ms": 162013,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752164,
+    "name": "Deathwish",
+    "disc": 1,
+    "number": 11,
+    "ms": 134000,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752165,
+    "name": "Romeo's Distress",
+    "disc": 1,
+    "number": 12,
+    "ms": 202893,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752166,
+    "name": "Dogs",
+    "disc": 1,
+    "number": 13,
+    "ms": 173227,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752167,
+    "name": "Desperate Hell",
+    "disc": 1,
+    "number": 14,
+    "ms": 264107,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752168,
+    "name": "Spiritual Cramp",
+    "disc": 1,
+    "number": 15,
+    "ms": 201720,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 498752209,
+    "name": "Cavity",
+    "disc": 1,
+    "number": 16,
+    "ms": 227107,
+    "preview": true,
+    "artist": "Christian Death",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "45 Grave|Sleep in Safety": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 162551605,
+  "name": "Sleep In Safety",
+  "artist": "45 Grave",
+  "releaseDate": "1983-01-01",
+  "trackCount": 14,
+  "url": "https://music.apple.com/us/album/sleep-in-safety/162551605?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/7e/f8/f0/7ef8f095-fd96-fe80-861b-48fa9410c94a/mzi.xbzrsdvi.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 162551610,
+    "name": "Insurance from God",
+    "disc": 1,
+    "number": 1,
+    "ms": 304000,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162551631,
+    "name": "Evil",
+    "disc": 1,
+    "number": 2,
+    "ms": 172827,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162551710,
+    "name": "Partytime",
+    "disc": 1,
+    "number": 3,
+    "ms": 197333,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162551815,
+    "name": "Violent World",
+    "disc": 1,
+    "number": 4,
+    "ms": 127267,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162551836,
+    "name": "Slice O' Life",
+    "disc": 1,
+    "number": 5,
+    "ms": 368973,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162551923,
+    "name": "Phantoms",
+    "disc": 1,
+    "number": 6,
+    "ms": 236360,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162551986,
+    "name": "Dream Hits II",
+    "disc": 1,
+    "number": 7,
+    "ms": 109067,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162552031,
+    "name": "Bad Love",
+    "disc": 1,
+    "number": 8,
+    "ms": 166733,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162552058,
+    "name": "Surf Bat",
+    "disc": 1,
+    "number": 9,
+    "ms": 118400,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162552167,
+    "name": "Riboflavin",
+    "disc": 1,
+    "number": 10,
+    "ms": 173507,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162552218,
+    "name": "Procession",
+    "disc": 1,
+    "number": 11,
+    "ms": 317933,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162552336,
+    "name": "45 Grave",
+    "disc": 1,
+    "number": 12,
+    "ms": 228960,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162552450,
+    "name": "School's Out",
+    "disc": 1,
+    "number": 13,
+    "ms": 213267,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 162552454,
+    "name": "Partytime",
+    "disc": 1,
+    "number": 14,
+    "ms": 186133,
+    "preview": true,
+    "artist": "45 Grave",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Kommunity FK|The Vision and the Voice": {
+  "found": false
+ },
+ "Super Heroines|Cry for Help": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 968441837,
+  "name": "Cry for Help",
+  "artist": "Super Heroines",
+  "releaseDate": "1982-07-01",
+  "trackCount": 10,
+  "url": "https://music.apple.com/us/album/cry-for-help/968441837?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music3/v4/a1/74/59/a17459d4-e882-112c-a536-3a9a29df1e3e/889176206160.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 968441838,
+    "name": "The Beast",
+    "disc": 1,
+    "number": 1,
+    "ms": 252173,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441839,
+    "name": "Cry for Help",
+    "disc": 1,
+    "number": 2,
+    "ms": 205200,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441840,
+    "name": "Convicts",
+    "disc": 1,
+    "number": 3,
+    "ms": 288133,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441841,
+    "name": "Super Heroines Theme",
+    "disc": 1,
+    "number": 4,
+    "ms": 195253,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441842,
+    "name": "I'm Not Here",
+    "disc": 1,
+    "number": 5,
+    "ms": 133373,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441843,
+    "name": "Red",
+    "disc": 1,
+    "number": 6,
+    "ms": 139933,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441844,
+    "name": "Remember to Die",
+    "disc": 1,
+    "number": 7,
+    "ms": 223467,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441845,
+    "name": "Black Wedding",
+    "disc": 1,
+    "number": 8,
+    "ms": 157293,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441846,
+    "name": "Blue Blood",
+    "disc": 1,
+    "number": 9,
+    "ms": 128573,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 968441847,
+    "name": "Run from Reality",
+    "disc": 1,
+    "number": 10,
+    "ms": 224720,
+    "preview": true,
+    "artist": "Super Heroines",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "ESG|Come Away with ESG": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1668437008,
+  "name": "Come Away with ESG",
+  "artist": "ESG",
+  "releaseDate": "1983-01-01",
+  "trackCount": 11,
+  "url": "https://music.apple.com/us/album/come-away-with-esg/1668437008?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/31/fd/ef/31fdefbc-d21e-3c65-1b3f-b4098a748fc4/809236114006_cover.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1668437326,
+    "name": "Come Away",
+    "disc": 1,
+    "number": 1,
+    "ms": 196133,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668437351,
+    "name": "Dance",
+    "disc": 1,
+    "number": 2,
+    "ms": 274160,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668437671,
+    "name": "You Make No Sense",
+    "disc": 1,
+    "number": 3,
+    "ms": 142640,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668437930,
+    "name": "Parking Lot Blues",
+    "disc": 1,
+    "number": 4,
+    "ms": 175600,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668438060,
+    "name": "Chistelle",
+    "disc": 1,
+    "number": 5,
+    "ms": 116040,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668438275,
+    "name": "About You",
+    "disc": 1,
+    "number": 6,
+    "ms": 127160,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668438723,
+    "name": "It's Alright",
+    "disc": 1,
+    "number": 7,
+    "ms": 160867,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668438910,
+    "name": "Moody (Spaced Out)",
+    "disc": 1,
+    "number": 8,
+    "ms": 258427,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668439031,
+    "name": "Tiny Sticks",
+    "disc": 1,
+    "number": 9,
+    "ms": 185240,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668439355,
+    "name": "The Beat",
+    "disc": 1,
+    "number": 10,
+    "ms": 139413,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1668439716,
+    "name": "My Love for You",
+    "disc": 1,
+    "number": 11,
+    "ms": 177400,
+    "preview": true,
+    "artist": "ESG",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Liquid Liquid|Optimo": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1403570064,
+  "name": "Optimo - EP",
+  "artist": "Liquid Liquid",
+  "releaseDate": "1983-01-01",
+  "trackCount": 4,
+  "url": "https://music.apple.com/us/album/optimo-ep/1403570064?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/ba/a1/06/baa106d9-ef9a-7c4a-a038-42fee9072061/3.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1403570079,
+    "name": "Optimo",
+    "disc": 1,
+    "number": 1,
+    "ms": 163893,
+    "preview": true,
+    "artist": "Liquid Liquid",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1403570594,
+    "name": "Cavern",
+    "disc": 1,
+    "number": 2,
+    "ms": 321493,
+    "preview": true,
+    "artist": "Liquid Liquid",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1403570598,
+    "name": "Scraper",
+    "disc": 1,
+    "number": 3,
+    "ms": 221480,
+    "preview": true,
+    "artist": "Liquid Liquid",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1403570601,
+    "name": "Out",
+    "disc": 1,
+    "number": 4,
+    "ms": 128000,
+    "preview": true,
+    "artist": "Liquid Liquid",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "A Certain Ratio|To Each...": {
+  "found": true,
+  "kind": "album",
+  "storefront": "us",
+  "collectionId": 1158365615,
+  "name": "To Each",
+  "artist": "A Certain Ratio",
+  "releaseDate": "1981-05-15",
+  "trackCount": 9,
+  "url": "https://music.apple.com/us/album/to-each/1158365615?uo=4",
+  "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music71/v4/46/0d/e8/460de81c-946c-ad3d-e202-ddad06dba6c2/724596966112.jpg/100x100bb.jpg",
+  "others": 0,
+  "tracks": [
+   {
+    "trackId": 1158366151,
+    "name": "Felch",
+    "disc": 1,
+    "number": 1,
+    "ms": 230667,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366152,
+    "name": "My Spirit",
+    "disc": 1,
+    "number": 2,
+    "ms": 153227,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366153,
+    "name": "Forced Laugh",
+    "disc": 1,
+    "number": 3,
+    "ms": 339360,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366154,
+    "name": "Choir",
+    "disc": 1,
+    "number": 4,
+    "ms": 177813,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366155,
+    "name": "Back to the Start",
+    "disc": 1,
+    "number": 5,
+    "ms": 471253,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366156,
+    "name": "The Fox",
+    "disc": 1,
+    "number": 6,
+    "ms": 229453,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366157,
+    "name": "Loss",
+    "disc": 1,
+    "number": 7,
+    "ms": 208013,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366160,
+    "name": "Oceans",
+    "disc": 1,
+    "number": 8,
+    "ms": 214787,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   },
+   {
+    "trackId": 1158366193,
+    "name": "Winter Hill",
+    "disc": 1,
+    "number": 9,
+    "ms": 767800,
+    "preview": true,
+    "artist": "A Certain Ratio",
+    "explicit": "notExplicit"
+   }
+  ]
+ },
+ "Bush Tetras|Too Many Creeps": {
+  "found": true,
+  "kind": "song",
+  "storefront": "us",
+  "candidates": [
+   {
+    "trackId": 1083612416,
+    "collectionId": 1083611271,
+    "name": "Too Many Creeps",
+    "artist": "Bush Tetras",
+    "album": "Soul Jazz Records Presents New York Noise: Dance Music from the New York Underground 1977-1982",
+    "releaseDate": "1980-01-01",
+    "ms": 241827,
+    "url": "https://music.apple.com/us/album/too-many-creeps/1083611271?i=1083612416&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music69/v4/d4/2f/c8/d42fc8e3-59fa-ddaf-4243-efd3a4838613/5026328503288.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 1709730259,
+    "collectionId": 1709729400,
+    "name": "Too Many Creeps",
+    "artist": "Bush Tetras",
+    "album": "New York Noise – Dance Music From the New York Underground 1978-82",
+    "releaseDate": "1980-01-01",
+    "ms": 241640,
+    "url": "https://music.apple.com/us/album/too-many-creeps/1709729400?i=1709730259&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/d4/a5/30/d4a530cd-d890-0ea4-069c-6df4822a7e80/99832.jpg/100x100bb.jpg",
+    "penalty": 0
+   },
+   {
+    "trackId": 1587755541,
+    "collectionId": 1587755537,
+    "name": "Too Many Creeps",
+    "artist": "Bush Tetras",
+    "album": "Rhythm and Paranoia: The Best of Bush Tetras",
+    "releaseDate": "1980-01-01",
+    "ms": 243187,
+    "url": "https://music.apple.com/us/album/too-many-creeps/1587755537?i=1587755541&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/2d/83/ce/2d83ce5a-7cb9-96a2-3807-22518b460e50/27028.jpg/100x100bb.jpg",
+    "penalty": 2
+   },
+   {
+    "trackId": 1832785378,
+    "collectionId": 1832784976,
+    "name": "Too Many Creeps",
+    "artist": "Bush Tetras",
+    "album": "Relay (Original Motion Picture Soundtrack)",
+    "releaseDate": "1980-01-01",
+    "ms": 239520,
+    "url": "https://music.apple.com/us/album/too-many-creeps/1832784976?i=1832785378&uo=4",
+    "artwork": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/29/97/75/2997755c-9e54-2eb4-4f15-a06a32856daa/780163677027.jpg/100x100bb.jpg",
+    "penalty": 2
+   }
+  ]
+ },
+ "Maximum Joy|Station M.X.J.Y.": {
+  "found": false
+ },
+ "Konk|Yo!": {
+  "found": false
+ },
+ "Lydia Lunch|Queen of Siam": {
+  "found": false
+ },
+ "DNA|A Taste of DNA": {
+  "found": false
+ }
+}

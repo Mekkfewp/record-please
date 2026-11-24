@@ -1064,7 +1064,7 @@
 2|Juice Newton|Juice|1981|a
 3|Sylvia|Just Sylvia|1982|a
 
-## Country > Outlaw Country
+## Country > Progressive Country > Outlaw Country?
 1|Willie Nelson|Always on My Mind|1982|a
 1|The Highwaymen|Highwayman|1985|a
 2|Waylon Jennings|Black on Black|1982|a
@@ -1072,7 +1072,7 @@
 3|Guy Clark|The South Coast of Texas|1981|a
 3|Gary Stewart|Cactus and a Rose|1980|a
 
-## Country > Progressive Country?
+## Country > Progressive Country
 1|Lyle Lovett|Pontiac|1987|a
 2|Lucinda Williams|Lucinda Williams|1988|a
 2|k.d. lang|Shadowland|1988|a
