@@ -1,25 +1,7 @@
-import type { GrooveConfig } from '../types/game';
-
-const SCALES: Record<GrooveConfig['mode'], number[]> = {
-  dorian: [0, 2, 3, 5, 7, 9, 10, 12],
-  minor: [0, 2, 3, 5, 7, 8, 10, 12],
-  major7: [0, 2, 4, 7, 9, 11, 12, 14],
-  mixolydian: [0, 2, 4, 5, 7, 9, 10, 12],
-  phrygian: [0, 1, 3, 5, 7, 8, 10, 12],
-  pentatonic: [0, 3, 5, 7, 10, 12, 15, 17],
-};
-
-function midiToFreq(midi: number): number {
-  return 440 * Math.pow(2, (midi - 69) / 12);
-}
-
+// Desk sound effects only (paper, stamps, page flip, fanfare). Music comes from previewPlayer.
 class SoundDeskEngine {
   private ctx: AudioContext | null = null;
   private muted = false;
-  private loopTimer: number | null = null;
-  private crackleTimer: number | null = null;
-  private currentTrackId: string | null = null;
-  private stepIndex = 0;
   private listeners = new Set<() => void>();
 
   private ensureContext(): AudioContext | null {
@@ -51,15 +33,8 @@ class SoundDeskEngine {
     return this.muted;
   }
 
-  getPlayingTrackId(): string | null {
-    return this.currentTrackId;
-  }
-
   toggleMute(): boolean {
     this.muted = !this.muted;
-    if (this.muted) {
-      this.stopGroove();
-    }
     this.notify();
     return this.muted;
   }
@@ -189,172 +164,6 @@ class SoundDeskEngine {
       osc.start(t);
       osc.stop(t + 0.3);
     });
-  }
-
-  stopGroove(): void {
-    if (this.loopTimer !== null) {
-      window.clearInterval(this.loopTimer);
-      this.loopTimer = null;
-    }
-    if (this.crackleTimer !== null) {
-      window.clearInterval(this.crackleTimer);
-      this.crackleTimer = null;
-    }
-    if (this.currentTrackId !== null) {
-      this.currentTrackId = null;
-      this.notify();
-    }
-  }
-
-  toggleGroove(trackId: string, groove: GrooveConfig): void {
-    if (this.currentTrackId === trackId) {
-      this.stopGroove();
-      return;
-    }
-    if (this.muted) {
-      this.muted = false;
-    }
-    this.startGroove(trackId, groove);
-  }
-
-  startGroove(trackId: string, groove: GrooveConfig): void {
-    this.stopGroove();
-    if (this.muted) return;
-    const ctx = this.ensureContext();
-    if (!ctx) return;
-
-    this.currentTrackId = trackId;
-    this.stepIndex = 0;
-    this.notify();
-
-    const scale = SCALES[groove.mode] ?? SCALES.dorian;
-    const stepMs = Math.max(115, Math.round((60000 / groove.bpm) / 2));
-
-    // Subtle vinyl crackle ticks
-    this.crackleTimer = window.setInterval(() => {
-      if (this.muted || !this.ctx) return;
-      if (Math.random() > 0.45) {
-        const now = this.ctx.currentTime;
-        const osc = this.ctx.createOscillator();
-        const g = this.ctx.createGain();
-        osc.type = 'square';
-        osc.frequency.setValueAtTime(1800 + Math.random() * 2400, now);
-        g.gain.setValueAtTime(0.009, now);
-        g.gain.exponentialRampToValueAtTime(0.0005, now + 0.012);
-        osc.connect(g);
-        g.connect(this.ctx.destination);
-        osc.start(now);
-        osc.stop(now + 0.014);
-      }
-    }, 130);
-
-    const playStep = () => {
-      if (this.muted || !this.ctx) return;
-      const now = this.ctx.currentTime;
-      const step = this.stepIndex % 16;
-      this.stepIndex++;
-
-      // Drum synthesis per genre
-      if (step % 4 === 0 || (groove.style === 'hiphop' && step === 10)) {
-        // Kick
-        const kOsc = this.ctx.createOscillator();
-        const kGain = this.ctx.createGain();
-        kOsc.type = 'sine';
-        kOsc.frequency.setValueAtTime(125, now);
-        kOsc.frequency.exponentialRampToValueAtTime(42, now + 0.09);
-        kGain.gain.setValueAtTime(0.18, now);
-        kGain.gain.exponentialRampToValueAtTime(0.001, now + 0.11);
-        kOsc.connect(kGain);
-        kGain.connect(this.ctx.destination);
-        kOsc.start(now);
-        kOsc.stop(now + 0.12);
-      }
-
-      if (step % 8 === 4) {
-        // Snare / rimshot
-        const sOsc = this.ctx.createOscillator();
-        const sGain = this.ctx.createGain();
-        sOsc.type = groove.style === 'jazz' ? 'triangle' : 'sawtooth';
-        sOsc.frequency.setValueAtTime(groove.style === 'jazz' ? 320 : 210, now);
-        sOsc.frequency.exponentialRampToValueAtTime(95, now + 0.07);
-        sGain.gain.setValueAtTime(0.07, now);
-        sGain.gain.exponentialRampToValueAtTime(0.001, now + 0.08);
-        sOsc.connect(sGain);
-        sGain.connect(this.ctx.destination);
-        sOsc.start(now);
-        sOsc.stop(now + 0.09);
-      }
-
-      // Bassline
-      const bassPattern = [0, 0, 3, 0, 4, 4, 2, 5];
-      if (step % 2 === 0) {
-        const deg = bassPattern[(step / 2) % bassPattern.length];
-        const midi = groove.rootMidi - 12 + scale[deg % scale.length];
-        const bOsc = this.ctx.createOscillator();
-        const bGain = this.ctx.createGain();
-        bOsc.type =
-          groove.style === 'punk-postpunk' || groove.style === 'heavy-industrial'
-            ? 'sawtooth'
-            : 'triangle';
-        bOsc.frequency.setValueAtTime(midiToFreq(midi), now);
-        const lp = this.ctx.createBiquadFilter();
-        lp.type = 'lowpass';
-        lp.frequency.value = groove.style === 'electronic-idm' ? 1100 : 520;
-        bGain.gain.setValueAtTime(0.11, now);
-        bGain.gain.exponentialRampToValueAtTime(0.001, now + stepMs / 1000);
-        bOsc.connect(lp);
-        lp.connect(bGain);
-        bGain.connect(this.ctx.destination);
-        bOsc.start(now);
-        bOsc.stop(now + stepMs / 1000 + 0.02);
-      }
-
-      // Lead / Chord texture per lineage
-      const melodicTriggers =
-        groove.style === 'electronic-idm'
-          ? [0, 3, 6, 9, 11, 14]
-          : groove.style === 'shoegaze-indie'
-            ? [0, 8]
-            : [0, 6, 12];
-
-      if (melodicTriggers.includes(step)) {
-        const chordOffsets =
-          groove.style === 'shoegaze-indie' || groove.style === 'jazz' || groove.style === 'artpop-citypop'
-            ? [0, 2, 4, 6]
-            : [0, 4];
-        const shift = step >= 8 ? 2 : 0;
-        chordOffsets.forEach((off, idx) => {
-          if (!this.ctx) return;
-          const m = groove.rootMidi + scale[(off + shift) % scale.length];
-          const osc = this.ctx.createOscillator();
-          const g = this.ctx.createGain();
-          osc.type =
-            groove.style === 'shoegaze-indie'
-              ? 'sawtooth'
-              : groove.style === 'electronic-idm'
-                ? 'square'
-                : 'triangle';
-          osc.frequency.setValueAtTime(
-            midiToFreq(m) * (groove.style === 'shoegaze-indie' && idx % 2 === 1 ? 1.004 : 1),
-            now
-          );
-          const filter = this.ctx.createBiquadFilter();
-          filter.type = 'lowpass';
-          filter.frequency.value = groove.style === 'shoegaze-indie' ? 900 : 1800;
-          const dur = groove.style === 'shoegaze-indie' ? 0.65 : 0.28;
-          g.gain.setValueAtTime(0.038, now);
-          g.gain.exponentialRampToValueAtTime(0.0008, now + dur);
-          osc.connect(filter);
-          filter.connect(g);
-          g.connect(this.ctx.destination);
-          osc.start(now);
-          osc.stop(now + dur + 0.02);
-        });
-      }
-    };
-
-    playStep();
-    this.loopTimer = window.setInterval(playStep, stepMs);
   }
 }
 

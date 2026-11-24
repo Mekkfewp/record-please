@@ -6,10 +6,12 @@
   "scripts": {
     "dev": "vite",
     "validate": "node scripts/validate-catalog.mjs",
-    "test": "node --test \"scripts/*.test.mjs\"",
+    "test": "node --test \"scripts/*.test.mjs\" \"tests/*.test.mjs\"",
     "build": "npm run validate && tsc -b && vite build",
     "lint": "oxlint",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "match": "node scripts/match-apple.mjs",
+    "match:cn": "node scripts/check-cn-storefront.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

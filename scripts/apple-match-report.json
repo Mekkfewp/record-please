@@ -1,0 +1,5197 @@
+{
+  "360": {
+    "want": {
+      "title": "360",
+      "artist": "Charli xcx",
+      "album": "BRAT",
+      "year": 2024
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1739079976,
+      "collectionId": 1739079974,
+      "track": "360",
+      "artist": "Charli xcx",
+      "album": "BRAT",
+      "releaseDate": "2024-05-10",
+      "seconds": 134,
+      "trackNumber": 1,
+      "trackCount": 15,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "black-or-white": {
+    "want": {
+      "title": "Black or White",
+      "artist": "Michael Jackson",
+      "album": "Dangerous",
+      "year": 1991
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 322847191,
+      "collectionId": 322847038,
+      "track": "Black or White",
+      "artist": "Michael Jackson",
+      "album": "Dangerous",
+      "releaseDate": "1991-11-11",
+      "seconds": 256,
+      "trackNumber": 8,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1991",
+      "firstStudioAlbum": {
+        "album": "Dangerous",
+        "date": "1991",
+        "seconds": 256,
+        "credit": "Michael Jackson"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1991",
+      "catalogAlbumSeconds": [
+        256
+      ],
+      "appleSeconds": 256
+    }
+  },
+  "gaoji-dongwu": {
+    "want": {
+      "title": "高级动物",
+      "artist": "窦唯",
+      "album": "黑梦",
+      "year": 1994
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 158799064,
+      "collectionId": 158796449,
+      "track": "高級動物",
+      "artist": "竇唯",
+      "album": "黑夢",
+      "releaseDate": "1994-10-06",
+      "seconds": 280,
+      "trackNumber": 9,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "like-a-prayer": {
+    "want": {
+      "title": "Like a Prayer",
+      "artist": "Madonna",
+      "album": "Like a Prayer",
+      "year": 1989
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 83445997,
+      "collectionId": 83448003,
+      "track": "Like a Prayer",
+      "artist": "Madonna",
+      "album": "Like a Prayer",
+      "releaseDate": "1989-03-03",
+      "seconds": 341,
+      "trackNumber": 1,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 93,
+      "earliestRelease": "1988",
+      "firstStudioAlbum": {
+        "album": "Like a Prayer",
+        "date": "1989",
+        "seconds": 342,
+        "credit": "Madonna"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1989",
+      "catalogAlbumSeconds": [
+        342,
+        472,
+        341
+      ],
+      "appleSeconds": 341
+    }
+  },
+  "fuzao": {
+    "want": {
+      "title": "浮躁",
+      "artist": "王菲",
+      "album": "浮躁",
+      "year": 1996
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 1443287506,
+      "collectionId": 1443287350,
+      "track": "浮躁",
+      "artist": "王菲",
+      "album": "浮躁",
+      "releaseDate": "1996-06-03",
+      "seconds": 183,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 16,
+      "earliestRelease": "1996-06-03",
+      "firstStudioAlbum": {
+        "album": "浮躁",
+        "date": "1996-06-03",
+        "seconds": 181,
+        "credit": "王菲"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1996-06-03",
+      "catalogAlbumSeconds": [
+        181
+      ],
+      "appleSeconds": 183
+    }
+  },
+  "kiss": {
+    "want": {
+      "title": "Kiss",
+      "artist": "Prince & The Revolution",
+      "album": "Parade",
+      "year": 1986
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 260336471,
+      "collectionId": 260336005,
+      "track": "Kiss",
+      "artist": "Prince & The Revolution",
+      "album": "Parade (Music from the Motion Picture Under the Cherry Moon)",
+      "releaseDate": "1986-02-05",
+      "seconds": 226,
+      "trackNumber": 10,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "koi-to-machine-gun": {
+    "want": {
+      "title": "恋とマシンガン",
+      "artist": "Flipper's Guitar",
+      "album": "CAMERA TALK",
+      "year": 1990
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 290714280,
+      "collectionId": 290714279,
+      "track": "Young, Alive, in Love / 恋とマシンガン (Remastered 2006)",
+      "artist": "FLIPPER'S GUITAR",
+      "album": "CAMERA TALK (Remastered 2006)",
+      "releaseDate": "1990-09-01",
+      "seconds": 233,
+      "trackNumber": 1,
+      "trackCount": 15,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "smells-like-teen-spirit": {
+    "want": {
+      "title": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "year": 1991
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440783625,
+      "collectionId": 1440783617,
+      "track": "Smells Like Teen Spirit",
+      "artist": "Nirvana",
+      "album": "Nevermind",
+      "releaseDate": "1991-09-10",
+      "seconds": 301,
+      "trackNumber": 1,
+      "trackCount": 13,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1991-09-10",
+      "firstStudioAlbum": {
+        "album": "Nevermind",
+        "date": "1991",
+        "seconds": 301,
+        "credit": "Nirvana"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1991",
+      "catalogAlbumSeconds": [
+        301,
+        286,
+        180
+      ],
+      "appleSeconds": 301
+    }
+  },
+  "teen-age-riot": {
+    "want": {
+      "title": "Teen Age Riot",
+      "artist": "Sonic Youth",
+      "album": "Daydream Nation",
+      "year": 1988
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 520504456,
+      "collectionId": 520504308,
+      "track": "Teen Age Riot (2012 Remastered Version)",
+      "artist": "Sonic Youth",
+      "album": "Daydream Nation (2012 Remastered Version)",
+      "releaseDate": "1988-10-18",
+      "seconds": 419,
+      "trackNumber": 1,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 28,
+      "earliestRelease": "1988-10",
+      "firstStudioAlbum": {
+        "album": "Daydream Nation",
+        "date": "1988",
+        "seconds": 418,
+        "credit": "Sonic Youth"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1988",
+      "catalogAlbumSeconds": [
+        418,
+        278
+      ],
+      "appleSeconds": 419
+    }
+  },
+  "wonderwall": {
+    "want": {
+      "title": "Wonderwall",
+      "artist": "Oasis",
+      "album": "(What's the Story) Morning Glory?",
+      "year": 1995
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1517447333,
+      "collectionId": 1517447039,
+      "track": "Wonderwall",
+      "artist": "Oasis",
+      "album": "(What's the Story) Morning Glory?",
+      "releaseDate": "1995-10-02",
+      "seconds": 259,
+      "trackNumber": 3,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1995",
+      "firstStudioAlbum": {
+        "album": "02nd October 1995, Blackpool Empress Ballroom",
+        "date": "1995-10-02",
+        "seconds": 211,
+        "credit": "Oasis"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 259
+    }
+  },
+  "there-is-a-light": {
+    "want": {
+      "title": "There Is a Light That Never Goes Out",
+      "artist": "The Smiths",
+      "album": "The Queen Is Dead",
+      "year": 1986
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 800157892,
+      "collectionId": 800092985,
+      "track": "There Is a Light That Never Goes Out",
+      "artist": "The Smiths",
+      "album": "The Queen Is Dead",
+      "releaseDate": "1986-06-16",
+      "seconds": 244,
+      "trackNumber": 9,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 76,
+      "earliestRelease": "1985-08-05",
+      "firstStudioAlbum": {
+        "album": "The Queen Is Dead",
+        "date": "1986",
+        "seconds": 244,
+        "credit": "The Smiths"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1986",
+      "catalogAlbumSeconds": [
+        244,
+        249,
+        265
+      ],
+      "appleSeconds": 244
+    }
+  },
+  "enjoy-the-silence": {
+    "want": {
+      "title": "Enjoy the Silence",
+      "artist": "Depeche Mode",
+      "album": "Violator",
+      "year": 1990
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1174246889,
+      "collectionId": 1174246686,
+      "track": "Enjoy the Silence",
+      "artist": "Depeche Mode",
+      "album": "Violator (Deluxe)",
+      "releaseDate": "1990-02-05",
+      "seconds": 373,
+      "trackNumber": 6,
+      "trackCount": 15,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1990",
+      "firstStudioAlbum": {
+        "album": "Violator",
+        "date": "1990-03-19",
+        "seconds": 256,
+        "credit": "Depeche Mode"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1990-03-19",
+      "catalogAlbumSeconds": [
+        256,
+        373
+      ],
+      "appleSeconds": 373
+    }
+  },
+  "julia": {
+    "want": {
+      "title": "Julia",
+      "artist": "Asylum Party",
+      "album": "Picture One",
+      "year": 1988
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1887017451,
+      "collectionId": 1887017450,
+      "track": "Julia",
+      "artist": "Asylum Party",
+      "album": "Picture One - EP",
+      "releaseDate": "1988-01-01",
+      "seconds": 245,
+      "trackNumber": 1,
+      "trackCount": 6,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 3,
+      "earliestRelease": "1988",
+      "firstStudioAlbum": {
+        "album": "Picture One",
+        "date": "1988",
+        "seconds": 249,
+        "credit": "Asylum Party"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1988",
+      "catalogAlbumSeconds": [
+        249
+      ],
+      "appleSeconds": 245
+    }
+  },
+  "lovesong": {
+    "want": {
+      "title": "Lovesong",
+      "artist": "The Cure",
+      "album": "Disintegration",
+      "year": 1989
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 371772239,
+      "collectionId": 371772227,
+      "track": "Lovesong",
+      "artist": "The Cure",
+      "album": "Disintegration (Deluxe Edition - Remastered)",
+      "releaseDate": "1989-05-02",
+      "seconds": 210,
+      "trackNumber": 4,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 95,
+      "earliestRelease": "1989",
+      "firstStudioAlbum": {
+        "album": "Disintegration",
+        "date": "1989",
+        "seconds": 209,
+        "credit": "The Cure"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1989",
+      "catalogAlbumSeconds": [
+        209,
+        204,
+        220
+      ],
+      "appleSeconds": 210
+    }
+  },
+  "de-musica-ligera": {
+    "want": {
+      "title": "De Música Ligera",
+      "artist": "Soda Stereo",
+      "album": "Canción Animal",
+      "year": 1990
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 321882958,
+      "collectionId": 321882757,
+      "track": "De Música Ligera",
+      "artist": "Soda Stereo",
+      "album": "Canción Animal",
+      "releaseDate": "1990-08-07",
+      "seconds": 213,
+      "trackNumber": 6,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 7,
+      "earliestRelease": "1990",
+      "firstStudioAlbum": {
+        "album": "Canción animal",
+        "date": "1990",
+        "seconds": 214,
+        "credit": "Soda Stereo"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1990",
+      "catalogAlbumSeconds": [
+        214
+      ],
+      "appleSeconds": 213
+    }
+  },
+  "karma-police": {
+    "want": {
+      "title": "Karma Police",
+      "artist": "Radiohead",
+      "album": "OK Computer",
+      "year": 1997
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1097861836,
+      "collectionId": 1097861387,
+      "track": "Karma Police",
+      "artist": "Radiohead",
+      "album": "OK Computer",
+      "releaseDate": "1997-05-21",
+      "seconds": 264,
+      "trackNumber": 6,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1997",
+      "firstStudioAlbum": {
+        "album": "Hail to the Thief",
+        "date": "2003-06-09",
+        "seconds": 316,
+        "credit": "Radiohead"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 264
+    }
+  },
+  "naxie-huaer": {
+    "want": {
+      "title": "那些花儿",
+      "artist": "朴树",
+      "album": "我去2000年",
+      "year": 1999
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1063212951,
+      "collectionId": 1063212942,
+      "track": "那些花兒",
+      "artist": "Pu Shu",
+      "album": "我去2000年",
+      "releaseDate": "1999-01-01",
+      "seconds": 295,
+      "trackNumber": 4,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "yellow": {
+    "want": {
+      "title": "Yellow",
+      "artist": "Coldplay",
+      "album": "Parachutes",
+      "year": 2000
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1122782283,
+      "collectionId": 1122782080,
+      "track": "Yellow",
+      "artist": "Coldplay",
+      "album": "Parachutes",
+      "releaseDate": "2000-06-26",
+      "seconds": 269,
+      "trackNumber": 5,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "2000",
+      "firstStudioAlbum": {
+        "album": "Parachutes",
+        "date": "2000",
+        "seconds": 269,
+        "credit": "Coldplay"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2000",
+      "catalogAlbumSeconds": [
+        269,
+        302
+      ],
+      "appleSeconds": 269
+    }
+  },
+  "ai-zai-xiyuan-qian": {
+    "want": {
+      "title": "爱在西元前",
+      "artist": "周杰伦",
+      "album": "范特西",
+      "year": 2001
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 1721454235,
+      "collectionId": 1721454234,
+      "track": "愛在西元前",
+      "artist": "周杰倫",
+      "album": "范特西",
+      "releaseDate": "2001-09-14",
+      "seconds": 234,
+      "trackNumber": 1,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "first-love": {
+    "want": {
+      "title": "First Love",
+      "artist": "宇多田ヒカル",
+      "album": "First Love",
+      "year": 1999
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1440763358,
+      "collectionId": 1440763349,
+      "track": "First Love (Remastered 2014)",
+      "artist": "宇多田ヒカル",
+      "album": "First Love (2014 Remastered Album)",
+      "releaseDate": "1999-01-01",
+      "seconds": 258,
+      "trackNumber": 4,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 32,
+      "earliestRelease": "1999-03-10",
+      "firstStudioAlbum": {
+        "album": "First Love",
+        "date": "1999",
+        "seconds": 258,
+        "credit": "宇多田ヒカル"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1999",
+      "catalogAlbumSeconds": [
+        258,
+        257
+      ],
+      "appleSeconds": 258
+    }
+  },
+  "night-cruising": {
+    "want": {
+      "title": "ナイトクルージング",
+      "artist": "Fishmans",
+      "album": "空中キャンプ",
+      "year": 1995
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1416941921,
+      "collectionId": 1416941115,
+      "track": "ナイトクルージング",
+      "artist": "Fishmans",
+      "album": "空中キャンプ",
+      "releaseDate": "1996-02-01",
+      "seconds": 362,
+      "trackNumber": 5,
+      "trackCount": 8,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 14,
+      "earliestRelease": "1995-11-25",
+      "firstStudioAlbum": {
+        "album": "空中キャンプ",
+        "date": "1996-02-01",
+        "seconds": 362,
+        "credit": "フィッシュマンズ"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1996-02-01",
+      "catalogAlbumSeconds": [
+        362
+      ],
+      "appleSeconds": 362
+    }
+  },
+  "stan": {
+    "want": {
+      "title": "Stan",
+      "artist": "Eminem",
+      "album": "The Marshall Mathers LP",
+      "year": 2000
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440866795,
+      "collectionId": 1440866782,
+      "track": "Stan (feat. Dido)",
+      "artist": "Eminem",
+      "album": "The Marshall Mathers LP",
+      "releaseDate": "2000-05-23",
+      "seconds": 404,
+      "trackNumber": 3,
+      "trackCount": 18,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "never-meant": {
+    "want": {
+      "title": "Never Meant",
+      "artist": "American Football",
+      "album": "American Football",
+      "year": 1999
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1651301993,
+      "collectionId": 1651301990,
+      "track": "Never Meant",
+      "artist": "American Football",
+      "album": "American Football (Deluxe Edition)",
+      "releaseDate": "1999-09-14",
+      "seconds": 268,
+      "trackNumber": 1,
+      "trackCount": 19,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 12,
+      "earliestRelease": "1998-04-03",
+      "firstStudioAlbum": {
+        "album": "American Football",
+        "date": "1999-09-14",
+        "seconds": 268,
+        "credit": "American Football"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1999-09-14",
+      "catalogAlbumSeconds": [
+        268,
+        218
+      ],
+      "appleSeconds": 268
+    }
+  },
+  "song-2": {
+    "want": {
+      "title": "Song 2",
+      "artist": "Blur",
+      "album": "Blur",
+      "year": 1997
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 726416473,
+      "collectionId": 726416050,
+      "track": "Song 2 (2012 Remaster)",
+      "artist": "Blur",
+      "album": "Blur",
+      "releaseDate": "1997-02-10",
+      "seconds": 121,
+      "trackNumber": 2,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 71,
+      "earliestRelease": "1997-01",
+      "firstStudioAlbum": {
+        "album": "Blur",
+        "date": "1997",
+        "seconds": 121,
+        "credit": "Blur"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1997",
+      "catalogAlbumSeconds": [
+        121,
+        110,
+        127,
+        154
+      ],
+      "appleSeconds": 121
+    }
+  },
+  "teardrop": {
+    "want": {
+      "title": "Teardrop",
+      "artist": "Massive Attack",
+      "album": "Mezzanine",
+      "year": 1998
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 724466700,
+      "collectionId": 724466069,
+      "track": "Teardrop",
+      "artist": "Massive Attack",
+      "album": "Mezzanine",
+      "releaseDate": "1998-04-20",
+      "seconds": 331,
+      "trackNumber": 3,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1994",
+      "firstStudioAlbum": {
+        "album": "Mezzanine",
+        "date": "1998",
+        "seconds": 330,
+        "credit": "Massive Attack"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1998",
+      "catalogAlbumSeconds": [
+        330
+      ],
+      "appleSeconds": 331
+    }
+  },
+  "one-more-time": {
+    "want": {
+      "title": "One More Time",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "year": 2000
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 697195462,
+      "collectionId": 697194953,
+      "track": "One More Time",
+      "artist": "Daft Punk",
+      "album": "Discovery",
+      "releaseDate": "2000-11-30",
+      "seconds": 320,
+      "trackNumber": 1,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "2000",
+      "firstStudioAlbum": {
+        "album": "Discovery (Beta Version)",
+        "date": "2001",
+        "seconds": 321,
+        "credit": "Daft Punk"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2001",
+      "catalogAlbumSeconds": [
+        321
+      ],
+      "appleSeconds": 320
+    }
+  },
+  "sexy-boy": {
+    "want": {
+      "title": "Sexy Boy",
+      "artist": "Air",
+      "album": "Moon Safari",
+      "year": 1998
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 693063918,
+      "collectionId": 693063670,
+      "track": "Sexy Boy",
+      "artist": "Air",
+      "album": "Moon Safari",
+      "releaseDate": "1998-01-16",
+      "seconds": 298,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 41,
+      "earliestRelease": "1997",
+      "firstStudioAlbum": {
+        "album": "Moon Safari",
+        "date": "1998",
+        "seconds": 298,
+        "credit": "Air"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1998",
+      "catalogAlbumSeconds": [
+        298,
+        190,
+        394,
+        218
+      ],
+      "appleSeconds": 298
+    }
+  },
+  "ciega-sordomuda": {
+    "want": {
+      "title": "Ciega, Sordomuda",
+      "artist": "Shakira",
+      "album": "Dónde Están los Ladrones?",
+      "year": 1998
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 192682831,
+      "collectionId": 192682818,
+      "track": "Ciega, Sordomuda",
+      "artist": "Shakira",
+      "album": "Dónde Están Los Ladrones",
+      "releaseDate": "1998-09-29",
+      "seconds": 268,
+      "trackNumber": 1,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 18,
+      "earliestRelease": "1998",
+      "firstStudioAlbum": {
+        "album": "Dónde están los ladrones?",
+        "date": "1998",
+        "seconds": 268,
+        "credit": "Shakira"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1998",
+      "catalogAlbumSeconds": [
+        268
+      ],
+      "appleSeconds": 268
+    }
+  },
+  "puente": {
+    "want": {
+      "title": "Puente",
+      "artist": "Gustavo Cerati",
+      "album": "Bocanada",
+      "year": 1999
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 304793008,
+      "collectionId": 304792998,
+      "track": "Puente",
+      "artist": "Gustavo Cerati",
+      "album": "Bocanada",
+      "releaseDate": "1999-06-28",
+      "seconds": 274,
+      "trackNumber": 4,
+      "trackCount": 15,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 5,
+      "earliestRelease": "1999-06-28",
+      "firstStudioAlbum": {
+        "album": "Bocanada",
+        "date": "1999",
+        "seconds": 274,
+        "credit": "Gustavo Cerati"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1999",
+      "catalogAlbumSeconds": [
+        274
+      ],
+      "appleSeconds": 274
+    }
+  },
+  "girlfriend": {
+    "want": {
+      "title": "Girlfriend",
+      "artist": "Avril Lavigne",
+      "album": "The Best Damn Thing",
+      "year": 2007
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 268993333,
+      "collectionId": 268993318,
+      "track": "Girlfriend",
+      "artist": "Avril Lavigne",
+      "album": "The Best Damn Thing (Expanded Edition)",
+      "releaseDate": "2007-02-19",
+      "seconds": 217,
+      "trackNumber": 1,
+      "trackCount": 17,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "shijiazhuang": {
+    "want": {
+      "title": "杀死那个石家庄人",
+      "artist": "万能青年旅店",
+      "album": "万能青年旅店",
+      "year": 2010
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1538548895,
+      "collectionId": 1538548871,
+      "track": "杀死那个石家庄人",
+      "artist": "Omnipotent Youth Society",
+      "album": "万能青年旅店",
+      "releaseDate": "2010-11-12",
+      "seconds": 344,
+      "trackNumber": 9,
+      "trackCount": 9,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 1,
+      "earliestRelease": "2010-11-12",
+      "firstStudioAlbum": {
+        "album": "万能青年旅店",
+        "date": "2010-11-12",
+        "seconds": 344,
+        "credit": "万能青年旅店"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2010-11-12",
+      "catalogAlbumSeconds": [
+        344
+      ],
+      "appleSeconds": 344
+    }
+  },
+  "rolling-in-the-deep": {
+    "want": {
+      "title": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "year": 2010
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1544491233,
+      "collectionId": 1544491232,
+      "track": "Rolling in the Deep",
+      "artist": "Adele",
+      "album": "21",
+      "releaseDate": "2010-11-29",
+      "seconds": 228,
+      "trackNumber": 1,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 82,
+      "earliestRelease": "2010",
+      "firstStudioAlbum": {
+        "album": "21",
+        "date": "2011",
+        "seconds": 228,
+        "credit": "Adele"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2011",
+      "catalogAlbumSeconds": [
+        228
+      ],
+      "appleSeconds": 228
+    }
+  },
+  "da-feng-chui": {
+    "want": {
+      "title": "大风吹",
+      "artist": "草东没有派对",
+      "album": "丑奴儿",
+      "year": 2016
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 1676735991,
+      "collectionId": 1676735354,
+      "track": "大風吹",
+      "artist": "草東沒有派對",
+      "album": "醜奴兒",
+      "releaseDate": "2016-02-19",
+      "seconds": 236,
+      "trackNumber": 5,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "polyrhythm": {
+    "want": {
+      "title": "ポリリズム",
+      "artist": "Perfume",
+      "album": "GAME",
+      "year": 2007
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 657666313,
+      "collectionId": 657666068,
+      "track": "ポリリズム",
+      "artist": "Perfume",
+      "album": "GAME",
+      "releaseDate": "2007-09-12",
+      "seconds": 250,
+      "trackNumber": 1,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 6,
+      "earliestRelease": "2007-09-12",
+      "firstStudioAlbum": {
+        "album": "GAME",
+        "date": "2008",
+        "seconds": 250,
+        "credit": "Perfume"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2008",
+      "catalogAlbumSeconds": [
+        250
+      ],
+      "appleSeconds": 250
+    }
+  },
+  "goodbye": {
+    "want": {
+      "title": "グッドバイ",
+      "artist": "toe",
+      "album": "New Sentimentality",
+      "year": 2006
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 205862599,
+      "collectionId": 205862428,
+      "track": "グッドバイ",
+      "artist": "toe",
+      "album": "New Sentimentality - EP",
+      "releaseDate": "2006-12-06",
+      "seconds": 454,
+      "trackNumber": 4,
+      "trackCount": 4,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 7,
+      "earliestRelease": "2006-12-06",
+      "firstStudioAlbum": {
+        "album": "For Long Tomorrow",
+        "date": "2009-12-09",
+        "seconds": 425,
+        "credit": "toe & Toki Asako"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 454
+    }
+  },
+  "pink-white": {
+    "want": {
+      "title": "Pink + White",
+      "artist": "Frank Ocean",
+      "album": "Blonde",
+      "year": 2016
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1146195714,
+      "collectionId": 1146195596,
+      "track": "Pink + White",
+      "artist": "Frank Ocean",
+      "album": "Blonde",
+      "releaseDate": "2016-08-20",
+      "seconds": 185,
+      "trackNumber": 3,
+      "trackCount": 17,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 3,
+      "earliestRelease": "2014",
+      "firstStudioAlbum": {
+        "album": "Blonde",
+        "date": "2016-08-20",
+        "seconds": 185,
+        "credit": "Frank Ocean"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2016-08-20",
+      "catalogAlbumSeconds": [
+        185
+      ],
+      "appleSeconds": 185
+    }
+  },
+  "alright": {
+    "want": {
+      "title": "Alright",
+      "artist": "Kendrick Lamar",
+      "album": "To Pimp a Butterfly",
+      "year": 2015
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440829463,
+      "collectionId": 1440828886,
+      "track": "Alright",
+      "artist": "Kendrick Lamar",
+      "album": "To Pimp a Butterfly",
+      "releaseDate": "2015-03-15",
+      "seconds": 219,
+      "trackNumber": 7,
+      "trackCount": 16,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 18,
+      "earliestRelease": "2014",
+      "firstStudioAlbum": {
+        "album": "To Pimp a Butterfly",
+        "date": "2015-03-15",
+        "seconds": 219,
+        "credit": "Kendrick Lamar"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2015-03-15",
+      "catalogAlbumSeconds": [
+        219
+      ],
+      "appleSeconds": 219
+    }
+  },
+  "i-bet-you-look-good": {
+    "want": {
+      "title": "I Bet You Look Good on the Dancefloor",
+      "artist": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "year": 2005
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 111153391,
+      "collectionId": 111153953,
+      "track": "I Bet You Look Good on the Dancefloor",
+      "artist": "Arctic Monkeys",
+      "album": "Whatever People Say I Am, That's What I'm Not",
+      "releaseDate": "2005-10-17",
+      "seconds": 174,
+      "trackNumber": 2,
+      "trackCount": 13,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 49,
+      "earliestRelease": "2004",
+      "firstStudioAlbum": {
+        "album": "Whatever People Say I Am, That’s What I’m Not",
+        "date": "2005",
+        "seconds": 174,
+        "credit": "Arctic Monkeys"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2005",
+      "catalogAlbumSeconds": [
+        174
+      ],
+      "appleSeconds": 174
+    }
+  },
+  "archangel": {
+    "want": {
+      "title": "Archangel",
+      "artist": "Burial",
+      "album": "Untrue",
+      "year": 2007
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 893175788,
+      "collectionId": 893175779,
+      "track": "Archangel",
+      "artist": "Burial",
+      "album": "Untrue",
+      "releaseDate": "2007-11-05",
+      "seconds": 238,
+      "trackNumber": 2,
+      "trackCount": 13,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 20,
+      "earliestRelease": "2007-11-05",
+      "firstStudioAlbum": {
+        "album": "Untrue",
+        "date": "2007",
+        "seconds": 238,
+        "credit": "Burial"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2007",
+      "catalogAlbumSeconds": [
+        238
+      ],
+      "appleSeconds": 238
+    }
+  },
+  "papaoutai": {
+    "want": {
+      "title": "Papaoutai",
+      "artist": "Stromae",
+      "album": "Racine carrée",
+      "year": 2013
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440862113,
+      "collectionId": 1440862091,
+      "track": "Papaoutai",
+      "artist": "Stromae",
+      "album": "Racine carrée",
+      "releaseDate": "2013-01-01",
+      "seconds": 232,
+      "trackNumber": 2,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 19,
+      "earliestRelease": "2013",
+      "firstStudioAlbum": {
+        "album": "Racine carrée",
+        "date": "2013",
+        "seconds": 232,
+        "credit": "Stromae"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2013",
+      "catalogAlbumSeconds": [
+        232
+      ],
+      "appleSeconds": 232
+    }
+  },
+  "percees-de-lumiere": {
+    "want": {
+      "title": "Percées de lumière",
+      "artist": "Alcest",
+      "album": "Écailles de lune",
+      "year": 2010
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1556058795,
+      "collectionId": 1556058786,
+      "track": "Percées De Lumière",
+      "artist": "Alcest",
+      "album": "Écailles De Lune",
+      "releaseDate": "2009-11-20",
+      "seconds": 398,
+      "trackNumber": 3,
+      "trackCount": 6,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 1,
+      "earliestRelease": "2009-11-20",
+      "firstStudioAlbum": {
+        "album": "Écailles de lune",
+        "date": "2010-03",
+        "seconds": 398,
+        "credit": "Alcest"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2010-03",
+      "catalogAlbumSeconds": [
+        398
+      ],
+      "appleSeconds": 398
+    }
+  },
+  "latinoamerica": {
+    "want": {
+      "title": "Latinoamérica",
+      "artist": "Calle 13",
+      "album": "Entren los que quieran",
+      "year": 2010
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 401265183,
+      "collectionId": 401264687,
+      "track": "Latinoamérica (feat. Totó la Momposina, Susana Baca & María Rita)",
+      "artist": "Calle 13",
+      "album": "Entren los Que Quieran (Deluxe Version)",
+      "releaseDate": "2010-11-19",
+      "seconds": 301,
+      "trackNumber": 7,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "hasta-la-raiz": {
+    "want": {
+      "title": "Hasta la Raíz",
+      "artist": "Natalia Lafourcade",
+      "album": "Hasta la Raíz",
+      "year": 2015
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1055384375,
+      "collectionId": 1055384362,
+      "track": "Hasta la Raíz",
+      "artist": "Natalia Lafourcade",
+      "album": "Hasta la Raíz (Edición Especial)",
+      "releaseDate": "2015-01-06",
+      "seconds": 222,
+      "trackNumber": 1,
+      "trackCount": 17,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 10,
+      "earliestRelease": "2015",
+      "firstStudioAlbum": {
+        "album": "Hasta la raíz",
+        "date": "2015",
+        "seconds": 221,
+        "credit": "Natalia Lafourcade"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2015",
+      "catalogAlbumSeconds": [
+        221,
+        219
+      ],
+      "appleSeconds": 222
+    }
+  },
+  "bad-guy": {
+    "want": {
+      "title": "bad guy",
+      "artist": "Billie Eilish",
+      "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "year": 2019
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1450695739,
+      "collectionId": 1450695723,
+      "track": "bad guy",
+      "artist": "Billie Eilish",
+      "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "releaseDate": "2019-03-29",
+      "seconds": 194,
+      "trackNumber": 2,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 38,
+      "earliestRelease": "2019",
+      "firstStudioAlbum": {
+        "album": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+        "date": "2019",
+        "seconds": 194,
+        "credit": "Billie Eilish"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2019",
+      "catalogAlbumSeconds": [
+        194,
+        195,
+        205
+      ],
+      "appleSeconds": 194
+    }
+  },
+  "pigs-in-the-river": {
+    "want": {
+      "title": "Pigs in the River",
+      "artist": "重塑雕像的权利",
+      "album": "Before the Applause",
+      "year": 2017
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 1808446520,
+      "collectionId": 1808446026,
+      "track": "PIGS IN THE RIVER",
+      "artist": "Re-TROS",
+      "album": "喝彩之前",
+      "releaseDate": "2017-02-28",
+      "seconds": 403,
+      "trackNumber": 5,
+      "trackCount": 8,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "dont-start-now": {
+    "want": {
+      "title": "Don't Start Now",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "year": 2019
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1538003635,
+      "collectionId": 1538003494,
+      "track": "Don't Start Now",
+      "artist": "Dua Lipa",
+      "album": "Future Nostalgia",
+      "releaseDate": "2019-10-31",
+      "seconds": 183,
+      "trackNumber": 2,
+      "trackCount": 13,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 34,
+      "earliestRelease": "2019",
+      "firstStudioAlbum": {
+        "album": "Future Nostalgia",
+        "date": "2020-03-21",
+        "seconds": 183,
+        "credit": "Dua Lipa"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2020-03-21",
+      "catalogAlbumSeconds": [
+        183,
+        217,
+        340,
+        216,
+        174,
+        264
+      ],
+      "appleSeconds": 183
+    }
+  },
+  "my-jinji": {
+    "want": {
+      "title": "My Jinji",
+      "artist": "落日飞车",
+      "album": "JINJI KIKKO",
+      "year": 2016
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 1753222327,
+      "collectionId": 1753222324,
+      "track": "My Jinji",
+      "artist": "落日飛車",
+      "album": "JINJI KIKKO - Single",
+      "releaseDate": "2016-03-01",
+      "seconds": 401,
+      "trackNumber": 2,
+      "trackCount": 3,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "lemon": {
+    "want": {
+      "title": "Lemon",
+      "artist": "米津玄師",
+      "album": "STRAY SHEEP",
+      "year": 2018
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1538265741,
+      "collectionId": 1538265733,
+      "track": "Lemon",
+      "artist": "米津玄師",
+      "album": "STRAY SHEEP",
+      "releaseDate": "2018-02-12",
+      "seconds": 256,
+      "trackNumber": 8,
+      "trackCount": 15,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 4,
+      "earliestRelease": "2018-03-14",
+      "firstStudioAlbum": {
+        "album": "STRAY SHEEP",
+        "date": "2020-08-05",
+        "seconds": null,
+        "credit": "米津玄師"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2020-08-05",
+      "catalogAlbumSeconds": [
+        256
+      ],
+      "appleSeconds": 256
+    }
+  },
+  "porcelain": {
+    "want": {
+      "title": "Porcelain",
+      "artist": "青葉市子",
+      "album": "アダンの風",
+      "year": 2020
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1714304675,
+      "collectionId": 1714304663,
+      "track": "Porcelain",
+      "artist": "青葉市子",
+      "album": "Windswept Adan",
+      "releaseDate": "2020-10-30",
+      "seconds": 269,
+      "trackNumber": 3,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "drivers-license": {
+    "want": {
+      "title": "drivers license",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "year": 2021
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1560735424,
+      "collectionId": 1560735414,
+      "track": "drivers license",
+      "artist": "Olivia Rodrigo",
+      "album": "SOUR",
+      "releaseDate": "2021-01-08",
+      "seconds": 242,
+      "trackNumber": 3,
+      "trackCount": 11,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 23,
+      "earliestRelease": "2021",
+      "firstStudioAlbum": {
+        "album": "SOUR",
+        "date": "2021",
+        "seconds": 242,
+        "credit": "Olivia Rodrigo"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2021",
+      "catalogAlbumSeconds": [
+        242,
+        246,
+        247
+      ],
+      "appleSeconds": 242
+    }
+  },
+  "andromeda": {
+    "want": {
+      "title": "Andromeda",
+      "artist": "Weyes Blood",
+      "album": "Titanic Rising",
+      "year": 2019
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1450550346,
+      "collectionId": 1450550344,
+      "track": "Andromeda",
+      "artist": "Weyes Blood",
+      "album": "Titanic Rising",
+      "releaseDate": "2019-01-17",
+      "seconds": 280,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 2,
+      "earliestRelease": "2019-01-17",
+      "firstStudioAlbum": {
+        "album": "Titanic Rising",
+        "date": "2019-04-05",
+        "seconds": 280,
+        "credit": "Weyes Blood"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2019-04-05",
+      "catalogAlbumSeconds": [
+        280
+      ],
+      "appleSeconds": 280
+    }
+  },
+  "concorde": {
+    "want": {
+      "title": "Concorde",
+      "artist": "Black Country, New Road",
+      "album": "Ants From Up There",
+      "year": 2021
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1586070262,
+      "collectionId": 1586070259,
+      "track": "Concorde",
+      "artist": "Black Country, New Road",
+      "album": "Ants From Up There",
+      "releaseDate": "2022-02-04",
+      "seconds": 364,
+      "trackNumber": 3,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 4,
+      "earliestRelease": "2021-10-29",
+      "firstStudioAlbum": {
+        "album": "Ants From Up There",
+        "date": "2022-02-04",
+        "seconds": 364,
+        "credit": "Black Country, New Road"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2022-02-04",
+      "catalogAlbumSeconds": [
+        364
+      ],
+      "appleSeconds": 364
+    }
+  },
+  "malamente": {
+    "want": {
+      "title": "MALAMENTE (Cap.1: Augurio)",
+      "artist": "ROSALÍA",
+      "album": "El Mal Querer",
+      "year": 2018
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1436310304,
+      "collectionId": 1436309944,
+      "track": "MALAMENTE (Cap.1: Augurio)",
+      "artist": "ROSALÍA",
+      "album": "EL MAL QUERER",
+      "releaseDate": "2018-05-30",
+      "seconds": 150,
+      "trackNumber": 1,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 2,
+      "earliestRelease": "2018-05-30",
+      "firstStudioAlbum": {
+        "album": "EL MAL QUERER",
+        "date": "2018",
+        "seconds": 150,
+        "credit": "ROSALÍA"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2018",
+      "catalogAlbumSeconds": [
+        150
+      ],
+      "appleSeconds": 150
+    }
+  },
+  "sudno": {
+    "want": {
+      "title": "Судно (Борис Рыжий)",
+      "artist": "Molchat Doma",
+      "album": "Этажи",
+      "year": 2018
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1492386463,
+      "collectionId": 1492386136,
+      "track": "Судно (Борис Рыжий)",
+      "artist": "Molchat Doma",
+      "album": "Этажи",
+      "releaseDate": "2018-09-07",
+      "seconds": 141,
+      "trackNumber": 7,
+      "trackCount": 9,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 1,
+      "earliestRelease": "2018-09-07",
+      "firstStudioAlbum": {
+        "album": "Этажи",
+        "date": "2018",
+        "seconds": 141,
+        "credit": "Молчат Дома"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2018",
+      "catalogAlbumSeconds": [
+        141
+      ],
+      "appleSeconds": 141
+    }
+  },
+  "titi-me-pregunto": {
+    "want": {
+      "title": "Tití Me Preguntó",
+      "artist": "Bad Bunny",
+      "album": "Un Verano Sin Ti",
+      "year": 2022
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1622045635,
+      "collectionId": 1622045624,
+      "track": "Tití Me Preguntó",
+      "artist": "Bad Bunny",
+      "album": "Un Verano Sin Ti",
+      "releaseDate": "2022-05-06",
+      "seconds": 244,
+      "trackNumber": 4,
+      "trackCount": 23,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "arca-time": {
+    "want": {
+      "title": "Time",
+      "artist": "Arca",
+      "album": "KiCk i",
+      "year": 2020
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1511122261,
+      "collectionId": 1511122250,
+      "track": "Time",
+      "artist": "Arca",
+      "album": "KiCk i",
+      "releaseDate": "2020-06-26",
+      "seconds": 166,
+      "trackNumber": 2,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 1,
+      "earliestRelease": "2020-05-20",
+      "firstStudioAlbum": {
+        "album": "KiCk i",
+        "date": "2020-06-26",
+        "seconds": 166,
+        "credit": "Arca"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2020-06-26",
+      "catalogAlbumSeconds": [
+        166
+      ],
+      "appleSeconds": 166
+    }
+  },
+  "so-what": {
+    "want": {
+      "title": "So What",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "year": 1959
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 268443097,
+      "collectionId": 268443092,
+      "track": "So What",
+      "artist": "Miles Davis",
+      "album": "Kind of Blue",
+      "releaseDate": "1959-08-17",
+      "seconds": 548,
+      "trackNumber": 1,
+      "trackCount": 5,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1959",
+      "firstStudioAlbum": {
+        "album": "Kind of Blue",
+        "date": "1993",
+        "seconds": 564,
+        "credit": "Miles Davis"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1993",
+      "catalogAlbumSeconds": [
+        564,
+        549,
+        1051,
+        530,
+        546,
+        567
+      ],
+      "appleSeconds": 548
+    }
+  },
+  "moanin": {
+    "want": {
+      "title": "Moanin'",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "album": "Moanin'",
+      "year": 1959
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 725816540,
+      "collectionId": 725816184,
+      "track": "Moanin'",
+      "artist": "Art Blakey & The Jazz Messengers",
+      "album": "Moanin' (Remastered)",
+      "releaseDate": "1958-01-01",
+      "seconds": 571,
+      "trackNumber": 2,
+      "trackCount": 8,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1958",
+      "firstStudioAlbum": {
+        "album": "Moanin’",
+        "date": "1958",
+        "seconds": 574,
+        "credit": "Art Blakey and The Jazz Messengers"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1958",
+      "catalogAlbumSeconds": [
+        574,
+        562,
+        563
+      ],
+      "appleSeconds": 571
+    }
+  },
+  "goodbye-pork-pie-hat": {
+    "want": {
+      "title": "Goodbye Pork Pie Hat",
+      "artist": "Charles Mingus",
+      "album": "Mingus Ah Um",
+      "year": 1959
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 282907093,
+      "collectionId": 282907091,
+      "track": "Goodbye Pork Pie Hat",
+      "artist": "Charles Mingus",
+      "album": "Mingus Ah Um (Bonus Track Version)",
+      "releaseDate": "1959-01-01",
+      "seconds": 344,
+      "trackNumber": 2,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 27,
+      "earliestRelease": "1959",
+      "firstStudioAlbum": {
+        "album": "Mingus Ah Um",
+        "date": "1959",
+        "seconds": 288,
+        "credit": "Charles Mingus"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1959",
+      "catalogAlbumSeconds": [
+        288,
+        344
+      ],
+      "appleSeconds": 344
+    }
+  },
+  "acknowledgement": {
+    "want": {
+      "title": "A Love Supreme, Pt. I – Acknowledgement",
+      "artist": "John Coltrane",
+      "album": "A Love Supreme",
+      "year": 1965
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440713020,
+      "collectionId": 1440713018,
+      "track": "A Love Supreme, Pt. 1: Acknowledgement",
+      "artist": "John Coltrane",
+      "album": "A Love Supreme",
+      "releaseDate": "1965-01-01",
+      "seconds": 463,
+      "trackNumber": 1,
+      "trackCount": 4,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "speak-no-evil": {
+    "want": {
+      "title": "Speak No Evil",
+      "artist": "Wayne Shorter",
+      "album": "Speak No Evil",
+      "year": 1966
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 723473852,
+      "collectionId": 723473694,
+      "track": "Speak No Evil",
+      "artist": "Wayne Shorter",
+      "album": "Speak No Evil (Rudy Van Gelder Edition)",
+      "releaseDate": "1966-01-01",
+      "seconds": 504,
+      "trackNumber": 4,
+      "trackCount": 7,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 9,
+      "earliestRelease": "1965",
+      "firstStudioAlbum": {
+        "album": "Speak No Evil",
+        "date": "1965",
+        "seconds": 504,
+        "credit": "Wayne Shorter"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1965",
+      "catalogAlbumSeconds": [
+        504
+      ],
+      "appleSeconds": 504
+    }
+  },
+  "strings-of-light": {
+    "want": {
+      "title": "Strings of Light",
+      "artist": "Yussef Kamaal",
+      "album": "Black Focus",
+      "year": 2016
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1561775000,
+      "collectionId": 1561774995,
+      "track": "Strings of Light",
+      "artist": "Yussef Kamaal",
+      "album": "Black Focus",
+      "releaseDate": "2016-11-04",
+      "seconds": 509,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 3,
+      "earliestRelease": "2016-11-04",
+      "firstStudioAlbum": {
+        "album": "Black Focus",
+        "date": "2016-11-04",
+        "seconds": 509,
+        "credit": "Yussef Kamaal"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2016-11-04",
+      "catalogAlbumSeconds": [
+        509
+      ],
+      "appleSeconds": 509
+    }
+  },
+  "summon-the-fire": {
+    "want": {
+      "title": "Summon the Fire",
+      "artist": "The Comet Is Coming",
+      "album": "Trust in the Lifeforce of the Deep Mystery",
+      "year": 2019
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1449208109,
+      "collectionId": 1449207816,
+      "track": "Summon the Fire",
+      "artist": "The Comet Is Coming",
+      "album": "Trust In The Lifeforce Of The Deep Mystery",
+      "releaseDate": "2019-03-15",
+      "seconds": 235,
+      "trackNumber": 3,
+      "trackCount": 9,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 1,
+      "earliestRelease": "2019-03-15",
+      "firstStudioAlbum": {
+        "album": "Trust in the Lifeforce of the Deep Mystery",
+        "date": "2019-03-15",
+        "seconds": 235,
+        "credit": "The Comet Is Coming"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2019-03-15",
+      "catalogAlbumSeconds": [
+        235
+      ],
+      "appleSeconds": 235
+    }
+  },
+  "glorias-step": {
+    "want": {
+      "title": "Gloria's Step",
+      "artist": "Bill Evans Trio",
+      "album": "Sunday at the Village Vanguard",
+      "year": 1961
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440926499,
+      "collectionId": 1440926338,
+      "track": "Gloria's Step (Take 2) [Live]",
+      "artist": "Bill Evans Trio",
+      "album": "Sunday At the Village Vanguard (Keepnews Collection) [Live]",
+      "releaseDate": "1987-01-01",
+      "seconds": 368,
+      "trackNumber": 1,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 3,
+      "notes": [
+        "track name says \"Live\"",
+        "album name says \"Live\"",
+        "album looks like a compilation (\"Collection\")",
+        "Apple dates it 1987, catalog says 1961"
+      ],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 63,
+      "earliestRelease": "1961",
+      "firstStudioAlbum": {
+        "album": "More From The Vanguard",
+        "date": "1984",
+        "seconds": 414,
+        "credit": "Bill Evans"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 368
+    }
+  },
+  "early-summer": {
+    "want": {
+      "title": "Early Summer",
+      "artist": "福居良",
+      "album": "Scenery",
+      "year": 1976
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1329457872,
+      "collectionId": 1329457232,
+      "track": "Early Summer",
+      "artist": "RYO FUKUI",
+      "album": "Scenery",
+      "releaseDate": "2005-06-27",
+      "seconds": 644,
+      "trackNumber": 3,
+      "trackCount": 6,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 95,
+      "notes": [
+        "Apple dates it 2005, catalog says 1976"
+      ],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 3,
+      "earliestRelease": "1976",
+      "firstStudioAlbum": {
+        "album": "SCENERY",
+        "date": "1976",
+        "seconds": 644,
+        "credit": "福居良"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1976",
+      "catalogAlbumSeconds": [
+        644
+      ],
+      "appleSeconds": 644
+    }
+  },
+  "sweet-jane": {
+    "want": {
+      "title": "Sweet Jane",
+      "artist": "The Velvet Underground",
+      "album": "Loaded",
+      "year": 1970
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1050415253,
+      "collectionId": 1050415251,
+      "track": "Sweet Jane",
+      "artist": "The Velvet Underground",
+      "album": "Loaded (Remastered)",
+      "releaseDate": "1970-11-15",
+      "seconds": 246,
+      "trackNumber": 2,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 51,
+      "earliestRelease": "1970-09",
+      "firstStudioAlbum": {
+        "album": "Loaded",
+        "date": "1970-09",
+        "seconds": 197,
+        "credit": "The Velvet Underground"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1970-09",
+      "catalogAlbumSeconds": [
+        197,
+        329,
+        247,
+        428,
+        195,
+        263
+      ],
+      "appleSeconds": 246
+    }
+  },
+  "london-calling": {
+    "want": {
+      "title": "London Calling",
+      "artist": "The Clash",
+      "album": "London Calling",
+      "year": 1979
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 684811768,
+      "collectionId": 684811762,
+      "track": "London Calling",
+      "artist": "The Clash",
+      "album": "London Calling",
+      "releaseDate": "1979-12-07",
+      "seconds": 200,
+      "trackNumber": 1,
+      "trackCount": 19,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1979-12-14",
+      "firstStudioAlbum": {
+        "album": "London Calling",
+        "date": "1979",
+        "seconds": 200,
+        "credit": "The Clash"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1979",
+      "catalogAlbumSeconds": [
+        200,
+        267,
+        197
+      ],
+      "appleSeconds": 200
+    }
+  },
+  "disorder": {
+    "want": {
+      "title": "Disorder",
+      "artist": "Joy Division",
+      "album": "Unknown Pleasures",
+      "year": 1979
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 266603053,
+      "collectionId": 266603040,
+      "track": "Disorder",
+      "artist": "Joy Division",
+      "album": "Unknown Pleasures (Collector's Edition)",
+      "releaseDate": "1979-06-15",
+      "seconds": 209,
+      "trackNumber": 1,
+      "trackCount": 22,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 99,
+      "earliestRelease": "1979",
+      "firstStudioAlbum": {
+        "album": "Unknown Pleasures",
+        "date": "1979-06-15",
+        "seconds": 211,
+        "credit": "Joy Division"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1979-06-15",
+      "catalogAlbumSeconds": [
+        211,
+        208
+      ],
+      "appleSeconds": 209
+    }
+  },
+  "age-of-consent": {
+    "want": {
+      "title": "Age of Consent",
+      "artist": "New Order",
+      "album": "Power, Corruption & Lies",
+      "year": 1983
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1040982045,
+      "collectionId": 1040981945,
+      "track": "Age of Consent",
+      "artist": "New Order",
+      "album": "Power, Corruption & Lies",
+      "releaseDate": "1983-05-02",
+      "seconds": 315,
+      "trackNumber": 1,
+      "trackCount": 8,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 55,
+      "earliestRelease": "1983",
+      "firstStudioAlbum": {
+        "album": "Power, Corruption & Lies",
+        "date": "1983",
+        "seconds": 315,
+        "credit": "New Order"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1983",
+      "catalogAlbumSeconds": [
+        315,
+        303,
+        385,
+        280,
+        275
+      ],
+      "appleSeconds": 315
+    }
+  },
+  "damaged-goods": {
+    "want": {
+      "title": "Damaged Goods",
+      "artist": "Gang of Four",
+      "album": "Entertainment!",
+      "year": 1979
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1589225338,
+      "collectionId": 1589225331,
+      "track": "Damaged Goods",
+      "artist": "Gang of Four",
+      "album": "Entertainment!",
+      "releaseDate": "1979-09-25",
+      "seconds": 207,
+      "trackNumber": 4,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 36,
+      "earliestRelease": "1978-10",
+      "firstStudioAlbum": {
+        "album": "Entertainment!",
+        "date": "1979",
+        "seconds": 207,
+        "credit": "Gang of Four"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1979",
+      "catalogAlbumSeconds": [
+        207
+      ],
+      "appleSeconds": 207
+    }
+  },
+  "spellbound": {
+    "want": {
+      "title": "Spellbound",
+      "artist": "Siouxsie and the Banshees",
+      "album": "Juju",
+      "year": 1981
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440764575,
+      "collectionId": 1440764567,
+      "track": "Spellbound",
+      "artist": "Siouxsie & The Banshees",
+      "album": "Ju Ju (Remastered)",
+      "releaseDate": "1981-05-22",
+      "seconds": 197,
+      "trackNumber": 1,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 22,
+      "earliestRelease": "1981",
+      "firstStudioAlbum": {
+        "album": "Juju",
+        "date": "1981",
+        "seconds": 198,
+        "credit": "Siouxsie and the Banshees"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1981",
+      "catalogAlbumSeconds": [
+        198,
+        280
+      ],
+      "appleSeconds": 197
+    }
+  },
+  "bairimeng-lan": {
+    "want": {
+      "title": "白日梦蓝",
+      "artist": "刺猬",
+      "album": "白日梦蓝",
+      "year": 2009
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 1808900377,
+      "collectionId": 1808900373,
+      "track": "白日夢藍 (Ban Zou)",
+      "artist": "刺蝟",
+      "album": "白日夢藍",
+      "releaseDate": "2008-01-01",
+      "seconds": 297,
+      "trackNumber": 1,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "radio-free-europe": {
+    "want": {
+      "title": "Radio Free Europe",
+      "artist": "R.E.M.",
+      "album": "Murmur",
+      "year": 1983
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440872983,
+      "collectionId": 1440872981,
+      "track": "Radio Free Europe",
+      "artist": "R.E.M.",
+      "album": "Murmur",
+      "releaseDate": "1983-04-12",
+      "seconds": 244,
+      "trackNumber": 1,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 80,
+      "earliestRelease": "1981",
+      "firstStudioAlbum": {
+        "album": "Murmur",
+        "date": "1983",
+        "seconds": 246,
+        "credit": "R.E.M."
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1983",
+      "catalogAlbumSeconds": [
+        246,
+        294
+      ],
+      "appleSeconds": 244
+    }
+  },
+  "only-shallow": {
+    "want": {
+      "title": "Only Shallow",
+      "artist": "My Bloody Valentine",
+      "album": "Loveless",
+      "year": 1991
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1556921231,
+      "collectionId": 1556921230,
+      "track": "only shallow",
+      "artist": "my bloody valentine",
+      "album": "loveless",
+      "releaseDate": "1991-11-05",
+      "seconds": 257,
+      "trackNumber": 1,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 22,
+      "earliestRelease": "1991",
+      "firstStudioAlbum": {
+        "album": "Loveless",
+        "date": "1991",
+        "seconds": 258,
+        "credit": "My Bloody Valentine"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1991",
+      "catalogAlbumSeconds": [
+        258
+      ],
+      "appleSeconds": 257
+    }
+  },
+  "cherry-coloured-funk": {
+    "want": {
+      "title": "Cherry-coloured Funk",
+      "artist": "Cocteau Twins",
+      "album": "Heaven or Las Vegas",
+      "year": 1990
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 258198956,
+      "collectionId": 258198881,
+      "track": "Cherry-Coloured Funk",
+      "artist": "Cocteau Twins",
+      "album": "Heaven Or Las Vegas (Remastered)",
+      "releaseDate": "1990-08-21",
+      "seconds": 192,
+      "trackNumber": 1,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 15,
+      "earliestRelease": "1990-08-21",
+      "firstStudioAlbum": {
+        "album": "Heaven or Las Vegas",
+        "date": "1990",
+        "seconds": 193,
+        "credit": "Cocteau Twins"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1990",
+      "catalogAlbumSeconds": [
+        193
+      ],
+      "appleSeconds": 192
+    }
+  },
+  "alison": {
+    "want": {
+      "title": "Alison",
+      "artist": "Slowdive",
+      "album": "Souvlaki",
+      "year": 1993
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 292885253,
+      "collectionId": 292885238,
+      "track": "Alison",
+      "artist": "Slowdive",
+      "album": "Souvlaki",
+      "releaseDate": "1993-02-01",
+      "seconds": 231,
+      "trackNumber": 1,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 5,
+      "earliestRelease": "1993",
+      "firstStudioAlbum": {
+        "album": "Souvlaki",
+        "date": "1993",
+        "seconds": 232,
+        "credit": "Slowdive"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1993",
+      "catalogAlbumSeconds": [
+        232
+      ],
+      "appleSeconds": 231
+    }
+  },
+  "mogwai-fear-satan": {
+    "want": {
+      "title": "Mogwai Fear Satan",
+      "artist": "Mogwai",
+      "album": "Young Team",
+      "year": 1997
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 280271170,
+      "collectionId": 280270989,
+      "track": "Mogwai Fear Satan",
+      "artist": "Mogwai",
+      "album": "Young Team",
+      "releaseDate": "1997-10-21",
+      "seconds": 980,
+      "trackNumber": 10,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 46,
+      "earliestRelease": "1997-10-21",
+      "firstStudioAlbum": {
+        "album": "Young Team",
+        "date": "1997",
+        "seconds": 979,
+        "credit": "Mogwai"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1997",
+      "catalogAlbumSeconds": [
+        979,
+        626
+      ],
+      "appleSeconds": 980
+    }
+  },
+  "good-morning-captain": {
+    "want": {
+      "title": "Good Morning, Captain",
+      "artist": "Slint",
+      "album": "Spiderland",
+      "year": 1991
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 295785340,
+      "collectionId": 295785324,
+      "track": "Good Morning, Captain",
+      "artist": "Slint",
+      "album": "Spiderland",
+      "releaseDate": "1991-03-15",
+      "seconds": 459,
+      "trackNumber": 6,
+      "trackCount": 7,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 11,
+      "earliestRelease": "1990-10-27",
+      "firstStudioAlbum": {
+        "album": "Spiderland",
+        "date": "1991",
+        "seconds": 459,
+        "credit": "Slint"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1991",
+      "catalogAlbumSeconds": [
+        459,
+        455,
+        45
+      ],
+      "appleSeconds": 459
+    }
+  },
+  "svefn-g-englar": {
+    "want": {
+      "title": "Svefn-g-englar",
+      "artist": "Sigur Rós",
+      "album": "Ágætis byrjun",
+      "year": 1999
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1447442935,
+      "collectionId": 1447442814,
+      "track": "Svefn-G-Englar",
+      "artist": "Sigur Rós",
+      "album": "Ágætis Byrjun",
+      "releaseDate": "1999-01-01",
+      "seconds": 607,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 45,
+      "earliestRelease": "1999-06",
+      "firstStudioAlbum": {
+        "album": "Ágætis byrjun",
+        "date": "1999-06",
+        "seconds": 606,
+        "credit": "Sigur Rós"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1999-06",
+      "catalogAlbumSeconds": [
+        606,
+        604,
+        566,
+        710
+      ],
+      "appleSeconds": 607
+    }
+  },
+  "taikutsu-shinogi": {
+    "want": {
+      "title": "退屈しのぎ",
+      "artist": "きのこ帝国",
+      "album": "渦になる",
+      "year": 2012
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 521644948,
+      "collectionId": 521644932,
+      "track": "退屈しのぎ",
+      "artist": "きのこ帝国",
+      "album": "渦になる",
+      "releaseDate": "2012-05-09",
+      "seconds": 490,
+      "trackNumber": 2,
+      "trackCount": 7,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 3,
+      "earliestRelease": "2012",
+      "firstStudioAlbum": {
+        "album": "渦になる",
+        "date": "2012-05-09",
+        "seconds": 490,
+        "credit": "きのこ帝国"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2012-05-09",
+      "catalogAlbumSeconds": [
+        490
+      ],
+      "appleSeconds": 490
+    }
+  },
+  "the-model": {
+    "want": {
+      "title": "The Model",
+      "artist": "Kraftwerk",
+      "album": "The Man-Machine",
+      "year": 1978
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 726157363,
+      "collectionId": 726157248,
+      "track": "The Model",
+      "artist": "Kraftwerk",
+      "album": "The Man-Machine (Remastered)",
+      "releaseDate": "1978-05-19",
+      "seconds": 221,
+      "trackNumber": 4,
+      "trackCount": 6,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 52,
+      "earliestRelease": "1978",
+      "firstStudioAlbum": {
+        "album": "Die Mensch·Maschine",
+        "date": "1978",
+        "seconds": 220,
+        "credit": "Kraftwerk"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 221
+    }
+  },
+  "hallogallo": {
+    "want": {
+      "title": "Hallogallo",
+      "artist": "NEU!",
+      "album": "NEU!",
+      "year": 1972
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "gb",
+      "trackId": 112318493,
+      "collectionId": 112318571,
+      "track": "Hallogallo",
+      "artist": "NEU!",
+      "album": "Neu!",
+      "releaseDate": "1972-01-01",
+      "seconds": 607,
+      "trackNumber": 1,
+      "trackCount": 6,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 10,
+      "earliestRelease": "1972",
+      "firstStudioAlbum": {
+        "album": "Neu!",
+        "date": "1972",
+        "seconds": 607,
+        "credit": "Neu!"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1972",
+      "catalogAlbumSeconds": [
+        607
+      ],
+      "appleSeconds": 607
+    }
+  },
+  "vitamin-c": {
+    "want": {
+      "title": "Vitamin C",
+      "artist": "Can",
+      "album": "Ege Bamyasi",
+      "year": 1972
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 826494416,
+      "collectionId": 826494403,
+      "track": "Vitamin C (2004 Remaster)",
+      "artist": "Can",
+      "album": "Ege Bamyasi (Remastered)",
+      "releaseDate": "1972-11-01",
+      "seconds": 214,
+      "trackNumber": 4,
+      "trackCount": 7,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 20,
+      "earliestRelease": "1972-11",
+      "firstStudioAlbum": {
+        "album": "Ege Bamyası",
+        "date": "1972",
+        "seconds": 212,
+        "credit": "Can"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 214
+    }
+  },
+  "xtal": {
+    "want": {
+      "title": "Xtal",
+      "artist": "Aphex Twin",
+      "album": "Selected Ambient Works 85–92",
+      "year": 1992
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1668862649,
+      "collectionId": 1668862636,
+      "track": "Xtal",
+      "artist": "Aphex Twin",
+      "album": "Selected Ambient Works 85-92",
+      "releaseDate": "1992-02-12",
+      "seconds": 294,
+      "trackNumber": 1,
+      "trackCount": 13,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 7,
+      "earliestRelease": "1992-11-01",
+      "firstStudioAlbum": {
+        "album": "Selected Ambient Works 85–92",
+        "date": "1992",
+        "seconds": 294,
+        "credit": "Aphex Twin"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1992",
+      "catalogAlbumSeconds": [
+        294
+      ],
+      "appleSeconds": 294
+    }
+  },
+  "good-life": {
+    "want": {
+      "title": "Good Life",
+      "artist": "Inner City",
+      "album": "Paradise",
+      "year": 1988
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 724914318,
+      "collectionId": 724913797,
+      "track": "Good Life",
+      "artist": "Inner City",
+      "album": "Paradise",
+      "releaseDate": "1989-01-01",
+      "seconds": 245,
+      "trackNumber": 7,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1988",
+      "firstStudioAlbum": {
+        "album": "Paradise",
+        "date": "1989",
+        "seconds": 205,
+        "credit": "Inner City"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1989",
+      "catalogAlbumSeconds": [
+        205,
+        242
+      ],
+      "appleSeconds": 245
+    }
+  },
+  "roygbiv": {
+    "want": {
+      "title": "Roygbiv",
+      "artist": "Boards of Canada",
+      "album": "Music Has the Right to Children",
+      "year": 1998
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 281116081,
+      "collectionId": 281116024,
+      "track": "Roygbiv",
+      "artist": "Boards of Canada",
+      "album": "Music Has the Right to Children",
+      "releaseDate": "1998-04-20",
+      "seconds": 152,
+      "trackNumber": 10,
+      "trackCount": 18,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 18,
+      "earliestRelease": "1996",
+      "firstStudioAlbum": {
+        "album": "Music Has the Right to Children",
+        "date": "1998-04-20",
+        "seconds": 150,
+        "credit": "Boards of Canada"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1998-04-20",
+      "catalogAlbumSeconds": [
+        150
+      ],
+      "appleSeconds": 152
+    }
+  },
+  "bad-kingdom": {
+    "want": {
+      "title": "Bad Kingdom",
+      "artist": "Moderat",
+      "album": "II",
+      "year": 2013
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1684866232,
+      "collectionId": 1684865898,
+      "track": "Bad Kingdom",
+      "artist": "Moderat",
+      "album": "II",
+      "releaseDate": "2013-06-28",
+      "seconds": 263,
+      "trackNumber": 2,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 24,
+      "earliestRelease": "2013",
+      "firstStudioAlbum": {
+        "album": "II",
+        "date": "2013-07",
+        "seconds": 263,
+        "credit": "Moderat"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2013-07",
+      "catalogAlbumSeconds": [
+        263,
+        262,
+        383
+      ],
+      "appleSeconds": 263
+    }
+  },
+  "inner-city-life": {
+    "want": {
+      "title": "Inner City Life",
+      "artist": "Goldie",
+      "album": "Timeless",
+      "year": 1994
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1561942875,
+      "collectionId": 1561942518,
+      "track": "Inner City Life (2020 Remaster)",
+      "artist": "Goldie",
+      "album": "Timeless (25 Year Anniversary)",
+      "releaseDate": "1994-01-01",
+      "seconds": 422,
+      "trackNumber": 10,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1994",
+      "firstStudioAlbum": {
+        "album": "Timeless",
+        "date": "1995-08",
+        "seconds": 217,
+        "credit": "Goldie"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1995-08",
+      "catalogAlbumSeconds": [
+        217,
+        261,
+        422
+      ],
+      "appleSeconds": 422
+    }
+  },
+  "rydeen": {
+    "want": {
+      "title": "RYDEEN",
+      "artist": "Yellow Magic Orchestra",
+      "album": "Solid State Survivor",
+      "year": 1979
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1291843647,
+      "collectionId": 1291843638,
+      "track": "Rydeen",
+      "artist": "Yellow Magic Orchestra",
+      "album": "Solid State Survivor",
+      "releaseDate": "2003-08-06",
+      "seconds": 266,
+      "trackNumber": 3,
+      "trackCount": 8,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 95,
+      "notes": [
+        "Apple dates it 2003, catalog says 1979"
+      ],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 52,
+      "earliestRelease": "1979-09-25",
+      "firstStudioAlbum": {
+        "album": "Solid State Survivor",
+        "date": "1979-09-25",
+        "seconds": 267,
+        "credit": "Yellow Magic Orchestra"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1979-09-25",
+      "catalogAlbumSeconds": [
+        267
+      ],
+      "appleSeconds": 266
+    }
+  },
+  "shitou-ji": {
+    "want": {
+      "title": "石头记",
+      "artist": "达明一派",
+      "album": "石头记",
+      "year": 1987
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 1442694420,
+      "collectionId": 1442693640,
+      "track": "石頭記",
+      "artist": "達明一派",
+      "album": "復黑王: 石頭記",
+      "releaseDate": "1988-12-16",
+      "seconds": 275,
+      "trackNumber": 5,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "the-message": {
+    "want": {
+      "title": "The Message",
+      "artist": "Grandmaster Flash & The Furious Five",
+      "album": "The Message",
+      "year": 1982
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 59389711,
+      "collectionId": 59389719,
+      "track": "The Message",
+      "artist": "Grandmaster Flash & The Furious Five",
+      "album": "The Message",
+      "releaseDate": "1982-07-01",
+      "seconds": 432,
+      "trackNumber": 7,
+      "trackCount": 8,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1982",
+      "firstStudioAlbum": {
+        "album": "The Message",
+        "date": "1982",
+        "seconds": 431,
+        "credit": "Grandmaster Flash & The Furious Five"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1982",
+      "catalogAlbumSeconds": [
+        431,
+        428
+      ],
+      "appleSeconds": 432
+    }
+  },
+  "ny-state-of-mind": {
+    "want": {
+      "title": "N.Y. State of Mind",
+      "artist": "Nas",
+      "album": "Illmatic",
+      "year": 1994
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 662324539,
+      "collectionId": 662324135,
+      "track": "N.Y. State of Mind",
+      "artist": "Nas",
+      "album": "Illmatic",
+      "releaseDate": "1994-04-19",
+      "seconds": 294,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 37,
+      "earliestRelease": "1994-04-15",
+      "firstStudioAlbum": {
+        "album": "Illmatic",
+        "date": "1994",
+        "seconds": 294,
+        "credit": "Nas"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1994",
+      "catalogAlbumSeconds": [
+        294,
+        293
+      ],
+      "appleSeconds": 294
+    }
+  },
+  "electric-relaxation": {
+    "want": {
+      "title": "Electric Relaxation",
+      "artist": "A Tribe Called Quest",
+      "album": "Midnight Marauders",
+      "year": 1993
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 265670650,
+      "collectionId": 265670545,
+      "track": "Electric Relaxation",
+      "artist": "A Tribe Called Quest",
+      "album": "Midnight Marauders",
+      "releaseDate": "1993-11-09",
+      "seconds": 244,
+      "trackNumber": 8,
+      "trackCount": 14,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 25,
+      "earliestRelease": "1993",
+      "firstStudioAlbum": {
+        "album": "Midnight Marauders",
+        "date": "1993",
+        "seconds": 244,
+        "credit": "A Tribe Called Quest"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1993",
+      "catalogAlbumSeconds": [
+        244,
+        228
+      ],
+      "appleSeconds": 244
+    }
+  },
+  "cream": {
+    "want": {
+      "title": "C.R.E.A.M.",
+      "artist": "Wu-Tang Clan",
+      "album": "Enter the Wu-Tang (36 Chambers)",
+      "year": 1993
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 269843734,
+      "collectionId": 269842381,
+      "track": "C.R.E.A.M. (Cash Rules Everything Around Me)",
+      "artist": "Wu-Tang Clan",
+      "album": "Enter The Wu-Tang (36 Chambers) [Expanded Edition]",
+      "releaseDate": "1993-11-09",
+      "seconds": 252,
+      "trackNumber": 8,
+      "trackCount": 15,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "midnight-in-a-perfect-world": {
+    "want": {
+      "title": "Midnight in a Perfect World",
+      "artist": "DJ Shadow",
+      "album": "Endtroducing.....",
+      "year": 1996
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1660486423,
+      "collectionId": 1660485817,
+      "track": "Midnight In a Perfect World",
+      "artist": "DJ Shadow",
+      "album": "Endtroducing.....",
+      "releaseDate": "1996-09-02",
+      "seconds": 298,
+      "trackNumber": 13,
+      "trackCount": 16,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 32,
+      "earliestRelease": "1995",
+      "firstStudioAlbum": {
+        "album": "Endtroducing.....",
+        "date": "1996",
+        "seconds": 300,
+        "credit": "DJ Shadow"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1996",
+      "catalogAlbumSeconds": [
+        300,
+        298,
+        295,
+        211
+      ],
+      "appleSeconds": 298
+    }
+  },
+  "time-the-donut-of-the-heart": {
+    "want": {
+      "title": "Time: The Donut of the Heart",
+      "artist": "J Dilla",
+      "album": "Donuts",
+      "year": 2006
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 108232662,
+      "collectionId": 108233171,
+      "track": "Time: The Donut of the Heart",
+      "artist": "J Dilla",
+      "album": "Donuts",
+      "releaseDate": "2006-02-07",
+      "seconds": 99,
+      "trackNumber": 10,
+      "trackCount": 31,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 1,
+      "earliestRelease": "2006-02-07",
+      "firstStudioAlbum": {
+        "album": "Donuts",
+        "date": "2006",
+        "seconds": 99,
+        "credit": "J Dilla"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2006",
+      "catalogAlbumSeconds": [
+        99
+      ],
+      "appleSeconds": 99
+    }
+  },
+  "all-caps": {
+    "want": {
+      "title": "All Caps",
+      "artist": "Madvillain",
+      "album": "Madvillainy",
+      "year": 2004
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 887699536,
+      "collectionId": 887699504,
+      "track": "All Caps",
+      "artist": "Madvillain",
+      "album": "Madvillainy",
+      "releaseDate": "2004-02-01",
+      "seconds": 130,
+      "trackNumber": 20,
+      "trackCount": 22,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "since-i-left-you": {
+    "want": {
+      "title": "Since I Left You",
+      "artist": "The Avalanches",
+      "album": "Since I Left You",
+      "year": 2000
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1558003296,
+      "collectionId": 1558002905,
+      "track": "Since I Left You",
+      "artist": "The Avalanches",
+      "album": "Since I Left You (20th Anniversary Deluxe Edition)",
+      "releaseDate": "2000-11-27",
+      "seconds": 263,
+      "trackNumber": 1,
+      "trackCount": 18,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 32,
+      "earliestRelease": "2000-11-27",
+      "firstStudioAlbum": {
+        "album": "Since I Left You",
+        "date": "2000",
+        "seconds": 261,
+        "credit": "The Avalanches"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2000",
+      "catalogAlbumSeconds": [
+        261,
+        336,
+        276,
+        228
+      ],
+      "appleSeconds": 263
+    }
+  },
+  "feather": {
+    "want": {
+      "title": "Feather",
+      "artist": "Nujabes",
+      "album": "Modal Soul",
+      "year": 2005
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1078914485,
+      "collectionId": 1078914477,
+      "track": "Feather (feat. Cise Star & Akin Yai)",
+      "artist": "Nujabes",
+      "album": "Modal Soul",
+      "releaseDate": "2005-11-11",
+      "seconds": 175,
+      "trackNumber": 1,
+      "trackCount": 14,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "bring-the-noise": {
+    "want": {
+      "title": "Bring the Noise",
+      "artist": "Public Enemy",
+      "album": "It Takes a Nation of Millions to Hold Us Back",
+      "year": 1987
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440837951,
+      "collectionId": 1440837788,
+      "track": "Bring the Noise",
+      "artist": "Public Enemy",
+      "album": "It Takes a Nation of Millions to Hold Us Back",
+      "releaseDate": "1987-11-01",
+      "seconds": 226,
+      "trackNumber": 2,
+      "trackCount": 16,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 91,
+      "earliestRelease": "1987",
+      "firstStudioAlbum": {
+        "album": "It Takes a Nation of Millions to Hold Us Back",
+        "date": "1988",
+        "seconds": 226,
+        "credit": "Public Enemy"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1988",
+      "catalogAlbumSeconds": [
+        226,
+        225,
+        263,
+        91
+      ],
+      "appleSeconds": 226
+    }
+  },
+  "baby-im-bleeding": {
+    "want": {
+      "title": "Baby I'm Bleeding",
+      "artist": "JPEGMAFIA",
+      "album": "Veteran",
+      "year": 2018
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1818406460,
+      "collectionId": 1818406054,
+      "track": "Baby I'm Bleeding",
+      "artist": "JPEGMAFIA",
+      "album": "Veteran",
+      "releaseDate": "2018-01-19",
+      "seconds": 152,
+      "trackNumber": 5,
+      "trackCount": 19,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "once-in-a-lifetime": {
+    "want": {
+      "title": "Once in a Lifetime",
+      "artist": "Talking Heads",
+      "album": "Remain in Light",
+      "year": 1980
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 124921347,
+      "collectionId": 124922154,
+      "track": "Once In a Lifetime",
+      "artist": "Talking Heads",
+      "album": "Remain In Light (Deluxe Version)",
+      "releaseDate": "1980-10-08",
+      "seconds": 260,
+      "trackNumber": 4,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 86,
+      "earliestRelease": "1980",
+      "firstStudioAlbum": {
+        "album": "Remain in Light",
+        "date": "1980",
+        "seconds": 261,
+        "credit": "Talking Heads"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1980",
+      "catalogAlbumSeconds": [
+        261,
+        335,
+        263
+      ],
+      "appleSeconds": 260
+    }
+  },
+  "plastic-love": {
+    "want": {
+      "title": "プラスティック・ラブ",
+      "artist": "竹内まりや",
+      "album": "VARIETY",
+      "year": 1984
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1591437487,
+      "collectionId": 1591437245,
+      "track": "プラスティック・ラブ",
+      "artist": "竹内まりや",
+      "album": "VARIETY -30th Anniversary Edition-",
+      "releaseDate": "1984-04-25",
+      "seconds": 294,
+      "trackNumber": 2,
+      "trackCount": 18,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "god-only-knows": {
+    "want": {
+      "title": "God Only Knows",
+      "artist": "The Beach Boys",
+      "album": "Pet Sounds",
+      "year": 1966
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440841258,
+      "collectionId": 1440841241,
+      "track": "God Only Knows",
+      "artist": "The Beach Boys",
+      "album": "Pet Sounds",
+      "releaseDate": "1966-05-16",
+      "seconds": 176,
+      "trackNumber": 8,
+      "trackCount": 13,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1966",
+      "firstStudioAlbum": {
+        "album": "Pet Sounds",
+        "date": "1966",
+        "seconds": 171,
+        "credit": "The Beach Boys"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1966",
+      "catalogAlbumSeconds": [
+        171,
+        175,
+        154,
+        231,
+        173,
+        168
+      ],
+      "appleSeconds": 176
+    }
+  },
+  "joga": {
+    "want": {
+      "title": "Jóga",
+      "artist": "Björk",
+      "album": "Homogenic",
+      "year": 1997
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 20833584,
+      "collectionId": 20833577,
+      "track": "Jóga",
+      "artist": "Björk",
+      "album": "Homogenic",
+      "releaseDate": "1997-09-15",
+      "seconds": 304,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1996",
+      "firstStudioAlbum": {
+        "album": "Homogenic",
+        "date": "1997",
+        "seconds": 305,
+        "credit": "Björk"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1997",
+      "catalogAlbumSeconds": [
+        305,
+        526,
+        302
+      ],
+      "appleSeconds": 304
+    }
+  },
+  "star-fruits-surf-rider": {
+    "want": {
+      "title": "Star Fruits Surf Rider",
+      "artist": "Cornelius",
+      "album": "FANTASMA",
+      "year": 1997
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 401723640,
+      "collectionId": 401723540,
+      "track": "STAR FRUITS SURF RIDER",
+      "artist": "Cornelius",
+      "album": "FANTASMA",
+      "releaseDate": "2010-11-03",
+      "seconds": 344,
+      "trackNumber": 7,
+      "trackCount": 15,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 95,
+      "notes": [
+        "Apple dates it 2010, catalog says 1997"
+      ],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 17,
+      "earliestRelease": "1997-07-02",
+      "firstStudioAlbum": {
+        "album": "Fantasma",
+        "date": "1997-08-06",
+        "seconds": 347,
+        "credit": "Cornelius"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1997-08-06",
+      "catalogAlbumSeconds": [
+        347,
+        343,
+        200
+      ],
+      "appleSeconds": 344
+    }
+  },
+  "miss-modular": {
+    "want": {
+      "title": "Miss Modular",
+      "artist": "Stereolab",
+      "album": "Dots and Loops",
+      "year": 1997
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1230517316,
+      "collectionId": 1230517312,
+      "track": "Miss Modular",
+      "artist": "Stereolab",
+      "album": "Dots and Loops",
+      "releaseDate": "1997-09-19",
+      "seconds": 269,
+      "trackNumber": 2,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 15,
+      "earliestRelease": "1997",
+      "firstStudioAlbum": {
+        "album": "Dots and Loops",
+        "date": "1997",
+        "seconds": 269,
+        "credit": "Stereolab"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1997",
+      "catalogAlbumSeconds": [
+        269,
+        103
+      ],
+      "appleSeconds": 269
+    }
+  },
+  "running-up-that-hill": {
+    "want": {
+      "title": "Running Up That Hill (A Deal with God)",
+      "artist": "Kate Bush",
+      "album": "Hounds of Love",
+      "year": 1985
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1675375090,
+      "collectionId": 1675375084,
+      "track": "Running Up That Hill (A Deal With God)",
+      "artist": "Kate Bush",
+      "album": "Hounds of Love",
+      "releaseDate": "1985-09-16",
+      "seconds": 299,
+      "trackNumber": 1,
+      "trackCount": 12,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 14,
+      "earliestRelease": "1985-07-30",
+      "firstStudioAlbum": {
+        "album": "Hounds of Love",
+        "date": "1985",
+        "seconds": 345,
+        "credit": "Kate Bush"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1985",
+      "catalogAlbumSeconds": [
+        345,
+        300
+      ],
+      "appleSeconds": 299
+    }
+  },
+  "tokai": {
+    "want": {
+      "title": "都会",
+      "artist": "大貫妙子",
+      "album": "SUNSHOWER",
+      "year": 1977
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1481213374,
+      "collectionId": 1481213369,
+      "track": "都会",
+      "artist": "大貫妙子",
+      "album": "SUNSHOWER",
+      "releaseDate": "1977-07-25",
+      "seconds": 310,
+      "trackNumber": 4,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 6,
+      "earliestRelease": "1977-07-25",
+      "firstStudioAlbum": {
+        "album": "SUNSHOWER",
+        "date": "1977-07-25",
+        "seconds": 310,
+        "credit": "大貫妙子"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1977-07-25",
+      "catalogAlbumSeconds": [
+        310
+      ],
+      "appleSeconds": 310
+    }
+  },
+  "two-weeks": {
+    "want": {
+      "title": "Two Weeks",
+      "artist": "FKA twigs",
+      "album": "LP1",
+      "year": 2014
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1546107585,
+      "collectionId": 1546107580,
+      "track": "Two Weeks",
+      "artist": "FKA twigs",
+      "album": "LP1",
+      "releaseDate": "2014-06-24",
+      "seconds": 248,
+      "trackNumber": 3,
+      "trackCount": 10,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "marunouchi-sadistic": {
+    "want": {
+      "title": "丸ノ内サディスティック",
+      "artist": "椎名林檎",
+      "album": "無罪モラトリアム",
+      "year": 1999
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1384341683,
+      "collectionId": 1384341676,
+      "track": "丸ノ内サディスティック",
+      "artist": "椎名林檎",
+      "album": "無罪モラトリアム",
+      "releaseDate": "1999-02-24",
+      "seconds": 236,
+      "trackNumber": 3,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 11,
+      "earliestRelease": "2000-12-07",
+      "firstStudioAlbum": null,
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 236
+    }
+  },
+  "pink-moon": {
+    "want": {
+      "title": "Pink Moon",
+      "artist": "Nick Drake",
+      "album": "Pink Moon",
+      "year": 1972
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440758657,
+      "collectionId": 1440758653,
+      "track": "Pink Moon",
+      "artist": "Nick Drake",
+      "album": "Pink Moon ((Remastered))",
+      "releaseDate": "1972-02-25",
+      "seconds": 123,
+      "trackNumber": 1,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "like-a-rolling-stone": {
+    "want": {
+      "title": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "year": 1965
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 201281527,
+      "collectionId": 201281514,
+      "track": "Like a Rolling Stone",
+      "artist": "Bob Dylan",
+      "album": "Highway 61 Revisited",
+      "releaseDate": "1965-07-20",
+      "seconds": 372,
+      "trackNumber": 1,
+      "trackCount": 9,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1978-03",
+      "firstStudioAlbum": {
+        "album": "The Wild Cathedral Evening",
+        "date": "1988",
+        "seconds": 318,
+        "credit": "Bob Dylan"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 372
+    }
+  },
+  "holland-1945": {
+    "want": {
+      "title": "Holland, 1945",
+      "artist": "Neutral Milk Hotel",
+      "album": "In the Aeroplane Over the Sea",
+      "year": 1998
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1839077580,
+      "collectionId": 1839077554,
+      "track": "Holland, 1945",
+      "artist": "Neutral Milk Hotel",
+      "album": "In the Aeroplane Over the Sea",
+      "releaseDate": "1998-02-10",
+      "seconds": 193,
+      "trackNumber": 6,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 69,
+      "earliestRelease": "1997-10-31",
+      "firstStudioAlbum": {
+        "album": "In the Aeroplane Over the Sea",
+        "date": "1998-02-10",
+        "seconds": 193,
+        "credit": "Neutral Milk Hotel"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1998-02-10",
+      "catalogAlbumSeconds": [
+        193
+      ],
+      "appleSeconds": 193
+    }
+  },
+  "a-minha-menina": {
+    "want": {
+      "title": "A Minha Menina",
+      "artist": "Os Mutantes",
+      "album": "Os Mutantes",
+      "year": 1968
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1444060165,
+      "collectionId": 1444060151,
+      "track": "A Minha Menina",
+      "artist": "Os Mutantes",
+      "album": "Os Mutantes",
+      "releaseDate": "1968-01-01",
+      "seconds": 285,
+      "trackNumber": 2,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 16,
+      "earliestRelease": "1968-06",
+      "firstStudioAlbum": {
+        "album": "Os Mutantes",
+        "date": "1968-06",
+        "seconds": 281,
+        "credit": "Os Mutantes"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1968-06",
+      "catalogAlbumSeconds": [
+        281
+      ],
+      "appleSeconds": 285
+    }
+  },
+  "zombie": {
+    "want": {
+      "title": "Zombie",
+      "artist": "Fela Kuti",
+      "album": "Zombie",
+      "year": 1976
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 559710302,
+      "collectionId": 559710299,
+      "track": "Zombie",
+      "artist": "Fela Kuti",
+      "album": "Zombie",
+      "releaseDate": "1976-01-01",
+      "seconds": 746,
+      "trackNumber": 1,
+      "trackCount": 4,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 10,
+      "earliestRelease": "2000",
+      "firstStudioAlbum": {
+        "album": "Zombie",
+        "date": "2020-08-13",
+        "seconds": 426,
+        "credit": "Fela Kuti"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2020-08-13",
+      "catalogAlbumSeconds": [
+        426
+      ],
+      "appleSeconds": 746
+    }
+  },
+  "lazy-bones": {
+    "want": {
+      "title": "Lazy Bones",
+      "artist": "WITCH",
+      "album": "Lazy Bones!!",
+      "year": 1975
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 526787200,
+      "collectionId": 526787191,
+      "track": "Lazy Bones",
+      "artist": "WITCH",
+      "album": "Lazy Bones!!",
+      "releaseDate": "1975-01-01",
+      "seconds": 242,
+      "trackNumber": 9,
+      "trackCount": 16,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 2,
+      "earliestRelease": "1975",
+      "firstStudioAlbum": {
+        "album": "Lazy Bones!!",
+        "date": "1975",
+        "seconds": 247,
+        "credit": "WITCH"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1975",
+      "catalogAlbumSeconds": [
+        247,
+        242
+      ],
+      "appleSeconds": 242
+    }
+  },
+  "a-case-of-you": {
+    "want": {
+      "title": "A Case of You",
+      "artist": "Joni Mitchell",
+      "album": "Blue",
+      "year": 1971
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1492263131,
+      "collectionId": 1492263092,
+      "track": "A Case of You",
+      "artist": "Joni Mitchell",
+      "album": "Blue",
+      "releaseDate": "1971-06-22",
+      "seconds": 263,
+      "trackNumber": 9,
+      "trackCount": 10,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 33,
+      "earliestRelease": "1971-06-22",
+      "firstStudioAlbum": {
+        "album": "Blue",
+        "date": "1971",
+        "seconds": 263,
+        "credit": "Joni Mitchell"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1971",
+      "catalogAlbumSeconds": [
+        263
+      ],
+      "appleSeconds": 263
+    }
+  },
+  "garden-song": {
+    "want": {
+      "title": "Garden Song",
+      "artist": "Phoebe Bridgers",
+      "album": "Punisher",
+      "year": 2020
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1504699859,
+      "collectionId": 1504699857,
+      "track": "Garden Song",
+      "artist": "Phoebe Bridgers",
+      "album": "Punisher",
+      "releaseDate": "2020-04-09",
+      "seconds": 220,
+      "trackNumber": 2,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 4,
+      "earliestRelease": "2020-02-26",
+      "firstStudioAlbum": {
+        "album": "Punisher",
+        "date": "2020-06-18",
+        "seconds": 220,
+        "credit": "Phoebe Bridgers"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2020-06-18",
+      "catalogAlbumSeconds": [
+        220
+      ],
+      "appleSeconds": 220
+    }
+  },
+  "el-baile-y-el-salon": {
+    "want": {
+      "title": "El Baile y el Salón",
+      "artist": "Café Tacvba",
+      "album": "Re",
+      "year": 1994
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 36401182,
+      "collectionId": 36401122,
+      "track": "El Baile y el Salón",
+      "artist": "Café Tacvba",
+      "album": "Re",
+      "releaseDate": "1994-07-22",
+      "seconds": 308,
+      "trackNumber": 18,
+      "trackCount": 20,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 5,
+      "earliestRelease": "1994-07-22",
+      "firstStudioAlbum": {
+        "album": "Re",
+        "date": "1994",
+        "seconds": 308,
+        "credit": "Café Tacvba"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1994",
+      "catalogAlbumSeconds": [
+        308
+      ],
+      "appleSeconds": 308
+    }
+  },
+  "yi-wu-suo-you": {
+    "want": {
+      "title": "一无所有",
+      "artist": "崔健",
+      "album": "新长征路上的摇滚",
+      "year": 1989
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1585626292,
+      "collectionId": 1585625540,
+      "track": "一无所有",
+      "artist": "Cui Jian",
+      "album": "新长征路上的摇滚",
+      "releaseDate": "1989-02-01",
+      "seconds": 344,
+      "trackNumber": 8,
+      "trackCount": 9,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 9,
+      "earliestRelease": "1989-02-01",
+      "firstStudioAlbum": {
+        "album": "新长征路上的摇滚",
+        "date": "1989-02-01",
+        "seconds": 344,
+        "credit": "崔健"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1989-02-01",
+      "catalogAlbumSeconds": [
+        344
+      ],
+      "appleSeconds": 344
+    }
+  },
+  "lvxing-de-yiyi": {
+    "want": {
+      "title": "旅行的意义",
+      "artist": "陈绮贞",
+      "album": "华丽的冒险",
+      "year": 2005
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "hk",
+      "trackId": 818157965,
+      "collectionId": 818157917,
+      "track": "旅行的意義",
+      "artist": "陳綺貞",
+      "album": "華麗的冒險",
+      "releaseDate": "2005-09-23",
+      "seconds": 257,
+      "trackNumber": 1,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 9,
+      "earliestRelease": "2004-03",
+      "firstStudioAlbum": {
+        "album": "華麗的冒險",
+        "date": "2005",
+        "seconds": 257,
+        "credit": "陳綺貞"
+      },
+      "catalogAlbumFound": false,
+      "catalogAlbumFirstDate": null,
+      "catalogAlbumSeconds": [],
+      "appleSeconds": 257
+    }
+  },
+  "paranoid": {
+    "want": {
+      "title": "Paranoid",
+      "artist": "Black Sabbath",
+      "album": "Paranoid",
+      "year": 1970
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 785232521,
+      "collectionId": 785232473,
+      "track": "Paranoid",
+      "artist": "Black Sabbath",
+      "album": "Paranoid",
+      "releaseDate": "1970-08-07",
+      "seconds": 168,
+      "trackNumber": 2,
+      "trackCount": 8,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 100,
+      "earliestRelease": "1970-08-07",
+      "firstStudioAlbum": {
+        "album": "Paranoid",
+        "date": "1970",
+        "seconds": 168,
+        "credit": "Black Sabbath"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1970",
+      "catalogAlbumSeconds": [
+        168,
+        193,
+        170
+      ],
+      "appleSeconds": 168
+    }
+  },
+  "closer": {
+    "want": {
+      "title": "Closer",
+      "artist": "Nine Inch Nails",
+      "album": "The Downward Spiral",
+      "year": 1994
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1440837621,
+      "collectionId": 1440837096,
+      "track": "Closer",
+      "artist": "Nine Inch Nails",
+      "album": "The Downward Spiral",
+      "releaseDate": "1994-03-08",
+      "seconds": 373,
+      "trackNumber": 5,
+      "trackCount": 14,
+      "explicitness": "explicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "so-did-we": {
+    "want": {
+      "title": "So Did We",
+      "artist": "Isis",
+      "album": "Panopticon",
+      "year": 2004
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1891405284,
+      "collectionId": 1891405282,
+      "track": "So Did We (Remastered)",
+      "artist": "ISIS",
+      "album": "Panopticon (Remastered)",
+      "releaseDate": "2004-01-01",
+      "seconds": 450,
+      "trackNumber": 1,
+      "trackCount": 7,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 5,
+      "earliestRelease": "2004-10-19",
+      "firstStudioAlbum": {
+        "album": "Panopticon",
+        "date": "2004",
+        "seconds": 450,
+        "credit": "Isis"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2004",
+      "catalogAlbumSeconds": [
+        450
+      ],
+      "appleSeconds": 450
+    }
+  },
+  "dream-house": {
+    "want": {
+      "title": "Dream House",
+      "artist": "Deafheaven",
+      "album": "Sunbather",
+      "year": 2013
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 652039247,
+      "collectionId": 652038965,
+      "track": "Dream House",
+      "artist": "Deafheaven",
+      "album": "Sunbather",
+      "releaseDate": "2013-06-11",
+      "seconds": 555,
+      "trackNumber": 1,
+      "trackCount": 7,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 6,
+      "earliestRelease": "2013-05-28",
+      "firstStudioAlbum": {
+        "album": "Sunbather",
+        "date": "2013-05-28",
+        "seconds": 555,
+        "credit": "Deafheaven"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2013-05-28",
+      "catalogAlbumSeconds": [
+        555,
+        554
+      ],
+      "appleSeconds": 555
+    }
+  },
+  "hot-on-the-heels-of-love": {
+    "want": {
+      "title": "Hot on the Heels of Love",
+      "artist": "Throbbing Gristle",
+      "album": "20 Jazz Funk Greats",
+      "year": 1979
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1217968213,
+      "collectionId": 1217967648,
+      "track": "Hot On Heels of Love (Remastered)",
+      "artist": "Throbbing Gristle",
+      "album": "20 Jazz Funk Greats (Remastered)",
+      "releaseDate": "1979-01-01",
+      "seconds": 261,
+      "trackNumber": 7,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "funeralopolis": {
+    "want": {
+      "title": "Funeralopolis",
+      "artist": "Electric Wizard",
+      "album": "Dopethrone",
+      "year": 2000
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 965381929,
+      "collectionId": 965381927,
+      "track": "Funeralopolis",
+      "artist": "Electric Wizard",
+      "album": "Dopethrone",
+      "releaseDate": "2000-09-25",
+      "seconds": 523,
+      "trackNumber": 2,
+      "trackCount": 9,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 4,
+      "earliestRelease": "2000-09-25",
+      "firstStudioAlbum": {
+        "album": "Dopethrone",
+        "date": "2000",
+        "seconds": 523,
+        "credit": "Electric Wizard"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2000",
+      "catalogAlbumSeconds": [
+        523
+      ],
+      "appleSeconds": 523
+    }
+  },
+  "yu-gung": {
+    "want": {
+      "title": "Yü-Gung (Fütter mein Ego)",
+      "artist": "Einstürzende Neubauten",
+      "album": "Halber Mensch",
+      "year": 1985
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 1438435291,
+      "collectionId": 1438435058,
+      "track": "Yü-gung (Fütter mein Ego)",
+      "artist": "Einstürzende Neubauten",
+      "album": "Halber Mensch",
+      "releaseDate": "1985-01-01",
+      "seconds": 434,
+      "trackNumber": 2,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 25,
+      "earliestRelease": "1985",
+      "firstStudioAlbum": {
+        "album": "Halber Mensch",
+        "date": "1985",
+        "seconds": 434,
+        "credit": "Einstürzende Neubauten"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1985",
+      "catalogAlbumSeconds": [
+        434
+      ],
+      "appleSeconds": 434
+    }
+  },
+  "farewell": {
+    "want": {
+      "title": "決別",
+      "artist": "Boris",
+      "album": "PINK",
+      "year": 2005
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "jp",
+      "trackId": 1580076291,
+      "collectionId": 1580076290,
+      "track": "Farewell",
+      "artist": "Boris",
+      "album": "Pink",
+      "releaseDate": "2005-11-18",
+      "seconds": 453,
+      "trackNumber": 1,
+      "trackCount": 11,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    }
+  },
+  "in-the-end": {
+    "want": {
+      "title": "In the End",
+      "artist": "Linkin Park",
+      "album": "Hybrid Theory",
+      "year": 2000
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 590431785,
+      "collectionId": 590431776,
+      "track": "In the End",
+      "artist": "LINKIN PARK",
+      "album": "Hybrid Theory (Deluxe Edition)",
+      "releaseDate": "2000-10-24",
+      "seconds": 216,
+      "trackNumber": 8,
+      "trackCount": 16,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 89,
+      "earliestRelease": "2000",
+      "firstStudioAlbum": {
+        "album": "Hybrid Theory",
+        "date": "2000",
+        "seconds": 90,
+        "credit": "Linkin Park"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "2000",
+      "catalogAlbumSeconds": [
+        90,
+        216,
+        206,
+        217
+      ],
+      "appleSeconds": 216
+    }
+  },
+  "cravo-e-canela": {
+    "want": {
+      "title": "Cravo e Canela",
+      "artist": "Milton Nascimento & Lô Borges",
+      "album": "Clube da Esquina",
+      "year": 1972
+    },
+    "status": "pinned",
+    "chosen": {
+      "storefront": "us",
+      "trackId": 725786837,
+      "collectionId": 725786220,
+      "track": "Cravo e Canela (feat. Lô Borges)",
+      "artist": "Milton Nascimento & Lô Borges",
+      "album": "Clube da Esquina",
+      "releaseDate": "1972-03-01",
+      "seconds": 152,
+      "trackNumber": 6,
+      "trackCount": 15,
+      "explicitness": "notExplicit",
+      "hasPreview": true,
+      "score": 100,
+      "notes": [],
+      "acceptable": true
+    },
+    "musicbrainz": {
+      "hits": 18,
+      "earliestRelease": "1972",
+      "firstStudioAlbum": {
+        "album": "Clube da Esquina",
+        "date": "1972",
+        "seconds": 152,
+        "credit": "Milton Nascimento & Lô Borges"
+      },
+      "catalogAlbumFound": true,
+      "catalogAlbumFirstDate": "1972",
+      "catalogAlbumSeconds": [
+        152,
+        151
+      ],
+      "appleSeconds": 152
+    }
+  }
+}

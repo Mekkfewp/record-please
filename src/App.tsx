@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useSyncExternalStore } from 'react';
 import {
   CARDS,
   LINEAGES,
@@ -7,7 +7,6 @@ import {
   pickNextSingle,
 } from './data';
 import { getCell } from './data/catalog';
-import { placeholderGroove } from './data/placeholderArt';
 import { BoothLeftColumn } from './components/BoothLeftColumn';
 import { DossierDesk } from './components/DossierDesk';
 import { EntryPermit } from './components/EntryPermit';
@@ -15,6 +14,7 @@ import { GenealogyBook } from './components/GenealogyBook';
 import { LoreCardModal } from './components/LoreCardModal';
 import { PlaylistPassport } from './components/PlaylistPassport';
 import { soundDesk } from './engine/audioEngine';
+import { previewPlayer } from './engine/previewPlayer';
 import type { Card, LineageId, LoreItem, PlayerProfile } from './types/game';
 
 const TARGET_ROUNDS = 9;
@@ -50,12 +50,12 @@ export default function App() {
   const [bookmarkedLore, setBookmarkedLore] = useState<LoreItem[]>([]);
 
   const [muted, setMuted] = useState(soundDesk.isMuted());
-  const [playingTrackId, setPlayingTrackId] = useState<string | null>(null);
+  const preview = useSyncExternalStore(previewPlayer.subscribe, previewPlayer.getState);
 
   useEffect(() => {
     return soundDesk.subscribe(() => {
       setMuted(soundDesk.isMuted());
-      setPlayingTrackId(soundDesk.getPlayingTrackId());
+      previewPlayer.setMuted(soundDesk.isMuted());
     });
   }, []);
 
@@ -83,7 +83,7 @@ export default function App() {
 
   const advanceDesk = (decision: 'collect' | 'pass') => {
     if (!profile) return;
-    soundDesk.stopGroove();
+    previewPlayer.stop();
     const nextRound = round + 1;
 
     // Trigger Cultural Lore Interlude on rounds 3, 6, 9
@@ -160,6 +160,8 @@ export default function App() {
     setActiveLore(null);
   };
 
+  const previewStatus = preview.trackId === currentSingle.track.id ? preview.status : 'idle';
+
   const activeLineage: LineageId =
     currentSingle.track.lineage ??
     (profile ? getCell(profile.birthEra, profile.region).bridges[0] : 'shoegaze-indie');
@@ -212,7 +214,7 @@ export default function App() {
                 disabled={collectedSingles.length === 0}
                 className="pixel-btn brass"
                 onClick={() => {
-                  soundDesk.stopGroove();
+                  previewPlayer.stop();
                   soundDesk.playPassportFanfare();
                   setPhase('passport');
                 }}
@@ -239,7 +241,7 @@ export default function App() {
           <BoothLeftColumn
             activeLineage={activeLineage}
             steeredLineage={steeredLineage}
-            isPlaying={playingTrackId === currentSingle.track.id}
+            isPlaying={previewStatus === 'playing'}
             collectedSingles={collectedSingles}
             round={round}
             targetRounds={TARGET_ROUNDS}
@@ -252,7 +254,7 @@ export default function App() {
               setRulebookOpen(true);
             }}
             onFinishPassport={() => {
-              soundDesk.stopGroove();
+              previewPlayer.stop();
               soundDesk.playPassportFanfare();
               setPhase('passport');
             }}
@@ -262,10 +264,8 @@ export default function App() {
             card={currentSingle}
             reason={reason}
             stampState={stampState}
-            isPlayingGroove={playingTrackId === currentSingle.track.id}
-            onToggleGroove={() =>
-              soundDesk.toggleGroove(currentSingle.track.id, placeholderGroove(currentSingle.track.lineage))
-            }
+            previewStatus={previewStatus}
+            onTogglePreview={() => previewPlayer.toggle(currentSingle.track.id, currentSingle.track.apple)}
             onNextAfterCollect={() => advanceDesk('collect')}
           />
         </main>
@@ -279,7 +279,7 @@ export default function App() {
           lineageCounts={lineageCounts}
           onKeepDigging={() => setPhase('booth')}
           onRestart={() => {
-            soundDesk.stopGroove();
+            previewPlayer.stop();
             setPhase('permit');
           }}
         />

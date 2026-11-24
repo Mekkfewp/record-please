@@ -1,51 +1,41 @@
 import { countryLabel, lineageColor, lineageLabel } from '../data';
-import { placeholderCover } from '../data/placeholderArt';
-import { AlbumCoverCanvas, Single7InchCanvas } from './PixelArtViews';
+import { CoverArt } from './CoverArt';
+import { AppleCredit, ListenLinks } from './ListenLinks';
+import type { PreviewStatus } from '../engine/previewPlayer';
 import type { Card } from '../types/game';
+
+const PREVIEW_LABEL: Record<PreviewStatus, string> = {
+  idle: '▶ 试听 30 秒',
+  loading: '… 载入中',
+  playing: '■ 停止',
+  unavailable: '试听暂不可用',
+};
 
 export function DossierDesk({
   card,
   reason,
   stampState,
-  isPlayingGroove,
-  onToggleGroove,
+  previewStatus,
+  onTogglePreview,
   onNextAfterCollect,
 }: {
   card: Card;
   reason: string;
   stampState: 'idle' | 'collected' | 'passed';
-  isPlayingGroove: boolean;
-  onToggleGroove: () => void;
+  previewStatus: PreviewStatus;
+  onTogglePreview: () => void;
   onNextAfterCollect: () => void;
 }) {
   const { track, artist, album } = card;
+  const hasPreview = Boolean(track.apple) && previewStatus !== 'unavailable';
 
   return (
     <div className="desk-surface">
-      <div
-        style={{
-          background: '#212b25',
-          border: '2px solid #d4a247',
-          color: '#f2e8cf',
-          padding: '7px 12px',
-          fontSize: 12,
-        }}
-      >
-        🧭 {reason}
-      </div>
+      <div className="desk-reason">🧭 {reason}</div>
 
-      <div className="paper-sheet" style={{ padding: '14px 16px' }}>
-        <div
-          style={{
-            display: 'flex',
-            justifyContent: 'space-between',
-            alignItems: 'center',
-            gap: 8,
-            flexWrap: 'wrap',
-            marginBottom: 10,
-          }}
-        >
-          <div style={{ display: 'flex', gap: 8, alignItems: 'center', flexWrap: 'wrap' }}>
+      <div className="paper-sheet card-sheet">
+        <div className="card-sheet-head">
+          <div className="card-sheet-badges">
             <span className="dim-badge">[单曲 SINGLE]</span>
             <span
               className="dim-badge"
@@ -64,69 +54,55 @@ export function DossierDesk({
           )}
         </div>
 
-        <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start', flexWrap: 'wrap' }}>
-          <div style={{ flexShrink: 0 }}>
-            <Single7InchCanvas spec={placeholderCover(track.id, track.lineage)} isPlaying={isPlayingGroove} />
+        <div className="card-sheet-body">
+          <div className="card-cover-col">
+            <CoverArt card={card} size={144} />
             <button
               type="button"
-              data-testid="preview-groove-btn"
-              onClick={onToggleGroove}
-              className={`pixel-btn ${isPlayingGroove ? 'brass' : ''}`}
-              style={{ width: '100%', marginTop: 6, fontSize: 12, padding: '5px 8px' }}
+              data-testid="preview-btn"
+              data-status={track.apple ? previewStatus : 'unavailable'}
+              onClick={onTogglePreview}
+              disabled={!hasPreview || previewStatus === 'loading'}
+              className={`pixel-btn preview-btn ${previewStatus === 'playing' ? 'brass' : ''}`}
             >
-              {isPlayingGroove ? '■ 停止' : '▶ 合成示意音（非原曲）'}
+              {track.apple ? PREVIEW_LABEL[previewStatus] : PREVIEW_LABEL.unavailable}
             </button>
           </div>
 
-          <div style={{ flex: 1, minWidth: 230 }}>
-            <div data-testid="card-title" style={{ fontSize: 21, fontWeight: 900, lineHeight: 1.25 }}>
+          <div className="card-text-col">
+            <div data-testid="card-title" className="card-title">
               〈{track.title}〉
             </div>
-            <div data-testid="card-artist" style={{ fontSize: 14, fontWeight: 700, color: '#3b3328', marginTop: 3 }}>
+            <div data-testid="card-artist" className="card-artist">
               {artist.name} · {track.year}
             </div>
-            <div style={{ marginTop: 7 }}>
-              <span className="tag-pill" style={{ background: '#e8dcc2', fontWeight: 700 }}>
-                {track.genre}
-              </span>
+            <div className="card-genre">
+              <span className="tag-pill">{track.genre}</span>
             </div>
+            <ListenLinks card={card} />
           </div>
         </div>
+        <AppleCredit />
       </div>
 
       {stampState === 'collected' && (
         <div data-testid="progressive-unlock-panel" className="progressive-grid">
-          <div className="paper-sheet" style={{ padding: 14, background: 'var(--paper-manila)' }}>
-            <div className="dim-badge" style={{ marginBottom: 8 }}>
-              [音乐人 ARTIST · 已解锁]
-            </div>
-            <div data-testid="unlocked-artist" style={{ fontWeight: 900, fontSize: 16 }}>{artist.name}</div>
-            <div style={{ fontSize: 12, color: '#4d4335', marginTop: 2 }}>
-              来自：{countryLabel(artist.country)}
-            </div>
+          <div className="paper-sheet unlock-sheet manila">
+            <div className="dim-badge">[音乐人 ARTIST · 已解锁]</div>
+            <div data-testid="unlocked-artist" className="unlock-name">{artist.name}</div>
+            <div className="unlock-note">来自：{countryLabel(artist.country)}</div>
           </div>
 
-          <div className="paper-sheet" style={{ padding: 14, background: 'var(--paper-cream)' }}>
-            <div className="dim-badge" style={{ marginBottom: 8 }}>
-              [专辑 ALBUM · 已解锁]
+          <div className="paper-sheet unlock-sheet">
+            <div className="dim-badge">[专辑 ALBUM · 已解锁]</div>
+            <div data-testid="unlocked-album" className="unlock-name">
+              《{album.title}》({album.year})
             </div>
-            <div style={{ display: 'flex', gap: 12, alignItems: 'flex-start' }}>
-              <AlbumCoverCanvas spec={placeholderCover(album.id, track.lineage)} size={96} />
-              <div style={{ flex: 1 }}>
-                <div data-testid="unlocked-album" style={{ fontWeight: 900, fontSize: 16 }}>
-                  《{album.title}》({album.year})
-                </div>
-                <div style={{ fontSize: 12, color: '#4d4335', marginTop: 2 }}>
-                  {artist.name} · 〈{track.title}〉收录于这张专辑
-                </div>
-              </div>
+            <div className="unlock-note">
+              {artist.name} · 〈{track.title}〉收录于这张专辑
             </div>
-            <div style={{ marginTop: 10, textAlign: 'right' }}>
-              <button
-                type="button"
-                onClick={onNextAfterCollect}
-                className="pixel-btn approve"
-              >
+            <div className="unlock-next">
+              <button type="button" onClick={onNextAfterCollect} className="pixel-btn approve">
                 下一张 →
               </button>
             </div>

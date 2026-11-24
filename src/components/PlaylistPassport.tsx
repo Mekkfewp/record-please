@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { LINEAGE_LIST, LINEAGE_STYLE, getEra, getRegion, lineageLabel } from '../data';
 import { resolvePersona } from '../data/personas';
-import { placeholderCover } from '../data/placeholderArt';
 import { downloadPassportPng } from '../engine/passportExporter';
-import { AlbumCoverCanvas, LoreCoverCanvas, PortraitCanvas } from './PixelArtViews';
+import { CoverArt } from './CoverArt';
+import { AppleCredit, ListenLinks } from './ListenLinks';
+import { LoreCoverCanvas, PortraitCanvas } from './PixelArtViews';
 import type { Card, LineageId, LoreItem, PlayerProfile } from '../types/game';
 
 export function PlaylistPassport({
@@ -45,7 +46,8 @@ export function PlaylistPassport({
       `## 歌单 (${collected.length} 首)`,
       ...collected.map(
         ({ track, artist, album }, i) =>
-          `${i + 1}. **${track.title}** — ${artist.name} (${track.year})，专辑《${album.title}》`
+          `${i + 1}. **${track.title}** — ${artist.name} (${track.year})，专辑《${album.title}》` +
+          (track.apple ? ` [Apple Music](${track.apple.url})` : '')
       ),
       ...(bookmarkedLore.length > 0
         ? [``, `## 延伸阅读 (${bookmarkedLore.length})`, ...bookmarkedLore.map((l) => `- ${l.title}（${l.creator}，${l.year}）`)]
@@ -143,7 +145,9 @@ export function PlaylistPassport({
           <div style={{ background: '#dfd3b8', padding: 14, border: '2px solid #191613' }}>
             <div style={{ fontWeight: 900, fontSize: 15, marginBottom: 10 }}>🎵 歌单 ({collected.length} 首)</div>
             {collected.length === 0 && <div style={{ fontSize: 12 }}>这一趟没有收下任何唱片。</div>}
-            {collected.map(({ track, artist, album }, idx) => (
+            {collected.map((card, idx) => {
+              const { track, artist, album } = card;
+              return (
               <div
                 key={track.id}
                 data-testid="playlist-row"
@@ -155,15 +159,18 @@ export function PlaylistPassport({
                   fontSize: 13,
                 }}
               >
-                <AlbumCoverCanvas spec={placeholderCover(album.id, track.lineage)} size={40} />
+                <CoverArt card={card} size={48} grid={24} />
                 <div>
                   <strong>{String(idx + 1).padStart(2, '0')}. 〈{track.title}〉</strong> — {artist.name} ({track.year})
                   <div style={{ fontSize: 11, color: '#4d4335' }}>
                     《{album.title}》({album.year}) · {lineageLabel(track.lineage)} · {track.genre}
                   </div>
+                  <ListenLinks card={card} compact />
                 </div>
               </div>
-            ))}
+              );
+            })}
+            {collected.length > 0 && <AppleCredit />}
           </div>
 
           <div style={{ background: '#dfd3b8', padding: 14, border: '2px solid #191613' }}>

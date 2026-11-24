@@ -194,7 +194,7 @@
     },
     {
       "id": "prince",
-      "name": "Prince",
+      "name": "Prince & The Revolution",
       "country": "US",
       "region": "usa"
     },
@@ -631,12 +631,6 @@
       "region": "uk"
     },
     {
-      "id": "gybe",
-      "name": "Godspeed You! Black Emperor",
-      "country": "CA",
-      "region": null
-    },
-    {
       "id": "slint",
       "name": "Slint",
       "country": "US",
@@ -1035,10 +1029,10 @@
       "year": 1990
     },
     {
-      "id": "asylum-party--borderline",
-      "title": "Borderline",
+      "id": "asylum-party--picture-one",
+      "title": "Picture One",
       "artistId": "asylum-party",
-      "year": 1989
+      "year": 1988
     },
     {
       "id": "the-cure--disintegration",
@@ -1167,10 +1161,10 @@
       "year": 2008
     },
     {
-      "id": "toe--the-book-about-my-idle-plot-on-a-vague-anxiety",
-      "title": "the book about my idle plot on a vague anxiety",
+      "id": "toe--new-sentimentality",
+      "title": "New Sentimentality",
       "artistId": "toe",
-      "year": 2005
+      "year": 2006
     },
     {
       "id": "frank-ocean--blonde",
@@ -1240,7 +1234,7 @@
     },
     {
       "id": "sunset-rollercoaster--jinji-kikko",
-      "title": "Jinji Kikko",
+      "title": "JINJI KIKKO",
       "artistId": "sunset-rollercoaster",
       "year": 2016
     },
@@ -1314,7 +1308,7 @@
       "id": "art-blakey--moanin",
       "title": "Moanin'",
       "artistId": "art-blakey",
-      "year": 1959
+      "year": 1958
     },
     {
       "id": "charles-mingus--mingus-ah-um",
@@ -1429,12 +1423,6 @@
       "title": "Young Team",
       "artistId": "mogwai",
       "year": 1997
-    },
-    {
-      "id": "gybe--lift-your-skinny-fists-like-antennas-to-heaven",
-      "title": "Lift Your Skinny Fists Like Antennas to Heaven",
-      "artistId": "gybe",
-      "year": 2000
     },
     {
       "id": "slint--spiderland",
@@ -1776,7 +1764,20 @@
       "year": 1991,
       "genre": "Pop",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Michael%20Jackson%20Black%20or%20White&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Michael%20Jackson%20Black%20or%20White&t=song"
+      },
+      "apple": {
+        "trackId": 322847191,
+        "collectionId": 322847038,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/7b/e4/5a/7be45aee-69a0-c6d3-102c-6658ab463b22/mzaf_5458873194560250720.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/cf/68/f9/cf68f9d4-e395-9ced-3e50-8cf7f1f9d3e0/884977307832.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/black-or-white/322847038?i=322847191",
+        "cn": true
+      }
     },
     {
       "id": "gaoji-dongwu",
@@ -1786,7 +1787,20 @@
       "year": 1994,
       "genre": "Post-Punk",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E7%AA%A6%E5%94%AF%20%E9%AB%98%E7%BA%A7%E5%8A%A8%E7%89%A9&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E7%AA%A6%E5%94%AF%20%E9%AB%98%E7%BA%A7%E5%8A%A8%E7%89%A9&t=song"
+      },
+      "apple": {
+        "trackId": 158799064,
+        "collectionId": 158796449,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/58/a5/02/58a5028b-939d-a2a9-6d31-4b5319751181/mzaf_16340283365635835343.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features115/v4/f9/ac/98/f9ac98e4-956f-c013-e703-8ae5b7cdb880/dj.flkwjbql.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/%E9%AB%98%E7%B4%9A%E5%8B%95%E7%89%A9/158796449?i=158799064",
+        "cn": true
+      }
     },
     {
       "id": "like-a-prayer",
@@ -1796,7 +1810,20 @@
       "year": 1989,
       "genre": "Pop",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Madonna%20Like%20a%20Prayer&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Madonna%20Like%20a%20Prayer&t=song"
+      },
+      "apple": {
+        "trackId": 83445997,
+        "collectionId": 83448003,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0b/23/82/0b238289-52e2-2107-5531-181836267ed2/mzaf_6726729811402686020.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/20/3c/f5/203cf53d-689e-528f-29d7-ba33758254aa/mzi.rotbotfl.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/like-a-prayer/83448003?i=83445997",
+        "cn": true
+      }
     },
     {
       "id": "fuzao",
@@ -1806,7 +1833,20 @@
       "year": 1996,
       "genre": "Dream Pop",
       "lineage": "shoegaze-indie",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E7%8E%8B%E8%8F%B2%20%E6%B5%AE%E8%BA%81&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E7%8E%8B%E8%8F%B2%20%E6%B5%AE%E8%BA%81&t=song"
+      },
+      "apple": {
+        "trackId": 1443287506,
+        "collectionId": 1443287350,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/11/41/be/1141be59-5dc3-5d8a-74b8-dfff79d94adc/mzaf_2431692426835740235.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music128/v4/f6/31/d6/f631d6d6-1fd0-272a-3feb-de30b4e69ace/00602517665095.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/%E6%B5%AE%E8%BA%81/1443287350?i=1443287506",
+        "cn": true
+      }
     },
     {
       "id": "kiss",
@@ -1816,7 +1856,20 @@
       "year": 1986,
       "genre": "Funk",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Prince%20%26%20The%20Revolution%20Kiss&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Prince%20%26%20The%20Revolution%20Kiss&t=song"
+      },
+      "apple": {
+        "trackId": 260336471,
+        "collectionId": 260336005,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/da/48/98/da48985c-a43a-df20-e795-3a9c8dd193bb/mzaf_13129356430453756419.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a7/04/dc/a704dce9-7671-9f42-4584-57bb7f822530/075992539562.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/kiss/260336005?i=260336471",
+        "cn": true
+      }
     },
     {
       "id": "koi-to-machine-gun",
@@ -1826,7 +1879,20 @@
       "year": 1990,
       "genre": "Shibuya-kei",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Flipper's%20Guitar%20%E6%81%8B%E3%81%A8%E3%83%9E%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%B3&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Flipper's%20Guitar%20%E6%81%8B%E3%81%A8%E3%83%9E%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%B3&t=song"
+      },
+      "apple": {
+        "trackId": 290714280,
+        "collectionId": 290714279,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/55/1b/57551b19-75e6-a7b3-2f6a-62414021b862/mzaf_9051104155598316622.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/20/24/d0/2024d0d2-b58e-4653-3ce0-d3a92c0dd406/4538182024508_cov.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/young-alive-in-love-%E6%81%8B%E3%81%A8%E3%83%9E%E3%82%B7%E3%83%B3%E3%82%AC%E3%83%B3-remastered-2006/290714279?i=290714280",
+        "cn": true
+      }
     },
     {
       "id": "smells-like-teen-spirit",
@@ -1836,7 +1902,20 @@
       "year": 1991,
       "genre": "Grunge",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Nirvana%20Smells%20Like%20Teen%20Spirit&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Nirvana%20Smells%20Like%20Teen%20Spirit&t=song"
+      },
+      "apple": {
+        "trackId": 1440783625,
+        "collectionId": 1440783617,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/65/49/4e/65494e02-b6d3-26d8-6b0c-9bd98dcf4d5d/mzaf_7665413316386155700.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/95/fd/b9/95fdb9b2-6d2b-92a6-97f2-51c1a6d77f1a/00602527874609.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/smells-like-teen-spirit/1440783617?i=1440783625",
+        "cn": true
+      }
     },
     {
       "id": "teen-age-riot",
@@ -1846,7 +1925,20 @@
       "year": 1988,
       "genre": "Noise Rock",
       "lineage": "punk-postpunk",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Sonic%20Youth%20Teen%20Age%20Riot&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Sonic%20Youth%20Teen%20Age%20Riot&t=song"
+      },
+      "apple": {
+        "trackId": 520504456,
+        "collectionId": 520504308,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/35/cf/1e/35cf1efb-cffd-5402-7724-f35d7c2fae29/mzaf_14880415812488891652.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/8a/0c/c3/8a0cc364-2b35-1313-330d-7d9f686ef17d/contsched.wjpvswwx.tif/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/teen-age-riot-2012-remastered-version/520504308?i=520504456",
+        "cn": true
+      }
     },
     {
       "id": "wonderwall",
@@ -1856,7 +1948,20 @@
       "year": 1995,
       "genre": "Britpop",
       "lineage": "shoegaze-indie",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Oasis%20Wonderwall&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Oasis%20Wonderwall&t=song"
+      },
+      "apple": {
+        "trackId": 1517447333,
+        "collectionId": 1517447039,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ab/16/93/ab16933c-6203-3db9-9da9-513ff1c8496d/mzaf_16993612140334549994.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music113/v4/04/92/e0/0492e08b-cbcc-9969-9ad6-8f5a0888068c/5051961007107.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/wonderwall/1517447039?i=1517447333",
+        "cn": false
+      }
     },
     {
       "id": "there-is-a-light",
@@ -1866,7 +1971,20 @@
       "year": 1986,
       "genre": "Jangle Pop",
       "lineage": "shoegaze-indie",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=The%20Smiths%20There%20Is%20a%20Light%20That%20Never%20Goes%20Out&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=The%20Smiths%20There%20Is%20a%20Light%20That%20Never%20Goes%20Out&t=song"
+      },
+      "apple": {
+        "trackId": 800157892,
+        "collectionId": 800092985,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/4e/c9/1d/4ec91df8-8524-b6ac-812c-fb38054be09d/mzaf_3253228293752173874.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/1a/e8/70/1ae870c3-b402-096b-c4c4-8022af5a2ed9/745099189662.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/there-is-a-light-that-never-goes-out/800092985?i=800157892",
+        "cn": true
+      }
     },
     {
       "id": "enjoy-the-silence",
@@ -1876,17 +1994,43 @@
       "year": 1990,
       "genre": "Synthpop",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Depeche%20Mode%20Enjoy%20the%20Silence&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Depeche%20Mode%20Enjoy%20the%20Silence&t=song"
+      },
+      "apple": {
+        "trackId": 1174246889,
+        "collectionId": 1174246686,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/28/35/c7/2835c757-1235-6c93-66ca-49333342ffe1/mzaf_9241866861716136460.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5c/0e/66/5c0e66c0-d383-5641-3ec0-4bdb629c49ad/886445705119.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/enjoy-the-silence/1174246686?i=1174246889",
+        "cn": true
+      }
     },
     {
       "id": "julia",
       "title": "Julia",
       "artistId": "asylum-party",
-      "albumId": "asylum-party--borderline",
-      "year": 1989,
+      "albumId": "asylum-party--picture-one",
+      "year": 1988,
       "genre": "Coldwave",
       "lineage": "punk-postpunk",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Asylum%20Party%20Julia&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Asylum%20Party%20Julia&t=song"
+      },
+      "apple": {
+        "trackId": 1887017451,
+        "collectionId": 1887017450,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/cf/e2/7bcfe2d5-7c81-efb5-765b-49f8160a31dc/mzaf_9480585058051396522.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/f9/44/d5/f944d5b2-1792-afd7-89ec-54c6733c1bfe/artwork.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/julia/1887017450?i=1887017451",
+        "cn": false
+      }
     },
     {
       "id": "lovesong",
@@ -1896,7 +2040,20 @@
       "year": 1989,
       "genre": "Gothic Rock",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=The%20Cure%20Lovesong&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=The%20Cure%20Lovesong&t=song"
+      },
+      "apple": {
+        "trackId": 371772239,
+        "collectionId": 371772227,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/19/11/14/191114b2-6e7f-6bf7-8dca-d0e5686dda12/mzaf_3779494718508004494.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/94/d2/ba/94d2bacf-07d7-df79-24a3-7fbf5207c848/081227981303.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/lovesong/371772227?i=371772239",
+        "cn": false
+      }
     },
     {
       "id": "de-musica-ligera",
@@ -1906,7 +2063,20 @@
       "year": 1990,
       "genre": "Alternative Rock",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Soda%20Stereo%20De%20M%C3%BAsica%20Ligera&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Soda%20Stereo%20De%20M%C3%BAsica%20Ligera&t=song"
+      },
+      "apple": {
+        "trackId": 321882958,
+        "collectionId": 321882757,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/95/6e/1a/956e1a22-49ff-3714-b5b9-c0e93be9e977/mzaf_4047724057514631474.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/60/18/68/601868f7-68ba-9416-af42-b26b2f68035f/mzi.qyqtvoxs.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/de-m%C3%BAsica-ligera/321882757?i=321882958",
+        "cn": true
+      }
     },
     {
       "id": "karma-police",
@@ -1916,7 +2086,20 @@
       "year": 1997,
       "genre": "Art Rock",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Radiohead%20Karma%20Police&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Radiohead%20Karma%20Police&t=song"
+      },
+      "apple": {
+        "trackId": 1097861836,
+        "collectionId": 1097861387,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/21/35/46213520-da4a-1806-0c59-5ca6ad008b4e/mzaf_5277404092043261430.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/07/60/ba/0760ba0f-148c-b18f-d0ff-169ee96f3af5/634904078164.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/karma-police/1097861387?i=1097861836",
+        "cn": true
+      }
     },
     {
       "id": "naxie-huaer",
@@ -1926,7 +2109,20 @@
       "year": 1999,
       "genre": "Folk Pop",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E6%9C%B4%E6%A0%91%20%E9%82%A3%E4%BA%9B%E8%8A%B1%E5%84%BF&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E6%9C%B4%E6%A0%91%20%E9%82%A3%E4%BA%9B%E8%8A%B1%E5%84%BF&t=song"
+      },
+      "apple": {
+        "trackId": 1063212951,
+        "collectionId": 1063212942,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/35/f6/9d35f6e1-cd9a-8fe0-ecf7-3431eb812b43/mzaf_14002068372832305000.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/28/94/e0/2894e08b-05bc-d63c-23ee-4b7e834fb5f2/fengmian.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/%E9%82%A3%E4%BA%9B%E8%8A%B1%E5%85%92/1063212942?i=1063212951",
+        "cn": true
+      }
     },
     {
       "id": "yellow",
@@ -1936,7 +2132,20 @@
       "year": 2000,
       "genre": "Alternative Rock",
       "lineage": "shoegaze-indie",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Coldplay%20Yellow&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Coldplay%20Yellow&t=song"
+      },
+      "apple": {
+        "trackId": 1122782283,
+        "collectionId": 1122782080,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/66/f3/1a/66f31a76-a6ed-cb4c-f353-23310a7ae9a8/mzaf_10593596652344378873.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/f5/93/8c/f5938c49-964c-31d1-4b33-78b634f71fb7/190295978075.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/yellow/1122782080?i=1122782283",
+        "cn": true
+      }
     },
     {
       "id": "ai-zai-xiyuan-qian",
@@ -1946,7 +2155,20 @@
       "year": 2001,
       "genre": "Mandopop",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E5%91%A8%E6%9D%B0%E4%BC%A6%20%E7%88%B1%E5%9C%A8%E8%A5%BF%E5%85%83%E5%89%8D&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E5%91%A8%E6%9D%B0%E4%BC%A6%20%E7%88%B1%E5%9C%A8%E8%A5%BF%E5%85%83%E5%89%8D&t=song"
+      },
+      "apple": {
+        "trackId": 1721454235,
+        "collectionId": 1721454234,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/43/1e/55/431e5587-8941-e289-8a6c-034fc8d607c6/mzaf_17549686106269583387.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/14/b9/fa/14b9fa3f-ef0c-01de-3721-93ff740062b5/23UM1IM56711.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/%E6%84%9B%E5%9C%A8%E8%A5%BF%E5%85%83%E5%89%8D/1721454234?i=1721454235",
+        "cn": false
+      }
     },
     {
       "id": "first-love",
@@ -1956,7 +2178,20 @@
       "year": 1999,
       "genre": "J-Pop",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB%20First%20Love&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E5%AE%87%E5%A4%9A%E7%94%B0%E3%83%92%E3%82%AB%E3%83%AB%20First%20Love&t=song"
+      },
+      "apple": {
+        "trackId": 1440763358,
+        "collectionId": 1440763349,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d0/b8/23/d0b823d5-e55b-6ee8-c1ec-2c91fd43aba3/mzaf_706648209162590351.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/77/67/00/77670013-e2ed-437a-dc30-e9cb74056cbe/00600406427052.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/first-love-remastered-2014/1440763349?i=1440763358",
+        "cn": true
+      }
     },
     {
       "id": "night-cruising",
@@ -1966,7 +2201,20 @@
       "year": 1995,
       "genre": "Dream Pop",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Fishmans%20%E3%83%8A%E3%82%A4%E3%83%88%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Fishmans%20%E3%83%8A%E3%82%A4%E3%83%88%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0&t=song"
+      },
+      "apple": {
+        "trackId": 1416941921,
+        "collectionId": 1416941115,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c3/d5/9e/c3d59ea5-53f2-7f66-2e7f-67448e9b746b/mzaf_5987337124879944842.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/41/2a/6b/412a6bcb-68ac-e2f1-9598-198ffa36cdaf/00602567908593.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/%E3%83%8A%E3%82%A4%E3%83%88%E3%82%AF%E3%83%AB%E3%83%BC%E3%82%B8%E3%83%B3%E3%82%B0/1416941115?i=1416941921",
+        "cn": true
+      }
     },
     {
       "id": "stan",
@@ -1976,7 +2224,20 @@
       "year": 2000,
       "genre": "Hip Hop",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Eminem%20Stan&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Eminem%20Stan&t=song"
+      },
+      "apple": {
+        "trackId": 1440866795,
+        "collectionId": 1440866782,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/53/25/8a/53258a66-718a-26fe-77f6-a29e0b0e4bed/mzaf_4307617442123076813.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/f7/76/f4/f776f482-406b-301a-4145-14617d0b8cf5/00606949062927.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/stan-feat-dido/1440866782?i=1440866795",
+        "cn": true
+      }
     },
     {
       "id": "never-meant",
@@ -1986,7 +2247,20 @@
       "year": 1999,
       "genre": "Midwest Emo",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=American%20Football%20Never%20Meant&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=American%20Football%20Never%20Meant&t=song"
+      },
+      "apple": {
+        "trackId": 1651301993,
+        "collectionId": 1651301990,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d4/8e/4c/d48e4cee-2cb4-2886-94c9-c1200da15233/mzaf_14555089929452432327.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/17/90/19/179019ea-4eaf-b2e5-ca19-68cdbb795032/644110027696.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/never-meant/1651301990?i=1651301993",
+        "cn": true
+      }
     },
     {
       "id": "song-2",
@@ -1996,7 +2270,20 @@
       "year": 1997,
       "genre": "Britpop",
       "lineage": "shoegaze-indie",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Blur%20Song%202&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Blur%20Song%202&t=song"
+      },
+      "apple": {
+        "trackId": 726416473,
+        "collectionId": 726416050,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/0d/7b/06/0d7b068e-914f-b01a-ef1e-fd21e9b106c6/mzaf_2441215755969695380.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/ed/73/cc/ed73cc61-8244-4f45-90fc-23ad8a3ee7e4/5099997227359.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/song-2-2012-remaster/726416050?i=726416473",
+        "cn": true
+      }
     },
     {
       "id": "teardrop",
@@ -2006,7 +2293,20 @@
       "year": 1998,
       "genre": "Trip Hop",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Massive%20Attack%20Teardrop&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Massive%20Attack%20Teardrop&t=song"
+      },
+      "apple": {
+        "trackId": 724466700,
+        "collectionId": 724466069,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a3/a6/91/a3a691b0-8e49-399d-2585-ddcd6694c9f2/mzaf_16325826545413166648.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/0a/98/55/0a98555b-8d9d-3b46-660a-b91261557d17/00724384559953.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/teardrop/724466069?i=724466700",
+        "cn": true
+      }
     },
     {
       "id": "one-more-time",
@@ -2016,7 +2316,20 @@
       "year": 2000,
       "genre": "French House",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Daft%20Punk%20One%20More%20Time&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Daft%20Punk%20One%20More%20Time&t=song"
+      },
+      "apple": {
+        "trackId": 697195462,
+        "collectionId": 697194953,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5d/93/d8/5d93d83f-ad1e-da4d-1d79-9937bdff24ec/mzaf_14396932211949300852.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/fd/4a/77/fd4a77db-0ebc-d043-41a2-f32fa1bb0fb4/dj.qrikkdwj.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/one-more-time/697194953?i=697195462",
+        "cn": true
+      }
     },
     {
       "id": "sexy-boy",
@@ -2026,7 +2339,20 @@
       "year": 1998,
       "genre": "Downtempo",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Air%20Sexy%20Boy&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Air%20Sexy%20Boy&t=song"
+      },
+      "apple": {
+        "trackId": 693063918,
+        "collectionId": 693063670,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/5e/09/435e094d-4b3c-07a4-5484-f81467ca7cb3/mzaf_13111533954141408106.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/d1/f9/26/d1f926e7-e996-7166-3744-0710a82177ac/017046664455.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/sexy-boy/693063670?i=693063918",
+        "cn": false
+      }
     },
     {
       "id": "ciega-sordomuda",
@@ -2036,7 +2362,20 @@
       "year": 1998,
       "genre": "Latin Pop",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Shakira%20Ciega%2C%20Sordomuda&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Shakira%20Ciega%2C%20Sordomuda&t=song"
+      },
+      "apple": {
+        "trackId": 192682831,
+        "collectionId": 192682818,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/3a/18/63/3a1863ef-7849-d8ce-f7f3-b4dff44497d9/mzaf_15137099757104377555.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/e5/6d/96/e56d9688-0239-7c8f-f907-7614c0f9860b/mzi.uffuznlo.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/ciega-sordomuda/192682818?i=192682831",
+        "cn": true
+      }
     },
     {
       "id": "puente",
@@ -2046,7 +2385,20 @@
       "year": 1999,
       "genre": "Art Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Gustavo%20Cerati%20Puente&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Gustavo%20Cerati%20Puente&t=song"
+      },
+      "apple": {
+        "trackId": 304793008,
+        "collectionId": 304792998,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/84/b5/8884b5b5-83a3-e487-2cc8-2feab50fb629/mzaf_7155624344617325639.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/23/e8/92/23e892a3-6194-2a6a-93aa-fa9010566824/mzi.aqelopve.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/puente/304792998?i=304793008",
+        "cn": true
+      }
     },
     {
       "id": "girlfriend",
@@ -2056,7 +2408,20 @@
       "year": 2007,
       "genre": "Pop Punk",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Avril%20Lavigne%20Girlfriend&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Avril%20Lavigne%20Girlfriend&t=song"
+      },
+      "apple": {
+        "trackId": 268993333,
+        "collectionId": 268993318,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d3/0d/87/d30d8725-fbeb-5b5d-6464-df456a79a34f/mzaf_10477416893673584786.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/41/f0/45/41f04530-b881-6fa6-4da1-6e2001b9fe07/888880378958.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/girlfriend/268993318?i=268993333",
+        "cn": true
+      }
     },
     {
       "id": "shijiazhuang",
@@ -2066,7 +2431,20 @@
       "year": 2010,
       "genre": "Indie Rock",
       "lineage": "folk-psych",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97%20%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AA%E7%9F%B3%E5%AE%B6%E5%BA%84%E4%BA%BA&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E4%B8%87%E8%83%BD%E9%9D%92%E5%B9%B4%E6%97%85%E5%BA%97%20%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AA%E7%9F%B3%E5%AE%B6%E5%BA%84%E4%BA%BA&t=song"
+      },
+      "apple": {
+        "trackId": 1538548895,
+        "collectionId": 1538548871,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f2/73/8f/f2738fd4-60ca-7a38-1a0d-119d8e3443ed/mzaf_3355447278976883780.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/62/43/86/6243868c-c362-74d0-68d5-1de5e89986ee/cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/%E6%9D%80%E6%AD%BB%E9%82%A3%E4%B8%AA%E7%9F%B3%E5%AE%B6%E5%BA%84%E4%BA%BA/1538548871?i=1538548895",
+        "cn": true
+      }
     },
     {
       "id": "rolling-in-the-deep",
@@ -2076,7 +2454,20 @@
       "year": 2010,
       "genre": "Pop Soul",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Adele%20Rolling%20in%20the%20Deep&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Adele%20Rolling%20in%20the%20Deep&t=song"
+      },
+      "apple": {
+        "trackId": 1544491233,
+        "collectionId": 1544491232,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4c/4f/03/4c4f032a-3d2b-853d-da81-996602355b42/mzaf_11625850023134180491.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/eb/ca/25/ebca2596-cd1e-b295-91a3-771c868d0a79/191404113868.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/rolling-in-the-deep/1544491232?i=1544491233",
+        "cn": false
+      }
     },
     {
       "id": "da-feng-chui",
@@ -2086,7 +2477,20 @@
       "year": 2016,
       "genre": "Indie Rock",
       "lineage": "shoegaze-indie",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%20%E5%A4%A7%E9%A3%8E%E5%90%B9&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E8%8D%89%E4%B8%9C%E6%B2%A1%E6%9C%89%E6%B4%BE%E5%AF%B9%20%E5%A4%A7%E9%A3%8E%E5%90%B9&t=song"
+      },
+      "apple": {
+        "trackId": 1676735991,
+        "collectionId": 1676735354,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/53/85/f653858a-bdde-530e-45a0-65b3a06c624c/mzaf_3129731264778222002.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/9a/24/eb/9a24ebaf-836f-af51-baa9-23536fca8319/197188392437.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/%E5%A4%A7%E9%A2%A8%E5%90%B9/1676735354?i=1676735991",
+        "cn": true
+      }
     },
     {
       "id": "polyrhythm",
@@ -2096,17 +2500,43 @@
       "year": 2007,
       "genre": "Electropop",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Perfume%20%E3%83%9D%E3%83%AA%E3%83%AA%E3%82%BA%E3%83%A0&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Perfume%20%E3%83%9D%E3%83%AA%E3%83%AA%E3%82%BA%E3%83%A0&t=song"
+      },
+      "apple": {
+        "trackId": 657666313,
+        "collectionId": 657666068,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/85/2a/f0/852af099-32ff-524a-8ca0-1fea43d16eca/mzaf_16000420243985547011.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/4d/6e/36/4d6e3651-20a1-93b9-1f43-3fa5860e64e9/TKCA-73325.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/%E3%83%9D%E3%83%AA%E3%83%AA%E3%82%BA%E3%83%A0/657666068?i=657666313",
+        "cn": false
+      }
     },
     {
       "id": "goodbye",
       "title": "グッドバイ",
       "artistId": "toe",
-      "albumId": "toe--the-book-about-my-idle-plot-on-a-vague-anxiety",
-      "year": 2005,
+      "albumId": "toe--new-sentimentality",
+      "year": 2006,
       "genre": "Math Rock",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=toe%20%E3%82%B0%E3%83%83%E3%83%89%E3%83%90%E3%82%A4&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=toe%20%E3%82%B0%E3%83%83%E3%83%89%E3%83%90%E3%82%A4&t=song"
+      },
+      "apple": {
+        "trackId": 205862599,
+        "collectionId": 205862428,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/83/0f/a7/830fa78c-c9dd-60d8-429d-0753ec0478fc/mzaf_1523204882115741667.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/0c/ca/fd/mzi.qfqacarq.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/%E3%82%B0%E3%83%83%E3%83%89%E3%83%90%E3%82%A4/205862428?i=205862599",
+        "cn": true
+      }
     },
     {
       "id": "pink-white",
@@ -2116,7 +2546,20 @@
       "year": 2016,
       "genre": "Alternative R&B",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Frank%20Ocean%20Pink%20%2B%20White&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Frank%20Ocean%20Pink%20%2B%20White&t=song"
+      },
+      "apple": {
+        "trackId": 1146195714,
+        "collectionId": 1146195596,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ba/11/dc/ba11dccd-16d2-9cd8-13f0-85b73acc0a09/mzaf_1304250511099243436.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/bb/45/68/bb4568f3-68cd-619d-fbcb-4e179916545d/BlondCover-Final.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/pink-white/1146195596?i=1146195714",
+        "cn": true
+      }
     },
     {
       "id": "alright",
@@ -2126,7 +2569,20 @@
       "year": 2015,
       "genre": "Jazz Rap",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Kendrick%20Lamar%20Alright&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Kendrick%20Lamar%20Alright&t=song"
+      },
+      "apple": {
+        "trackId": 1440829463,
+        "collectionId": 1440828886,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/62/f6/95/62f695f9-6331-b292-8213-6731f41c6463/mzaf_4510846020766395523.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/0d/ae/61/0dae6140-d4af-d0df-eae0-3c92eb392a33/15UMGIM11922.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/alright/1440828886?i=1440829463",
+        "cn": false
+      }
     },
     {
       "id": "i-bet-you-look-good",
@@ -2136,7 +2592,20 @@
       "year": 2005,
       "genre": "Garage Rock Revival",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Arctic%20Monkeys%20I%20Bet%20You%20Look%20Good%20on%20the%20Dancefloor&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Arctic%20Monkeys%20I%20Bet%20You%20Look%20Good%20on%20the%20Dancefloor&t=song"
+      },
+      "apple": {
+        "trackId": 111153391,
+        "collectionId": 111153953,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fe/1e/04/fe1e0418-bb71-7d68-d54b-1cb7a65eb89b/mzaf_17247549451194532748.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/cf/9b/96/cf9b9637-f619-eceb-5382-e9b4d44e74fb/dj.npwkgmai.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/i-bet-you-look-good-on-the-dancefloor/111153953?i=111153391",
+        "cn": true
+      }
     },
     {
       "id": "archangel",
@@ -2146,7 +2615,20 @@
       "year": 2007,
       "genre": "Future Garage",
       "lineage": "electronic-idm",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Burial%20Archangel&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Burial%20Archangel&t=song"
+      },
+      "apple": {
+        "trackId": 893175788,
+        "collectionId": 893175779,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/fd/80/ea/fd80eabb-293c-3f0f-f8eb-aa2fe01092e7/mzaf_11630702710896917232.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/9d/0f/1c/9d0f1c2b-2fae-d8ac-3920-ce9ec5bc85b5/7982.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/archangel/893175779?i=893175788",
+        "cn": false
+      }
     },
     {
       "id": "papaoutai",
@@ -2156,7 +2638,20 @@
       "year": 2013,
       "genre": "Electropop",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Stromae%20Papaoutai&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Stromae%20Papaoutai&t=song"
+      },
+      "apple": {
+        "trackId": 1440862113,
+        "collectionId": 1440862091,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/f6/20/69/f6206921-106b-5f68-ea61-2329050cd306/mzaf_4001545940005169400.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/23/47/e3/2347e329-fe5a-eca4-2844-729d58f90daa/13UAAIM67450.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/papaoutai/1440862091?i=1440862113",
+        "cn": false
+      }
     },
     {
       "id": "percees-de-lumiere",
@@ -2166,7 +2661,20 @@
       "year": 2010,
       "genre": "Blackgaze",
       "lineage": "heavy-industrial",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Alcest%20Perc%C3%A9es%20de%20lumi%C3%A8re&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Alcest%20Perc%C3%A9es%20de%20lumi%C3%A8re&t=song"
+      },
+      "apple": {
+        "trackId": 1556058795,
+        "collectionId": 1556058786,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview114/v4/35/31/ab/3531abb9-2649-24de-ec46-445b017a75fa/mzaf_123565788476062158.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/99/6d/a2/996da2e3-0308-dac6-8f3c-5991cd060a04/449.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/perc%C3%A9es-de-lumi%C3%A8re/1556058786?i=1556058795",
+        "cn": true
+      }
     },
     {
       "id": "latinoamerica",
@@ -2176,7 +2684,20 @@
       "year": 2010,
       "genre": "Latin Hip Hop",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Calle%2013%20Latinoam%C3%A9rica&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Calle%2013%20Latinoam%C3%A9rica&t=song"
+      },
+      "apple": {
+        "trackId": 401265183,
+        "collectionId": 401264687,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b2/37/49/b23749f6-40fc-ca01-91f6-c64ad9fc7e93/mzaf_15566238888403703285.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/65/db/19/mzi.kboxtvzr.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/latinoam%C3%A9rica-feat-tot%C3%B3-la-momposina-susana-baca-mar%C3%ADa/401264687?i=401265183",
+        "cn": false
+      }
     },
     {
       "id": "hasta-la-raiz",
@@ -2186,7 +2707,20 @@
       "year": 2015,
       "genre": "Folk Pop",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Natalia%20Lafourcade%20Hasta%20la%20Ra%C3%ADz&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Natalia%20Lafourcade%20Hasta%20la%20Ra%C3%ADz&t=song"
+      },
+      "apple": {
+        "trackId": 1055384375,
+        "collectionId": 1055384362,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/3b/98/60/3b98602d-c7c7-f329-2091-7cef30c68152/mzaf_3346254391508663693.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/63/82/b0/6382b01d-f1ba-842f-cd93-84a4155c7219/mzm.righpiat.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/hasta-la-ra%C3%ADz/1055384362?i=1055384375",
+        "cn": true
+      }
     },
     {
       "id": "bad-guy",
@@ -2196,7 +2730,20 @@
       "year": 2019,
       "genre": "Electropop",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Billie%20Eilish%20bad%20guy&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Billie%20Eilish%20bad%20guy&t=song"
+      },
+      "apple": {
+        "trackId": 1450695739,
+        "collectionId": 1450695723,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/c3/87/1f/c3871f7e-3260-d615-1c66-5fdca2c3a48f/mzaf_10721331211699880949.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/1a/37/d1/1a37d1b1-8508-54f2-f541-bf4e437dda76/19UMGIM05028.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/bad-guy/1450695723?i=1450695739",
+        "cn": true
+      }
     },
     {
       "id": "pigs-in-the-river",
@@ -2206,7 +2753,20 @@
       "year": 2017,
       "genre": "Post-Punk",
       "lineage": "punk-postpunk",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E9%87%8D%E5%A1%91%E9%9B%95%E5%83%8F%E7%9A%84%E6%9D%83%E5%88%A9%20Pigs%20in%20the%20River&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E9%87%8D%E5%A1%91%E9%9B%95%E5%83%8F%E7%9A%84%E6%9D%83%E5%88%A9%20Pigs%20in%20the%20River&t=song"
+      },
+      "apple": {
+        "trackId": 1808446520,
+        "collectionId": 1808446026,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/a5/d1/03/a5d10371-99d8-30ed-d46e-b3e569649a9e/mzaf_12990848406782682254.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/78/4c/2c/784c2c73-91ba-f628-9027-25bd3f7ebaab/25UMGIM42289.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/pigs-in-the-river/1808446026?i=1808446520",
+        "cn": true
+      }
     },
     {
       "id": "dont-start-now",
@@ -2216,7 +2776,20 @@
       "year": 2019,
       "genre": "Nu-Disco",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Dua%20Lipa%20Don't%20Start%20Now&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Dua%20Lipa%20Don't%20Start%20Now&t=song"
+      },
+      "apple": {
+        "trackId": 1538003635,
+        "collectionId": 1538003494,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e3/ca/e9/e3cae938-e700-8269-4d12-76baece91013/mzaf_15342367971406072290.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/6c/11/d6/6c11d681-aa3a-d59e-4c2e-f77e181026ab/190295092665.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/dont-start-now/1538003494?i=1538003635",
+        "cn": true
+      }
     },
     {
       "id": "my-jinji",
@@ -2226,7 +2799,20 @@
       "year": 2016,
       "genre": "Indie Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%20My%20Jinji&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E8%90%BD%E6%97%A5%E9%A3%9E%E8%BD%A6%20My%20Jinji&t=song"
+      },
+      "apple": {
+        "trackId": 1753222327,
+        "collectionId": 1753222324,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/61/31/af61312d-e5d8-9885-11e5-f9fabab6a894/mzaf_5761505061943548664.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/11/d8/2a/11d82a9a-af9c-4aba-3f3d-f2443cb7f8c8/5021732418715.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/my-jinji/1753222324?i=1753222327",
+        "cn": true
+      }
     },
     {
       "id": "lemon",
@@ -2236,7 +2822,20 @@
       "year": 2018,
       "genre": "J-Pop",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%20Lemon&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E7%B1%B3%E6%B4%A5%E7%8E%84%E5%B8%AB%20Lemon&t=song"
+      },
+      "apple": {
+        "trackId": 1538265741,
+        "collectionId": 1538265733,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/65/7f/13/657f135e-5a19-b5d3-d2fe-5fe8fb6d7ce9/mzaf_14260489868462530323.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/6b/0f/0b/6b0f0b3d-e842-5ee1-83a8-1b12142a9dfd/dj.bpfbtyiy.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/lemon/1538265733?i=1538265741",
+        "cn": true
+      }
     },
     {
       "id": "porcelain",
@@ -2246,7 +2845,20 @@
       "year": 2020,
       "genre": "Chamber Folk",
       "lineage": "folk-psych",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E9%9D%92%E8%91%89%E5%B8%82%E5%AD%90%20Porcelain&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E9%9D%92%E8%91%89%E5%B8%82%E5%AD%90%20Porcelain&t=song"
+      },
+      "apple": {
+        "trackId": 1714304675,
+        "collectionId": 1714304663,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/92/0c/f6/920cf6e1-4770-00d9-ae08-773c4d463557/mzaf_15599449109557925081.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/fa/fa/0d/fafa0dd1-dda3-0b1d-077e-8ed879031092/143997.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/porcelain/1714304663?i=1714304675",
+        "cn": true
+      }
     },
     {
       "id": "drivers-license",
@@ -2256,7 +2868,20 @@
       "year": 2021,
       "genre": "Pop",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Olivia%20Rodrigo%20drivers%20license&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Olivia%20Rodrigo%20drivers%20license&t=song"
+      },
+      "apple": {
+        "trackId": 1560735424,
+        "collectionId": 1560735414,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/f0/88/48f0880d-0f04-dff9-6ebe-d3203ca30912/mzaf_11947974215185731988.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/33/fd/32/33fd32b1-0e43-9b4a-8ed6-19643f23544e/21UMGIM26092.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/drivers-license/1560735414?i=1560735424",
+        "cn": true
+      }
     },
     {
       "id": "andromeda",
@@ -2266,7 +2891,20 @@
       "year": 2019,
       "genre": "Baroque Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Weyes%20Blood%20Andromeda&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Weyes%20Blood%20Andromeda&t=song"
+      },
+      "apple": {
+        "trackId": 1450550346,
+        "collectionId": 1450550344,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/94/63/82/946382c5-d582-4c98-3aa2-88e2ff0830de/mzaf_18258173391723444670.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/54/f6/fc/54f6fc73-6a18-d97a-a634-a4630ec35593/WeyesBlood_TitanicRising_3600.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/andromeda/1450550344?i=1450550346",
+        "cn": true
+      }
     },
     {
       "id": "360",
@@ -2276,7 +2914,20 @@
       "year": 2024,
       "genre": "Electropop",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Charli%20xcx%20360&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Charli%20xcx%20360&t=song"
+      },
+      "apple": {
+        "trackId": 1739079976,
+        "collectionId": 1739079974,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ce/76/4b/ce764bc9-f590-fec2-c61a-062b71fc9826/mzaf_13621687089576650452.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/88/4e/63/884e6321-ad41-aab1-f6f0-20efcafcfd55/075679666130.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/360/1739079974?i=1739079976",
+        "cn": true
+      }
     },
     {
       "id": "concorde",
@@ -2286,7 +2937,20 @@
       "year": 2021,
       "genre": "Art Rock",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Black%20Country%2C%20New%20Road%20Concorde&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Black%20Country%2C%20New%20Road%20Concorde&t=song"
+      },
+      "apple": {
+        "trackId": 1586070262,
+        "collectionId": 1586070259,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/fc/ec/f6/fcecf6ee-043e-f168-6f99-2b34c21dbf45/mzaf_9646130708964145947.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/8f/6a/c6/8f6ac6c6-5bcd-fa25-94f2-fd9922725215/5054429151442.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/concorde/1586070259?i=1586070262",
+        "cn": true
+      }
     },
     {
       "id": "malamente",
@@ -2296,7 +2960,20 @@
       "year": 2018,
       "genre": "Flamenco Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=ROSAL%C3%8DA%20MALAMENTE%20(Cap.1%3A%20Augurio)&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=ROSAL%C3%8DA%20MALAMENTE%20(Cap.1%3A%20Augurio)&t=song"
+      },
+      "apple": {
+        "trackId": 1436310304,
+        "collectionId": 1436309944,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/2d/c0/cc/2dc0cc5a-1ef7-a752-a3bf-384ba610490d/mzaf_17911450165792052942.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2c/55/e1/2c55e13f-15d8-1c7c-1826-c5fa55deaa8f/886447217139.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/malamente-cap-1-augurio/1436309944?i=1436310304",
+        "cn": true
+      }
     },
     {
       "id": "sudno",
@@ -2306,7 +2983,20 @@
       "year": 2018,
       "genre": "Coldwave",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Molchat%20Doma%20%D0%A1%D1%83%D0%B4%D0%BD%D0%BE%20(%D0%91%D0%BE%D1%80%D0%B8%D1%81%20%D0%A0%D1%8B%D0%B6%D0%B8%D0%B9)&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Molchat%20Doma%20%D0%A1%D1%83%D0%B4%D0%BD%D0%BE%20(%D0%91%D0%BE%D1%80%D0%B8%D1%81%20%D0%A0%D1%8B%D0%B6%D0%B8%D0%B9)&t=song"
+      },
+      "apple": {
+        "trackId": 1492386463,
+        "collectionId": 1492386136,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/45/0c/d0/450cd022-e987-5e66-076d-c498f7f50f0d/mzaf_15228286124868722462.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/70/46/b4/7046b4a9-14aa-af8f-e273-07b4d45a0c0a/cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/%D1%81%D1%83%D0%B4%D0%BD%D0%BE-%D0%B1%D0%BE%D1%80%D0%B8%D1%81-%D1%80%D1%8B%D0%B6%D0%B8%D0%B9/1492386136?i=1492386463",
+        "cn": true
+      }
     },
     {
       "id": "titi-me-pregunto",
@@ -2316,7 +3006,20 @@
       "year": 2022,
       "genre": "Reggaeton",
       "lineage": null,
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Bad%20Bunny%20Tit%C3%AD%20Me%20Pregunt%C3%B3&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Bad%20Bunny%20Tit%C3%AD%20Me%20Pregunt%C3%B3&t=song"
+      },
+      "apple": {
+        "trackId": 1622045635,
+        "collectionId": 1622045624,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ee/c1/61/eec16130-2d09-e5a6-891e-21178c56436a/mzaf_507894679185476986.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music112/v4/3e/04/eb/3e04ebf6-370f-f59d-ec84-2c2643db92f1/196626945068.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/tit%C3%AD-me-pregunt%C3%B3/1622045624?i=1622045635",
+        "cn": true
+      }
     },
     {
       "id": "arca-time",
@@ -2326,7 +3029,20 @@
       "year": 2020,
       "genre": "Art Pop",
       "lineage": "artpop-citypop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Arca%20Time&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Arca%20Time&t=song"
+      },
+      "apple": {
+        "trackId": 1511122261,
+        "collectionId": 1511122250,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/43/a8/9943a854-6149-3219-879c-91d074bb6b07/mzaf_18020746199302745627.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/7e/e9/78/7ee9788d-15b4-04d2-abd8-4f08a393db3c/191404099759.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/time/1511122250?i=1511122261",
+        "cn": false
+      }
     },
     {
       "id": "so-what",
@@ -2336,17 +3052,43 @@
       "year": 1959,
       "genre": "Modal Jazz",
       "lineage": "jazz",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Miles%20Davis%20So%20What&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Miles%20Davis%20So%20What&t=song"
+      },
+      "apple": {
+        "trackId": 268443097,
+        "collectionId": 268443092,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/54/e8/0a/54e80a8b-1d60-6b59-e908-6fd65c4ff783/mzaf_2469862574651846302.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/7f/9f/d6/mzi.vtnaewef.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/so-what/268443092?i=268443097",
+        "cn": true
+      }
     },
     {
       "id": "moanin",
       "title": "Moanin'",
       "artistId": "art-blakey",
       "albumId": "art-blakey--moanin",
-      "year": 1959,
+      "year": 1958,
       "genre": "Hard Bop",
       "lineage": "jazz",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Art%20Blakey%20%26%20The%20Jazz%20Messengers%20Moanin'&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Art%20Blakey%20%26%20The%20Jazz%20Messengers%20Moanin'&t=song"
+      },
+      "apple": {
+        "trackId": 725816540,
+        "collectionId": 725816184,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7d/25/ae/7d25ae8a-49ee-f646-1401-9cd579892ce1/mzaf_14281223272272808515.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/80/59/b2/8059b279-5b7a-3af3-67e8-162b6be40381/13UADIM60807.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/moanin/725816184?i=725816540",
+        "cn": true
+      }
     },
     {
       "id": "goodbye-pork-pie-hat",
@@ -2356,7 +3098,20 @@
       "year": 1959,
       "genre": "Post-Bop",
       "lineage": "jazz",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Charles%20Mingus%20Goodbye%20Pork%20Pie%20Hat&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Charles%20Mingus%20Goodbye%20Pork%20Pie%20Hat&t=song"
+      },
+      "apple": {
+        "trackId": 282907093,
+        "collectionId": 282907091,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5b/d1/3a/5bd13a71-29d3-6162-e8a3-6f0417939e73/mzaf_11739881919425800735.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/56/51/c5/5651c5da-4b5e-f19f-6a55-8f2137be75f5/5099706551225.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/goodbye-pork-pie-hat/282907091?i=282907093",
+        "cn": true
+      }
     },
     {
       "id": "acknowledgement",
@@ -2366,7 +3121,20 @@
       "year": 1965,
       "genre": "Spiritual Jazz",
       "lineage": "jazz",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=John%20Coltrane%20A%20Love%20Supreme%2C%20Pt.%20I%20%E2%80%93%20Acknowledgement&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=John%20Coltrane%20A%20Love%20Supreme%2C%20Pt.%20I%20%E2%80%93%20Acknowledgement&t=song"
+      },
+      "apple": {
+        "trackId": 1440713020,
+        "collectionId": 1440713018,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/46/57/ad/4657ad07-9bb1-a8f9-75d3-61a3f1d3dc8b/mzaf_2837170089287274786.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/e5/24/aa/e524aacd-467b-66f3-8931-0fcd6750a4b9/08UMGIM07914.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/a-love-supreme-pt-1-acknowledgement/1440713018?i=1440713020",
+        "cn": true
+      }
     },
     {
       "id": "speak-no-evil",
@@ -2376,7 +3144,20 @@
       "year": 1966,
       "genre": "Post-Bop",
       "lineage": "jazz",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Wayne%20Shorter%20Speak%20No%20Evil&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Wayne%20Shorter%20Speak%20No%20Evil&t=song"
+      },
+      "apple": {
+        "trackId": 723473852,
+        "collectionId": 723473694,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/43/db/84/43db84c8-d305-f6f2-8e17-cead24c67c65/mzaf_13345026710746806541.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/a8/ee/3c/a8ee3cc7-e694-f7e1-5208-2c67f9ae5ed5/13ULAIM49176.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/speak-no-evil/723473694?i=723473852",
+        "cn": true
+      }
     },
     {
       "id": "strings-of-light",
@@ -2386,7 +3167,20 @@
       "year": 2016,
       "genre": "Nu Jazz",
       "lineage": "jazz",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Yussef%20Kamaal%20Strings%20of%20Light&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Yussef%20Kamaal%20Strings%20of%20Light&t=song"
+      },
+      "apple": {
+        "trackId": 1561775000,
+        "collectionId": 1561774995,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/08/e1/69/08e169ed-9a4c-22d1-1f08-5ad1bb0c3d8f/mzaf_6668004294520243746.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/7a/65/c2/7a65c212-d5b8-2e3c-4d08-77bc4e4a65ac/3614970930488.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/strings-of-light/1561774995?i=1561775000",
+        "cn": true
+      }
     },
     {
       "id": "summon-the-fire",
@@ -2396,7 +3190,20 @@
       "year": 2019,
       "genre": "Nu Jazz",
       "lineage": "jazz",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=The%20Comet%20Is%20Coming%20Summon%20the%20Fire&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=The%20Comet%20Is%20Coming%20Summon%20the%20Fire&t=song"
+      },
+      "apple": {
+        "trackId": 1449208109,
+        "collectionId": 1449207816,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/1d/5c/18/1d5c1825-67ff-ad69-c7f7-e40caa443704/mzaf_2239184518965340611.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/9d/36/3d9d36ec-d86c-98ee-e0ea-601fc6e32504/00602577388385.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/summon-the-fire/1449207816?i=1449208109",
+        "cn": true
+      }
     },
     {
       "id": "glorias-step",
@@ -2406,7 +3213,20 @@
       "year": 1961,
       "genre": "Cool Jazz",
       "lineage": "jazz",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Bill%20Evans%20Trio%20Gloria's%20Step&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Bill%20Evans%20Trio%20Gloria's%20Step&t=song"
+      },
+      "apple": {
+        "trackId": 1440926499,
+        "collectionId": 1440926338,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/96/b4/ce/96b4ceab-eef3-2c05-74dd-bb6b65e771d9/mzaf_13101107916312480351.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/3d/f2/ab/3df2ab45-5e51-b4b6-07dd-daefe8c0ecbc/00888072305090.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/glorias-step-take-2-live/1440926338?i=1440926499",
+        "cn": true
+      }
     },
     {
       "id": "early-summer",
@@ -2416,7 +3236,20 @@
       "year": 1976,
       "genre": "Hard Bop",
       "lineage": "jazz",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E7%A6%8F%E5%B1%85%E8%89%AF%20Early%20Summer&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E7%A6%8F%E5%B1%85%E8%89%AF%20Early%20Summer&t=song"
+      },
+      "apple": {
+        "trackId": 1329457872,
+        "collectionId": 1329457232,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/88/9f/10/889f1086-a155-221d-9046-1deb6bdc078d/mzaf_11407878353487004294.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/13/07/89/1307897d-b463-5a49-0af9-d8d895259c84/D000000002855.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/early-summer/1329457232?i=1329457872",
+        "cn": true
+      }
     },
     {
       "id": "sweet-jane",
@@ -2426,7 +3259,20 @@
       "year": 1970,
       "genre": "Proto-Punk",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=The%20Velvet%20Underground%20Sweet%20Jane&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=The%20Velvet%20Underground%20Sweet%20Jane&t=song"
+      },
+      "apple": {
+        "trackId": 1050415253,
+        "collectionId": 1050415251,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/15/c9/f8/15c9f846-23ad-4402-1074-9e5603b81306/mzaf_17593780188240519595.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/87/7d/5e/877d5e8d-8aff-717f-576c-f237ee8d7a34/603497884575.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/sweet-jane/1050415251?i=1050415253",
+        "cn": true
+      }
     },
     {
       "id": "london-calling",
@@ -2436,7 +3282,20 @@
       "year": 1979,
       "genre": "Punk Rock",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=The%20Clash%20London%20Calling&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=The%20Clash%20London%20Calling&t=song"
+      },
+      "apple": {
+        "trackId": 684811768,
+        "collectionId": 684811762,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/40/e5/65/40e5656c-e7db-9f1f-4890-d0f9b6c7b45f/mzaf_17665211272480329804.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/45/d7/17/45d71740-b204-de23-3f9e-f2f823296f1d/886443520721.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/london-calling/684811762?i=684811768",
+        "cn": true
+      }
     },
     {
       "id": "disorder",
@@ -2446,7 +3305,20 @@
       "year": 1979,
       "genre": "Post-Punk",
       "lineage": "punk-postpunk",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Joy%20Division%20Disorder&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Joy%20Division%20Disorder&t=song"
+      },
+      "apple": {
+        "trackId": 266603053,
+        "collectionId": 266603040,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/4d/cc/89/4dcc8922-012f-c11f-b061-caef7bafe7e2/mzaf_11167643022210339253.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features114/v4/80/14/7f/80147fb9-8c62-8773-60fe-51d9bdcfd415/dj.blmthqrv.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/disorder/266603040?i=266603053",
+        "cn": true
+      }
     },
     {
       "id": "age-of-consent",
@@ -2456,17 +3328,43 @@
       "year": 1983,
       "genre": "Post-Punk",
       "lineage": "punk-postpunk",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=New%20Order%20Age%20of%20Consent&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=New%20Order%20Age%20of%20Consent&t=song"
+      },
+      "apple": {
+        "trackId": 1040982045,
+        "collectionId": 1040981945,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/ca/8c/7e/ca8c7e67-4f4f-360e-8160-096c3098ba0c/mzaf_6673888955313460995.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/d2/3f/c8/d23fc8e7-3baa-eae3-7301-7a868d00ab09/825646053803.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/age-of-consent/1040981945?i=1040982045",
+        "cn": true
+      }
     },
     {
       "id": "damaged-goods",
       "title": "Damaged Goods",
       "artistId": "gang-of-four",
       "albumId": "gang-of-four--entertainment",
-      "year": 1978,
+      "year": 1979,
       "genre": "Post-Punk",
       "lineage": "punk-postpunk",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Gang%20of%20Four%20Damaged%20Goods&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Gang%20of%20Four%20Damaged%20Goods&t=song"
+      },
+      "apple": {
+        "trackId": 1589225338,
+        "collectionId": 1589225331,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/43/40/b7/4340b723-cdd3-1366-1b6b-58082c531eec/mzaf_378140571503420964.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/de/5d/41/de5d41cf-eed8-3819-86dc-9f0a136efabe/191401156462.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/damaged-goods/1589225331?i=1589225338",
+        "cn": false
+      }
     },
     {
       "id": "spellbound",
@@ -2476,7 +3374,20 @@
       "year": 1981,
       "genre": "Gothic Rock",
       "lineage": "punk-postpunk",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Siouxsie%20and%20the%20Banshees%20Spellbound&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Siouxsie%20and%20the%20Banshees%20Spellbound&t=song"
+      },
+      "apple": {
+        "trackId": 1440764575,
+        "collectionId": 1440764567,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/23/50/d9/2350d99d-7d2b-533b-aad9-8b00d3581ced/mzaf_3107346655049562120.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/32/44/01/32440139-f4aa-0be8-cb1d-51742508c535/00602498369142.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/spellbound/1440764567?i=1440764575",
+        "cn": true
+      }
     },
     {
       "id": "bairimeng-lan",
@@ -2486,17 +3397,43 @@
       "year": 2009,
       "genre": "Indie Rock",
       "lineage": "punk-postpunk",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E5%88%BA%E7%8C%AC%20%E7%99%BD%E6%97%A5%E6%A2%A6%E8%93%9D&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E5%88%BA%E7%8C%AC%20%E7%99%BD%E6%97%A5%E6%A2%A6%E8%93%9D&t=song"
+      },
+      "apple": {
+        "trackId": 1808900377,
+        "collectionId": 1808900373,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b3/da/74/b3da74ad-be32-5077-c0a2-26ebc5de0456/mzaf_15052464600382721297.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/3e/f7/ae/3ef7ae24-794e-4198-40d6-1c5d43e7f6d0/25UMGIM42249.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/%E7%99%BD%E6%97%A5%E5%A4%A2%E8%97%8D-ban-zou/1808900373?i=1808900377",
+        "cn": true
+      }
     },
     {
       "id": "radio-free-europe",
       "title": "Radio Free Europe",
       "artistId": "rem",
       "albumId": "rem--murmur",
-      "year": 1981,
+      "year": 1983,
       "genre": "Jangle Pop",
       "lineage": "shoegaze-indie",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=R.E.M.%20Radio%20Free%20Europe&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=R.E.M.%20Radio%20Free%20Europe&t=song"
+      },
+      "apple": {
+        "trackId": 1440872983,
+        "collectionId": 1440872981,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/16/ac/5b/16ac5bc8-ff2e-ef4b-cd1b-49f53eee9ca5/mzaf_5290378904175267542.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/6c/e2/c3/6ce2c349-4169-df92-e5ca-2faba4cf087f/09UMGIM13824.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/radio-free-europe/1440872981?i=1440872983",
+        "cn": true
+      }
     },
     {
       "id": "only-shallow",
@@ -2506,7 +3443,20 @@
       "year": 1991,
       "genre": "Shoegaze",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=My%20Bloody%20Valentine%20Only%20Shallow&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=My%20Bloody%20Valentine%20Only%20Shallow&t=song"
+      },
+      "apple": {
+        "trackId": 1556921231,
+        "collectionId": 1556921230,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/48/37/31/483731b0-de99-45c3-6cdf-4afbf54f675a/mzaf_4046142214891948322.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/4c/e1/51/4ce15131-7ac5-daf5-bf62-0202f27d691d/887830015998.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/only-shallow/1556921230?i=1556921231",
+        "cn": true
+      }
     },
     {
       "id": "cherry-coloured-funk",
@@ -2516,7 +3466,20 @@
       "year": 1990,
       "genre": "Dream Pop",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Cocteau%20Twins%20Cherry-coloured%20Funk&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Cocteau%20Twins%20Cherry-coloured%20Funk&t=song"
+      },
+      "apple": {
+        "trackId": 258198956,
+        "collectionId": 258198881,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b4/3a/8e/b43a8eb4-294a-72c5-13e6-a69fd453824c/mzaf_5977811122488422602.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/76/cd/61/76cd61e7-0714-dce5-c48e-0f05f8fcb84b/652637001280.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/cherry-coloured-funk/258198881?i=258198956",
+        "cn": true
+      }
     },
     {
       "id": "alison",
@@ -2526,7 +3489,20 @@
       "year": 1993,
       "genre": "Shoegaze",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Slowdive%20Alison&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Slowdive%20Alison&t=song"
+      },
+      "apple": {
+        "trackId": 292885253,
+        "collectionId": 292885238,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1d/9e/4f/1d9e4fa6-4efd-01d4-da8b-6778b096c6cb/mzaf_9036332438135022718.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/1b/50/ad/1b50adc8-139b-1ad9-8500-cc2eb93faf17/888880730831.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/alison/292885238?i=292885253",
+        "cn": false
+      }
     },
     {
       "id": "mogwai-fear-satan",
@@ -2536,17 +3512,20 @@
       "year": 1997,
       "genre": "Post-Rock",
       "lineage": "shoegaze-indie",
-      "tier": 3
-    },
-    {
-      "id": "storm",
-      "title": "Storm",
-      "artistId": "gybe",
-      "albumId": "gybe--lift-your-skinny-fists-like-antennas-to-heaven",
-      "year": 2000,
-      "genre": "Post-Rock",
-      "lineage": "shoegaze-indie",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Mogwai%20Mogwai%20Fear%20Satan&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Mogwai%20Mogwai%20Fear%20Satan&t=song"
+      },
+      "apple": {
+        "trackId": 280271170,
+        "collectionId": 280270989,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/07/cb/ff/07cbff28-5df9-c5bb-9c7b-d300cdad4215/mzaf_3072915701046139641.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/6b/95/f3/mzi.bwqixqru.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/mogwai-fear-satan/280270989?i=280271170",
+        "cn": true
+      }
     },
     {
       "id": "good-morning-captain",
@@ -2556,7 +3535,20 @@
       "year": 1991,
       "genre": "Post-Rock",
       "lineage": "shoegaze-indie",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Slint%20Good%20Morning%2C%20Captain&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Slint%20Good%20Morning%2C%20Captain&t=song"
+      },
+      "apple": {
+        "trackId": 295785340,
+        "collectionId": 295785324,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/99/6c/a2/996ca25f-9e59-a57e-3472-b35c837a1436/mzaf_17916744663641348634.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/a1/d0/8b/a1d08b04-058e-c82a-06b2-2b722ee50574/mzi.ufdnaayh.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/good-morning-captain/295785324?i=295785340",
+        "cn": false
+      }
     },
     {
       "id": "svefn-g-englar",
@@ -2566,7 +3558,20 @@
       "year": 1999,
       "genre": "Post-Rock",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Sigur%20R%C3%B3s%20Svefn-g-englar&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Sigur%20R%C3%B3s%20Svefn-g-englar&t=song"
+      },
+      "apple": {
+        "trackId": 1447442935,
+        "collectionId": 1447442814,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/e0/46/8de0466b-dbaa-6f50-60be-6167b6122173/mzaf_1369980178126299888.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/f7/34/fd/f734fd6c-aeca-8052-825c-706d1c665a8b/190296941856.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/svefn-g-englar/1447442814?i=1447442935",
+        "cn": true
+      }
     },
     {
       "id": "taikutsu-shinogi",
@@ -2576,7 +3581,20 @@
       "year": 2012,
       "genre": "Shoegaze",
       "lineage": "shoegaze-indie",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E3%81%8D%E3%81%AE%E3%81%93%E5%B8%9D%E5%9B%BD%20%E9%80%80%E5%B1%88%E3%81%97%E3%81%AE%E3%81%8E&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E3%81%8D%E3%81%AE%E3%81%93%E5%B8%9D%E5%9B%BD%20%E9%80%80%E5%B1%88%E3%81%97%E3%81%AE%E3%81%8E&t=song"
+      },
+      "apple": {
+        "trackId": 521644948,
+        "collectionId": 521644932,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/dd/3b/61/dd3b617f-d2d3-32a3-542f-5e178e6765db/mzaf_3035903396887094118.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/3b/27/2f3b27f3-5f5f-e701-4b50-f0483c50e4a7/UKDZ0128.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/%E9%80%80%E5%B1%88%E3%81%97%E3%81%AE%E3%81%8E/521644932?i=521644948",
+        "cn": true
+      }
     },
     {
       "id": "the-model",
@@ -2586,7 +3604,20 @@
       "year": 1978,
       "genre": "Synthpop",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Kraftwerk%20The%20Model&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Kraftwerk%20The%20Model&t=song"
+      },
+      "apple": {
+        "trackId": 726157363,
+        "collectionId": 726157248,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/6b/b3/3a/6bb33a38-4ce8-b8ec-a26f-785f1fe72ddf/mzaf_10609372884119317503.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/b7/c1/48/b7c1481a-5a92-4b71-ee35-ab7c890770da/5099996602256.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/the-model/726157248?i=726157363",
+        "cn": true
+      }
     },
     {
       "id": "hallogallo",
@@ -2596,7 +3627,20 @@
       "year": 1972,
       "genre": "Krautrock",
       "lineage": "electronic-idm",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=NEU!%20Hallogallo&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=NEU!%20Hallogallo&t=song"
+      },
+      "apple": {
+        "trackId": 112318493,
+        "collectionId": 112318571,
+        "storefront": "gb",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/28/83/ae/2883aee3-4836-a800-1f2d-53905b9c78eb/mzaf_9868665275758834160.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/1a/50/e6/mzi.jbqfzfuu.tif/100x100bb.jpg",
+        "url": "https://music.apple.com/gb/album/hallogallo/112318571?i=112318493",
+        "cn": false
+      }
     },
     {
       "id": "vitamin-c",
@@ -2606,7 +3650,20 @@
       "year": 1972,
       "genre": "Krautrock",
       "lineage": "electronic-idm",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Can%20Vitamin%20C&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Can%20Vitamin%20C&t=song"
+      },
+      "apple": {
+        "trackId": 826494416,
+        "collectionId": 826494403,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/34/7b/97/347b97e9-fe18-1484-d1e9-b8fdbba47036/mzaf_15120619999643295531.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/55/33/7e/55337e95-d781-1057-cd6a-94ee425b6850/5099930156159.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/vitamin-c-2004-remaster/826494403?i=826494416",
+        "cn": false
+      }
     },
     {
       "id": "xtal",
@@ -2616,7 +3673,20 @@
       "year": 1992,
       "genre": "Ambient Techno",
       "lineage": "electronic-idm",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Aphex%20Twin%20Xtal&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Aphex%20Twin%20Xtal&t=song"
+      },
+      "apple": {
+        "trackId": 1668862649,
+        "collectionId": 1668862636,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a1/a9/59/a1a9593a-f705-ca02-495f-2d83f83e4e49/mzaf_282027520707936830.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5f/b3/e0/5fb3e08d-c2cd-3da4-6ad7-c5dc61803683/cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/xtal/1668862636?i=1668862649",
+        "cn": true
+      }
     },
     {
       "id": "good-life",
@@ -2626,7 +3696,20 @@
       "year": 1988,
       "genre": "Detroit Techno",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Inner%20City%20Good%20Life&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Inner%20City%20Good%20Life&t=song"
+      },
+      "apple": {
+        "trackId": 724914318,
+        "collectionId": 724913797,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/5c/33/9d/5c339d69-3b16-d9c5-6fde-4b044bee24af/mzaf_17356095143924191333.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e9/f5/dd/e9f5dda8-612e-e398-5a1f-9393a4edbfe0/00724384245658.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/good-life/724913797?i=724914318",
+        "cn": true
+      }
     },
     {
       "id": "roygbiv",
@@ -2636,7 +3719,20 @@
       "year": 1998,
       "genre": "IDM",
       "lineage": "electronic-idm",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Boards%20of%20Canada%20Roygbiv&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Boards%20of%20Canada%20Roygbiv&t=song"
+      },
+      "apple": {
+        "trackId": 281116081,
+        "collectionId": 281116024,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/f3/e0/de/f3e0def5-52bf-f0e1-beea-523cbf8f6c1e/mzaf_15520357652152223442.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Features125/v4/b5/4c/c2/b54cc20d-03f5-f2c4-4a0d-9b51ad65af89/dj.txuslqgv.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/roygbiv/281116024?i=281116081",
+        "cn": true
+      }
     },
     {
       "id": "bad-kingdom",
@@ -2646,7 +3742,20 @@
       "year": 2013,
       "genre": "Indietronica",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Moderat%20Bad%20Kingdom&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Moderat%20Bad%20Kingdom&t=song"
+      },
+      "apple": {
+        "trackId": 1684866232,
+        "collectionId": 1684865898,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/40/58/33/4058331d-e0dc-9924-a819-4104fb13605a/mzaf_13327750205463243064.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/b2/26/51/b2265112-ebfd-a059-5e11-ad8e8be63a18/cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/bad-kingdom/1684865898?i=1684866232",
+        "cn": true
+      }
     },
     {
       "id": "inner-city-life",
@@ -2656,7 +3765,20 @@
       "year": 1994,
       "genre": "Drum and Bass",
       "lineage": "electronic-idm",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Goldie%20Inner%20City%20Life&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Goldie%20Inner%20City%20Life&t=song"
+      },
+      "apple": {
+        "trackId": 1561942875,
+        "collectionId": 1561942518,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ff/b0/f6/ffb0f604-a656-87da-af22-72acc47c15c3/mzaf_6635353963828157777.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/46/9e/0d/469e0d74-def9-01cd-078d-e747a5306377/190296759079.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/inner-city-life-2020-remaster/1561942518?i=1561942875",
+        "cn": true
+      }
     },
     {
       "id": "rydeen",
@@ -2666,7 +3788,20 @@
       "year": 1979,
       "genre": "Synthpop",
       "lineage": "electronic-idm",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Yellow%20Magic%20Orchestra%20RYDEEN&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Yellow%20Magic%20Orchestra%20RYDEEN&t=song"
+      },
+      "apple": {
+        "trackId": 1291843647,
+        "collectionId": 1291843638,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/73/8f/a5/738fa52c-66a6-11b2-4025-13ab681b7715/mzaf_9768730339904874489.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/72/c9/ed/72c9ed81-9b28-6d89-f1cc-c6560a3c2177/884977794632.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/rydeen/1291843638?i=1291843647",
+        "cn": true
+      }
     },
     {
       "id": "shitou-ji",
@@ -2676,7 +3811,20 @@
       "year": 1987,
       "genre": "Synthpop",
       "lineage": "electronic-idm",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E8%BE%BE%E6%98%8E%E4%B8%80%E6%B4%BE%20%E7%9F%B3%E5%A4%B4%E8%AE%B0&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E8%BE%BE%E6%98%8E%E4%B8%80%E6%B4%BE%20%E7%9F%B3%E5%A4%B4%E8%AE%B0&t=song"
+      },
+      "apple": {
+        "trackId": 1442694420,
+        "collectionId": 1442693640,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/6a/fc/066afcd5-acb8-0c2b-5963-954d3bf6abcd/mzaf_10013432494169691285.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/fa/74/c2/fa74c26b-0847-75c9-e033-d41e39a2bee4/00602527182643.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/%E7%9F%B3%E9%A0%AD%E8%A8%98/1442693640?i=1442694420",
+        "cn": false
+      }
     },
     {
       "id": "the-message",
@@ -2686,7 +3834,20 @@
       "year": 1982,
       "genre": "Hip Hop",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Grandmaster%20Flash%20%26%20The%20Furious%20Five%20The%20Message&t=song"
+      },
+      "apple": {
+        "trackId": 59389711,
+        "collectionId": 59389719,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/14/c2/5714c2ac-66b9-d6d9-cffa-5a19b7971c11/mzaf_7606060811654518263.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c2/34/48/c234484e-a6f3-4355-6d41-24275da82c74/s06.kststhcn.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/the-message/59389719?i=59389711",
+        "cn": false
+      }
     },
     {
       "id": "ny-state-of-mind",
@@ -2696,7 +3857,20 @@
       "year": 1994,
       "genre": "Boom Bap",
       "lineage": "hiphop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Nas%20N.Y.%20State%20of%20Mind&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Nas%20N.Y.%20State%20of%20Mind&t=song"
+      },
+      "apple": {
+        "trackId": 662324539,
+        "collectionId": 662324135,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/d2/7b/55/d27b552f-207f-fae8-0c5c-3d6e182d1129/mzaf_9410599955610673897.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/e8/13/50/e813500d-51cd-6c37-c405-53a668cbde97/886444072496.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/n-y-state-of-mind/662324135?i=662324539",
+        "cn": true
+      }
     },
     {
       "id": "electric-relaxation",
@@ -2706,7 +3880,20 @@
       "year": 1993,
       "genre": "Jazz Rap",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=A%20Tribe%20Called%20Quest%20Electric%20Relaxation&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=A%20Tribe%20Called%20Quest%20Electric%20Relaxation&t=song"
+      },
+      "apple": {
+        "trackId": 265670650,
+        "collectionId": 265670545,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/1b/1a/f2/1b1af283-3a8d-71ce-79a9-7c6ebdb26ca4/mzaf_8096826353053836454.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/d1/90/11/d1901153-4595-7f2f-12d2-661be9eef883/012414149022.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/electric-relaxation/265670545?i=265670650",
+        "cn": true
+      }
     },
     {
       "id": "cream",
@@ -2716,7 +3903,20 @@
       "year": 1993,
       "genre": "Boom Bap",
       "lineage": "hiphop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Wu-Tang%20Clan%20C.R.E.A.M.&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Wu-Tang%20Clan%20C.R.E.A.M.&t=song"
+      },
+      "apple": {
+        "trackId": 269843734,
+        "collectionId": 269842381,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b7/31/ac/b731acfd-9c69-46cf-2b58-976d49fb974a/mzaf_3281411644000017615.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/7c/58/b1/7c58b153-2525-d47f-ab7a-9c9fe6882826/888880400017.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/c-r-e-a-m-cash-rules-everything-around-me/269842381?i=269843734",
+        "cn": true
+      }
     },
     {
       "id": "midnight-in-a-perfect-world",
@@ -2726,7 +3926,20 @@
       "year": 1996,
       "genre": "Instrumental Hip Hop",
       "lineage": "hiphop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=DJ%20Shadow%20Midnight%20in%20a%20Perfect%20World&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=DJ%20Shadow%20Midnight%20in%20a%20Perfect%20World&t=song"
+      },
+      "apple": {
+        "trackId": 1660486423,
+        "collectionId": 1660485817,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/de/3f/ef/de3fef5c-45b6-c406-74b3-19b1a7d36801/mzaf_5889275247233806044.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music122/v4/0d/14/6d/0d146d5c-44c5-22e2-c596-2242180f4774/5400863103361_cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/midnight-in-a-perfect-world/1660485817?i=1660486423",
+        "cn": true
+      }
     },
     {
       "id": "time-the-donut-of-the-heart",
@@ -2736,7 +3949,20 @@
       "year": 2006,
       "genre": "Instrumental Hip Hop",
       "lineage": "hiphop",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=J%20Dilla%20Time%3A%20The%20Donut%20of%20the%20Heart&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=J%20Dilla%20Time%3A%20The%20Donut%20of%20the%20Heart&t=song"
+      },
+      "apple": {
+        "trackId": 108232662,
+        "collectionId": 108233171,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/83/0d/91/830d9165-43ed-d8fd-2528-f20acdf13fd5/mzaf_48590175490041571.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/63/d3/c5/63d3c537-ac30-86e7-8e69-8a03a5346209/792.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/time-the-donut-of-the-heart/108233171?i=108232662",
+        "cn": true
+      }
     },
     {
       "id": "all-caps",
@@ -2746,7 +3972,20 @@
       "year": 2004,
       "genre": "Abstract Hip Hop",
       "lineage": "hiphop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Madvillain%20All%20Caps&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Madvillain%20All%20Caps&t=song"
+      },
+      "apple": {
+        "trackId": 887699536,
+        "collectionId": 887699504,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/8b/52/568b5286-04ec-ef24-4265-22526275e7fa/mzaf_9342372846842960470.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/2d/33/99/2d33992f-4550-269a-bab2-a2558996e5c3/816.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/all-caps/887699504?i=887699536",
+        "cn": true
+      }
     },
     {
       "id": "since-i-left-you",
@@ -2756,7 +3995,20 @@
       "year": 2000,
       "genre": "Plunderphonics",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=The%20Avalanches%20Since%20I%20Left%20You&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=The%20Avalanches%20Since%20I%20Left%20You&t=song"
+      },
+      "apple": {
+        "trackId": 1558003296,
+        "collectionId": 1558002905,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/52/3f/24/523f240e-57d3-1548-04d7-9557f68b1950/mzaf_9143011329257065031.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/dc/38/47/dc3847df-0457-0c03-467c-cf4d1ac57896/19UMGIM71485.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/since-i-left-you/1558002905?i=1558003296",
+        "cn": true
+      }
     },
     {
       "id": "feather",
@@ -2766,7 +4018,20 @@
       "year": 2005,
       "genre": "Jazz Rap",
       "lineage": "hiphop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Nujabes%20Feather&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Nujabes%20Feather&t=song"
+      },
+      "apple": {
+        "trackId": 1078914485,
+        "collectionId": 1078914477,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/2b/bc/d22bbc43-e22a-3f66-6949-bbbc67d22e7b/mzaf_4638368670072829189.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/79/7e/a1/797ea11f-b90c-c4c5-f874-6a6ccd2c22a7/HPD5.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/feather-feat-cise-star-akin-yai/1078914477?i=1078914485",
+        "cn": true
+      }
     },
     {
       "id": "bring-the-noise",
@@ -2776,7 +4041,20 @@
       "year": 1987,
       "genre": "Hip Hop",
       "lineage": "hiphop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Public%20Enemy%20Bring%20the%20Noise&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Public%20Enemy%20Bring%20the%20Noise&t=song"
+      },
+      "apple": {
+        "trackId": 1440837951,
+        "collectionId": 1440837788,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/12/1a/12/121a1232-3fad-9a7a-9734-11972e86b7a8/mzaf_13075811155776916431.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/9f/49/d0/9f49d09b-6842-081e-8cec-67b19a686397/06UMGIM18700.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/bring-the-noise/1440837788?i=1440837951",
+        "cn": true
+      }
     },
     {
       "id": "baby-im-bleeding",
@@ -2786,7 +4064,20 @@
       "year": 2018,
       "genre": "Experimental Hip Hop",
       "lineage": "hiphop",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=JPEGMAFIA%20Baby%20I'm%20Bleeding&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=JPEGMAFIA%20Baby%20I'm%20Bleeding&t=song"
+      },
+      "apple": {
+        "trackId": 1818406460,
+        "collectionId": 1818406054,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/ae/6e/5b/ae6e5b1b-dfbb-2c4a-e85e-ef1408b3c6d1/mzaf_17656900341529674706.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/36/7a/10/367a102e-2140-1895-5224-17b76ac5b23a/843357106762.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/baby-im-bleeding/1818406054?i=1818406460",
+        "cn": true
+      }
     },
     {
       "id": "once-in-a-lifetime",
@@ -2796,7 +4087,20 @@
       "year": 1980,
       "genre": "New Wave",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Talking%20Heads%20Once%20in%20a%20Lifetime&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Talking%20Heads%20Once%20in%20a%20Lifetime&t=song"
+      },
+      "apple": {
+        "trackId": 124921347,
+        "collectionId": 124922154,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/c2/d8/e2/c2d8e26c-01b8-0d59-39d5-867086338e43/mzaf_4814700109397140137.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/48/9c/21/489c217b-d228-59a3-296d-6fa1d90776b7/dj.bpkztuma.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/once-in-a-lifetime/124922154?i=124921347",
+        "cn": true
+      }
     },
     {
       "id": "plastic-love",
@@ -2806,7 +4110,20 @@
       "year": 1984,
       "genre": "City Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E7%AB%B9%E5%86%85%E3%81%BE%E3%82%8A%E3%82%84%20%E3%83%97%E3%83%A9%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%83%96&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E7%AB%B9%E5%86%85%E3%81%BE%E3%82%8A%E3%82%84%20%E3%83%97%E3%83%A9%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%BB%E3%83%A9%E3%83%96&t=song"
+      },
+      "apple": {
+        "trackId": 1591437487,
+        "collectionId": 1591437245,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/64/ac/8e/64ac8e18-6229-2d19-ec7e-894ea3fac7b4/mzaf_4049677654337797391.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/c9/8c/a6/c98ca691-2006-6116-81f6-52ec22f5e25c/825646183807.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/%E3%83%97%E3%83%A9%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF-%E3%83%A9%E3%83%96/1591437245?i=1591437487",
+        "cn": true
+      }
     },
     {
       "id": "god-only-knows",
@@ -2816,7 +4133,20 @@
       "year": 1966,
       "genre": "Baroque Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=The%20Beach%20Boys%20God%20Only%20Knows&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=The%20Beach%20Boys%20God%20Only%20Knows&t=song"
+      },
+      "apple": {
+        "trackId": 1440841258,
+        "collectionId": 1440841241,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a6/d0/40/a6d040a3-40f1-c2cf-c6c1-3e9fd3f484aa/mzaf_11838690916794001351.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/35/bb/c4/35bbc4eb-9387-97b0-b138-64b7a949ea43/13UABIM03512.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/god-only-knows/1440841241?i=1440841258",
+        "cn": true
+      }
     },
     {
       "id": "joga",
@@ -2826,7 +4156,20 @@
       "year": 1997,
       "genre": "Art Pop",
       "lineage": "artpop-citypop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Bj%C3%B6rk%20J%C3%B3ga&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Bj%C3%B6rk%20J%C3%B3ga&t=song"
+      },
+      "apple": {
+        "trackId": 20833584,
+        "collectionId": 20833577,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/9f/66/27/9f662755-0dc2-678d-2986-2f62f18e8ccb/mzaf_3045265892977245319.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/7f/bd/d0/7fbdd0e0-c588-ef4b-a6dd-4dca21f8b41f/081227607364.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/j%C3%B3ga/20833577?i=20833584",
+        "cn": false
+      }
     },
     {
       "id": "star-fruits-surf-rider",
@@ -2836,7 +4179,20 @@
       "year": 1997,
       "genre": "Shibuya-kei",
       "lineage": "artpop-citypop",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Cornelius%20Star%20Fruits%20Surf%20Rider&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Cornelius%20Star%20Fruits%20Surf%20Rider&t=song"
+      },
+      "apple": {
+        "trackId": 401723640,
+        "collectionId": 401723540,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/7b/25/0a/7b250a0f-d461-a515-50d6-5b994629f490/mzaf_7922639031661664696.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/9f/5f/2b/mzi.pkldamug.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/star-fruits-surf-rider/401723540?i=401723640",
+        "cn": false
+      }
     },
     {
       "id": "miss-modular",
@@ -2846,7 +4202,20 @@
       "year": 1997,
       "genre": "Art Pop",
       "lineage": "artpop-citypop",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Stereolab%20Miss%20Modular&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Stereolab%20Miss%20Modular&t=song"
+      },
+      "apple": {
+        "trackId": 1230517316,
+        "collectionId": 1230517312,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/06/d0/8e/06d08eaa-c22f-f4e6-91f6-c2871e2dd4ae/mzaf_11388935800373500319.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/62/7d/5f/627d5f5a-76b2-f500-6b52-60957d5e170c/5060384612195.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/miss-modular/1230517312?i=1230517316",
+        "cn": true
+      }
     },
     {
       "id": "running-up-that-hill",
@@ -2856,7 +4225,20 @@
       "year": 1985,
       "genre": "Art Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Kate%20Bush%20Running%20Up%20That%20Hill%20(A%20Deal%20with%20God)&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Kate%20Bush%20Running%20Up%20That%20Hill%20(A%20Deal%20with%20God)&t=song"
+      },
+      "apple": {
+        "trackId": 1675375090,
+        "collectionId": 1675375084,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9d/b4/87/9db487bc-9aa6-390d-911d-7e234bc227f0/mzaf_571823162673168934.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/2c/3e/c9/2c3ec991-0f6e-bec3-7eff-750f50c5b3a6/cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/running-up-that-hill-a-deal-with-god/1675375084?i=1675375090",
+        "cn": true
+      }
     },
     {
       "id": "tokai",
@@ -2866,7 +4248,20 @@
       "year": 1977,
       "genre": "City Pop",
       "lineage": "artpop-citypop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E5%A4%A7%E8%B2%AB%E5%A6%99%E5%AD%90%20%E9%83%BD%E4%BC%9A&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E5%A4%A7%E8%B2%AB%E5%A6%99%E5%AD%90%20%E9%83%BD%E4%BC%9A&t=song"
+      },
+      "apple": {
+        "trackId": 1481213374,
+        "collectionId": 1481213369,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/68/92/2b/68922b06-4c92-0f91-0660-3f78b7d03be2/mzaf_17098287226750890228.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/57/a1/ff/57a1ff39-eb23-40d9-1e91-f8fcc923f4a9/CRCPX-20462.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/%E9%83%BD%E4%BC%9A/1481213369?i=1481213374",
+        "cn": false
+      }
     },
     {
       "id": "two-weeks",
@@ -2876,17 +4271,43 @@
       "year": 2014,
       "genre": "Art Pop",
       "lineage": "artpop-citypop",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=FKA%20twigs%20Two%20Weeks&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=FKA%20twigs%20Two%20Weeks&t=song"
+      },
+      "apple": {
+        "trackId": 1546107585,
+        "collectionId": 1546107580,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/e0/14/f0/e014f035-7b6a-01b4-02ab-013100f22214/mzaf_9688564632738767256.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/5d/4b/8e/5d4b8e65-8789-f72b-8748-3acc311c0e6f/889030011893.png/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/two-weeks/1546107580?i=1546107585",
+        "cn": false
+      }
     },
     {
       "id": "marunouchi-sadistic",
-      "title": "丸の内サディスティック",
+      "title": "丸ノ内サディスティック",
       "artistId": "sheena-ringo",
       "albumId": "sheena-ringo--marunouchi-sadistic",
       "year": 1999,
       "genre": "Art Pop",
       "lineage": "artpop-citypop",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E6%A4%8E%E5%90%8D%E6%9E%97%E6%AA%8E%20%E4%B8%B8%E3%83%8E%E5%86%85%E3%82%B5%E3%83%87%E3%82%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E6%A4%8E%E5%90%8D%E6%9E%97%E6%AA%8E%20%E4%B8%B8%E3%83%8E%E5%86%85%E3%82%B5%E3%83%87%E3%82%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF&t=song"
+      },
+      "apple": {
+        "trackId": 1384341683,
+        "collectionId": 1384341676,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/db/37/5b/db375b13-efac-1fe8-734c-e7063ad423b7/mzaf_10097837818368163292.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/bd/da/b4/bddab4d2-176e-6438-76dc-54bd4eac3914/18UMGIM22257.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/%E4%B8%B8%E3%83%8E%E5%86%85%E3%82%B5%E3%83%87%E3%82%A3%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF/1384341676?i=1384341683",
+        "cn": true
+      }
     },
     {
       "id": "pink-moon",
@@ -2896,7 +4317,20 @@
       "year": 1972,
       "genre": "Contemporary Folk",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Nick%20Drake%20Pink%20Moon&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Nick%20Drake%20Pink%20Moon&t=song"
+      },
+      "apple": {
+        "trackId": 1440758657,
+        "collectionId": 1440758653,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview125/v4/a5/fd/2c/a5fd2cd9-eb7d-674a-4e09-4d936d7002ba/mzaf_2711277978859933745.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/2f/9a/a0/2f9aa0ed-18c9-5e42-4630-2637efbc876a/00042284292320.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/pink-moon/1440758653?i=1440758657",
+        "cn": false
+      }
     },
     {
       "id": "like-a-rolling-stone",
@@ -2906,7 +4340,20 @@
       "year": 1965,
       "genre": "Folk Rock",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Bob%20Dylan%20Like%20a%20Rolling%20Stone&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Bob%20Dylan%20Like%20a%20Rolling%20Stone&t=song"
+      },
+      "apple": {
+        "trackId": 201281527,
+        "collectionId": 201281514,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/a5/68/b1/a568b1af-ff36-c4c4-f8b4-f1ffe5484c3a/mzaf_7213634674974695928.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/f8/ff/c0/f8ffc056-55b4-2033-657d-32492d1eea25/827969239926.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/like-a-rolling-stone/201281514?i=201281527",
+        "cn": true
+      }
     },
     {
       "id": "holland-1945",
@@ -2916,7 +4363,20 @@
       "year": 1998,
       "genre": "Indie Folk",
       "lineage": "folk-psych",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Neutral%20Milk%20Hotel%20Holland%2C%201945&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Neutral%20Milk%20Hotel%20Holland%2C%201945&t=song"
+      },
+      "apple": {
+        "trackId": 1839077580,
+        "collectionId": 1839077554,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/af/1d/07/af1d0703-65c8-13d8-ff8e-9b16fd1fafbb/mzaf_8270310524673773990.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music221/v4/12/e3/5c/12e35c39-de5c-b501-3ef0-00f19fb3d513/56627.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/holland-1945/1839077554?i=1839077580",
+        "cn": true
+      }
     },
     {
       "id": "a-minha-menina",
@@ -2926,7 +4386,20 @@
       "year": 1968,
       "genre": "Tropicália",
       "lineage": "folk-psych",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Os%20Mutantes%20A%20Minha%20Menina&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Os%20Mutantes%20A%20Minha%20Menina&t=song"
+      },
+      "apple": {
+        "trackId": 1444060165,
+        "collectionId": 1444060151,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/b6/9b/7f/b69b7fc8-b496-d6d4-e149-1f2fc6c1cb62/mzaf_12859373399813989144.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f3/14/f8/f314f84f-d86b-a588-9d5a-18495b80eef2/00042282949820.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/a-minha-menina/1444060151?i=1444060165",
+        "cn": true
+      }
     },
     {
       "id": "zombie",
@@ -2936,7 +4409,20 @@
       "year": 1976,
       "genre": "Afrobeat",
       "lineage": "folk-psych",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Fela%20Kuti%20Zombie&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Fela%20Kuti%20Zombie&t=song"
+      },
+      "apple": {
+        "trackId": 559710302,
+        "collectionId": 559710299,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/02/af/1f/02af1f27-97c5-2592-302d-6e7f716f8a0b/mzaf_3361936751477078986.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/6b/aa/9b/6baa9b5e-d508-63ac-7327-e29043205984/720841206194_Cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/zombie/559710299?i=559710302",
+        "cn": true
+      }
     },
     {
       "id": "lazy-bones",
@@ -2946,7 +4432,20 @@
       "year": 1975,
       "genre": "Zamrock",
       "lineage": "folk-psych",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=WITCH%20Lazy%20Bones&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=WITCH%20Lazy%20Bones&t=song"
+      },
+      "apple": {
+        "trackId": 526787200,
+        "collectionId": 526787191,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/93/ce/7d/93ce7d42-efa3-5317-4d1b-f4e167351b05/mzaf_636058180361101256.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/18/af/96/18af96aa-0568-43f6-f201-6cde583688a5/WITCH-LazyBones.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/lazy-bones/526787191?i=526787200",
+        "cn": true
+      }
     },
     {
       "id": "a-case-of-you",
@@ -2956,17 +4455,43 @@
       "year": 1971,
       "genre": "Singer-Songwriter",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Joni%20Mitchell%20A%20Case%20of%20You&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Joni%20Mitchell%20A%20Case%20of%20You&t=song"
+      },
+      "apple": {
+        "trackId": 1492263131,
+        "collectionId": 1492263092,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/bc/8e/e6/bc8ee6e2-9fb8-75a1-bdf9-37f97a009fef/mzaf_1734596607807807485.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/00/a2/43/00a24363-cf69-bfd2-a26a-a042d57ab141/075992719926.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/a-case-of-you/1492263092?i=1492263131",
+        "cn": true
+      }
     },
     {
-      "id": "tudo-que-voce-podia-ser",
-      "title": "Tudo Que Você Podia Ser",
+      "id": "cravo-e-canela",
+      "title": "Cravo e Canela",
       "artistId": "milton-lo",
       "albumId": "milton-lo--clube-da-esquina",
       "year": 1972,
       "genre": "MPB",
       "lineage": "folk-psych",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Milton%20Nascimento%20%26%20L%C3%B4%20Borges%20Cravo%20e%20Canela&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Milton%20Nascimento%20%26%20L%C3%B4%20Borges%20Cravo%20e%20Canela&t=song"
+      },
+      "apple": {
+        "trackId": 725786837,
+        "collectionId": 725786220,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/f1/d4/4d/f1d44dba-e20f-00fe-5424-bcfec62ca282/mzaf_17440051031257485805.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/5a/6b/f6/5a6bf61f-835f-3d5c-9d5c-149f7bd5a721/13UABIM51333.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/cravo-e-canela-feat-l%C3%B4-borges/725786220?i=725786837",
+        "cn": true
+      }
     },
     {
       "id": "garden-song",
@@ -2976,7 +4501,20 @@
       "year": 2020,
       "genre": "Indie Folk",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Phoebe%20Bridgers%20Garden%20Song&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Phoebe%20Bridgers%20Garden%20Song&t=song"
+      },
+      "apple": {
+        "trackId": 1504699859,
+        "collectionId": 1504699857,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/1a/22/be1a2200-12f1-853b-01bf-a9b3e7552f24/mzaf_2655626485051684594.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/39/91/4f/39914f60-e9aa-4ae9-3962-44b0a5e5d570/656605150062.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/garden-song/1504699857?i=1504699859",
+        "cn": true
+      }
     },
     {
       "id": "el-baile-y-el-salon",
@@ -2986,7 +4524,20 @@
       "year": 1994,
       "genre": "Alternative Rock",
       "lineage": "folk-psych",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Caf%C3%A9%20Tacvba%20El%20Baile%20y%20el%20Sal%C3%B3n&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Caf%C3%A9%20Tacvba%20El%20Baile%20y%20el%20Sal%C3%B3n&t=song"
+      },
+      "apple": {
+        "trackId": 36401182,
+        "collectionId": 36401122,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/cd/10/cf/cd10cff2-e0ad-a8b0-f71d-e6219e5b0fde/mzaf_16534271609447023619.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/2d/95/95/2d959591-9063-f01e-da83-b02d8d6a8651/s06.bsbqejds.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/el-baile-y-el-sal%C3%B3n/36401122?i=36401182",
+        "cn": true
+      }
     },
     {
       "id": "yi-wu-suo-you",
@@ -2996,17 +4547,43 @@
       "year": 1989,
       "genre": "Folk Rock",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E5%B4%94%E5%81%A5%20%E4%B8%80%E6%97%A0%E6%89%80%E6%9C%89&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E5%B4%94%E5%81%A5%20%E4%B8%80%E6%97%A0%E6%89%80%E6%9C%89&t=song"
+      },
+      "apple": {
+        "trackId": 1585626292,
+        "collectionId": 1585625540,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/73/9e/c5/739ec545-79d6-3730-f2da-7de1bab5ca0d/mzaf_2227274851281986631.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/52/8a/e9/528ae9b1-47a7-a082-8663-83dff561a4fd/cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/%E4%B8%80%E6%97%A0%E6%89%80%E6%9C%89/1585625540?i=1585626292",
+        "cn": false
+      }
     },
     {
       "id": "lvxing-de-yiyi",
       "title": "旅行的意义",
       "artistId": "cheer-chen",
       "albumId": "cheer-chen--lvxing-de-yiyi",
-      "year": 2004,
+      "year": 2005,
       "genre": "Indie Folk",
       "lineage": "folk-psych",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=%E9%99%88%E7%BB%AE%E8%B4%9E%20%E6%97%85%E8%A1%8C%E7%9A%84%E6%84%8F%E4%B9%89&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=%E9%99%88%E7%BB%AE%E8%B4%9E%20%E6%97%85%E8%A1%8C%E7%9A%84%E6%84%8F%E4%B9%89&t=song"
+      },
+      "apple": {
+        "trackId": 818157965,
+        "collectionId": 818157917,
+        "storefront": "hk",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/67/e1/5b/67e15b76-dac8-016b-13b6-ce9bd61faa29/mzaf_5991988435980104155.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music/v4/c5/c5/b9/c5c5b9a5-7b08-1579-950e-6ad69d8f105a/2005_9-_1400.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/hk/album/%E6%97%85%E8%A1%8C%E7%9A%84%E6%84%8F%E7%BE%A9/818157917?i=818157965",
+        "cn": true
+      }
     },
     {
       "id": "paranoid",
@@ -3016,7 +4593,20 @@
       "year": 1970,
       "genre": "Heavy Metal",
       "lineage": "heavy-industrial",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Black%20Sabbath%20Paranoid&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Black%20Sabbath%20Paranoid&t=song"
+      },
+      "apple": {
+        "trackId": 785232521,
+        "collectionId": 785232473,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/be/9d/07/be9d07a7-0e2b-7973-a503-87e12c564d22/mzaf_11577128408735924283.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/be/27/91/be279120-2285-16c6-c7ba-9d6643d4a948/075992732727.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/paranoid/785232473?i=785232521",
+        "cn": false
+      }
     },
     {
       "id": "closer",
@@ -3026,7 +4616,20 @@
       "year": 1994,
       "genre": "Industrial Rock",
       "lineage": "heavy-industrial",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Nine%20Inch%20Nails%20Closer&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Nine%20Inch%20Nails%20Closer&t=song"
+      },
+      "apple": {
+        "trackId": 1440837621,
+        "collectionId": 1440837096,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/57/34/35/5734353f-de96-3bfa-7c4e-adf06cb85d45/mzaf_6092328904504636843.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/55/e0/85/55e0851e-11df-3b6a-7c54-4eef0efc2bed/15UMGIM67680.rgb.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/closer/1440837096?i=1440837621",
+        "cn": true
+      }
     },
     {
       "id": "so-did-we",
@@ -3036,7 +4639,20 @@
       "year": 2004,
       "genre": "Post-Metal",
       "lineage": "heavy-industrial",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Isis%20So%20Did%20We&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Isis%20So%20Did%20We&t=song"
+      },
+      "apple": {
+        "trackId": 1891405284,
+        "collectionId": 1891405282,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/22/b3/cb/22b3cb8d-7856-662d-b5db-6e2fc2b8e4ac/mzaf_7738433181567598562.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music211/v4/a3/d2/fc/a3d2fcb2-8fbe-990f-77e9-a7c76a85d962/64501.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/so-did-we-remastered/1891405282?i=1891405284",
+        "cn": true
+      }
     },
     {
       "id": "dream-house",
@@ -3046,7 +4662,20 @@
       "year": 2013,
       "genre": "Blackgaze",
       "lineage": "heavy-industrial",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Deafheaven%20Dream%20House&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Deafheaven%20Dream%20House&t=song"
+      },
+      "apple": {
+        "trackId": 652039247,
+        "collectionId": 652038965,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d2/29/9c/d2299c74-0f29-4396-89af-c19640df5a6e/mzaf_16142545683472437826.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music124/v4/67/52/b2/6752b2b0-43c7-7bfb-16ac-d6c7f605c898/888002414861.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/dream-house/652038965?i=652039247",
+        "cn": true
+      }
     },
     {
       "id": "hot-on-the-heels-of-love",
@@ -3056,7 +4685,20 @@
       "year": 1979,
       "genre": "Industrial",
       "lineage": "heavy-industrial",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Throbbing%20Gristle%20Hot%20on%20the%20Heels%20of%20Love&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Throbbing%20Gristle%20Hot%20on%20the%20Heels%20of%20Love&t=song"
+      },
+      "apple": {
+        "trackId": 1217968213,
+        "collectionId": 1217967648,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview115/v4/91/0b/58/910b5834-f842-1fb8-8834-5ee470efa5d9/mzaf_8161325000286714576.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music114/v4/01/58/20/0158205c-45fd-5208-0aba-bdb9726129d1/724596967652.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/hot-on-heels-of-love-remastered/1217967648?i=1217968213",
+        "cn": false
+      }
     },
     {
       "id": "funeralopolis",
@@ -3066,7 +4708,20 @@
       "year": 2000,
       "genre": "Doom Metal",
       "lineage": "heavy-industrial",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Electric%20Wizard%20Funeralopolis&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Electric%20Wizard%20Funeralopolis&t=song"
+      },
+      "apple": {
+        "trackId": 965381929,
+        "collectionId": 965381927,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/77/c3/40/77c340e4-18eb-c68e-010a-57f7eb2e8dac/mzaf_16643407208726953721.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/fe/4b/76/fe4b76d0-7545-d93b-8ffc-5c2dc0702298/889176384448.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/funeralopolis/965381927?i=965381929",
+        "cn": false
+      }
     },
     {
       "id": "yu-gung",
@@ -3076,7 +4731,20 @@
       "year": 1985,
       "genre": "Industrial",
       "lineage": "heavy-industrial",
-      "tier": 3
+      "tier": 3,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Einst%C3%BCrzende%20Neubauten%20Y%C3%BC-Gung%20(F%C3%BCtter%20mein%20Ego)&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Einst%C3%BCrzende%20Neubauten%20Y%C3%BC-Gung%20(F%C3%BCtter%20mein%20Ego)&t=song"
+      },
+      "apple": {
+        "trackId": 1438435291,
+        "collectionId": 1438435058,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/2d/c1/5e/2dc15e1c-8a44-209a-ef72-6bfa0d8e8e8e/mzaf_6634736672239512737.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music118/v4/f9/84/91/f9849159-b2e4-5e1d-31a9-de9c459b0487/cover.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/y%C3%BC-gung-f%C3%BCtter-mein-ego/1438435058?i=1438435291",
+        "cn": true
+      }
     },
     {
       "id": "farewell",
@@ -3086,7 +4754,20 @@
       "year": 2005,
       "genre": "Shoegaze",
       "lineage": "heavy-industrial",
-      "tier": 2
+      "tier": 2,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Boris%20%E6%B1%BA%E5%88%A5&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Boris%20%E6%B1%BA%E5%88%A5&t=song"
+      },
+      "apple": {
+        "trackId": 1580076291,
+        "collectionId": 1580076290,
+        "storefront": "jp",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/56/78/8f/56788f37-b2ea-4cda-cf31-47f58f69d44d/mzaf_2450452555059901002.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/7c/94/60/7c946034-a3f8-e1d8-6745-656ee44a5ceb/artwork.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/jp/album/farewell/1580076290?i=1580076291",
+        "cn": true
+      }
     },
     {
       "id": "in-the-end",
@@ -3096,7 +4777,20 @@
       "year": 2000,
       "genre": "Nu Metal",
       "lineage": "heavy-industrial",
-      "tier": 1
+      "tier": 1,
+      "links": {
+        "netease": "https://music.163.com/#/search/m/?s=Linkin%20Park%20In%20the%20End&type=1",
+        "qq": "https://y.qq.com/n/ryqq/search?w=Linkin%20Park%20In%20the%20End&t=song"
+      },
+      "apple": {
+        "trackId": 590431785,
+        "collectionId": 590431776,
+        "storefront": "us",
+        "previewUrl": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/d9/33/34/d933341d-ba95-dc3b-11a3-34d6632dd62e/mzaf_10942671303595386057.plus.aac.p.m4a",
+        "artworkUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/53/a7/7f/53a77fab-c54c-a57b-8130-248fc12d0c80/093624948995.jpg/100x100bb.jpg",
+        "url": "https://music.apple.com/us/album/in-the-end/590431776?i=590431785",
+        "cn": true
+      }
     }
   ],
   "cells": [

@@ -1,16 +1,13 @@
 import { useEffect, useRef, useState } from 'react';
 import {
-  drawAlbumCover,
   drawBoothWindow,
   drawLoreCover,
   drawMusicianPortrait,
-  drawSingle7Inch,
 } from '../engine/pixelArt';
 import { LINEAGE_STYLE } from '../data/meta';
 import type {
   LineageId,
   LoreItem,
-  PixelCoverSpec,
   PixelPortraitSpec,
 } from '../types/game';
 
@@ -39,76 +36,6 @@ export function PortraitCanvas({
         imageRendering: 'pixelated',
       }}
       className={`pixel-canvas ${className}`}
-    />
-  );
-}
-
-export function AlbumCoverCanvas({
-  spec,
-  size = 128,
-  className = '',
-}: {
-  spec: PixelCoverSpec;
-  size?: number;
-  className?: string;
-}) {
-  const ref = useRef<HTMLCanvasElement | null>(null);
-  useEffect(() => {
-    if (ref.current) {
-      drawAlbumCover(ref.current, spec);
-    }
-  }, [spec]);
-
-  return (
-    <canvas
-      ref={ref}
-      style={{
-        width: `${size}px`,
-        height: `${size}px`,
-        imageRendering: 'pixelated',
-      }}
-      className={`pixel-canvas ${className}`}
-    />
-  );
-}
-
-export function Single7InchCanvas({
-  spec,
-  isPlaying = false,
-  width = 144,
-  height = 120,
-}: {
-  spec: PixelCoverSpec;
-  isPlaying?: boolean;
-  width?: number;
-  height?: number;
-}) {
-  const ref = useRef<HTMLCanvasElement | null>(null);
-  const [angle, setAngle] = useState(0.5);
-
-  useEffect(() => {
-    if (!isPlaying) return;
-    const id = window.setInterval(() => {
-      setAngle((a) => a + 0.35);
-    }, 90);
-    return () => window.clearInterval(id);
-  }, [isPlaying]);
-
-  useEffect(() => {
-    if (ref.current) {
-      drawSingle7Inch(ref.current, spec, angle);
-    }
-  }, [spec, angle]);
-
-  return (
-    <canvas
-      ref={ref}
-      style={{
-        width: `${width}px`,
-        height: `${height}px`,
-        imageRendering: 'pixelated',
-      }}
-      className="pixel-canvas"
     />
   );
 }

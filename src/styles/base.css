@@ -35,8 +35,8 @@ html, body, #root {
 }
 
 .pixel-canvas {
-  image-rendering: pixelated;
   image-rendering: crisp-edges;
+  image-rendering: pixelated;
   display: block;
 }
 

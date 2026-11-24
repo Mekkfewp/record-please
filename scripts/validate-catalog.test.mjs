@@ -96,3 +96,41 @@ test('rejects text that claims a ranking', () => {
 test('rejects a lore item without a source', () => {
   expectFailure((c) => { c.lore[0].source = ''; }, 'lore');
 });
+
+const matched = (c) => c.tracks.filter((t) => t.apple);
+
+test('rejects a card without listening links', () => {
+  expectFailure((c) => { delete c.tracks[0].links; }, 'links');
+});
+
+test('rejects an Apple match that lost its preview address', () => {
+  expectFailure((c) => { delete matched(c)[0].apple.previewUrl; }, 'apple');
+});
+
+test('rejects a preview address that is not on Apple servers', () => {
+  expectFailure((c) => { matched(c)[0].apple.previewUrl = 'https://example.com/song.m4a'; }, 'apple');
+});
+
+test('rejects an Apple link that points at another recording', () => {
+  expectFailure((c) => { matched(c)[0].apple.trackId += 1; }, 'apple');
+});
+
+test('rejects an Apple match never checked against the mainland China store', () => {
+  expectFailure((c) => { delete matched(c)[0].apple.cn; }, 'apple');
+});
+
+test('rejects two cards that share one Apple recording', () => {
+  expectFailure((c) => { matched(c)[1].apple = { ...matched(c)[0].apple }; }, 'apple');
+});
+
+test('words inside Apple addresses are not mistaken for ranking claims', () => {
+  const { code, output } = validate((c) => {
+    const apple = matched(c)[0].apple;
+    apple.url = `https://music.apple.com/us/album/official-chart-4.18/1?i=${apple.trackId}`;
+  });
+  assert.equal(code, 0, output);
+});
+
+test('rejects a card that has no Apple match', () => {
+  expectFailure((c) => { delete c.tracks[0].apple; }, 'apple');
+});

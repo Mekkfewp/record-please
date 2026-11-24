@@ -1,5 +1,4 @@
-import { drawAlbumCover, drawMusicianPortrait } from './pixelArt';
-import { placeholderCover } from '../data/placeholderArt';
+import { drawMusicianPortrait } from './pixelArt';
 import type { Card, LoreItem, PixelPortraitSpec } from '../types/game';
 
 export interface PassportExportPayload {
@@ -93,13 +92,6 @@ export function downloadPassportPng(payload: PassportExportPayload): void {
     ctx.fillRect(380, by, 180, 12);
     ctx.fillStyle = lin.color;
     ctx.fillRect(380, by, Math.max(24, Math.round(180 * lin.score)), 12);
-  });
-
-  // Top 3 pixel album sleeves on right
-  payload.cards.slice(0, 3).forEach((card, idx) => {
-    const ac = document.createElement('canvas');
-    drawAlbumCover(ac, placeholderCover(card.album.id, card.track.lineage));
-    ctx.drawImage(ac, 610 + idx * 88, 120, 78, 78);
   });
 
   // Divider

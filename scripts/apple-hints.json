@@ -1,0 +1,1057 @@
+{
+  "artistAliases": {
+    "dou-wei": [
+      "Dou Wei",
+      "竇唯"
+    ],
+    "faye-wong": [
+      "Faye Wong",
+      "王菲 (Faye Wong)"
+    ],
+    "pu-shu": [
+      "Pu Shu",
+      "樸樹"
+    ],
+    "jay-chou": [
+      "Jay Chou",
+      "周杰倫"
+    ],
+    "omnipotent-youth-society": [
+      "Omnipotent Youth Society",
+      "萬能青年旅店"
+    ],
+    "no-party-for-cao-dong": [
+      "No Party For Cao Dong",
+      "草東沒有派對"
+    ],
+    "re-tros": [
+      "Re-TROS",
+      "重塑雕像的权利 Re-TROS",
+      "重塑雕像的權利"
+    ],
+    "sunset-rollercoaster": [
+      "Sunset Rollercoaster",
+      "落日飛車"
+    ],
+    "hedgehog": [
+      "Hedgehog",
+      "刺蝟",
+      "刺猬乐队"
+    ],
+    "tat-ming-pair": [
+      "Tat Ming Pair",
+      "達明一派"
+    ],
+    "cui-jian": [
+      "Cui Jian"
+    ],
+    "cheer-chen": [
+      "Cheer Chen",
+      "陳綺貞"
+    ],
+    "utada-hikaru": [
+      "Hikaru Utada",
+      "宇多田光",
+      "Utada Hikaru"
+    ],
+    "kenshi-yonezu": [
+      "Kenshi Yonezu"
+    ],
+    "ichiko-aoba": [
+      "Ichiko Aoba"
+    ],
+    "mariya-takeuchi": [
+      "Mariya Takeuchi"
+    ],
+    "taeko-onuki": [
+      "Taeko Onuki",
+      "Taeko Ohnuki"
+    ],
+    "sheena-ringo": [
+      "Sheena Ringo",
+      "Ringo Sheena"
+    ],
+    "kinoko-teikoku": [
+      "Kinoko Teikoku"
+    ],
+    "ryo-fukui": [
+      "Ryo Fukui"
+    ],
+    "fishmans": [
+      "フィッシュマンズ"
+    ],
+    "flippers-guitar": [
+      "FLIPPER'S GUITAR",
+      "フリッパーズ・ギター"
+    ],
+    "ymo": [
+      "YELLOW MAGIC ORCHESTRA",
+      "YMO",
+      "イエロー・マジック・オーケストラ"
+    ],
+    "art-blakey": [
+      "Art Blakey",
+      "Art Blakey and the Jazz Messengers",
+      "Art Blakey & The Jazz Messengers"
+    ],
+    "grandmaster-flash": [
+      "Grandmaster Flash",
+      "Grandmaster Flash and the Furious Five",
+      "Grandmaster Flash & The Furious Five"
+    ],
+    "siouxsie": [
+      "Siouxsie & The Banshees"
+    ],
+    "milton-lo": [
+      "Milton Nascimento",
+      "Lô Borges",
+      "Milton Nascimento & Lô Borges",
+      "Lô Borges & Milton Nascimento"
+    ],
+    "fela-kuti": [
+      "Fela Kuti",
+      "Fela Kuti & Africa 70",
+      "Fela Aníkúlápó Kuti",
+      "Fela Kuti & Afrika 70"
+    ],
+    "witch": [
+      "Witch",
+      "W.I.T.C.H.",
+      "WITCH (We Intend To Cause Havoc)"
+    ],
+    "gybe": [
+      "Godspeed You! Black Emperor",
+      "Godspeed You Black Emperor!"
+    ],
+    "rosalia": [
+      "ROSALÍA",
+      "Rosalía"
+    ],
+    "molchat-doma": [
+      "Молчат Дома"
+    ],
+    "bcnr": [
+      "Black Country, New Road"
+    ],
+    "bill-evans-trio": [
+      "Bill Evans",
+      "Bill Evans Trio"
+    ],
+    "neu": [
+      "NEU!",
+      "Neu!"
+    ],
+    "atcq": [
+      "A Tribe Called Quest"
+    ],
+    "charli-xcx": [
+      "Charli XCX"
+    ],
+    "prince": [
+      "Prince & The Revolution",
+      "Prince and The Revolution"
+    ]
+  },
+  "tracks": {
+    "gaoji-dongwu": {
+      "titleAliases": [
+        "高級動物",
+        "The Higher Being"
+      ],
+      "albumAliases": [
+        "黑夢",
+        "Black Dream"
+      ],
+      "pin": {
+        "trackId": 158799064,
+        "storefront": "hk"
+      }
+    },
+    "da-feng-chui": {
+      "titleAliases": [
+        "大風吹",
+        "Simon Says"
+      ],
+      "albumAliases": [
+        "醜奴兒",
+        "The Servile"
+      ],
+      "pin": {
+        "trackId": 1676735991,
+        "storefront": "hk"
+      }
+    },
+    "naxie-huaer": {
+      "titleAliases": [
+        "那些花兒"
+      ],
+      "pin": {
+        "trackId": 1063212951,
+        "storefront": "us"
+      }
+    },
+    "ai-zai-xiyuan-qian": {
+      "titleAliases": [
+        "愛在西元前"
+      ],
+      "pin": {
+        "trackId": 1721454235,
+        "storefront": "hk"
+      }
+    },
+    "bairimeng-lan": {
+      "titleAliases": [
+        "白日夢藍",
+        "白日夢藍 (Ban Zou)"
+      ],
+      "albumAliases": [
+        "白日夢藍"
+      ],
+      "pin": {
+        "trackId": 1808900377,
+        "storefront": "hk"
+      }
+    },
+    "shitou-ji": {
+      "titleAliases": [
+        "石頭記"
+      ],
+      "albumAliases": [
+        "石頭記",
+        "復黑王: 石頭記"
+      ],
+      "pin": {
+        "trackId": 1442694420,
+        "storefront": "hk"
+      }
+    },
+    "lvxing-de-yiyi": {
+      "titleAliases": [
+        "旅行的意義"
+      ],
+      "albumAliases": [
+        "華麗的冒險"
+      ],
+      "pin": {
+        "trackId": 818157965,
+        "storefront": "hk"
+      }
+    },
+    "koi-to-machine-gun": {
+      "titleAliases": [
+        "Young, Alive, in Love / 恋とマシンガン",
+        "Young, Alive, in Love"
+      ],
+      "pin": {
+        "trackId": 290714280,
+        "storefront": "jp"
+      }
+    },
+    "porcelain": {
+      "albumAliases": [
+        "Windswept Adan"
+      ],
+      "pin": {
+        "trackId": 1714304675,
+        "storefront": "jp"
+      }
+    },
+    "marunouchi-sadistic": {
+      "titleAliases": [
+        "丸ノ内サディスティック"
+      ],
+      "pin": {
+        "trackId": 1384341683,
+        "storefront": "jp"
+      }
+    },
+    "hot-on-the-heels-of-love": {
+      "titleAliases": [
+        "Hot On Heels of Love"
+      ],
+      "pin": {
+        "trackId": 1217968213,
+        "storefront": "us"
+      }
+    },
+    "farewell": {
+      "titleAliases": [
+        "Farewell",
+        "決別"
+      ],
+      "albumAliases": [
+        "Pink"
+      ],
+      "pin": {
+        "trackId": 1580076291,
+        "storefront": "jp"
+      }
+    },
+    "glorias-step": {
+      "titleAliases": [
+        "Gloria's Step (Take 2) [Live]",
+        "Gloria's Step (Take 2)"
+      ],
+      "storefronts": [
+        "us",
+        "gb"
+      ],
+      "pin": {
+        "trackId": 1440926499,
+        "storefront": "us"
+      },
+      "albumAliases": [
+        "Sunday At the Village Vanguard (Keepnews Collection) [Live]"
+      ]
+    },
+    "acknowledgement": {
+      "titleAliases": [
+        "A Love Supreme, Pt. 1: Acknowledgement",
+        "A Love Supreme, Pt. I - Acknowledgement",
+        "Part 1: Acknowledgement",
+        "Acknowledgement"
+      ],
+      "pin": {
+        "trackId": 1440713020,
+        "storefront": "us"
+      }
+    },
+    "cream": {
+      "titleAliases": [
+        "C.R.E.A.M. (Cash Rules Everything Around Me)"
+      ],
+      "pin": {
+        "trackId": 269843734,
+        "storefront": "us"
+      }
+    },
+    "kiss": {
+      "albumAliases": [
+        "Parade (Music from the Motion Picture Under the Cherry Moon)"
+      ],
+      "pin": {
+        "trackId": 260336471,
+        "storefront": "us"
+      }
+    },
+    "pigs-in-the-river": {
+      "albumAliases": [
+        "Before The Applause (Rebuilding The Rights Of Statues)",
+        "喝彩之前"
+      ],
+      "pin": {
+        "trackId": 1808446520,
+        "storefront": "hk"
+      }
+    },
+    "360": {
+      "storefronts": [
+        "us",
+        "gb"
+      ],
+      "pin": {
+        "trackId": 1739079976,
+        "storefront": "us"
+      }
+    },
+    "black-or-white": {
+      "pin": {
+        "trackId": 322847191,
+        "storefront": "us"
+      }
+    },
+    "like-a-prayer": {
+      "pin": {
+        "trackId": 83445997,
+        "storefront": "us"
+      }
+    },
+    "fuzao": {
+      "pin": {
+        "trackId": 1443287506,
+        "storefront": "hk"
+      }
+    },
+    "smells-like-teen-spirit": {
+      "pin": {
+        "trackId": 1440783625,
+        "storefront": "us"
+      }
+    },
+    "teen-age-riot": {
+      "pin": {
+        "trackId": 520504456,
+        "storefront": "us"
+      }
+    },
+    "wonderwall": {
+      "pin": {
+        "trackId": 1517447333,
+        "storefront": "us"
+      }
+    },
+    "there-is-a-light": {
+      "pin": {
+        "trackId": 800157892,
+        "storefront": "us"
+      }
+    },
+    "enjoy-the-silence": {
+      "pin": {
+        "trackId": 1174246889,
+        "storefront": "us"
+      }
+    },
+    "julia": {
+      "pin": {
+        "trackId": 1887017451,
+        "storefront": "us"
+      },
+      "albumAliases": [
+        "Picture One - EP"
+      ]
+    },
+    "lovesong": {
+      "pin": {
+        "trackId": 371772239,
+        "storefront": "us"
+      }
+    },
+    "de-musica-ligera": {
+      "pin": {
+        "trackId": 321882958,
+        "storefront": "us"
+      }
+    },
+    "karma-police": {
+      "pin": {
+        "trackId": 1097861836,
+        "storefront": "us"
+      }
+    },
+    "yellow": {
+      "pin": {
+        "trackId": 1122782283,
+        "storefront": "us"
+      }
+    },
+    "first-love": {
+      "pin": {
+        "trackId": 1440763358,
+        "storefront": "jp"
+      }
+    },
+    "night-cruising": {
+      "pin": {
+        "trackId": 1416941921,
+        "storefront": "jp"
+      }
+    },
+    "stan": {
+      "pin": {
+        "trackId": 1440866795,
+        "storefront": "us"
+      }
+    },
+    "never-meant": {
+      "pin": {
+        "trackId": 1651301993,
+        "storefront": "us"
+      }
+    },
+    "song-2": {
+      "pin": {
+        "trackId": 726416473,
+        "storefront": "us"
+      }
+    },
+    "teardrop": {
+      "pin": {
+        "trackId": 724466700,
+        "storefront": "us"
+      }
+    },
+    "one-more-time": {
+      "pin": {
+        "trackId": 697195462,
+        "storefront": "us"
+      }
+    },
+    "sexy-boy": {
+      "pin": {
+        "trackId": 693063918,
+        "storefront": "us"
+      }
+    },
+    "ciega-sordomuda": {
+      "pin": {
+        "trackId": 192682831,
+        "storefront": "us"
+      }
+    },
+    "puente": {
+      "pin": {
+        "trackId": 304793008,
+        "storefront": "us"
+      }
+    },
+    "girlfriend": {
+      "pin": {
+        "trackId": 268993333,
+        "storefront": "us"
+      }
+    },
+    "shijiazhuang": {
+      "pin": {
+        "trackId": 1538548895,
+        "storefront": "us"
+      }
+    },
+    "rolling-in-the-deep": {
+      "pin": {
+        "trackId": 1544491233,
+        "storefront": "us"
+      }
+    },
+    "polyrhythm": {
+      "pin": {
+        "trackId": 657666313,
+        "storefront": "jp"
+      }
+    },
+    "goodbye": {
+      "pin": {
+        "trackId": 205862599,
+        "storefront": "jp"
+      },
+      "albumAliases": [
+        "New Sentimentality - EP"
+      ]
+    },
+    "pink-white": {
+      "pin": {
+        "trackId": 1146195714,
+        "storefront": "us"
+      }
+    },
+    "alright": {
+      "pin": {
+        "trackId": 1440829463,
+        "storefront": "us"
+      }
+    },
+    "i-bet-you-look-good": {
+      "pin": {
+        "trackId": 111153391,
+        "storefront": "us"
+      }
+    },
+    "archangel": {
+      "pin": {
+        "trackId": 893175788,
+        "storefront": "us"
+      }
+    },
+    "papaoutai": {
+      "pin": {
+        "trackId": 1440862113,
+        "storefront": "us"
+      }
+    },
+    "percees-de-lumiere": {
+      "pin": {
+        "trackId": 1556058795,
+        "storefront": "us"
+      }
+    },
+    "latinoamerica": {
+      "pin": {
+        "trackId": 401265183,
+        "storefront": "us"
+      }
+    },
+    "hasta-la-raiz": {
+      "pin": {
+        "trackId": 1055384375,
+        "storefront": "us"
+      }
+    },
+    "bad-guy": {
+      "pin": {
+        "trackId": 1450695739,
+        "storefront": "us"
+      }
+    },
+    "dont-start-now": {
+      "pin": {
+        "trackId": 1538003635,
+        "storefront": "us"
+      }
+    },
+    "my-jinji": {
+      "pin": {
+        "trackId": 1753222327,
+        "storefront": "hk"
+      },
+      "albumAliases": [
+        "JINJI KIKKO - Single"
+      ]
+    },
+    "lemon": {
+      "pin": {
+        "trackId": 1538265741,
+        "storefront": "jp"
+      }
+    },
+    "drivers-license": {
+      "pin": {
+        "trackId": 1560735424,
+        "storefront": "us"
+      }
+    },
+    "andromeda": {
+      "pin": {
+        "trackId": 1450550346,
+        "storefront": "us"
+      }
+    },
+    "concorde": {
+      "pin": {
+        "trackId": 1586070262,
+        "storefront": "us"
+      }
+    },
+    "malamente": {
+      "pin": {
+        "trackId": 1436310304,
+        "storefront": "us"
+      }
+    },
+    "sudno": {
+      "pin": {
+        "trackId": 1492386463,
+        "storefront": "us"
+      }
+    },
+    "titi-me-pregunto": {
+      "pin": {
+        "trackId": 1622045635,
+        "storefront": "us"
+      }
+    },
+    "arca-time": {
+      "pin": {
+        "trackId": 1511122261,
+        "storefront": "us"
+      }
+    },
+    "so-what": {
+      "pin": {
+        "trackId": 268443097,
+        "storefront": "us"
+      }
+    },
+    "moanin": {
+      "pin": {
+        "trackId": 725816540,
+        "storefront": "us"
+      }
+    },
+    "goodbye-pork-pie-hat": {
+      "pin": {
+        "trackId": 282907093,
+        "storefront": "us"
+      }
+    },
+    "speak-no-evil": {
+      "pin": {
+        "trackId": 723473852,
+        "storefront": "us"
+      }
+    },
+    "strings-of-light": {
+      "pin": {
+        "trackId": 1561775000,
+        "storefront": "us"
+      }
+    },
+    "summon-the-fire": {
+      "pin": {
+        "trackId": 1449208109,
+        "storefront": "us"
+      }
+    },
+    "early-summer": {
+      "pin": {
+        "trackId": 1329457872,
+        "storefront": "us"
+      }
+    },
+    "sweet-jane": {
+      "pin": {
+        "trackId": 1050415253,
+        "storefront": "us"
+      }
+    },
+    "london-calling": {
+      "pin": {
+        "trackId": 684811768,
+        "storefront": "us"
+      }
+    },
+    "disorder": {
+      "pin": {
+        "trackId": 266603053,
+        "storefront": "us"
+      }
+    },
+    "age-of-consent": {
+      "pin": {
+        "trackId": 1040982045,
+        "storefront": "us"
+      }
+    },
+    "damaged-goods": {
+      "pin": {
+        "trackId": 1589225338,
+        "storefront": "us"
+      }
+    },
+    "spellbound": {
+      "pin": {
+        "trackId": 1440764575,
+        "storefront": "us"
+      }
+    },
+    "radio-free-europe": {
+      "pin": {
+        "trackId": 1440872983,
+        "storefront": "us"
+      }
+    },
+    "only-shallow": {
+      "pin": {
+        "trackId": 1556921231,
+        "storefront": "us"
+      }
+    },
+    "cherry-coloured-funk": {
+      "pin": {
+        "trackId": 258198956,
+        "storefront": "us"
+      }
+    },
+    "alison": {
+      "pin": {
+        "trackId": 292885253,
+        "storefront": "us"
+      }
+    },
+    "mogwai-fear-satan": {
+      "pin": {
+        "trackId": 280271170,
+        "storefront": "us"
+      }
+    },
+    "good-morning-captain": {
+      "pin": {
+        "trackId": 295785340,
+        "storefront": "us"
+      }
+    },
+    "svefn-g-englar": {
+      "pin": {
+        "trackId": 1447442935,
+        "storefront": "us"
+      }
+    },
+    "taikutsu-shinogi": {
+      "pin": {
+        "trackId": 521644948,
+        "storefront": "jp"
+      }
+    },
+    "the-model": {
+      "pin": {
+        "trackId": 726157363,
+        "storefront": "us"
+      }
+    },
+    "hallogallo": {
+      "pin": {
+        "trackId": 112318493,
+        "storefront": "gb"
+      }
+    },
+    "vitamin-c": {
+      "pin": {
+        "trackId": 826494416,
+        "storefront": "us"
+      }
+    },
+    "xtal": {
+      "pin": {
+        "trackId": 1668862649,
+        "storefront": "us"
+      }
+    },
+    "good-life": {
+      "pin": {
+        "trackId": 724914318,
+        "storefront": "us"
+      }
+    },
+    "roygbiv": {
+      "pin": {
+        "trackId": 281116081,
+        "storefront": "us"
+      }
+    },
+    "bad-kingdom": {
+      "pin": {
+        "trackId": 1684866232,
+        "storefront": "us"
+      }
+    },
+    "inner-city-life": {
+      "pin": {
+        "trackId": 1561942875,
+        "storefront": "us"
+      }
+    },
+    "rydeen": {
+      "pin": {
+        "trackId": 1291843647,
+        "storefront": "us"
+      }
+    },
+    "the-message": {
+      "pin": {
+        "trackId": 59389711,
+        "storefront": "us"
+      }
+    },
+    "ny-state-of-mind": {
+      "pin": {
+        "trackId": 662324539,
+        "storefront": "us"
+      }
+    },
+    "electric-relaxation": {
+      "pin": {
+        "trackId": 265670650,
+        "storefront": "us"
+      }
+    },
+    "midnight-in-a-perfect-world": {
+      "pin": {
+        "trackId": 1660486423,
+        "storefront": "us"
+      }
+    },
+    "time-the-donut-of-the-heart": {
+      "pin": {
+        "trackId": 108232662,
+        "storefront": "us"
+      }
+    },
+    "all-caps": {
+      "pin": {
+        "trackId": 887699536,
+        "storefront": "us"
+      }
+    },
+    "since-i-left-you": {
+      "pin": {
+        "trackId": 1558003296,
+        "storefront": "us"
+      }
+    },
+    "feather": {
+      "pin": {
+        "trackId": 1078914485,
+        "storefront": "jp"
+      }
+    },
+    "bring-the-noise": {
+      "pin": {
+        "trackId": 1440837951,
+        "storefront": "us"
+      }
+    },
+    "baby-im-bleeding": {
+      "pin": {
+        "trackId": 1818406460,
+        "storefront": "us"
+      }
+    },
+    "once-in-a-lifetime": {
+      "pin": {
+        "trackId": 124921347,
+        "storefront": "us"
+      }
+    },
+    "plastic-love": {
+      "pin": {
+        "trackId": 1591437487,
+        "storefront": "jp"
+      },
+      "albumAliases": [
+        "VARIETY -30th Anniversary Edition-"
+      ]
+    },
+    "god-only-knows": {
+      "pin": {
+        "trackId": 1440841258,
+        "storefront": "us"
+      }
+    },
+    "joga": {
+      "pin": {
+        "trackId": 20833584,
+        "storefront": "us"
+      }
+    },
+    "star-fruits-surf-rider": {
+      "pin": {
+        "trackId": 401723640,
+        "storefront": "jp"
+      }
+    },
+    "miss-modular": {
+      "pin": {
+        "trackId": 1230517316,
+        "storefront": "us"
+      }
+    },
+    "running-up-that-hill": {
+      "pin": {
+        "trackId": 1675375090,
+        "storefront": "us"
+      }
+    },
+    "tokai": {
+      "pin": {
+        "trackId": 1481213374,
+        "storefront": "jp"
+      }
+    },
+    "two-weeks": {
+      "pin": {
+        "trackId": 1546107585,
+        "storefront": "us"
+      }
+    },
+    "pink-moon": {
+      "pin": {
+        "trackId": 1440758657,
+        "storefront": "us"
+      }
+    },
+    "like-a-rolling-stone": {
+      "pin": {
+        "trackId": 201281527,
+        "storefront": "us"
+      }
+    },
+    "holland-1945": {
+      "pin": {
+        "trackId": 1839077580,
+        "storefront": "us"
+      }
+    },
+    "a-minha-menina": {
+      "pin": {
+        "trackId": 1444060165,
+        "storefront": "us"
+      }
+    },
+    "zombie": {
+      "pin": {
+        "trackId": 559710302,
+        "storefront": "us"
+      }
+    },
+    "lazy-bones": {
+      "pin": {
+        "trackId": 526787200,
+        "storefront": "us"
+      }
+    },
+    "a-case-of-you": {
+      "pin": {
+        "trackId": 1492263131,
+        "storefront": "us"
+      }
+    },
+    "cravo-e-canela": {
+      "pin": {
+        "trackId": 725786837,
+        "storefront": "us"
+      },
+      "titleAliases": [
+        "Cravo e Canela (feat. Lô Borges)"
+      ]
+    },
+    "garden-song": {
+      "pin": {
+        "trackId": 1504699859,
+        "storefront": "us"
+      }
+    },
+    "el-baile-y-el-salon": {
+      "pin": {
+        "trackId": 36401182,
+        "storefront": "us"
+      }
+    },
+    "yi-wu-suo-you": {
+      "pin": {
+        "trackId": 1585626292,
+        "storefront": "us"
+      }
+    },
+    "paranoid": {
+      "pin": {
+        "trackId": 785232521,
+        "storefront": "us"
+      }
+    },
+    "closer": {
+      "pin": {
+        "trackId": 1440837621,
+        "storefront": "us"
+      }
+    },
+    "so-did-we": {
+      "pin": {
+        "trackId": 1891405284,
+        "storefront": "us"
+      }
+    },
+    "dream-house": {
+      "pin": {
+        "trackId": 652039247,
+        "storefront": "us"
+      }
+    },
+    "funeralopolis": {
+      "pin": {
+        "trackId": 965381929,
+        "storefront": "us"
+      }
+    },
+    "yu-gung": {
+      "pin": {
+        "trackId": 1438435291,
+        "storefront": "us"
+      }
+    },
+    "in-the-end": {
+      "pin": {
+        "trackId": 590431785,
+        "storefront": "us"
+      }
+    }
+  }
+}

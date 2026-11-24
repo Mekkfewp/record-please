@@ -68,36 +68,6 @@ export interface PixelPortraitSpec {
   facialHair?: 'none' | 'stubble' | 'goatee' | 'mustache';
 }
 
-export type AlbumCoverArchetype =
-  | 'blue-note'
-  | 'joy-waveform'
-  | 'shoegaze-wash'
-  | 'punk-ransom'
-  | 'city-neon'
-  | 'electronic-grid'
-  | 'hiphop-crate'
-  | 'psych-mandala'
-  | 'industrial-brutalist'
-  | 'minimal-bauhaus';
-
-export interface PixelCoverSpec {
-  seed: string;
-  archetype: AlbumCoverArchetype;
-  primaryColor: string;
-  secondaryColor: string;
-  accentColor: string;
-  hasObiStrip?: boolean;
-  codeLabel?: string;
-}
-
-export interface GrooveConfig {
-  bpm: number;
-  rootMidi: number;
-  mode: 'dorian' | 'minor' | 'major7' | 'mixolydian' | 'phrygian' | 'pentatonic';
-  style: LineageId;
-  swing?: number;
-}
-
 // ---- Catalog records, exactly as stored in src/data/catalog.json ----
 
 export interface Era {
@@ -142,6 +112,26 @@ export interface Track {
   genre: string;
   lineage: LineageId | null;
   tier: 1 | 2 | 3;
+  /** Present only when the recording was found in Apple's catalogue and the match was checked. */
+  apple?: AppleMatch;
+  links: ListenLinks;
+}
+
+export interface AppleMatch {
+  trackId: number;
+  collectionId: number;
+  storefront: string;
+  previewUrl: string;
+  artworkUrl: string;
+  url: string;
+  /** Whether Apple's mainland China store carries this recording under the same ids. */
+  cn?: boolean;
+}
+
+/** Search pages on services where the full track can be played. */
+export interface ListenLinks {
+  netease: string;
+  qq: string;
 }
 
 export interface Cell {

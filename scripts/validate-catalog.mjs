@@ -156,7 +156,7 @@ const walk = (value, path) => {
       if (BANNED_KEY.test(k)) fail('rating', `${path}.${k}: rating or ranking fields are not allowed`);
       walk(v, `${path}.${k}`);
     }
-  } else if (typeof value === 'string' && !/\.source$/.test(path) && BANNED_TEXT.test(value)) {
+  } else if (typeof value === 'string' && !/\.source$|\.(apple|links)\.\w+$/.test(path) && BANNED_TEXT.test(value)) {
     fail('rating', `${path}: "${value}" reads like a rating, ranking or official claim`);
   }
 };
@@ -187,12 +187,32 @@ for (const rule of ['mixed', 'pop', 'empty']) {
   if (!catalog.personas.some((p) => p.rule === rule)) fail('persona', `no persona with rule "${rule}"`);
 }
 
-// 8. Apple match data, once a track has it, must be complete.
+// 8. Listening data. Every card links out to the full track and carries a checked Apple
+//    match (preview, cover, store page); no two cards share one Apple recording.
+const APPLE_HOSTS = {
+  previewUrl: /^https:\/\/audio-ssl\.itunes\.apple\.com\//,
+  artworkUrl: /^https:\/\/is\d-ssl\.mzstatic\.com\/.+\/\d+x\d+bb\.(jpg|png)$/,
+  url: /^https:\/\/music\.apple\.com\/[a-z]{2}\/album\/.+\?i=\d+$/,
+};
+const appleIds = new Map();
 for (const t of catalog.tracks) {
-  if (t.apple === undefined || t.apple === null) continue;
-  for (const k of ['trackId', 'storefront', 'previewUrl', 'artworkUrl', 'url']) {
-    if (!t.apple[k]) fail('apple', `track "${t.id}" apple.${k} is missing`);
+  if (!/^https:\/\/music\.163\.com\//.test(t.links?.netease ?? '')) fail('links', `track "${t.id}" needs a NetEase search link`);
+  if (!/^https:\/\/y\.qq\.com\//.test(t.links?.qq ?? '')) fail('links', `track "${t.id}" needs a QQ Music search link`);
+  if (t.apple === undefined || t.apple === null || typeof t.apple !== 'object') {
+    fail('apple', `track "${t.id}" has no Apple match, so it has no preview and no cover; match it or remove the card`);
+    continue;
   }
+  for (const k of ['trackId', 'collectionId']) {
+    if (!Number.isInteger(t.apple[k])) fail('apple', `track "${t.id}" apple.${k} must be Apple's numeric id`);
+  }
+  if (!/^[a-z]{2}$/.test(t.apple.storefront ?? '')) fail('apple', `track "${t.id}" apple.storefront must be a two-letter store code`);
+  for (const [k, pattern] of Object.entries(APPLE_HOSTS)) {
+    if (!pattern.test(t.apple[k] ?? '')) fail('apple', `track "${t.id}" apple.${k} is missing or not an Apple address`);
+  }
+  if (!String(t.apple.url ?? '').endsWith(`?i=${t.apple.trackId}`)) fail('apple', `track "${t.id}" apple.url does not point at its own trackId`);
+  if (typeof t.apple.cn !== 'boolean') fail('apple', `track "${t.id}" apple.cn is not set; run "npm run match:cn" so mainland China players get a link that works`);
+  if (appleIds.has(t.apple.trackId)) fail('apple', `tracks "${appleIds.get(t.apple.trackId)}" and "${t.id}" share one Apple recording`);
+  appleIds.set(t.apple.trackId, t.id);
 }
 
 if (errors.length > 0) {
