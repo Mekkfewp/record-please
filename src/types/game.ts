@@ -90,8 +90,6 @@ export interface PixelCoverSpec {
   codeLabel?: string;
 }
 
-export type LoreMediaKind = 'book' | 'documentary' | 'oral-history' | 'film';
-
 export interface GrooveConfig {
   bpm: number;
   rootMidi: number;
@@ -100,119 +98,89 @@ export interface GrooveConfig {
   swing?: number;
 }
 
-export interface ArtistDossier {
-  id: string;
-  name: string;
-  nameSub?: string;
-  region: RegionId;
-  originCity: string;
-  activeYears: string;
-  primaryLineage: LineageId;
-  portrait: PixelPortraitSpec;
-  sceneStory: string;
-  sonicTraits: string[];
-  iconicInstruments: string;
+// ---- Catalog records, exactly as stored in src/data/catalog.json ----
+
+export interface Era {
+  id: BirthEra;
+  label: string;
+  windowStart: number;
+  windowEnd: number;
 }
 
-export interface AlbumRecord {
-  id: string;
-  title: string;
-  artistId: string;
-  artistName: string;
-  year: number;
-  lineage: LineageId;
-  subgenre: string;
-  rymScore: string;
-  rymStatus: string;
-  cover: PixelCoverSpec;
-  essentialTracks: string[];
-  whyItMatters: string;
-  catalogNo: string;
-  advancedFollowUp?: {
-    title: string;
-    artist: string;
-    year: number;
-    reason: string;
-  };
+export interface Region {
+  id: RegionId;
+  label: string;
 }
 
-export type EntryAnchorKind = 'era-pop' | 'local-hero' | 'lineage-gateway' | 'lineage-deep' | 'lineage-cult';
-
-export interface SingleTrack {
-  id: string;
-  title: string;
-  artistId: string;
-  artistName: string;
-  albumId: string;
-  albumTitle: string;
-  year: number;
-  region: RegionId;
-  eraRelevance: BirthEra[];
-  isGlobalEraPop?: boolean;
-  isLocalSignature?: boolean;
-  lineage: LineageId;
-  subgenre: string;
-  tier: 1 | 2 | 3; // 1 = Gateway, 2 = Core Subgenre, 3 = Deep / Cult
-  rymRating: string;
-  rymDescriptors: string[];
-  vibeCN: string;
-  whyRecommended: string;
-  adjacentLineages: LineageId[];
-  groove: GrooveConfig;
-  cover: PixelCoverSpec;
-}
-
-export interface CulturalLoreItem {
-  id: string;
-  title: string;
-  originalTitle?: string;
-  creator: string;
-  year: number;
-  kind: LoreMediaKind;
-  lineage: LineageId;
-  regionAffinity?: RegionId[];
-  summary: string;
-  whyEssential: string;
-  quote: string;
-  coverSeed: string;
-  accentColor: string;
-  secondaryColor: string;
-}
-
-export interface LineageNodeInfo {
-  tier: 1 | 2 | 3;
-  nameCN: string;
-  nameEN: string;
-  eraSpan: string;
-  summary: string;
-}
-
-export interface LineageMeta {
+export interface Lineage {
   id: LineageId;
-  nameCN: string;
-  nameEN: string;
-  shortCN: string;
-  badgeColor: string;
-  inkColor: string;
-  tagline: string;
-  nodes: [LineageNodeInfo, LineageNodeInfo, LineageNodeInfo];
+  name: string;
+  nameZh: string;
   adjacent: LineageId[];
 }
 
-export interface EraMeta {
-  id: BirthEra;
-  labelCN: string;
-  formativeWindow: string;
-  mediaMemory: string;
-  description: string;
+export interface Artist {
+  id: string;
+  name: string;
+  country: string;
+  region: RegionId | null;
 }
 
-export interface RegionMeta {
-  id: RegionId;
-  labelCN: string;
-  labelEN: string;
-  stampCode: string;
-  sceneSummary: string;
+export interface Album {
+  id: string;
+  title: string;
+  artistId: string;
+  year: number;
+}
+
+export interface Track {
+  id: string;
+  title: string;
+  artistId: string;
+  albumId: string;
+  year: number;
+  genre: string;
+  lineage: LineageId | null;
+  tier: 1 | 2 | 3;
+}
+
+export interface Cell {
+  era: BirthEra;
+  region: RegionId;
+  global: string;
+  local: string;
+  bridges: LineageId[];
+}
+
+export type LoreKind = 'book' | 'film' | 'series';
+
+export interface LoreItem {
+  id: string;
+  title: string;
+  creator: string;
+  year: number;
+  kind: LoreKind;
+  lineage: LineageId;
+  artistIds: string[];
+  regions: RegionId[];
+  line: string;
+  source: string;
+}
+
+export interface Persona {
+  id: string;
+  name: string;
+  nameEn: string;
+  rule: 'lineage' | 'mixed' | 'pop' | 'empty';
+  lineage: LineageId | null;
+  portrait: Omit<PixelPortraitSpec, 'seed'>;
+}
+
+/** One card: exactly one recording, with its own artist and the album it is on. */
+export interface Card {
+  track: Track;
+  artist: Artist;
+  album: Album;
 }
 
 export interface PlayerProfile {
@@ -220,12 +188,4 @@ export interface PlayerProfile {
   birthEra: BirthEra;
   region: RegionId;
   startingLineage: StartingLineageChoice;
-}
-
-export interface StampHistoryEntry {
-  round: number;
-  single: SingleTrack;
-  decision: 'collect' | 'pass';
-  anchorLabel: string;
-  timestamp: number;
 }

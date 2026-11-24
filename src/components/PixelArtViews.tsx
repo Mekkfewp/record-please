@@ -6,9 +6,10 @@ import {
   drawMusicianPortrait,
   drawSingle7Inch,
 } from '../engine/pixelArt';
+import { LINEAGE_STYLE } from '../data/meta';
 import type {
-  CulturalLoreItem,
   LineageId,
+  LoreItem,
   PixelCoverSpec,
   PixelPortraitSpec,
 } from '../types/game';
@@ -117,14 +118,20 @@ export function LoreCoverCanvas({
   width = 104,
   height = 128,
 }: {
-  lore: CulturalLoreItem;
+  lore: LoreItem;
   width?: number;
   height?: number;
 }) {
   const ref = useRef<HTMLCanvasElement | null>(null);
   useEffect(() => {
     if (ref.current) {
-      drawLoreCover(ref.current, lore);
+      const style = LINEAGE_STYLE[lore.lineage];
+      drawLoreCover(ref.current, {
+        seed: lore.id,
+        isFilm: lore.kind !== 'book',
+        accentColor: style.inkColor,
+        secondaryColor: style.badgeColor,
+      });
     }
   }, [lore]);
 

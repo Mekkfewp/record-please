@@ -1,166 +1,122 @@
-import { buildCatalogFromJson } from './catalogAdapter';
-import { CULTURAL_LORE } from './lore';
-import { ERAS, LINEAGES, LINEAGE_LIST, REGIONS } from './meta';
-import { PACK_EAST_ASIA } from './packEastAsia';
-import { PACK_LINEAGES_A } from './packLineagesA';
-import type {
-  AlbumRecord,
-  ArtistDossier,
-  BirthEra,
-  CulturalLoreItem,
-  LineageId,
-  PlayerProfile,
-  RegionId,
-  SingleTrack,
-} from '../types/game';
+import {
+  CARDS,
+  ERAS,
+  LINEAGES,
+  LINEAGE_LIST,
+  LORE,
+  REGIONS,
+  countryLabel,
+  getCard,
+  getCell,
+  getEra,
+  getRegion,
+} from './catalog';
+import { LINEAGE_STYLE, POP_STYLE } from './meta';
+import type { Card, LineageId, LoreItem, PlayerProfile, RegionId } from '../types/game';
 
-const parsed = buildCatalogFromJson();
-const ALL_BUNDLES = [...PACK_EAST_ASIA, ...PACK_LINEAGES_A, ...parsed.bundles];
+export { CARDS, ERAS, REGIONS, LINEAGES, LINEAGE_LIST, LORE, LINEAGE_STYLE, POP_STYLE, countryLabel, getCard, getEra, getRegion };
 
-export const SINGLES_BY_ID = new Map<string, SingleTrack>();
-export const ARTISTS_BY_ID = new Map<string, ArtistDossier>();
-export const ALBUMS_BY_ID = new Map<string, AlbumRecord>();
-
-for (const b of ALL_BUNDLES) {
-  SINGLES_BY_ID.set(b.single.id, b.single);
-  ARTISTS_BY_ID.set(b.artist.id, b.artist);
-  ALBUMS_BY_ID.set(b.album.id, b.album);
+export function lineageLabel(lineage: LineageId | null): string {
+  return lineage ? LINEAGE_STYLE[lineage].shortCN : POP_STYLE.shortCN;
 }
 
-export const ALL_SINGLES: SingleTrack[] = Array.from(SINGLES_BY_ID.values());
-
-const loreMap = new Map<string, CulturalLoreItem>();
-for (const item of [...CULTURAL_LORE, ...parsed.loreItems]) {
-  loreMap.set(item.id, item);
+export function lineageColor(lineage: LineageId | null): string {
+  return lineage ? LINEAGE_STYLE[lineage].badgeColor : POP_STYLE.badgeColor;
 }
-export const ALL_LORE: CulturalLoreItem[] = Array.from(loreMap.values());
 
-export { ERAS, REGIONS, LINEAGES, LINEAGE_LIST };
+export interface DeskPick {
+  card: Card;
+  /** Why this card is on the desk. Built only from catalog fields. */
+  reason: string;
+}
 
-export function getInitialDeskQueue(profile: PlayerProfile): {
-  firstSingle: SingleTrack;
-  anchorBadge: string;
-  clerkNote: string;
-  seededLineages: LineageId[];
-} {
-  const key = `${profile.birthEra}:${profile.region}`;
-  const entry = parsed.entryMap.get(key);
+function entryReason(profile: PlayerProfile, slot: 'local' | 'global'): string {
+  const era = getEra(profile.birthEra);
+  const region = getRegion(profile.region);
+  const window = `${era.windowStart}–${era.windowEnd}`;
+  return slot === 'local'
+    ? `入境第一张：你听歌的那些年（${window}），来自${region.label}的一首。`
+    : `入境第二张：同一段年份（${window}）里的流行金曲。`;
+}
+
+export function getInitialDeskQueue(profile: PlayerProfile): DeskPick & { seededLineages: LineageId[] } {
+  const cell = getCell(profile.birthEra, profile.region);
   const seededLineages: LineageId[] =
-    profile.startingLineage !== 'auto'
-      ? [profile.startingLineage, ...(entry?.bridgeLineages ?? ['jazz', 'shoegaze-indie'])]
-      : entry?.bridgeLineages?.length
-        ? entry.bridgeLineages
-        : ['punk-postpunk', 'shoegaze-indie', 'artpop-citypop'];
+    profile.startingLineage !== 'auto' ? [profile.startingLineage, ...cell.bridges] : cell.bridges;
 
-  // Round 1 opens with Local Signature Musician (or chosen starting lineage gateway)
   if (profile.startingLineage !== 'auto') {
-    const chosen = ALL_SINGLES.find(
-      (s) => s.lineage === profile.startingLineage && s.tier === 1 && !s.id.startsWith('trk-ep-')
-    ) ?? ALL_SINGLES[0];
+    const chosen = CARDS.find((c) => c.track.lineage === profile.startingLineage && c.track.tier === 1) ?? getCard(cell.local);
     return {
-      firstSingle: chosen,
-      anchorBadge: `指定谱系起点 · ${LINEAGES[profile.startingLineage].shortCN}`,
-      clerkNote: entry?.clerkNote ?? LINEAGES[profile.startingLineage].tagline,
+      card: chosen,
+      reason: `按你指定的谱系开场：${LINEAGES[profile.startingLineage].name}。`,
       seededLineages,
     };
   }
 
-  const localTrack = entry ? SINGLES_BY_ID.get(entry.localSingleId) : undefined;
-  return {
-    firstSingle: localTrack ?? ALL_SINGLES[0],
-    anchorBadge: '入境第一站 · 地方特色代表音乐家',
-    clerkNote: entry?.clerkNote ?? '从本土时代记忆切入 RYM 全球流派谱系。',
-    seededLineages,
-  };
+  return { card: getCard(cell.local), reason: entryReason(profile, 'local'), seededLineages };
 }
 
 export function pickNextSingle(params: {
   profile: PlayerProfile;
   seenIds: Set<string>;
   round: number;
-  lastSingle: SingleTrack;
+  lastCard: Card;
   lastDecision: 'collect' | 'pass';
   steeredLineage: LineageId | null;
   lineageDepth: Record<LineageId, number>;
-}): { single: SingleTrack; anchorBadge: string; pivotReason?: string } {
-  const { profile, seenIds, round, lastSingle, lastDecision, steeredLineage, lineageDepth } = params;
-  const unseen = ALL_SINGLES.filter((s) => !seenIds.has(s.id));
-  const pool = unseen.length > 0 ? unseen : ALL_SINGLES;
+}): DeskPick {
+  const { profile, seenIds, round, lastCard, lastDecision, steeredLineage, lineageDepth } = params;
+  const cell = getCell(profile.birthEra, profile.region);
+  const unseen = CARDS.filter((c) => !seenIds.has(c.track.id));
+  const pool = unseen.length > 0 ? unseen : CARDS;
+  const inLineage = (lin: LineageId) => pool.filter((c) => c.track.lineage === lin);
 
-  // Round 2: Deliver the Global Era Pop Icon of their Birth Era × Region!
-  if (round === 2 && !steeredLineage) {
-    const ep = parsed.entryMap.get(`${profile.birthEra}:${profile.region}`);
-    const globalTrack = ep ? SINGLES_BY_ID.get(ep.globalSingleId) : undefined;
-    if (globalTrack && !seenIds.has(globalTrack.id)) {
-      return {
-        single: globalTrack,
-        anchorBadge: '入境第二站 · 当时全球流行锚点',
-        pivotReason: '本土与全球流行双坐标校准完成，即将深入 RYM 音乐谱系分支！',
-      };
-    }
+  if (round === 2 && !steeredLineage && !seenIds.has(cell.global)) {
+    return { card: getCard(cell.global), reason: entryReason(profile, 'global') };
   }
 
-  // Steered manually from RYM Genealogy Rulebook
   if (steeredLineage) {
     const targetDepth = Math.min(3, (lineageDepth[steeredLineage] ?? 0) + 1);
     const match =
-      pool.find((s) => s.lineage === steeredLineage && !s.id.startsWith('trk-ep-') && s.tier >= targetDepth) ??
-      pool.find((s) => s.lineage === steeredLineage) ??
-      pool[0];
-    return {
-      single: match,
-      anchorBadge: `谱系手册调档 · ${LINEAGES[steeredLineage].shortCN} Lv.${match.tier}`,
-      pivotReason: `已按馆员指令调取【${LINEAGES[steeredLineage].nameCN}】档案。`,
-    };
+      inLineage(steeredLineage).find((c) => c.track.tier >= targetDepth) ?? inLineage(steeredLineage)[0] ?? pool[0];
+    return { card: match, reason: `按手册调档：${LINEAGES[steeredLineage].name}。` };
   }
+
+  // A pop card has no lineage of its own; continue from the cell's first bridge.
+  const lastLineage: LineageId = lastCard.track.lineage ?? cell.bridges[0];
 
   if (lastDecision === 'collect') {
-    // Progressive deepen in same lineage (tier 1 -> 2 -> 3), then bridge to adjacent
-    const nextTier = Math.min(3, lastSingle.tier + 1);
-    const deeper =
-      pool.find((s) => s.lineage === lastSingle.lineage && !s.id.startsWith('trk-ep-') && s.tier >= nextTier) ??
-      pool.find((s) => s.lineage === lastSingle.lineage && !s.id.startsWith('trk-ep-'));
+    const nextTier = Math.min(3, lastCard.track.tier + 1);
+    const deeper = inLineage(lastLineage).find((c) => c.track.tier >= nextTier) ?? inLineage(lastLineage)[0];
     if (deeper) {
-      return {
-        single: deeper,
-        anchorBadge: `RYM 谱系深潜 · ${LINEAGES[deeper.lineage].shortCN} Lv.${deeper.tier}`,
-      };
+      return { card: deeper, reason: `你收下了上一张，继续沿 ${LINEAGES[lastLineage].name} 往下。` };
     }
   }
 
-  // On PASS (or exhausted lineage): smoothly pivot to adjacent RYM lineage!
-  const candidates = [...lastSingle.adjacentLineages, ...LINEAGES[lastSingle.lineage].adjacent];
-  for (const adjLin of candidates) {
-    const pivotPick =
-      pool.find((s) => s.lineage === adjLin && !s.id.startsWith('trk-ep-') && s.tier <= 2) ??
-      pool.find((s) => s.lineage === adjLin && !s.id.startsWith('trk-ep-'));
-    if (pivotPick) {
-      return {
-        single: pivotPick,
-        anchorBadge: `谱系横向变轨 · ${LINEAGES[adjLin].shortCN}`,
-        pivotReason:
-          lastDecision === 'pass'
-            ? `切歌转向：从【${LINEAGES[lastSingle.lineage].shortCN}】平滑切入相邻支流【${LINEAGES[adjLin].nameCN}】`
-            : `主干通关延伸：由【${LINEAGES[lastSingle.lineage].shortCN}】跨界桥接至【${LINEAGES[adjLin].nameCN}】`,
-      };
+  for (const adj of LINEAGES[lastLineage].adjacent) {
+    const pivot = inLineage(adj).find((c) => c.track.tier <= 2) ?? inLineage(adj)[0];
+    if (pivot) {
+      return { card: pivot, reason: `换个方向：从 ${LINEAGES[lastLineage].name} 转到相邻的 ${LINEAGES[adj].name}。` };
     }
   }
 
-  return { single: pool[0], anchorBadge: `RYM 馆藏精选 · ${LINEAGES[pool[0].lineage].shortCN}` };
+  return { card: pool[0], reason: '馆藏里的下一张。' };
 }
 
 export function pickLoreInterlude(params: {
-  activeLineage: LineageId;
+  card: Card;
+  fallbackLineage: LineageId;
   region: RegionId;
   seenLoreIds: Set<string>;
-}): CulturalLoreItem | null {
-  const unseen = ALL_LORE.filter((l) => !params.seenLoreIds.has(l.id));
+}): LoreItem | null {
+  const lineage = params.card.track.lineage ?? params.fallbackLineage;
+  const unseen = LORE.filter((l) => !params.seenLoreIds.has(l.id));
   if (unseen.length === 0) return null;
   return (
-    unseen.find((l) => l.lineage === params.activeLineage && l.regionAffinity?.includes(params.region)) ??
-    unseen.find((l) => l.lineage === params.activeLineage) ??
+    unseen.find((l) => l.artistIds.includes(params.card.artist.id)) ??
+    unseen.find((l) => l.lineage === lineage && l.regions.includes(params.region)) ??
+    unseen.find((l) => l.lineage === lineage && l.regions.length === 0) ??
+    unseen.find((l) => l.lineage === lineage) ??
     unseen[0]
   );
 }
-
-export type { BirthEra, RegionId };

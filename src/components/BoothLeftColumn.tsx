@@ -1,7 +1,7 @@
-import { LINEAGES } from '../data';
+import { lineageLabel } from '../data';
 import { BoothWindowCanvas } from './PixelArtViews';
 import { StampBar } from './StampBar';
-import type { LineageId, SingleTrack } from '../types/game';
+import type { Card, LineageId } from '../types/game';
 
 export function BoothLeftColumn({
   activeLineage,
@@ -20,7 +20,7 @@ export function BoothLeftColumn({
   activeLineage: LineageId;
   steeredLineage: LineageId | null;
   isPlaying: boolean;
-  collectedSingles: SingleTrack[];
+  collectedSingles: Card[];
   round: number;
   targetRounds: number;
   stampState: 'idle' | 'collected' | 'passed';
@@ -102,11 +102,11 @@ export function BoothLeftColumn({
         </div>
         {collectedSingles.length === 0 ? (
           <div style={{ fontSize: 11, color: '#574e40' }}>
-            尚未收录单曲。对喜欢的 7&quot; 单曲盖下 [收录 COLLECT] 即可入箱并解锁音乐家与专辑档案！
+            还没有收录。盖下 [收录] 就会入箱，并解锁这首歌的音乐人和专辑。
           </div>
         ) : (
           <div style={{ maxHeight: 150, overflowY: 'auto', fontSize: 12 }}>
-            {collectedSingles.map((s, idx) => (
+            {collectedSingles.map(({ track: s, artist }, idx) => (
               <div
                 key={s.id}
                 style={{
@@ -118,10 +118,10 @@ export function BoothLeftColumn({
                 }}
               >
                 <span>
-                  {idx + 1}. {s.title} — {s.artistName}
+                  {idx + 1}. {s.title} — {artist.name}
                 </span>
                 <span style={{ fontSize: 10, color: '#4d4335' }}>
-                  [{LINEAGES[s.lineage].shortCN}]
+                  [{lineageLabel(s.lineage)}]
                 </span>
               </div>
             ))}

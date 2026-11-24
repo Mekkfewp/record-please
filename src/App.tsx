@@ -1,13 +1,13 @@
 import { useEffect, useState } from 'react';
 import {
-  ALBUMS_BY_ID,
-  ALL_SINGLES,
-  ARTISTS_BY_ID,
+  CARDS,
   LINEAGES,
   getInitialDeskQueue,
   pickLoreInterlude,
   pickNextSingle,
 } from './data';
+import { getCell } from './data/catalog';
+import { placeholderGroove } from './data/placeholderArt';
 import { BoothLeftColumn } from './components/BoothLeftColumn';
 import { DossierDesk } from './components/DossierDesk';
 import { EntryPermit } from './components/EntryPermit';
@@ -15,12 +15,7 @@ import { GenealogyBook } from './components/GenealogyBook';
 import { LoreCardModal } from './components/LoreCardModal';
 import { PlaylistPassport } from './components/PlaylistPassport';
 import { soundDesk } from './engine/audioEngine';
-import type {
-  CulturalLoreItem,
-  LineageId,
-  PlayerProfile,
-  SingleTrack,
-} from './types/game';
+import type { Card, LineageId, LoreItem, PlayerProfile } from './types/game';
 
 const TARGET_ROUNDS = 9;
 
@@ -38,22 +33,21 @@ const EMPTY_LINEAGE_MAP = (): Record<LineageId, number> => ({
 export default function App() {
   const [phase, setPhase] = useState<'permit' | 'booth' | 'passport'>('permit');
   const [profile, setProfile] = useState<PlayerProfile | null>(null);
-  const [currentSingle, setCurrentSingle] = useState<SingleTrack>(ALL_SINGLES[0]);
-  const [anchorBadge, setAnchorBadge] = useState('入境首站');
-  const [pivotBanner, setPivotBanner] = useState<string | null>(null);
+  const [currentSingle, setCurrentSingle] = useState<Card>(CARDS[0]);
+  const [reason, setReason] = useState('');
   const [stampState, setStampState] = useState<'idle' | 'collected' | 'passed'>('idle');
 
   const [round, setRound] = useState(1);
   const [seenIds, setSeenIds] = useState<Set<string>>(() => new Set());
-  const [collectedSingles, setCollectedSingles] = useState<SingleTrack[]>([]);
+  const [collectedSingles, setCollectedSingles] = useState<Card[]>([]);
   const [lineageCounts, setLineageCounts] = useState<Record<LineageId, number>>(EMPTY_LINEAGE_MAP);
   const [unlockedDepths, setUnlockedDepths] = useState<Record<LineageId, number>>(EMPTY_LINEAGE_MAP);
   const [steeredLineage, setSteeredLineage] = useState<LineageId | null>(null);
 
   const [rulebookOpen, setRulebookOpen] = useState(false);
-  const [activeLore, setActiveLore] = useState<CulturalLoreItem | null>(null);
+  const [activeLore, setActiveLore] = useState<LoreItem | null>(null);
   const [seenLoreIds, setSeenLoreIds] = useState<Set<string>>(() => new Set());
-  const [bookmarkedLore, setBookmarkedLore] = useState<CulturalLoreItem[]>([]);
+  const [bookmarkedLore, setBookmarkedLore] = useState<LoreItem[]>([]);
 
   const [muted, setMuted] = useState(soundDesk.isMuted());
   const [playingTrackId, setPlayingTrackId] = useState<string | null>(null);
@@ -69,10 +63,9 @@ export default function App() {
     soundDesk.playStampClunk('approve');
     const init = getInitialDeskQueue(nextProfile);
     setProfile(nextProfile);
-    setCurrentSingle(init.firstSingle);
-    setAnchorBadge(init.anchorBadge);
-    setPivotBanner(`入境档案核准：${init.clerkNote}`);
-    setSeenIds(new Set([init.firstSingle.id]));
+    setCurrentSingle(init.card);
+    setReason(init.reason);
+    setSeenIds(new Set([init.card.track.id]));
     setRound(1);
     setStampState('idle');
     setCollectedSingles([]);
@@ -96,7 +89,8 @@ export default function App() {
     // Trigger Cultural Lore Interlude on rounds 3, 6, 9
     if ((round === 2 || round === 5 || round === 8) && !activeLore) {
       const lore = pickLoreInterlude({
-        activeLineage: steeredLineage ?? currentSingle.lineage,
+        card: currentSingle,
+        fallbackLineage: activeLineage,
         region: profile.region,
         seenLoreIds,
       });
@@ -116,7 +110,7 @@ export default function App() {
       profile,
       seenIds,
       round: nextRound,
-      lastSingle: currentSingle,
+      lastCard: currentSingle,
       lastDecision: decision,
       steeredLineage,
       lineageDepth: unlockedDepths,
@@ -124,10 +118,9 @@ export default function App() {
 
     soundDesk.playPaperSlide();
     setRound(nextRound);
-    setCurrentSingle(next.single);
-    setAnchorBadge(next.anchorBadge);
-    setPivotBanner(next.pivotReason ?? null);
-    setSeenIds((prev) => new Set(prev).add(next.single.id));
+    setCurrentSingle(next.card);
+    setReason(next.reason);
+    setSeenIds((prev) => new Set(prev).add(next.card.track.id));
     setSteeredLineage(null);
     setStampState('idle');
   };
@@ -137,18 +130,14 @@ export default function App() {
     soundDesk.playStampClunk('approve');
     setStampState('collected');
     setCollectedSingles((prev) =>
-      prev.some((x) => x.id === currentSingle.id) ? prev : [...prev, currentSingle]
+      prev.some((x) => x.track.id === currentSingle.track.id) ? prev : [...prev, currentSingle]
     );
-    setLineageCounts((prev) => ({
-      ...prev,
-      [currentSingle.lineage]: (prev[currentSingle.lineage] ?? 0) + 1,
-    }));
+    const lin = currentSingle.track.lineage;
+    if (!lin) return;
+    setLineageCounts((prev) => ({ ...prev, [lin]: (prev[lin] ?? 0) + 1 }));
     setUnlockedDepths((prev) => ({
       ...prev,
-      [currentSingle.lineage]: Math.max(
-        prev[currentSingle.lineage] ?? 0,
-        Math.min(3, currentSingle.tier + 1)
-      ),
+      [lin]: Math.max(prev[lin] ?? 0, Math.min(3, currentSingle.track.tier + 1)),
     }));
   };
 
@@ -171,18 +160,15 @@ export default function App() {
     setActiveLore(null);
   };
 
-  const artist =
-    ARTISTS_BY_ID.get(currentSingle.artistId) ??
-    Array.from(ARTISTS_BY_ID.values())[0];
-  const album =
-    ALBUMS_BY_ID.get(currentSingle.albumId) ??
-    Array.from(ALBUMS_BY_ID.values())[0];
+  const activeLineage: LineageId =
+    currentSingle.track.lineage ??
+    (profile ? getCell(profile.birthEra, profile.region).bridges[0] : 'shoegaze-indie');
 
   return (
     <div className="app-shell">
       <header className="top-brass-bar">
         <div className="brand-title">
-          <span className="brand-emblem">RYM · BOOTH 07</span>
+          <span className="brand-emblem">BOOTH 07</span>
           <span>RECORD, PLEASE / 请出示唱片</span>
         </div>
 
@@ -196,7 +182,8 @@ export default function App() {
                 onClick={() => {
                   if (!profile) return;
                   const lore = pickLoreInterlude({
-                    activeLineage: currentSingle.lineage,
+                    card: currentSingle,
+                    fallbackLineage: activeLineage,
                     region: profile.region,
                     seenLoreIds,
                   });
@@ -206,7 +193,7 @@ export default function App() {
                   }
                 }}
               >
-                📚 调阅文化档案 ({bookmarkedLore.length})
+                📚 延伸阅读 ({bookmarkedLore.length})
               </button>
               <button
                 type="button"
@@ -217,7 +204,7 @@ export default function App() {
                   setRulebookOpen(true);
                 }}
               >
-                📖 RYM 谱系手册
+                📖 谱系手册
               </button>
               <button
                 type="button"
@@ -230,7 +217,7 @@ export default function App() {
                   setPhase('passport');
                 }}
               >
-                🪪 生成歌单与音乐家身份 ({collectedSingles.length})
+                🪪 生成歌单 ({collectedSingles.length})
               </button>
             </>
           )}
@@ -250,9 +237,9 @@ export default function App() {
       {phase === 'booth' && profile && (
         <main className="booth-layout">
           <BoothLeftColumn
-            activeLineage={currentSingle.lineage}
+            activeLineage={activeLineage}
             steeredLineage={steeredLineage}
-            isPlaying={playingTrackId === currentSingle.id}
+            isPlaying={playingTrackId === currentSingle.track.id}
             collectedSingles={collectedSingles}
             round={round}
             targetRounds={TARGET_ROUNDS}
@@ -272,15 +259,12 @@ export default function App() {
           />
 
           <DossierDesk
-            single={currentSingle}
-            artist={artist}
-            album={album}
-            anchorBadge={anchorBadge}
-            pivotBanner={pivotBanner}
+            card={currentSingle}
+            reason={reason}
             stampState={stampState}
-            isPlayingGroove={playingTrackId === currentSingle.id}
+            isPlayingGroove={playingTrackId === currentSingle.track.id}
             onToggleGroove={() =>
-              soundDesk.toggleGroove(currentSingle.id, currentSingle.groove)
+              soundDesk.toggleGroove(currentSingle.track.id, placeholderGroove(currentSingle.track.lineage))
             }
             onNextAfterCollect={() => advanceDesk('collect')}
           />
@@ -290,9 +274,7 @@ export default function App() {
       {phase === 'passport' && profile && (
         <PlaylistPassport
           profile={profile}
-          collectedSingles={
-            collectedSingles.length > 0 ? collectedSingles : [currentSingle]
-          }
+          collected={collectedSingles}
           bookmarkedLore={bookmarkedLore}
           lineageCounts={lineageCounts}
           onKeepDigging={() => setPhase('booth')}
@@ -305,12 +287,12 @@ export default function App() {
 
       {rulebookOpen && (
         <GenealogyBook
-          activeLineage={currentSingle.lineage}
+          activeLineage={activeLineage}
           unlockedDepths={unlockedDepths}
           collectedCounts={lineageCounts}
           onSteer={(lin) => {
             setSteeredLineage(lin);
-            setPivotBanner(`已预约下一张调档：【${LINEAGES[lin].nameCN}】`);
+            setReason(`下一张将从 ${LINEAGES[lin].name} 里出。`);
           }}
           onClose={() => setRulebookOpen(false)}
         />

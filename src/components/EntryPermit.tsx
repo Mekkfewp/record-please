@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { ERAS, LINEAGE_LIST, REGIONS } from '../data';
+import { ERAS, LINEAGE_LIST, LINEAGE_STYLE, REGIONS } from '../data';
 import { PortraitCanvas } from './PixelArtViews';
 import type {
   BirthEra,
@@ -28,7 +28,7 @@ export function EntryPermit({
         <div className="permit-header">
           <div>
             <div style={{ fontSize: 12, color: '#6e5e46', fontWeight: 700 }}>
-              MINISTRY OF SONIC ARCHIVES · 听觉边境审查署 FORM-RYM-01
+              RECORD, PLEASE · 请出示唱片
             </div>
             <h1 style={{ margin: '4px 0 0', fontSize: 24 }}>
               入境听觉档案登记证 · ENTRY PERMIT
@@ -66,9 +66,6 @@ export function EntryPermit({
               width: 210,
             }}
           />
-          <span style={{ fontSize: 12, color: '#574e40' }}>
-            系统将按「当时全球流行 + 本土特色代表音乐家」双锚点递进发掘你的专属黑胶歌单
-          </span>
         </div>
 
         <div style={{ marginBottom: 14 }}>
@@ -84,12 +81,9 @@ export function EntryPermit({
                 onClick={() => setBirthEra(era.id)}
                 className={`choice-chip ${birthEra === era.id ? 'selected' : ''}`}
               >
-                <div style={{ fontWeight: 900, fontSize: 14 }}>{era.labelCN}</div>
+                <div style={{ fontWeight: 900, fontSize: 14 }}>{era.label}出生</div>
                 <div style={{ fontSize: 11, opacity: 0.88, marginTop: 2 }}>
-                  {era.formativeWindow}
-                </div>
-                <div style={{ fontSize: 11, opacity: 0.75, marginTop: 2 }}>
-                  {era.mediaMemory}
+                  13–22 岁：{era.windowStart}–{era.windowEnd}
                 </div>
               </button>
             ))}
@@ -109,13 +103,7 @@ export function EntryPermit({
                 onClick={() => setRegion(reg.id)}
                 className={`choice-chip ${region === reg.id ? 'selected' : ''}`}
               >
-                <div style={{ display: 'flex', justifyContent: 'space-between', fontWeight: 900 }}>
-                  <span>{reg.labelCN}</span>
-                  <span style={{ fontSize: 11, opacity: 0.75 }}>[{reg.stampCode}]</span>
-                </div>
-                <div style={{ fontSize: 11, opacity: 0.82, marginTop: 3, lineHeight: 1.35 }}>
-                  {reg.sceneSummary}
-                </div>
+                <div style={{ fontWeight: 900 }}>{reg.label}</div>
               </button>
             ))}
           </div>
@@ -123,7 +111,7 @@ export function EntryPermit({
 
         <div style={{ marginBottom: 16 }}>
           <div style={{ fontWeight: 900, fontSize: 14 }}>
-            3. 初始 RYM 谱系倾向 (STARTING LINEAGE · 可选)
+            3. 起点谱系 (可选)
           </div>
           <div className="option-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(185px, 1fr))' }}>
             <button
@@ -134,7 +122,7 @@ export function EntryPermit({
             >
               <div style={{ fontWeight: 900 }}>★ 从时代与本土记忆出发</div>
               <div style={{ fontSize: 11, opacity: 0.84, marginTop: 2 }}>
-                推荐！自动以本土名家 + 时代全球流行开启谱系
+                先出一张本地的，再出一张当年的流行金曲
               </div>
             </button>
             {LINEAGE_LIST.map((lin) => (
@@ -145,9 +133,9 @@ export function EntryPermit({
                 onClick={() => setStartingLineage(lin.id)}
                 className={`choice-chip ${startingLineage === lin.id ? 'selected' : ''}`}
               >
-                <div style={{ fontWeight: 900 }}>{lin.shortCN}</div>
+                <div style={{ fontWeight: 900 }}>{LINEAGE_STYLE[lin.id].shortCN}</div>
                 <div style={{ fontSize: 11, opacity: 0.8, marginTop: 2 }}>
-                  {lin.nameEN}
+                  {lin.name}
                 </div>
               </button>
             ))}
@@ -169,10 +157,10 @@ export function EntryPermit({
           <div style={{ fontSize: 12, lineHeight: 1.5 }}>
             <div>
               <strong>当前档案核验：</strong>
-              {selectedEra.labelCN}（{selectedEra.formativeWindow}）× {selectedRegion.labelCN}
+              {selectedEra.label}出生（{selectedEra.windowStart}–{selectedEra.windowEnd}）× {selectedRegion.label}
             </div>
             <div style={{ color: '#473f33' }}>
-              审查规则：单曲试听盖章 <strong>[收录 COLLECT]</strong> 即渐进解锁 <strong>[音乐家档案]</strong> 与 <strong>[核心+进阶黑胶专辑]</strong>；盖 <strong>[换一张 PASS]</strong> 则沿谱系平滑变轨。
+              盖 <strong>[收录]</strong> 解锁这首歌的音乐人和专辑；盖 <strong>[换一张]</strong> 跳过。
             </div>
           </div>
           <button

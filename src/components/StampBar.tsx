@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { LINEAGES } from '../data';
+import { LINEAGES, lineageLabel } from '../data';
 import type { LineageId } from '../types/game';
 
 export function StampBar({
@@ -28,7 +28,6 @@ export function StampBar({
   collectedCount: number;
 }) {
   const [trayOpen, setTrayOpen] = useState(true);
-  const linMeta = LINEAGES[activeLineage];
 
   return (
     <div className="stamp-bar-housing">
@@ -61,10 +60,10 @@ export function StampBar({
       </div>
 
       <div style={{ fontSize: 11, color: '#b7c2ba', marginBottom: 8, lineHeight: 1.45 }}>
-        当前谱系：<strong style={{ color: '#f2e8cf' }}>{linMeta.nameCN}</strong>
+        当前谱系：<strong style={{ color: '#f2e8cf' }}>{LINEAGES[activeLineage].name}</strong>
         {steeredLineage && (
           <span style={{ color: '#d4a247', marginLeft: 6 }}>
-            [已定向：{LINEAGES[steeredLineage].shortCN}]
+            [已定向：{lineageLabel(steeredLineage)}]
           </span>
         )}
         <div>
@@ -84,7 +83,7 @@ export function StampBar({
           >
             <div style={{ fontSize: 15, fontWeight: 900 }}>[收录 COLLECT]</div>
             <div style={{ fontSize: 11, opacity: 0.9, marginTop: 3 }}>
-              解锁音乐家 + 代表LP并深潜
+              解锁这首歌的音乐人和专辑
             </div>
           </button>
 
@@ -97,7 +96,7 @@ export function StampBar({
           >
             <div style={{ fontSize: 15, fontWeight: 900 }}>[换一张 PASS]</div>
             <div style={{ fontSize: 11, opacity: 0.9, marginTop: 3 }}>
-              平滑变轨至相邻RYM谱系
+              跳过这张，换一张
             </div>
           </button>
         </div>
@@ -111,7 +110,7 @@ export function StampBar({
           className="pixel-btn brass"
           style={{ width: '100%', padding: '11px 12px', fontSize: 14, marginTop: 10 }}
         >
-          ▶ 档案已入箱 · 顺藤摸瓜递送下一张唱片 →
+          ▶ 下一张 →
         </button>
       )}
 
@@ -122,7 +121,7 @@ export function StampBar({
         className="pixel-btn"
         style={{ width: '100%', marginTop: 10, background: '#d5c295' }}
       >
-        📖 翻阅《RYM 谱系手册》· 查看解锁树 / 手动变轨
+        📖 谱系手册 · 手动换谱系
       </button>
     </div>
   );

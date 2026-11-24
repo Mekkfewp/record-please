@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { LINEAGES, LINEAGE_LIST } from '../data';
+import { LINEAGES, LINEAGE_LIST, LINEAGE_STYLE } from '../data';
 import type { LineageId } from '../types/game';
 
 export function GenealogyBook({
@@ -17,6 +17,7 @@ export function GenealogyBook({
 }) {
   const [selected, setSelected] = useState<LineageId>(activeLineage);
   const current = LINEAGES[selected];
+  const style = LINEAGE_STYLE[selected];
 
   return (
     <div className="modal-backdrop" data-testid="rulebook-modal">
@@ -35,10 +36,10 @@ export function GenealogyBook({
         >
           <div>
             <div style={{ fontSize: 11, fontWeight: 700, color: '#5c4e3a' }}>
-              OFFICIAL RYM GENEALOGY HANDBOOK · 八大音乐流派谱系审查手册
+              八条音乐谱系
             </div>
             <h2 style={{ margin: '2px 0 0', fontSize: 20 }}>
-              📖 RYM 谱系树与定向调档台
+              📖 谱系手册
             </h2>
           </div>
           <button
@@ -71,12 +72,12 @@ export function GenealogyBook({
                 className={`choice-chip ${selected === lin.id ? 'selected' : ''}`}
               >
                 <div style={{ display: 'flex', justifyContent: 'space-between', fontWeight: 900 }}>
-                  <span>{lin.shortCN}</span>
+                  <span>{LINEAGE_STYLE[lin.id].shortCN}</span>
                   <span style={{ fontSize: 11 }}>
-                    {depth > 0 ? `Lv.${depth} (${cnt}张)` : '未解锁'}
+                    {depth > 0 ? `已收 ${cnt} 张` : '未解锁'}
                   </span>
                 </div>
-                <div style={{ fontSize: 10, opacity: 0.8, marginTop: 2 }}>{lin.nameEN}</div>
+                <div style={{ fontSize: 10, opacity: 0.8, marginTop: 2 }}>{lin.name}</div>
               </button>
             );
           })}
@@ -102,14 +103,11 @@ export function GenealogyBook({
             <div>
               <span
                 className="dim-badge"
-                style={{ background: current.badgeColor, marginRight: 8 }}
+                style={{ background: style.badgeColor, marginRight: 8 }}
               >
-                {current.shortCN}
+                {style.shortCN}
               </span>
-              <strong style={{ fontSize: 17 }}>{current.nameCN}</strong>
-              <div style={{ fontSize: 12, color: '#4d4335', marginTop: 4 }}>
-                {current.tagline}
-              </div>
+              <strong style={{ fontSize: 17 }}>{current.name}</strong>
             </div>
 
             <button
@@ -121,16 +119,16 @@ export function GenealogyBook({
                 onClose();
               }}
             >
-              🧭 定向调取该谱系下一张单曲 →
+              🧭 下一张从这条谱系里出 →
             </button>
           </div>
 
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(220px, 1fr))', gap: 10 }}>
-            {current.nodes.map((node) => {
-              const unlocked = (unlockedDepths[current.id] ?? 0) >= node.tier;
+            {style.steps.map((step, idx) => {
+              const unlocked = (unlockedDepths[current.id] ?? 0) >= idx + 1;
               return (
                 <div
-                  key={node.tier}
+                  key={step}
                   style={{
                     background: unlocked ? '#ece3cc' : '#cfc2a5',
                     border: `2px solid ${unlocked ? '#1e6b3a' : '#6e6049'}`,
@@ -139,17 +137,11 @@ export function GenealogyBook({
                 >
                   <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: 12, fontWeight: 900 }}>
                     <span>
-                      阶梯 {node.tier} · {node.nameCN}
+                      {idx + 1} · {step}
                     </span>
                     <span style={{ color: unlocked ? '#1e6b3a' : '#6e6049' }}>
-                      {unlocked ? '● 已点亮' : '○ 待深潜'}
+                      {unlocked ? '● 已点亮' : '○ 未到'}
                     </span>
-                  </div>
-                  <div style={{ fontSize: 11, color: '#5c4e3a', marginTop: 2 }}>
-                    {node.nameEN} ({node.eraSpan})
-                  </div>
-                  <div style={{ fontSize: 12, marginTop: 6, lineHeight: 1.45 }}>
-                    {node.summary}
                   </div>
                 </div>
               );
@@ -157,7 +149,7 @@ export function GenealogyBook({
           </div>
 
           <div style={{ marginTop: 10, fontSize: 12, color: '#3b3328' }}>
-            <strong>相邻可跨界支流：</strong>
+            <strong>相邻谱系：</strong>
             {current.adjacent.map((adj) => (
               <button
                 key={adj}
@@ -166,7 +158,7 @@ export function GenealogyBook({
                 className="tag-pill"
                 style={{ cursor: 'pointer', marginLeft: 6, fontWeight: 700 }}
               >
-                ⇄ {LINEAGES[adj].nameCN}
+                ⇄ {LINEAGES[adj].name}
               </button>
             ))}
           </div>

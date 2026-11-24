@@ -1,0 +1,4127 @@
+{
+  "meta": {
+    "schema": 2,
+    "note": "Single source of truth. One track = one recording by its credited artist; albumId is the album that recording appears on. Edit this file directly; run `npm run validate`."
+  },
+  "eras": [
+    {
+      "id": "1970s",
+      "label": "1970 年代",
+      "windowStart": 1985,
+      "windowEnd": 1996
+    },
+    {
+      "id": "1980s",
+      "label": "1980 年代",
+      "windowStart": 1995,
+      "windowEnd": 2006
+    },
+    {
+      "id": "1990s",
+      "label": "1990 年代",
+      "windowStart": 2005,
+      "windowEnd": 2016
+    },
+    {
+      "id": "2000s",
+      "label": "2000 年代",
+      "windowStart": 2015,
+      "windowEnd": 2025
+    }
+  ],
+  "regions": [
+    {
+      "id": "cn-mainland",
+      "label": "中国大陆"
+    },
+    {
+      "id": "hk-tw",
+      "label": "港台"
+    },
+    {
+      "id": "japan",
+      "label": "日本"
+    },
+    {
+      "id": "usa",
+      "label": "美国"
+    },
+    {
+      "id": "uk",
+      "label": "英国"
+    },
+    {
+      "id": "europe",
+      "label": "欧洲大陆"
+    },
+    {
+      "id": "latam",
+      "label": "拉美"
+    }
+  ],
+  "lineages": [
+    {
+      "id": "jazz",
+      "name": "Jazz",
+      "nameZh": "爵士",
+      "adjacent": [
+        "hiphop",
+        "artpop-citypop",
+        "folk-psych"
+      ]
+    },
+    {
+      "id": "punk-postpunk",
+      "name": "Punk & Post-Punk",
+      "nameZh": "朋克与后朋克",
+      "adjacent": [
+        "shoegaze-indie",
+        "electronic-idm",
+        "heavy-industrial"
+      ]
+    },
+    {
+      "id": "shoegaze-indie",
+      "name": "Indie, Shoegaze & Post-Rock",
+      "nameZh": "独立、自赏与后摇",
+      "adjacent": [
+        "punk-postpunk",
+        "artpop-citypop",
+        "folk-psych"
+      ]
+    },
+    {
+      "id": "electronic-idm",
+      "name": "Electronic & Club",
+      "nameZh": "电子与俱乐部",
+      "adjacent": [
+        "punk-postpunk",
+        "artpop-citypop",
+        "hiphop"
+      ]
+    },
+    {
+      "id": "hiphop",
+      "name": "Hip-Hop & Beats",
+      "nameZh": "嘻哈与节拍",
+      "adjacent": [
+        "jazz",
+        "electronic-idm",
+        "artpop-citypop"
+      ]
+    },
+    {
+      "id": "artpop-citypop",
+      "name": "Art Pop, City Pop & Synth",
+      "nameZh": "艺术流行与都会流行",
+      "adjacent": [
+        "shoegaze-indie",
+        "electronic-idm",
+        "jazz"
+      ]
+    },
+    {
+      "id": "folk-psych",
+      "name": "Folk, Psych & Regional",
+      "nameZh": "民谣、迷幻与在地场景",
+      "adjacent": [
+        "shoegaze-indie",
+        "jazz",
+        "heavy-industrial"
+      ]
+    },
+    {
+      "id": "heavy-industrial",
+      "name": "Heavy, Industrial & Avant-Garde",
+      "nameZh": "重型、工业与前卫",
+      "adjacent": [
+        "punk-postpunk",
+        "shoegaze-indie",
+        "electronic-idm"
+      ]
+    }
+  ],
+  "countries": {
+    "US": "美国",
+    "GB": "英国",
+    "CN": "中国",
+    "HK": "中国香港",
+    "TW": "中国台湾",
+    "JP": "日本",
+    "DE": "德国",
+    "FR": "法国",
+    "BE": "比利时",
+    "IS": "冰岛",
+    "ES": "西班牙",
+    "BY": "白俄罗斯",
+    "AR": "阿根廷",
+    "MX": "墨西哥",
+    "CO": "哥伦比亚",
+    "PR": "波多黎各",
+    "VE": "委内瑞拉",
+    "BR": "巴西",
+    "CA": "加拿大",
+    "AU": "澳大利亚",
+    "NG": "尼日利亚",
+    "ZM": "赞比亚",
+    "IE": "爱尔兰",
+    "IT": "意大利"
+  },
+  "artists": [
+    {
+      "id": "michael-jackson",
+      "name": "Michael Jackson",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "dou-wei",
+      "name": "窦唯",
+      "country": "CN",
+      "region": "cn-mainland"
+    },
+    {
+      "id": "madonna",
+      "name": "Madonna",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "faye-wong",
+      "name": "王菲",
+      "country": "CN",
+      "region": "hk-tw"
+    },
+    {
+      "id": "prince",
+      "name": "Prince",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "flippers-guitar",
+      "name": "Flipper's Guitar",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "nirvana",
+      "name": "Nirvana",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "sonic-youth",
+      "name": "Sonic Youth",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "oasis",
+      "name": "Oasis",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "the-smiths",
+      "name": "The Smiths",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "depeche-mode",
+      "name": "Depeche Mode",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "asylum-party",
+      "name": "Asylum Party",
+      "country": "FR",
+      "region": "europe"
+    },
+    {
+      "id": "the-cure",
+      "name": "The Cure",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "soda-stereo",
+      "name": "Soda Stereo",
+      "country": "AR",
+      "region": "latam"
+    },
+    {
+      "id": "radiohead",
+      "name": "Radiohead",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "pu-shu",
+      "name": "朴树",
+      "country": "CN",
+      "region": "cn-mainland"
+    },
+    {
+      "id": "coldplay",
+      "name": "Coldplay",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "jay-chou",
+      "name": "周杰伦",
+      "country": "TW",
+      "region": "hk-tw"
+    },
+    {
+      "id": "utada-hikaru",
+      "name": "宇多田ヒカル",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "fishmans",
+      "name": "Fishmans",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "eminem",
+      "name": "Eminem",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "american-football",
+      "name": "American Football",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "blur",
+      "name": "Blur",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "massive-attack",
+      "name": "Massive Attack",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "daft-punk",
+      "name": "Daft Punk",
+      "country": "FR",
+      "region": "europe"
+    },
+    {
+      "id": "air",
+      "name": "Air",
+      "country": "FR",
+      "region": "europe"
+    },
+    {
+      "id": "shakira",
+      "name": "Shakira",
+      "country": "CO",
+      "region": "latam"
+    },
+    {
+      "id": "gustavo-cerati",
+      "name": "Gustavo Cerati",
+      "country": "AR",
+      "region": "latam"
+    },
+    {
+      "id": "avril-lavigne",
+      "name": "Avril Lavigne",
+      "country": "CA",
+      "region": null
+    },
+    {
+      "id": "omnipotent-youth-society",
+      "name": "万能青年旅店",
+      "country": "CN",
+      "region": "cn-mainland"
+    },
+    {
+      "id": "adele",
+      "name": "Adele",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "no-party-for-cao-dong",
+      "name": "草东没有派对",
+      "country": "TW",
+      "region": "hk-tw"
+    },
+    {
+      "id": "perfume",
+      "name": "Perfume",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "toe",
+      "name": "toe",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "frank-ocean",
+      "name": "Frank Ocean",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "kendrick-lamar",
+      "name": "Kendrick Lamar",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "arctic-monkeys",
+      "name": "Arctic Monkeys",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "burial",
+      "name": "Burial",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "stromae",
+      "name": "Stromae",
+      "country": "BE",
+      "region": "europe"
+    },
+    {
+      "id": "alcest",
+      "name": "Alcest",
+      "country": "FR",
+      "region": "europe"
+    },
+    {
+      "id": "calle-13",
+      "name": "Calle 13",
+      "country": "PR",
+      "region": "latam"
+    },
+    {
+      "id": "natalia-lafourcade",
+      "name": "Natalia Lafourcade",
+      "country": "MX",
+      "region": "latam"
+    },
+    {
+      "id": "billie-eilish",
+      "name": "Billie Eilish",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "re-tros",
+      "name": "重塑雕像的权利",
+      "country": "CN",
+      "region": "cn-mainland"
+    },
+    {
+      "id": "dua-lipa",
+      "name": "Dua Lipa",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "sunset-rollercoaster",
+      "name": "落日飞车",
+      "country": "TW",
+      "region": "hk-tw"
+    },
+    {
+      "id": "kenshi-yonezu",
+      "name": "米津玄師",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "ichiko-aoba",
+      "name": "青葉市子",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "olivia-rodrigo",
+      "name": "Olivia Rodrigo",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "weyes-blood",
+      "name": "Weyes Blood",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "charli-xcx",
+      "name": "Charli xcx",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "bcnr",
+      "name": "Black Country, New Road",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "rosalia",
+      "name": "ROSALÍA",
+      "country": "ES",
+      "region": "europe"
+    },
+    {
+      "id": "molchat-doma",
+      "name": "Molchat Doma",
+      "country": "BY",
+      "region": "europe"
+    },
+    {
+      "id": "bad-bunny",
+      "name": "Bad Bunny",
+      "country": "PR",
+      "region": "latam"
+    },
+    {
+      "id": "arca",
+      "name": "Arca",
+      "country": "VE",
+      "region": "latam"
+    },
+    {
+      "id": "miles-davis",
+      "name": "Miles Davis",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "art-blakey",
+      "name": "Art Blakey & The Jazz Messengers",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "charles-mingus",
+      "name": "Charles Mingus",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "john-coltrane",
+      "name": "John Coltrane",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "wayne-shorter",
+      "name": "Wayne Shorter",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "yussef-kamaal",
+      "name": "Yussef Kamaal",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "the-comet-is-coming",
+      "name": "The Comet Is Coming",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "bill-evans-trio",
+      "name": "Bill Evans Trio",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "ryo-fukui",
+      "name": "福居良",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "the-velvet-underground",
+      "name": "The Velvet Underground",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "the-clash",
+      "name": "The Clash",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "joy-division",
+      "name": "Joy Division",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "new-order",
+      "name": "New Order",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "gang-of-four",
+      "name": "Gang of Four",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "siouxsie",
+      "name": "Siouxsie and the Banshees",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "hedgehog",
+      "name": "刺猬",
+      "country": "CN",
+      "region": "cn-mainland"
+    },
+    {
+      "id": "rem",
+      "name": "R.E.M.",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "my-bloody-valentine",
+      "name": "My Bloody Valentine",
+      "country": "IE",
+      "region": "europe"
+    },
+    {
+      "id": "cocteau-twins",
+      "name": "Cocteau Twins",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "slowdive",
+      "name": "Slowdive",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "mogwai",
+      "name": "Mogwai",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "gybe",
+      "name": "Godspeed You! Black Emperor",
+      "country": "CA",
+      "region": null
+    },
+    {
+      "id": "slint",
+      "name": "Slint",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "sigur-ros",
+      "name": "Sigur Rós",
+      "country": "IS",
+      "region": "europe"
+    },
+    {
+      "id": "kinoko-teikoku",
+      "name": "きのこ帝国",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "kraftwerk",
+      "name": "Kraftwerk",
+      "country": "DE",
+      "region": "europe"
+    },
+    {
+      "id": "neu",
+      "name": "NEU!",
+      "country": "DE",
+      "region": "europe"
+    },
+    {
+      "id": "can",
+      "name": "Can",
+      "country": "DE",
+      "region": "europe"
+    },
+    {
+      "id": "aphex-twin",
+      "name": "Aphex Twin",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "inner-city",
+      "name": "Inner City",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "boards-of-canada",
+      "name": "Boards of Canada",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "moderat",
+      "name": "Moderat",
+      "country": "DE",
+      "region": "europe"
+    },
+    {
+      "id": "goldie",
+      "name": "Goldie",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "ymo",
+      "name": "Yellow Magic Orchestra",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "tat-ming-pair",
+      "name": "达明一派",
+      "country": "HK",
+      "region": "hk-tw"
+    },
+    {
+      "id": "grandmaster-flash",
+      "name": "Grandmaster Flash & The Furious Five",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "nas",
+      "name": "Nas",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "atcq",
+      "name": "A Tribe Called Quest",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "wu-tang-clan",
+      "name": "Wu-Tang Clan",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "dj-shadow",
+      "name": "DJ Shadow",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "j-dilla",
+      "name": "J Dilla",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "madvillain",
+      "name": "Madvillain",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "the-avalanches",
+      "name": "The Avalanches",
+      "country": "AU",
+      "region": null
+    },
+    {
+      "id": "nujabes",
+      "name": "Nujabes",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "public-enemy",
+      "name": "Public Enemy",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "jpegmafia",
+      "name": "JPEGMAFIA",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "talking-heads",
+      "name": "Talking Heads",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "mariya-takeuchi",
+      "name": "竹内まりや",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "the-beach-boys",
+      "name": "The Beach Boys",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "bjork",
+      "name": "Björk",
+      "country": "IS",
+      "region": "europe"
+    },
+    {
+      "id": "cornelius",
+      "name": "Cornelius",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "stereolab",
+      "name": "Stereolab",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "kate-bush",
+      "name": "Kate Bush",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "taeko-onuki",
+      "name": "大貫妙子",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "fka-twigs",
+      "name": "FKA twigs",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "sheena-ringo",
+      "name": "椎名林檎",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "nick-drake",
+      "name": "Nick Drake",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "bob-dylan",
+      "name": "Bob Dylan",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "neutral-milk-hotel",
+      "name": "Neutral Milk Hotel",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "os-mutantes",
+      "name": "Os Mutantes",
+      "country": "BR",
+      "region": "latam"
+    },
+    {
+      "id": "fela-kuti",
+      "name": "Fela Kuti",
+      "country": "NG",
+      "region": null
+    },
+    {
+      "id": "witch",
+      "name": "WITCH",
+      "country": "ZM",
+      "region": null
+    },
+    {
+      "id": "joni-mitchell",
+      "name": "Joni Mitchell",
+      "country": "CA",
+      "region": null
+    },
+    {
+      "id": "milton-lo",
+      "name": "Milton Nascimento & Lô Borges",
+      "country": "BR",
+      "region": "latam"
+    },
+    {
+      "id": "phoebe-bridgers",
+      "name": "Phoebe Bridgers",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "cafe-tacvba",
+      "name": "Café Tacvba",
+      "country": "MX",
+      "region": "latam"
+    },
+    {
+      "id": "cui-jian",
+      "name": "崔健",
+      "country": "CN",
+      "region": "cn-mainland"
+    },
+    {
+      "id": "cheer-chen",
+      "name": "陈绮贞",
+      "country": "TW",
+      "region": "hk-tw"
+    },
+    {
+      "id": "black-sabbath",
+      "name": "Black Sabbath",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "nine-inch-nails",
+      "name": "Nine Inch Nails",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "isis",
+      "name": "Isis",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "deafheaven",
+      "name": "Deafheaven",
+      "country": "US",
+      "region": "usa"
+    },
+    {
+      "id": "throbbing-gristle",
+      "name": "Throbbing Gristle",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "electric-wizard",
+      "name": "Electric Wizard",
+      "country": "GB",
+      "region": "uk"
+    },
+    {
+      "id": "einsturzende-neubauten",
+      "name": "Einstürzende Neubauten",
+      "country": "DE",
+      "region": "europe"
+    },
+    {
+      "id": "boris",
+      "name": "Boris",
+      "country": "JP",
+      "region": "japan"
+    },
+    {
+      "id": "linkin-park",
+      "name": "Linkin Park",
+      "country": "US",
+      "region": "usa"
+    }
+  ],
+  "albums": [
+    {
+      "id": "michael-jackson--dangerous",
+      "title": "Dangerous",
+      "artistId": "michael-jackson",
+      "year": 1991
+    },
+    {
+      "id": "dou-wei--gaoji-dongwu",
+      "title": "黑梦",
+      "artistId": "dou-wei",
+      "year": 1994
+    },
+    {
+      "id": "madonna--like-a-prayer",
+      "title": "Like a Prayer",
+      "artistId": "madonna",
+      "year": 1989
+    },
+    {
+      "id": "faye-wong--fuzao",
+      "title": "浮躁",
+      "artistId": "faye-wong",
+      "year": 1996
+    },
+    {
+      "id": "prince--parade",
+      "title": "Parade",
+      "artistId": "prince",
+      "year": 1986
+    },
+    {
+      "id": "flippers-guitar--camera-talk",
+      "title": "CAMERA TALK",
+      "artistId": "flippers-guitar",
+      "year": 1990
+    },
+    {
+      "id": "nirvana--nevermind",
+      "title": "Nevermind",
+      "artistId": "nirvana",
+      "year": 1991
+    },
+    {
+      "id": "sonic-youth--daydream-nation",
+      "title": "Daydream Nation",
+      "artistId": "sonic-youth",
+      "year": 1988
+    },
+    {
+      "id": "oasis--what-s-the-story-morning-glory",
+      "title": "(What's the Story) Morning Glory?",
+      "artistId": "oasis",
+      "year": 1995
+    },
+    {
+      "id": "the-smiths--the-queen-is-dead",
+      "title": "The Queen Is Dead",
+      "artistId": "the-smiths",
+      "year": 1986
+    },
+    {
+      "id": "depeche-mode--violator",
+      "title": "Violator",
+      "artistId": "depeche-mode",
+      "year": 1990
+    },
+    {
+      "id": "asylum-party--borderline",
+      "title": "Borderline",
+      "artistId": "asylum-party",
+      "year": 1989
+    },
+    {
+      "id": "the-cure--disintegration",
+      "title": "Disintegration",
+      "artistId": "the-cure",
+      "year": 1989
+    },
+    {
+      "id": "soda-stereo--canci-n-animal",
+      "title": "Canción Animal",
+      "artistId": "soda-stereo",
+      "year": 1990
+    },
+    {
+      "id": "radiohead--ok-computer",
+      "title": "OK Computer",
+      "artistId": "radiohead",
+      "year": 1997
+    },
+    {
+      "id": "pu-shu--2000",
+      "title": "我去2000年",
+      "artistId": "pu-shu",
+      "year": 1999
+    },
+    {
+      "id": "coldplay--parachutes",
+      "title": "Parachutes",
+      "artistId": "coldplay",
+      "year": 2000
+    },
+    {
+      "id": "jay-chou--ai-zai-xiyuan-qian",
+      "title": "范特西",
+      "artistId": "jay-chou",
+      "year": 2001
+    },
+    {
+      "id": "utada-hikaru--first-love",
+      "title": "First Love",
+      "artistId": "utada-hikaru",
+      "year": 1999
+    },
+    {
+      "id": "fishmans--night-cruising",
+      "title": "空中キャンプ",
+      "artistId": "fishmans",
+      "year": 1996
+    },
+    {
+      "id": "eminem--the-marshall-mathers-lp",
+      "title": "The Marshall Mathers LP",
+      "artistId": "eminem",
+      "year": 2000
+    },
+    {
+      "id": "american-football--american-football",
+      "title": "American Football",
+      "artistId": "american-football",
+      "year": 1999
+    },
+    {
+      "id": "blur--blur",
+      "title": "Blur",
+      "artistId": "blur",
+      "year": 1997
+    },
+    {
+      "id": "massive-attack--mezzanine",
+      "title": "Mezzanine",
+      "artistId": "massive-attack",
+      "year": 1998
+    },
+    {
+      "id": "daft-punk--discovery",
+      "title": "Discovery",
+      "artistId": "daft-punk",
+      "year": 2001
+    },
+    {
+      "id": "air--moon-safari",
+      "title": "Moon Safari",
+      "artistId": "air",
+      "year": 1998
+    },
+    {
+      "id": "shakira--d-nde-est-n-los-ladrones",
+      "title": "Dónde Están los Ladrones?",
+      "artistId": "shakira",
+      "year": 1998
+    },
+    {
+      "id": "gustavo-cerati--bocanada",
+      "title": "Bocanada",
+      "artistId": "gustavo-cerati",
+      "year": 1999
+    },
+    {
+      "id": "avril-lavigne--the-best-damn-thing",
+      "title": "The Best Damn Thing",
+      "artistId": "avril-lavigne",
+      "year": 2007
+    },
+    {
+      "id": "omnipotent-youth-society--shijiazhuang",
+      "title": "万能青年旅店",
+      "artistId": "omnipotent-youth-society",
+      "year": 2010
+    },
+    {
+      "id": "adele--21",
+      "title": "21",
+      "artistId": "adele",
+      "year": 2011
+    },
+    {
+      "id": "no-party-for-cao-dong--da-feng-chui",
+      "title": "丑奴儿",
+      "artistId": "no-party-for-cao-dong",
+      "year": 2016
+    },
+    {
+      "id": "perfume--game",
+      "title": "GAME",
+      "artistId": "perfume",
+      "year": 2008
+    },
+    {
+      "id": "toe--the-book-about-my-idle-plot-on-a-vague-anxiety",
+      "title": "the book about my idle plot on a vague anxiety",
+      "artistId": "toe",
+      "year": 2005
+    },
+    {
+      "id": "frank-ocean--blonde",
+      "title": "Blonde",
+      "artistId": "frank-ocean",
+      "year": 2016
+    },
+    {
+      "id": "kendrick-lamar--to-pimp-a-butterfly",
+      "title": "To Pimp a Butterfly",
+      "artistId": "kendrick-lamar",
+      "year": 2015
+    },
+    {
+      "id": "arctic-monkeys--whatever-people-say-i-am-that-s-what-i-m-not",
+      "title": "Whatever People Say I Am, That's What I'm Not",
+      "artistId": "arctic-monkeys",
+      "year": 2006
+    },
+    {
+      "id": "burial--untrue",
+      "title": "Untrue",
+      "artistId": "burial",
+      "year": 2007
+    },
+    {
+      "id": "stromae--racine-carr-e",
+      "title": "Racine carrée",
+      "artistId": "stromae",
+      "year": 2013
+    },
+    {
+      "id": "alcest--cailles-de-lune",
+      "title": "Écailles de lune",
+      "artistId": "alcest",
+      "year": 2010
+    },
+    {
+      "id": "calle-13--entren-los-que-quieran",
+      "title": "Entren los que quieran",
+      "artistId": "calle-13",
+      "year": 2010
+    },
+    {
+      "id": "natalia-lafourcade--hasta-la-ra-z",
+      "title": "Hasta la Raíz",
+      "artistId": "natalia-lafourcade",
+      "year": 2015
+    },
+    {
+      "id": "billie-eilish--when-we-all-fall-asleep-where-do-we-go",
+      "title": "WHEN WE ALL FALL ASLEEP, WHERE DO WE GO?",
+      "artistId": "billie-eilish",
+      "year": 2019
+    },
+    {
+      "id": "re-tros--before-the-applause",
+      "title": "Before the Applause",
+      "artistId": "re-tros",
+      "year": 2017
+    },
+    {
+      "id": "dua-lipa--future-nostalgia",
+      "title": "Future Nostalgia",
+      "artistId": "dua-lipa",
+      "year": 2020
+    },
+    {
+      "id": "sunset-rollercoaster--jinji-kikko",
+      "title": "Jinji Kikko",
+      "artistId": "sunset-rollercoaster",
+      "year": 2016
+    },
+    {
+      "id": "kenshi-yonezu--stray-sheep",
+      "title": "STRAY SHEEP",
+      "artistId": "kenshi-yonezu",
+      "year": 2020
+    },
+    {
+      "id": "ichiko-aoba--porcelain",
+      "title": "アダンの風",
+      "artistId": "ichiko-aoba",
+      "year": 2020
+    },
+    {
+      "id": "olivia-rodrigo--sour",
+      "title": "SOUR",
+      "artistId": "olivia-rodrigo",
+      "year": 2021
+    },
+    {
+      "id": "weyes-blood--titanic-rising",
+      "title": "Titanic Rising",
+      "artistId": "weyes-blood",
+      "year": 2019
+    },
+    {
+      "id": "charli-xcx--brat",
+      "title": "BRAT",
+      "artistId": "charli-xcx",
+      "year": 2024
+    },
+    {
+      "id": "bcnr--ants-from-up-there",
+      "title": "Ants From Up There",
+      "artistId": "bcnr",
+      "year": 2022
+    },
+    {
+      "id": "rosalia--el-mal-querer",
+      "title": "El Mal Querer",
+      "artistId": "rosalia",
+      "year": 2018
+    },
+    {
+      "id": "molchat-doma--sudno",
+      "title": "Этажи",
+      "artistId": "molchat-doma",
+      "year": 2018
+    },
+    {
+      "id": "bad-bunny--un-verano-sin-ti",
+      "title": "Un Verano Sin Ti",
+      "artistId": "bad-bunny",
+      "year": 2022
+    },
+    {
+      "id": "arca--kick-i",
+      "title": "KiCk i",
+      "artistId": "arca",
+      "year": 2020
+    },
+    {
+      "id": "miles-davis--kind-of-blue",
+      "title": "Kind of Blue",
+      "artistId": "miles-davis",
+      "year": 1959
+    },
+    {
+      "id": "art-blakey--moanin",
+      "title": "Moanin'",
+      "artistId": "art-blakey",
+      "year": 1959
+    },
+    {
+      "id": "charles-mingus--mingus-ah-um",
+      "title": "Mingus Ah Um",
+      "artistId": "charles-mingus",
+      "year": 1959
+    },
+    {
+      "id": "john-coltrane--a-love-supreme",
+      "title": "A Love Supreme",
+      "artistId": "john-coltrane",
+      "year": 1965
+    },
+    {
+      "id": "wayne-shorter--speak-no-evil",
+      "title": "Speak No Evil",
+      "artistId": "wayne-shorter",
+      "year": 1966
+    },
+    {
+      "id": "yussef-kamaal--black-focus",
+      "title": "Black Focus",
+      "artistId": "yussef-kamaal",
+      "year": 2016
+    },
+    {
+      "id": "the-comet-is-coming--trust-in-the-lifeforce-of-the-deep-mystery",
+      "title": "Trust in the Lifeforce of the Deep Mystery",
+      "artistId": "the-comet-is-coming",
+      "year": 2019
+    },
+    {
+      "id": "bill-evans-trio--sunday-at-the-village-vanguard",
+      "title": "Sunday at the Village Vanguard",
+      "artistId": "bill-evans-trio",
+      "year": 1961
+    },
+    {
+      "id": "ryo-fukui--scenery",
+      "title": "Scenery",
+      "artistId": "ryo-fukui",
+      "year": 1976
+    },
+    {
+      "id": "the-velvet-underground--loaded",
+      "title": "Loaded",
+      "artistId": "the-velvet-underground",
+      "year": 1970
+    },
+    {
+      "id": "the-clash--london-calling",
+      "title": "London Calling",
+      "artistId": "the-clash",
+      "year": 1979
+    },
+    {
+      "id": "joy-division--unknown-pleasures",
+      "title": "Unknown Pleasures",
+      "artistId": "joy-division",
+      "year": 1979
+    },
+    {
+      "id": "new-order--power-corruption-lies",
+      "title": "Power, Corruption & Lies",
+      "artistId": "new-order",
+      "year": 1983
+    },
+    {
+      "id": "gang-of-four--entertainment",
+      "title": "Entertainment!",
+      "artistId": "gang-of-four",
+      "year": 1979
+    },
+    {
+      "id": "siouxsie--juju",
+      "title": "Juju",
+      "artistId": "siouxsie",
+      "year": 1981
+    },
+    {
+      "id": "hedgehog--bairimeng-lan",
+      "title": "白日梦蓝",
+      "artistId": "hedgehog",
+      "year": 2009
+    },
+    {
+      "id": "rem--murmur",
+      "title": "Murmur",
+      "artistId": "rem",
+      "year": 1983
+    },
+    {
+      "id": "my-bloody-valentine--loveless",
+      "title": "Loveless",
+      "artistId": "my-bloody-valentine",
+      "year": 1991
+    },
+    {
+      "id": "cocteau-twins--heaven-or-las-vegas",
+      "title": "Heaven or Las Vegas",
+      "artistId": "cocteau-twins",
+      "year": 1990
+    },
+    {
+      "id": "slowdive--souvlaki",
+      "title": "Souvlaki",
+      "artistId": "slowdive",
+      "year": 1993
+    },
+    {
+      "id": "mogwai--young-team",
+      "title": "Young Team",
+      "artistId": "mogwai",
+      "year": 1997
+    },
+    {
+      "id": "gybe--lift-your-skinny-fists-like-antennas-to-heaven",
+      "title": "Lift Your Skinny Fists Like Antennas to Heaven",
+      "artistId": "gybe",
+      "year": 2000
+    },
+    {
+      "id": "slint--spiderland",
+      "title": "Spiderland",
+      "artistId": "slint",
+      "year": 1991
+    },
+    {
+      "id": "sigur-ros--g-tis-byrjun",
+      "title": "Ágætis byrjun",
+      "artistId": "sigur-ros",
+      "year": 1999
+    },
+    {
+      "id": "kinoko-teikoku--taikutsu-shinogi",
+      "title": "渦になる",
+      "artistId": "kinoko-teikoku",
+      "year": 2012
+    },
+    {
+      "id": "kraftwerk--the-man-machine",
+      "title": "The Man-Machine",
+      "artistId": "kraftwerk",
+      "year": 1978
+    },
+    {
+      "id": "neu--neu",
+      "title": "NEU!",
+      "artistId": "neu",
+      "year": 1972
+    },
+    {
+      "id": "can--ege-bamyasi",
+      "title": "Ege Bamyasi",
+      "artistId": "can",
+      "year": 1972
+    },
+    {
+      "id": "aphex-twin--selected-ambient-works-85-92",
+      "title": "Selected Ambient Works 85–92",
+      "artistId": "aphex-twin",
+      "year": 1992
+    },
+    {
+      "id": "inner-city--paradise",
+      "title": "Paradise",
+      "artistId": "inner-city",
+      "year": 1989
+    },
+    {
+      "id": "boards-of-canada--music-has-the-right-to-children",
+      "title": "Music Has the Right to Children",
+      "artistId": "boards-of-canada",
+      "year": 1998
+    },
+    {
+      "id": "moderat--ii",
+      "title": "II",
+      "artistId": "moderat",
+      "year": 2013
+    },
+    {
+      "id": "goldie--timeless",
+      "title": "Timeless",
+      "artistId": "goldie",
+      "year": 1995
+    },
+    {
+      "id": "ymo--solid-state-survivor",
+      "title": "Solid State Survivor",
+      "artistId": "ymo",
+      "year": 1979
+    },
+    {
+      "id": "tat-ming-pair--shitou-ji",
+      "title": "石头记",
+      "artistId": "tat-ming-pair",
+      "year": 1987
+    },
+    {
+      "id": "grandmaster-flash--the-message",
+      "title": "The Message",
+      "artistId": "grandmaster-flash",
+      "year": 1982
+    },
+    {
+      "id": "nas--illmatic",
+      "title": "Illmatic",
+      "artistId": "nas",
+      "year": 1994
+    },
+    {
+      "id": "atcq--midnight-marauders",
+      "title": "Midnight Marauders",
+      "artistId": "atcq",
+      "year": 1993
+    },
+    {
+      "id": "wu-tang-clan--enter-the-wu-tang-36-chambers",
+      "title": "Enter the Wu-Tang (36 Chambers)",
+      "artistId": "wu-tang-clan",
+      "year": 1993
+    },
+    {
+      "id": "dj-shadow--endtroducing",
+      "title": "Endtroducing.....",
+      "artistId": "dj-shadow",
+      "year": 1996
+    },
+    {
+      "id": "j-dilla--donuts",
+      "title": "Donuts",
+      "artistId": "j-dilla",
+      "year": 2006
+    },
+    {
+      "id": "madvillain--madvillainy",
+      "title": "Madvillainy",
+      "artistId": "madvillain",
+      "year": 2004
+    },
+    {
+      "id": "the-avalanches--since-i-left-you",
+      "title": "Since I Left You",
+      "artistId": "the-avalanches",
+      "year": 2000
+    },
+    {
+      "id": "nujabes--modal-soul",
+      "title": "Modal Soul",
+      "artistId": "nujabes",
+      "year": 2005
+    },
+    {
+      "id": "public-enemy--it-takes-a-nation-of-millions-to-hold-us-back",
+      "title": "It Takes a Nation of Millions to Hold Us Back",
+      "artistId": "public-enemy",
+      "year": 1988
+    },
+    {
+      "id": "jpegmafia--veteran",
+      "title": "Veteran",
+      "artistId": "jpegmafia",
+      "year": 2018
+    },
+    {
+      "id": "talking-heads--remain-in-light",
+      "title": "Remain in Light",
+      "artistId": "talking-heads",
+      "year": 1980
+    },
+    {
+      "id": "mariya-takeuchi--variety",
+      "title": "VARIETY",
+      "artistId": "mariya-takeuchi",
+      "year": 1984
+    },
+    {
+      "id": "the-beach-boys--pet-sounds",
+      "title": "Pet Sounds",
+      "artistId": "the-beach-boys",
+      "year": 1966
+    },
+    {
+      "id": "bjork--homogenic",
+      "title": "Homogenic",
+      "artistId": "bjork",
+      "year": 1997
+    },
+    {
+      "id": "cornelius--fantasma",
+      "title": "FANTASMA",
+      "artistId": "cornelius",
+      "year": 1997
+    },
+    {
+      "id": "stereolab--dots-and-loops",
+      "title": "Dots and Loops",
+      "artistId": "stereolab",
+      "year": 1997
+    },
+    {
+      "id": "kate-bush--hounds-of-love",
+      "title": "Hounds of Love",
+      "artistId": "kate-bush",
+      "year": 1985
+    },
+    {
+      "id": "taeko-onuki--sunshower",
+      "title": "SUNSHOWER",
+      "artistId": "taeko-onuki",
+      "year": 1977
+    },
+    {
+      "id": "fka-twigs--lp1",
+      "title": "LP1",
+      "artistId": "fka-twigs",
+      "year": 2014
+    },
+    {
+      "id": "sheena-ringo--marunouchi-sadistic",
+      "title": "無罪モラトリアム",
+      "artistId": "sheena-ringo",
+      "year": 1999
+    },
+    {
+      "id": "nick-drake--pink-moon",
+      "title": "Pink Moon",
+      "artistId": "nick-drake",
+      "year": 1972
+    },
+    {
+      "id": "bob-dylan--highway-61-revisited",
+      "title": "Highway 61 Revisited",
+      "artistId": "bob-dylan",
+      "year": 1965
+    },
+    {
+      "id": "neutral-milk-hotel--in-the-aeroplane-over-the-sea",
+      "title": "In the Aeroplane Over the Sea",
+      "artistId": "neutral-milk-hotel",
+      "year": 1998
+    },
+    {
+      "id": "os-mutantes--os-mutantes",
+      "title": "Os Mutantes",
+      "artistId": "os-mutantes",
+      "year": 1968
+    },
+    {
+      "id": "fela-kuti--zombie",
+      "title": "Zombie",
+      "artistId": "fela-kuti",
+      "year": 1976
+    },
+    {
+      "id": "witch--lazy-bones",
+      "title": "Lazy Bones!!",
+      "artistId": "witch",
+      "year": 1975
+    },
+    {
+      "id": "joni-mitchell--blue",
+      "title": "Blue",
+      "artistId": "joni-mitchell",
+      "year": 1971
+    },
+    {
+      "id": "milton-lo--clube-da-esquina",
+      "title": "Clube da Esquina",
+      "artistId": "milton-lo",
+      "year": 1972
+    },
+    {
+      "id": "phoebe-bridgers--punisher",
+      "title": "Punisher",
+      "artistId": "phoebe-bridgers",
+      "year": 2020
+    },
+    {
+      "id": "cafe-tacvba--re",
+      "title": "Re",
+      "artistId": "cafe-tacvba",
+      "year": 1994
+    },
+    {
+      "id": "cui-jian--yi-wu-suo-you",
+      "title": "新长征路上的摇滚",
+      "artistId": "cui-jian",
+      "year": 1989
+    },
+    {
+      "id": "cheer-chen--lvxing-de-yiyi",
+      "title": "华丽的冒险",
+      "artistId": "cheer-chen",
+      "year": 2005
+    },
+    {
+      "id": "black-sabbath--paranoid",
+      "title": "Paranoid",
+      "artistId": "black-sabbath",
+      "year": 1970
+    },
+    {
+      "id": "nine-inch-nails--the-downward-spiral",
+      "title": "The Downward Spiral",
+      "artistId": "nine-inch-nails",
+      "year": 1994
+    },
+    {
+      "id": "isis--panopticon",
+      "title": "Panopticon",
+      "artistId": "isis",
+      "year": 2004
+    },
+    {
+      "id": "deafheaven--sunbather",
+      "title": "Sunbather",
+      "artistId": "deafheaven",
+      "year": 2013
+    },
+    {
+      "id": "throbbing-gristle--20-jazz-funk-greats",
+      "title": "20 Jazz Funk Greats",
+      "artistId": "throbbing-gristle",
+      "year": 1979
+    },
+    {
+      "id": "electric-wizard--dopethrone",
+      "title": "Dopethrone",
+      "artistId": "electric-wizard",
+      "year": 2000
+    },
+    {
+      "id": "einsturzende-neubauten--halber-mensch",
+      "title": "Halber Mensch",
+      "artistId": "einsturzende-neubauten",
+      "year": 1985
+    },
+    {
+      "id": "boris--pink",
+      "title": "PINK",
+      "artistId": "boris",
+      "year": 2005
+    },
+    {
+      "id": "linkin-park--hybrid-theory",
+      "title": "Hybrid Theory",
+      "artistId": "linkin-park",
+      "year": 2000
+    }
+  ],
+  "tracks": [
+    {
+      "id": "black-or-white",
+      "title": "Black or White",
+      "artistId": "michael-jackson",
+      "albumId": "michael-jackson--dangerous",
+      "year": 1991,
+      "genre": "Pop",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "gaoji-dongwu",
+      "title": "高级动物",
+      "artistId": "dou-wei",
+      "albumId": "dou-wei--gaoji-dongwu",
+      "year": 1994,
+      "genre": "Post-Punk",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "like-a-prayer",
+      "title": "Like a Prayer",
+      "artistId": "madonna",
+      "albumId": "madonna--like-a-prayer",
+      "year": 1989,
+      "genre": "Pop",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "fuzao",
+      "title": "浮躁",
+      "artistId": "faye-wong",
+      "albumId": "faye-wong--fuzao",
+      "year": 1996,
+      "genre": "Dream Pop",
+      "lineage": "shoegaze-indie",
+      "tier": 1
+    },
+    {
+      "id": "kiss",
+      "title": "Kiss",
+      "artistId": "prince",
+      "albumId": "prince--parade",
+      "year": 1986,
+      "genre": "Funk",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "koi-to-machine-gun",
+      "title": "恋とマシンガン",
+      "artistId": "flippers-guitar",
+      "albumId": "flippers-guitar--camera-talk",
+      "year": 1990,
+      "genre": "Shibuya-kei",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "smells-like-teen-spirit",
+      "title": "Smells Like Teen Spirit",
+      "artistId": "nirvana",
+      "albumId": "nirvana--nevermind",
+      "year": 1991,
+      "genre": "Grunge",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "teen-age-riot",
+      "title": "Teen Age Riot",
+      "artistId": "sonic-youth",
+      "albumId": "sonic-youth--daydream-nation",
+      "year": 1988,
+      "genre": "Noise Rock",
+      "lineage": "punk-postpunk",
+      "tier": 2
+    },
+    {
+      "id": "wonderwall",
+      "title": "Wonderwall",
+      "artistId": "oasis",
+      "albumId": "oasis--what-s-the-story-morning-glory",
+      "year": 1995,
+      "genre": "Britpop",
+      "lineage": "shoegaze-indie",
+      "tier": 1
+    },
+    {
+      "id": "there-is-a-light",
+      "title": "There Is a Light That Never Goes Out",
+      "artistId": "the-smiths",
+      "albumId": "the-smiths--the-queen-is-dead",
+      "year": 1986,
+      "genre": "Jangle Pop",
+      "lineage": "shoegaze-indie",
+      "tier": 1
+    },
+    {
+      "id": "enjoy-the-silence",
+      "title": "Enjoy the Silence",
+      "artistId": "depeche-mode",
+      "albumId": "depeche-mode--violator",
+      "year": 1990,
+      "genre": "Synthpop",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "julia",
+      "title": "Julia",
+      "artistId": "asylum-party",
+      "albumId": "asylum-party--borderline",
+      "year": 1989,
+      "genre": "Coldwave",
+      "lineage": "punk-postpunk",
+      "tier": 2
+    },
+    {
+      "id": "lovesong",
+      "title": "Lovesong",
+      "artistId": "the-cure",
+      "albumId": "the-cure--disintegration",
+      "year": 1989,
+      "genre": "Gothic Rock",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "de-musica-ligera",
+      "title": "De Música Ligera",
+      "artistId": "soda-stereo",
+      "albumId": "soda-stereo--canci-n-animal",
+      "year": 1990,
+      "genre": "Alternative Rock",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "karma-police",
+      "title": "Karma Police",
+      "artistId": "radiohead",
+      "albumId": "radiohead--ok-computer",
+      "year": 1997,
+      "genre": "Art Rock",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "naxie-huaer",
+      "title": "那些花儿",
+      "artistId": "pu-shu",
+      "albumId": "pu-shu--2000",
+      "year": 1999,
+      "genre": "Folk Pop",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "yellow",
+      "title": "Yellow",
+      "artistId": "coldplay",
+      "albumId": "coldplay--parachutes",
+      "year": 2000,
+      "genre": "Alternative Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 1
+    },
+    {
+      "id": "ai-zai-xiyuan-qian",
+      "title": "爱在西元前",
+      "artistId": "jay-chou",
+      "albumId": "jay-chou--ai-zai-xiyuan-qian",
+      "year": 2001,
+      "genre": "Mandopop",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "first-love",
+      "title": "First Love",
+      "artistId": "utada-hikaru",
+      "albumId": "utada-hikaru--first-love",
+      "year": 1999,
+      "genre": "J-Pop",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "night-cruising",
+      "title": "ナイトクルージング",
+      "artistId": "fishmans",
+      "albumId": "fishmans--night-cruising",
+      "year": 1995,
+      "genre": "Dream Pop",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "stan",
+      "title": "Stan",
+      "artistId": "eminem",
+      "albumId": "eminem--the-marshall-mathers-lp",
+      "year": 2000,
+      "genre": "Hip Hop",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "never-meant",
+      "title": "Never Meant",
+      "artistId": "american-football",
+      "albumId": "american-football--american-football",
+      "year": 1999,
+      "genre": "Midwest Emo",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "song-2",
+      "title": "Song 2",
+      "artistId": "blur",
+      "albumId": "blur--blur",
+      "year": 1997,
+      "genre": "Britpop",
+      "lineage": "shoegaze-indie",
+      "tier": 1
+    },
+    {
+      "id": "teardrop",
+      "title": "Teardrop",
+      "artistId": "massive-attack",
+      "albumId": "massive-attack--mezzanine",
+      "year": 1998,
+      "genre": "Trip Hop",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "one-more-time",
+      "title": "One More Time",
+      "artistId": "daft-punk",
+      "albumId": "daft-punk--discovery",
+      "year": 2000,
+      "genre": "French House",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "sexy-boy",
+      "title": "Sexy Boy",
+      "artistId": "air",
+      "albumId": "air--moon-safari",
+      "year": 1998,
+      "genre": "Downtempo",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "ciega-sordomuda",
+      "title": "Ciega, Sordomuda",
+      "artistId": "shakira",
+      "albumId": "shakira--d-nde-est-n-los-ladrones",
+      "year": 1998,
+      "genre": "Latin Pop",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "puente",
+      "title": "Puente",
+      "artistId": "gustavo-cerati",
+      "albumId": "gustavo-cerati--bocanada",
+      "year": 1999,
+      "genre": "Art Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "girlfriend",
+      "title": "Girlfriend",
+      "artistId": "avril-lavigne",
+      "albumId": "avril-lavigne--the-best-damn-thing",
+      "year": 2007,
+      "genre": "Pop Punk",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "shijiazhuang",
+      "title": "杀死那个石家庄人",
+      "artistId": "omnipotent-youth-society",
+      "albumId": "omnipotent-youth-society--shijiazhuang",
+      "year": 2010,
+      "genre": "Indie Rock",
+      "lineage": "folk-psych",
+      "tier": 2
+    },
+    {
+      "id": "rolling-in-the-deep",
+      "title": "Rolling in the Deep",
+      "artistId": "adele",
+      "albumId": "adele--21",
+      "year": 2010,
+      "genre": "Pop Soul",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "da-feng-chui",
+      "title": "大风吹",
+      "artistId": "no-party-for-cao-dong",
+      "albumId": "no-party-for-cao-dong--da-feng-chui",
+      "year": 2016,
+      "genre": "Indie Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 1
+    },
+    {
+      "id": "polyrhythm",
+      "title": "ポリリズム",
+      "artistId": "perfume",
+      "albumId": "perfume--game",
+      "year": 2007,
+      "genre": "Electropop",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "goodbye",
+      "title": "グッドバイ",
+      "artistId": "toe",
+      "albumId": "toe--the-book-about-my-idle-plot-on-a-vague-anxiety",
+      "year": 2005,
+      "genre": "Math Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "pink-white",
+      "title": "Pink + White",
+      "artistId": "frank-ocean",
+      "albumId": "frank-ocean--blonde",
+      "year": 2016,
+      "genre": "Alternative R&B",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "alright",
+      "title": "Alright",
+      "artistId": "kendrick-lamar",
+      "albumId": "kendrick-lamar--to-pimp-a-butterfly",
+      "year": 2015,
+      "genre": "Jazz Rap",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "i-bet-you-look-good",
+      "title": "I Bet You Look Good on the Dancefloor",
+      "artistId": "arctic-monkeys",
+      "albumId": "arctic-monkeys--whatever-people-say-i-am-that-s-what-i-m-not",
+      "year": 2005,
+      "genre": "Garage Rock Revival",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "archangel",
+      "title": "Archangel",
+      "artistId": "burial",
+      "albumId": "burial--untrue",
+      "year": 2007,
+      "genre": "Future Garage",
+      "lineage": "electronic-idm",
+      "tier": 2
+    },
+    {
+      "id": "papaoutai",
+      "title": "Papaoutai",
+      "artistId": "stromae",
+      "albumId": "stromae--racine-carr-e",
+      "year": 2013,
+      "genre": "Electropop",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "percees-de-lumiere",
+      "title": "Percées de lumière",
+      "artistId": "alcest",
+      "albumId": "alcest--cailles-de-lune",
+      "year": 2010,
+      "genre": "Blackgaze",
+      "lineage": "heavy-industrial",
+      "tier": 2
+    },
+    {
+      "id": "latinoamerica",
+      "title": "Latinoamérica",
+      "artistId": "calle-13",
+      "albumId": "calle-13--entren-los-que-quieran",
+      "year": 2010,
+      "genre": "Latin Hip Hop",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "hasta-la-raiz",
+      "title": "Hasta la Raíz",
+      "artistId": "natalia-lafourcade",
+      "albumId": "natalia-lafourcade--hasta-la-ra-z",
+      "year": 2015,
+      "genre": "Folk Pop",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "bad-guy",
+      "title": "bad guy",
+      "artistId": "billie-eilish",
+      "albumId": "billie-eilish--when-we-all-fall-asleep-where-do-we-go",
+      "year": 2019,
+      "genre": "Electropop",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "pigs-in-the-river",
+      "title": "Pigs in the River",
+      "artistId": "re-tros",
+      "albumId": "re-tros--before-the-applause",
+      "year": 2017,
+      "genre": "Post-Punk",
+      "lineage": "punk-postpunk",
+      "tier": 2
+    },
+    {
+      "id": "dont-start-now",
+      "title": "Don't Start Now",
+      "artistId": "dua-lipa",
+      "albumId": "dua-lipa--future-nostalgia",
+      "year": 2019,
+      "genre": "Nu-Disco",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "my-jinji",
+      "title": "My Jinji",
+      "artistId": "sunset-rollercoaster",
+      "albumId": "sunset-rollercoaster--jinji-kikko",
+      "year": 2016,
+      "genre": "Indie Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "lemon",
+      "title": "Lemon",
+      "artistId": "kenshi-yonezu",
+      "albumId": "kenshi-yonezu--stray-sheep",
+      "year": 2018,
+      "genre": "J-Pop",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "porcelain",
+      "title": "Porcelain",
+      "artistId": "ichiko-aoba",
+      "albumId": "ichiko-aoba--porcelain",
+      "year": 2020,
+      "genre": "Chamber Folk",
+      "lineage": "folk-psych",
+      "tier": 2
+    },
+    {
+      "id": "drivers-license",
+      "title": "drivers license",
+      "artistId": "olivia-rodrigo",
+      "albumId": "olivia-rodrigo--sour",
+      "year": 2021,
+      "genre": "Pop",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "andromeda",
+      "title": "Andromeda",
+      "artistId": "weyes-blood",
+      "albumId": "weyes-blood--titanic-rising",
+      "year": 2019,
+      "genre": "Baroque Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "360",
+      "title": "360",
+      "artistId": "charli-xcx",
+      "albumId": "charli-xcx--brat",
+      "year": 2024,
+      "genre": "Electropop",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "concorde",
+      "title": "Concorde",
+      "artistId": "bcnr",
+      "albumId": "bcnr--ants-from-up-there",
+      "year": 2021,
+      "genre": "Art Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "malamente",
+      "title": "MALAMENTE (Cap.1: Augurio)",
+      "artistId": "rosalia",
+      "albumId": "rosalia--el-mal-querer",
+      "year": 2018,
+      "genre": "Flamenco Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "sudno",
+      "title": "Судно (Борис Рыжий)",
+      "artistId": "molchat-doma",
+      "albumId": "molchat-doma--sudno",
+      "year": 2018,
+      "genre": "Coldwave",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "titi-me-pregunto",
+      "title": "Tití Me Preguntó",
+      "artistId": "bad-bunny",
+      "albumId": "bad-bunny--un-verano-sin-ti",
+      "year": 2022,
+      "genre": "Reggaeton",
+      "lineage": null,
+      "tier": 1
+    },
+    {
+      "id": "arca-time",
+      "title": "Time",
+      "artistId": "arca",
+      "albumId": "arca--kick-i",
+      "year": 2020,
+      "genre": "Art Pop",
+      "lineage": "artpop-citypop",
+      "tier": 2
+    },
+    {
+      "id": "so-what",
+      "title": "So What",
+      "artistId": "miles-davis",
+      "albumId": "miles-davis--kind-of-blue",
+      "year": 1959,
+      "genre": "Modal Jazz",
+      "lineage": "jazz",
+      "tier": 1
+    },
+    {
+      "id": "moanin",
+      "title": "Moanin'",
+      "artistId": "art-blakey",
+      "albumId": "art-blakey--moanin",
+      "year": 1959,
+      "genre": "Hard Bop",
+      "lineage": "jazz",
+      "tier": 1
+    },
+    {
+      "id": "goodbye-pork-pie-hat",
+      "title": "Goodbye Pork Pie Hat",
+      "artistId": "charles-mingus",
+      "albumId": "charles-mingus--mingus-ah-um",
+      "year": 1959,
+      "genre": "Post-Bop",
+      "lineage": "jazz",
+      "tier": 2
+    },
+    {
+      "id": "acknowledgement",
+      "title": "A Love Supreme, Pt. I – Acknowledgement",
+      "artistId": "john-coltrane",
+      "albumId": "john-coltrane--a-love-supreme",
+      "year": 1965,
+      "genre": "Spiritual Jazz",
+      "lineage": "jazz",
+      "tier": 2
+    },
+    {
+      "id": "speak-no-evil",
+      "title": "Speak No Evil",
+      "artistId": "wayne-shorter",
+      "albumId": "wayne-shorter--speak-no-evil",
+      "year": 1966,
+      "genre": "Post-Bop",
+      "lineage": "jazz",
+      "tier": 3
+    },
+    {
+      "id": "strings-of-light",
+      "title": "Strings of Light",
+      "artistId": "yussef-kamaal",
+      "albumId": "yussef-kamaal--black-focus",
+      "year": 2016,
+      "genre": "Nu Jazz",
+      "lineage": "jazz",
+      "tier": 2
+    },
+    {
+      "id": "summon-the-fire",
+      "title": "Summon the Fire",
+      "artistId": "the-comet-is-coming",
+      "albumId": "the-comet-is-coming--trust-in-the-lifeforce-of-the-deep-mystery",
+      "year": 2019,
+      "genre": "Nu Jazz",
+      "lineage": "jazz",
+      "tier": 2
+    },
+    {
+      "id": "glorias-step",
+      "title": "Gloria's Step",
+      "artistId": "bill-evans-trio",
+      "albumId": "bill-evans-trio--sunday-at-the-village-vanguard",
+      "year": 1961,
+      "genre": "Cool Jazz",
+      "lineage": "jazz",
+      "tier": 3
+    },
+    {
+      "id": "early-summer",
+      "title": "Early Summer",
+      "artistId": "ryo-fukui",
+      "albumId": "ryo-fukui--scenery",
+      "year": 1976,
+      "genre": "Hard Bop",
+      "lineage": "jazz",
+      "tier": 2
+    },
+    {
+      "id": "sweet-jane",
+      "title": "Sweet Jane",
+      "artistId": "the-velvet-underground",
+      "albumId": "the-velvet-underground--loaded",
+      "year": 1970,
+      "genre": "Proto-Punk",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "london-calling",
+      "title": "London Calling",
+      "artistId": "the-clash",
+      "albumId": "the-clash--london-calling",
+      "year": 1979,
+      "genre": "Punk Rock",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "disorder",
+      "title": "Disorder",
+      "artistId": "joy-division",
+      "albumId": "joy-division--unknown-pleasures",
+      "year": 1979,
+      "genre": "Post-Punk",
+      "lineage": "punk-postpunk",
+      "tier": 2
+    },
+    {
+      "id": "age-of-consent",
+      "title": "Age of Consent",
+      "artistId": "new-order",
+      "albumId": "new-order--power-corruption-lies",
+      "year": 1983,
+      "genre": "Post-Punk",
+      "lineage": "punk-postpunk",
+      "tier": 2
+    },
+    {
+      "id": "damaged-goods",
+      "title": "Damaged Goods",
+      "artistId": "gang-of-four",
+      "albumId": "gang-of-four--entertainment",
+      "year": 1978,
+      "genre": "Post-Punk",
+      "lineage": "punk-postpunk",
+      "tier": 3
+    },
+    {
+      "id": "spellbound",
+      "title": "Spellbound",
+      "artistId": "siouxsie",
+      "albumId": "siouxsie--juju",
+      "year": 1981,
+      "genre": "Gothic Rock",
+      "lineage": "punk-postpunk",
+      "tier": 2
+    },
+    {
+      "id": "bairimeng-lan",
+      "title": "白日梦蓝",
+      "artistId": "hedgehog",
+      "albumId": "hedgehog--bairimeng-lan",
+      "year": 2009,
+      "genre": "Indie Rock",
+      "lineage": "punk-postpunk",
+      "tier": 1
+    },
+    {
+      "id": "radio-free-europe",
+      "title": "Radio Free Europe",
+      "artistId": "rem",
+      "albumId": "rem--murmur",
+      "year": 1981,
+      "genre": "Jangle Pop",
+      "lineage": "shoegaze-indie",
+      "tier": 1
+    },
+    {
+      "id": "only-shallow",
+      "title": "Only Shallow",
+      "artistId": "my-bloody-valentine",
+      "albumId": "my-bloody-valentine--loveless",
+      "year": 1991,
+      "genre": "Shoegaze",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "cherry-coloured-funk",
+      "title": "Cherry-coloured Funk",
+      "artistId": "cocteau-twins",
+      "albumId": "cocteau-twins--heaven-or-las-vegas",
+      "year": 1990,
+      "genre": "Dream Pop",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "alison",
+      "title": "Alison",
+      "artistId": "slowdive",
+      "albumId": "slowdive--souvlaki",
+      "year": 1993,
+      "genre": "Shoegaze",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "mogwai-fear-satan",
+      "title": "Mogwai Fear Satan",
+      "artistId": "mogwai",
+      "albumId": "mogwai--young-team",
+      "year": 1997,
+      "genre": "Post-Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 3
+    },
+    {
+      "id": "storm",
+      "title": "Storm",
+      "artistId": "gybe",
+      "albumId": "gybe--lift-your-skinny-fists-like-antennas-to-heaven",
+      "year": 2000,
+      "genre": "Post-Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 3
+    },
+    {
+      "id": "good-morning-captain",
+      "title": "Good Morning, Captain",
+      "artistId": "slint",
+      "albumId": "slint--spiderland",
+      "year": 1991,
+      "genre": "Post-Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 3
+    },
+    {
+      "id": "svefn-g-englar",
+      "title": "Svefn-g-englar",
+      "artistId": "sigur-ros",
+      "albumId": "sigur-ros--g-tis-byrjun",
+      "year": 1999,
+      "genre": "Post-Rock",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "taikutsu-shinogi",
+      "title": "退屈しのぎ",
+      "artistId": "kinoko-teikoku",
+      "albumId": "kinoko-teikoku--taikutsu-shinogi",
+      "year": 2012,
+      "genre": "Shoegaze",
+      "lineage": "shoegaze-indie",
+      "tier": 2
+    },
+    {
+      "id": "the-model",
+      "title": "The Model",
+      "artistId": "kraftwerk",
+      "albumId": "kraftwerk--the-man-machine",
+      "year": 1978,
+      "genre": "Synthpop",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "hallogallo",
+      "title": "Hallogallo",
+      "artistId": "neu",
+      "albumId": "neu--neu",
+      "year": 1972,
+      "genre": "Krautrock",
+      "lineage": "electronic-idm",
+      "tier": 2
+    },
+    {
+      "id": "vitamin-c",
+      "title": "Vitamin C",
+      "artistId": "can",
+      "albumId": "can--ege-bamyasi",
+      "year": 1972,
+      "genre": "Krautrock",
+      "lineage": "electronic-idm",
+      "tier": 2
+    },
+    {
+      "id": "xtal",
+      "title": "Xtal",
+      "artistId": "aphex-twin",
+      "albumId": "aphex-twin--selected-ambient-works-85-92",
+      "year": 1992,
+      "genre": "Ambient Techno",
+      "lineage": "electronic-idm",
+      "tier": 2
+    },
+    {
+      "id": "good-life",
+      "title": "Good Life",
+      "artistId": "inner-city",
+      "albumId": "inner-city--paradise",
+      "year": 1988,
+      "genre": "Detroit Techno",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "roygbiv",
+      "title": "Roygbiv",
+      "artistId": "boards-of-canada",
+      "albumId": "boards-of-canada--music-has-the-right-to-children",
+      "year": 1998,
+      "genre": "IDM",
+      "lineage": "electronic-idm",
+      "tier": 2
+    },
+    {
+      "id": "bad-kingdom",
+      "title": "Bad Kingdom",
+      "artistId": "moderat",
+      "albumId": "moderat--ii",
+      "year": 2013,
+      "genre": "Indietronica",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "inner-city-life",
+      "title": "Inner City Life",
+      "artistId": "goldie",
+      "albumId": "goldie--timeless",
+      "year": 1994,
+      "genre": "Drum and Bass",
+      "lineage": "electronic-idm",
+      "tier": 3
+    },
+    {
+      "id": "rydeen",
+      "title": "RYDEEN",
+      "artistId": "ymo",
+      "albumId": "ymo--solid-state-survivor",
+      "year": 1979,
+      "genre": "Synthpop",
+      "lineage": "electronic-idm",
+      "tier": 1
+    },
+    {
+      "id": "shitou-ji",
+      "title": "石头记",
+      "artistId": "tat-ming-pair",
+      "albumId": "tat-ming-pair--shitou-ji",
+      "year": 1987,
+      "genre": "Synthpop",
+      "lineage": "electronic-idm",
+      "tier": 2
+    },
+    {
+      "id": "the-message",
+      "title": "The Message",
+      "artistId": "grandmaster-flash",
+      "albumId": "grandmaster-flash--the-message",
+      "year": 1982,
+      "genre": "Hip Hop",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "ny-state-of-mind",
+      "title": "N.Y. State of Mind",
+      "artistId": "nas",
+      "albumId": "nas--illmatic",
+      "year": 1994,
+      "genre": "Boom Bap",
+      "lineage": "hiphop",
+      "tier": 2
+    },
+    {
+      "id": "electric-relaxation",
+      "title": "Electric Relaxation",
+      "artistId": "atcq",
+      "albumId": "atcq--midnight-marauders",
+      "year": 1993,
+      "genre": "Jazz Rap",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "cream",
+      "title": "C.R.E.A.M.",
+      "artistId": "wu-tang-clan",
+      "albumId": "wu-tang-clan--enter-the-wu-tang-36-chambers",
+      "year": 1993,
+      "genre": "Boom Bap",
+      "lineage": "hiphop",
+      "tier": 2
+    },
+    {
+      "id": "midnight-in-a-perfect-world",
+      "title": "Midnight in a Perfect World",
+      "artistId": "dj-shadow",
+      "albumId": "dj-shadow--endtroducing",
+      "year": 1996,
+      "genre": "Instrumental Hip Hop",
+      "lineage": "hiphop",
+      "tier": 2
+    },
+    {
+      "id": "time-the-donut-of-the-heart",
+      "title": "Time: The Donut of the Heart",
+      "artistId": "j-dilla",
+      "albumId": "j-dilla--donuts",
+      "year": 2006,
+      "genre": "Instrumental Hip Hop",
+      "lineage": "hiphop",
+      "tier": 3
+    },
+    {
+      "id": "all-caps",
+      "title": "All Caps",
+      "artistId": "madvillain",
+      "albumId": "madvillain--madvillainy",
+      "year": 2004,
+      "genre": "Abstract Hip Hop",
+      "lineage": "hiphop",
+      "tier": 2
+    },
+    {
+      "id": "since-i-left-you",
+      "title": "Since I Left You",
+      "artistId": "the-avalanches",
+      "albumId": "the-avalanches--since-i-left-you",
+      "year": 2000,
+      "genre": "Plunderphonics",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "feather",
+      "title": "Feather",
+      "artistId": "nujabes",
+      "albumId": "nujabes--modal-soul",
+      "year": 2005,
+      "genre": "Jazz Rap",
+      "lineage": "hiphop",
+      "tier": 1
+    },
+    {
+      "id": "bring-the-noise",
+      "title": "Bring the Noise",
+      "artistId": "public-enemy",
+      "albumId": "public-enemy--it-takes-a-nation-of-millions-to-hold-us-back",
+      "year": 1987,
+      "genre": "Hip Hop",
+      "lineage": "hiphop",
+      "tier": 2
+    },
+    {
+      "id": "baby-im-bleeding",
+      "title": "Baby I'm Bleeding",
+      "artistId": "jpegmafia",
+      "albumId": "jpegmafia--veteran",
+      "year": 2018,
+      "genre": "Experimental Hip Hop",
+      "lineage": "hiphop",
+      "tier": 3
+    },
+    {
+      "id": "once-in-a-lifetime",
+      "title": "Once in a Lifetime",
+      "artistId": "talking-heads",
+      "albumId": "talking-heads--remain-in-light",
+      "year": 1980,
+      "genre": "New Wave",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "plastic-love",
+      "title": "プラスティック・ラブ",
+      "artistId": "mariya-takeuchi",
+      "albumId": "mariya-takeuchi--variety",
+      "year": 1984,
+      "genre": "City Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "god-only-knows",
+      "title": "God Only Knows",
+      "artistId": "the-beach-boys",
+      "albumId": "the-beach-boys--pet-sounds",
+      "year": 1966,
+      "genre": "Baroque Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "joga",
+      "title": "Jóga",
+      "artistId": "bjork",
+      "albumId": "bjork--homogenic",
+      "year": 1997,
+      "genre": "Art Pop",
+      "lineage": "artpop-citypop",
+      "tier": 2
+    },
+    {
+      "id": "star-fruits-surf-rider",
+      "title": "Star Fruits Surf Rider",
+      "artistId": "cornelius",
+      "albumId": "cornelius--fantasma",
+      "year": 1997,
+      "genre": "Shibuya-kei",
+      "lineage": "artpop-citypop",
+      "tier": 3
+    },
+    {
+      "id": "miss-modular",
+      "title": "Miss Modular",
+      "artistId": "stereolab",
+      "albumId": "stereolab--dots-and-loops",
+      "year": 1997,
+      "genre": "Art Pop",
+      "lineage": "artpop-citypop",
+      "tier": 3
+    },
+    {
+      "id": "running-up-that-hill",
+      "title": "Running Up That Hill (A Deal with God)",
+      "artistId": "kate-bush",
+      "albumId": "kate-bush--hounds-of-love",
+      "year": 1985,
+      "genre": "Art Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "tokai",
+      "title": "都会",
+      "artistId": "taeko-onuki",
+      "albumId": "taeko-onuki--sunshower",
+      "year": 1977,
+      "genre": "City Pop",
+      "lineage": "artpop-citypop",
+      "tier": 2
+    },
+    {
+      "id": "two-weeks",
+      "title": "Two Weeks",
+      "artistId": "fka-twigs",
+      "albumId": "fka-twigs--lp1",
+      "year": 2014,
+      "genre": "Art Pop",
+      "lineage": "artpop-citypop",
+      "tier": 2
+    },
+    {
+      "id": "marunouchi-sadistic",
+      "title": "丸の内サディスティック",
+      "artistId": "sheena-ringo",
+      "albumId": "sheena-ringo--marunouchi-sadistic",
+      "year": 1999,
+      "genre": "Art Pop",
+      "lineage": "artpop-citypop",
+      "tier": 1
+    },
+    {
+      "id": "pink-moon",
+      "title": "Pink Moon",
+      "artistId": "nick-drake",
+      "albumId": "nick-drake--pink-moon",
+      "year": 1972,
+      "genre": "Contemporary Folk",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "like-a-rolling-stone",
+      "title": "Like a Rolling Stone",
+      "artistId": "bob-dylan",
+      "albumId": "bob-dylan--highway-61-revisited",
+      "year": 1965,
+      "genre": "Folk Rock",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "holland-1945",
+      "title": "Holland, 1945",
+      "artistId": "neutral-milk-hotel",
+      "albumId": "neutral-milk-hotel--in-the-aeroplane-over-the-sea",
+      "year": 1998,
+      "genre": "Indie Folk",
+      "lineage": "folk-psych",
+      "tier": 2
+    },
+    {
+      "id": "a-minha-menina",
+      "title": "A Minha Menina",
+      "artistId": "os-mutantes",
+      "albumId": "os-mutantes--os-mutantes",
+      "year": 1968,
+      "genre": "Tropicália",
+      "lineage": "folk-psych",
+      "tier": 2
+    },
+    {
+      "id": "zombie",
+      "title": "Zombie",
+      "artistId": "fela-kuti",
+      "albumId": "fela-kuti--zombie",
+      "year": 1976,
+      "genre": "Afrobeat",
+      "lineage": "folk-psych",
+      "tier": 3
+    },
+    {
+      "id": "lazy-bones",
+      "title": "Lazy Bones",
+      "artistId": "witch",
+      "albumId": "witch--lazy-bones",
+      "year": 1975,
+      "genre": "Zamrock",
+      "lineage": "folk-psych",
+      "tier": 3
+    },
+    {
+      "id": "a-case-of-you",
+      "title": "A Case of You",
+      "artistId": "joni-mitchell",
+      "albumId": "joni-mitchell--blue",
+      "year": 1971,
+      "genre": "Singer-Songwriter",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "tudo-que-voce-podia-ser",
+      "title": "Tudo Que Você Podia Ser",
+      "artistId": "milton-lo",
+      "albumId": "milton-lo--clube-da-esquina",
+      "year": 1972,
+      "genre": "MPB",
+      "lineage": "folk-psych",
+      "tier": 3
+    },
+    {
+      "id": "garden-song",
+      "title": "Garden Song",
+      "artistId": "phoebe-bridgers",
+      "albumId": "phoebe-bridgers--punisher",
+      "year": 2020,
+      "genre": "Indie Folk",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "el-baile-y-el-salon",
+      "title": "El Baile y el Salón",
+      "artistId": "cafe-tacvba",
+      "albumId": "cafe-tacvba--re",
+      "year": 1994,
+      "genre": "Alternative Rock",
+      "lineage": "folk-psych",
+      "tier": 2
+    },
+    {
+      "id": "yi-wu-suo-you",
+      "title": "一无所有",
+      "artistId": "cui-jian",
+      "albumId": "cui-jian--yi-wu-suo-you",
+      "year": 1989,
+      "genre": "Folk Rock",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "lvxing-de-yiyi",
+      "title": "旅行的意义",
+      "artistId": "cheer-chen",
+      "albumId": "cheer-chen--lvxing-de-yiyi",
+      "year": 2004,
+      "genre": "Indie Folk",
+      "lineage": "folk-psych",
+      "tier": 1
+    },
+    {
+      "id": "paranoid",
+      "title": "Paranoid",
+      "artistId": "black-sabbath",
+      "albumId": "black-sabbath--paranoid",
+      "year": 1970,
+      "genre": "Heavy Metal",
+      "lineage": "heavy-industrial",
+      "tier": 1
+    },
+    {
+      "id": "closer",
+      "title": "Closer",
+      "artistId": "nine-inch-nails",
+      "albumId": "nine-inch-nails--the-downward-spiral",
+      "year": 1994,
+      "genre": "Industrial Rock",
+      "lineage": "heavy-industrial",
+      "tier": 1
+    },
+    {
+      "id": "so-did-we",
+      "title": "So Did We",
+      "artistId": "isis",
+      "albumId": "isis--panopticon",
+      "year": 2004,
+      "genre": "Post-Metal",
+      "lineage": "heavy-industrial",
+      "tier": 3
+    },
+    {
+      "id": "dream-house",
+      "title": "Dream House",
+      "artistId": "deafheaven",
+      "albumId": "deafheaven--sunbather",
+      "year": 2013,
+      "genre": "Blackgaze",
+      "lineage": "heavy-industrial",
+      "tier": 2
+    },
+    {
+      "id": "hot-on-the-heels-of-love",
+      "title": "Hot on the Heels of Love",
+      "artistId": "throbbing-gristle",
+      "albumId": "throbbing-gristle--20-jazz-funk-greats",
+      "year": 1979,
+      "genre": "Industrial",
+      "lineage": "heavy-industrial",
+      "tier": 3
+    },
+    {
+      "id": "funeralopolis",
+      "title": "Funeralopolis",
+      "artistId": "electric-wizard",
+      "albumId": "electric-wizard--dopethrone",
+      "year": 2000,
+      "genre": "Doom Metal",
+      "lineage": "heavy-industrial",
+      "tier": 3
+    },
+    {
+      "id": "yu-gung",
+      "title": "Yü-Gung (Fütter mein Ego)",
+      "artistId": "einsturzende-neubauten",
+      "albumId": "einsturzende-neubauten--halber-mensch",
+      "year": 1985,
+      "genre": "Industrial",
+      "lineage": "heavy-industrial",
+      "tier": 3
+    },
+    {
+      "id": "farewell",
+      "title": "決別",
+      "artistId": "boris",
+      "albumId": "boris--pink",
+      "year": 2005,
+      "genre": "Shoegaze",
+      "lineage": "heavy-industrial",
+      "tier": 2
+    },
+    {
+      "id": "in-the-end",
+      "title": "In the End",
+      "artistId": "linkin-park",
+      "albumId": "linkin-park--hybrid-theory",
+      "year": 2000,
+      "genre": "Nu Metal",
+      "lineage": "heavy-industrial",
+      "tier": 1
+    }
+  ],
+  "cells": [
+    {
+      "era": "1970s",
+      "region": "cn-mainland",
+      "global": "black-or-white",
+      "local": "gaoji-dongwu",
+      "bridges": [
+        "punk-postpunk",
+        "shoegaze-indie",
+        "folk-psych"
+      ]
+    },
+    {
+      "era": "1970s",
+      "region": "hk-tw",
+      "global": "like-a-prayer",
+      "local": "fuzao",
+      "bridges": [
+        "shoegaze-indie",
+        "electronic-idm",
+        "artpop-citypop"
+      ]
+    },
+    {
+      "era": "1970s",
+      "region": "japan",
+      "global": "kiss",
+      "local": "koi-to-machine-gun",
+      "bridges": [
+        "artpop-citypop",
+        "shoegaze-indie",
+        "jazz"
+      ]
+    },
+    {
+      "era": "1970s",
+      "region": "usa",
+      "global": "smells-like-teen-spirit",
+      "local": "teen-age-riot",
+      "bridges": [
+        "punk-postpunk",
+        "shoegaze-indie",
+        "hiphop"
+      ]
+    },
+    {
+      "era": "1970s",
+      "region": "uk",
+      "global": "wonderwall",
+      "local": "there-is-a-light",
+      "bridges": [
+        "shoegaze-indie",
+        "punk-postpunk",
+        "electronic-idm"
+      ]
+    },
+    {
+      "era": "1970s",
+      "region": "europe",
+      "global": "enjoy-the-silence",
+      "local": "julia",
+      "bridges": [
+        "punk-postpunk",
+        "electronic-idm",
+        "heavy-industrial"
+      ]
+    },
+    {
+      "era": "1970s",
+      "region": "latam",
+      "global": "lovesong",
+      "local": "de-musica-ligera",
+      "bridges": [
+        "punk-postpunk",
+        "artpop-citypop",
+        "shoegaze-indie"
+      ]
+    },
+    {
+      "era": "1980s",
+      "region": "cn-mainland",
+      "global": "karma-police",
+      "local": "naxie-huaer",
+      "bridges": [
+        "folk-psych",
+        "artpop-citypop",
+        "shoegaze-indie"
+      ]
+    },
+    {
+      "era": "1980s",
+      "region": "hk-tw",
+      "global": "yellow",
+      "local": "ai-zai-xiyuan-qian",
+      "bridges": [
+        "hiphop",
+        "folk-psych",
+        "shoegaze-indie"
+      ]
+    },
+    {
+      "era": "1980s",
+      "region": "japan",
+      "global": "first-love",
+      "local": "night-cruising",
+      "bridges": [
+        "shoegaze-indie",
+        "artpop-citypop",
+        "hiphop"
+      ]
+    },
+    {
+      "era": "1980s",
+      "region": "usa",
+      "global": "stan",
+      "local": "never-meant",
+      "bridges": [
+        "hiphop",
+        "shoegaze-indie",
+        "folk-psych"
+      ]
+    },
+    {
+      "era": "1980s",
+      "region": "uk",
+      "global": "song-2",
+      "local": "teardrop",
+      "bridges": [
+        "electronic-idm",
+        "shoegaze-indie"
+      ]
+    },
+    {
+      "era": "1980s",
+      "region": "europe",
+      "global": "one-more-time",
+      "local": "sexy-boy",
+      "bridges": [
+        "electronic-idm",
+        "artpop-citypop",
+        "shoegaze-indie"
+      ]
+    },
+    {
+      "era": "1980s",
+      "region": "latam",
+      "global": "ciega-sordomuda",
+      "local": "puente",
+      "bridges": [
+        "artpop-citypop",
+        "electronic-idm",
+        "folk-psych"
+      ]
+    },
+    {
+      "era": "1990s",
+      "region": "cn-mainland",
+      "global": "girlfriend",
+      "local": "shijiazhuang",
+      "bridges": [
+        "folk-psych",
+        "shoegaze-indie",
+        "punk-postpunk"
+      ]
+    },
+    {
+      "era": "1990s",
+      "region": "hk-tw",
+      "global": "rolling-in-the-deep",
+      "local": "da-feng-chui",
+      "bridges": [
+        "shoegaze-indie",
+        "artpop-citypop",
+        "folk-psych"
+      ]
+    },
+    {
+      "era": "1990s",
+      "region": "japan",
+      "global": "polyrhythm",
+      "local": "goodbye",
+      "bridges": [
+        "shoegaze-indie",
+        "electronic-idm",
+        "artpop-citypop"
+      ]
+    },
+    {
+      "era": "1990s",
+      "region": "usa",
+      "global": "pink-white",
+      "local": "alright",
+      "bridges": [
+        "hiphop",
+        "jazz",
+        "heavy-industrial"
+      ]
+    },
+    {
+      "era": "1990s",
+      "region": "uk",
+      "global": "i-bet-you-look-good",
+      "local": "archangel",
+      "bridges": [
+        "electronic-idm",
+        "jazz",
+        "artpop-citypop"
+      ]
+    },
+    {
+      "era": "1990s",
+      "region": "europe",
+      "global": "papaoutai",
+      "local": "percees-de-lumiere",
+      "bridges": [
+        "heavy-industrial",
+        "shoegaze-indie",
+        "electronic-idm"
+      ]
+    },
+    {
+      "era": "1990s",
+      "region": "latam",
+      "global": "latinoamerica",
+      "local": "hasta-la-raiz",
+      "bridges": [
+        "folk-psych",
+        "hiphop",
+        "artpop-citypop"
+      ]
+    },
+    {
+      "era": "2000s",
+      "region": "cn-mainland",
+      "global": "bad-guy",
+      "local": "pigs-in-the-river",
+      "bridges": [
+        "punk-postpunk",
+        "electronic-idm",
+        "shoegaze-indie"
+      ]
+    },
+    {
+      "era": "2000s",
+      "region": "hk-tw",
+      "global": "dont-start-now",
+      "local": "my-jinji",
+      "bridges": [
+        "artpop-citypop",
+        "shoegaze-indie",
+        "jazz"
+      ]
+    },
+    {
+      "era": "2000s",
+      "region": "japan",
+      "global": "lemon",
+      "local": "porcelain",
+      "bridges": [
+        "folk-psych",
+        "shoegaze-indie",
+        "artpop-citypop"
+      ]
+    },
+    {
+      "era": "2000s",
+      "region": "usa",
+      "global": "drivers-license",
+      "local": "andromeda",
+      "bridges": [
+        "artpop-citypop",
+        "hiphop",
+        "folk-psych"
+      ]
+    },
+    {
+      "era": "2000s",
+      "region": "uk",
+      "global": "360",
+      "local": "concorde",
+      "bridges": [
+        "shoegaze-indie",
+        "jazz",
+        "electronic-idm"
+      ]
+    },
+    {
+      "era": "2000s",
+      "region": "europe",
+      "global": "malamente",
+      "local": "sudno",
+      "bridges": [
+        "punk-postpunk",
+        "artpop-citypop"
+      ]
+    },
+    {
+      "era": "2000s",
+      "region": "latam",
+      "global": "titi-me-pregunto",
+      "local": "arca-time",
+      "bridges": [
+        "artpop-citypop",
+        "folk-psych",
+        "electronic-idm"
+      ]
+    }
+  ],
+  "lore": [
+    {
+      "id": "how-to-listen-to-jazz",
+      "title": "How to Listen to Jazz",
+      "creator": "Ted Gioia",
+      "year": 2016,
+      "kind": "book",
+      "lineage": "jazz",
+      "artistIds": [],
+      "regions": [],
+      "line": "一本教人怎么听爵士的入门书：听一场演奏时该留意什么，即兴由哪些部分搭成。",
+      "source": "https://bookquoters.com/book/how-to-listen-to-jazz"
+    },
+    {
+      "id": "miles-autobiography",
+      "title": "Miles: The Autobiography",
+      "creator": "Miles Davis、Quincy Troupe",
+      "year": 1989,
+      "kind": "book",
+      "lineage": "jazz",
+      "artistIds": [
+        "miles-davis"
+      ],
+      "regions": [],
+      "line": "Miles Davis 的自传，与诗人、记者 Quincy Troupe 合写。",
+      "source": "https://en.wikipedia.org/wiki/Miles:_The_Autobiography"
+    },
+    {
+      "id": "ken-burns-jazz",
+      "title": "Jazz",
+      "creator": "Ken Burns",
+      "year": 2001,
+      "kind": "series",
+      "lineage": "jazz",
+      "artistIds": [],
+      "regions": [],
+      "line": "PBS 播出的 10 集纪录片，按年代讲爵士史，Louis Armstrong 和 Duke Ellington 是中心人物。",
+      "source": "https://en.wikipedia.org/wiki/Jazz_(miniseries)"
+    },
+    {
+      "id": "summer-of-soul",
+      "title": "Summer of Soul",
+      "creator": "Questlove",
+      "year": 2021,
+      "kind": "film",
+      "lineage": "jazz",
+      "artistIds": [],
+      "regions": [],
+      "line": "讲 1969 年哈莱姆文化节的纪录片，Questlove 的导演处女作。",
+      "source": "https://en.wikipedia.org/wiki/Summer_of_Soul"
+    },
+    {
+      "id": "please-kill-me",
+      "title": "Please Kill Me: The Uncensored Oral History of Punk",
+      "creator": "Legs McNeil、Gillian McCain",
+      "year": 1996,
+      "kind": "book",
+      "lineage": "punk-postpunk",
+      "artistIds": [],
+      "regions": [],
+      "line": "一部朋克口述史；作者之一 Legs McNeil 是 Punk 杂志的三位创办人之一。",
+      "source": "https://en.wikipedia.org/wiki/Legs_McNeil"
+    },
+    {
+      "id": "rip-it-up",
+      "title": "Rip It Up and Start Again: Postpunk 1978–1984",
+      "creator": "Simon Reynolds",
+      "year": 2005,
+      "kind": "book",
+      "lineage": "punk-postpunk",
+      "artistIds": [],
+      "regions": [],
+      "line": "写 1978–1984 年的后朋克，英国初版由 Faber & Faber 出版。",
+      "source": "https://en.wikipedia.org/wiki/Rip_It_Up_and_Start_Again"
+    },
+    {
+      "id": "decline-of-western-civilization",
+      "title": "The Decline of Western Civilization",
+      "creator": "Penelope Spheeris",
+      "year": 1981,
+      "kind": "film",
+      "lineage": "punk-postpunk",
+      "artistIds": [],
+      "regions": [],
+      "line": "拍摄于 1979–1980 年，记录洛杉矶的朋克现场。",
+      "source": "https://en.wikipedia.org/wiki/The_Decline_of_Western_Civilization"
+    },
+    {
+      "id": "joy-division-doc",
+      "title": "Joy Division",
+      "creator": "Grant Gee",
+      "year": 2007,
+      "kind": "film",
+      "lineage": "punk-postpunk",
+      "artistIds": [
+        "joy-division"
+      ],
+      "regions": [],
+      "line": "关于 Joy Division 的纪录片，由 Jon Savage 撰稿。",
+      "source": "https://en.wikipedia.org/wiki/Joy_Division_(2007_film)"
+    },
+    {
+      "id": "24-hour-party-people",
+      "title": "24 Hour Party People",
+      "creator": "Michael Winterbottom",
+      "year": 2002,
+      "kind": "film",
+      "lineage": "punk-postpunk",
+      "artistIds": [
+        "new-order",
+        "joy-division"
+      ],
+      "regions": [],
+      "line": "以 Factory Records 创办人 Tony Wilson 为主角的剧情片，讲 1976–1992 年的曼彻斯特音乐圈。",
+      "source": "https://en.wikipedia.org/wiki/24_Hour_Party_People"
+    },
+    {
+      "id": "our-band-could-be-your-life",
+      "title": "Our Band Could Be Your Life",
+      "creator": "Michael Azerrad",
+      "year": 2001,
+      "kind": "book",
+      "lineage": "shoegaze-indie",
+      "artistIds": [],
+      "regions": [],
+      "line": "写 1981–1991 年间靠不停巡演和独立小厂牌起家的美国地下乐队。",
+      "source": "https://en.wikipedia.org/wiki/Our_Band_Could_Be_Your_Life"
+    },
+    {
+      "id": "beautiful-noise",
+      "title": "Beautiful Noise",
+      "creator": "Eric Green",
+      "year": 2014,
+      "kind": "film",
+      "lineage": "shoegaze-indie",
+      "artistIds": [
+        "cocteau-twins",
+        "my-bloody-valentine"
+      ],
+      "regions": [],
+      "line": "讲 Cocteau Twins、The Jesus and Mary Chain、My Bloody Valentine 三支乐队，以及它们对自赏的影响。",
+      "source": "https://en.wikipedia.org/wiki/Beautiful_Noise_(film)"
+    },
+    {
+      "id": "fearless",
+      "title": "Fearless: The Making of Post-Rock",
+      "creator": "Jeanette Leech",
+      "year": 2017,
+      "kind": "book",
+      "lineage": "shoegaze-indie",
+      "artistIds": [],
+      "regions": [],
+      "line": "一本讲后摇滚如何成形的书，Jawbone Press 出版。",
+      "source": "https://en.wikipedia.org/wiki/Post-rock"
+    },
+    {
+      "id": "upside-down",
+      "title": "Upside Down: The Creation Records Story",
+      "creator": "Danny O'Connor",
+      "year": 2010,
+      "kind": "film",
+      "lineage": "shoegaze-indie",
+      "artistIds": [
+        "oasis"
+      ],
+      "regions": [],
+      "line": "讲 Creation Records 这家厂牌的纪录片，Alan McGee、Noel Gallagher 等人出镜。",
+      "source": "https://en.wikipedia.org/wiki/Upside_Down:_The_Creation_Records_Story"
+    },
+    {
+      "id": "energy-flash",
+      "title": "Energy Flash",
+      "creator": "Simon Reynolds",
+      "year": 1998,
+      "kind": "book",
+      "lineage": "electronic-idm",
+      "artistIds": [],
+      "regions": [],
+      "line": "写 1980 年代中期以来的舞曲与锐舞文化；美国版书名是 Generation Ecstasy。",
+      "source": "https://en.wikipedia.org/wiki/Energy_Flash"
+    },
+    {
+      "id": "electrochoc",
+      "title": "Électrochoc",
+      "creator": "Laurent Garnier、David Brun-Lambert",
+      "year": 2003,
+      "kind": "book",
+      "lineage": "electronic-idm",
+      "artistIds": [],
+      "regions": [],
+      "line": "Laurent Garnier 1980 年代末在曼彻斯特开始做 DJ，这是他与 David Brun-Lambert 合写的书。",
+      "source": "https://en.wikipedia.org/wiki/Laurent_Garnier"
+    },
+    {
+      "id": "krautrock-rebirth-of-germany",
+      "title": "Krautrock: The Rebirth of Germany",
+      "creator": "Ben Whalley",
+      "year": 2009,
+      "kind": "film",
+      "lineage": "electronic-idm",
+      "artistIds": [
+        "neu",
+        "can",
+        "kraftwerk"
+      ],
+      "regions": [],
+      "line": "BBC Four 的纪录片，讲 Neu!、Can、Faust、Kraftwerk 等乐队在 1968–1977 年间做出的新德国音乐。",
+      "source": "https://www.bbc.co.uk/programmes/b00nf10k"
+    },
+    {
+      "id": "high-tech-soul",
+      "title": "High Tech Soul: The Creation of Techno Music",
+      "creator": "Gary Bredow",
+      "year": 2006,
+      "kind": "film",
+      "lineage": "electronic-idm",
+      "artistIds": [
+        "inner-city"
+      ],
+      "regions": [],
+      "line": "讲 Techno 在底特律的诞生，主角是 Juan Atkins、Derrick May 和 Kevin Saunderson。",
+      "source": "https://www.tvguide.com/movies/high-tech-soul-the-creation-of-techno-music/cast/2030111124/"
+    },
+    {
+      "id": "cant-stop-wont-stop",
+      "title": "Can't Stop Won't Stop: A History of the Hip-Hop Generation",
+      "creator": "Jeff Chang",
+      "year": 2005,
+      "kind": "book",
+      "lineage": "hiphop",
+      "artistIds": [],
+      "regions": [],
+      "line": "一本记录早期嘻哈现场的历史书。",
+      "source": "https://en.wikipedia.org/wiki/Can%27t_Stop_Won%27t_Stop_(book)"
+    },
+    {
+      "id": "dilla-time",
+      "title": "Dilla Time",
+      "creator": "Dan Charnas",
+      "year": 2022,
+      "kind": "book",
+      "lineage": "hiphop",
+      "artistIds": [
+        "j-dilla"
+      ],
+      "regions": [],
+      "line": "J Dilla 的传记，写到他 2006 年去世和身后的影响；书名指的是他标志性的节奏感。",
+      "source": "https://en.wikipedia.org/wiki/Dilla_Time"
+    },
+    {
+      "id": "style-wars",
+      "title": "Style Wars",
+      "creator": "Tony Silver",
+      "year": 1983,
+      "kind": "film",
+      "lineage": "hiphop",
+      "artistIds": [],
+      "regions": [],
+      "line": "在 PBS 首播的嘻哈文化纪录片，重点拍的是涂鸦。",
+      "source": "https://en.wikipedia.org/wiki/Style_Wars"
+    },
+    {
+      "id": "scratch",
+      "title": "Scratch",
+      "creator": "Doug Pray",
+      "year": 2001,
+      "kind": "film",
+      "lineage": "hiphop",
+      "artistIds": [],
+      "regions": [],
+      "line": "讲嘻哈 DJ 的纪录片：从延长唱片里的 break，到搓盘，再到 turntablism。",
+      "source": "https://en.wikipedia.org/wiki/Scratch_(2001_film)"
+    },
+    {
+      "id": "time-is-illmatic",
+      "title": "Nas: Time Is Illmatic",
+      "creator": "One9",
+      "year": 2014,
+      "kind": "film",
+      "lineage": "hiphop",
+      "artistIds": [
+        "nas"
+      ],
+      "regions": [],
+      "line": "讲 Nas 做出 1994 年首张专辑《Illmatic》之前的经历，在专辑发行 20 周年时上映。",
+      "source": "https://en.wikipedia.org/wiki/Nas:_Time_Is_Illmatic"
+    },
+    {
+      "id": "wild-style",
+      "title": "Wild Style",
+      "creator": "Charlie Ahearn",
+      "year": 1982,
+      "kind": "film",
+      "lineage": "hiphop",
+      "artistIds": [
+        "grandmaster-flash"
+      ],
+      "regions": [],
+      "line": "被视为第一部嘻哈电影，Grandmaster Flash 等人出镜。",
+      "source": "https://en.wikipedia.org/wiki/Wild_Style"
+    },
+    {
+      "id": "stop-making-sense",
+      "title": "Stop Making Sense",
+      "creator": "Jonathan Demme",
+      "year": 1984,
+      "kind": "film",
+      "lineage": "artpop-citypop",
+      "artistIds": [
+        "talking-heads"
+      ],
+      "regions": [],
+      "line": "Talking Heads 的演唱会电影，1983 年 12 月在好莱坞 Pantages 剧院拍了四晚。",
+      "source": "https://en.wikipedia.org/wiki/Stop_Making_Sense"
+    },
+    {
+      "id": "how-music-works",
+      "title": "How Music Works",
+      "creator": "David Byrne",
+      "year": 2012,
+      "kind": "book",
+      "lineage": "artpop-citypop",
+      "artistIds": [
+        "talking-heads"
+      ],
+      "regions": [],
+      "line": "Talking Heads 主唱 David Byrne 写的书，一半是自传，一半谈音乐本身。",
+      "source": "https://en.wikipedia.org/wiki/How_Music_Works"
+    },
+    {
+      "id": "sakamoto-coda",
+      "title": "Ryuichi Sakamoto: Coda",
+      "creator": "Stephen Nomura Schible",
+      "year": 2017,
+      "kind": "film",
+      "lineage": "artpop-citypop",
+      "artistIds": [
+        "ymo"
+      ],
+      "regions": [],
+      "line": "坂本龙一的纪录片，拍到他患癌后的生活和福岛核事故之后的环保行动。",
+      "source": "https://en.wikipedia.org/wiki/Ryuichi_Sakamoto:_Coda"
+    },
+    {
+      "id": "meeting-people-is-easy",
+      "title": "Meeting People Is Easy",
+      "creator": "Grant Gee",
+      "year": 1998,
+      "kind": "film",
+      "lineage": "artpop-citypop",
+      "artistIds": [
+        "radiohead"
+      ],
+      "regions": [],
+      "line": "跟拍 Radiohead《OK Computer》世界巡演的纪录片。",
+      "source": "https://en.wikipedia.org/wiki/Meeting_People_Is_Easy"
+    },
+    {
+      "id": "shibuya-ongaku-zukan",
+      "title": "渋谷音楽図鑑",
+      "creator": "牧村憲一、藤井丈司、柴那典",
+      "year": 2017,
+      "kind": "book",
+      "lineage": "artpop-citypop",
+      "artistIds": [],
+      "regions": [
+        "japan"
+      ],
+      "line": "涩谷出身的音乐制作人牧村宪一与藤井丈司、柴那典合著，太田出版。",
+      "source": "https://ja.wikipedia.org/wiki/柴那典"
+    },
+    {
+      "id": "citypop-no-kihon",
+      "title": "「シティポップの基本」がこの100枚でわかる！",
+      "creator": "栗本斉",
+      "year": 2022,
+      "kind": "book",
+      "lineage": "artpop-citypop",
+      "artistIds": [],
+      "regions": [
+        "japan"
+      ],
+      "line": "用 100 张专辑介绍 City Pop 的一本书。",
+      "source": "https://ja.wikipedia.org/wiki/シティ・ポップ"
+    },
+    {
+      "id": "ba-qingchun-changwan",
+      "title": "把青春唱完 1990–1999",
+      "creator": "高原",
+      "year": 2015,
+      "kind": "book",
+      "lineage": "folk-psych",
+      "artistIds": [],
+      "regions": [
+        "cn-mainland"
+      ],
+      "line": "摄影师高原拍下的 1990 年代中国摇滚台前幕后，中信出版社出版。",
+      "source": "https://book.douban.com/subject/26580056/"
+    },
+    {
+      "id": "neixin-de-zaoyin",
+      "title": "内心的噪音",
+      "creator": "颜峻",
+      "year": 2001,
+      "kind": "book",
+      "lineage": "folk-psych",
+      "artistIds": [],
+      "regions": [
+        "cn-mainland"
+      ],
+      "line": "颜峻的乐评集，收有《崔健之后》《摇滚乐在中国的可能性》等文章。",
+      "source": "https://www.book345.com/detail/9787119025438-内心的噪音"
+    },
+    {
+      "id": "china-with-a-cut",
+      "title": "China with a Cut: Globalisation, Urban Youth and Popular Music",
+      "creator": "Jeroen de Kloet",
+      "year": 2010,
+      "kind": "book",
+      "lineage": "folk-psych",
+      "artistIds": [],
+      "regions": [
+        "cn-mainland"
+      ],
+      "line": "一本研究全球化、城市青年与中国流行音乐的书。",
+      "source": "https://en.wikipedia.org/wiki/Dakou"
+    },
+    {
+      "id": "chega-de-saudade",
+      "title": "Chega de Saudade",
+      "creator": "Ruy Castro",
+      "year": 1990,
+      "kind": "book",
+      "lineage": "folk-psych",
+      "artistIds": [],
+      "regions": [
+        "latam"
+      ],
+      "line": "巴西作家 Ruy Castro 写的 Bossa Nova 的历史与故事，Companhia das Letras 出版。",
+      "source": "https://en.wikipedia.org/wiki/Bossa_nova"
+    },
+    {
+      "id": "tropicalia-doc",
+      "title": "Tropicália",
+      "creator": "Marcelo Machado",
+      "year": 2012,
+      "kind": "film",
+      "lineage": "folk-psych",
+      "artistIds": [
+        "os-mutantes"
+      ],
+      "regions": [
+        "latam"
+      ],
+      "line": "大量用档案影像讲 1967–1969 年的热带主义运动，Caetano Veloso、Gilberto Gil、Tom Zé 和 Os Mutantes 的成员出镜。",
+      "source": "https://lafilm.web.unc.edu/tropicalia/"
+    },
+    {
+      "id": "finding-fela",
+      "title": "Finding Fela",
+      "creator": "Alex Gibney",
+      "year": 2014,
+      "kind": "film",
+      "lineage": "folk-psych",
+      "artistIds": [
+        "fela-kuti"
+      ],
+      "regions": [],
+      "line": "讲尼日利亚音乐家 Fela Kuti 生平的纪录片，2014 年在圣丹斯电影节首映。",
+      "source": "https://en.wikipedia.org/wiki/Finding_Fela"
+    },
+    {
+      "id": "no-direction-home",
+      "title": "No Direction Home: Bob Dylan",
+      "creator": "Martin Scorsese",
+      "year": 2005,
+      "kind": "film",
+      "lineage": "folk-psych",
+      "artistIds": [
+        "bob-dylan"
+      ],
+      "regions": [],
+      "line": "讲 Bob Dylan 从 1961 年到纽约，到 1966 年摩托车事故后停止巡演的这几年；片名出自〈Like a Rolling Stone〉的歌词。",
+      "source": "https://en.wikipedia.org/wiki/No_Direction_Home"
+    },
+    {
+      "id": "assimilate",
+      "title": "Assimilate: A Critical History of Industrial Music",
+      "creator": "S. Alexander Reed",
+      "year": 2013,
+      "kind": "book",
+      "lineage": "heavy-industrial",
+      "artistIds": [],
+      "regions": [],
+      "line": "牛津大学出版社出版的工业音乐史，从意大利未来主义、William S. Burroughs 这些早期影响写到当下。",
+      "source": "https://en.wikipedia.org/wiki/Assimilate:_A_Critical_History_of_Industrial_Music"
+    },
+    {
+      "id": "industrial-culture-handbook",
+      "title": "Industrial Culture Handbook",
+      "creator": "V. Vale、Andrea Juno（编）",
+      "year": 1983,
+      "kind": "book",
+      "lineage": "heavy-industrial",
+      "artistIds": [
+        "throbbing-gristle"
+      ],
+      "regions": [],
+      "line": "RE/Search 出版的访谈集，收有 Throbbing Gristle、Cabaret Voltaire、SPK 等人的访谈。",
+      "source": "https://en.wikipedia.org/wiki/Industrial_Culture_Handbook"
+    },
+    {
+      "id": "japrocksampler",
+      "title": "Japrocksampler",
+      "creator": "Julian Cope",
+      "year": 2007,
+      "kind": "book",
+      "lineage": "heavy-industrial",
+      "artistIds": [],
+      "regions": [
+        "japan"
+      ],
+      "line": "音乐人 Julian Cope 写战后日本摇滚的书，2007 年由 Bloomsbury 出版。",
+      "source": "https://en.wikipedia.org/wiki/Japrocksampler"
+    },
+    {
+      "id": "black-metal-evolution-of-the-cult",
+      "title": "Black Metal: Evolution of the Cult",
+      "creator": "Dayal Patterson",
+      "year": 2013,
+      "kind": "book",
+      "lineage": "heavy-industrial",
+      "artistIds": [],
+      "regions": [],
+      "line": "讲黑金属的演变：从第一张 Black Sabbath 专辑写起，经过挪威，再到其他国家的场景。",
+      "source": "https://en.wikipedia.org/wiki/Black_Metal:_Evolution_of_the_Cult"
+    },
+    {
+      "id": "until-the-light-takes-us",
+      "title": "Until the Light Takes Us",
+      "creator": "Aaron Aites、Audrey Ewell",
+      "year": 2008,
+      "kind": "film",
+      "lineage": "heavy-industrial",
+      "artistIds": [],
+      "regions": [],
+      "line": "关于早期挪威黑金属的纪录片。",
+      "source": "https://en.wikipedia.org/wiki/Until_the_Light_Takes_Us"
+    }
+  ],
+  "personas": [
+    {
+      "id": "midnight-modalist",
+      "name": "午夜蓝音萨克斯手",
+      "nameEn": "The Midnight Modalist",
+      "rule": "lineage",
+      "lineage": "jazz",
+      "portrait": {
+        "hairStyle": "jazz-beret",
+        "glasses": "shades",
+        "outfit": "jazz-suit",
+        "prop": "sax",
+        "accentColor": "#d99b38",
+        "bgStyle": "smoky"
+      }
+    },
+    {
+      "id": "post-industrial-bassist",
+      "name": "后工业暗房贝斯手",
+      "nameEn": "The Post-Industrial Bassist",
+      "rule": "lineage",
+      "lineage": "punk-postpunk",
+      "portrait": {
+        "hairStyle": "spiky-punk",
+        "glasses": "shades",
+        "outfit": "leather-jacket",
+        "prop": "guitar",
+        "accentColor": "#cf4848",
+        "bgStyle": "booth"
+      }
+    },
+    {
+      "id": "pedalboard-shoegazer",
+      "name": "混响踏板筑梦师",
+      "nameEn": "The Pedalboard Shoegazer",
+      "rule": "lineage",
+      "lineage": "shoegaze-indie",
+      "portrait": {
+        "hairStyle": "shoegaze-bangs",
+        "glasses": "none",
+        "outfit": "flannel-cardigan",
+        "prop": "guitar",
+        "accentColor": "#d46a9e",
+        "bgStyle": "smoky"
+      }
+    },
+    {
+      "id": "modular-alchemist",
+      "name": "凌晨四点模组炼金师",
+      "nameEn": "The 4AM Modular Alchemist",
+      "rule": "lineage",
+      "lineage": "electronic-idm",
+      "portrait": {
+        "hairStyle": "hoodie-producer",
+        "glasses": "visor",
+        "outfit": "turtleneck",
+        "prop": "synth-patch",
+        "accentColor": "#45b09c",
+        "bgStyle": "neon"
+      }
+    },
+    {
+      "id": "crate-beatmaker",
+      "name": "地下唱片箱挖掘者",
+      "nameEn": "The Crate-Digging Beatmaker",
+      "rule": "lineage",
+      "lineage": "hiphop",
+      "portrait": {
+        "hairStyle": "hiphop-cap",
+        "glasses": "thick-rim",
+        "outfit": "tracksuit",
+        "prop": "headphones",
+        "accentColor": "#d98c38",
+        "bgStyle": "warm-paper"
+      }
+    },
+    {
+      "id": "neon-architect",
+      "name": "霓虹录音室建筑师",
+      "nameEn": "The Neon Studio Architect",
+      "rule": "lineage",
+      "lineage": "artpop-citypop",
+      "portrait": {
+        "hairStyle": "city-bob",
+        "glasses": "round-specs",
+        "outfit": "haori-shirt",
+        "prop": "mic",
+        "accentColor": "#b57edc",
+        "bgStyle": "neon"
+      }
+    },
+    {
+      "id": "borderless-troubadour",
+      "name": "无国界吟游者",
+      "nameEn": "The Borderless Troubadour",
+      "rule": "lineage",
+      "lineage": "folk-psych",
+      "portrait": {
+        "hairStyle": "long-psych",
+        "glasses": "round-specs",
+        "outfit": "workwear-denim",
+        "prop": "guitar",
+        "accentColor": "#9eb84c",
+        "bgStyle": "warm-paper"
+      }
+    },
+    {
+      "id": "sunlit-doomsmith",
+      "name": "音墙锻铁匠",
+      "nameEn": "The Sunlit Doomsmith",
+      "rule": "lineage",
+      "lineage": "heavy-industrial",
+      "portrait": {
+        "hairStyle": "retro-mullet",
+        "glasses": "shades",
+        "outfit": "leather-jacket",
+        "prop": "guitar",
+        "accentColor": "#d95b38",
+        "bgStyle": "crimson"
+      }
+    },
+    {
+      "id": "record-clerk",
+      "name": "什么都听的唱片店员",
+      "nameEn": "The Record Store Clerk",
+      "rule": "mixed",
+      "lineage": null,
+      "portrait": {
+        "hairStyle": "new-wave-crop",
+        "glasses": "thick-rim",
+        "outfit": "haori-shirt",
+        "prop": "headphones",
+        "accentColor": "#e0a44c",
+        "bgStyle": "neon"
+      }
+    },
+    {
+      "id": "chart-listener",
+      "name": "电台流行听众",
+      "nameEn": "The Radio Listener",
+      "rule": "pop",
+      "lineage": null,
+      "portrait": {
+        "hairStyle": "pompadour",
+        "glasses": "none",
+        "outfit": "turtleneck",
+        "prop": "headphones",
+        "accentColor": "#5ea89c",
+        "bgStyle": "booth"
+      }
+    },
+    {
+      "id": "passer-by",
+      "name": "空手过关的旅客",
+      "nameEn": "The Passer-by",
+      "rule": "empty",
+      "lineage": null,
+      "portrait": {
+        "hairStyle": "city-bob",
+        "glasses": "none",
+        "outfit": "workwear-denim",
+        "prop": "none",
+        "accentColor": "#9aa69d",
+        "bgStyle": "booth"
+      }
+    }
+  ]
+}

@@ -1,116 +1,81 @@
 import { useState } from 'react';
-import { ALBUMS_BY_ID, ERAS, LINEAGES, LINEAGE_LIST, REGIONS } from '../data';
-import { resolvePlayerPersona } from '../data/personas';
+import { LINEAGE_LIST, LINEAGE_STYLE, getEra, getRegion, lineageLabel } from '../data';
+import { resolvePersona } from '../data/personas';
+import { placeholderCover } from '../data/placeholderArt';
 import { downloadPassportPng } from '../engine/passportExporter';
 import { AlbumCoverCanvas, LoreCoverCanvas, PortraitCanvas } from './PixelArtViews';
-import type {
-  AlbumRecord,
-  CulturalLoreItem,
-  LineageId,
-  PlayerProfile,
-  SingleTrack,
-} from '../types/game';
+import type { Card, LineageId, LoreItem, PlayerProfile } from '../types/game';
 
 export function PlaylistPassport({
   profile,
-  collectedSingles,
+  collected,
   bookmarkedLore,
   lineageCounts,
   onKeepDigging,
   onRestart,
 }: {
   profile: PlayerProfile;
-  collectedSingles: SingleTrack[];
-  bookmarkedLore: CulturalLoreItem[];
+  collected: Card[];
+  bookmarkedLore: LoreItem[];
   lineageCounts: Record<LineageId, number>;
   onKeepDigging: () => void;
   onRestart: () => void;
 }) {
-  const [copied, setCopied] = useState(false);
+  const [copyState, setCopyState] = useState<'idle' | 'copied' | 'failed'>('idle');
 
-  const eraMeta = ERAS.find((e) => e.id === profile.birthEra) ?? ERAS[2];
-  const regMeta = REGIONS.find((r) => r.id === profile.region) ?? REGIONS[0];
-  const deepCutCount = collectedSingles.filter((s) => s.tier >= 2).length;
-
-  const { archetype, portrait } = resolvePlayerPersona({
-    era: profile.birthEra,
-    region: profile.region,
-    lineageCounts,
-    deepCutCount,
-    loreCount: bookmarkedLore.length,
-  });
-
-  const albums: AlbumRecord[] = [];
-  const seenAlb = new Set<string>();
-  for (const s of collectedSingles) {
-    const alb = ALBUMS_BY_ID.get(s.albumId);
-    if (alb && !seenAlb.has(alb.id)) {
-      seenAlb.add(alb.id);
-      albums.push(alb);
-    }
-  }
+  const era = getEra(profile.birthEra);
+  const region = getRegion(profile.region);
+  const { persona, portrait, because } = resolvePersona(collected);
 
   const maxScore = Math.max(1, ...Object.values(lineageCounts));
-  const sortedLineages = [...LINEAGE_LIST]
-    .map((l) => ({
-      meta: l,
-      count: lineageCounts[l.id] ?? 0,
-      ratio: (lineageCounts[l.id] ?? 0) / maxScore,
-    }))
-    .sort((a, b) => b.count - a.count);
+  const sortedLineages = LINEAGE_LIST.map((l) => ({
+    meta: l,
+    count: lineageCounts[l.id] ?? 0,
+    ratio: (lineageCounts[l.id] ?? 0) / maxScore,
+  })).sort((a, b) => b.count - a.count);
 
-  const serialNo = `RP-${profile.birthEra.slice(0, 2)}${regMeta.stampCode.replace('-', '')}-${String(
-    collectedSingles.length * 17 + 108
-  )}`;
+  const serialNo = `RP-${profile.birthEra.slice(0, 4)}-${profile.region.toUpperCase()}-${collected.length}`;
 
   const handleCopyMarkdown = async () => {
     const lines = [
-      `# 🪪 《请出示唱片 Record, Please》听觉身份许可证`,
-      `- **持证人**：${profile.inspectorAlias} | **年代**：${eraMeta.labelCN} | **地区**：${regMeta.labelCN}`,
-      `- **像素音乐家人格**：**${archetype.titleCN} (${archetype.titleEN})**`,
-      `> ${archetype.bio}`,
+      `# 《请出示唱片 Record, Please》歌单`,
+      `- ${era.label}出生 · ${region.label}`,
+      `- 人格：**${persona.name} (${persona.nameEn})** — ${because}`,
       ``,
-      `## 🎵 专属黑胶单曲歌单 (${collectedSingles.length} 首)`,
-      ...collectedSingles.map(
-        (t, i) => `${i + 1}. **${t.title}** — ${t.artistName} (${t.year}) [${t.subgenre} · RYM ${t.rymRating}]`
+      `## 歌单 (${collected.length} 首)`,
+      ...collected.map(
+        ({ track, artist, album }, i) =>
+          `${i + 1}. **${track.title}** — ${artist.name} (${track.year})，专辑《${album.title}》`
       ),
-      ``,
-      `## 💿 推荐深潜专辑 (${albums.length} 张)`,
-      ...albums.map((a) => `- **《${a.title}》** — ${a.artistName} (${a.year})：${a.whyItMatters}`),
       ...(bookmarkedLore.length > 0
-        ? [
-            ``,
-            `## 📚 延伸音乐书籍与纪录片 (${bookmarkedLore.length} 部)`,
-            ...bookmarkedLore.map((l) => `- **${l.title}** (${l.creator}, ${l.year})`),
-          ]
+        ? [``, `## 延伸阅读 (${bookmarkedLore.length})`, ...bookmarkedLore.map((l) => `- ${l.title}（${l.creator}，${l.year}）`)]
         : []),
     ];
     try {
       await navigator.clipboard.writeText(lines.join('\n'));
-      setCopied(true);
-      window.setTimeout(() => setCopied(false), 2400);
+      setCopyState('copied');
     } catch {
-      setCopied(true);
+      setCopyState('failed');
     }
+    window.setTimeout(() => setCopyState('idle'), 2400);
   };
 
   const handleDownloadPng = () => {
     downloadPassportPng({
       serialNo,
       inspectorAlias: profile.inspectorAlias,
-      personaTitleCN: archetype.titleCN,
-      personaTitleEN: archetype.titleEN,
-      eraLabel: eraMeta.labelCN,
-      regionLabel: regMeta.labelCN,
-      bio: archetype.bio,
+      personaTitleCN: persona.name,
+      personaTitleEN: persona.nameEn,
+      eraLabel: era.label,
+      regionLabel: region.label,
+      bio: because,
       portrait,
       topLineages: sortedLineages.map((x) => ({
-        label: x.meta.shortCN,
+        label: LINEAGE_STYLE[x.meta.id].shortCN,
         score: x.count > 0 ? Math.max(0.2, x.ratio) : 0.12,
-        color: x.meta.badgeColor,
+        color: LINEAGE_STYLE[x.meta.id].badgeColor,
       })),
-      tracks: collectedSingles,
-      albums,
+      cards: collected,
       loreItems: bookmarkedLore,
     });
   };
@@ -120,66 +85,51 @@ export function PlaylistPassport({
       <div className="paper-sheet" style={{ padding: '22px 24px', background: 'var(--paper-cream)' }}>
         <div className="permit-header">
           <div>
-            <div style={{ fontSize: 12, fontWeight: 700, color: '#5c4e3a' }}>
-              SONIC IDENTITY PASSPORT & CURATED VINYL CRATE · NO. {serialNo}
-            </div>
-            <h1 style={{ margin: '4px 0 0', fontSize: 24 }}>
-              听觉身份许可证 & 专属黑胶歌单
-            </h1>
+            <div style={{ fontSize: 12, fontWeight: 700, color: '#5c4e3a' }}>NO. {serialNo}</div>
+            <h1 style={{ margin: '4px 0 0', fontSize: 24 }}>你的歌单</h1>
           </div>
           <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
             <button type="button" data-testid="copy-playlist-btn" className="pixel-btn approve" onClick={handleCopyMarkdown}>
-              {copied ? '✓ 已复制 Markdown 歌单！' : '📋 一键复制专属歌单'}
+              {copyState === 'copied' ? '✓ 已复制' : copyState === 'failed' ? '✕ 复制失败' : '📋 复制歌单'}
             </button>
             <button type="button" data-testid="download-png-btn" className="pixel-btn brass" onClick={handleDownloadPng}>
-              💾 下载像素身份卡 PNG
+              💾 下载 PNG
             </button>
             <button type="button" className="pixel-btn" onClick={onKeepDigging}>
-              ← 返回审查台继续淘碟
+              ← 返回审查台
             </button>
             <button type="button" className="pixel-btn crimson" onClick={onRestart}>
-              ↻ 新建档案
+              ↻ 重新开始
             </button>
           </div>
         </div>
 
-        {/* PERSONA HEADER */}
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: 18, marginBottom: 18 }}>
           <div style={{ display: 'flex', gap: 16, alignItems: 'flex-start', background: '#dfd3b8', padding: 14, border: '2px solid #191613' }}>
-            <div style={{ textAlign: 'center' }}>
-              <PortraitCanvas spec={portrait} size={124} />
-              <span className="ink-stamp-mark approve" style={{ fontSize: 11, marginTop: 8 }}>
-                VERIFIED PERSONA
-              </span>
-            </div>
+            <PortraitCanvas spec={portrait} size={124} />
             <div>
-              <div style={{ fontSize: 12, color: '#5c4e3a', fontWeight: 700 }}>
-                专属像素音乐家人格 · ARCHETYPE
-              </div>
               <div data-testid="persona-title" style={{ fontSize: 21, fontWeight: 900, marginTop: 2 }}>
-                {archetype.titleCN}
+                {persona.name}
               </div>
-              <div style={{ fontSize: 13, fontWeight: 700, color: '#473e30' }}>{archetype.titleEN}</div>
+              <div style={{ fontSize: 13, fontWeight: 700, color: '#473e30' }}>{persona.nameEn}</div>
               <div style={{ fontSize: 12, marginTop: 6 }}>
-                持证人：<strong>{profile.inspectorAlias}</strong> · {eraMeta.labelCN} · {regMeta.labelCN}
+                {era.label}出生 · {region.label}
               </div>
-              <p style={{ fontSize: 12, lineHeight: 1.55, margin: '8px 0 0' }}>{archetype.bio}</p>
+              <p data-testid="persona-because" style={{ fontSize: 12, lineHeight: 1.55, margin: '8px 0 0' }}>{because}</p>
             </div>
           </div>
 
           <div style={{ background: '#dfd3b8', padding: 14, border: '2px solid #191613' }}>
-            <div style={{ fontWeight: 900, fontSize: 14, marginBottom: 8 }}>
-              ■ RYM 听觉基因光谱 (SONIC DNA SPECTRUM)
-            </div>
+            <div style={{ fontWeight: 900, fontSize: 14, marginBottom: 8 }}>■ 你收下的谱系</div>
             {sortedLineages.slice(0, 6).map(({ meta, count, ratio }) => (
               <div key={meta.id} style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 7, fontSize: 12 }}>
-                <span style={{ width: 125, fontWeight: 700 }}>{meta.shortCN}</span>
+                <span style={{ width: 125, fontWeight: 700 }}>{LINEAGE_STYLE[meta.id].shortCN}</span>
                 <div style={{ flex: 1, height: 12, background: '#c7b99b', border: '1px solid #4a4033' }}>
                   <div
                     style={{
-                      width: `${count > 0 ? Math.max(15, Math.round(ratio * 100)) : 4}%`,
+                      width: `${count > 0 ? Math.max(15, Math.round(ratio * 100)) : 0}%`,
                       height: '100%',
-                      background: meta.badgeColor,
+                      background: LINEAGE_STYLE[meta.id].badgeColor,
                     }}
                   />
                 </div>
@@ -189,69 +139,47 @@ export function PlaylistPassport({
           </div>
         </div>
 
-        {/* GENERATED PLAYLIST & ALBUMS */}
         <div className="progressive-grid">
           <div style={{ background: '#dfd3b8', padding: 14, border: '2px solid #191613' }}>
-            <div style={{ fontWeight: 900, fontSize: 15, marginBottom: 10 }}>
-              🎵 专属黑胶单曲歌单 ({collectedSingles.length} 首已收录)
-            </div>
-            {collectedSingles.map((tr, idx) => (
+            <div style={{ fontWeight: 900, fontSize: 15, marginBottom: 10 }}>🎵 歌单 ({collected.length} 首)</div>
+            {collected.length === 0 && <div style={{ fontSize: 12 }}>这一趟没有收下任何唱片。</div>}
+            {collected.map(({ track, artist, album }, idx) => (
               <div
-                key={tr.id}
+                key={track.id}
+                data-testid="playlist-row"
                 style={{
                   padding: '7px 8px',
                   borderBottom: '1px dashed #7a6c55',
                   display: 'flex',
-                  justifyContent: 'space-between',
-                  gap: 8,
+                  gap: 10,
                   fontSize: 13,
                 }}
               >
+                <AlbumCoverCanvas spec={placeholderCover(album.id, track.lineage)} size={40} />
                 <div>
-                  <strong>{String(idx + 1).padStart(2, '0')}. 〈{tr.title}〉</strong> — {tr.artistName} ({tr.year})
+                  <strong>{String(idx + 1).padStart(2, '0')}. 〈{track.title}〉</strong> — {artist.name} ({track.year})
                   <div style={{ fontSize: 11, color: '#4d4335' }}>
-                    {LINEAGES[tr.lineage].shortCN} · {tr.subgenre}
+                    《{album.title}》({album.year}) · {lineageLabel(track.lineage)} · {track.genre}
                   </div>
                 </div>
-                <span style={{ fontWeight: 900, fontSize: 12, color: '#1e6b3a' }}>★ {tr.rymRating}</span>
               </div>
             ))}
           </div>
 
           <div style={{ background: '#dfd3b8', padding: 14, border: '2px solid #191613' }}>
-            <div style={{ fontWeight: 900, fontSize: 15, marginBottom: 10 }}>
-              💿 必听黑胶专辑箱 ({albums.length} 张解锁 LP)
+            <div style={{ fontWeight: 900, fontSize: 14, marginBottom: 8 }}>
+              📚 延伸阅读 ({bookmarkedLore.length})
             </div>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(210px, 1fr))', gap: 10 }}>
-              {albums.map((alb) => (
-                <div key={alb.id} style={{ display: 'flex', gap: 10, background: '#ece3cc', padding: 8, border: '1px solid #5c4e3a' }}>
-                  <AlbumCoverCanvas spec={alb.cover} size={58} />
-                  <div style={{ fontSize: 12 }}>
-                    <div style={{ fontWeight: 900 }}>《{alb.title}》</div>
-                    <div style={{ fontSize: 11, color: '#4d4335' }}>
-                      {alb.artistName} · {alb.year}
-                    </div>
-                    <div style={{ fontSize: 11, color: '#1e6b3a', fontWeight: 700 }}>RYM {alb.rymScore}</div>
-                  </div>
+            {bookmarkedLore.length === 0 && <div style={{ fontSize: 12 }}>没有收藏书或影片。</div>}
+            {bookmarkedLore.map((l) => (
+              <div key={l.id} style={{ display: 'flex', gap: 10, alignItems: 'center', marginBottom: 8, background: '#e4d6b5', padding: 6, border: '1px solid #6e6049' }}>
+                <LoreCoverCanvas lore={l} width={38} height={46} />
+                <div style={{ fontSize: 12 }}>
+                  <strong>{l.title}</strong>（{l.creator}，{l.year}）
+                  <div style={{ fontSize: 11, color: '#4d4335' }}>{l.line}</div>
                 </div>
-              ))}
-            </div>
-
-            {bookmarkedLore.length > 0 && (
-              <div style={{ marginTop: 14 }}>
-                <div style={{ fontWeight: 900, fontSize: 14, marginBottom: 8 }}>
-                  📚 收藏的音乐书籍与纪录片 ({bookmarkedLore.length} 部)
-                </div>
-                {bookmarkedLore.map((l) => (
-                  <div key={l.id} style={{ display: 'flex', gap: 10, alignItems: 'center', marginBottom: 8, background: '#e4d6b5', padding: 6, border: '1px solid #6e6049' }}>
-                    <LoreCoverCanvas lore={l} width={38} height={46} />
-                    <div style={{ fontSize: 12 }}>
-                      <strong>{l.title}</strong> ({l.creator}, {l.year})
-                    </div>
-                  </div>
-                ))}
               </div>
-            )}
+            ))}
           </div>
         </div>
       </div>

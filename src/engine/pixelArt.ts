@@ -1,9 +1,15 @@
 import type {
-  CulturalLoreItem,
   LineageId,
   PixelCoverSpec,
   PixelPortraitSpec,
 } from '../types/game';
+
+export interface LoreCoverSpec {
+  seed: string;
+  isFilm: boolean;
+  accentColor: string;
+  secondaryColor: string;
+}
 
 const BAYER_4X4 = [
   [0, 8, 2, 10],
@@ -804,7 +810,7 @@ export function drawSingle7Inch(
 
 export function drawLoreCover(
   canvas: HTMLCanvasElement,
-  lore: CulturalLoreItem
+  lore: LoreCoverSpec
 ): void {
   const W = 52;
   const H = 64;
@@ -814,11 +820,11 @@ export function drawLoreCover(
   if (!ctx) return;
 
   const s = new PixelSurface(ctx, W, H);
-  const rng = createRng(lore.coverSeed);
+  const rng = createRng(lore.seed);
 
   s.rect(0, 0, W, H, '#d8ccb2');
 
-  if (lore.kind === 'documentary' || lore.kind === 'film') {
+  if (lore.isFilm) {
     // VHS / Criterion Film Sleeve aesthetic
     s.rect(4, 3, 44, 58, '#1c1d22');
     s.ditherRect(6, 6, 40, 28, lore.secondaryColor, '#141519', 'vertical');

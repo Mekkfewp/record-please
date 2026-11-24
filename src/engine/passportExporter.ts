@@ -1,10 +1,6 @@
 import { drawAlbumCover, drawMusicianPortrait } from './pixelArt';
-import type {
-  AlbumRecord,
-  CulturalLoreItem,
-  PixelPortraitSpec,
-  SingleTrack,
-} from '../types/game';
+import { placeholderCover } from '../data/placeholderArt';
+import type { Card, LoreItem, PixelPortraitSpec } from '../types/game';
 
 export interface PassportExportPayload {
   serialNo: string;
@@ -16,9 +12,8 @@ export interface PassportExportPayload {
   bio: string;
   portrait: PixelPortraitSpec;
   topLineages: Array<{ label: string; score: number; color: string }>;
-  tracks: SingleTrack[];
-  albums: AlbumRecord[];
-  loreItems: CulturalLoreItem[];
+  cards: Card[];
+  loreItems: LoreItem[];
 }
 
 export function downloadPassportPng(payload: PassportExportPayload): void {
@@ -101,9 +96,9 @@ export function downloadPassportPng(payload: PassportExportPayload): void {
   });
 
   // Top 3 pixel album sleeves on right
-  payload.albums.slice(0, 3).forEach((alb, idx) => {
+  payload.cards.slice(0, 3).forEach((card, idx) => {
     const ac = document.createElement('canvas');
-    drawAlbumCover(ac, alb.cover);
+    drawAlbumCover(ac, placeholderCover(card.album.id, card.track.lineage));
     ctx.drawImage(ac, 610 + idx * 88, 120, 78, 78);
   });
 
@@ -116,11 +111,11 @@ export function downloadPassportPng(payload: PassportExportPayload): void {
   ctx.font = 'bold 16px "WenQuanYi Micro Hei Mono", monospace';
   ctx.fillText('■ 专属黑胶单曲歌单 (CURATED TRACKLIST)', 56, 334);
 
-  payload.tracks.slice(0, 8).forEach((tr, i) => {
-    const ty = 362 + i * 26;
+  payload.cards.slice(0, 9).forEach(({ track: tr, artist }, i) => {
+    const ty = 362 + i * 24;
     ctx.fillStyle = '#1c1815';
     ctx.font = '13px "WenQuanYi Micro Hei Mono", monospace';
-    const line = `${String(i + 1).padStart(2, '0')}. ${tr.title} — ${tr.artistName} (${tr.year}) [${tr.subgenre}]`;
+    const line = `${String(i + 1).padStart(2, '0')}. ${tr.title} — ${artist.name} (${tr.year})`;
     ctx.fillText(line.slice(0, 56), 56, ty);
   });
 
@@ -129,23 +124,23 @@ export function downloadPassportPng(payload: PassportExportPayload): void {
   ctx.font = 'bold 16px "WenQuanYi Micro Hei Mono", monospace';
   ctx.fillText('■ 延伸专辑 & 书影音档案', 540, 334);
 
-  payload.albums.slice(0, 4).forEach((alb, i) => {
+  payload.cards.slice(0, 4).forEach(({ album: alb, artist }, i) => {
     ctx.fillStyle = '#1c1815';
     ctx.font = '13px "WenQuanYi Micro Hei Mono", monospace';
-    ctx.fillText(`LP · 《${alb.title}》 ${alb.artistName}`, 540, 362 + i * 24);
+    ctx.fillText(`LP · 《${alb.title}》 ${artist.name}`.slice(0, 44), 540, 362 + i * 24);
   });
 
   payload.loreItems.slice(0, 3).forEach((lore, i) => {
     ctx.fillStyle = '#2b4c7e';
     ctx.font = '13px "WenQuanYi Micro Hei Mono", monospace';
-    ctx.fillText(`档案 · 《${lore.title}》 (${lore.year})`, 540, 470 + i * 24);
+    ctx.fillText(`${lore.title} (${lore.year})`.slice(0, 46), 540, 470 + i * 24);
   });
 
   // Footer
   ctx.fillStyle = '#5c5243';
   ctx.font = '12px "WenQuanYi Micro Hei Mono", monospace';
   ctx.fillText(
-    'ISSUED BY MINISTRY OF SONIC ARCHIVES · RYM PROGRESSIVE GENEALOGY SYSTEM',
+    'RECORD, PLEASE',
     56,
     594
   );
