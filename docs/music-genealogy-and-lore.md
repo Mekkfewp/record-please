@@ -1,10 +1,12 @@
-# 《请出示唱片》(Record, Please) —— RYM 音乐谱系、年代地区切入矩阵与文化资料库
+# 《请出示唱片》(Record, Please) —— 音乐谱系、年代地区切入矩阵与文化资料库
+
+> **修订说明（2026-11-24）**：本文是早期设计稿。这次修订删掉了所有 Rate Your Music 的评分与排名说法，以及“公认最伟大”“被誉为”这类没有出处的评价；改正了对照 Apple 曲库和 MusicBrainz 后发现有误的地方（见各处“更正”标注）；书和影片的介绍换成了游戏里核对过的那一句；第四节改成游戏现在实际的人格规则。流派名称参照 Rate Your Music 的叫法，本文不引用它的评分或排名。第二、三节里对单曲、音乐家和专辑的形容与轶事是原稿文字，没有逐条核对出处，不要当作事实引用；游戏里实际显示的内容以代码仓库的 `src/data/catalog.json` 为准。
 
 ## 一、设计总览与审查台叙事逻辑
 
 在像素风音乐审查与推荐游戏 **《请出示唱片》(Record, Please)** 中，玩家扮演边境唱片审查台（Listening Booth & Customs Desk）的唱片馆员。每位来访旅客的“听觉护照”上都盖有两枚核心出生印章：**出生年代（Birth Era）** 与 **成长国家/地区（Country/Region）**。
 
-馆员需要依据旅客青春期（约 13–22 岁）的**黄金听歌窗口期（Formative Listening Window）**，先通过“当时全球流行代表（Global Pop Icons）”或“地方特色代表音乐家（Local Signature Musicians）”建立信任共鸣，再沿着 **Rate Your Music (RYM)** 的 8 条核心流派谱系树，按 **单曲（Single）→ 音乐家（Musician）→ 专辑（Album：核心必听 + 进阶延伸）** 三级阶梯递进发掘，并辅以代表性的**音乐书籍、口述史、纪录片与现场电影**解锁深层场景故事，最终在通关时生成专属的“音乐家人格画像（Musician Archetype Persona）”。
+馆员需要依据旅客青春期（约 13–22 岁）的**黄金听歌窗口期（Formative Listening Window）**，先通过“当时全球流行代表（Global Pop Icons）”或“地方特色代表音乐家（Local Signature Musicians）”建立信任共鸣，再沿着 8 条核心流派谱系树（流派名称参照 Rate Your Music），按 **单曲（Single）→ 音乐家（Musician）→ 专辑（Album：核心必听 + 进阶延伸）** 三级阶梯递进发掘，并辅以代表性的**音乐书籍、口述史、纪录片与现场电影**解锁深层场景故事，最终在通关时生成专属的“音乐家人格画像（Musician Archetype Persona）”。
 
 ---
 
@@ -14,11 +16,11 @@
 > - **1970s 出生（70后）**：青春听歌期约 **1985–1996**（磁带、广播电台、MTV 黄金时代、早期打口带）
 > - **1980s 出生（80后）**：青春听歌期约 **1995–2006**（打口 CD/磁带、随身听 Discman、千禧独立厂牌、MP3 初兴）
 > - **1990s 出生（90后）**：青春听歌期约 **2005–2016**（iPod、MySpace、豆瓣 FM、博客分享、音乐节爆发期）
-> - **2000s 出生（00后）**：青春听歌期约 **2015–2025**（流媒体算法、网易云/Spotify、Bandcamp、TikTok 复古回潮与 RYM 挖碟世代）
+> - **2000s 出生（00后）**：青春听歌期约 **2015–2025**（流媒体算法、网易云/Spotify、Bandcamp、TikTok 复古回潮）
 
 ### 2.1 1970s 出生世代（青春听歌窗口：1985–1996）
 
-| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的 RYM 谱系桥梁 (Lineage Bridges) |
+| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的谱系桥梁 (Lineage Bridges) |
 | :--- | :--- | :--- | :--- |
 | **中国大陆** | Michael Jackson《Dangerous》(1991) / Nirvana《Nevermind》(1991) | **崔健**《新长征路上的摇滚》(1989) / **窦唯**《黑梦》(1994) | 由窦唯《黑梦》切入 **Punk & Post-Punk**（Post-Punk/Goth）与 **Indie, Shoegaze & Post-Rock**（Dream Pop）；由崔健切入 **Folk, Psych & Regional**（中国摇滚与打口世代） |
 | **港台** | Madonna《Like a Prayer》(1989) / Pet Shop Boys《Actually》(1987) | **罗大佑**《之乎者也》(1982) / **达明一派**《石头记》(1987) / **王菲**《浮躁》(1996) | 由达明一派切入 **Electronic & Club**（Synthpop）与 **Art Pop, City Pop & Synth**；由王菲《浮躁》（与 Cocteau Twins 合作）直通 **Dream Pop / Shoegaze** |
@@ -30,11 +32,11 @@
 
 ### 2.2 1980s 出生世代（青春听歌窗口：1995–2006）
 
-| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的 RYM 谱系桥梁 (Lineage Bridges) |
+| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的谱系桥梁 (Lineage Bridges) |
 | :--- | :--- | :--- | :--- |
 | **中国大陆** | Radiohead《OK Computer》(1997) / Linkin Park《Hybrid Theory》(2000) | **朴树**《我去2000年》(1999) / **清醒**《好极了！？》(1997) / **野孩子**《咒语》(1999) | 借打口带记忆从 Radiohead 切入 **Art Rock / Post-Rock / IDM**；由野孩子切入 **Folk, Psych & Regional**（中国民谣与打口世代摇滚） |
 | **港台** | Britney Spears〈...Baby One More Time〉(1998) / Coldplay《Parachutes》(2000) | **周杰伦**《范特西》(2001) / **陈绮贞**《吉他手》(2002) / **伍佰 & China Blue**《爱情的尽头》(1996) | 由陈绮贞切入 **Indie & Freak Folk / Chamber Pop**；由周杰伦 R&B/古典采样编曲反向拆解至 **Hip-Hop & Beats** 与 **Chamber Pop** |
-| **日本** |宇多田光《First Love》(1999) / Björk《Homogenic》(1997) | **Fishmans**《Long Season》(1996) / **椎名林檎**《无罪偿还》(1999) / **Nujabes**《Modal Soul》(2005) | 由 Fishmans 切入 **Dream Pop / Post-Rock**；由椎名林檎切入 **Art Pop / Noise Rock**；由 Nujabes 直通 **Hip-Hop & Beats**（Jazz Rap / Instrumental Beats） |
+| **日本** |宇多田光《First Love》(1999) / Björk《Homogenic》(1997) | **Fishmans**《Long Season》(1996) / **椎名林檎**《無罪モラトリアム》(1999) / **Nujabes**《Modal Soul》(2005) | 由 Fishmans 切入 **Dream Pop / Post-Rock**；由椎名林檎切入 **Art Pop / Noise Rock**；由 Nujabes 直通 **Hip-Hop & Beats**（Jazz Rap / Instrumental Beats） |
 | **美国** | Eminem《The Marshall Mathers LP》(2000) / The Strokes《Is This It》(2001) | **Neutral Milk Hotel**《In the Aeroplane Over the Sea》(1998) / **American Football**《American Football》(1999) / **Madvillain**《Madvillainy》(2004) | 精准通往 **Folk, Psych & Regional**（Indie Folk）、**Indie, Shoegaze & Post-Rock**（Midwest Emo）与 **Hip-Hop & Beats**（Experimental Hip-Hop） |
 | **英国** | Blur《Parklife》(1994) / Radiohead《Kid A》(2000) | **Portishead**《Dummy》(1994) / **Aphex Twin**《Richard D. James Album》(1996) / **Mogwai**《Young Team》(1997) | 桥接 **Electronic & Club**（Ambient & IDM / UK Bass）与 **Indie, Shoegaze & Post-Rock**（Post-Rock） |
 | **欧洲大陆** | Daft Punk《Discovery》(2001) / Björk《Vespertine》(2001) | **Air**《Moon Safari》(1998, 法国) / **Sigur Rós**《Ágætis byrjun》(1999, 冰岛) | 由 Daft Punk / Air 切入 **Electronic & Club**（House）与 **Art Pop**；由 Sigur Rós 切入 **Post-Rock** |
@@ -42,11 +44,11 @@
 
 ### 2.3 1990s 出生世代（青春听歌窗口：2005–2016）
 
-| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的 RYM 谱系桥梁 (Lineage Bridges) |
+| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的谱系桥梁 (Lineage Bridges) |
 | :--- | :--- | :--- | :--- |
 | **中国大陆** | Avril Lavigne《Under My Skin》(2004) / Taylor Swift《1989》(2014) | **万能青年旅店**《万能青年旅店》(2010) / **刺猬**《噪音袭击世界》(2007) / **周云蓬**《中国孩子》(2007) | 由万青铜管与长篇器乐切入 **Folk, Psych & Regional**、**Art Rock** 与 **Post-Rock**；由刺猬切入 **Noise Rock / Shoegaze** |
 | **港台** |五月天《第二人生》(2011) / Adele《21》(2011) | **苏打绿**《冬 未了》(2015) / **草东没有派对**《丑奴儿》(2016) / **张悬 (焦安溥)**《神的游戏》(2012) | 由苏打绿切入 **Chamber & Baroque Pop**；由草东没有派对的静动爆发切入 **Post-Rock / Midwest Emo / Grunge** |
-| **日本** | Perfume《GAME》(2008) / RADWIMPS《君の名は。》(2016) | **toe**《the book about my idle plot on a vague anxiety》(2005) / **きのこ帝国 (蘑菇帝国)**《涡になる》(2012) | 由 toe 切入 **Post-Rock / Midwest Emo**；由蘑菇帝国切入 **Shoegaze / Dream Pop**；由 Perfume 回溯 **Synthpop / Shibuya-kei** |
+| **日本** | Perfume《GAME》(2008) / RADWIMPS《君の名は。》(2016) | **toe**《the book about my idle plot on a vague anxiety》(2005；游戏里的〈グッドバイ〉出自 2006 年的《New Sentimentality》) / **きのこ帝国 (蘑菇帝国)**《涡になる》(2012) | 由 toe 切入 **Post-Rock / Midwest Emo**；由蘑菇帝国切入 **Shoegaze / Dream Pop**；由 Perfume 回溯 **Synthpop / Shibuya-kei** |
 | **美国** | Kanye West《My Beautiful Dark Twisted Fantasy》(2010) / Frank Ocean《Blonde》(2016) | **Kendrick Lamar**《To Pimp a Butterfly》(2015) / **Beach House**《Teen Dream》(2010) / **Deafheaven**《Sunbather》(2013) | 贯通 **Hip-Hop & Beats**（Jazz Rap）→ **Jazz**（Spiritual Jazz）、**Dream Pop**，以及 **Heavy, Industrial & Avant-Garde**（Blackgaze） |
 | **英国** | Arctic Monkeys《Whatever People Say I Am...》(2006) / Amy Winehouse《Back to Black》(2006) | **Burial**《Untrue》(2007) / **Yussef Kamaal**《Black Focus》(2016) / **FKA twigs**《LP1》(2014) | 核心切入 **Electronic & Club**（UK Bass）、**Jazz**（Nu-Jazz）与 **Art Pop, City Pop & Synth**（Indietronica & Art Pop） |
 | **欧洲大陆** | Stromae《Racine carrée》(2013, 比利时) / Phoenix《Wolfgang Amadeus Phoenix》(2009, 法国) | **Alcest**《Écailles de lune》(2010, 法国) / **Moderat**《II》(2013, 德国) | 由 Alcest 开启 **Heavy, Industrial & Avant-Garde**（Blackgaze）与 **Shoegaze** 双向通道；由 Moderat 切入 **Electronic & Club**（IDM / Techno） |
@@ -54,7 +56,7 @@
 
 ### 2.4 2000s 出生世代（青春听歌窗口：2015–2025）
 
-| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的 RYM 谱系桥梁 (Lineage Bridges) |
+| 国家/地区 | 当时全球流行代表 (Global Pop Icons) | 地方特色代表音乐家 (Local Signature Musicians) | 自然切入的谱系桥梁 (Lineage Bridges) |
 | :--- | :--- | :--- | :--- |
 | **中国大陆** | Billie Eilish《When We All Fall Asleep...》(2019) / The Weeknd《After Hours》(2020) | **重塑雕像的权利**《喝彩之后》(2017) / **绝对纯洁**《We Fought Over the Moon》(2022) / **缺省 (Default)**《California Nebula》(2017) | 由重塑雕像的权利直通 **Punk & Post-Punk**（Post-Punk/Coldwave）与 **Krautrock**；由缺省切入 **Shoegaze** |
 | **港台** | NewJeans《Get Up》(2023) / Dua Lipa《Future Nostalgia》(2020) | **落日飞车 (Sunset Rollercoaster)**《Cassa Nova》(2018) / **大象体操 (Elephant Gym)**《水底》(2018) | 由落日飞车切入 **Art Pop, City Pop & Synth**（City Pop 复兴 / Sophisti-Pop）；由大象体操切入 **Post-Rock / Nu-Jazz** |
@@ -66,9 +68,11 @@
 
 ---
 
-## 三、RYM 核心音乐谱系进阶树与文化资料 (8 Core RYM Genealogies & Cultural Lore)
+## 三、核心音乐谱系进阶树与文化资料 (8 Core Genealogies & Cultural Lore)
 
-每条谱系均严格按照 **单曲（Single：试听间 3 分钟钩子）→ 音乐家（Musician：人物肖像与 RYM 坐标意义）→ 专辑（Album：核心必听 Essential + 进阶延伸 Advanced Follow-up）** 三维递进设计，并附带解锁该文化场景的权威书籍、口述史、纪录片与现场电影。
+每条谱系均严格按照 **单曲（Single：试听间 3 分钟钩子）→ 音乐家（Musician：人物肖像）→ 专辑（Album：核心必听 Essential + 进阶延伸 Advanced Follow-up）** 三维递进设计，并附带该文化场景的书籍、口述史、纪录片与现场电影。
+
+> **更正**：下面每个节点的“单曲”和“专辑”是分开挑的，单曲不一定收录在同一节点的专辑里；不在的地方已逐条标出。
 
 ---
 
@@ -85,7 +89,7 @@
    - **单曲 (Single)**：Miles Davis — 〈So What〉(1959) —— 贝斯手 Paul Chambers 奏出两句简明低音呼应，用调式（Mode）解放繁复和声功能进行。
    - **音乐家 (Musician)**：**Miles Davis（迈尔斯·戴维斯，1926–1991，美国伊利诺伊州/纽约）** —— 爵士史上五次改写流派走向的“变色龙”，从 Cool Jazz、Hard Bop、Modal Jazz 一路领航至 Jazz-Fusion。
    - **专辑 (Album)**：
-     - *核心必听*：Miles Davis — **《Kind of Blue》**(1959)（调式爵士圣经，亦是无数摇滚与古典听众跨入爵士的第一站）
+     - *核心必听*：Miles Davis — **《Kind of Blue》**(1959)（调式爵士的代表专辑）
      - *进阶延伸*：Bill Evans Trio — **《Sunday at the Village Vanguard》**(1961)（印象派钢琴和声与三重奏平等对话的室内冷爵士极品）
 3. **Hard Bop & Post-Bop（硬波普与后波普）**
    - **单曲 (Single)**：Art Blakey and the Jazz Messengers — 〈Moanin'〉(1958) —— 福音音乐与布鲁斯律动正面碰撞，钢琴呼应极具抓耳感染力。
@@ -94,10 +98,10 @@
      - *核心必听*：Art Blakey and the Jazz Messengers — **《Moanin'》**(1958)（Hard Bop 黄金标准）
      - *进阶延伸*：Wayne Shorter — **《Speak No Evil》**(1966)（游走于硬波普律动与自由调式边缘的后波普杰作；并可旁通 Charles Mingus《The Black Saint and the Sinner Lady》1963）
 4. **Spiritual & Jazz-Fusion（灵性爵士与爵士融合）**
-   - **单曲 (Single)**：John Coltrane — 〈Acknowledgment〉(1965) —— 四音动机“A-Love-Su-Preme”层层盘旋升腾，化器乐即兴为宇宙祈祷。
+   - **单曲 (Single)**：John Coltrane — 〈A Love Supreme, Pt. I – Acknowledgement〉(1965) —— 四音动机“A-Love-Su-Preme”层层盘旋升腾，化器乐即兴为宇宙祈祷。
    - **音乐家 (Musician)**：**John Coltrane（约翰·科特兰，1926–1967，美国北卡罗来纳/费城）** —— 从“音符之墙（Sheets of Sound）”走向超越宗教藩篱的灵性爵士，影响深及迷幻摇滚、极简主义与后摇滚。
    - **专辑 (Album)**：
-     - *核心必听*：John Coltrane — **《A Love Supreme》**(1965)（RYM 全站至高神作之一，Spiritual Jazz 精神源头）
+     - *核心必听*：John Coltrane — **《A Love Supreme》**(1965)（四个乐章的组曲，Spiritual Jazz 的代表专辑）
      - *进阶延伸*：Miles Davis — **《In a Silent Way》**(1969) / **《Bitches Brew》**(1970)（插电键盘、录音室磁带剪辑与摇滚律动熔铸出 Jazz-Fusion，桥接 Krautrock 与 Funk）
 5. **Nu-Jazz（新爵士与当代俱乐部跨界爵士）**
    - **单曲 (Single)**：Yussef Kamaal — 〈Strings of Light〉(2016) —— 南伦敦碎拍（Broken Beat）鼓点与 Rhodes 电钢琴交织，充满当代都市夜色律动。
@@ -107,10 +111,10 @@
      - *进阶延伸*：The Comet Is Coming — **《Trust in the Lifeforce of the Deep Mystery》**(2019)（Shabaka Hutchings 领衔，将太空合成器、迷幻朋克能量与灵性萨克斯融为一炉）
 
 #### 代表性音乐故事与文化资料（Jazz）
-- **Ted Gioia《How to Listen to Jazz》（《如何听爵士》）**｜Ted Gioia｜2016｜书籍 —— 以清晰生动的听觉解剖取代枯燥乐理，梳理从新奥尔良到当代先锋的结构演变，是最适合新人打开即兴耳朵的入门指南。
-- **Miles Davis & Quincy Troupe《Miles: The Autobiography》（《迈尔斯·戴维斯自传》）**｜Miles Davis、Quincy Troupe｜1989｜自传/口述史 —— 以毫无遮拦的第一人称街头语调亲历比波普、冷爵士到电声融合半世纪风云，重现 Parker、Coltrane、Bill Evans 在舞台内外的真实灵魂。
-- **Ken Burns《Jazz》（《爵士乐》）**｜Ken Burns（导演）｜2001｜纪录片 —— 10 集史诗级档案纪录片，通过珍贵历史影像揭示爵士乐如何折射美国种族史、城市化与现代自由精神。
-- **Questlove《Summer of Soul (...Or, When the Revolution Could Not Be Televised)》（《灵魂乐之夏》）**｜Questlove（导演）｜2021｜纪录片/现场电影 —— 尘封半世纪的 1969 年哈莱姆文化节彩色胶片重见天日，捕捉 Nina Simone、Sonny Sharrock、Sly and the Family Stone 将爵士、福音、放克与黑人公民觉醒熔铸一体的历史瞬间。
+- **Ted Gioia《How to Listen to Jazz》（《如何听爵士》）**｜Ted Gioia｜2016｜书籍 —— 一本教人怎么听爵士的入门书：听一场演奏时该留意什么，即兴由哪些部分搭成。
+- **Miles Davis & Quincy Troupe《Miles: The Autobiography》（《迈尔斯·戴维斯自传》）**｜Miles Davis、Quincy Troupe｜1989｜自传/口述史 —— Miles Davis 的自传，与诗人、记者 Quincy Troupe 合写。
+- **Ken Burns《Jazz》（《爵士乐》）**｜Ken Burns（导演）｜2001｜纪录片 —— PBS 播出的 10 集纪录片，按年代讲爵士史，Louis Armstrong 和 Duke Ellington 是中心人物。
+- **Questlove《Summer of Soul (...Or, When the Revolution Could Not Be Televised)》（《灵魂乐之夏》）**｜Questlove（导演）｜2021｜纪录片/现场电影 —— 游戏没有采用：它讲的不是游戏里任何一张唱片的音乐家或流派。原稿的介绍没有核对，已删去。
 
 ---
 
@@ -121,7 +125,7 @@
    - **单曲 (Single)**：The Velvet Underground — 〈I'm Waiting for the Man〉(1967) —— 粗粝敲击的桶式钢琴与街头白描叙事，彻底剥除嬉皮时代的浪漫滤镜。
    - **音乐家 (Musician)**：**The Velvet Underground（地下丝绒，Lou Reed、John Cale 等，1964–1973，美国纽约）** —— 安迪·沃霍尔“工厂”孕育的反叛先驱，将先锋派持续低音（Drone）植入摇滚，开启另类音乐总源流。
    - **专辑 (Album)**：
-     - *核心必听*：The Velvet Underground & Nico — **《The Velvet Underground & Nico》**(1967)（“买过它的人不多，但每个买过的人都组了乐队”）
+     - *核心必听*：The Velvet Underground & Nico — **《The Velvet Underground & Nico》**(1967)（乐队 1967 年的首张专辑）
      - *进阶延伸*：The Stooges — **《Fun House》**(1970)（Iggy Pop 原始兽性嘶吼与自由爵士萨克斯失控冲撞的底特律炼狱杰作）
 2. **'77 Punk（七七朋克浪潮）**
    - **单曲 (Single)**：The Clash — 〈Complete Control〉(1977) —— 由雷鬼大师 Lee "Scratch" Perry 操刀制作，三分钟内迸发对唱片工业操控的愤怒反击。
@@ -134,13 +138,15 @@
    - **音乐家 (Musician)**：**Joy Division（乔伊·迪维讯 / 快乐小分队，1976–1980，英国曼彻斯特）** —— 与制作人 Martin Hannett 一起把后工业城市曼彻斯特的空旷疏离感铸造成永恒的空间声学美学。
    - **专辑 (Album)**：
      - *核心必听*：Joy Division — **《Unknown Pleasures》**(1979)（脉冲星波形封面与冷冽空间混响定义后朋克图腾）
+     - **更正**：〈Love Will Tear Us Apart〉是 1980 年的单曲，不在《Unknown Pleasures》里。游戏里这一格用的是该专辑的开场曲〈Disorder〉(1979)。
      - *进阶延伸*：Gang of Four — **《Entertainment!》**(1979)（刀锋般切分吉他、放克律动与消费异化批判的后朋克另一极）
 4. **Coldwave & Goth（冷浪潮与哥特摇滚）**
    - **单曲 (Single)**：Bauhaus — 〈Bela Lugosi's Dead〉(1979) —— 借用牙买加 Dub 混响留白、极简鼓点与吸血鬼戏剧意象，宣告哥特摇滚诞生。
    - **音乐家 (Musician)**：**The Cure（治疗乐队，Robert Smith 领衔，1978–至今，英国克劳利）** —— 从幽闭绝望的哥特三部曲到凄美浩瀚的合成器长篇，塑造全球暗潮青年审美（亦深刻影响早期窦唯）。
    - **专辑 (Album)**：
      - *核心必听*：The Cure — **《Pornography》**(1982)（密集部落鼓机与冰封吉他交织的哥特摇滚巅峰，或更易入门的《Disintegration》1989）
-     - *进阶延伸*：Asylum Party — **《Borderline》**(1989)（法国八十年代末 Coldwave 代表作，冰冷鼓机与浪漫法语忧郁贝斯线交相辉映）
+     - *进阶延伸*：Asylum Party — **《Borderline》**(1989)（法国八十年代末 Coldwave 专辑，冰冷鼓机与忧郁贝斯线交相辉映）
+     - **更正**：游戏里 Asylum Party 的卡片是〈Julia〉，它收录在更早的《Picture One》(1988)，不在《Borderline》里。
 5. **No Wave & Noise Rock（无浪潮与噪音摇滚）**
    - **单曲 (Single)**：Sonic Youth — 〈Teen Age Riot〉(1988) —— 特殊调弦吉他交织出迷人泛音钟鸣，随后切入昂扬驰骋的地下青春宣言。
    - **音乐家 (Musician)**：**Sonic Youth（音速青年，Thurston Moore、Kim Gordon、Lee Ranaldo、Steve Shelley，1981–2011，美国纽约）** —— 从纽约 No Wave 先锋噪音土壤出发，将螺丝刀制备吉他与微分音调弦带入另类摇滚核心。
@@ -149,10 +155,11 @@
      - *进阶延伸*：Glenn Branca — **《The Ascension》**(1981)（纽约 No Wave / 总体主义多把电吉他泛音轰鸣交响曲，Sonic Youth 成员早年受洗之源）
 
 #### 代表性音乐故事与文化资料（Punk & Post-Punk）
-- **Legs McNeil & Gillian McCain《Please Kill Me: The Uncensored Oral History of Punk》（《请杀了我：朋克无删减口述史》）**｜Legs McNeil、Gillian McCain｜1996｜口述史 —— 串联 Lou Reed、Iggy Pop、Patti Smith、Ramones 等亲历者原声访谈，还原从纽约 CBGB 地下酒馆燃起的原始朋克烈火。
-- **Simon Reynolds《Rip It Up and Start Again: Postpunk 1978–1984》（《撕碎重来：后朋克 1978–1984》）**｜Simon Reynolds｜2005｜书籍 —— 后朋克研究权威圣经，详尽剖析朋克之后英美乐手如何拥抱合成器、Dub、现代主义文学与先锋艺术，开启真正意义上的音乐现代主义爆炸。
-- **Penelope Spheeris《The Decline of Western Civilization》（《西方文明的衰落》）**｜Penelope Spheeris（导演）｜1981｜纪录片 —— 深入 1979–1980 年洛杉矶硬核朋克地下现场（Black Flag、Germs、X），以粗粝生猛的镜头留存青年亚文化最真实的躁动与荒芜。
-- **Grant Gee《Joy Division》（《乔伊·迪维讯》）**｜Grant Gee（导演）、Jon Savage（编剧）｜2007｜纪录片 —— 将曼彻斯特战后城市废墟重建史与乐队短暂炽烈的生命轨迹交织，理解后朋克“空间与冷峻”从何而来。
+- **Legs McNeil & Gillian McCain《Please Kill Me: The Uncensored Oral History of Punk》（《请杀了我：朋克无删减口述史》）**｜Legs McNeil、Gillian McCain｜1996｜口述史 —— 一部朋克口述史；作者之一 Legs McNeil 是 Punk 杂志的三位创办人之一。
+- **Simon Reynolds《Rip It Up and Start Again: Postpunk 1978–1984》（《撕碎重来：后朋克 1978–1984》）**｜Simon Reynolds｜2005｜书籍 —— 写 1978–1984 年的后朋克，英国初版由 Faber & Faber 出版。
+- **Penelope Spheeris《The Decline of Western Civilization》（《西方文明的衰落》）**｜Penelope Spheeris（导演）｜1981｜纪录片 —— 拍摄于 1979–1980 年，记录洛杉矶的朋克现场。
+- **Grant Gee《Joy Division》（《乔伊·迪维讯》）**｜Grant Gee（导演）、Jon Savage（编剧）｜2007｜纪录片 —— 关于 Joy Division 的纪录片，由 Jon Savage 撰稿。
+- **Michael Winterbottom《24 Hour Party People》**｜Michael Winterbottom｜2002｜影片 —— 以 Factory Records 创办人 Tony Wilson 为主角的剧情片，讲 1976–1992 年的曼彻斯特音乐圈。
 
 ---
 
@@ -169,32 +176,34 @@
    - **单曲 (Single)**：My Bloody Valentine — 〈Only Shallow〉(1991) —— 四下军鼓敲击后，失真轰鸣却如丝绸般起伏的摇把滑音音墙瞬间淹没感官。
    - **音乐家 (Musician)**：**My Bloody Valentine（我的血腥情人节，Kevin Shields、Bilinda Butcher 等，1983–至今，爱尔兰都柏林/英国伦敦）** —— 独创反向混响与摇把弯音（Glide Guitar）技法，将噪音失真转化为如梦似幻的催眠织体。
    - **专辑 (Album)**：
-     - *核心必听*：My Bloody Valentine — **《Loveless》**(1991)（耗资令 Creation 厂牌几近破产录就的 RYM Shoegaze 绝对圣典）
+     - *核心必听*：My Bloody Valentine — **《Loveless》**(1991)（Creation 厂牌发行，Shoegaze 的代表专辑）
      - *进阶延伸*：Slowdive — **《Souvlaki》**(1993)（更偏向空灵空间延迟混响与伤感旋律的自赏另一极）
 3. **Dream Pop（梦幻流行）**
    - **单曲 (Single)**：Cocteau Twins — 〈Cherry-coloured Funk〉(1990) —— 合唱效果器浸润的柔光吉他与超越世俗语义的天籁吟唱，如坠暖紫云端。
    - **音乐家 (Musician)**：**Cocteau Twins（极地双子星，Elizabeth Fraser、Robin Guthrie、Simon Raymonde，1979–1997，苏格兰）** —— 4AD 厂牌仙音美学灵魂，1996 年更直接与王菲合作《浮躁》，深刻重塑华语另类流行听觉。
    - **专辑 (Album)**：
-     - *核心必听*：Cocteau Twins — **《Heaven or Las Vegas》**(1990)（梦幻流行最通透璀璨的巅峰之作）
+     - *核心必听*：Cocteau Twins — **《Heaven or Las Vegas》**(1990)（梦幻流行的代表专辑）
      - *进阶延伸*：Fishmans — **《Long Season》**(1996)（日本乐团将 Dream Pop、Dub 与渐进循环熔铸为一首 35 分钟无间断长曲的奇迹；或当代 Beach House《Teen Dream》2010）
 4. **Slowcore & Midwest Emo（慢核与中西部情绪摇滚）**
    - **单曲 (Single)**：American Football — 〈Never Meant〉(1999) —— 开放调弦双吉他晶莹交错的点弦琶音与奇数拍律动，成为夏末告别与青春遗憾的代名词。
    - **音乐家 (Musician)**：**American Football（美式足球，Mike Kinsella 等，1997–至今，美国伊利诺伊州厄巴纳）** —— 将硬核朋克后的情绪内省与数学摇滚清音技法结合，成为全球数摇与独立乐队争相致敬的模板。
    - **专辑 (Album)**：
      - *核心必听*：American Football — **《American Football》**(LP1, 1999)（封面那座厄巴纳白房子已成为全球独立乐迷朝圣坐标）
-     - *进阶延伸*：Duster — **《Stratosphere》**(1998)（四轨磁带机录制的低保真太空慢核 Slowcore 经典，在 RYM 与流媒体世代迎来现象级复兴）
+     - *进阶延伸*：Duster — **《Stratosphere》**(1998)（低保真的太空慢核 Slowcore 专辑）
 5. **Post-Rock（后摇滚）**
    - **单曲 (Single)**：Mogwai — 〈Mogwai Fear Satan〉(1997) —— 长笛与清音吉他低语骤然炸裂为排山倒海的失真音墙，教科书级展现后摇静动对比张力。
    - **音乐家 (Musician)**：**Godspeed You! Black Emperor（天佑黑帝，1994–至今，加拿大蒙特利尔）** —— 以大编制提琴、号角、磁带采样与多乐章室内交响结构，赋予无词摇滚史诗般的末世悲悯与希望。
    - **专辑 (Album)**：
-     - *核心必听*：Godspeed You! Black Emperor — **《Lift Your Skinny Fists Like Antennas to Heaven》**(2000)（四首二十分钟长曲构筑的后摇滚巅峰圣殿）
+     - *核心必听*：Godspeed You! Black Emperor — **《Lift Your Skinny Fists Like Antennas to Heaven》**(2000)（四首约二十分钟的长曲）
+     - **更正**：Apple 曲库里没有这支乐队的专辑，取不到试听和封面，所以游戏里没有它的卡片。
      - *进阶延伸*：Slint — **《Spiderland》**(1991)（第一波后摇与数学摇滚冷峻叙事源头；并可同参 Talk Talk《Laughing Stock》1991 的留白即兴美学）
 
 #### 代表性音乐故事与文化资料（Indie, Shoegaze & Post-Rock）
-- **Michael Azerrad《Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981–1991》（《我们的乐队也可以成为你的生活》）**｜Michael Azerrad｜2001｜书籍 —— 聚焦 Sonic Youth、Dinosaur Jr.、Fugazi、Beat Happening 等 13 支地下乐队，记录没有主流媒体加持下靠面包车巡演与独立厂牌搭建美国另类音乐版图的热血十年。
-- **Eric Green《Beautiful Noise》（《美丽噪音》）**｜Eric Green（导演）｜2014｜纪录片 —— 集结 Kevin Shields、Neil Halstead、Robin Guthrie 与 Robert Smith 深度访谈，全景回溯英国自赏与梦幻流行音墙运动从被英媒嘲讽到影响全球的历程。
-- **Jeanette Leech《Fearless: The Making of Post-Rock》（《无畏：后摇滚的诞生》）**｜Jeanette Leech｜2017｜书籍 —— 系统梳理从 Talk Talk、Bark Psychosis、Slint 到蒙特利尔与格拉斯哥场景，解析摇滚配器如何挣脱主副歌束缚走向纯音色与空间叙事。
-- **Danny O'Connor《Upside Down: The Creation Records Story》（《天翻地覆：Creation 唱片传奇》）**｜Danny O'Connor（导演）｜2010｜纪录片 —— 追踪传奇厂牌主理人 Alan McGee 如何接连签下 The Jesus and Mary Chain、My Bloody Valentine、Slowdive 与 Oasis，见证英伦独立厂牌的狂飙与代价。
+- **Michael Azerrad《Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981–1991》（《我们的乐队也可以成为你的生活》）**｜Michael Azerrad｜2001｜书籍 —— 写 1981–1991 年间靠不停巡演和独立小厂牌起家的美国地下乐队。
+- **Eric Green《Beautiful Noise》（《美丽噪音》）**｜Eric Green（导演）｜2014｜纪录片 —— 讲 Cocteau Twins、The Jesus and Mary Chain、My Bloody Valentine 三支乐队，以及它们对自赏的影响。
+- **Jeanette Leech《Fearless: The Making of Post-Rock》（《无畏：后摇滚的诞生》）**｜Jeanette Leech｜2017｜书籍 —— 一本讲后摇滚如何成形的书，Jawbone Press 出版。
+- **Danny O'Connor《Upside Down: The Creation Records Story》（《天翻地覆：Creation 唱片传奇》）**｜Danny O'Connor（导演）｜2010｜纪录片 —— 讲 Creation Records 这家厂牌的纪录片，Alan McGee、Noel Gallagher 等人出镜。
+- **Grant Gee《Meeting People Is Easy》**｜Grant Gee｜1998｜影片 —— 跟拍 Radiohead《OK Computer》世界巡演的纪录片。
 
 ---
 
@@ -212,6 +221,7 @@
    - **音乐家 (Musician)**：**Kraftwerk（发电站乐队，Ralf Hütter 与 Florian Schneider 等，1970–至今，德国杜塞尔多夫）** —— 在 Kling Klang 工作室化身“人机合一”乐团，成为 Synthpop、Electro、Techno 乃至早期 Hip-Hop 共同尊奉的电子鼻祖。
    - **专辑 (Album)**：
      - *核心必听*：Kraftwerk — **《Trans-Europe Express》**(1977)（铁轨律动与极简电子旋律完美合一的不朽杰作）
+     - **更正**：〈The Model〉收录在《The Man-Machine》(1978)，不在《Trans-Europe Express》里。游戏里这张卡的专辑是《The Man-Machine》。
      - *进阶延伸*：Depeche Mode — **《Violator》**(1990)（将工业采样质感与暗黑体育场级合成器金曲推向极致；东方脉络可对照 YMO《Solid State Survivor》1979）
 3. **House & Detroit Techno（芝加哥浩室与底特律科技舞曲）**
    - **单曲 (Single)**：Rhythim Is Rhythim (Derrick May) — 〈Strings of Life〉(1987) —— 激昂交响弦乐采样与底特律鼓机律动碰撞，赋予冰冷机器炙热灵魂。
@@ -229,14 +239,14 @@
    - **单曲 (Single)**：Burial — 〈Archangel〉(2007) —— 变调 R&B 残缺人声切片、黑胶炒豆底噪与蹒跚 2-Step 木质鼓点，凝结深夜南伦敦大巴车窗上的冷雨。
    - **音乐家 (Musician)**：**Burial（William Bevan，英国伦敦）** —— 隐匿于聚光灯之外，抽离锐舞狂欢后的空虚余温，将牙买加 Dub 超低频（Sub-bass）与英国车库舞曲化作当代都市幽灵学（Hauntology）诗篇。
    - **专辑 (Album)**：
-     - *核心必听*：Burial — **《Untrue》**(2007)（21 世纪电子音乐最重要里程碑之一，RYM Dubstep / Future Garage 榜首）
+     - *核心必听*：Burial — **《Untrue》**(2007)（Future Garage / Dubstep 的代表专辑）
      - *进阶延伸*：Goldie — **《Timeless》**(1995)（切碎 Amen Break 碎拍并融入恢弘环境弦乐的 90 年代英国 Jungle / Drum and Bass 史诗）
 
 #### 代表性音乐故事与文化资料（Electronic & Club Culture）
-- **Simon Reynolds《Energy Flash: A Journey Through Rave Music and Dance Culture》（《能量闪耀：锐舞音乐与舞曲文化之旅》）**｜Simon Reynolds｜1998｜书籍 —— 俱乐部文化至高经典，横跨底特律 Techno、芝加哥 Acid House、英国“第二爱情之夏”露天锐舞到 Jungle 与 IDM 的声音社会学全景。
-- **Laurent Garnier & David Brun-Lambert《Électrochoc》（《电击》）**｜Laurent Garnier、David Brun-Lambert｜2003（2013 增订版）｜口述回忆录/书籍 —— 法国传奇 DJ 亲历 1987 年曼彻斯特 Haçienda 俱乐部启蒙直至全球电子狂潮的第一现场手记，兼具小说般的现场感与内行洞察。
-- **Ben Whalley《Krautrock: The Rebirth of Germany》（《泡菜摇滚：德国的重生》）**｜Ben Whalley（导演，BBC Four）｜2009｜纪录片 —— 深刻揭示 Can、Neu!、Faust、Kraftwerk 如何在二战文化废墟中拒绝复制英美摇滚，从零锻造全新德国现代声音身份。
-- **Gary Bredow《High Tech Soul: The Creation of Techno Music》（《高科技灵魂：科技舞曲的诞生》）**｜Gary Bredow（导演）｜2006｜纪录片 —— 重返汽车工业衰败后的底特律街头，对话 Juan Atkins、Derrick May、Jeff Mills、Richie Hawtin，还原黑人青年如何用廉价合成器发明未来之声。
+- **Simon Reynolds《Energy Flash: A Journey Through Rave Music and Dance Culture》（《能量闪耀：锐舞音乐与舞曲文化之旅》）**｜Simon Reynolds｜1998｜书籍 —— 写 1980 年代中期以来的舞曲与锐舞文化；美国版书名是 Generation Ecstasy。
+- **Laurent Garnier & David Brun-Lambert《Électrochoc》（《电击》）**｜Laurent Garnier、David Brun-Lambert｜2003（2013 增订版）｜口述回忆录/书籍 —— Laurent Garnier 1980 年代末在曼彻斯特开始做 DJ，这是他与 David Brun-Lambert 合写的书。
+- **Ben Whalley《Krautrock: The Rebirth of Germany》（《泡菜摇滚：德国的重生》）**｜Ben Whalley（导演，BBC Four）｜2009｜纪录片 —— BBC Four 的纪录片，讲 Neu!、Can、Faust、Kraftwerk 等乐队在 1968–1977 年间做出的新德国音乐。
+- **Gary Bredow《High Tech Soul: The Creation of Techno Music》（《高科技灵魂：科技舞曲的诞生》）**｜Gary Bredow（导演）｜2006｜纪录片 —— 讲 Techno 在底特律的诞生，主角是 Juan Atkins、Derrick May 和 Kevin Saunderson。
 
 ---
 
@@ -260,25 +270,28 @@
    - **音乐家 (Musician)**：**A Tribe Called Quest（Q-Tip、Phife Dawg、Ali Shaheed Muhammad，1985–2016，美国纽约）** —— Native Tongues 积极说唱运动灵魂，让黑胶爵士挖掘成为嘻哈美学的核心语言。
    - **专辑 (Album)**：
      - *核心必听*：A Tribe Called Quest — **《The Low End Theory》**(1991)（传奇爵士贝斯手 Ron Carter 跨刀献奏的 Jazz Rap 奠基经典）
-     - *进阶延伸*：Kendrick Lamar — **《To Pimp a Butterfly》**(2015)（携 Kamasi Washington、Thundercat 等当代爵士巨匠构筑的 21 世纪非裔史诗，长期稳居 RYM 全站总榜第一；亚洲脉络可同听 Nujabes《Modal Soul》2005）
+     - **更正**：〈Electric Relaxation〉收录在《Midnight Marauders》(1993)，不在《The Low End Theory》里。游戏里这张卡的专辑是《Midnight Marauders》。
+     - *进阶延伸*：Kendrick Lamar — **《To Pimp a Butterfly》**(2015)（携 Kamasi Washington、Thundercat 等当代爵士巨匠参与录制的专辑；亚洲脉络可同听 Nujabes《Modal Soul》2005）
 4. **Instrumental Beats & Plunderphonics（器乐节拍与掠夺音学拼贴）**
    - **单曲 (Single)**：DJ Shadow — 〈Midnight in a Perfect World〉(1996) —— 忧郁钢琴、芬兰冷门民谣人声与沉稳鼓点无缝层叠，完全脱离饶舌人声亦能讲述深邃夜曲。
    - **音乐家 (Musician)**：**J Dilla（James Dewitt Yancey，1974–2006，美国底特律）** —— 在采样器 MPC3000 上彻底摒弃机器自动量化，创造出前倾与拖拍并存的微醺人性律动（Dilla Time），深刻改写当代爵士、Neo-Soul 与 Lo-Fi Beats。
    - **专辑 (Album)**：
      - *核心必听*：J Dilla — **《Donuts》**(2006)（病榻之上完成、31 首灵魂乐微型拼贴组成的生命绝唱）
-     - *进阶延伸*：The Avalanches — **《Since I Left You》**(2000)（动用逾三千五百处黑胶采样编织夏日航海梦境的 Plunderphonics 奇迹；及 DJ Shadow《Endtroducing.....》1996）
+     - *进阶延伸*：The Avalanches — **《Since I Left You》**(2000)（几乎全由黑胶采样拼贴而成的 Plunderphonics 专辑；及 DJ Shadow《Endtroducing.....》1996）
 5. **Experimental Hip-Hop（实验与抽象嘻哈）**
    - **单曲 (Single)**：Madvillain — 〈All Caps〉(2004) —— 美漫反派动画弦乐采样、无副歌怪诞结构与连环多音节押韵迷宫令人拍案叫绝。
    - **音乐家 (Musician)**：**MF DOOM（Daniel Dumile，1971–2020）& Madlib（Otis Jackson Jr.，1973–）** —— 戴铁面具的地下韵脚怪杰遇上嗜碟如命的迷幻采样巫师，彻底打破主流说唱曲式与人设陈规。
    - **专辑 (Album)**：
-     - *核心必听*：Madvillain — **《Madvillainy》**(2004)（抽象与实验嘻哈领域无可撼动的 RYM 最高分经典之一）
+     - *核心必听*：Madvillain — **《Madvillainy》**(2004)（抽象与实验嘻哈的代表专辑）
      - *进阶延伸*：Danny Brown — **《Atrocity Exhibition》**(2016)（取名自 Joy Division 开篇曲，将后朋克焦虑、怪诞工业电子与癫狂声线推向极限；或更暴烈的 Death Grips《The Money Store》2012）
 
 #### 代表性音乐故事与文化资料（Hip-Hop & Beats）
-- **Jeff Chang《Can't Stop Won't Stop: A History of the Hip-Hop Generation》（《永不止步：嘻哈世代史》）**｜Jeff Chang｜2005｜书籍 —— 从牙买加音响系统与南布朗克斯高架桥拆迁废墟写起，将街舞、涂鸦、DJ 与说唱置于美国种族政治与后工业城市史中恢弘呈现。
-- **Dan Charnas《Dilla Time: The Life and Afterlife of J Dilla, the Hip-Hop Producer Who Reinvented Rhythm》（《迪拉时间》）**｜Dan Charnas｜2022｜书籍 —— 兼具传记温情与节奏音乐学深度的杰作，用可视化节拍网格揭秘 J Dilla 如何在新世纪重塑人类与机器共同感知时间的方式。
-- **Tony Silver & Henry Chalfant《Style Wars》（《风格之战》）**｜Tony Silver（导演）、Henry Chalfant（制片）｜1983｜纪录片 —— 早期纽约地铁涂鸦、街舞与老派嘻哈原生态圣经，捕捉嘻哈四大元素在商业化之前的纯粹街头生命力。
-- **Doug Pray《Scratch》（《搓盘手》）**｜Doug Pray（导演）｜2001｜纪录片 —— 深入 DJ Shadow、DJ Qbert、Mix Master Mike 与 Grand Wizard Theodore 的地下唱片室（Crate-digging），完美诠释黑胶挖掘与唱盘主义哲学。
+- **Jeff Chang《Can't Stop Won't Stop: A History of the Hip-Hop Generation》（《永不止步：嘻哈世代史》）**｜Jeff Chang｜2005｜书籍 —— 一本记录早期嘻哈现场的历史书。
+- **Dan Charnas《Dilla Time: The Life and Afterlife of J Dilla, the Hip-Hop Producer Who Reinvented Rhythm》（《迪拉时间》）**｜Dan Charnas｜2022｜书籍 —— J Dilla 的传记，写到他 2006 年去世和身后的影响；书名指的是他标志性的节奏感。
+- **Tony Silver & Henry Chalfant《Style Wars》（《风格之战》）**｜Tony Silver（导演）、Henry Chalfant（制片）｜1983｜纪录片 —— 在 PBS 首播的嘻哈文化纪录片，重点拍的是涂鸦。
+- **Doug Pray《Scratch》（《搓盘手》）**｜Doug Pray（导演）｜2001｜纪录片 —— 讲嘻哈 DJ 的纪录片：从延长唱片里的 break，到搓盘，再到 turntablism。
+- **One9《Nas: Time Is Illmatic》**｜One9｜2014｜影片 —— 讲 Nas 做出 1994 年首张专辑《Illmatic》之前的经历，在专辑发行 20 周年时上映。
+- **Charlie Ahearn《Wild Style》**｜Charlie Ahearn｜1982｜影片 —— 被视为第一部嘻哈电影，Grandmaster Flash 等人出镜。
 
 ---
 
@@ -298,7 +311,7 @@
      - *核心必听*：山下达郎 (Tatsuro Yamashita) — **《For You》**(1982)（夏日海风与顶级录音室乐手律动交织的 City Pop 教科书；亦可同听细野晴臣、铃木茂、山下达郎合作的源头名盘《Pacific》1978 或大贯妙子《Sunshower》1977）
      - *进阶延伸*：Cornelius — **《Fantasma》**(1997)（涩谷系 Shibuya-kei 极繁拼贴与耳机立体声实验代表作；乐队阶段可溯至 Flipper's Guitar《Doctor Head's World Tower》1991）
 3. **Chamber & Baroque Pop（室内流行与巴洛克流行）**
-   - **单曲 (Single)**：The Beach Boys — 〈God Only Knows〉(1966) —— 法国圆号、羽管键琴、马铃薯雪橇铃与层叠天籁和声交织，被保罗·麦卡特尼誉为史上最伟大的流行歌曲之一。
+   - **单曲 (Single)**：The Beach Boys — 〈God Only Knows〉(1966) —— 法国圆号、羽管键琴、马铃薯雪橇铃与层叠天籁和声交织，是《Pet Sounds》里的一首。
    - **音乐家 (Musician)**：**Brian Wilson / The Beach Boys（布莱恩·威尔逊与海滩男孩，美国加州）与 Kate Bush / Weyes Blood** —— 把流行三分钟单曲升华为精密室内管弦建筑，用古典对位承载最私密的脆弱情感。
    - **专辑 (Album)**：
      - *核心必听*：The Beach Boys — **《Pet Sounds》**(1966)（Baroque Pop 开山宗师，以录音室为乐器的现代流行里程碑）
@@ -308,13 +321,15 @@
    - **音乐家 (Musician)**：**Björk（比约克，1965–，冰岛雷克雅未克）** —— 始终站在声学乐器、前沿数字电子（Matmos、Arca）与先锋视觉艺术交界处的当代 Art Pop 女祭司。
    - **专辑 (Album)**：
      - *核心必听*：Björk — **《Vespertine》**(2001)（以八音盒、竖琴、踩雪微采样与贴耳私语编织极北冬夜亲密宇宙）
+     - **更正**：〈Jóga〉收录在《Homogenic》(1997)，不在《Vespertine》里。游戏里这张卡的专辑是《Homogenic》。
      - *进阶延伸*：Stereolab — **《Dots and Loops》**(1997)（将 Krautrock 律动、Bossa Nova 轻盈和声、复古模拟合成器与左翼哲学拼贴为一体的 Indietronica 典范）
 
 #### 代表性音乐故事与文化资料（Art Pop, City Pop & Synth）
-- **Jonathan Demme《Stop Making Sense》（《别讲道理》）**｜Jonathan Demme（导演）、Talking Heads｜1984｜演唱会电影 —— 影史公认最伟大的现场音乐电影：从 David Byrne 独自提着磁带录音机登台，逐曲增加乐手与布景直至全场沸腾，直观解构现代编曲与舞台戏剧的魔法。
-- **David Byrne《How Music Works》（《音乐是怎么起作用的》）**｜David Byrne｜2012｜书籍 —— 从教堂混响、CBGB 小酒馆声学、808 鼓机到数字流媒体与唱片账本，揭示环境空间与技术媒介如何倒逼音乐形态演变。
-- **Stephen Nomura Schible《Ryuichi Sakamoto: Coda》（《坂本龙一：终曲》）**｜Stephen Nomura Schible（导演）｜2017｜纪录片 —— 从 YMO 合成器浪潮、电影配乐大师到晚年赴北极采集冰川融水与福岛海啸钢琴残响，凝视一位亚洲现代音乐巨匠的声音哲学。
-- **栗本齐《「シティポップの基本」がこの100枚でわかる！》（《100 张唱片读懂 City Pop》）与 牧村宪一、藤井丈司、柴那典《渋谷音楽図鑑》（《涩谷音乐图鉴》）**｜栗本齐 / 牧村宪一等｜2022 / 2017｜书籍 —— 前者系统梳理 70–80 年代日本都市流行百张名盘脉络，后者由亲历 Sugar Babe 与 Flipper's Guitar 的传奇制作人牧村宪一口述涩谷街区半世纪唱片文化磁场的生成。
+- **Jonathan Demme《Stop Making Sense》（《别讲道理》）**｜Jonathan Demme（导演）、Talking Heads｜1984｜演唱会电影 —— Talking Heads 的演唱会电影，1983 年 12 月在好莱坞 Pantages 剧院拍了四晚。
+- **David Byrne《How Music Works》（《音乐是怎么起作用的》）**｜David Byrne｜2012｜书籍 —— Talking Heads 主唱 David Byrne 写的书，一半是自传，一半谈音乐本身。
+- **Stephen Nomura Schible《Ryuichi Sakamoto: Coda》（《坂本龙一：终曲》）**｜Stephen Nomura Schible（导演）｜2017｜纪录片 —— 坂本龙一的纪录片，拍到他患癌后的生活和福岛核事故之后的环保行动。
+- **栗本齐《「シティポップの基本」がこの100枚でわかる！》（《100 张唱片读懂 City Pop》）**｜栗本齐｜2022｜书籍 —— 用 100 张专辑介绍 City Pop 的一本书。
+- **牧村宪一、藤井丈司、柴那典《渋谷音楽図鑑》（《涩谷音乐图鉴》）**｜牧村宪一、藤井丈司、柴那典｜2017｜书籍 —— 涩谷出身的音乐制作人牧村宪一与藤井丈司、柴那典合著，太田出版。
 
 ---
 
@@ -349,15 +364,17 @@
    - **单曲 (Single)**：万能青年旅店 (Omnipotent Youth Society) — 〈杀死那个石家庄人〉(2010) —— 清冷木吉他叙事铺陈重工业国企家庭日常，中段小号如大雾突围般撕裂时代黄昏。
    - **音乐家 (Musician)**：**窦唯 (Dou Wei，1969–，北京)、野孩子 (张佺、索文俊等，1995–，兰州) 与 万能青年旅店 (董亚千、姬赓等，石家庄)** —— 从 90 年代塑料切口“打口磁带/CD”地下启蒙出发，一条脉络沿黄河民间信天游生出土地民谣（野孩子、周云蓬），另一条脉络消化后朋克、前卫摇滚与爵士铜管，凝结出当代中国城市与工业锈带的声音史诗。
    - **专辑 (Album)**：
-     - *核心必听*：窦唯 — **《黑梦》**(1994)（中国第一张真正意义上的后朋克/梦境概念专辑，打口启蒙与本土东方梦境交汇的起点）
-     - *进阶延伸*：万能青年旅店 — **《万能青年旅店》**(2010)（中文独立音乐在 RYM 评分最高的里程碑；西北民谣脉络可同听野孩子《咒语》1999 与周云蓬《中国孩子》2007）
+     - *核心必听*：窦唯 — **《黑梦》**(1994)（窦唯离开黑豹后的首张个人专辑，带后朋克与梦幻流行色彩）
+     - *进阶延伸*：万能青年旅店 — **《万能青年旅店》**(2010)（乐队 2010 年的同名首张专辑；西北民谣脉络可同听野孩子《咒语》1999 与周云蓬《中国孩子》2007）
 
 #### 代表性音乐故事与文化资料（Folk, Psych & Regional Scenes）
-- **高原《把青春唱完：1990–1999 中国摇滚与一个文化群体的生活影像》**｜高原｜2015｜摄影纪实/书籍 —— 摄影师高原以近距离私人镜头留存窦唯、张楚、何勇、唐朝及 90 年代北京地下排练室日常，凝固中国摇滚黄金十年的真实呼吸。
-- **颜峻《内心的噪音》(2001) /《地地下——新音乐潜行记》(2002) 与 Jeroen de Kloet（大鹰）《China with a Cut: Globalisation, Urban Youth and Popular Music》(2010)**｜颜峻 / Jeroen de Kloet｜2001–2010｜书籍 —— 颜峻以亲历者锋利笔触记录世纪之交地下噪音、民谣与巡演生态；荷兰学者大鹰则从文化研究视角剖析洋垃圾“打口带”如何意外哺育出一整代中国独立音乐人。
-- **Ruy Castro《Chega de Saudade》（英译《Bossa Nova: The Story of the Brazilian Music That Seduced the World》，《波萨诺瓦史》）**｜Ruy Castro｜1990（英译 2000）｜书籍 —— 深入五十年代末里约热内卢伊帕内玛海滩公寓聚会，鲜活还原 João Gilberto 与 Tom Jobim 如何用轻声吟唱改写世界爵士与流行版图，并为后续 Tropicália 埋下伏笔。
-- **Marcelo Machado《Tropicália》（《热带主义》）**｜Marcelo Machado（导演）｜2012｜纪录片 —— 汇集珍贵彩色电视档案与 Caetano Veloso、Gilberto Gil、Os Mutantes 访谈，重现艺术先锋对抗军事独裁的狂欢风暴。
-- **Alex Gibney《Finding Fela》（《寻找费拉》）与 Martin Scorsese《No Direction Home: Bob Dylan》（《没有方向的家》）**｜Alex Gibney / Martin Scorsese（导演）｜2014 / 2005｜纪录片 —— 分别解锁尼日利亚 Shrine 夜总会反叛共和国与 1961–1966 年格林威治村民谣插电裂变的两个世界级现场坐标。
+- **高原《把青春唱完：1990–1999 中国摇滚与一个文化群体的生活影像》**｜高原｜2015｜摄影纪实/书籍 —— 摄影师高原拍下的 1990 年代中国摇滚台前幕后，中信出版社出版。
+- **颜峻《内心的噪音》**｜颜峻｜2001｜书籍 —— 颜峻的乐评集，收有《崔健之后》《摇滚乐在中国的可能性》等文章。
+- **Jeroen de Kloet《China with a Cut: Globalisation, Urban Youth and Popular Music》**｜Jeroen de Kloet｜2010｜书籍 —— 一本研究全球化、城市青年与中国流行音乐的书。
+- **Ruy Castro《Chega de Saudade》（英译《Bossa Nova: The Story of the Brazilian Music That Seduced the World》，《波萨诺瓦史》）**｜Ruy Castro｜1990（英译 2000）｜书籍 —— 游戏没有采用：它讲的不是游戏里任何一张唱片的音乐家或流派。原稿的介绍没有核对，已删去。
+- **Marcelo Machado《Tropicália》（《热带主义》）**｜Marcelo Machado（导演）｜2012｜纪录片 —— 大量用档案影像讲 1967–1969 年的热带主义运动，Caetano Veloso、Gilberto Gil、Tom Zé 和 Os Mutantes 的成员出镜。
+- **Alex Gibney《Finding Fela》（《寻找费拉》）**｜Alex Gibney（导演）｜2014｜纪录片 —— 讲尼日利亚音乐家 Fela Kuti 生平的纪录片，2014 年在圣丹斯电影节首映。
+- **Martin Scorsese《No Direction Home: Bob Dylan》（《没有方向的家》）**｜Martin Scorsese（导演）｜2005｜纪录片 —— 讲 Bob Dylan 从 1961 年到纽约，到 1966 年摩托车事故后停止巡演的这几年；片名出自〈Like a Rolling Stone〉的歌词。
 
 ---
 
@@ -374,7 +391,7 @@
    - **单曲 (Single)**：Isis — 〈So Did We〉(2004) —— 沉重污泥金属吉他律动与清澈延迟空间旋律层层铺展，如巨浪拍岸般恢弘悲壮。
    - **音乐家 (Musician)**：**Isis（Aaron Turner 等，1997–2010，美国波士顿/洛杉矶）与 Neurosis** —— 摒弃传统金属炫技独奏，引入后摇滚的耐心留白、建筑感递进与福柯式全景敞视社会隐喻。
    - **专辑 (Album)**：
-     - *核心必听*：Isis — **《Panopticon》**(2004)（大气后金属 Atmospheric Sludge / Post-Metal 最平衡完满的代表作）
+     - *核心必听*：Isis — **《Panopticon》**(2004)（大气后金属 Atmospheric Sludge / Post-Metal 的代表专辑）
      - *进阶延伸*：Neurosis — **《Through Silver in Blood》**(1996)（部落双鼓与工业末世压迫感交织的后金属开山巨石）
 3. **Industrial（工业音乐与工业摇滚）**
    - **单曲 (Single)**：Nine Inch Nails — 〈Closer〉(1994)（或〈Head Like a Hole〉1989） —— 采样自 Iggy Pop 鼓点的机械脉冲层层失真堆叠，危险、性感而充满自我毁灭张力。
@@ -386,31 +403,31 @@
    - **单曲 (Single)**：Deafheaven — 〈Dream House〉(2013) —— 高速暴风雪般的黑金属轮拨吉他与凄厉黑嗓，却在大调和弦推进中绽放出夺眶而出的灿烂阳光。
    - **音乐家 (Musician)**：**Alcest（Neige / Stéphane Paut，2000–至今，法国）与 Deafheaven（George Clarke、Kerry McCoy 等，2010–至今，美国旧金山）** —— 打破挪威黑金属森严的地下教条，将 My Bloody Valentine 与 Mogwai 式的自赏/后摇音墙无缝嫁接进极端金属。
    - **专辑 (Album)**：
-     - *核心必听*：Deafheaven — **《Sunbather》**(2013)（粉橙渐变封面与极致情绪张力令其成为 RYM 十年间最破圈的重型音乐经典）
+     - *核心必听*：Deafheaven — **《Sunbather》**(2013)（粉橙渐变封面，Blackgaze 的代表专辑）
      - *进阶延伸*：Alcest — **《Écailles de lune》**(2010)（确立 Blackgaze 海洋月光意象的法式奠基之作；若进一步迈向纯粹前卫重型无人机音墙，可延伸至日本乐队 Boris《Feedbacker》2003）
 
 #### 代表性音乐故事与文化资料（Heavy, Industrial & Avant-Garde）
-- **S. Alexander Reed《Assimilate: A Critical History of Industrial Music》（《同化：工业音乐批判史》）**｜S. Alexander Reed｜2013｜书籍 —— 从未来主义宣言、威廉·巴勒斯剪贴法、Throbbing Gristle 到芝加哥 Wax Trax! 厂牌与九寸钉，迄今最严谨深邃的工业音乐文化史。
-- **V. Vale & Andrea Juno《RE/Search #6/7: Industrial Culture Handbook》（《工业文化手册》）**｜V. Vale、Andrea Juno（编）｜1983｜访谈档案/口述史 —— 工业亚文化初代地下圣经，收录 Throbbing Gristle、Cabaret Voltaire、SPK、NON 等先锋人物第一手原始访谈与宣言。
-- **Julian Cope《Japrocksampler: How the Post-War Japanese Blew Their Minds on Rock 'n' Roll》（《日本摇滚采样志》）**｜Julian Cope｜2007｜书籍 —— 揭秘战后日本重型迷幻与前卫噪音秘史（Flower Travellin' Band、Les Rallizes Dénudés、裸体集会等），是理解东亚极端音墙美学的传奇奇书。
-- **Dayal Patterson《Black Metal: Evolution of the Cult》(2013) 与 Aaron Aites & Audrey Ewell《Until the Light Takes Us》(2008/2009)**｜Dayal Patterson / Aaron Aites、Audrey Ewell｜2013 / 2008｜书籍 / 纪录片 —— 前者全景梳理黑金属从北欧密林狂热走向全球后黑金属/黑自赏的演变，后者深入访谈 Darkthrone 的 Fenriz 等核心人物，还原极端美学背后的哲学冲动与历史反思。
+- **S. Alexander Reed《Assimilate: A Critical History of Industrial Music》（《同化：工业音乐批判史》）**｜S. Alexander Reed｜2013｜书籍 —— 牛津大学出版社出版的工业音乐史，从意大利未来主义、William S. Burroughs 这些早期影响写到当下。
+- **V. Vale & Andrea Juno《RE/Search #6/7: Industrial Culture Handbook》（《工业文化手册》）**｜V. Vale、Andrea Juno（编）｜1983｜访谈档案/口述史 —— RE/Search 出版的访谈集，收有 Throbbing Gristle、Cabaret Voltaire、SPK 等人的访谈。
+- **Julian Cope《Japrocksampler: How the Post-War Japanese Blew Their Minds on Rock 'n' Roll》（《日本摇滚采样志》）**｜Julian Cope｜2007｜书籍 —— 游戏没有采用：它讲的不是游戏里任何一张唱片的音乐家或流派。原稿的介绍没有核对，已删去。
+- **Dayal Patterson《Black Metal: Evolution of the Cult》**｜Dayal Patterson｜2013｜书籍 —— 讲黑金属的演变：从第一张 Black Sabbath 专辑写起，经过挪威，再到其他国家的场景。
+- **Aaron Aites & Audrey Ewell《Until the Light Takes Us》**｜Aaron Aites、Audrey Ewell（导演）｜2008｜纪录片 —— 关于早期挪威黑金属的纪录片。
 
 ---
 
-## 四、通关结算：玩家音乐家人格画像 (End-of-Game Musician Archetype Personas)
+## 四、通关结算：玩家人格 (End-of-Game Persona)
 
-当玩家在《请出示唱片》中完成多轮旅客审查与推荐后，系统将根据谱系权重与跨界选择生成终局**音乐家人格档案（Musician Persona）**（完整判定字段见 `internal/music-catalog.json`）：
+游戏固定九张唱片。结束时的人格只看玩家收下了哪些唱片，规则写在代码仓库的 `src/engine/persona.ts`，人格名单在 `src/data/catalog.json`：
 
-1. **午夜蓝音萨克斯手 (The Midnight Modalist)** —— 主导谱系：`Jazz`（偏好即兴、留白、南伦敦夜色与灵性呼吸）
-2. **后工业暗房贝斯手 (The Post-Industrial Bassist)** —— 主导谱系：`Punk & Post-Punk`（偏爱冷冽空间混响、切分线条与锋利清醒的社会凝视）
-3. **混响踏板筑梦师 (The Pedalboard Shoegazer)** —— 主导谱系：`Indie, Shoegaze & Post-Rock`（迷恋失真音墙、奇数拍吉他与无词长曲的情绪海啸）
-4. **凌晨四点模组炼金师 (The 4AM Modular Alchemist)** —— 主导谱系：`Electronic & Club Culture`（游走于高速公路节拍、底特律机器灵魂与雨夜低频幽灵之间）
-5. **地下唱片箱挖掘者 (The Crate-Digging Beatmaker)** —— 主导谱系：`Hip-Hop & Beats`（能从一张布满灰尘的七十年代灵魂黑胶里听见微醺错拍与街头史诗）
-6. **霓虹录音室建筑师 (The Neon Studio Architect)** —— 主导谱系：`Art Pop, City Pop & Synth`（兼收东京海风、室内巴洛克弦乐与前卫艺术剧场的精致完美主义者）
-7. **赤道与黄河漫游吟游者 (The Borderless Troubadour)** —— 主导谱系：`Folk, Psych & Regional Scenes`（手持木吉他与打口旧磁带，串联拉各斯、巴伊亚与华北平原的土地记忆）
-8. **粉红音墙锻铁匠 (The Sunlit Doomsmith)** —— 主导谱系：`Heavy, Industrial & Avant-Garde`（在最沉重的降调轰鸣与工业废墟中央寻找最耀眼的精神微光）
-9. **涩谷唱片行全能策展人 (The Shibuya Record Clerk)** —— 跨谱系隐藏人格（同时解锁 4 条以上谱系，精通跨地域流派嫁接与元拼贴美学）
-10. **RYM 深夜档案管理员 (The RYM Deep-Cut Archivist)** —— 跨谱系隐藏人格（偏好每条谱系的“进阶延伸专辑”与文化文献，执着于挖掘音乐史隐秘连线）
-
-
-
+- 一张也没收下：**空手过关的旅客**
+- 收下的流行曲比任何一条谱系的都多：**电台流行听众**
+- 三条或更多谱系各收下一张、没有哪条领先：**什么都听的唱片店员**
+- 其余情况取收下最多的那条谱系；并列时取先收下的那条：
+  1. **午夜蓝音萨克斯手** —— `Jazz`
+  2. **后工业暗房贝斯手** —— `Punk & Post-Punk`
+  3. **混响踏板筑梦师** —— `Indie, Shoegaze & Post-Rock`
+  4. **凌晨四点模组炼金师** —— `Electronic & Club`
+  5. **地下唱片箱挖掘者** —— `Hip-Hop & Beats`
+  6. **霓虹录音室建筑师** —— `Art Pop, City Pop & Synth`
+  7. **无国界吟游者** —— `Folk, Psych & Regional`
+  8. **音墙锻铁匠** —— `Heavy, Industrial & Avant-Garde`
