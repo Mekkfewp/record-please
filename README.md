@@ -1,32 +1,38 @@
-# React + TypeScript + Vite
+# 请出示唱片 Record, Please
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A small pixel-style music game. Pick the decade you were born in and where you are from, hear nine records one at a time, keep or skip each, and leave with a playlist and a listener persona.
 
-Currently, two official plugins are available:
+## Run
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
-
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+```
+npm install
+npm run dev        # development server
+npm run build      # validates the catalog, type-checks, builds to dist/
+npm run preview    # serves dist/ on port 4173
+npm test           # catalog rules, game rules, preview player, link choice
+npm run lint
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+## How it works
+
+- `src/data/catalog.json` is the only source of content: cards (one recording each), artists, albums, the decade × region entry cards, lineages, books and films, personas. `npm run validate` enforces its rules and the build fails without it.
+- `src/engine/game.ts` is the whole game as one pure function: which card comes next, when the game ends. `src/engine/persona.ts` reads the persona off the kept cards. Both are covered by `tests/`.
+- `src/components/` holds the three screens: start, booth, result.
+
+## Music data
+
+Every card is pinned to a recording in Apple's catalogue.
+
+```
+npm run match      # match cards against the iTunes Search API (pins live in scripts/apple-hints.json)
+npm run match:cn   # record which songs Apple's mainland China store carries
+```
+
+`scripts/apple-match-report.json` keeps what was matched and why, for review. `scripts/crosscheck-musicbrainz.mjs` adds a second opinion from MusicBrainz.
+
+Previews are streamed from Apple and never stored; covers are loaded from Apple at a small size and shown enlarged. Both sit next to Apple's "Listen on Apple Music" badge and credit line, as Apple's Search API terms ask. Read those terms before publishing a copy of this game.
+
+## Credits
+
+- 30-second previews and cover art: provided courtesy of iTunes.
+- Font: [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font), SIL Open Font License 1.1. Licence texts are in `public/fonts/`.

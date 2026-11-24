@@ -19,8 +19,6 @@ export type LineageId =
   | 'folk-psych'
   | 'heavy-industrial';
 
-export type StartingLineageChoice = 'auto' | LineageId;
-
 export type PortraitHairStyle =
   | 'afro'
   | 'spiky-punk'
@@ -151,8 +149,10 @@ export interface LoreItem {
   year: number;
   kind: LoreKind;
   lineage: LineageId;
+  /** Artists the item is about. */
   artistIds: string[];
-  regions: RegionId[];
+  /** Card genres the item covers as a whole. */
+  genres: string[];
   line: string;
   source: string;
 }
@@ -171,11 +171,4 @@ export interface Card {
   track: Track;
   artist: Artist;
   album: Album;
-}
-
-export interface PlayerProfile {
-  inspectorAlias: string;
-  birthEra: BirthEra;
-  region: RegionId;
-  startingLineage: StartingLineageChoice;
 }

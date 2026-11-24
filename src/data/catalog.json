@@ -5110,7 +5110,14 @@
       "kind": "book",
       "lineage": "jazz",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "Hard Bop",
+        "Modal Jazz",
+        "Post-Bop",
+        "Spiritual Jazz",
+        "Cool Jazz",
+        "Nu Jazz"
+      ],
       "line": "一本教人怎么听爵士的入门书：听一场演奏时该留意什么，即兴由哪些部分搭成。",
       "source": "https://bookquoters.com/book/how-to-listen-to-jazz"
     },
@@ -5124,7 +5131,7 @@
       "artistIds": [
         "miles-davis"
       ],
-      "regions": [],
+      "genres": [],
       "line": "Miles Davis 的自传，与诗人、记者 Quincy Troupe 合写。",
       "source": "https://en.wikipedia.org/wiki/Miles:_The_Autobiography"
     },
@@ -5136,21 +5143,15 @@
       "kind": "series",
       "lineage": "jazz",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "Hard Bop",
+        "Modal Jazz",
+        "Post-Bop",
+        "Spiritual Jazz",
+        "Cool Jazz"
+      ],
       "line": "PBS 播出的 10 集纪录片，按年代讲爵士史，Louis Armstrong 和 Duke Ellington 是中心人物。",
       "source": "https://en.wikipedia.org/wiki/Jazz_(miniseries)"
-    },
-    {
-      "id": "summer-of-soul",
-      "title": "Summer of Soul",
-      "creator": "Questlove",
-      "year": 2021,
-      "kind": "film",
-      "lineage": "jazz",
-      "artistIds": [],
-      "regions": [],
-      "line": "讲 1969 年哈莱姆文化节的纪录片，Questlove 的导演处女作。",
-      "source": "https://en.wikipedia.org/wiki/Summer_of_Soul"
     },
     {
       "id": "please-kill-me",
@@ -5159,8 +5160,10 @@
       "year": 1996,
       "kind": "book",
       "lineage": "punk-postpunk",
-      "artistIds": [],
-      "regions": [],
+      "artistIds": [
+        "the-velvet-underground"
+      ],
+      "genres": [],
       "line": "一部朋克口述史；作者之一 Legs McNeil 是 Punk 杂志的三位创办人之一。",
       "source": "https://en.wikipedia.org/wiki/Legs_McNeil"
     },
@@ -5171,8 +5174,17 @@
       "year": 2005,
       "kind": "book",
       "lineage": "punk-postpunk",
-      "artistIds": [],
-      "regions": [],
+      "artistIds": [
+        "joy-division",
+        "gang-of-four",
+        "new-order",
+        "siouxsie",
+        "throbbing-gristle",
+        "talking-heads"
+      ],
+      "genres": [
+        "Post-Punk"
+      ],
       "line": "写 1978–1984 年的后朋克，英国初版由 Faber & Faber 出版。",
       "source": "https://en.wikipedia.org/wiki/Rip_It_Up_and_Start_Again"
     },
@@ -5184,7 +5196,9 @@
       "kind": "film",
       "lineage": "punk-postpunk",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "Punk Rock"
+      ],
       "line": "拍摄于 1979–1980 年，记录洛杉矶的朋克现场。",
       "source": "https://en.wikipedia.org/wiki/The_Decline_of_Western_Civilization"
     },
@@ -5198,7 +5212,7 @@
       "artistIds": [
         "joy-division"
       ],
-      "regions": [],
+      "genres": [],
       "line": "关于 Joy Division 的纪录片，由 Jon Savage 撰稿。",
       "source": "https://en.wikipedia.org/wiki/Joy_Division_(2007_film)"
     },
@@ -5213,7 +5227,7 @@
         "new-order",
         "joy-division"
       ],
-      "regions": [],
+      "genres": [],
       "line": "以 Factory Records 创办人 Tony Wilson 为主角的剧情片，讲 1976–1992 年的曼彻斯特音乐圈。",
       "source": "https://en.wikipedia.org/wiki/24_Hour_Party_People"
     },
@@ -5224,8 +5238,10 @@
       "year": 2001,
       "kind": "book",
       "lineage": "shoegaze-indie",
-      "artistIds": [],
-      "regions": [],
+      "artistIds": [
+        "sonic-youth"
+      ],
+      "genres": [],
       "line": "写 1981–1991 年间靠不停巡演和独立小厂牌起家的美国地下乐队。",
       "source": "https://en.wikipedia.org/wiki/Our_Band_Could_Be_Your_Life"
     },
@@ -5240,7 +5256,9 @@
         "cocteau-twins",
         "my-bloody-valentine"
       ],
-      "regions": [],
+      "genres": [
+        "Shoegaze"
+      ],
       "line": "讲 Cocteau Twins、The Jesus and Mary Chain、My Bloody Valentine 三支乐队，以及它们对自赏的影响。",
       "source": "https://en.wikipedia.org/wiki/Beautiful_Noise_(film)"
     },
@@ -5252,7 +5270,9 @@
       "kind": "book",
       "lineage": "shoegaze-indie",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "Post-Rock"
+      ],
       "line": "一本讲后摇滚如何成形的书，Jawbone Press 出版。",
       "source": "https://en.wikipedia.org/wiki/Post-rock"
     },
@@ -5264,9 +5284,11 @@
       "kind": "film",
       "lineage": "shoegaze-indie",
       "artistIds": [
-        "oasis"
+        "oasis",
+        "my-bloody-valentine",
+        "slowdive"
       ],
-      "regions": [],
+      "genres": [],
       "line": "讲 Creation Records 这家厂牌的纪录片，Alan McGee、Noel Gallagher 等人出镜。",
       "source": "https://en.wikipedia.org/wiki/Upside_Down:_The_Creation_Records_Story"
     },
@@ -5278,7 +5300,12 @@
       "kind": "book",
       "lineage": "electronic-idm",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "Detroit Techno",
+        "Drum and Bass",
+        "Ambient Techno",
+        "IDM"
+      ],
       "line": "写 1980 年代中期以来的舞曲与锐舞文化；美国版书名是 Generation Ecstasy。",
       "source": "https://en.wikipedia.org/wiki/Energy_Flash"
     },
@@ -5290,7 +5317,9 @@
       "kind": "book",
       "lineage": "electronic-idm",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "French House"
+      ],
       "line": "Laurent Garnier 1980 年代末在曼彻斯特开始做 DJ，这是他与 David Brun-Lambert 合写的书。",
       "source": "https://en.wikipedia.org/wiki/Laurent_Garnier"
     },
@@ -5306,7 +5335,9 @@
         "can",
         "kraftwerk"
       ],
-      "regions": [],
+      "genres": [
+        "Krautrock"
+      ],
       "line": "BBC Four 的纪录片，讲 Neu!、Can、Faust、Kraftwerk 等乐队在 1968–1977 年间做出的新德国音乐。",
       "source": "https://www.bbc.co.uk/programmes/b00nf10k"
     },
@@ -5320,7 +5351,9 @@
       "artistIds": [
         "inner-city"
       ],
-      "regions": [],
+      "genres": [
+        "Detroit Techno"
+      ],
       "line": "讲 Techno 在底特律的诞生，主角是 Juan Atkins、Derrick May 和 Kevin Saunderson。",
       "source": "https://www.tvguide.com/movies/high-tech-soul-the-creation-of-techno-music/cast/2030111124/"
     },
@@ -5331,8 +5364,11 @@
       "year": 2005,
       "kind": "book",
       "lineage": "hiphop",
-      "artistIds": [],
-      "regions": [],
+      "artistIds": [
+        "grandmaster-flash",
+        "public-enemy"
+      ],
+      "genres": [],
       "line": "一本记录早期嘻哈现场的历史书。",
       "source": "https://en.wikipedia.org/wiki/Can%27t_Stop_Won%27t_Stop_(book)"
     },
@@ -5346,7 +5382,7 @@
       "artistIds": [
         "j-dilla"
       ],
-      "regions": [],
+      "genres": [],
       "line": "J Dilla 的传记，写到他 2006 年去世和身后的影响；书名指的是他标志性的节奏感。",
       "source": "https://en.wikipedia.org/wiki/Dilla_Time"
     },
@@ -5357,8 +5393,10 @@
       "year": 1983,
       "kind": "film",
       "lineage": "hiphop",
-      "artistIds": [],
-      "regions": [],
+      "artistIds": [
+        "grandmaster-flash"
+      ],
+      "genres": [],
       "line": "在 PBS 首播的嘻哈文化纪录片，重点拍的是涂鸦。",
       "source": "https://en.wikipedia.org/wiki/Style_Wars"
     },
@@ -5369,8 +5407,10 @@
       "year": 2001,
       "kind": "film",
       "lineage": "hiphop",
-      "artistIds": [],
-      "regions": [],
+      "artistIds": [
+        "dj-shadow"
+      ],
+      "genres": [],
       "line": "讲嘻哈 DJ 的纪录片：从延长唱片里的 break，到搓盘，再到 turntablism。",
       "source": "https://en.wikipedia.org/wiki/Scratch_(2001_film)"
     },
@@ -5384,7 +5424,7 @@
       "artistIds": [
         "nas"
       ],
-      "regions": [],
+      "genres": [],
       "line": "讲 Nas 做出 1994 年首张专辑《Illmatic》之前的经历，在专辑发行 20 周年时上映。",
       "source": "https://en.wikipedia.org/wiki/Nas:_Time_Is_Illmatic"
     },
@@ -5398,7 +5438,7 @@
       "artistIds": [
         "grandmaster-flash"
       ],
-      "regions": [],
+      "genres": [],
       "line": "被视为第一部嘻哈电影，Grandmaster Flash 等人出镜。",
       "source": "https://en.wikipedia.org/wiki/Wild_Style"
     },
@@ -5412,7 +5452,7 @@
       "artistIds": [
         "talking-heads"
       ],
-      "regions": [],
+      "genres": [],
       "line": "Talking Heads 的演唱会电影，1983 年 12 月在好莱坞 Pantages 剧院拍了四晚。",
       "source": "https://en.wikipedia.org/wiki/Stop_Making_Sense"
     },
@@ -5426,7 +5466,7 @@
       "artistIds": [
         "talking-heads"
       ],
-      "regions": [],
+      "genres": [],
       "line": "Talking Heads 主唱 David Byrne 写的书，一半是自传，一半谈音乐本身。",
       "source": "https://en.wikipedia.org/wiki/How_Music_Works"
     },
@@ -5440,7 +5480,7 @@
       "artistIds": [
         "ymo"
       ],
-      "regions": [],
+      "genres": [],
       "line": "坂本龙一的纪录片，拍到他患癌后的生活和福岛核事故之后的环保行动。",
       "source": "https://en.wikipedia.org/wiki/Ryuichi_Sakamoto:_Coda"
     },
@@ -5454,7 +5494,7 @@
       "artistIds": [
         "radiohead"
       ],
-      "regions": [],
+      "genres": [],
       "line": "跟拍 Radiohead《OK Computer》世界巡演的纪录片。",
       "source": "https://en.wikipedia.org/wiki/Meeting_People_Is_Easy"
     },
@@ -5466,8 +5506,8 @@
       "kind": "book",
       "lineage": "artpop-citypop",
       "artistIds": [],
-      "regions": [
-        "japan"
+      "genres": [
+        "Shibuya-kei"
       ],
       "line": "涩谷出身的音乐制作人牧村宪一与藤井丈司、柴那典合著，太田出版。",
       "source": "https://ja.wikipedia.org/wiki/柴那典"
@@ -5480,8 +5520,8 @@
       "kind": "book",
       "lineage": "artpop-citypop",
       "artistIds": [],
-      "regions": [
-        "japan"
+      "genres": [
+        "City Pop"
       ],
       "line": "用 100 张专辑介绍 City Pop 的一本书。",
       "source": "https://ja.wikipedia.org/wiki/シティ・ポップ"
@@ -5493,10 +5533,10 @@
       "year": 2015,
       "kind": "book",
       "lineage": "folk-psych",
-      "artistIds": [],
-      "regions": [
-        "cn-mainland"
+      "artistIds": [
+        "dou-wei"
       ],
+      "genres": [],
       "line": "摄影师高原拍下的 1990 年代中国摇滚台前幕后，中信出版社出版。",
       "source": "https://book.douban.com/subject/26580056/"
     },
@@ -5507,10 +5547,10 @@
       "year": 2001,
       "kind": "book",
       "lineage": "folk-psych",
-      "artistIds": [],
-      "regions": [
-        "cn-mainland"
+      "artistIds": [
+        "cui-jian"
       ],
+      "genres": [],
       "line": "颜峻的乐评集，收有《崔健之后》《摇滚乐在中国的可能性》等文章。",
       "source": "https://www.book345.com/detail/9787119025438-内心的噪音"
     },
@@ -5521,26 +5561,12 @@
       "year": 2010,
       "kind": "book",
       "lineage": "folk-psych",
-      "artistIds": [],
-      "regions": [
-        "cn-mainland"
+      "artistIds": [
+        "cui-jian"
       ],
+      "genres": [],
       "line": "一本研究全球化、城市青年与中国流行音乐的书。",
       "source": "https://en.wikipedia.org/wiki/Dakou"
-    },
-    {
-      "id": "chega-de-saudade",
-      "title": "Chega de Saudade",
-      "creator": "Ruy Castro",
-      "year": 1990,
-      "kind": "book",
-      "lineage": "folk-psych",
-      "artistIds": [],
-      "regions": [
-        "latam"
-      ],
-      "line": "巴西作家 Ruy Castro 写的 Bossa Nova 的历史与故事，Companhia das Letras 出版。",
-      "source": "https://en.wikipedia.org/wiki/Bossa_nova"
     },
     {
       "id": "tropicalia-doc",
@@ -5552,8 +5578,8 @@
       "artistIds": [
         "os-mutantes"
       ],
-      "regions": [
-        "latam"
+      "genres": [
+        "Tropicália"
       ],
       "line": "大量用档案影像讲 1967–1969 年的热带主义运动，Caetano Veloso、Gilberto Gil、Tom Zé 和 Os Mutantes 的成员出镜。",
       "source": "https://lafilm.web.unc.edu/tropicalia/"
@@ -5568,7 +5594,7 @@
       "artistIds": [
         "fela-kuti"
       ],
-      "regions": [],
+      "genres": [],
       "line": "讲尼日利亚音乐家 Fela Kuti 生平的纪录片，2014 年在圣丹斯电影节首映。",
       "source": "https://en.wikipedia.org/wiki/Finding_Fela"
     },
@@ -5582,7 +5608,7 @@
       "artistIds": [
         "bob-dylan"
       ],
-      "regions": [],
+      "genres": [],
       "line": "讲 Bob Dylan 从 1961 年到纽约，到 1966 年摩托车事故后停止巡演的这几年；片名出自〈Like a Rolling Stone〉的歌词。",
       "source": "https://en.wikipedia.org/wiki/No_Direction_Home"
     },
@@ -5594,7 +5620,10 @@
       "kind": "book",
       "lineage": "heavy-industrial",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "Industrial",
+        "Industrial Rock"
+      ],
       "line": "牛津大学出版社出版的工业音乐史，从意大利未来主义、William S. Burroughs 这些早期影响写到当下。",
       "source": "https://en.wikipedia.org/wiki/Assimilate:_A_Critical_History_of_Industrial_Music"
     },
@@ -5608,23 +5637,9 @@
       "artistIds": [
         "throbbing-gristle"
       ],
-      "regions": [],
+      "genres": [],
       "line": "RE/Search 出版的访谈集，收有 Throbbing Gristle、Cabaret Voltaire、SPK 等人的访谈。",
       "source": "https://en.wikipedia.org/wiki/Industrial_Culture_Handbook"
-    },
-    {
-      "id": "japrocksampler",
-      "title": "Japrocksampler",
-      "creator": "Julian Cope",
-      "year": 2007,
-      "kind": "book",
-      "lineage": "heavy-industrial",
-      "artistIds": [],
-      "regions": [
-        "japan"
-      ],
-      "line": "音乐人 Julian Cope 写战后日本摇滚的书，2007 年由 Bloomsbury 出版。",
-      "source": "https://en.wikipedia.org/wiki/Japrocksampler"
     },
     {
       "id": "black-metal-evolution-of-the-cult",
@@ -5633,8 +5648,12 @@
       "year": 2013,
       "kind": "book",
       "lineage": "heavy-industrial",
-      "artistIds": [],
-      "regions": [],
+      "artistIds": [
+        "black-sabbath"
+      ],
+      "genres": [
+        "Blackgaze"
+      ],
       "line": "讲黑金属的演变：从第一张 Black Sabbath 专辑写起，经过挪威，再到其他国家的场景。",
       "source": "https://en.wikipedia.org/wiki/Black_Metal:_Evolution_of_the_Cult"
     },
@@ -5646,7 +5665,9 @@
       "kind": "film",
       "lineage": "heavy-industrial",
       "artistIds": [],
-      "regions": [],
+      "genres": [
+        "Blackgaze"
+      ],
       "line": "关于早期挪威黑金属的纪录片。",
       "source": "https://en.wikipedia.org/wiki/Until_the_Light_Takes_Us"
     }

@@ -38,7 +38,6 @@ export class PreviewPlayer {
   private state: PreviewState = { trackId: null, status: 'idle' };
   private listeners = new Set<() => void>();
   private refreshed = new Map<string, string>();
-  private unavailable = new Set<string>();
   private muted = false;
   // Guards against a slow request finishing after the player has moved on.
   private ticket = 0;
@@ -71,10 +70,6 @@ export class PreviewPlayer {
     if (this.audio) this.audio.muted = muted;
   }
 
-  isUnavailable(trackId: string): boolean {
-    return this.unavailable.has(trackId);
-  }
-
   stop(): void {
     this.ticket += 1;
     if (this.audio) {
@@ -96,7 +91,6 @@ export class PreviewPlayer {
   private async play(trackId: string, apple: AppleMatch | undefined): Promise<void> {
     this.stop();
     if (!apple) {
-      this.unavailable.add(trackId);
       this.set({ trackId, status: 'unavailable' });
       return;
     }
@@ -121,7 +115,6 @@ export class PreviewPlayer {
       // The browser wants a fresh click before it will play; the next press works.
       this.set({ trackId: null, status: 'idle' });
     } else {
-      this.unavailable.add(trackId);
       this.set({ trackId, status: 'unavailable' });
     }
   }

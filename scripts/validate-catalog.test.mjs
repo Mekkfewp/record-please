@@ -97,6 +97,14 @@ test('rejects a lore item without a source', () => {
   expectFailure((c) => { c.lore[0].source = ''; }, 'lore');
 });
 
+test('rejects a lore item that is not about any card', () => {
+  expectFailure((c) => { c.lore[0].artistIds = []; c.lore[0].genres = []; }, 'lore');
+});
+
+test('rejects a lore item that names a genre no card has', () => {
+  expectFailure((c) => { c.lore[0].genres = ['Vaporwave']; }, 'lore');
+});
+
 const matched = (c) => c.tracks.filter((t) => t.apple);
 
 test('rejects a card without listening links', () => {

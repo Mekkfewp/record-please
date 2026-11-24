@@ -1,0 +1,420 @@
+/* Fusion Pixel Font, SIL Open Font License 1.1; licence texts ship in /fonts. */
+@font-face {
+  font-family: 'Fusion Pixel';
+  src: url('/fonts/fusion-pixel-12px-proportional-zh_hans.otf.woff2') format('woff2');
+  font-display: swap;
+}
+
+:root {
+  --wall: #1a211d;
+  --bar: #141a17;
+  --paper: #ece3cc;
+  --kraft: #d9cba9;
+  --ink: #191613;
+  --ink-muted: #5c5345;
+  --olive: #48574d;
+  --green: #1e6b3a;
+  --red: #962828;
+  --blue: #284b7a;
+  --brass: #d4a247;
+  /* The font is drawn on a 12px grid; these sizes keep its pixels whole on 2x screens. */
+  --small: 12px;
+  --text: 18px;
+  --large: 24px;
+  --huge: 36px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100vh;
+}
+
+body {
+  background:
+    repeating-linear-gradient(0deg, #1d2420 0, #1d2420 3px, #19201c 3px, #19201c 6px);
+  color: var(--ink);
+  font-family: 'Fusion Pixel', 'PingFang SC', 'Microsoft YaHei', 'Noto Sans CJK SC', sans-serif;
+  font-size: var(--text);
+  line-height: 1.5;
+  -webkit-font-smoothing: none;
+  font-synthesis: none;
+}
+
+h1,
+h2,
+p,
+dl,
+dd,
+ol,
+ul,
+fieldset {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+a {
+  color: var(--blue);
+}
+
+.muted {
+  color: var(--ink-muted);
+}
+
+/* ---- Frame ---- */
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 8px 16px;
+  background: var(--bar);
+  border-bottom: 3px solid var(--olive);
+  color: var(--paper);
+}
+
+.brand {
+  flex: 1;
+  font-size: var(--small);
+  letter-spacing: 0.1em;
+}
+
+.counter {
+  color: var(--brass);
+  font-size: var(--large);
+  line-height: 1;
+}
+
+.sheet {
+  width: min(680px, calc(100% - 24px));
+  margin: 24px 0 36px;
+  padding: 24px;
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, 0.45);
+  /* The tilted stamp must not widen the page. */
+  overflow: hidden;
+}
+
+/* ---- Buttons ---- */
+
+.btn {
+  font: inherit;
+  line-height: 1.2;
+  color: var(--ink);
+  background: var(--kraft);
+  border: 3px solid var(--ink);
+  box-shadow: 3px 3px 0 var(--ink);
+  padding: 8px 14px;
+  cursor: pointer;
+}
+
+.btn:active:not(:disabled) {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--ink);
+}
+
+.btn:focus-visible {
+  outline: 3px solid var(--brass);
+  outline-offset: 2px;
+}
+
+.btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.btn[aria-pressed='true'] {
+  background: var(--brass);
+}
+
+.btn.primary,
+.btn.stamp-keep {
+  background: var(--green);
+  color: var(--paper);
+}
+
+.btn.stamp-skip {
+  background: var(--red);
+  color: var(--paper);
+}
+
+.btn.stamp-keep,
+.btn.stamp-skip,
+.btn.wide {
+  font-size: var(--large);
+  padding: 12px 14px;
+}
+
+.btn.wide {
+  width: 100%;
+}
+
+.btn.small {
+  font-size: var(--small);
+  padding: 6px 10px;
+  box-shadow: none;
+  background: transparent;
+  color: var(--paper);
+  border-color: var(--olive);
+}
+
+/* ---- Start ---- */
+
+.start h1 {
+  font-size: var(--huge);
+  line-height: 1.2;
+  margin-bottom: 24px;
+}
+
+.choice {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 28px;
+}
+
+.choice legend {
+  padding: 0;
+  margin-bottom: 10px;
+  color: var(--ink-muted);
+}
+
+/* ---- Booth ---- */
+
+.booth {
+  animation: slide-in 0.2s steps(4);
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateY(-16px);
+    opacity: 0;
+  }
+}
+
+.booth-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.reason {
+  flex: 1;
+  padding-left: 12px;
+  border-left: 6px solid var(--brass);
+}
+
+.ink-stamp {
+  flex: none;
+  padding: 0 10px;
+  font-size: var(--large);
+  line-height: 1.4;
+  color: var(--green);
+  border: 3px solid var(--green);
+  transform: rotate(-6deg);
+  animation: stamp-in 0.15s steps(3);
+}
+
+@keyframes stamp-in {
+  from {
+    transform: rotate(-6deg) scale(1.6);
+    opacity: 0;
+  }
+}
+
+.record {
+  display: grid;
+  grid-template-columns: 192px 1fr;
+  gap: 20px;
+}
+
+.cover {
+  display: block;
+  border: 3px solid var(--ink);
+  background: var(--kraft);
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.cover.large {
+  width: 192px;
+  height: 192px;
+}
+
+.cover.small {
+  width: 72px;
+  height: 72px;
+}
+
+.cover-empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--small);
+  color: var(--ink-muted);
+}
+
+.record-text h1 {
+  font-size: var(--large);
+  line-height: 1.25;
+  margin-bottom: 6px;
+  overflow-wrap: anywhere;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 8px 0 14px;
+  font-size: var(--small);
+}
+
+.tags span {
+  padding: 2px 6px;
+  border: 2px solid var(--ink-muted);
+  color: var(--ink-muted);
+}
+
+.listen-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px 12px;
+  margin-top: 10px;
+  font-size: var(--small);
+}
+
+/* Apple's badge is shown as supplied: no effects, clear space around it, never under 30px tall. */
+.apple-badge {
+  padding: 4px;
+  line-height: 0;
+}
+
+.apple-badge img {
+  display: block;
+  height: 34px;
+  width: auto;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  margin-top: 24px;
+}
+
+.actions .btn {
+  flex: 1;
+  white-space: nowrap;
+}
+
+.details {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 14px;
+  margin-top: 24px;
+  padding-top: 18px;
+  border-top: 3px dashed var(--ink-muted);
+}
+
+.details dt {
+  color: var(--ink-muted);
+  white-space: nowrap;
+}
+
+.credit {
+  margin-top: 24px;
+  font-size: var(--small);
+  color: var(--ink-muted);
+}
+
+/* ---- Result ---- */
+
+.persona {
+  display: grid;
+  grid-template-columns: 144px 1fr;
+  gap: 20px;
+  align-items: center;
+}
+
+.portrait {
+  width: 144px;
+  height: 144px;
+  border: 3px solid var(--ink);
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+}
+
+.persona h1 {
+  font-size: var(--huge);
+  line-height: 1.2;
+  margin: 2px 0 8px;
+}
+
+.result h2 {
+  margin: 28px 0 6px;
+  font-size: var(--text);
+  color: var(--ink-muted);
+}
+
+.playlist,
+.reading {
+  list-style: none;
+}
+
+.playlist li {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 14px;
+  padding: 12px 0;
+  border-bottom: 3px dashed var(--kraft);
+}
+
+.playlist .listen-links {
+  margin-top: 4px;
+}
+
+.reading li {
+  padding: 8px 0;
+  border-bottom: 3px dashed var(--kraft);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .booth,
+  .ink-stamp {
+    animation: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .sheet {
+    padding: 16px;
+  }
+
+  .record,
+  .persona {
+    grid-template-columns: 1fr;
+  }
+
+  .start h1,
+  .persona h1 {
+    font-size: var(--large);
+  }
+}

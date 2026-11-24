@@ -171,8 +171,16 @@ for (const l of catalog.lore) {
   if (!Number.isInteger(l.year)) fail('lore', `lore "${l.id}" needs one integer year`);
   if (typeof l.line !== 'string' || l.line.length < 8) fail('lore', `lore "${l.id}" needs a one-line description`);
   if (typeof l.source !== 'string' || !/^https?:\/\//.test(l.source)) fail('lore', `lore "${l.id}" needs a source URL`);
-  for (const a of l.artistIds ?? []) if (!artists.has(a)) fail('lore', `lore "${l.id}" points to missing artist "${a}"`);
-  for (const r of l.regions ?? []) if (!regions.has(r)) fail('lore', `lore "${l.id}" points to unknown region "${r}"`);
+  if (!Array.isArray(l.artistIds) || !Array.isArray(l.genres)) {
+    fail('lore', `lore "${l.id}" needs artistIds and genres lists (either may be empty, not both)`);
+    continue;
+  }
+  for (const a of l.artistIds) if (!artists.has(a)) fail('lore', `lore "${l.id}" points to missing artist "${a}"`);
+  for (const g of l.genres) if (!catalog.tracks.some((t) => t.genre === g)) fail('lore', `lore "${l.id}" names genre "${g}", which no card has`);
+  // An item is only ever shown under a card it is about, so it must be about at least one.
+  if (!catalog.tracks.some((t) => l.artistIds.includes(t.artistId) || l.genres.includes(t.genre))) {
+    fail('lore', `lore "${l.id}" is not about any card's artist or genre, so it could never be shown`);
+  }
 }
 void loreIds;
 
