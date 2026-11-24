@@ -1,7 +1,7 @@
 /* Fusion Pixel Font, SIL Open Font License 1.1; licence texts ship in /fonts. */
 @font-face {
   font-family: 'Fusion Pixel';
-  src: url('/fonts/fusion-pixel-12px-proportional-zh_hans.otf.woff2') format('woff2');
+  src: url('/fonts/fusion-pixel-12px-proportional-zh_hans.subset.woff2') format('woff2');
   font-display: swap;
 }
 

@@ -11,7 +11,9 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "match": "node scripts/match-apple.mjs",
-    "match:cn": "node scripts/check-cn-storefront.mjs"
+    "match:cn": "node scripts/check-cn-storefront.mjs",
+    "font:subset": "node scripts/subset-font.mjs",
+    "test:e2e": "npm run build && node e2e/play.mjs"
   },
   "dependencies": {
     "react": "^19.3.1",

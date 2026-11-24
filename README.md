@@ -9,7 +9,8 @@ npm install
 npm run dev        # development server
 npm run build      # validates the catalog, type-checks, builds to dist/
 npm run preview    # serves dist/ on port 4173
-npm test           # catalog rules, game rules, preview player, link choice
+npm test           # catalog rules, game rules, preview player, link choice, font coverage
+npm run test:e2e   # builds, then plays the game in Chrome and checks the screen against the catalog
 npm run lint
 ```
 
@@ -18,6 +19,7 @@ npm run lint
 - `src/data/catalog.json` is the only source of content: cards (one recording each), artists, albums, the decade × region entry cards, lineages, books and films, personas. `npm run validate` enforces its rules and the build fails without it.
 - `src/engine/game.ts` is the whole game as one pure function: which card comes next, when the game ends. `src/engine/persona.ts` reads the persona off the kept cards. Both are covered by `tests/`.
 - `src/components/` holds the three screens: start, booth, result.
+- `e2e/play.mjs` plays every decade × region to the end in a real browser. It needs Google Chrome (or `CHROME_PATH`) and network access to Apple. `E2E_URL=<address> node e2e/play.mjs` plays a copy that is already being served; `--shots <dir>` saves screenshots.
 
 ## Music data
 
@@ -36,3 +38,13 @@ Previews are streamed from Apple and never stored; covers are loaded from Apple 
 
 - 30-second previews and cover art: provided courtesy of iTunes.
 - Font: [Fusion Pixel Font](https://github.com/TakWolf/fusion-pixel-font), SIL Open Font License 1.1. Licence texts are in `public/fonts/`.
+
+## Font
+
+The game ships a subset of the font: only the characters the catalog and the UI can show (about 22 KB instead of 680 KB). The full font is in `fonts-src/`. After adding text with new characters, run
+
+```
+npm run font:subset   # needs fonttools: pip install fonttools brotli
+```
+
+`npm test` fails when the shipped font lacks a character the game can show.
