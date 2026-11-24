@@ -94,9 +94,12 @@ function score(candidate, track, artist, album, hint) {
     notes.push('title only partly matches');
   } else notes.push('TITLE DIFFERS');
 
+  const single = album.kind === 'single';
   const albumTitles = [album.title, ...(hint?.albumAliases ?? [])].map(norm);
   const cAlbum = norm(candidate.collectionName ?? '');
-  if (albumTitles.includes(cAlbum)) s += 25;
+  // A single has no album of its own; Apple carries it on later collections, so there is nothing to compare.
+  if (single) notes.push('single: found on a later collection, check the recording by hand');
+  else if (albumTitles.includes(cAlbum)) s += 25;
   else if (albumTitles.some((n) => n && (cAlbum.startsWith(n) || n.startsWith(cAlbum)))) {
     s += 15;
     notes.push('album title only partly matches');
@@ -111,7 +114,7 @@ function score(candidate, track, artist, album, hint) {
     }
   }
   const comp = (candidate.collectionName ?? '').match(COMPILATION);
-  if (comp && !new RegExp(comp[0], 'i').test(album.title)) {
+  if (comp && !single && !new RegExp(comp[0], 'i').test(album.title)) {
     s -= 12;
     notes.push(`album looks like a compilation ("${comp[0]}")`);
   }

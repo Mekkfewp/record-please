@@ -1,7 +1,7 @@
 import type {
   Album,
   Artist,
-  BirthEra,
+  EraId,
   Card,
   Cell,
   Era,
@@ -12,6 +12,7 @@ import type {
   Region,
   RegionId,
   Track,
+  UnfilledCell,
 } from '../types/game';
 
 /** The shape of src/data/catalog.json; `npm run validate` checks its rules. */
@@ -24,6 +25,7 @@ export interface RawCatalog {
   albums: Album[];
   tracks: Track[];
   cells: Cell[];
+  unfilled: UnfilledCell[];
   lore: LoreItem[];
   personas: Persona[];
 }
@@ -37,8 +39,10 @@ export interface Catalog {
   personas: Persona[];
   cards: Card[];
   card(id: string): Card;
-  cell(era: BirthEra, region: RegionId): Cell;
-  era(id: BirthEra): Era;
+  cell(era: EraId, region: RegionId): Cell;
+  /** False for a decade and region the catalog could not fill. */
+  hasCell(era: EraId, region: RegionId): boolean;
+  era(id: EraId): Era;
   region(id: RegionId): Region;
   lineage(id: LineageId): Lineage;
   loreItem(id: string): LoreItem;
@@ -74,6 +78,7 @@ export function buildCatalog(raw: RawCatalog): Catalog {
         raw.cells.find((c) => c.era === era && c.region === region),
         `cell for ${era} x ${region}`,
       ),
+    hasCell: (era, region) => raw.cells.some((c) => c.era === era && c.region === region),
     era: (id) => need(raw.eras.find((e) => e.id === id), `era "${id}"`),
     region: (id) => need(raw.regions.find((r) => r.id === id), `region "${id}"`),
     lineage: (id) => need(raw.lineages.find((l) => l.id === id), `lineage "${id}"`),

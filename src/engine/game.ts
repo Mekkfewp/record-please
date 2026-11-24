@@ -1,4 +1,4 @@
-import type { BirthEra, Card, LineageId, RegionId } from '../types/game';
+import type { Card, EraId, LineageId, RegionId } from '../types/game';
 import type { Catalog } from './catalogIndex';
 
 /**
@@ -6,11 +6,11 @@ import type { Catalog } from './catalogIndex';
  * a random source: the same catalog, profile, seed and decisions always deal the same cards.
  *
  * Rules, in the order a player meets them:
- *  1. Card 1 is the profile's local entry card, card 2 its global one.
+ *  1. Card 1 is the local entry card of the chosen decade and region, card 2 the global one.
  *  2. From card 3 the desk follows one lineage at a time: the lineage of an entry card the
  *     player kept, otherwise the first lineage the profile's cell bridges to.
  *  3. Inside a lineage the next card is the unseen one that best fits the player: the right
- *     depth for how much they have kept there, from their region, from their listening years.
+ *     depth for how much they have kept there, from their region, from their decade.
  *  4. One skip stays in the lineage and tries a different style; two skips in a row leave it.
  *  5. Three kept cards in a lineage are enough; the desk moves next door.
  *  6. No card is dealt twice, and the ninth decision always ends the game.
@@ -28,7 +28,7 @@ const SAME_GENRE_AFTER_SKIP = 2;
 const LUCK = 0.9;
 
 export interface Profile {
-  era: BirthEra;
+  era: EraId;
   region: RegionId;
 }
 
@@ -130,7 +130,7 @@ export function fromRegion(card: Card, profile: Profile): boolean {
 
 export function inWindow(catalog: Catalog, card: Card, profile: Profile): boolean {
   const era = catalog.era(profile.era);
-  return card.track.year >= era.windowStart && card.track.year <= era.windowEnd;
+  return card.track.year >= era.start && card.track.year <= era.end;
 }
 
 /** The unseen card of a lineage that fits this player best right now. */
@@ -143,7 +143,7 @@ export function pickInLineage(catalog: Catalog, state: GameState, lineage: Linea
 
   return best(unseenIn(catalog, state, lineage), (card) => {
     const { year, tier, genre, id } = card.track;
-    const yearsOut = year < era.windowStart ? era.windowStart - year : year > era.windowEnd ? year - era.windowEnd : 0;
+    const yearsOut = year < era.start ? era.start - year : year > era.end ? year - era.end : 0;
     return (
       -TIER_STEP * Math.abs(tier - targetTier) +
       (fromRegion(card, profile) ? REGION_BONUS : 0) +
@@ -179,10 +179,7 @@ function chooseFocus(catalog: Catalog, state: GameState, from: LineageId | null,
 
 function affinity(catalog: Catalog, profile: Profile, card: Card): string {
   if (fromRegion(card, profile)) return `，这张来自${catalog.region(profile.region).label}`;
-  if (inWindow(catalog, card, profile)) {
-    const era = catalog.era(profile.era);
-    return `，这张出自 ${era.windowStart}–${era.windowEnd} 年间`;
-  }
+  if (inWindow(catalog, card, profile)) return `，这张出自 ${catalog.era(profile.era).label}`;
   return '';
 }
 
@@ -208,11 +205,11 @@ function deal(catalog: Catalog, state: GameState): GameState {
     return onDesk(
       catalog.card(cell.local),
       'local',
-      `你长大的那些年（${era.windowStart}–${era.windowEnd}），${catalog.region(profile.region).label}的一首。`,
+      `${era.label}，${catalog.region(profile.region).label}的一首。`,
     );
   }
   if (round === 2) {
-    return onDesk(catalog.card(cell.global), 'global', '还是那些年，这首你多半听过。');
+    return onDesk(catalog.card(cell.global), 'global', `还是 ${era.label}，一首当年的流行曲。`);
   }
 
   const name = (id: LineageId) => `「${catalog.lineage(id).nameZh}」`;
@@ -288,6 +285,7 @@ function advance(catalog: Catalog, state: GameState): GameState {
 export function reduce(state: GameState, action: Action, catalog: Catalog): GameState {
   switch (action.type) {
     case 'start':
+      if (!catalog.hasCell(action.profile.era, action.profile.region)) return state;
       return deal(catalog, { ...initialState, profile: action.profile, seed: action.seed >>> 0 });
     case 'restart':
       return initialState;

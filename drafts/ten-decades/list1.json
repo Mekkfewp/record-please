@@ -1,0 +1,21 @@
+[
+{"id":"zhou-xuan-tianya","term":["周璇 天涯歌女"],"stores":["hk","cn","us"],"title":"天涯歌女"},
+{"id":"yao-lee-meigui","term":["姚莉 玫瑰玫瑰我爱你","姚莉 玫瑰玫瑰我愛你"],"stores":["hk","cn"],"title":"玫瑰"},
+{"id":"chunchun-wangchunfeng","term":["純純 望春風","纯纯 望春风"],"stores":["tw","hk"],"title":"望春"},
+{"id":"guo-lanying-wodezuguo","term":["郭兰英 我的祖国"],"stores":["cn","hk","us"],"title":"我的祖"},
+{"id":"wang-yuzhen-honghu","term":["洪湖水浪打浪"],"stores":["cn","hk"],"title":"洪湖水"},
+{"id":"caidan-zhuoma","term":["才旦卓玛 唱支山歌给党听"],"stores":["cn","hk"],"title":"唱支山歌"},
+{"id":"li-guyi-xianglian","term":["李谷一 乡恋"],"stores":["cn","hk","us"],"title":"乡恋|鄉戀"},
+{"id":"grace-chang","term":["葛蘭 我要你的愛","葛兰 说不出的快活","葛蘭 說不出的快活"],"stores":["hk","tw"],"artist":"葛|Grace"},
+{"id":"yao-surong","term":["姚蘇蓉 今天不回家","姚苏蓉 今天不回家"],"stores":["tw","hk"],"title":"今天不回家"},
+{"id":"teresa-yueliang","term":["鄧麗君 月亮代表我的心"],"stores":["hk","tw"],"title":"月亮代表我的心","artist":"鄧麗君|邓丽君|Teresa"},
+{"id":"lo-tayu-lugang","term":["羅大佑 鹿港小鎮"],"stores":["tw","hk"],"title":"鹿港"},
+{"id":"xu-wei-lanlianhua","term":["许巍 蓝莲花"],"stores":["cn","hk","us"],"title":"蓝莲花|藍蓮花"},
+{"id":"eason-guyongzhe","term":["陈奕迅 孤勇者","陳奕迅 孤勇者"],"stores":["hk","cn"],"title":"孤勇者"},
+{"id":"sam-hui","term":["許冠傑 半斤八兩"],"stores":["hk"],"title":"半斤八"},
+{"id":"fujiyama-tokyo-rhapsody","term":["藤山一郎 東京ラプソディ"],"stores":["jp"],"title":"東京ラプソディ"},
+{"id":"kasagi-tokyo-boogie","term":["笠置シヅ子 東京ブギウギ"],"stores":["jp"],"title":"東京ブギ"},
+{"id":"hibari-omatsuri","term":["美空ひばり お祭りマンボ"],"stores":["jp"],"title":"お祭りマンボ"},
+{"id":"sakamoto-ue-o-muite","term":["坂本九 上を向いて歩こう"],"stores":["jp"],"title":"上を向いて"},
+{"id":"yoasobi-idol","term":["YOASOBI アイドル"],"stores":["jp"],"title":"^アイドル$"}
+]

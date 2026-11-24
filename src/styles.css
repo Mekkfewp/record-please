@@ -195,6 +195,28 @@ a {
   color: var(--ink-muted);
 }
 
+.choice.eras {
+  flex-direction: column;
+  gap: 8px;
+}
+
+.btn.era {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 12px;
+  text-align: left;
+}
+
+.era-label {
+  flex: none;
+}
+
+.era-caption {
+  color: var(--ink-muted);
+  font-size: var(--small);
+}
+
 /* ---- Booth ---- */
 
 .booth {

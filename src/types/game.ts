@@ -1,4 +1,4 @@
-export type BirthEra = '1970s' | '1980s' | '1990s' | '2000s';
+export type EraId = '1930s' | '1940s' | '1950s' | '1960s' | '1970s' | '1980s' | '1990s' | '2000s' | '2010s' | '2020s';
 
 export type RegionId =
   | 'cn-mainland'
@@ -68,11 +68,15 @@ export interface PixelPortraitSpec {
 
 // ---- Catalog records, exactly as stored in src/data/catalog.json ----
 
+/** A decade of music, not of birth: `start`..`end` are the first and last year of the decade. */
 export interface Era {
-  id: BirthEra;
+  id: EraId;
   label: string;
-  windowStart: number;
-  windowEnd: number;
+  start: number;
+  end: number;
+  /** One line naming what the decade is known for; every part of it is backed by `sources`. */
+  caption: string;
+  sources: string[];
 }
 
 export interface Region {
@@ -99,6 +103,8 @@ export interface Album {
   title: string;
   artistId: string;
   year: number;
+  /** Set when the recording came out as a single and belongs to no album of its time. */
+  kind?: 'single';
 }
 
 export interface Track {
@@ -133,11 +139,18 @@ export interface ListenLinks {
 }
 
 export interface Cell {
-  era: BirthEra;
+  era: EraId;
   region: RegionId;
   global: string;
   local: string;
   bridges: LineageId[];
+}
+
+/** A decade and region with no entry cards that could be checked; the start screen greys it out. */
+export interface UnfilledCell {
+  era: EraId;
+  region: RegionId;
+  reason: string;
 }
 
 export type LoreKind = 'book' | 'film' | 'series';

@@ -94,9 +94,9 @@ export function Booth({
           <dd data-testid="unlocked-artist">
             {artist.name}（{catalog.countryLabel(artist.country)}）
           </dd>
-          <dt>专辑</dt>
+          <dt>{album.kind === 'single' ? '发行' : '专辑'}</dt>
           <dd data-testid="unlocked-album">
-            《{album.title}》（{album.year}）
+            {album.kind === 'single' ? '单曲' : `《${album.title}》`}（{album.year}）
           </dd>
           {lore && (
             <>

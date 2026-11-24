@@ -51,6 +51,7 @@ for (const a of catalog.albums) {
   checkMerged('album', a.id, 'title', a.title);
   if (typeof a.artistId !== 'string') fail('merged-field', `album "${a.id}" must have exactly one artistId`);
   if (!Number.isInteger(a.year)) fail('merged-field', `album "${a.id}" must have exactly one integer year`);
+  if (a.kind !== undefined && a.kind !== 'single') fail('merged-field', `album "${a.id}" kind must be "single" or absent`);
 }
 for (const t of catalog.tracks) {
   checkMerged('track', t.id, 'title', t.title);
@@ -98,6 +99,11 @@ for (const t of catalog.tracks) {
   if (t.lineage !== null && !lineages.has(t.lineage)) fail('reference', `track "${t.id}" has unknown lineage "${t.lineage}"`);
   if (![1, 2, 3].includes(t.tier)) fail('reference', `track "${t.id}" tier must be 1, 2 or 3`);
   if (typeof t.genre !== 'string' || !t.genre) fail('reference', `track "${t.id}" needs a genre`);
+  // A single stands for one record: its only track, under the same title and year.
+  if (album?.kind === 'single') {
+    if (usedAlbums.has(album.id)) fail('single', `single "${album.id}" is used by more than one track`);
+    if (album.title !== t.title || album.year !== t.year) fail('single', `single "${album.id}" must carry the title and year of its track "${t.id}"`);
+  }
   usedAlbums.add(t.albumId);
   usedArtists.add(t.artistId);
 }
@@ -109,7 +115,17 @@ for (const l of catalog.lineages) {
   if (pool.length < 7) fail('lineage-pool', `lineage "${l.id}" has only ${pool.length} cards; a 9-card game needs at least 7`);
 }
 
-// 4. Every decade x region cell has exactly its two entry cards.
+// 4. Decades: ten years each, with a one-line caption and where it comes from.
+for (const era of catalog.eras) {
+  if (!Number.isInteger(era.start) || era.end !== era.start + 9 || era.start % 10 !== 0) fail('era', `era "${era.id}" must span one decade (start..start+9)`);
+  if (era.id !== `${era.start}s`) fail('era', `era "${era.id}" id must be "${era.start}s"`);
+  if (typeof era.caption !== 'string' || era.caption.trim().length < 4) fail('era', `era "${era.id}" needs a one-line caption`);
+  if (!Array.isArray(era.sources) || era.sources.length === 0 || era.sources.some((s) => !/^https?:\/\//.test(s))) {
+    fail('era', `era "${era.id}" needs at least one source URL for its caption`);
+  }
+}
+
+// 5. Every decade x region cell has exactly its two entry cards, or is listed as unfilled with the reason.
 const cellKeys = new Map();
 const entrySlots = new Map();
 for (const c of catalog.cells) {
@@ -127,8 +143,8 @@ for (const c of catalog.cells) {
     }
     if (entrySlots.has(track.id)) fail('cell', `track "${track.id}" is an entry card for both "${entrySlots.get(track.id)}" and "${key}"`);
     entrySlots.set(track.id, key);
-    if (era && (track.year < era.windowStart || track.year > era.windowEnd)) {
-      fail('cell', `cell "${key}" ${slot} card "${track.id}" (${track.year}) is outside the listening window ${era.windowStart}-${era.windowEnd}`);
+    if (era && (track.year < era.start || track.year > era.end)) {
+      fail('cell', `cell "${key}" ${slot} card "${track.id}" (${track.year}) is not from ${era.start}-${era.end}`);
     }
     const artist = artists.get(track.artistId);
     if (slot === 'local' && artist && artist.region !== c.region) {
@@ -139,14 +155,26 @@ for (const c of catalog.cells) {
   if (!Array.isArray(c.bridges) || c.bridges.length === 0) fail('cell', `cell "${key}" needs at least one bridge lineage`);
   for (const b of c.bridges ?? []) if (!lineages.has(b)) fail('cell', `cell "${key}" has unknown bridge "${b}"`);
 }
+const unfilledKeys = new Set();
+for (const u of catalog.unfilled ?? []) {
+  const key = `${u.era} x ${u.region}`;
+  if (!eras.has(u.era) || !regions.has(u.region)) fail('unfilled', `unfilled cell "${key}" names an unknown era or region`);
+  if (typeof u.reason !== 'string' || u.reason.trim().length < 8) fail('unfilled', `unfilled cell "${key}" needs the reason it could not be filled`);
+  if (unfilledKeys.has(key)) fail('unfilled', `unfilled cell "${key}" is listed twice`);
+  if (cellKeys.has(key)) fail('unfilled', `cell "${key}" is both filled and listed as unfilled`);
+  unfilledKeys.add(key);
+}
 for (const era of catalog.eras) {
+  let filled = 0;
   for (const region of catalog.regions) {
     const key = `${era.id} x ${region.id}`;
-    if (!cellKeys.has(key)) fail('cell', `cell "${key}" is missing: it needs one global and one local entry card`);
+    if (cellKeys.has(key)) filled += 1;
+    else if (!unfilledKeys.has(key)) fail('cell', `cell "${key}" is missing: it needs one global and one local entry card, or an entry under "unfilled" saying why not`);
   }
+  if (filled === 0) fail('cell', `era "${era.id}" has no playable cell`);
 }
 
-// 5. No ratings, rankings or claims of being official anywhere in the data.
+// 6. No ratings, rankings or claims of being official anywhere in the data.
 const BANNED_KEY = /rym|rating|score|rank|chart/i;
 const BANNED_TEXT = /\bRYM\b|rate ?your ?music|OFFICIAL|评分|榜首|排名|总榜|\b[0-5]\.\d{2}\b/i;
 const walk = (value, path) => {
@@ -162,7 +190,7 @@ const walk = (value, path) => {
 };
 walk(catalog, 'catalog');
 
-// 6. Lore: one true line each, with a source.
+// 7. Lore: one true line each, with a source.
 const loreIds = byId(catalog.lore, 'lore');
 for (const l of catalog.lore) {
   checkMerged('lore', l.id, 'title', l.title);
@@ -184,7 +212,7 @@ for (const l of catalog.lore) {
 }
 void loreIds;
 
-// 7. Personas: one per lineage, plus the fallbacks the game needs.
+// 8. Personas: one per lineage, plus the fallbacks the game needs.
 byId(catalog.personas, 'persona');
 for (const l of catalog.lineages) {
   if (!catalog.personas.some((p) => p.rule === 'lineage' && p.lineage === l.id)) {
@@ -195,7 +223,7 @@ for (const rule of ['mixed', 'pop', 'empty']) {
   if (!catalog.personas.some((p) => p.rule === rule)) fail('persona', `no persona with rule "${rule}"`);
 }
 
-// 8. Listening data. Every card links out to the full track and carries a checked Apple
+// 9. Listening data. Every card links out to the full track and carries a checked Apple
 //    match (preview, cover, store page); no two cards share one Apple recording.
 const APPLE_HOSTS = {
   previewUrl: /^https:\/\/audio-ssl\.itunes\.apple\.com\//,
@@ -231,5 +259,5 @@ if (errors.length > 0) {
 const matched = catalog.tracks.filter((t) => t.apple).length;
 console.log(
   `catalog OK: ${catalog.tracks.length} cards, ${catalog.artists.length} artists, ${catalog.albums.length} albums, ` +
-    `${catalog.cells.length} cells, ${catalog.lore.length} lore items, ${matched} cards matched to Apple`,
+    `${catalog.cells.length} cells (${(catalog.unfilled ?? []).length} unfilled), ${catalog.lore.length} lore items, ${matched} cards matched to Apple`,
 );

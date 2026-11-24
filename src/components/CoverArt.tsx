@@ -31,7 +31,7 @@ export function CoverArt({
       className={`cover ${size}`}
       data-testid="cover-art"
       src={artworkUrl.replace(/\d+x\d+bb(\.\w+)$/, `${grid}x${grid}bb$1`)}
-      alt={`《${card.album.title}》封面`}
+      alt={`${card.album.kind === 'single' ? `〈${card.track.title}〉` : `《${card.album.title}》`}封面`}
       onError={() => setFailedUrl(artworkUrl)}
     />
   );
