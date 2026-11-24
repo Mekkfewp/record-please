@@ -157,7 +157,7 @@
 #### 代表性音乐故事与文化资料（Punk & Post-Punk）
 - **Legs McNeil & Gillian McCain《Please Kill Me: The Uncensored Oral History of Punk》（《请杀了我：朋克无删减口述史》）**｜Legs McNeil、Gillian McCain｜1996｜口述史 —— 一部朋克口述史；作者之一 Legs McNeil 是 Punk 杂志的三位创办人之一。
 - **Simon Reynolds《Rip It Up and Start Again: Postpunk 1978–1984》（《撕碎重来：后朋克 1978–1984》）**｜Simon Reynolds｜2005｜书籍 —— 写 1978–1984 年的后朋克，英国初版由 Faber & Faber 出版。
-- **Penelope Spheeris《The Decline of Western Civilization》（《西方文明的衰落》）**｜Penelope Spheeris（导演）｜1981｜纪录片 —— 拍摄于 1979–1980 年，记录洛杉矶的朋克现场。
+- **Penelope Spheeris《The Decline of Western Civilization》（《西方文明的衰落》）**｜Penelope Spheeris（导演）｜1981｜纪录片 —— 游戏没有采用：它拍的是洛杉矶的朋克现场，和游戏里的唱片只在流派上沾边（唯一的 Punk Rock 唱片是 The Clash 的），讲的不是其中任何一位音乐家。
 - **Grant Gee《Joy Division》（《乔伊·迪维讯》）**｜Grant Gee（导演）、Jon Savage（编剧）｜2007｜纪录片 —— 关于 Joy Division 的纪录片，由 Jon Savage 撰稿。
 - **Michael Winterbottom《24 Hour Party People》**｜Michael Winterbottom｜2002｜影片 —— 以 Factory Records 创办人 Tony Wilson 为主角的剧情片，讲 1976–1992 年的曼彻斯特音乐圈。
 
@@ -411,7 +411,7 @@
 - **V. Vale & Andrea Juno《RE/Search #6/7: Industrial Culture Handbook》（《工业文化手册》）**｜V. Vale、Andrea Juno（编）｜1983｜访谈档案/口述史 —— RE/Search 出版的访谈集，收有 Throbbing Gristle、Cabaret Voltaire、SPK 等人的访谈。
 - **Julian Cope《Japrocksampler: How the Post-War Japanese Blew Their Minds on Rock 'n' Roll》（《日本摇滚采样志》）**｜Julian Cope｜2007｜书籍 —— 游戏没有采用：它讲的不是游戏里任何一张唱片的音乐家或流派。原稿的介绍没有核对，已删去。
 - **Dayal Patterson《Black Metal: Evolution of the Cult》**｜Dayal Patterson｜2013｜书籍 —— 讲黑金属的演变：从第一张 Black Sabbath 专辑写起，经过挪威，再到其他国家的场景。
-- **Aaron Aites & Audrey Ewell《Until the Light Takes Us》**｜Aaron Aites、Audrey Ewell（导演）｜2008｜纪录片 —— 关于早期挪威黑金属的纪录片。
+- **Aaron Aites & Audrey Ewell《Until the Light Takes Us》**｜Aaron Aites、Audrey Ewell（导演）｜2008｜纪录片 —— 游戏没有采用：它讲的是早期挪威黑金属，和游戏里的 Blackgaze 唱片只在流派上沾边，讲的不是其中任何一位音乐家。
 
 ---
 

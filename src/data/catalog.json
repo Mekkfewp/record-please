@@ -5189,20 +5189,6 @@
       "source": "https://en.wikipedia.org/wiki/Rip_It_Up_and_Start_Again"
     },
     {
-      "id": "decline-of-western-civilization",
-      "title": "The Decline of Western Civilization",
-      "creator": "Penelope Spheeris",
-      "year": 1981,
-      "kind": "film",
-      "lineage": "punk-postpunk",
-      "artistIds": [],
-      "genres": [
-        "Punk Rock"
-      ],
-      "line": "拍摄于 1979–1980 年，记录洛杉矶的朋克现场。",
-      "source": "https://en.wikipedia.org/wiki/The_Decline_of_Western_Civilization"
-    },
-    {
       "id": "joy-division-doc",
       "title": "Joy Division",
       "creator": "Grant Gee",
@@ -5656,20 +5642,6 @@
       ],
       "line": "讲黑金属的演变：从第一张 Black Sabbath 专辑写起，经过挪威，再到其他国家的场景。",
       "source": "https://en.wikipedia.org/wiki/Black_Metal:_Evolution_of_the_Cult"
-    },
-    {
-      "id": "until-the-light-takes-us",
-      "title": "Until the Light Takes Us",
-      "creator": "Aaron Aites、Audrey Ewell",
-      "year": 2008,
-      "kind": "film",
-      "lineage": "heavy-industrial",
-      "artistIds": [],
-      "genres": [
-        "Blackgaze"
-      ],
-      "line": "关于早期挪威黑金属的纪录片。",
-      "source": "https://en.wikipedia.org/wiki/Until_the_Light_Takes_Us"
     }
   ],
   "personas": [
