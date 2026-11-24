@@ -1,0 +1,1682 @@
+{
+ "records": {
+  "Pixies|Surfer Rosa": {
+   "found": true,
+   "id": "74e36cbc-a747-3ebf-a60e-51e656c87741",
+   "title": "Surfer Rosa",
+   "credit": "Pixies",
+   "type": "Album",
+   "first": "1988-03-21",
+   "genres": [
+    "alternative rock",
+    "rock",
+    "indie rock",
+    "noise rock",
+    "post-hardcore"
+   ],
+   "artistId": "b6b2bb8d-54a9-491f-9607-7b546023b433"
+  },
+  "The Replacements|Let It Be": {
+   "found": true,
+   "id": "2c644807-3b5d-39d4-8c65-dec603bf3f3a",
+   "title": "Let It Be",
+   "credit": "The Replacements",
+   "type": "Album",
+   "first": "1984-10-02",
+   "genres": [
+    "alternative rock",
+    "power pop",
+    "indie rock",
+    "rock",
+    "garage rock",
+    "post-punk",
+    "punk"
+   ],
+   "artistId": "dc0d05ce-2f47-4962-b4fa-8631a0a51987"
+  },
+  "Yo La Tengo|President Yo La Tengo": {
+   "found": true,
+   "id": "8bfaaaf3-0e23-35e7-ae80-eaf66147422d",
+   "title": "President Yo La Tengo",
+   "credit": "Yo La Tengo",
+   "type": "EP",
+   "first": "1989",
+   "genres": [
+    "indie rock",
+    "rock"
+   ],
+   "artistId": "3f542031-b054-454d-b57b-812fa2a81b11"
+  },
+  "Eleventh Dream Day|Prairie School Freakout": {
+   "found": true,
+   "id": "34012b47-10a6-37b0-bb39-980dded178b2",
+   "title": "Prairie School Freakout",
+   "credit": "Eleventh Dream Day",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "alternative rock",
+    "rock"
+   ],
+   "artistId": "751b1385-9595-46ee-b634-8f90f892682a"
+  },
+  "Volcano Suns|The Bright Orange Years": {
+   "found": true,
+   "id": "aa15f44b-611a-3b68-b9f1-1ec04a5df000",
+   "title": "The Bright Orange Years",
+   "credit": "Volcano Suns",
+   "type": "Album",
+   "first": "1985",
+   "genres": [
+    "indie rock",
+    "rock"
+   ],
+   "artistId": "4837e8d3-a13f-4670-9684-82970411f4bc"
+  },
+  "Daniel Johnston|Hi, How Are You": {
+   "found": true,
+   "id": "22a18813-ca1b-3458-9e9f-a147d8ac5314",
+   "title": "Hi, How Are You",
+   "credit": "Daniel Johnston",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "lo-fi"
+   ],
+   "artistId": "8a7ca8b0-d23c-4eff-8fe9-6220ba5c9c76"
+  },
+  "Jandek|Blue Corpse": {
+   "found": true,
+   "id": "18816924-66e2-385d-8b5c-5d60cb0880ee",
+   "title": "Blue Corpse",
+   "credit": "Jandek",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "lo-fi",
+    "rock"
+   ],
+   "artistId": "61a21fb6-ca24-4e7c-bb72-34a716be1cbb"
+  },
+  "Guided by Voices|Devil Between My Toes": {
+   "found": true,
+   "id": "d1ca0998-d958-3792-bc65-2b67549fe8a7",
+   "title": "Devil Between My Toes",
+   "credit": "Guided by Voices",
+   "type": "Album",
+   "first": "1987-02-15",
+   "genres": [
+    "indie rock",
+    "rock",
+    "rock and roll"
+   ],
+   "artistId": "6c85f4c3-026c-4c16-9a7c-f546f42ed0fb"
+  },
+  "Sebadoh|The Freed Man": {
+   "found": true,
+   "id": "6e402362-470f-3780-bcab-f1a732b602c5",
+   "title": "The Freed Man",
+   "credit": "Sebadoh",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "indie folk",
+    "indie pop",
+    "lo-fi",
+    "rock",
+    "slacker rock"
+   ],
+   "artistId": "d98c8149-0c01-4151-93e1-48fdc3d5027f"
+  },
+  "R.E.M.|Murmur": {
+   "found": true,
+   "id": "de790d3d-a35c-364c-a8fb-adfb73084a45",
+   "title": "Murmur",
+   "credit": "R.E.M.",
+   "type": "Album",
+   "first": "1983-04-11",
+   "genres": [
+    "alternative rock",
+    "jangle pop",
+    "rock",
+    "post-punk",
+    "folk rock"
+   ],
+   "artistId": "ea4dfa26-f633-4da6-a52a-f49ea4897b58"
+  },
+  "The Smiths|The Queen Is Dead": {
+   "found": true,
+   "id": "d8dde278-482c-3cc8-a530-fea70476f3a5",
+   "title": "The Queen Is Dead",
+   "credit": "The Smiths",
+   "type": "Album",
+   "first": "1986-06-16",
+   "genres": [
+    "jangle pop",
+    "indie pop",
+    "indie rock",
+    "post-punk",
+    "neo-acoustic",
+    "rock"
+   ],
+   "artistId": "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27"
+  },
+  "Felt|Forever Breathes the Lonely Word": {
+   "found": true,
+   "id": "4b8b7911-2fe6-3861-85da-20ad921697d4",
+   "title": "Forever Breathes the Lonely Word",
+   "credit": "Felt",
+   "type": "Album",
+   "first": "1986-09-16",
+   "genres": [
+    "alternative rock",
+    "indie pop",
+    "jangle pop",
+    "rock"
+   ],
+   "artistId": "6999f790-25f4-44a3-b745-1e3e01fde0f5"
+  },
+  "The Feelies|The Good Earth": {
+   "found": true,
+   "id": "5838069c-cca4-307b-995b-22d110504955",
+   "title": "The Good Earth",
+   "credit": "The Feelies",
+   "type": "Album",
+   "first": "1986-05-31",
+   "genres": [
+    "indie rock",
+    "jangle pop",
+    "pop",
+    "rock"
+   ],
+   "artistId": "28c07254-aeae-42ad-beea-67f59c3c8baf"
+  },
+  "The dB's|Stands for Decibels": {
+   "found": true,
+   "id": "b400a062-78f4-3a50-9494-e4235304e160",
+   "title": "Stands for deciBels",
+   "credit": "The dB’s",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "power pop",
+    "rock"
+   ],
+   "artistId": "d2a54937-fd0d-4586-85c3-235a405019cf"
+  },
+  "Miracle Legion|Surprise Surprise Surprise": {
+   "found": true,
+   "id": "be4aa0b9-e70d-36ce-b2ed-7be85bc35154",
+   "title": "Surprise Surprise Surprise",
+   "credit": "Miracle Legion",
+   "type": "Album",
+   "first": "1987-09-08",
+   "genres": [
+    "alternative rock",
+    "rock"
+   ],
+   "artistId": "b6967aa4-bc27-4000-a23c-c907a52ecbd9"
+  },
+  "Julee Cruise|Floating into the Night": {
+   "found": true,
+   "id": "2eaf4eef-f6bb-3fff-a4e2-79d639bde1d0",
+   "title": "Floating Into the Night",
+   "credit": "Julee Cruise",
+   "type": "Album",
+   "first": "1989-09-12",
+   "genres": [
+    "dream pop",
+    "ethereal wave",
+    "ambient pop",
+    "dark jazz",
+    "jazz pop",
+    "lounge",
+    "sophisti-pop"
+   ],
+   "artistId": "3b7865df-3c91-48dd-9126-a71e0dfe7f8d"
+  },
+  "Galaxie 500|On Fire": {
+   "found": true,
+   "id": "d25e7bfe-2f10-3413-a8a2-d166784f4994",
+   "title": "On Fire",
+   "credit": "Galaxie 500",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "alternative rock",
+    "dream pop",
+    "psychedelic",
+    "rock",
+    "slowcore"
+   ],
+   "artistId": "4de3cfed-b459-42bd-bfbb-7a843fbc73df"
+  },
+  "A.R. Kane|69": {
+   "found": true,
+   "id": "c85dfe0a-81aa-34dc-ab74-e517ddb3321d",
+   "title": "69",
+   "credit": "A.R. Kane",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "dream pop",
+    "electronic",
+    "experimental",
+    "indie rock",
+    "rock"
+   ],
+   "artistId": "d77abf52-3385-40e1-8bfa-215010814e7a"
+  },
+  "Dif Juz|Extractions": {
+   "found": true,
+   "id": "5da759c4-8f5f-33a8-8689-5ded12f0bb3b",
+   "title": "Extractions",
+   "credit": "Dif Juz",
+   "type": "Album",
+   "first": "1985-07-01",
+   "genres": [
+    "indie rock",
+    "rock",
+    "ambient pop",
+    "avant-garde",
+    "dream pop",
+    "surf"
+   ],
+   "artistId": "cedc54a0-9fe1-43aa-8ace-a294795cebe4"
+  },
+  "Dinosaur Jr.|You're Living All Over Me": {
+   "found": false
+  },
+  "Lowlife|Permanent Sleep": {
+   "found": true,
+   "id": "366d700b-c493-3586-b259-e10f68f3344a",
+   "title": "Permanent Sleep",
+   "credit": "Lowlife",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "rock",
+    "electronic",
+    "post-punk"
+   ],
+   "artistId": "fb9023ef-a0f7-41c7-a088-eb2bd3d4cd57"
+  },
+  "Cocteau Twins|Treasure": {
+   "found": true,
+   "id": "e0023081-c755-377d-9bbf-fd7551d5d14c",
+   "title": "Treasure",
+   "credit": "Cocteau Twins",
+   "type": "Album",
+   "first": "1984-10-01",
+   "genres": [
+    "dream pop",
+    "ethereal wave",
+    "rock",
+    "post-punk",
+    "shoegaze",
+    "gothic rock"
+   ],
+   "artistId": "000fc734-b7e1-4a01-92d1-f544261b43f5"
+  },
+  "This Mortal Coil|It'll End in Tears": {
+   "found": true,
+   "id": "91343ef2-93f7-3128-b83b-a24b11888677",
+   "title": "It’ll End in Tears",
+   "credit": "This Mortal Coil",
+   "type": "Album",
+   "first": "1984-10-01",
+   "genres": [
+    "dream pop",
+    "ethereal wave",
+    "gothic rock",
+    "rock",
+    "pop",
+    "electronic",
+    "ambient",
+    "dark wave",
+    "progressive",
+    "art rock",
+    "ambient pop",
+    "neoclassical dark wave"
+   ],
+   "artistId": "60ef8ddb-7676-4056-a357-9a8c228d03a6"
+  },
+  "Black Tape for a Blue Girl|The Rope": {
+   "found": true,
+   "id": "5c782e95-6bfc-3b3e-8e64-69196158c824",
+   "title": "The Rope",
+   "credit": "Black Tape for a Blue Girl",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "electronic",
+    "dark wave",
+    "new age"
+   ],
+   "artistId": "99d128c0-2309-45c1-8262-1eb9face73d9"
+  },
+  "Cindytalk|Camouflage Heart": {
+   "found": true,
+   "id": "945c5b26-c463-33ae-87f8-92f669e6a38c",
+   "title": "Camouflage Heart",
+   "credit": "Cindytalk",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "experimental",
+    "rock",
+    "electronic",
+    "industrial"
+   ],
+   "artistId": "a12818f3-fc34-43a9-8657-51a835915e6d"
+  },
+  "My Bloody Valentine|Isn't Anything": {
+   "found": true,
+   "id": "55a73423-bf7d-3969-b1b2-c34c43140e1a",
+   "title": "Isn’t Anything",
+   "credit": "My Bloody Valentine",
+   "type": "Album",
+   "first": "1988-11-21",
+   "genres": [
+    "shoegaze",
+    "rock",
+    "noise pop",
+    "noise rock",
+    "post-punk",
+    "indie rock",
+    "dream pop",
+    "c86",
+    "slacker rock"
+   ],
+   "artistId": "8ca01f46-53ac-4af2-8516-55a909c0905e"
+  },
+  "Lush|Scar": {
+   "found": true,
+   "id": "462c512f-2cbf-309c-aad1-daf22ac7ca0b",
+   "title": "Scar",
+   "credit": "Lush",
+   "type": "EP",
+   "first": "1989-10-09",
+   "genres": [
+    "rock",
+    "shoegaze",
+    "post-punk",
+    "indie rock",
+    "noise pop",
+    "dream pop",
+    "gothic rock",
+    "c86"
+   ],
+   "artistId": "697801d1-68b2-4413-a7e4-0ef507d21cc1"
+  },
+  "The Telescopes|Taste": {
+   "found": true,
+   "id": "fc55cfb6-72ba-38e0-b6c1-295332d20d7a",
+   "title": "Taste",
+   "credit": "The Telescopes",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "rock",
+    "noise",
+    "shoegaze",
+    "indie rock",
+    "psychedelic rock",
+    "space rock"
+   ],
+   "artistId": "e304fa8b-8de2-4089-b43b-bd24ca40800f"
+  },
+  "Kitchens of Distinction|Love Is Hell": {
+   "found": true,
+   "id": "940c1b00-99e4-3683-b466-bc6e3da15c86",
+   "title": "Love is Hell",
+   "credit": "Kitchens of Distinction",
+   "type": "Album",
+   "first": "1989-04",
+   "genres": [
+    "rock",
+    "indie rock"
+   ],
+   "artistId": "edffc348-5d61-4782-ac0b-8cb698810fbe"
+  },
+  "The Jesus and Mary Chain|Psychocandy": {
+   "found": true,
+   "id": "7534461f-d5ed-3ab0-b5a8-48d7f9b49c70",
+   "title": "Psychocandy",
+   "credit": "The Jesus and Mary Chain",
+   "type": "Album",
+   "first": "1985-02",
+   "genres": [
+    "rock",
+    "noise pop",
+    "post-punk",
+    "alternative rock",
+    "shoegaze",
+    "indie rock",
+    "pop rock",
+    "noise rock"
+   ],
+   "artistId": "e938a15c-b17e-4e7a-9f68-ff0d536cab44"
+  },
+  "The Primitives|Lovely": {
+   "found": true,
+   "id": "9365195c-abec-3f29-b277-af589bce5952",
+   "title": "Lovely",
+   "credit": "The Primitives",
+   "type": "Album",
+   "first": "1988-02-08",
+   "genres": [
+    "indie pop",
+    "rock",
+    "pop",
+    "indie rock",
+    "power pop",
+    "jangle pop",
+    "twee pop"
+   ],
+   "artistId": "9a407ae8-afbb-4a3a-abb1-1fab4b3c26af"
+  },
+  "The Shop Assistants|Shop Assistants": {
+   "found": false
+  },
+  "Meat Whiplash|Don't Slip Up": {
+   "found": false
+  },
+  "Nirvana|Bleach": {
+   "found": true,
+   "id": "f1afec0b-26dd-3db5-9aa1-c91229a74a24",
+   "title": "Bleach",
+   "credit": "Nirvana",
+   "type": "Album",
+   "first": "1989-06-15",
+   "genres": [
+    "grunge",
+    "rock",
+    "alternative rock",
+    "noise rock",
+    "sludge metal",
+    "post-hardcore",
+    "indie rock",
+    "trance",
+    "pop",
+    "punk",
+    "punk rock",
+    "hardcore punk",
+    "alternative pop",
+    "pigfuck"
+   ],
+   "artistId": "5b11f4ce-a62d-471e-81fc-a69a8278c7da"
+  },
+  "Mudhoney|Superfuzz Bigmuff": {
+   "found": true,
+   "id": "c92a05a8-c340-39aa-a912-e2927f2b49a6",
+   "title": "Superfuzz Bigmuff",
+   "credit": "Mudhoney",
+   "type": "EP",
+   "first": "1988",
+   "genres": [
+    "grunge",
+    "rock",
+    "alternative rock",
+    "garage punk",
+    "noise rock",
+    "pigfuck"
+   ],
+   "artistId": "e675295a-1efe-4247-aa3b-53b78d0cdffc"
+  },
+  "Soundgarden|Ultramega OK": {
+   "found": true,
+   "id": "ea22eb82-c3b2-32c6-84cf-10f7e28b0230",
+   "title": "Ultramega OK",
+   "credit": "Soundgarden",
+   "type": "Album",
+   "first": "1988-10-31",
+   "genres": [
+    "rock",
+    "grunge",
+    "alternative rock",
+    "heavy metal",
+    "hard rock",
+    "alternative metal"
+   ],
+   "artistId": "153c9281-268f-4cf3-8938-f5a4593e5df4"
+  },
+  "Green River|Rehab Doll": {
+   "found": true,
+   "id": "784c7149-d386-4e1f-9713-605cf5966252",
+   "title": "Rehab Doll",
+   "credit": "Green River",
+   "type": "Album",
+   "first": "1988-05-01",
+   "genres": [
+    "grunge",
+    "rock",
+    "hard rock",
+    "garage punk"
+   ],
+   "artistId": "78f56916-fe11-4110-8f10-d553ddf8de7b"
+  },
+  "Melvins|Gluey Porch Treatments": {
+   "found": true,
+   "id": "9347f9d3-d374-3f1b-8d4f-a4236a5b9653",
+   "title": "Gluey Porch Treatments",
+   "credit": "Melvins",
+   "type": "Album",
+   "first": "1987",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "heavy metal",
+    "punk",
+    "doom metal",
+    "grunge",
+    "sludge metal"
+   ],
+   "artistId": "9ccfbc94-a4f4-42f7-b6f5-d903ab77cccb"
+  },
+  "Tad|God's Balls": {
+   "found": true,
+   "id": "ef1545d8-ad1c-341c-a087-24db947c309a",
+   "title": "God's Balls",
+   "credit": "Tad",
+   "type": "Album",
+   "first": "1989-03-01",
+   "genres": [
+    "grunge",
+    "rock",
+    "alternative rock"
+   ],
+   "artistId": "867d3fb7-9cd1-47a4-a8f0-de29cdca2004"
+  },
+  "New Order|Blue Monday": {
+   "found": true,
+   "id": "262a92d6-a644-363d-94c2-fe2745799aec",
+   "title": "Blue Monday",
+   "credit": "New Order",
+   "type": "Single",
+   "first": "1983-03-07",
+   "genres": [
+    "electronic",
+    "synth-pop",
+    "alternative dance",
+    "electro",
+    "hi-nrg"
+   ],
+   "artistId": "f1106b17-dcbb-45f6-b938-199ccfab50cc"
+  },
+  "The Shamen|In Gorbachev We Trust": {
+   "found": true,
+   "id": "dc2d475e-02c1-3ab4-8581-6ffaafe74060",
+   "title": "In Gorbachev We Trust",
+   "credit": "The Shamen",
+   "type": "Album",
+   "first": "1989",
+   "genres": [
+    "electronic",
+    "rock",
+    "dance",
+    "house",
+    "electro",
+    "techno",
+    "electronica",
+    "synth-pop",
+    "psychedelic",
+    "club",
+    "edm"
+   ],
+   "artistId": "f22e793d-9a7e-4ec9-9d86-7a8528688abd"
+  },
+  "Colourbox|Colourbox": {
+   "found": true,
+   "id": "f4686e2f-e2c6-44b5-9ae8-08cf8a2b44cf",
+   "title": "Colourbox",
+   "credit": "Colourbox",
+   "type": "EP",
+   "first": "1983",
+   "genres": [
+    "electronic",
+    "dub",
+    "synth-pop",
+    "leftfield"
+   ],
+   "artistId": "6746c384-b67b-4eb7-a986-e2b6f4140cee"
+  },
+  "The Woodentops|Giant": {
+   "found": true,
+   "id": "347ff709-f600-3dca-9d82-280fb0bf8af5",
+   "title": "Giant",
+   "credit": "The Woodentops",
+   "type": "Album",
+   "first": "1986",
+   "genres": [
+    "indie rock",
+    "rock"
+   ],
+   "artistId": "90ae37a5-a693-4f81-893a-ca07ed365bdf"
+  },
+  "The Stone Roses|The Stone Roses": {
+   "found": true,
+   "id": "88b86fe0-26f5-3949-817a-8082145e704d",
+   "title": "The Stone Roses",
+   "credit": "The Stone Roses",
+   "type": "Album",
+   "first": "1989-04",
+   "genres": [
+    "rock",
+    "indie rock",
+    "jangle pop",
+    "psychedelic",
+    "britpop",
+    "neo-psychedelia",
+    "c86"
+   ],
+   "artistId": "b5fa29f1-6c22-4321-a488-b5f363b06b06"
+  },
+  "Happy Mondays|Bummed": {
+   "found": true,
+   "id": "f13bfae5-5081-364b-97ca-acf0019e5940",
+   "title": "Bummed",
+   "credit": "Happy Mondays",
+   "type": "Album",
+   "first": "1988-11",
+   "genres": [
+    "rock",
+    "electronic",
+    "indie rock",
+    "pop",
+    "alternative rock",
+    "house",
+    "madchester",
+    "synth-pop",
+    "alternative dance",
+    "dance-rock"
+   ],
+   "artistId": "01f4fb92-6bf0-4de5-83dc-3fe194e763bf"
+  },
+  "Inspiral Carpets|Joe": {
+   "found": true,
+   "id": "f5cad3b7-3390-4d4b-ac39-8c096bd619d1",
+   "title": "Joe",
+   "credit": "Inspiral Carpets",
+   "type": "Single",
+   "first": "1990-07",
+   "genres": [
+    "rock",
+    "indie rock"
+   ],
+   "artistId": "03c2e506-e8bb-4bd6-9693-5aa97c8eea1c"
+  },
+  "Joy Division|Closer": {
+   "found": true,
+   "id": "852f9715-24b3-37d5-b8a5-456f5e19b41e",
+   "title": "Closer",
+   "credit": "Joy Division",
+   "type": "Album",
+   "first": "1980-07-18",
+   "genres": [
+    "post-punk",
+    "gothic rock",
+    "rock",
+    "new wave",
+    "coldwave"
+   ],
+   "artistId": "9a58fda3-f4ed-4080-a3a5-f457aac9fcdd"
+  },
+  "The Cure|Seventeen Seconds": {
+   "found": true,
+   "id": "7cd31244-186e-36bb-966f-fd6a90c0832c",
+   "title": "Seventeen Seconds",
+   "credit": "The Cure",
+   "type": "Album",
+   "first": "1980-04-22",
+   "genres": [
+    "gothic rock",
+    "new wave",
+    "post-punk",
+    "alternative rock",
+    "rock",
+    "electronic",
+    "gothic",
+    "coldwave"
+   ],
+   "artistId": "69ee3720-a7cb-4402-b48d-a02c366f2bcf"
+  },
+  "The Fall|Hex Enduction Hour": {
+   "found": true,
+   "id": "71d6b717-75e8-373c-a482-32c58c241b35",
+   "title": "Hex Enduction Hour",
+   "credit": "The Fall",
+   "type": "Album",
+   "first": "1982-03-08",
+   "genres": [
+    "post-punk",
+    "rock",
+    "indie rock"
+   ],
+   "artistId": "d5da1841-9bc8-4813-9f89-11098090148e"
+  },
+  "The Chameleons|Script of the Bridge": {
+   "found": true,
+   "id": "800508e1-5174-3f58-9fb5-35f469b677ed",
+   "title": "Script of the Bridge",
+   "credit": "The Chameleons",
+   "type": "Album",
+   "first": "1983-08-08",
+   "genres": [
+    "post-punk",
+    "rock",
+    "new wave"
+   ],
+   "artistId": "8d07f60f-b9f4-46c0-9c27-31de0fb9b671"
+  },
+  "Mission of Burma|Vs.": {
+   "found": true,
+   "id": "d1877fe7-725e-3115-9dcf-f4865fd0b74e",
+   "title": "Vs.",
+   "credit": "Mission of Burma",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "post-punk",
+    "rock",
+    "post-hardcore",
+    "art punk"
+   ],
+   "artistId": "db9d25d7-a85b-4a29-b2ff-8f5b69ed691e"
+  },
+  "The Sound|From the Lions Mouth": {
+   "found": true,
+   "id": "136274f0-7d87-34f4-9a99-871b70ebde47",
+   "title": "From the Lions Mouth",
+   "credit": "The Sound",
+   "type": "Album",
+   "first": "1981-11",
+   "genres": [
+    "post-punk",
+    "rock"
+   ],
+   "artistId": "b2c36d47-e5e3-4ac8-a967-10e0265d3fff"
+  },
+  "The Comsat Angels|Sleep No More": {
+   "found": true,
+   "id": "f3f2e365-6817-39cb-84d1-6969b3ead96f",
+   "title": "Sleep No More",
+   "credit": "The Comsat Angels",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "new wave"
+   ],
+   "artistId": "d4a8e74d-0315-42b5-9fcd-3ee1ded14f26"
+  },
+  "Josef K|The Only Fun in Town": {
+   "found": true,
+   "id": "57fc5452-f919-3ccd-afd1-06a3100620f3",
+   "title": "The Only Fun in Town",
+   "credit": "Josef K",
+   "type": "Album",
+   "first": "1981-07",
+   "genres": [
+    "rock",
+    "new wave",
+    "post-punk"
+   ],
+   "artistId": "ab5f1b53-dabe-444a-a8fe-116cde87f709"
+  },
+  "Au Pairs|Playing with a Different Sex": {
+   "found": true,
+   "id": "14f11e7a-00fa-31b2-85a1-2930fb88d198",
+   "title": "Playing With a Different Sex",
+   "credit": "Au Pairs",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "punk",
+    "post-punk",
+    "new wave"
+   ],
+   "artistId": "d350bc0e-10bb-47f1-9027-d1f011ae9aa8"
+  },
+  "Pylon|Gyrate": {
+   "found": true,
+   "id": "29808690-9ada-4b7a-93c7-54ac97265cf1",
+   "title": "Gyrate",
+   "credit": "Pylon",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "post-punk",
+    "new wave",
+    "rock",
+    "alternative rock",
+    "indie rock"
+   ],
+   "artistId": "5f895285-0598-4a03-a10f-ac171746ef45"
+  },
+  "Bauhaus|In the Flat Field": {
+   "found": true,
+   "id": "0fc9f4c7-ee00-39ec-a767-4574823c2064",
+   "title": "In the Flat Field",
+   "credit": "Bauhaus",
+   "type": "Album",
+   "first": "1980-10",
+   "genres": [
+    "gothic rock",
+    "rock",
+    "post-punk",
+    "deathrock",
+    "noise rock"
+   ],
+   "artistId": "0688add2-c282-4ee2-ba61-223ffdb3c201"
+  },
+  "Siouxsie and the Banshees|Juju": {
+   "found": true,
+   "id": "844bfb05-2b51-35e2-8063-1c8e6746c781",
+   "title": "Juju",
+   "credit": "Siouxsie and the Banshees",
+   "type": "Album",
+   "first": "1981-06-06",
+   "genres": [
+    "post-punk",
+    "new wave",
+    "gothic rock",
+    "rock"
+   ],
+   "artistId": "78ea5ea1-3c4d-4b7e-ac5d-68900319ebe2"
+  },
+  "The Sisters of Mercy|First and Last and Always": {
+   "found": true,
+   "id": "8dba5572-6b3d-3e31-ab32-51d1f3ed1f69",
+   "title": "First and Last and Always",
+   "credit": "The Sisters of Mercy",
+   "type": "Album",
+   "first": "1985-03",
+   "genres": [
+    "rock",
+    "gothic rock",
+    "electronic",
+    "industrial",
+    "dance-rock"
+   ],
+   "artistId": "553d8166-27b0-49fe-b8e4-89a984e2c375"
+  },
+  "Fields of the Nephilim|The Nephilim": {
+   "found": true,
+   "id": "c569a92e-e7b2-3063-afad-dc5c697eb2f5",
+   "title": "The Nephilim",
+   "credit": "Fields of the Nephilim",
+   "type": "Album",
+   "first": "1988-09-05",
+   "genres": [
+    "rock",
+    "gothic rock"
+   ],
+   "artistId": "a262543f-6ab4-4ac7-86f3-4fc09ff56f3b"
+  },
+  "Sex Gang Children|Song and Legend": {
+   "found": true,
+   "id": "3d877d2b-992f-374d-a6f1-26d733a64b13",
+   "title": "Song and Legend",
+   "credit": "Sex Gang Children",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "gothic rock",
+    "rock",
+    "punk",
+    "post-punk",
+    "deathrock"
+   ],
+   "artistId": "944402e1-7e5b-49c0-9b31-f5959233e744"
+  },
+  "Skeletal Family|Burning Oil": {
+   "found": true,
+   "id": "47598cc4-6168-3a90-92f2-d4f2d1f47231",
+   "title": "Burning Oil",
+   "credit": "Skeletal Family",
+   "type": "Album",
+   "first": "1984",
+   "genres": [
+    "rock",
+    "post-punk",
+    "new wave",
+    "deathrock",
+    "gothic rock"
+   ],
+   "artistId": "3bcc8af0-4335-4bb0-83ba-d0ce67ae6114"
+  },
+  "The Danse Society|Seduction": {
+   "found": true,
+   "id": "a4b985fb-1224-36b8-945b-f2918faea699",
+   "title": "Seduction",
+   "credit": "The Danse Society",
+   "type": "Album",
+   "first": "1982-09",
+   "genres": [
+    "rock",
+    "electronic",
+    "post-punk",
+    "synth-pop"
+   ],
+   "artistId": "75ede374-68bb-4429-85fb-4b3b1421dbd1"
+  },
+  "Christian Death|Only Theatre of Pain": {
+   "found": true,
+   "id": "dbde84c8-abd9-3c73-a25c-3acf60754fee",
+   "title": "Only Theatre of Pain",
+   "credit": "Christian Death",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "deathrock",
+    "gothic rock"
+   ],
+   "artistId": "2a09f8e7-1138-4030-96a3-fddfdf82127b"
+  },
+  "45 Grave|Sleep in Safety": {
+   "found": true,
+   "id": "2c0ec3b6-62df-3aec-b172-a0fecd2bf0f7",
+   "title": "Sleep in Safety",
+   "credit": "45 Grave",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "punk",
+    "deathrock"
+   ],
+   "artistId": "337027f4-4f29-42f4-bc4d-63e7d4e74e1a"
+  },
+  "Kommunity FK|The Vision and the Voice": {
+   "found": true,
+   "id": "2d638bd4-7f06-334c-a25e-c597db662956",
+   "title": "The Vision and the Voice",
+   "credit": "Kommunity FK",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "rock",
+    "electronic",
+    "punk",
+    "experimental",
+    "new wave",
+    "deathrock"
+   ],
+   "artistId": "28a63613-d693-43e0-90c9-030475e4c7e0"
+  },
+  "Super Heroines|Cry for Help": {
+   "found": true,
+   "id": "e0b53d98-74f8-4e34-8661-f083b4e8c8aa",
+   "title": "Cry For Help",
+   "credit": "Super Heroines",
+   "type": "Album",
+   "first": "1982",
+   "genres": [
+    "rock",
+    "punk",
+    "deathrock"
+   ],
+   "artistId": "23331fcb-179d-4007-b44c-00776c6c7597"
+  },
+  "ESG|Come Away with ESG": {
+   "found": true,
+   "id": "56f22288-1033-3f71-8eed-026e8aeabb01",
+   "title": "Come Away With ESG",
+   "credit": "ESG",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "electronic",
+    "new wave",
+    "funk"
+   ],
+   "artistId": "b3465cab-9628-447c-9897-2d18abab89d3"
+  },
+  "Liquid Liquid|Optimo": {
+   "found": true,
+   "id": "4e447d21-dd4d-3d79-8b42-26485ba7621a",
+   "title": "Optimo",
+   "credit": "Liquid Liquid",
+   "type": "EP",
+   "first": "1983-01-01",
+   "genres": [
+    "dance-punk",
+    "no wave",
+    "funk"
+   ],
+   "artistId": "4ba3563c-a27e-4bce-9e3e-5d6b4f1cde6d"
+  },
+  "A Certain Ratio|To Each...": {
+   "found": true,
+   "id": "56199b82-0445-3f0d-a0b7-939d26644f60",
+   "title": "To Each…",
+   "credit": "A Certain Ratio",
+   "type": "Album",
+   "first": "1981-06",
+   "genres": [
+    "post-punk"
+   ],
+   "artistId": "73577e86-4da8-4d76-949d-34c757e053be"
+  },
+  "Bush Tetras|Too Many Creeps": {
+   "found": true,
+   "id": "f5811867-2727-42bb-9126-c515ad611a5f",
+   "title": "Too Many Creeps",
+   "credit": "Bush Tetras",
+   "type": "EP",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "post-punk",
+    "no wave"
+   ],
+   "artistId": "0fa623ce-9d1a-4b14-b6a3-19c79317a22f"
+  },
+  "Maximum Joy|Station M.X.J.Y.": {
+   "found": true,
+   "id": "6d177868-02eb-3687-8709-13440baa72d1",
+   "title": "Station M.X.J.Y.",
+   "credit": "Maximum Joy",
+   "type": "Album",
+   "first": "1982-09-10",
+   "genres": [],
+   "artistId": "d6d718da-f5c1-46ef-b0b9-159f11b9a7e7"
+  },
+  "Konk|Yo!": {
+   "found": true,
+   "id": "b264f099-c768-3740-9da8-8fa33df21379",
+   "title": "Yo!",
+   "credit": "Konk",
+   "type": "Album",
+   "first": "1983",
+   "genres": [
+    "electronic",
+    "rock",
+    "new wave",
+    "disco",
+    "breaks"
+   ],
+   "artistId": "2b835de3-221a-49b1-8edd-7e196a020d02"
+  },
+  "Lydia Lunch|Queen of Siam": {
+   "found": true,
+   "id": "4d3ad50b-2440-3d8e-abd1-1ab21442ae85",
+   "title": "Queen of Siam",
+   "credit": "Lydia Lunch",
+   "type": "Album",
+   "first": "1980",
+   "genres": [
+    "rock",
+    "jazz",
+    "experimental",
+    "big band",
+    "no wave"
+   ],
+   "artistId": "74f2add6-e8b6-4323-a21b-443600379d16"
+  },
+  "DNA|A Taste of DNA": {
+   "found": true,
+   "id": "67214de5-a11b-398e-8947-2a953d1e230f",
+   "title": "A Taste of DNA",
+   "credit": "DNA",
+   "type": "Album",
+   "first": "1981",
+   "genres": [
+    "rock",
+    "noise",
+    "punk",
+    "avant-garde",
+    "no wave"
+   ],
+   "artistId": "df51459b-4d97-4a37-ac9a-3b119af21aa2"
+  },
+  "Swans|Filth": {
+   "found": true,
+   "id": "68198e00-3c53-368c-9337-1aafd0f461b6",
+   "title": "Filth",
+   "credit": "Swans",
+   "type": "Album",
+   "first": "1983-05-27",
+   "genres": [
+    "noise rock",
+    "industrial",
+    "no wave",
+    "experimental rock",
+    "industrial rock",
+    "punk"
+   ],
+   "artistId": "3285dc48-9505-469d-ad8a-bdf2d3dba632"
+  },
+  "Ut|In Gut's House": {
+   "found": true,
+   "id": "821371a0-6bf2-3789-994e-e7b2f6225f33",
+   "title": "In Gut's House",
+   "credit": "Ut",
+   "type": "Album",
+   "first": "1988",
+   "genres": [
+    "rock",
+    "alternative rock",
+    "new wave",
+    "art rock"
+   ],
+   "artistId": "81fae220-3175-48ae-9be4-ef36d603b96f"
+  },
+  "Talking Heads|Remain in Light": {
+   "found": true,
+   "id": "f6b1b900-6108-32f0-abbd-2855af9151eb",
+   "title": "Remain in Light",
+   "credit": "Talking Heads",
+   "type": "Album",
+   "first": "1980-10-01",
+   "genres": [
+    "new wave",
+    "post-punk",
+    "rock",
+    "electronic",
+    "funk rock",
+    "dance-punk"
+   ],
+   "artistId": "a94a7155-c79d-4409-9fcf-220cb0e4dc3a"
+  },
+  "Devo|Freedom of Choice": {
+   "found": true,
+   "id": "bb889709-d775-3cb1-84c2-1daf4884e165",
+   "title": "Freedom of Choice",
+   "credit": "DEVO",
+   "type": "Album",
+   "first": "1980-07-01",
+   "genres": [
+    "new wave",
+    "electronic",
+    "post-punk",
+    "synth-pop",
+    "dance-rock",
+    "rock",
+    "electro"
+   ],
+   "artistId": "d2db1078-c170-4e22-b261-14f3ad60a690"
+  },
+  "The B-52's|Wild Planet": {
+   "found": true,
+   "id": "88265d55-1dcb-4828-8093-851b4a580a01",
+   "title": "Wild Planet: 2007 Remix EP",
+   "credit": "The B‐52’s",
+   "type": "EP",
+   "first": "2007-08-28",
+   "genres": [
+    "rock",
+    "electronic",
+    "electro",
+    "synth-pop"
+   ],
+   "artistId": "127f591a-7e27-4435-92db-0780f219f3a1"
+  }
+ },
+ "artists": {
+  "b6b2bb8d-54a9-491f-9607-7b546023b433": {
+   "name": "Pixies",
+   "country": "US",
+   "area": "United States",
+   "begin": "Boston"
+  },
+  "dc0d05ce-2f47-4962-b4fa-8631a0a51987": {
+   "name": "The Replacements",
+   "country": "US",
+   "area": "United States",
+   "begin": "Minneapolis"
+  },
+  "3f542031-b054-454d-b57b-812fa2a81b11": {
+   "name": "Yo La Tengo",
+   "country": "US",
+   "area": "Hoboken",
+   "begin": "Hoboken"
+  },
+  "751b1385-9595-46ee-b634-8f90f892682a": {
+   "name": "Eleventh Dream Day",
+   "country": "US",
+   "area": "United States",
+   "begin": null
+  },
+  "4837e8d3-a13f-4670-9684-82970411f4bc": {
+   "name": "Volcano Suns",
+   "country": "US",
+   "area": "United States",
+   "begin": "Boston"
+  },
+  "8a7ca8b0-d23c-4eff-8fe9-6220ba5c9c76": {
+   "name": "Daniel Johnston",
+   "country": "US",
+   "area": "United States",
+   "begin": "Sacramento"
+  },
+  "61a21fb6-ca24-4e7c-bb72-34a716be1cbb": {
+   "name": "Jandek",
+   "country": "US",
+   "area": "United States",
+   "begin": "Houston"
+  },
+  "6c85f4c3-026c-4c16-9a7c-f546f42ed0fb": {
+   "name": "Guided by Voices",
+   "country": "US",
+   "area": "United States",
+   "begin": "Dayton"
+  },
+  "d98c8149-0c01-4151-93e1-48fdc3d5027f": {
+   "name": "Sebadoh",
+   "country": "US",
+   "area": "United States",
+   "begin": "Westfield"
+  },
+  "ea4dfa26-f633-4da6-a52a-f49ea4897b58": {
+   "name": "R.E.M.",
+   "country": "US",
+   "area": "United States",
+   "begin": "Athens"
+  },
+  "40f5d9e4-2de7-4f2d-ad41-e31a9a9fea27": {
+   "name": "The Smiths",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Manchester"
+  },
+  "6999f790-25f4-44a3-b745-1e3e01fde0f5": {
+   "name": "Felt",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Warwickshire"
+  },
+  "28c07254-aeae-42ad-beea-67f59c3c8baf": {
+   "name": "The Feelies",
+   "country": "US",
+   "area": "United States",
+   "begin": null
+  },
+  "d2a54937-fd0d-4586-85c3-235a405019cf": {
+   "name": "The dB’s",
+   "country": "US",
+   "area": "United States",
+   "begin": "New York"
+  },
+  "b6967aa4-bc27-4000-a23c-c907a52ecbd9": {
+   "name": "Miracle Legion",
+   "country": "US",
+   "area": "United States",
+   "begin": "New Haven"
+  },
+  "3b7865df-3c91-48dd-9126-a71e0dfe7f8d": {
+   "name": "Julee Cruise",
+   "country": "US",
+   "area": "United States",
+   "begin": "Creston"
+  },
+  "4de3cfed-b459-42bd-bfbb-7a843fbc73df": {
+   "name": "Galaxie 500",
+   "country": "US",
+   "area": "United States",
+   "begin": "Cambridge"
+  },
+  "d77abf52-3385-40e1-8bfa-215010814e7a": {
+   "name": "A.R. Kane",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "cedc54a0-9fe1-43aa-8ace-a294795cebe4": {
+   "name": "Dif Juz",
+   "country": null,
+   "area": null,
+   "begin": null
+  },
+  "fb9023ef-a0f7-41c7-a088-eb2bd3d4cd57": {
+   "name": "Lowlife",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Grangemouth"
+  },
+  "000fc734-b7e1-4a01-92d1-f544261b43f5": {
+   "name": "Cocteau Twins",
+   "country": "GB",
+   "area": "Scotland",
+   "begin": "Grangemouth"
+  },
+  "60ef8ddb-7676-4056-a357-9a8c228d03a6": {
+   "name": "This Mortal Coil",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "United Kingdom"
+  },
+  "99d128c0-2309-45c1-8262-1eb9face73d9": {
+   "name": "Black Tape for a Blue Girl",
+   "country": "US",
+   "area": "United States",
+   "begin": null
+  },
+  "a12818f3-fc34-43a9-8657-51a835915e6d": {
+   "name": "Cindytalk",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Edinburgh"
+  },
+  "8ca01f46-53ac-4af2-8516-55a909c0905e": {
+   "name": "My Bloody Valentine",
+   "country": "IE",
+   "area": "Ireland",
+   "begin": "Dublin"
+  },
+  "697801d1-68b2-4413-a7e4-0ef507d21cc1": {
+   "name": "Lush",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "e304fa8b-8de2-4089-b43b-bd24ca40800f": {
+   "name": "The Telescopes",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Burton upon Trent"
+  },
+  "edffc348-5d61-4782-ac0b-8cb698810fbe": {
+   "name": "Kitchens of Distinction",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Tooting"
+  },
+  "e938a15c-b17e-4e7a-9f68-ff0d536cab44": {
+   "name": "The Jesus and Mary Chain",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "East Kilbride"
+  },
+  "9a407ae8-afbb-4a3a-abb1-1fab4b3c26af": {
+   "name": "The Primitives",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Coventry"
+  },
+  "5b11f4ce-a62d-471e-81fc-a69a8278c7da": {
+   "name": "Nirvana",
+   "country": "US",
+   "area": "United States",
+   "begin": "Aberdeen"
+  },
+  "e675295a-1efe-4247-aa3b-53b78d0cdffc": {
+   "name": "Mudhoney",
+   "country": "US",
+   "area": "United States",
+   "begin": "Seattle"
+  },
+  "153c9281-268f-4cf3-8938-f5a4593e5df4": {
+   "name": "Soundgarden",
+   "country": "US",
+   "area": "United States",
+   "begin": "Seattle"
+  },
+  "78f56916-fe11-4110-8f10-d553ddf8de7b": {
+   "name": "Green River",
+   "country": "US",
+   "area": "United States",
+   "begin": "Seattle"
+  },
+  "9ccfbc94-a4f4-42f7-b6f5-d903ab77cccb": {
+   "name": "Melvins",
+   "country": "US",
+   "area": "United States",
+   "begin": "Montesano"
+  },
+  "867d3fb7-9cd1-47a4-a8f0-de29cdca2004": {
+   "name": "Tad",
+   "country": "US",
+   "area": "United States",
+   "begin": "Seattle"
+  },
+  "f1106b17-dcbb-45f6-b938-199ccfab50cc": {
+   "name": "New Order",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Salford"
+  },
+  "f22e793d-9a7e-4ec9-9d86-7a8528688abd": {
+   "name": "The Shamen",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Aberdeen"
+  },
+  "6746c384-b67b-4eb7-a986-e2b6f4140cee": {
+   "name": "Colourbox",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": null
+  },
+  "90ae37a5-a693-4f81-893a-ca07ed365bdf": {
+   "name": "The Woodentops",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "b5fa29f1-6c22-4321-a488-b5f363b06b06": {
+   "name": "The Stone Roses",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Manchester"
+  },
+  "01f4fb92-6bf0-4de5-83dc-3fe194e763bf": {
+   "name": "Happy Mondays",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Little Hulton"
+  },
+  "03c2e506-e8bb-4bd6-9693-5aa97c8eea1c": {
+   "name": "Inspiral Carpets",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Oldham"
+  },
+  "9a58fda3-f4ed-4080-a3a5-f457aac9fcdd": {
+   "name": "Joy Division",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Salford"
+  },
+  "69ee3720-a7cb-4402-b48d-a02c366f2bcf": {
+   "name": "The Cure",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Crawley"
+  },
+  "d5da1841-9bc8-4813-9f89-11098090148e": {
+   "name": "The Fall",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Prestwich"
+  },
+  "8d07f60f-b9f4-46c0-9c27-31de0fb9b671": {
+   "name": "The Chameleons",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Middleton"
+  },
+  "db9d25d7-a85b-4a29-b2ff-8f5b69ed691e": {
+   "name": "Mission of Burma",
+   "country": "US",
+   "area": "United States",
+   "begin": "Boston"
+  },
+  "b2c36d47-e5e3-4ac8-a967-10e0265d3fff": {
+   "name": "The Sound",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "d4a8e74d-0315-42b5-9fcd-3ee1ded14f26": {
+   "name": "The Comsat Angels",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Sheffield"
+  },
+  "ab5f1b53-dabe-444a-a8fe-116cde87f709": {
+   "name": "Josef K",
+   "country": "GB",
+   "area": "Edinburgh",
+   "begin": "Edinburgh"
+  },
+  "d350bc0e-10bb-47f1-9027-d1f011ae9aa8": {
+   "name": "Au Pairs",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Birmingham"
+  },
+  "5f895285-0598-4a03-a10f-ac171746ef45": {
+   "name": "Pylon",
+   "country": "US",
+   "area": "United States",
+   "begin": "Athens"
+  },
+  "0688add2-c282-4ee2-ba61-223ffdb3c201": {
+   "name": "Bauhaus",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Northampton"
+  },
+  "78ea5ea1-3c4d-4b7e-ac5d-68900319ebe2": {
+   "name": "Siouxsie and the Banshees",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "London"
+  },
+  "553d8166-27b0-49fe-b8e4-89a984e2c375": {
+   "name": "The Sisters of Mercy",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Leeds"
+  },
+  "a262543f-6ab4-4ac7-86f3-4fc09ff56f3b": {
+   "name": "Fields of the Nephilim",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Stevenage"
+  },
+  "944402e1-7e5b-49c0-9b31-f5959233e744": {
+   "name": "Sex Gang Children",
+   "country": "GB",
+   "area": "London",
+   "begin": null
+  },
+  "3bcc8af0-4335-4bb0-83ba-d0ce67ae6114": {
+   "name": "Skeletal Family",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Keighley"
+  },
+  "75ede374-68bb-4429-85fb-4b3b1421dbd1": {
+   "name": "The Danse Society",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Barnsley"
+  },
+  "2a09f8e7-1138-4030-96a3-fddfdf82127b": {
+   "name": "Christian Death",
+   "country": "US",
+   "area": "United States",
+   "begin": "Los Angeles"
+  },
+  "337027f4-4f29-42f4-bc4d-63e7d4e74e1a": {
+   "name": "45 Grave",
+   "country": "US",
+   "area": "United States",
+   "begin": "Los Angeles"
+  },
+  "28a63613-d693-43e0-90c9-030475e4c7e0": {
+   "name": "Kommunity FK",
+   "country": "US",
+   "area": "United States",
+   "begin": null
+  },
+  "23331fcb-179d-4007-b44c-00776c6c7597": {
+   "name": "Super Heroines",
+   "country": "US",
+   "area": "United States",
+   "begin": null
+  },
+  "b3465cab-9628-447c-9897-2d18abab89d3": {
+   "name": "ESG",
+   "country": "US",
+   "area": "United States",
+   "begin": "The Bronx"
+  },
+  "4ba3563c-a27e-4bce-9e3e-5d6b4f1cde6d": {
+   "name": "Liquid Liquid",
+   "country": "US",
+   "area": "United States",
+   "begin": "New York"
+  },
+  "73577e86-4da8-4d76-949d-34c757e053be": {
+   "name": "A Certain Ratio",
+   "country": "GB",
+   "area": "United Kingdom",
+   "begin": "Wythenshawe"
+  },
+  "0fa623ce-9d1a-4b14-b6a3-19c79317a22f": {
+   "name": "Bush Tetras",
+   "country": "US",
+   "area": "United States",
+   "begin": "New York"
+  },
+  "d6d718da-f5c1-46ef-b0b9-159f11b9a7e7": {
+   "name": "Maximum Joy",
+   "country": "GB",
+   "area": "England",
+   "begin": "Bristol"
+  },
+  "2b835de3-221a-49b1-8edd-7e196a020d02": {
+   "name": "Konk",
+   "country": "US",
+   "area": "United States",
+   "begin": "New York"
+  },
+  "74f2add6-e8b6-4323-a21b-443600379d16": {
+   "name": "Lydia Lunch",
+   "country": "US",
+   "area": "United States",
+   "begin": "Rochester"
+  },
+  "df51459b-4d97-4a37-ac9a-3b119af21aa2": {
+   "name": "DNA",
+   "country": "US",
+   "area": "United States",
+   "begin": null
+  },
+  "3285dc48-9505-469d-ad8a-bdf2d3dba632": {
+   "name": "Swans",
+   "country": "US",
+   "area": "United States",
+   "begin": "New York"
+  },
+  "81fae220-3175-48ae-9be4-ef36d603b96f": {
+   "name": "Ut",
+   "country": null,
+   "area": null,
+   "begin": null
+  },
+  "a94a7155-c79d-4409-9fcf-220cb0e4dc3a": {
+   "name": "Talking Heads",
+   "country": "US",
+   "area": "United States",
+   "begin": "New York"
+  },
+  "d2db1078-c170-4e22-b261-14f3ad60a690": {
+   "name": "DEVO",
+   "country": "US",
+   "area": "United States",
+   "begin": "Akron"
+  },
+  "127f591a-7e27-4435-92db-0780f219f3a1": {
+   "name": "The B‐52s",
+   "country": "US",
+   "area": "United States",
+   "begin": "Athens"
+  }
+ }
+}
