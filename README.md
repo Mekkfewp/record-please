@@ -2,6 +2,8 @@
 
 A small pixel-style music game. Pick the decade you were born in and where you are from, hear nine records one at a time, keep or skip each, and leave with a playlist and a listener persona.
 
+Play it: <https://mekkfewp.github.io/record-please/>
+
 ## Run
 
 ```

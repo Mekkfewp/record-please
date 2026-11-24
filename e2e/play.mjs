@@ -4,6 +4,8 @@
 //   E2E_URL=https://example.org/game/ node e2e/play.mjs   plays an address that is already being served
 //   node e2e/play.mjs --shots <dir>                  also saves screenshots and the exported image there
 //
+//   CHROME_ARGS="--proxy-server=http://127.0.0.1:8080" passes extra flags to the browser
+//
 // Needs Google Chrome (or CHROME_PATH pointing at a Chromium build) and network access:
 // covers and previews are fetched from Apple, and one real preview has to start playing.
 import { spawn } from 'node:child_process';
@@ -54,7 +56,8 @@ if (BASE) {
 }
 console.log('playing', BASE);
 
-const browser = await chromium.launch(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH, headless: true } : { channel: 'chrome', headless: true });
+const chromeArgs = (process.env.CHROME_ARGS ?? '').split(' ').filter(Boolean);
+const browser = await chromium.launch({ ...(process.env.CHROME_PATH ? { executablePath: process.env.CHROME_PATH } : { channel: 'chrome' }), headless: true, args: chromeArgs });
 const ctx = await browser.newContext({ viewport: { width: 1280, height: 900 }, deviceScaleFactor: 2, timezoneId: 'Asia/Shanghai', permissions: ['clipboard-read', 'clipboard-write'] });
 const page = await ctx.newPage();
 const errors = [];
