@@ -117,13 +117,16 @@ test('no record is dealt twice in a game', () => {
   everyGame((state, where) => assert.equal(new Set(state.steps.map((s) => s.recordId)).size, ROUNDS, where));
 });
 
-test('every record after the first arrives face down and turns over when decided', () => {
+test('the first two records are face up; from the third, a record arrives face down and turns over when decided', () => {
   let state = reduce(initialState, { type: 'open', seed: 2 }, slice);
   state = reduce(state, { type: 'pick', recordId: state.doors[0] }, slice);
   state = reduce(reduce(state, { type: 'keep' }, slice), { type: 'next' }, slice);
+  assert.equal(current(state).faceUp, true);
+  assert.equal(state.steps[1].decision, null);
+  state = reduce(reduce(state, { type: 'keep' }, slice), { type: 'next' }, slice);
   assert.equal(current(state).faceUp, false);
-  assert.equal(reduce(state, { type: 'pass' }, slice).steps[1].faceUp, true);
-  assert.equal(reduce(state, { type: 'keep' }, slice).steps[1].faceUp, true);
+  assert.equal(reduce(state, { type: 'pass' }, slice).steps[2].faceUp, true);
+  assert.equal(reduce(state, { type: 'keep' }, slice).steps[2].faceUp, true);
 });
 
 test('keeping goes down one floor at a time and stops at floor 3', () => {

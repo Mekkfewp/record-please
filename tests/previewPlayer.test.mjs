@@ -157,6 +157,15 @@ test('start plays a card by itself and leaves a card that is already playing alo
   assert.deepEqual(player.getState(), { trackId: 't2', status: 'playing' });
 });
 
+test('a match with no stored preview address asks Apple before it plays', async () => {
+  const player = new PreviewPlayer();
+  player.start('t1', { ...apple, previewUrl: '' });
+  await settle();
+  assert.deepEqual(lookups, ['https://itunes.apple.com/lookup?id=111&country=us']);
+  assert.deepEqual(played, ['https://audio-ssl.itunes.apple.com/new.m4a']);
+  assert.deepEqual(player.getState(), { trackId: 't1', status: 'playing' });
+});
+
 test('when the browser refuses to play without a click, start leaves the play button ready', async () => {
   playable = () => 'NotAllowedError';
   const player = new PreviewPlayer();

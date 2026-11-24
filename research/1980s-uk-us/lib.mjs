@@ -7,22 +7,47 @@ export const norm = (s) =>
   String(s).normalize('NFKD').replace(/[\u0300-\u036f]/g, '').toLowerCase().replace(/&/g, 'and').replace(/[^\p{L}\p{N}]+/gu, '');
 export const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-/** records.txt -> [{ path: [names], unsure: bool, tier, artist, title, year, type, key }] */
-export function readRecords() {
+/**
+ * "?" after a name: its place on RYM is not checked. "!" after a name: RYM lists it as a scene,
+ * with no style genre above it, and it hangs here by our choice. Oi! is the genre's own spelling,
+ * not that mark. check-tree.mjs works the real status out from the RYM file.
+ */
+function cleanName(name) {
+  if (name === 'Oi!') return name;
+  return name.replace(/[?!]$/, '');
+}
+
+/** records text -> [{ path: [names], unsure: bool, tier, artist, title, year, type, key }] */
+export function parseRecords(text) {
   const out = [];
   let path = null;
   let unsure = false;
-  for (const line of readFileSync(here + 'records.txt', 'utf8').split('\n')) {
+  for (const line of text.split('\n')) {
     if (line.startsWith('## ')) {
       const parts = line.slice(3).split(' > ').map((p) => p.trim());
-      unsure = parts[parts.length - 1].endsWith('?');
-      path = parts.map((p) => p.replace(/\?$/, ''));
+      const last = parts[parts.length - 1];
+      unsure = last !== 'Oi!' && /[?!]$/.test(last);
+      path = parts.map(cleanName);
     } else if (/^[123]\|/.test(line)) {
       const [tier, artist, title, year, type] = line.split('|');
       out.push({ path, unsure, tier: Number(tier), artist, title, year: Number(year), type, key: `${artist}|${title}` });
     }
   }
   return out;
+}
+
+/** records.txt -> [{ path: [names], unsure: bool, tier, artist, title, year, type, key }] */
+export function readRecords() {
+  return parseRecords(readFileSync(here + 'records.txt', 'utf8'));
+}
+
+/** Every node key on the tree, parent before child. */
+export function nodeKeys(records) {
+  const keys = new Set();
+  for (const record of records) {
+    record.path.forEach((_, i) => keys.add(record.path.slice(0, i + 1).join(' > ')));
+  }
+  return keys;
 }
 
 export async function getJson(url, gapMs, state) {

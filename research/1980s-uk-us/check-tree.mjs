@@ -5,9 +5,13 @@
 // stylistic origins)? Writes tree.json. RYM itself is not read.
 import { readFileSync, writeFileSync } from 'node:fs';
 import { UA, getJson, here, norm, readRecords, sleep } from './lib.mjs';
+import { readRym } from './rym.mjs';
 
 // Wikipedia article for a node name, where a search for the plain name would land elsewhere.
 const TITLES = {
+  'Punk / Post-Punk / Hardcore': null, 'Industrial / Noise': null, 'R&B / Soul / Funk': null, 'Reggae / Ska / Dancehall': null,
+  'Hardcore [Punk]': 'Hardcore punk', Darkwave: 'Dark wave', 'Big Music': null, 'Disco Rap': null, 'UK Hip Hop': 'British hip-hop',
+  'New York Hardcore': 'New York hardcore', 'Rockabilly Revival': null, 'Mutant Disco': 'Mutant disco', 'Slacker Rock': 'Slacker rock',
   Rock: 'Rock music', Pop: 'Pop music', Punk: 'Punk rock', Metal: 'Heavy metal music', Dance: 'Dance music',
   Electronic: 'Electronic music', 'Industrial & Noise': null, Industrial: 'Industrial music', Noise: 'Noise music',
   'Hip Hop': 'Hip-hop', 'R&B': 'Rhythm and blues', Jazz: 'Jazz', Ambient: 'Ambient music', 'New Age': 'New-age music',
@@ -27,6 +31,7 @@ const TITLES = {
   'Garage Rock Revival': null, 'Space Rock Revival': null, 'ECM Style Jazz': null, 'Technical Thrash Metal': null,
   Britcore: null, 'UK Street Soul': null, 'Tribal Ambient': null, 'Tape Music': 'Tape music', 'Computer Music': 'Computer music',
   Electroacoustic: 'Electroacoustic music', 'Art Punk': 'Art punk', 'Synth Punk': 'Synth-punk', 'Pop Soul': 'Pop-soul',
+  'Oi!': 'Oi!',
 };
 
 const state = {};
@@ -50,7 +55,8 @@ function names(value) {
 const mbGenres = new Set(readFileSync(here + 'musicbrainz-genres.txt', 'utf8').split('\n').map((x) => norm(x)).filter(Boolean));
 const paths = new Map();
 for (const r of readRecords()) r.path.forEach((_, i) => paths.set(r.path.slice(0, i + 1).join(' > '), r.path.slice(0, i + 1)));
-const articles = {};
+let articles = {};
+try { articles = JSON.parse(readFileSync(here + 'tree.json', 'utf8')).articles ?? {}; } catch {}
 for (const path of paths.values()) {
   const name = path[path.length - 1];
   if (name in articles) continue;
@@ -78,6 +84,18 @@ for (const path of paths.values()) {
   entry.linksTo = names(text.slice(0, text.search(/\n==[^=]/) > 0 ? text.search(/\n==[^=]/) : 6000));
   console.log(`ok ${name} -> ${entry.title}${entry.infobox ? '' : ' (no genre infobox)'}`);
 }
+// RYM's own tree, as far as it was read (names and hierarchy only; see rym.mjs).
+const rym = readRym();
+function rymStatus(name, parent) {
+  if (!parent) return rym.top.includes(name) ? 'match' : rym.uncategorized.includes(name) ? 'match-uncategorized' : 'unread';
+  const parents = rym.parents.get(name);
+  // Not in the file: either its branch was not read, or the branch was read and RYM has no such child.
+  if (!parents) return rym.complete.has(parent) ? 'absent' : 'unread';
+  if (parents.has(parent)) return 'match';
+  if (parents.has('Scenes & Movements')) return 'scene';
+  if (parents.size === 0) return 'unread-edge';
+  return 'differs';
+}
 const nodes = [];
 for (const [key, path] of paths) {
   const name = path[path.length - 1];
@@ -92,7 +110,7 @@ for (const [key, path] of paths) {
     else if (same(a.linksTo, parent, p)) edge = 'lead-links-to-parent';
     else edge = 'not-found';
   }
-  nodes.push({ key, name, parent, inMusicBrainz: mbGenres.has(norm(name)), wikipedia: a.title, infobox: a.infobox, edge });
+  nodes.push({ key, name, parent, inMusicBrainz: mbGenres.has(norm(name)), wikipedia: a.title, infobox: a.infobox, edge, rym: rymStatus(name, parent), rymParents: [...(rym.parents.get(name) ?? [])] });
 }
 writeFileSync(here + 'tree.json', JSON.stringify({ nodes, articles }, null, 1));
 console.log('DONE', nodes.length);

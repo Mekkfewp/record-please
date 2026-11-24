@@ -8,8 +8,8 @@ import type { DigRecord, Floor, Tie } from './types';
  * Rules, in the order a player meets them:
  *  1. The counter shows three door records, each from a different family. The player picks one;
  *     it is card 1, on the ground floor, face up.
- *  2. Every later record arrives face down and plays. The player keeps it or passes; either way
- *     it then turns over.
+ *  2. The second record is also face up. From the third on, a record arrives face down and
+ *     plays; keeping or passing turns it over.
  *  3. Keeping goes down: the next record is one floor lower (ground, then the genre's best-known
  *     records, then records known inside the genre, then obscure ones) and, where the tree has
  *     one, inside a sub-genre of the record just kept.
@@ -115,10 +115,27 @@ export function pickDoors(slice: Slice, seed: number, shuffles: number, prefer: 
       Number(prefer.includes(b)) - Number(prefer.includes(a)) ||
       luck(seed, `family ${shuffles} ${a}`) - luck(seed, `family ${shuffles} ${b}`),
   );
-  return families.slice(0, DOORS_SHOWN).map((family) => {
+  const chosen = families.slice(0, DOORS_SHOWN).map((family) => {
     const doors = byFamily.get(family) ?? [];
     return doors.reduce((top, d) => (luck(seed, `door ${shuffles} ${d.id}`) > luck(seed, `door ${shuffles} ${top.id}`) ? d : top)).id;
   });
+  if (chosen.length >= DOORS_SHOWN) return chosen;
+  // One family cannot fill three places. The remaining doors are other records from it.
+  const used = new Set(chosen);
+  const genreUsed = new Set(chosen.map((id) => slice.record(id).genre));
+  const rest = slice.doors
+    .filter((door) => !used.has(door.id))
+    .sort(
+      (a, b) =>
+        Number(genreUsed.has(a.genre)) - Number(genreUsed.has(b.genre)) ||
+        luck(seed, `extra ${shuffles} ${a.id}`) - luck(seed, `extra ${shuffles} ${b.id}`),
+    );
+  for (const door of rest) {
+    if (chosen.length >= DOORS_SHOWN) break;
+    chosen.push(door.id);
+    genreUsed.add(door.genre);
+  }
+  return chosen;
 }
 
 export const current = (state: GameState): Step | null => state.steps[state.steps.length - 1] ?? null;
@@ -156,7 +173,7 @@ export function deal(state: GameState, slice: Slice): Step | null {
         LUCK * luck(state.seed, `deal ${state.steps.length} ${record.id}`);
       if (!top || score > top.score) top = { record, score, tie };
     }
-    if (top) return { recordId: top.record.id, floor, move, tie: top.tie, faceUp: false, decision: null };
+    if (top) return { recordId: top.record.id, floor, move, tie: top.tie, faceUp: state.steps.length < 2, decision: null };
   }
   return null;
 }

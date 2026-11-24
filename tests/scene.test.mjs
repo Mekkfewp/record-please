@@ -96,8 +96,10 @@ test('after a decision only the stack and the device respond', () => {
   assert.equal(passed.record.face, 'passed');
 });
 
-test('later records are face down until decided', () => {
-  const state = reduce(reduce(started(), { type: 'keep' }, slice), { type: 'next' }, slice);
+test('the second record is face up and the third arrives face down', () => {
+  let state = reduce(reduce(started(), { type: 'keep' }, slice), { type: 'next' }, slice);
+  assert.equal(describe(state, slice, 'playing', false).record.face, 'face-up');
+  state = reduce(reduce(state, { type: 'keep' }, slice), { type: 'next' }, slice);
   assert.equal(describe(state, slice, 'playing', false).record.face, 'face-down');
 });
 

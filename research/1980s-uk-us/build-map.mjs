@@ -1,8 +1,11 @@
 #!/usr/bin/env node
 // Builds the genre map document from records.txt and the three check results
 // (mb.json, wp.json, tree.json). Usage: node build-map.mjs <output.md>
+import { execFileSync } from 'node:child_process';
 import { readFileSync, writeFileSync } from 'node:fs';
-import { here, norm, readRecords } from './lib.mjs';
+import { dirname, join } from 'node:path';
+import { here, nodeKeys, norm, parseRecords, readRecords } from './lib.mjs';
+import { readRymReleases } from './rym.mjs';
 
 const output = process.argv[2];
 if (!output) throw new Error('usage: node build-map.mjs <output.md>');
@@ -15,8 +18,20 @@ const records = readRecords();
 // Names a source may use for the same genre. The document always prints the source's own word.
 const ALIASES = {
   'Hip Hop': ['hip hop', 'hip-hop', 'rap'],
+  'Slacker Rock': ['slacker rock', 'lo-fi', 'lo-fi indie', 'lo-fi music'],
+  'Rockabilly Revival': ['rockabilly revival', 'neo-rockabilly', 'rockabilly'],
+  Darkwave: ['darkwave', 'dark wave'],
+  'Disco Rap': ['disco rap', 'old-school hip hop', 'old school hip hop', 'old-school hip-hop'],
+  'Punk Poetry': ['punk poetry', 'ranting poetry', 'performance poetry'],
+  'Punk / Post-Punk / Hardcore': ['punk', 'punk rock', 'post-punk', 'hardcore punk'],
+  'Hardcore [Punk]': ['hardcore punk', 'hardcore'],
+  'Industrial / Noise': ['industrial', 'noise'],
+  'R&B / Soul / Funk': ['r&b', 'rhythm and blues', 'soul', 'funk'],
+  'Reggae / Ska / Dancehall': ['reggae', 'ska', 'dancehall'],
+  'Electro-Disco': ['electro-disco'],
+  'Psychedelic Rock': ['psychedelic rock', 'psychedelia'],
+  'Space Rock': ['space rock'],
   'Indie Rock': ['indie rock', 'indie'],
-  'Lo-Fi Indie': ['lo-fi', 'lo-fi indie', 'lo-fi music'],
   'Ethereal Wave': ['ethereal wave', 'ethereal', 'ethereal darkwave'],
   Shoegaze: ['shoegaze', 'shoegazing'],
   'Alternative Dance': ['alternative dance', 'indie dance'],
@@ -35,7 +50,6 @@ const ALIASES = {
   'Neo-Psychedelia': ['neo-psychedelia', 'neo-psychedelic'],
   'Space Rock Revival': ['space rock revival', 'space rock'],
   Psychedelia: ['psychedelia', 'psychedelic', 'psychedelic rock', 'psychedelic pop'],
-  Punk: ['punk', 'punk rock'],
   'Punk Rock': ['punk rock', 'punk'],
   'Street Punk': ['street punk', 'uk82', 'uk 82'],
   Cowpunk: ['cowpunk', 'country punk'],
@@ -61,7 +75,6 @@ const ALIASES = {
   'Garage House': ['garage house', 'garage', 'us garage', 'new york garage'],
   'Bleep Techno': ['bleep techno', 'bleep', 'bleep and bass'],
   Industrial: ['industrial', 'industrial music'],
-  'Industrial & Noise': ['industrial', 'noise'],
   EBM: ['ebm', 'electronic body music', 'industrial dance'],
   Noise: ['noise', 'noise music'],
   'Boom Bap': ['boom bap'],
@@ -75,7 +88,6 @@ const ALIASES = {
   'Pop Rap': ['pop rap', 'pop-rap'],
   'UK Hip Hop': ['uk hip hop', 'british hip hop', 'british hip-hop', 'uk hip-hop'],
   'Miami Bass': ['miami bass'],
-  'R&B': ['r&b', 'rhythm and blues', 'contemporary r&b'],
   'Contemporary R&B': ['contemporary r&b', 'r&b'],
   'New Jack Swing': ['new jack swing', 'swingbeat'],
   'Smooth Soul': ['smooth soul', 'quiet storm'],
@@ -101,7 +113,7 @@ const ALIASES = {
   'Sound Collage': ['sound collage', 'plunderphonics', 'collage'],
   Drone: ['drone', 'drone music'],
   'Free Improvisation': ['free improvisation', 'free improv'],
-  Electroacoustic: ['electroacoustic', 'electroacoustic music'],
+  Electroacoustic: ['electroacoustic', 'electroacoustic music', 'electro-acoustic', 'computer music', 'tape music', 'musique concrète'],
   'Computer Music': ['computer music'],
   'Tape Music': ['tape music'],
   Folk: ['folk', 'folk music'],
@@ -123,7 +135,6 @@ const ALIASES = {
   Reggae: ['reggae'],
   'Roots Reggae': ['roots reggae'],
   Dub: ['dub', 'dub music'],
-  'Neo-Rockabilly': ['neo-rockabilly', 'rockabilly revival', 'rockabilly'],
   'Rock & Roll': ['rock and roll', "rock 'n' roll", 'rock & roll'],
   'Yacht Rock': ['yacht rock', 'west coast aor'],
   'Teen Pop': ['teen pop', 'bubblegum pop'],
@@ -142,30 +153,49 @@ const inRange = (y) => y >= 1980 && y <= 1989;
 const esc = (s) => String(s).replace(/\|/g, '\\|').replace(/\*/g, '\\*');
 const wpUrl = (title) => `https://en.wikipedia.org/wiki/${encodeURIComponent(title.replace(/ /g, '_')).replace(/%2C/g, ',').replace(/%3A/g, ':')}`;
 
+// Rows another worker copied from RYM's own genre pages (dated discography rows only). A row
+// puts the record in that RYM genre; the ranking lists are not used for this.
+const RYM_GENRE = { UK82: 'Street Punk', Madchester: 'Baggy' };
+const rymKey = (artist, title) => `${norm(artist.replace(/^the /i, ''))}|${norm(title.split(' / ')[0])}`;
+const rymRows = new Map();
+for (const row of readRymReleases().filter((x) => x.list === 'discography')) {
+  const key = rymKey(row.artist, row.title);
+  if (!rymRows.has(key)) rymRows.set(key, []);
+  rymRows.get(key).push(row);
+}
+function rymPlace(r) {
+  for (const row of rymRows.get(rymKey(r.artist, r.title)) ?? []) {
+    const node = RYM_GENRE[row.genre] ?? row.genre;
+    const depth = r.path.lastIndexOf(node);
+    if (depth >= 0) return { depth, node: r.path[depth], rym: row.genre, year: row.year };
+  }
+  return null;
+}
+
+
 function check(r) {
   const m = mb.records[r.key];
   const w = wp[r.key];
   const res = { r, m: m?.found ? m : null, w: w?.found ? w : null, issues: [], place: null, country: null };
+  const onRym = rymPlace(r);
   const mbYear = res.m?.first ? Number(res.m.first.slice(0, 4)) : null;
   const wpYear = res.w?.released ?? null;
-  res.years = { mb: mbYear, wp: wpYear };
-  if (!res.m && !res.w) res.issues.push('nosource');
-  else {
-    const years = [mbYear, wpYear].filter(Boolean);
-    if (years.length === 0) res.issues.push('noyear');
-    else if (years.every((y) => !inRange(y))) res.issues.push('year');
-    else if (years.some((y) => !inRange(y))) res.issues.push('yearconflict');
-  }
+  res.years = { mb: mbYear, wp: wpYear, rym: onRym?.year ?? null };
+  const years = [mbYear, wpYear, res.years.rym].filter(Boolean);
+  if (!res.m && !res.w && !onRym) res.issues.push('nosource');
+  else if (years.length === 0) res.issues.push('noyear');
+  else if (years.every((y) => !inRange(y))) res.issues.push('year');
+  else if (years.some((y) => !inRange(y))) res.issues.push('yearconflict');
   const artist = res.m ? mb.artists[res.m.artistId] : null;
   res.country = artist?.country ?? null;
-  res.artistArea = artist?.area ?? null;
   if (res.m && res.country && !['GB', 'US'].includes(res.country)) res.issues.push('country');
   // Where do the sources put it? Walk from the leaf up to the top-level family.
   for (let depth = r.path.length - 1; depth >= 0 && !res.place; depth--) {
     const wanted = namesFor(r.path[depth]);
     const fromWp = res.w?.genres.find((g) => wanted.includes(norm(g)));
     const fromMb = res.m?.genres.find((g) => wanted.includes(norm(g)));
-    if (fromWp || fromMb) res.place = { depth, node: r.path[depth], wp: fromWp ?? null, mb: fromMb ?? null };
+    const fromRym = onRym && onRym.depth === depth ? onRym.rym : null;
+    if (fromWp || fromMb || fromRym) res.place = { depth, node: r.path[depth], wp: fromWp ?? null, mb: fromMb ?? null, rym: fromRym };
   }
   res.level = !res.place ? 'none' : res.place.depth === r.path.length - 1 ? 'leaf' : 'parent';
   return res;
@@ -173,34 +203,11 @@ function check(r) {
 
 const results = records.map(check);
 const ok = (x) => !x.issues.some((i) => ['nosource', 'year', 'country', 'noyear'].includes(i));
+const usable = (x) => ok(x) && x.level !== 'none';
 const count = (f) => results.filter(f).length;
 
-// ---- tree ----
+// ---- tree, depth-first, so a family's branches stay together ----
 const nodeInfo = new Map(tree.nodes.map((n) => [n.key, n]));
-const leafRecords = new Map();
-for (const x of results) {
-  const key = x.r.path.join(' > ');
-  if (!leafRecords.has(key)) leafRecords.set(key, []);
-  leafRecords.get(key).push(x);
-}
-const unsureLeaves = new Set(records.filter((r) => r.unsure).map((r) => r.path.join(' > ')));
-const EDGE = {
-  'parent-lists-child': '上级条目把它列为子类',
-  'child-lists-parent-as-origin': '条目把上级列为来源',
-  'lead-links-to-parent': '条目开头提到上级',
-  'not-found': '没查到',
-};
-
-const L = [];
-const p = (...lines) => L.push(...lines);
-p('---', 'cursor:', '  subagentId: "bc-a695e51d-5b7e-58b5-8610-e028452164cf"', '---', '');
-p('# 1980 年代英国和美国：流派图和提名的唱片', '');
-p(process.env.MAP_INTRO ?? '', '');
-
-p('## 流派树', '');
-p('每行后面的记号：`MB` 表示这个名字在 MusicBrainz 的流派名单里；`WP` 表示英文维基百科有这个流派的条目；`↑` 表示维基百科的流派条目支持它和上一级的关系；`?` 表示我对它在 RYM 上的上一级没有把握。方括号里是这个节点下提名的唱片数，斜杠后面是其中通过年份和国籍核对、并且有出处把它放进这个流派（或它的上一级）的张数。', '');
-p('**整棵树的每一个节点，都还没有对着 RYM 本身核对过。**', '');
-// Depth-first order, so a family's branches stay together whatever order records.txt lists them in.
 const children = new Map();
 for (const key of nodeInfo.keys()) {
   const parent = key.includes(' > ') ? key.slice(0, key.lastIndexOf(' > ')) : '';
@@ -213,6 +220,91 @@ const walk = (key) => {
   for (const child of children.get(key) ?? []) walk(child);
 };
 walk('');
+const leafRecords = new Map();
+for (const x of results) {
+  const key = x.r.path.join(' > ');
+  if (!leafRecords.has(key)) leafRecords.set(key, []);
+  leafRecords.get(key).push(x);
+}
+
+const RYM_MARK = { match: 'RYM', 'match-uncategorized': 'RYM', scene: 'RYM:场景', absent: 'RYM:无此项', differs: 'RYM:上级不同', 'unread-edge': '', unread: '' };
+// These three pages were requested and returned RYM's security check, so nothing on them was read.
+// Their names do appear as children on the House and Techno pages. Record placements stay with
+// Wikipedia and MusicBrainz, and are not checked against RYM.
+const RELEASE_UNREAD = new Set(['Chicago House', 'Acid House', 'Detroit Techno']);
+const isMatch = (n) => n.rym === 'match' || n.rym === 'match-uncategorized';
+const nodes = keys.map((k) => nodeInfo.get(k));
+const stats = {
+  total: results.length,
+  leaves: leafRecords.size,
+  nodes: nodes.length,
+  families: nodes.filter((n) => !n.parent).length,
+  maxDepth: Math.max(...keys.map((k) => k.split(' > ').length)),
+  rymMatch: nodes.filter(isMatch).length,
+  rymUncategorized: nodes.filter((n) => n.rym === 'match-uncategorized').length,
+  rymScene: nodes.filter((n) => n.rym === 'scene').length,
+  rymOther: nodes.filter((n) => ['absent', 'differs'].includes(n.rym)).length,
+  rymUnread: nodes.filter((n) => ['unread', 'unread-edge'].includes(n.rym)).length,
+  mbNodes: nodes.filter((n) => n.inMusicBrainz).length,
+  wpNodes: nodes.filter((n) => n.wikipedia).length,
+  unreadWithOther: nodes.filter((n) => ['unread', 'unread-edge'].includes(n.rym) && (n.inMusicBrainz || n.wikipedia)).length,
+  inBoth: count((x) => x.m && x.w),
+  inMb: count((x) => x.m),
+  inWp: count((x) => x.w),
+  onRym: count((x) => x.place?.rym),
+  nosource: count((x) => x.issues.includes('nosource')),
+  year: count((x) => x.issues.includes('year')),
+  yearconflict: count((x) => x.issues.includes('yearconflict')),
+  country: count((x) => x.issues.includes('country')),
+  leaf: count((x) => ok(x) && x.level === 'leaf'),
+  parent: count((x) => ok(x) && x.level === 'parent'),
+  none: count((x) => ok(x) && x.level === 'none'),
+  usable: count(usable),
+  byTier: [1, 2, 3].map((t) => ({ tier: t, proposed: count((x) => x.r.tier === t), usable: count((x) => x.r.tier === t && usable(x)) })),
+  leavesWith3: [...leafRecords.values()].filter((v) => v.filter(usable).length >= 3).length,
+  leavesWith0: [...leafRecords.entries()].filter(([, v]) => v.filter(usable).length === 0).map(([k]) => k),
+};
+stats.tier1 = stats.byTier[0].proposed;
+stats.tier1ok = stats.byTier[0].usable;
+stats.tier2 = stats.byTier[1].proposed;
+stats.tier2ok = stats.byTier[1].usable;
+stats.tier3 = stats.byTier[2].proposed;
+stats.tier3ok = stats.byTier[2].usable;
+// A node is "changed" when the same name sat somewhere else in the proposal this branch started from.
+const previous = parseRecords(execFileSync('git', ['show', 'HEAD:research/1980s-uk-us/records.txt'], { cwd: join(here, '..', '..'), encoding: 'utf8' }));
+const then = new Map();
+for (const key of nodeKeys(previous)) then.set(key.split(' > ').at(-1), key);
+const now = [...nodeKeys(records)];
+stats.pathSame = now.filter((key) => then.get(key.split(' > ').at(-1)) === key).length;
+stats.pathChanged = now.filter((key) => then.has(key.split(' > ').at(-1)) && then.get(key.split(' > ').at(-1)) !== key).length;
+stats.pathAdded = now.filter((key) => !then.has(key.split(' > ').at(-1))).length;
+const changedNames = new Set(now.filter((key) => then.has(key.split(' > ').at(-1)) && then.get(key.split(' > ').at(-1)) !== key).map((key) => key.split(' > ').at(-1)));
+stats.changedMatch = nodes.filter((n) => changedNames.has(n.name) && isMatch(n)).length;
+stats.changedUnread = nodes.filter((n) => changedNames.has(n.name) && ['unread', 'unread-edge'].includes(n.rym)).length;
+stats.changedScene = nodes.filter((n) => changedNames.has(n.name) && n.rym === 'scene').length;
+stats.changedOther = nodes.filter((n) => changedNames.has(n.name) && ['absent', 'differs'].includes(n.rym)).length;
+
+const L = [];
+const p = (...lines) => L.push(...lines);
+const src = (x) => {
+  const out = [];
+  if (x.place?.rym && !x.r.path.some((name) => RELEASE_UNREAD.has(name))) out.push(`RYM 的 ${x.place.rym} 页面在带年份的发行列表里列有这张`);
+  if (x.place?.wp) out.push(`[维基百科](${wpUrl(x.w.title)})：${x.place.wp}`);
+  if (x.place?.mb) out.push(`[MusicBrainz](https://musicbrainz.org/release-group/${x.m.id})：${x.place.mb}`);
+  return out.join('；');
+};
+const label = (x) => `${esc(x.r.artist)}《${esc(x.r.title)}》`;
+
+p('---', 'cursor:', '  subagentId: "bc-d1a276df-c65a-5426-a615-f7f69de85fe5"', '---', '');
+p(readFileSync(here + 'map-intro.md', 'utf8').replace(/\{(\w+)\}/g, (_, k) => (k in stats ? String(stats[k]) : `{${k}}`)).trimEnd(), '');
+
+p('## 流派树', '');
+p('每行后面的记号：', '');
+p('- `RYM`：名字和上一级都和 RYM 的页面一致。');
+p('- `RYM:场景`：RYM 有这个名字，但把它列在 Scenes & Movements 下面，没有给它流派上的上一级；挂在这里是我的安排。');
+p('- 没有 `RYM` 记号：这一支的 RYM 页面没有读到，还没有核对。');
+p('- `MB`：名字在 MusicBrainz 的流派名单里。`WP`：英文维基百科有这个流派的条目。`↑`：维基百科的流派条目支持它和上一级的关系。');
+p('- 方括号里是提名的唱片数，斜杠后面是其中通过核对、可以进曲库候选的张数。', '');
 let family = null;
 for (const key of keys) {
   const n = nodeInfo.get(key);
@@ -222,16 +314,15 @@ for (const key of keys) {
     family = n.name;
     p(`### ${n.name}`, '', '```');
   }
-  const marks = [n.inMusicBrainz ? 'MB' : null, n.wikipedia ? 'WP' : null, n.edge && n.edge !== 'not-found' ? '↑' : null, unsureLeaves.has(key) ? '?' : null].filter(Boolean).join(' ');
+  const marks = [RYM_MARK[n.rym] || null, RELEASE_UNREAD.has(n.name) ? '发行列表未读' : null, n.inMusicBrainz ? 'MB' : null, n.wikipedia ? 'WP' : null, n.edge && n.edge !== 'not-found' ? '↑' : null].filter(Boolean).join(' ');
   const recs = leafRecords.get(key);
-  const tally = recs ? ` [${recs.length}/${recs.filter((x) => ok(x) && x.level !== 'none').length}]` : '';
+  const tally = recs ? `  [${recs.length}/${recs.filter(usable).length}]` : '';
   p(`${'  '.repeat(depth)}${n.name}${marks ? `  ${marks}` : ''}${tally}`);
 }
 p('```', '');
 
-// ---- per-leaf tables ----
 p('## 每个流派提名的唱片', '');
-p('每个流派下按"入口、圈内、深处"三档排列。"出处"一栏写的是来源自己用的词，链接指向那个来源；"只到上一级"表示来源没有用这个流派的名字，只用了它上一级的名字。', '');
+p('每个流派下按"入口、圈内、深处"三档排列。"出处"一栏写的是来源自己用的词，链接指向那个来源。"只到上一级"表示来源没有用这个流派的名字，只用了它上面某一级的名字，这张唱片如果进曲库，就挂在那一级。', '');
 family = null;
 for (const key of keys) {
   const recs = leafRecords.get(key);
@@ -241,14 +332,16 @@ for (const key of keys) {
     family = path[0];
     p(`### ${family}`, '');
   }
-  p(`#### ${path.join(' › ')}${unsureLeaves.has(key) ? '（上一级待核对）' : ''}`, '');
+  const n = nodeInfo.get(key);
+  const status = [
+    isMatch(n) ? '' : n.rym === 'scene' ? '（RYM 列为场景）' : '（未对照 RYM）',
+    path.some((name) => RELEASE_UNREAD.has(name)) ? '（发行列表没有读到，出处不对照 RYM）' : '',
+  ].join('');
+  p(`#### ${path.join(' › ')}${status}`, '');
   p('| 档 | 音乐人 | 唱片 | 年份 | 出处把它放在哪里 | 核对 |', '| --- | --- | --- | --- | --- | --- |');
   for (const x of [...recs].sort((a, b) => a.r.tier - b.r.tier)) {
-    const src = [];
-    if (x.place?.wp) src.push(`[维基百科](${wpUrl(x.w.title)})：${x.place.wp}`);
-    if (x.place?.mb) src.push(`[MusicBrainz](https://musicbrainz.org/release-group/${x.m.id})：${x.place.mb}`);
-    let placed = src.join('；');
-    if (x.level === 'parent') placed = `只到上一级。${placed}`;
+    let placed = src(x);
+    if (x.level === 'parent') placed = `只到上一级 ${x.place.node}。${placed}`;
     if (x.level === 'none') {
       const seen = [];
       if (x.w) seen.push(`[维基百科](${wpUrl(x.w.title)})写的是：${x.w.genres.slice(0, 4).join('、') || '没有流派栏'}`);
@@ -256,48 +349,42 @@ for (const key of keys) {
       placed = seen.length ? `没有出处。${seen.join('；')}` : '两处都没有查到这张唱片';
     }
     const notes = [];
-    const y = x.years.mb ?? x.years.wp;
+    const y = x.years.mb ?? x.years.wp ?? x.years.rym;
     if (x.issues.includes('year')) notes.push(`年份不在 1980 年代（${[x.years.mb, x.years.wp].filter(Boolean).join(' / ')}）`);
-    if (x.issues.includes('yearconflict')) notes.push(`两处年份不一致（MusicBrainz ${x.years.mb}，维基百科 ${x.years.wp}）`);
+    if (x.issues.includes('yearconflict')) notes.push(`年份不一致（MusicBrainz ${x.years.mb ?? '无'}，维基百科 ${x.years.wp ?? '无'}）`);
     if (x.issues.includes('noyear')) notes.push('没查到年份');
     if (x.issues.includes('country')) notes.push(`MusicBrainz 记的国家是 ${x.country}`);
     if (x.m && !x.country) notes.push('MusicBrainz 没记国家');
-    if (!x.m && x.w) notes.push('国籍没核对（MusicBrainz 没找到）');
-    if (y && inRange(y) && y !== x.r.year && !x.issues.includes('yearconflict')) notes.push(`我写的是 ${x.r.year}，来源是 ${y}`);
-    const shownYear = y ?? x.r.year;
-    p(`| ${TIER[x.r.tier]} | ${esc(x.r.artist)} | ${esc(x.r.title)}${x.r.type === 'a' ? '' : `（${TYPE[x.r.type]}）`} | ${shownYear}${y ? '' : '？'} | ${placed} | ${notes.join('；') || (x.level === 'none' && !x.m && !x.w ? '没核对' : '通过')} |`);
+    if (!x.m && (x.w || x.place?.rym)) notes.push('国籍没核对');
+    if (y && inRange(y) && y !== x.r.year && !x.issues.includes('yearconflict')) notes.push(`我写的是 ${x.r.year}`);
+    p(`| ${TIER[x.r.tier]} | ${esc(x.r.artist)} | ${esc(x.r.title)}${x.r.type === 'a' ? '' : `（${TYPE[x.r.type]}）`} | ${y ?? `${x.r.year}？`} | ${placed} | ${notes.join('；') || (x.issues.includes('nosource') ? '没核对' : '通过')} |`);
   }
   p('');
 }
 
-const stats = {
-  total: results.length,
-  leaves: leafRecords.size,
-  nodes: tree.nodes.length,
-  families: tree.nodes.filter((n) => !n.parent).length,
-  found: count((x) => x.m || x.w),
-  nosource: count((x) => x.issues.includes('nosource')),
-  year: count((x) => x.issues.includes('year')),
-  yearconflict: count((x) => x.issues.includes('yearconflict')),
-  country: count((x) => x.issues.includes('country')),
-  leaf: count((x) => ok(x) && x.level === 'leaf'),
-  parent: count((x) => ok(x) && x.level === 'parent'),
-  none: count((x) => ok(x) && x.level === 'none'),
-  byTier: [1, 2, 3].map((t) => ({ tier: t, proposed: count((x) => x.r.tier === t), placed: count((x) => x.r.tier === t && ok(x) && x.level !== 'none') })),
-  mbNodes: tree.nodes.filter((n) => n.inMusicBrainz).length,
-  wpNodes: tree.nodes.filter((n) => n.wikipedia).length,
-  edges: tree.nodes.filter((n) => n.parent).length,
-  edgesOk: tree.nodes.filter((n) => n.parent && n.edge !== 'not-found').length,
+p('## 没有通过核对的', '');
+p('这些不会进曲库，除非另有出处。逐张的情况在上面的表里。', '');
+const list = (title, items, show) => {
+  p(`### ${title}（${items.length} 张）`, '');
+  if (items.length === 0) p('没有。', '');
+  else p(items.map(show).join('；') + '。', '');
 };
-writeFileSync(here + 'results.json', JSON.stringify({ stats, results: results.map((x) => ({ key: x.r.key, path: x.r.path, tier: x.r.tier, issues: x.issues, level: x.level, place: x.place, country: x.country, years: x.years })) }, null, 1));
+list('年份不在 1980 到 1989 年', results.filter((x) => x.issues.includes('year')), (x) => `${label(x)}（${[x.years.mb, x.years.wp].filter(Boolean).join(' / ')}）`);
+list('两个来源的年份不一致，要人工看', results.filter((x) => x.issues.includes('yearconflict')), (x) => `${label(x)}（MusicBrainz ${x.years.mb ?? '无'}，维基百科 ${x.years.wp ?? '无'}）`);
+list('MusicBrainz 记的国家不是英国或美国', results.filter((x) => x.issues.includes('country')), (x) => `${label(x)}（${x.country}）`);
+list('年份和国籍没问题，但没有出处把它放进这个流派或它的上级', results.filter((x) => ok(x) && x.level === 'none'), label);
+list('MusicBrainz 和维基百科都没有查到', results.filter((x) => x.issues.includes('nosource')), label);
 
-const text = L.join('\n').replace('\n\n\n', '\n\n');
+p('## 一张候选都没有的流派', '');
+p('这些叶子上的提名没有一张同时过了年份、国籍和出处。', '');
+if (stats.leavesWith0.length === 0) p('没有。', '');
+else for (const key of stats.leavesWith0) p(`- ${key}`);
+p('');
+
+writeFileSync(here + 'results.json', JSON.stringify({ stats, results: results.map((x) => ({ key: x.r.key, path: x.r.path, tier: x.r.tier, type: x.r.type, issues: x.issues, level: x.level, place: x.place, country: x.country, years: x.years, usable: usable(x) })) }, null, 1));
+const text = L.join('\n');
 writeFileSync(output, text.endsWith('\n') ? text : text + '\n');
 console.log(JSON.stringify(stats, null, 1));
-console.log(
-  'nodes not in MB list:',
-  tree.nodes.filter((n) => !n.inMusicBrainz).map((n) => n.name).join(', '),
-);
-console.log('nodes without WP article:', tree.nodes.filter((n) => !n.wikipedia).map((n) => n.name).join(', '));
-console.log('edges not found:', tree.nodes.filter((n) => n.parent && n.edge === 'not-found').map((n) => `${n.parent} > ${n.name}`).join('; '));
-console.log(EDGE['not-found']);
+console.log('not in MB list:', nodes.filter((n) => !n.inMusicBrainz).map((n) => n.name).join(', '));
+console.log('no WP article:', nodes.filter((n) => !n.wikipedia).map((n) => n.name).join(', '));
+console.log('rym other:', nodes.filter((n) => !isMatch(n)).map((n) => `${n.key} [${n.rym}${n.rymParents?.length ? `: ${n.rymParents.join(' | ')}` : ''}]`).join('\n  '));

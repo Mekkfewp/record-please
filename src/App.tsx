@@ -1,4 +1,5 @@
 import { useEffect, useState, useSyncExternalStore } from 'react';
+import { SliceApp } from './slice/screen';
 import { Booth } from './components/Booth';
 import { Result } from './components/Result';
 import { StartScreen } from './components/StartScreen';
@@ -8,6 +9,11 @@ import { previewPlayer } from './engine/previewPlayer';
 import { stampSound } from './engine/stampSound';
 
 export default function App() {
+  const slice = new URLSearchParams(window.location.search).has('slice');
+  return slice ? <SliceApp /> : <LiveApp />;
+}
+
+function LiveApp() {
   const [state, setState] = useState(initialState);
   const [muted, setMuted] = useState(false);
   const preview = useSyncExternalStore(previewPlayer.subscribe, previewPlayer.getState);

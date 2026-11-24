@@ -325,12 +325,13 @@
  },
  "Mudhoney|Superfuzz Bigmuff": {
   "found": true,
-  "title": "Superfuzz Bigmuff Plus Early Singles",
+  "title": "Superfuzz Bigmuff",
+  "exact": true,
   "genres": [
    "grunge",
    "garage punk"
   ],
-  "released": 1990
+  "released": 1988
  },
  "Soundgarden|Ultramega OK": {
   "found": true,
@@ -1314,7 +1315,14 @@
   "found": false
  },
  "The Romantics|The Romantics": {
-  "found": false
+  "found": true,
+  "title": "The Romantics (album)",
+  "exact": true,
+  "genres": [
+   "power pop",
+   "new wave"
+  ],
+  "released": 1980
  },
  "Marshall Crenshaw|Marshall Crenshaw": {
   "found": true,
@@ -2046,7 +2054,14 @@
   "found": false
  },
  "Suicidal Tendencies|Suicidal Tendencies": {
-  "found": false
+  "found": true,
+  "title": "Suicidal Tendencies (album)",
+  "exact": true,
+  "genres": [
+   "hardcore punk",
+   "skate punk"
+  ],
+  "released": 1983
  },
  "Corrosion of Conformity|Animosity": {
   "found": true,
@@ -2209,6 +2224,7 @@
  "Embrace|Embrace": {
   "found": true,
   "title": "Embrace (English band Embrace album)",
+  "exact": true,
   "genres": [
    "alternative rock"
   ],
@@ -2217,6 +2233,7 @@
  "Gray Matter|Food for Thought": {
   "found": true,
   "title": "Food for Thought/Take It Back",
+  "exact": false,
   "genres": [
    "post-hardcore",
    "emo",
@@ -2245,11 +2262,12 @@
  },
  "Dio|Holy Diver": {
   "found": true,
-  "title": "Holy Diver – Live",
+  "title": "Holy Diver",
+  "exact": true,
   "genres": [
    "heavy metal"
   ],
-  "released": 2006
+  "released": 1983
  },
  "Manowar|Hail to England": {
   "found": true,
@@ -3883,12 +3901,13 @@
  },
  "Killing Joke|Killing Joke": {
   "found": true,
-  "title": "Killing Joke (2003 album)",
+  "title": "Killing Joke (1980 album)",
+  "exact": true,
   "genres": [
-   "industrial metal",
-   "post-punk"
+   "post-punk",
+   "industrial rock"
   ],
-  "released": 2003
+  "released": 1980
  },
  "Swans|Children of God": {
   "found": true,
@@ -4629,7 +4648,16 @@
   "released": 1982
  },
  "The Family|The Family": {
-  "found": false
+  "found": true,
+  "title": "The Family (The Family album)",
+  "exact": true,
+  "genres": [
+   "pop",
+   "r&b",
+   "funk",
+   "jazz"
+  ],
+  "released": 1985
  },
  "Mazarati|Mazarati": {
   "found": false
@@ -5139,6 +5167,7 @@
  "Robert Rich|Numena": {
   "found": true,
   "title": "Numena + Geometry",
+  "exact": false,
   "genres": [
    "ambient"
   ],
@@ -6950,5 +6979,331 @@
    "progressive rock"
   ],
   "released": 1989
+ },
+ "The Sugarhill Gang|Sugarhill Gang": {
+  "found": true,
+  "title": "Sugarhill Gang (album)",
+  "exact": true,
+  "genres": [
+   "old-school hip hop",
+   "disco",
+   "soul"
+  ],
+  "released": 1980
+ },
+ "Funky 4 + 1|That's the Joint": {
+  "found": true,
+  "title": "That's the Joint",
+  "exact": true,
+  "genres": [
+   "old school hip hop",
+   "funk",
+   "jazz",
+   "disco"
+  ],
+  "released": 1980
+ },
+ "Treacherous Three|The Body Rock": {
+  "found": false
+ },
+ "Attila the Stockbroker|Ranting at the Nation": {
+  "found": false
+ },
+ "Joolz|Never Never Land": {
+  "found": false
+ },
+ "Dark Day|Exterminating Angel": {
+  "found": false
+ },
+ "In the Nursery|Twins": {
+  "found": true,
+  "title": "Twins (In the Nursery album)",
+  "exact": true,
+  "genres": [
+   "neoclassical dark wave",
+   "martial industrial"
+  ],
+  "released": 1986
+ },
+ "Lycia|Wake": {
+  "found": true,
+  "title": "Wake (Lycia album)",
+  "exact": true,
+  "genres": [
+   "darkwave",
+   "ethereal wave"
+  ],
+  "released": 1989
+ },
+ "A.C. Marias|Drop": {
+  "found": false
+ },
+ "Kid Creole and the Coconuts|Tropical Gangsters": {
+  "found": true,
+  "title": "Tropical Gangsters",
+  "exact": true,
+  "genres": [
+   "latin",
+   "funk",
+   "tropical"
+  ],
+  "released": 1982
+ },
+ "Was (Not Was)|Was (Not Was)": {
+  "found": false
+ },
+ "Dinosaur L|24→24 Music": {
+  "found": true,
+  "title": "24→24 Music",
+  "exact": true,
+  "genres": [
+   "disco",
+   "avant-garde disco"
+  ],
+  "released": 1981
+ },
+ "Cristina|Sleep It Off": {
+  "found": true,
+  "title": "Sleep It Off",
+  "exact": true,
+  "genres": [
+   "no wave",
+   "synthpop"
+  ],
+  "released": 1984
+ },
+ "Coati Mundi|The Former 12 Year Old Genius": {
+  "found": false
+ },
+ "Simple Minds|Once Upon a Time": {
+  "found": true,
+  "title": "Once Upon a Time (Simple Minds album)",
+  "exact": true,
+  "genres": [
+   "arena rock",
+   "new wave"
+  ],
+  "released": 1985
+ },
+ "Big Country|The Crossing": {
+  "found": true,
+  "title": "The Crossing (Big Country album)",
+  "exact": true,
+  "genres": [
+   "alternative rock",
+   "new wave",
+   "folk rock",
+   "celtic rock",
+   "post-punk"
+  ],
+  "released": 1983
+ },
+ "The Waterboys|This Is the Sea": {
+  "found": true,
+  "title": "This Is the Sea",
+  "exact": true,
+  "genres": [
+   "alternative rock",
+   "post-punk",
+   "art rock",
+   "folk rock"
+  ],
+  "released": 1985
+ },
+ "The Alarm|Declaration": {
+  "found": true,
+  "title": "Declaration (The Alarm album)",
+  "exact": true,
+  "genres": [
+   "rock",
+   "new wave"
+  ],
+  "released": 1984
+ },
+ "The Icicle Works|The Icicle Works": {
+  "found": true,
+  "title": "The Icicle Works (album)",
+  "exact": true,
+  "genres": [
+   "new wave"
+  ],
+  "released": 1984
+ },
+ "Then Jerico|First (The Sound of Music)": {
+  "found": true,
+  "title": "First (The Sound of Music)",
+  "exact": false,
+  "genres": [
+   "rock",
+   "new wave"
+  ],
+  "released": 1987
+ },
+ "The Durutti Column|LC": {
+  "found": true,
+  "title": "LC (album)",
+  "exact": true,
+  "genres": [
+   "post-punk",
+   "dream pop"
+  ],
+  "released": 1981
+ },
+ "The Passions|I'm in Love with a German Film Star": {
+  "found": true,
+  "title": "I'm in Love with a German Film Star",
+  "exact": true,
+  "genres": [
+   "post-punk",
+   "new wave"
+  ],
+  "released": 1981
+ },
+ "Kevin McCormick & David Horridge|Light Patterns": {
+  "found": false
+ },
+ "Wah! Heat|Better Scream": {
+  "found": true,
+  "title": "Better Scream",
+  "exact": true,
+  "genres": [
+   "post-punk"
+  ],
+  "released": 1979
+ },
+ "Nikki Sudden|Back to the Start": {
+  "found": false
+ },
+ "Age of Chance|Motor City": {
+  "found": false
+ },
+ "Biff Bang Pow!|Fifty Years of Fun": {
+  "found": false
+ },
+ "Yeah Yeah Noh|Cottage Industry": {
+  "found": false
+ },
+ "The Last|Fade to Black": {
+  "found": false
+ },
+ "UK Decay|The Black 45 EP": {
+  "found": false
+ },
+ "Modern Eon|Euthenics": {
+  "found": false
+ },
+ "13th Chime|Cuts of Love": {
+  "found": false
+ },
+ "Theatre of Ice|Mouse Blood": {
+  "found": true,
+  "title": "Mouse Blood",
+  "exact": true,
+  "genres": [
+   "deathrock"
+  ],
+  "released": 1985
+ },
+ "Part 1|Funeral Parade": {
+  "found": false
+ },
+ "Shock|Angel Face": {
+  "found": false
+ },
+ "Anti-Pasti|The Last Call": {
+  "found": false
+ },
+ "Demob|No Room for You": {
+  "found": false
+ },
+ "The Fits|You Said We'd Never Make It": {
+  "found": false
+ },
+ "Sacrilege|Behind the Realms of Madness": {
+  "found": false
+ },
+ "Concrete Sox|Your Turn Next": {
+  "found": false
+ },
+ "Man Sized Action|Claustrophobia": {
+  "found": false
+ },
+ "Blight|Blight": {
+  "found": false
+ },
+ "The Hated|No More We Cry": {
+  "found": false
+ },
+ "Dain Bramage|I Scream Not Coming Down": {
+  "found": false
+ },
+ "A Number of Names|Sharevari": {
+  "found": false
+ },
+ "Quadrant Six|Body Mechanic": {
+  "found": false
+ },
+ "Z-Factor|Fantasy": {
+  "found": false
+ },
+ "Serious Intention|You Don't Know": {
+  "found": false
+ },
+ "Channel One|Technicolor": {
+  "found": false
+ },
+ "Kreem|Triangle of Love": {
+  "found": false
+ },
+ "X-Ray|Let's Go": {
+  "found": false
+ },
+ "Factrix|Empire of Passion": {
+  "found": false
+ },
+ "Crawling Chaos|Sex Machine": {
+  "found": false
+ },
+ "J.V.C. F.O.R.C.E.|Strong Island": {
+  "found": false
+ },
+ "Super Kids|The Tragedy (Don't Do It)": {
+  "found": false
+ },
+ "Jimmy Spicer|Money (Dollar Bill Y'all)": {
+  "found": false
+ },
+ "Dimples D.|Sucker DJ's (I Will Survive)": {
+  "found": true,
+  "title": "Sucker DJ",
+  "exact": false,
+  "genres": [],
+  "released": 1983
+ },
+ "Crash Crew|Breaking Bells (Take Me to the Mardi Gras)": {
+  "found": false
+ },
+ "The Showboys|Drag Rap": {
+  "found": false
+ },
+ "Dokken|Breaking the Chains": {
+  "found": true,
+  "title": "Breaking the Chains (album)",
+  "exact": true,
+  "genres": [
+   "heavy metal",
+   "glam metal"
+  ],
+  "released": 1981
+ },
+ "Girl|Sheer Greed": {
+  "found": true,
+  "title": "Sheer Greed",
+  "exact": true,
+  "genres": [
+   "hard rock",
+   "glam rock"
+  ],
+  "released": 1980
  }
 }

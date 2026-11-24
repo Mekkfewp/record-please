@@ -9,7 +9,7 @@ const out = existsSync(file) ? JSON.parse(readFileSync(file, 'utf8')) : { record
 const state = {};
 const mb = (path) => getJson(`https://musicbrainz.org/ws/2/${path}`, 1150, state);
 const genreNames = new Set(readFileSync(here + 'musicbrainz-genres.txt', 'utf8').split('\n').map((x) => x.trim()).filter(Boolean));
-for (const [key, value] of Object.entries(out.records)) if (!value.found) delete out.records[key];
+if (process.argv.includes('--retry')) for (const [key, value] of Object.entries(out.records)) if (!value.found) delete out.records[key];
 const q = (s) => `"${s.replace(/["\\]/g, ' ')}"`;
 const records = readRecords();
 const single = process.argv.includes('--single');
