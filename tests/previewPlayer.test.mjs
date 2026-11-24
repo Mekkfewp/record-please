@@ -142,3 +142,25 @@ test('a browser that blocks playback leaves the button ready for another press',
   assert.deepEqual(player.getState(), { trackId: null, status: 'idle' });
   assert.equal(lookups.length, 0);
 });
+
+test('start plays a card by itself and leaves a card that is already playing alone', async () => {
+  const player = new PreviewPlayer();
+  player.start('t1', apple);
+  await settle();
+  assert.deepEqual(player.getState(), { trackId: 't1', status: 'playing' });
+  player.start('t1', apple);
+  await settle();
+  assert.deepEqual(player.getState(), { trackId: 't1', status: 'playing' });
+  assert.equal(played.length, 1);
+  player.start('t2', apple);
+  await settle();
+  assert.deepEqual(player.getState(), { trackId: 't2', status: 'playing' });
+});
+
+test('when the browser refuses to play without a click, start leaves the play button ready', async () => {
+  playable = () => 'NotAllowedError';
+  const player = new PreviewPlayer();
+  player.start('t1', apple);
+  await settle();
+  assert.deepEqual(player.getState(), { trackId: null, status: 'idle' });
+});

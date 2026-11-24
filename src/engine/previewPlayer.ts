@@ -88,6 +88,12 @@ export class PreviewPlayer {
     void this.play(trackId, apple);
   }
 
+  /** Starts a card's preview without a press on the play button; a no-op while that card is already loading or playing. */
+  start(trackId: string, apple: AppleMatch | undefined): void {
+    if (this.state.trackId === trackId && this.state.status !== 'unavailable') return;
+    void this.play(trackId, apple);
+  }
+
   private async play(trackId: string, apple: AppleMatch | undefined): Promise<void> {
     this.stop();
     if (!apple) {

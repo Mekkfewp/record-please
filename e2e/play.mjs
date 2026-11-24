@@ -69,8 +69,11 @@ const tid = (id) => `[data-testid="${id}"]`;
 const text = async (id) => (await page.textContent(tid(id))).replace(/\s+/g, ' ').trim();
 const lines = async (sel) => (await page.innerText(sel)).split('\n').map((s) => s.trim()).filter(Boolean);
 
-async function start(era, region) {
+// With the sound on every new card starts its preview by itself. The bulk of the games are
+// played with the sound off, so that a run does not ask Apple for hundreds of previews.
+async function start(era, region, { sound = false } = {}) {
   await page.goto(BASE, { waitUntil: 'load' });
+  if (!sound) await page.click(tid('mute-toggle-btn'));
   await page.click(tid(`era-${era}`));
   await page.click(tid(`region-${region}`));
   await page.click(tid('start-booth-btn'));
@@ -208,48 +211,69 @@ console.log('games played to the end:', games, '| personas seen:', [...personasS
   for (const gone of ['top-lore-btn', 'top-rulebook-btn', 'top-finish-btn', 'lore-modal']) if (await page.$(tid(gone))) bad(`${gone} still exists`);
 }
 
-// ---- 4. Real preview, expired address, moving on stops the music.
+// ---- 4. A new card plays by itself; expired address; the play button and the sound switch still rule.
 {
-  await start('1980s', 'japan');
-  const t = byTitle.get((await text('card-title')).replace(/^〈|〉$/g, ''));
+  const cell = cat.cells.find((c) => c.era === '1980s' && c.region === 'japan');
+  const t = cat.tracks.find((x) => x.id === cell.local);
+  const t2 = cat.tracks.find((x) => x.id === cell.global);
+  const status = () => page.getAttribute(tid('preview-btn'), 'data-status');
+  const waitFor = (want) => page.waitForFunction((w) => document.querySelector('[data-testid="preview-btn"]')?.dataset.status === w, want, { timeout: 20000 }).catch(() => bad(`preview did not reach "${want}"`));
   const requests = [];
   page.on('request', (r) => { if (/audio-ssl\.itunes|itunes\.apple\.com\/lookup/.test(r.url())) requests.push(r.url()); });
-  await page.click(tid('preview-btn'));
-  await page.waitForFunction(() => document.querySelector('[data-testid="preview-btn"]').dataset.status === 'playing', null, { timeout: 20000 });
+
+  // Card 1 starts on its own, from the click on the start button.
+  await start('1980s', 'japan', { sound: true });
+  await waitFor('playing');
   if (requests.at(-1) !== t.apple.previewUrl) {
     // Apple replaces preview addresses now and then; the game then asks the lookup API for the current one.
     if (requests.some((u) => u.includes(`/lookup?id=${t.apple.trackId}`))) console.log(`note: the stored preview address of ${t.id} has expired; the game recovered through lookup (rerun "npm run match")`);
     else bad('played address is not the stored preview');
   }
+  if ((await text('preview-btn')) !== '■ 停止') bad('playing card does not offer "stop"');
   if (SHOTS) { await page.waitForFunction(() => document.querySelector('[data-testid="cover-art"]')?.naturalWidth > 0); await page.screenshot({ path: shot('booth') }); }
   await page.click(tid('stamp-collect-btn'));
-  if ((await page.getAttribute(tid('preview-btn'), 'data-status')) !== 'playing') bad('collecting stopped the preview of the same card');
+  if ((await status()) !== 'playing') bad('collecting stopped the preview of the same card');
   if (SHOTS) { await page.waitForTimeout(400); await page.screenshot({ path: shot('booth-kept') }); }
-  await page.click(tid('next-record-btn'));
-  await page.waitForTimeout(300);
-  if ((await page.getAttribute(tid('preview-btn'), 'data-status')) !== 'idle') bad('preview kept playing on the next card');
-  const t2 = byTitle.get((await text('card-title')).replace(/^〈|〉$/g, ''));
+
+  // Card 2 starts on its own too, here with a stored address that no longer works.
   const donor = cat.tracks.find((x) => x.id === 'so-what').apple.previewUrl;
   await page.route(t2.apple.previewUrl, (route) => route.fulfill({ status: 404, body: '' }));
   await page.route(/itunes\.apple\.com\/lookup/, (route) => route.fulfill({ status: 200, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' }, body: JSON.stringify({ resultCount: 1, results: [{ trackId: t2.apple.trackId, previewUrl: donor }] }) }));
   requests.length = 0;
-  await page.click(tid('preview-btn'));
-  await page.waitForFunction(() => document.querySelector('[data-testid="preview-btn"]').dataset.status === 'playing', null, { timeout: 20000 });
-  if (!requests.some((u) => u.includes(`/lookup?id=${t2.apple.trackId}`)) || requests.at(-1) !== donor) bad('expired preview did not recover through lookup');
-  await page.click(tid('preview-btn'));
+  await page.click(tid('next-record-btn'));
+  if ((await text('card-title')) !== `〈${t2.title}〉`) bad('card 2 is not the global entry card');
+  await waitFor('playing');
+  if (!requests.includes(t2.apple.previewUrl) || !requests.some((u) => u.includes(`/lookup?id=${t2.apple.trackId}`)) || requests.at(-1) !== donor) bad('expired preview did not recover through lookup');
   await page.unroute(/itunes\.apple\.com\/lookup/);
-  await page.click(tid('stamp-pass-btn'));
-  await page.waitForTimeout(300);
-  const t3 = byTitle.get((await text('card-title')).replace(/^〈|〉$/g, ''));
-  await page.route(t3.apple.previewUrl, (route) => route.fulfill({ status: 404, body: '' }));
+
+  // The play button stops it, and starts it again.
+  await page.click(tid('preview-btn'));
+  if ((await status()) !== 'idle') bad('the play button did not stop the preview');
+  await page.click(tid('preview-btn'));
+  await waitFor('playing');
+
+  // Card 3 with no preview to be had anywhere.
+  await page.route(/audio-ssl\.itunes\.apple\.com/, (route) => route.fulfill({ status: 404, body: '' }));
   await page.route(/itunes\.apple\.com\/lookup/, (route) => route.fulfill({ status: 200, contentType: 'application/json', headers: { 'access-control-allow-origin': '*' }, body: JSON.stringify({ resultCount: 0, results: [] }) }));
-  await page.click(tid('preview-btn'));
-  await page.waitForFunction(() => document.querySelector('[data-testid="preview-btn"]').dataset.status === 'unavailable', null, { timeout: 20000 });
-  console.log('preview: real play ok, recovery ok, dead preview ->', await text('preview-btn'));
+  await page.click(tid('stamp-pass-btn'));
+  await waitFor('unavailable');
+  const deadLabel = await text('preview-btn');
+  await page.unroute(/audio-ssl\.itunes\.apple\.com/);
   await page.unroute(/itunes\.apple\.com\/lookup/);
+
+  // Sound off: the next card stays silent and asks Apple for nothing.
   await page.click(tid('mute-toggle-btn'));
   if ((await page.getAttribute(tid('mute-toggle-btn'), 'aria-pressed')) !== 'true' || (await text('mute-toggle-btn')) !== '声音：关') bad('mute toggle');
+  requests.length = 0;
+  await page.click(tid('stamp-pass-btn'));
+  await page.waitForTimeout(600);
+  if ((await status()) !== 'idle' || requests.length) bad('a card started playing with the sound off');
+
+  // Sound back on: the card after that plays by itself again.
   await page.click(tid('mute-toggle-btn'));
+  await page.click(tid('stamp-pass-btn'));
+  await waitFor('playing');
+  console.log('preview: cards 1 and 2 played by themselves (2 after lookup recovery), dead preview ->', deadLabel, '| sound off: silent | sound on: plays again');
 }
 
 // ---- 5. A full game to the result: copy, save, screenshots.
@@ -290,6 +314,7 @@ console.log('games played to the end:', games, '| personas seen:', [...personasS
   const phone = await browser.newContext({ viewport: { width: 375, height: 760 }, deviceScaleFactor: 3 });
   const p = await phone.newPage();
   await p.goto(BASE, { waitUntil: 'networkidle' });
+  await p.click(tid('mute-toggle-btn'));
   const overflow = async (where) => { const o = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth); if (o > 0) bad(`phone: ${where} overflows by ${o}px`); };
   await overflow('start');
   await p.click(tid('era-2000s')); await p.click(tid('region-usa')); await p.click(tid('start-booth-btn'));

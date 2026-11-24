@@ -1,16 +1,14 @@
-import { useEffect, useReducer, useState, useSyncExternalStore } from 'react';
+import { useEffect, useState, useSyncExternalStore } from 'react';
 import { Booth } from './components/Booth';
 import { Result } from './components/Result';
 import { StartScreen } from './components/StartScreen';
 import { catalog } from './data/catalog';
-import { ROUNDS, initialState, reduce, type Action, type GameState } from './engine/game';
+import { ROUNDS, initialState, reduce, type Action } from './engine/game';
 import { previewPlayer } from './engine/previewPlayer';
 import { stampSound } from './engine/stampSound';
 
-const play = (state: GameState, action: Action) => reduce(state, action, catalog);
-
 export default function App() {
-  const [state, dispatch] = useReducer(play, initialState);
+  const [state, setState] = useState(initialState);
   const [muted, setMuted] = useState(false);
   const preview = useSyncExternalStore(previewPlayer.subscribe, previewPlayer.getState);
 
@@ -19,10 +17,18 @@ export default function App() {
     previewPlayer.setMuted(muted);
   }, [muted]);
 
-  // A preview belongs to the card on the desk; it stops when that card leaves.
-  useEffect(() => {
-    return () => previewPlayer.stop();
-  }, [state.cardId, state.phase]);
+  // A preview belongs to the card on the desk. A new card starts playing by itself unless the
+  // sound is off; this runs inside the click that dealt the card, which is what browsers ask for.
+  const dispatch = (action: Action) => {
+    const next = reduce(state, action, catalog);
+    const dealt = next.phase === 'booth' && next.cardId ? catalog.card(next.cardId) : null;
+    if (!dealt) previewPlayer.stop();
+    else if (next.cardId !== state.cardId) {
+      if (muted) previewPlayer.stop();
+      else previewPlayer.start(dealt.track.id, dealt.track.apple);
+    }
+    setState(next);
+  };
 
   const card = state.cardId ? catalog.card(state.cardId) : null;
 
