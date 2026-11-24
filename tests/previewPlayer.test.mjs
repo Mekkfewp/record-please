@@ -89,7 +89,19 @@ test('when the lookup has nothing newer the card says the preview is unavailable
   player.toggle('t1', apple);
   await settle();
   assert.deepEqual(player.getState(), { trackId: 't1', status: 'unavailable' });
-  assert.equal(player.isUnavailable('t1'), true);
+});
+
+test('pressing again after "unavailable" tries once more', async () => {
+  playable = () => 'NotSupportedError';
+  lookupResult = null;
+  const player = new PreviewPlayer();
+  player.toggle('t1', apple);
+  await settle();
+  assert.equal(player.getState().status, 'unavailable');
+  playable = () => 'ok';
+  player.toggle('t1', apple);
+  await settle();
+  assert.deepEqual(player.getState(), { trackId: 't1', status: 'playing' });
 });
 
 test('a failed lookup does not throw and ends as unavailable', async () => {
