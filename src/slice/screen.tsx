@@ -1,4 +1,4 @@
-import { useEffect, useState, useSyncExternalStore, type ReactNode } from 'react';
+import { useEffect, useRef, useState, useSyncExternalStore, type ReactNode } from 'react';
 import appleMusicBadge from '../assets/listen-on-apple-music-zh-cn.svg';
 import raw from '../data/slice.json';
 import { AppleCredit } from '../components/ListenLinks';
@@ -13,6 +13,18 @@ import './screen.css';
 const slice = buildSlice(raw as unknown as RawSlice);
 const FLOOR = ['地面', '地下一层', '地下二层', '地下三层'];
 const TIE: Record<string, string> = { producer: '制作人', label: '厂牌', member: '成员', engineer: '录音', sample: '采样', cover: '翻唱' };
+type Look = 'postpunk' | 'goth' | 'deathrock' | 'hardcore' | 'punk';
+type Pose = 'idle' | 'k1' | 'k2' | 'k3' | 'p1' | 'p2' | 'p3';
+
+/** Clothes follow the genre the desk is standing in. The building does not. */
+function lookFor(name: string): Look {
+  const n = name.toLowerCase();
+  if (n.includes('death')) return 'deathrock';
+  if (n.includes('goth')) return 'goth';
+  if (/hardcore|crust|emocore|thrash|d-beat|crossover|powerviolence/.test(n)) return 'hardcore';
+  if (n.includes('post-punk') || n.includes('dance-punk') || n.includes('art punk') || n.includes('synth')) return 'postpunk';
+  return 'punk';
+}
 
 function art(url: string, px: number): string {
   return url.replace(/\d+x\d+bb/, `${px}x${px}bb`);
@@ -140,7 +152,24 @@ export function SliceApp() {
   });
   const [muted, setMuted] = useState(false);
   const [copied, setCopied] = useState('');
+  const [pose, setPose] = useState<Pose>('idle');
+  const timers = useRef<number[]>([]);
   const preview = useSyncExternalStore(previewPlayer.subscribe, previewPlayer.getState);
+
+  useEffect(() => () => { for (const id of timers.current) window.clearTimeout(id); }, []);
+
+  const playPose = (kind: 'keep' | 'pass') => {
+    for (const id of timers.current) window.clearTimeout(id);
+    const frames: Pose[] = kind === 'keep' ? ['k1', 'k2', 'k3'] : ['p1', 'p2', 'p3'];
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (still) {
+      setPose(frames[2]);
+      timers.current = [window.setTimeout(() => setPose('idle'), 500)];
+      return;
+    }
+    timers.current = frames.map((frame, index) => window.setTimeout(() => setPose(frame), index * 220));
+    timers.current.push(window.setTimeout(() => setPose('idle'), 980));
+  };
 
   useEffect(() => {
     previewPlayer.setMuted(muted);
@@ -177,9 +206,9 @@ export function SliceApp() {
 
   const press = (object: SceneObject, slot?: number) => {
     if (object.action === 'play' && record) previewPlayer.toggle(record.id, record.apple);
-    else if (object.action === 'keep') dispatch({ type: 'keep' });
-    else if (object.action === 'pass') dispatch({ type: 'pass' });
-    else if (object.action === 'swap' && slot !== undefined) dispatch({ type: 'swap', slot });
+    else if (object.action === 'keep') { playPose('keep'); dispatch({ type: 'keep' }); }
+    else if (object.action === 'pass') { playPose('pass'); dispatch({ type: 'pass' }); }
+    else if (object.action === 'swap' && slot !== undefined) { playPose('keep'); dispatch({ type: 'swap', slot }); }
     else if (object.action === 'next') dispatch({ type: 'next' });
     else if (object.action === 'mute') setMuted((value) => !value);
     else if (object.action === 'reshuffle') dispatch({ type: 'reshuffle' });
@@ -192,52 +221,73 @@ export function SliceApp() {
     else if (object.action === 'restart') dispatch({ type: 'restart' });
   };
 
+  const genreName = scene.shelfMark.at(-1)?.name ?? '';
+  const look = lookFor(genreName);
+  const region = record?.country === 'GB' ? 'uk' : scene.phase === 'start' ? 'neutral' : 'us';
+  const floorMark = ['G', 'B1', 'B2', 'B3'][scene.floor];
+
   return (
-    <div className="slice" data-testid="slice-screen" data-floor={scene.floor} data-phase={scene.phase}>
-      <p className="slice-live" aria-live="polite">
-        {spoken}
-      </p>
-      <p className="shop-sign" aria-hidden="true">
-        RECORD, PLEASE
-      </p>
+    <div className={`slice shop room-${region} f${scene.floor} look-${scene.phase === 'start' ? 'postpunk' : look}`} data-testid="slice-screen" data-floor={scene.floor} data-phase={scene.phase} data-pose={pose}>
+      <p className="slice-live" aria-live="polite">{spoken}</p>
+      <div className="street" aria-hidden="true">
+        <i className="sky" />
+        <i className="terrace" />
+        <i className="bus" />
+        <i className="pillar" />
+        <i className="car" />
+        <i className="hydrant" />
+        <i className="well" />
+        <i className="soil" />
+        <i className="passer look-pass" />
+      </div>
+      <div className="room">
+        <div className="wall" aria-hidden="true">
+          <i className="poster a" />
+          <i className="poster b" />
+          <button type="button" className={`stair ${scene.floor < 3 ? 'can-go' : ''}`} data-testid="slice-stair" aria-label={FLOOR[scene.floor]}>
+            <span className="stair-mark">{floorMark}</span>
+            <span className="stair-arrow" />
+            <span className="stair-bulb" />
+          </button>
+        </div>
 
-      {scene.phase === 'start' && (
-        <main className="counter-top">
-          <div className="doors">
-            {state.doors.map((id) => {
-              const door = slice.record(id);
-              return (
-                <button
-                  key={id}
-                  type="button"
-                  className="door-record"
-                  data-testid="slice-door"
-                  aria-label={`《${door.title}》，${door.artist}，${door.year}`}
-                  onClick={() => dispatch({ type: 'pick', recordId: id })}
-                >
-                  {door.apple?.artworkUrl && <img src={art(door.apple.artworkUrl, 300)} alt="" />}
-                  <span>《{door.title}》</span>
-                  <span>
-                    {door.artist} · {door.year}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-          <Thing object={scene.objects.supply} testId="slice-supply" onPress={() => press(scene.objects.supply)}>
-            <span className="supply-box" aria-hidden="true" />
-          </Thing>
-        </main>
-      )}
+        {scene.phase === 'start' && (
+          <main className="counter-line">
+            <Clerk />
+            <span className="device device-turntable is-empty" aria-hidden="true" />
+            <div className="doors">
+              {state.doors.map((id) => {
+                const door = slice.record(id);
+                return (
+                  <button key={id} type="button" className="door-record" data-testid="slice-door" aria-label={`《${door.title}》，${door.artist}，${door.year}`} onClick={() => dispatch({ type: 'pick', recordId: id })}>
+                    {door.apple?.artworkUrl && <img src={art(door.apple.artworkUrl, 300)} alt="" />}
+                    <span className="door-name">《{door.title}》</span>
+                  </button>
+                );
+              })}
+            </div>
+            <Thing object={scene.objects.supply} testId="slice-supply" onPress={() => press(scene.objects.supply)}>
+              <span className="supply-box" aria-hidden="true" />
+            </Thing>
+          </main>
+        )}
 
-      {scene.phase === 'desk' && record && scene.record && (
-        <main className="desk">
-          <p className="shelf-mark">{scene.shelfMark.map((genre) => genre.name).join(' / ')}</p>
-          <div className="desk-row">
-            <div className="player-side">
+        {scene.phase === 'desk' && record && scene.record && (
+          <main className="desk">
+            <p className="shelf-mark">{scene.shelfMark.map((genre) => genre.name).join(' / ')}</p>
+            <div className="counter-line">
+              <Clerk />
+              <span className="drop-sleeve" aria-hidden="true" />
               <Thing object={scene.objects.player} testId="slice-player" onPress={() => press(scene.objects.player)}>
-                <span className={`device device-${scene.device} is-${scene.objects.player.state}`} aria-hidden="true" />
+                <span className={`device device-${scene.device} is-${scene.objects.player.state === 'playing' ? 'playing' : scene.objects.player.state === 'unavailable' ? 'empty' : 'stopped'}`} aria-hidden="true" />
               </Thing>
+              <Sleeve record={record} face={scene.record.face} />
+              <Thing object={scene.objects.stack} testId="slice-stack" onPress={() => press(scene.objects.stack)}>
+                <span className="pile" aria-hidden="true" />
+              </Thing>
+            </div>
+            {scene.record.face !== 'face-down' && <p className="because">{because(state)}</p>}
+            <div className="player-meta">
               {record.apple && (
                 <a className="apple-badge" data-testid="apple-music-link" href={appleMusicLink(record.apple, currentTimeZone()).url} target="_blank" rel="noopener noreferrer">
                   <img src={appleMusicBadge} alt="在 Apple Music 上收听" />
@@ -246,81 +296,74 @@ export function SliceApp() {
               <Thing object={scene.objects.sound} testId="slice-sound" onPress={() => press(scene.objects.sound)}>
                 <span className={`knob ${muted ? 'is-off' : 'is-on'}`} aria-hidden="true" />
               </Thing>
-            </div>
-            <div className="desk-record">
-              <Sleeve record={record} face={scene.record.face} />
-              {scene.record.face !== 'face-down' && <p className="because">{because(state)}</p>}
               {scene.record.face !== 'face-down' && (
                 <p className="search-links">
-                  <a href={record.links.netease} target="_blank" rel="noopener noreferrer">
-                    网易云搜索
-                  </a>
-                  <a href={record.links.qq} target="_blank" rel="noopener noreferrer">
-                    QQ音乐搜索
-                  </a>
+                  <a href={record.links.netease} target="_blank" rel="noopener noreferrer">网易云搜索</a>
+                  <a href={record.links.qq} target="_blank" rel="noopener noreferrer">QQ音乐搜索</a>
                 </p>
               )}
-              <AppleCredit />
             </div>
-            <Thing object={scene.objects.stack} testId="slice-stack" onPress={() => press(scene.objects.stack)}>
-              <span className="pile" aria-hidden="true" />
-            </Thing>
-          </div>
-          <div className="desk-choices">
-            {scene.objects.crate.action === 'swap' ? (
-              <div className="crate is-swap" data-testid="slice-crate" role="group" aria-label={scene.objects.crate.label}>
-                {scene.crate.map((slot, index) => (
-                  <Slot key={index} slot={slot} index={index} onPress={() => press(scene.objects.crate, index)} />
-                ))}
-              </div>
-            ) : (
-              <Thing object={scene.objects.crate} testId="slice-crate" onPress={() => press(scene.objects.crate)}>
-                <span className="crate-body" aria-hidden="true">
+            <div className="front">
+              {scene.objects.crate.action === 'swap' ? (
+                <div className="crate is-swap" data-testid="slice-crate" role="group" aria-label={scene.objects.crate.label}>
+                  <span className="crate-wood" aria-hidden="true" />
                   {scene.crate.map((slot, index) => (
-                    <Slot key={index} slot={slot} index={index} />
+                    <Slot key={index} slot={slot} index={index} onPress={() => press(scene.objects.crate, index)} />
                   ))}
-                </span>
+                </div>
+              ) : (
+                <Thing object={scene.objects.crate} testId="slice-crate" onPress={() => press(scene.objects.crate)}>
+                  <span className="crate-wood" aria-hidden="true" />
+                  <span className="crate-body">
+                    {scene.crate.map((slot, index) => (
+                      <Slot key={index} slot={slot} index={index} />
+                    ))}
+                  </span>
+                </Thing>
+              )}
+              <Thing object={scene.objects.shelf} testId="slice-shelf" onPress={() => press(scene.objects.shelf)}>
+                <span className="shelf-body" aria-hidden="true" />
               </Thing>
-            )}
-            <Thing object={scene.objects.shelf} testId="slice-shelf" onPress={() => press(scene.objects.shelf)}>
-              <span className="shelf-body" aria-hidden="true" />
-            </Thing>
-          </div>
-        </main>
-      )}
+            </div>
+            <AppleCredit />
+          </main>
+        )}
 
-      {scene.phase === 'result' && (
-        <main className="route-sheet">
-          <ol className="route" data-testid="slice-route">
-            {state.steps.map((stop, index) => {
-              const item = slice.record(stop.recordId);
-              return (
-                <li key={`${item.id}-${index}`} className={stop.decision === 'keep' ? 'kept' : 'passed'} data-floor={stop.floor}>
-                  <span className="stop" aria-hidden="true" />
-                  <span className="route-record">
-                    {item.artist}《{item.title}》
-                  </span>
-                  <span className="route-place">
-                    {FLOOR[stop.floor]} · {slice.genre(item.genre).name} · {item.year}
-                  </span>
-                </li>
-              );
-            })}
-          </ol>
-          <div className="route-tools">
-            <Thing object={scene.objects.receipt} testId="slice-receipt" onPress={() => press(scene.objects.receipt)}>
-              <span className="paper-slip" aria-hidden="true" />
-            </Thing>
-            <Thing object={scene.objects.camera} testId="slice-camera" onPress={() => press(scene.objects.camera)}>
-              <span className="camera-body" aria-hidden="true" />
-            </Thing>
-            <Thing object={scene.objects.door} testId="slice-exit" onPress={() => press(scene.objects.door)}>
-              <span className="shop-door" aria-hidden="true" />
-            </Thing>
-          </div>
-        </main>
-      )}
+        {scene.phase === 'result' && (
+          <main className="route-sheet">
+            <ol className="route" data-testid="slice-route">
+              {state.steps.map((stop, index) => {
+                const item = slice.record(stop.recordId);
+                return (
+                  <li key={`${item.id}-${index}`} className={stop.decision === 'keep' ? 'kept' : 'passed'} data-floor={stop.floor}>
+                    {stop.decision === 'keep' && item.apple?.artworkUrl ? <img src={art(item.apple.artworkUrl, 64)} alt="" /> : <span className="hook" aria-hidden="true" />}
+                    <span className="route-record">{item.artist}《{item.title}》</span>
+                    <span className="route-place">{FLOOR[stop.floor]} · {slice.genre(item.genre).name}</span>
+                  </li>
+                );
+              })}
+            </ol>
+            <div className="route-tools">
+              <Thing object={scene.objects.receipt} testId="slice-receipt" onPress={() => press(scene.objects.receipt)}><span className="paper-slip" aria-hidden="true" /></Thing>
+              <Thing object={scene.objects.camera} testId="slice-camera" onPress={() => press(scene.objects.camera)}><span className="camera-body" aria-hidden="true" /></Thing>
+              <Thing object={scene.objects.door} testId="slice-exit" onPress={() => press(scene.objects.door)}><span className="shop-door" aria-hidden="true" /></Thing>
+            </div>
+          </main>
+        )}
+      </div>
     </div>
+  );
+}
+
+function Clerk() {
+  return (
+    <span className="clerk" aria-hidden="true">
+      <i className="hair" />
+      <i className="head" />
+      <i className="coat" />
+      <i className="legs" />
+      <i className="glove" />
+    </span>
   );
 }
 
