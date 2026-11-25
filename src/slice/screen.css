@@ -1,11 +1,17 @@
 .slice {
   min-height: 100vh;
-  display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
-  align-items: stretch;
   background: #14110e;
   color: #241c16;
   font-family: 'Fusion Pixel', 'PingFang SC', sans-serif;
+}
+.booth {
+  display: grid;
+  grid-template-columns: 220px minmax(0, 1fr);
+  width: min(1040px, 100%);
+  min-height: 100vh;
+  margin: 0 auto;
+  align-items: end;
+  background: #efe6d2;
 }
 
 .slice-live {
@@ -20,7 +26,7 @@
 .street {
   position: relative;
   overflow: hidden;
-  min-height: 100vh;
+  align-self: stretch;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -33,11 +39,11 @@
 .room-uk.f2 .street { background: #5c6b62; }
 .room-uk.f3 .street, .room-us.f2 .street, .room-us.f3 .street { background: #3a312b; }
 
-.street-ground { position: relative; height: 280px; margin: 0 12px 28px; }
+.street-ground { position: relative; height: 78%; min-height: 240px; margin: 0; }
 .terrace, .bus, .pillar, .car, .hydrant, .well, .soil, .passer { position: absolute; display: none; }
 
 .room-neutral .terrace, .room-uk.f0 .terrace, .room-us.f0 .terrace {
-  display: block; left: 0; bottom: 28px; width: 160px; height: 110px; background: #8d4a3a;
+  display: block; left: 8px; right: 8px; width: auto; bottom: 0; height: 68%; background: #8d4a3a;
   box-shadow: 0 -12px 0 #6a3030;
 }
 .room-neutral .terrace, .room-uk.f0 .terrace {
@@ -64,10 +70,10 @@
   box-shadow: 0 -10px 0 #4a342c;
 }
 
-.room-uk.f0 .bus { display: block; left: 8px; bottom: 28px; width: 118px; height: 40px; background: #d23b32; box-shadow: inset 8px 8px 0 #f4efe4, inset 34px 8px 0 #f4efe4, inset 60px 8px 0 #f4efe4, inset 0 -8px 0 #8d241c; }
-.room-uk.f0 .pillar { display: block; left: 136px; bottom: 28px; width: 18px; height: 44px; background: #d23b32; }
-.room-us.f0 .car { display: block; left: 8px; bottom: 28px; width: 128px; height: 26px; background: #2a2624; border-radius: 8px 8px 0 0; }
-.room-us.f0 .hydrant { display: block; left: 148px; bottom: 28px; width: 16px; height: 36px; background: #d23b32; }
+.room-uk.f0 .bus { display: block; left: 10px; bottom: 0; width: 118px; height: 40px; background: #d23b32; box-shadow: inset 8px 8px 0 #f4efe4, inset 34px 8px 0 #f4efe4, inset 60px 8px 0 #f4efe4, inset 0 -8px 0 #8d241c; }
+.room-uk.f0 .pillar { display: block; right: 14px; bottom: 0; width: 18px; height: 44px; background: #d23b32; }
+.room-us.f0 .car { display: block; left: 8px; bottom: 0; width: 128px; height: 26px; background: #2a2624; border-radius: 8px 8px 0 0; }
+.room-us.f0 .hydrant { display: block; right: 12px; bottom: 0; width: 16px; height: 36px; background: #d23b32; }
 
 .room-uk.f1 .well, .room-uk.f2 .well, .room-us.f1 .well {
   display: block; left: 24px; bottom: 0; width: 120px; height: 180px;
@@ -88,7 +94,7 @@
   background: radial-gradient(circle, #1a1a1a 0 4px, #c4b49a 5px 8px, transparent 9px);
 }
 
-.passer { display: block; bottom: 28px; left: 72px; width: 18px; height: 42px; }
+.passer { display: block; bottom: 0; left: 64px; width: 18px; height: 48px; }
 .room-neutral .passer { display: none; }
 .passer::before { content: ''; position: absolute; left: 2px; top: 0; width: 14px; height: 12px; background: #1a1a1a; }
 .passer::after { content: ''; position: absolute; left: 0; top: 14px; width: 18px; height: 20px; background: #243044; }
@@ -101,13 +107,28 @@
 
 .room {
   position: relative;
-  background: #efe6d2;
-  min-height: 100vh;
-  padding: 16px 20px 28px;
+  min-height: 100%;
+  padding: 12px 16px 16px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
+.shop-grid {
+  display: grid;
+  grid-template-columns: 72px 176px minmax(180px, 240px) 44px 1fr 52px;
+  grid-template-rows: auto auto;
+  column-gap: 12px;
+  row-gap: 8px;
+  align-items: end;
+}
+.counter-bar { grid-column: 1 / -1; grid-row: 1; height: 14px; align-self: end; background: #6b4228; box-shadow: inset 0 -4px 0 #c4a574; }
+.shop-grid .clerk { grid-column: 1; grid-row: 1 / span 2; height: 148px; z-index: 1; }
+.shop-grid .thing-player, .shop-grid > .device { grid-column: 2; grid-row: 1; justify-self: center; z-index: 1; }
+.shop-grid .sleeve, .shop-grid .doors { grid-column: 3; grid-row: 1; z-index: 1; }
+.shop-grid .thing-stack { grid-column: 4; grid-row: 1; justify-self: end; z-index: 1; }
+.shop-grid .thing-crate, .shop-grid .crate, .shop-grid .thing-supply { grid-column: 2; grid-row: 2; justify-self: center; }
+.shop-grid .thing-shelf { grid-column: 3; grid-row: 2; justify-self: start; }
+.shop-grid .stair { grid-column: 6; grid-row: 2; justify-self: end; }
 .room-uk { background: #efe3cf; }
 .room-uk.f1 { background: #e4d4ea; }
 .room-uk.f2 { background: #e7e2d4; }
@@ -145,8 +166,7 @@
 .stair-bulb { display: block; width: 8px; height: 8px; margin: 2px auto 0; border-radius: 50%; background: #5c5348; }
 .stair.can-go .stair-bulb { background: #e0b44a; box-shadow: 0 0 0 2px #f2e2a8; }
 
-.counter-line, .desk { position: relative; }
-.counter-line { display: flex; align-items: flex-end; gap: 12px; flex-wrap: wrap; }
+.desk { position: relative; }
 .doors { display: flex; gap: 8px; align-items: flex-end; flex: 0 1 auto; }
 .door-record {
   width: 96px;
@@ -160,8 +180,7 @@
 .door-record img { width: 100%; aspect-ratio: 1; object-fit: cover; display: block; background: #e7dcc4; }
 .door-name { display: block; font-size: 12px; margin-top: 4px; }
 
-.clerk { position: relative; width: 44px; height: 92px; flex: none; image-rendering: pixelated; }
-.counter-line { border-bottom: 16px solid #6b4228; box-shadow: inset 0 -4px 0 #c4a574; }
+.clerk { position: relative; width: 44px; height: 92px; justify-self: center; image-rendering: pixelated; }
 .clerk .hair { position: absolute; left: 8px; top: 0; width: 18px; height: 10px; background: #1a1a1a; }
 .clerk .head { position: absolute; left: 10px; top: 10px; width: 14px; height: 12px; background: #e6c2a2; }
 .clerk .coat { position: absolute; left: 4px; top: 24px; width: 26px; height: 28px; background: #243044; }
@@ -231,7 +250,7 @@
 .thing:not(:disabled) { border-color: #f7f1e4; box-shadow: 0 0 0 3px #241c16; }
 .thing:disabled { cursor: default; }
 
-.thing-crate, .crate { position: relative; width: 168px; min-height: 72px; }
+.thing-crate, .crate { position: relative; width: 160px; min-height: 72px; }
 .crate-wood {
   display: block; height: 64px;
   background:
@@ -294,21 +313,24 @@
 .shop-door { display: block; width: 22px; height: 32px; background: #243044; border: 3px solid #1e2a4a; }
 
 @media (max-width: 540px) {
-  .slice { display: flex; flex-direction: column; min-height: 100vh; height: auto; overflow: visible; }
-  .street { min-height: 0; height: 80px; width: 100%; flex: none; }
-  .street-ground { height: 76px; margin: 0 8px 0; }
-  .room { flex: 1; min-height: 0; height: auto; overflow: visible; justify-content: flex-start; padding: 8px; }
-  .desk, .counter-line { overflow: visible; }
-  .wall { height: 52px; }
-  .doors { flex: 1 1 100%; }
-  .door-record { flex: 1 1 0; width: auto; min-width: 0; }
-  .sleeve { width: 156px; flex: 0 0 auto; }
+  .booth { grid-template-columns: 1fr; min-height: 100vh; width: 100%; }
+  .street { height: 72px; min-height: 0; }
+  .street-ground { height: 68px; margin: 0 8px 0; }
+  .room { justify-content: flex-start; padding: 8px; min-height: 0; }
+  .wall { height: 40px; }
+  .shop-grid { grid-template-columns: 44px 78px minmax(0, 1fr) 36px; column-gap: 6px; }
+  .shop-grid .thing-stack { grid-column: 4; }
+  .shop-grid .thing-crate, .shop-grid .crate, .shop-grid .thing-supply { grid-column: 1 / span 2; width: 100%; max-width: 100%; }
+  .shop-grid .thing-shelf { grid-column: 3; }
+  .shop-grid .stair { grid-column: 4; }
+  .shop-grid .clerk { height: 112px; }
+  .shop-grid .doors { grid-column: 3 / span 2; }
+  .doors { display: flex; }
   .sleeve-front { padding: 4px; }
-  .sleeve-front img { width: 100%; height: 112px; max-height: 112px; object-fit: cover; aspect-ratio: auto; }
-  .sleeve-back { min-height: 96px; }
-  .sleeve-title { font-size: 14px; }
-  .front { flex-wrap: nowrap; }
-  .shelf-mark { margin: 0 0 8px; }
+  .sleeve-front img { width: 100%; height: 96px; object-fit: cover; }
+  .sleeve-back { min-height: 72px; }
+  .sleeve-title { font-size: 13px; }
+  .shelf-mark { margin: 0 0 6px; }
   .because, .credit { margin: 4px 0 0; }
   .credit { font-size: 11px; }
   .stair, .thing-crate, .crate, .thing-shelf { min-width: 44px; min-height: 44px; }

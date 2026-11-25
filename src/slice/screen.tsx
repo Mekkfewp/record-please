@@ -226,9 +226,12 @@ export function SliceApp() {
   const region = record?.country === 'GB' ? 'uk' : scene.phase === 'start' ? 'neutral' : 'us';
   const floorMark = ['G', 'B1', 'B2', 'B3'][scene.floor];
 
+  const stair = <Stair floor={scene.floor} mark={floorMark} />;
+
   return (
-    <div className={`slice shop room-${region} f${scene.floor} look-${scene.phase === 'start' ? 'postpunk' : look}`} data-testid="slice-screen" data-floor={scene.floor} data-phase={scene.phase} data-pose={pose}>
+    <div className={`slice room-${region} f${scene.floor} look-${scene.phase === 'start' ? 'postpunk' : look}`} data-testid="slice-screen" data-floor={scene.floor} data-phase={scene.phase} data-pose={pose}>
       <p className="slice-live" aria-live="polite">{spoken}</p>
+      <div className="booth">
       <div className="street" aria-hidden="true">
         <div className="street-ground">
           <i className="terrace" />
@@ -248,7 +251,8 @@ export function SliceApp() {
         </div>
 
         {scene.phase === 'start' && (
-          <main className="counter-line">
+          <main className="shop-grid">
+            <span className="counter-bar" aria-hidden="true" />
             <Clerk />
             <span className="device device-turntable is-empty" aria-hidden="true" />
             <div className="doors">
@@ -265,42 +269,24 @@ export function SliceApp() {
             <Thing object={scene.objects.supply} testId="slice-supply" onPress={() => press(scene.objects.supply)}>
               <span className="supply-box" aria-hidden="true" />
             </Thing>
-            <Stair floor={scene.floor} mark={floorMark} />
+            {stair}
           </main>
         )}
 
         {scene.phase === 'desk' && record && scene.record && (
           <main className="desk">
             <p className="shelf-mark">{scene.shelfMark.map((genre) => genre.name).join(' / ')}</p>
-            <div className="counter-line">
-              <Clerk />
-              <span className="drop-sleeve" aria-hidden="true" />
-              <Thing object={scene.objects.player} testId="slice-player" onPress={() => press(scene.objects.player)}>
-                <span className={`device device-${scene.device} is-${scene.objects.player.state === 'playing' ? 'playing' : scene.objects.player.state === 'unavailable' ? 'empty' : 'stopped'}`} aria-hidden="true" />
-              </Thing>
-              <Sleeve record={record} face={scene.record.face} />
-              <Thing object={scene.objects.stack} testId="slice-stack" onPress={() => press(scene.objects.stack)}>
-                <span className="pile" aria-hidden="true" />
-              </Thing>
-            </div>
-            {scene.record.face !== 'face-down' && <p className="because">{because(state)}</p>}
-            <div className="player-meta">
-              {record.apple && (
-                <a className="apple-badge" data-testid="apple-music-link" href={appleMusicLink(record.apple, currentTimeZone()).url} target="_blank" rel="noopener noreferrer">
-                  <img src={appleMusicBadge} alt="在 Apple Music 上收听" />
-                </a>
-              )}
-              <Thing object={scene.objects.sound} testId="slice-sound" onPress={() => press(scene.objects.sound)}>
-                <span className={`knob ${muted ? 'is-off' : 'is-on'}`} aria-hidden="true" />
-              </Thing>
-              {scene.record.face !== 'face-down' && (
-                <p className="search-links">
-                  <a href={record.links.netease} target="_blank" rel="noopener noreferrer">网易云搜索</a>
-                  <a href={record.links.qq} target="_blank" rel="noopener noreferrer">QQ音乐搜索</a>
-                </p>
-              )}
-            </div>
-            <div className="front">
+            <div className="shop-grid">
+            <span className="counter-bar" aria-hidden="true" />
+            <Clerk />
+            <span className="drop-sleeve" aria-hidden="true" />
+            <Thing object={scene.objects.player} testId="slice-player" onPress={() => press(scene.objects.player)}>
+              <span className={`device device-${scene.device} is-${scene.objects.player.state === 'playing' ? 'playing' : scene.objects.player.state === 'unavailable' ? 'empty' : 'stopped'}`} aria-hidden="true" />
+            </Thing>
+            <Sleeve record={record} face={scene.record.face} />
+            <Thing object={scene.objects.stack} testId="slice-stack" onPress={() => press(scene.objects.stack)}>
+              <span className="pile" aria-hidden="true" />
+            </Thing>
               {scene.objects.crate.action === 'swap' ? (
                 <div className="crate is-swap" data-testid="slice-crate" role="group" aria-label={scene.objects.crate.label}>
                   <span className="crate-wood" aria-hidden="true" />
@@ -321,7 +307,24 @@ export function SliceApp() {
               <Thing object={scene.objects.shelf} testId="slice-shelf" onPress={() => press(scene.objects.shelf)}>
                 <span className="shelf-body" aria-hidden="true" />
               </Thing>
-              <Stair floor={scene.floor} mark={floorMark} />
+              {stair}
+            </div>
+            {scene.record.face !== 'face-down' && <p className="because">{because(state)}</p>}
+            <div className="player-meta">
+              {record.apple && (
+                <a className="apple-badge" data-testid="apple-music-link" href={appleMusicLink(record.apple, currentTimeZone()).url} target="_blank" rel="noopener noreferrer">
+                  <img src={appleMusicBadge} alt="在 Apple Music 上收听" />
+                </a>
+              )}
+              <Thing object={scene.objects.sound} testId="slice-sound" onPress={() => press(scene.objects.sound)}>
+                <span className={`knob ${muted ? 'is-off' : 'is-on'}`} aria-hidden="true" />
+              </Thing>
+              {scene.record.face !== 'face-down' && (
+                <p className="search-links">
+                  <a href={record.links.netease} target="_blank" rel="noopener noreferrer">网易云搜索</a>
+                  <a href={record.links.qq} target="_blank" rel="noopener noreferrer">QQ音乐搜索</a>
+                </p>
+              )}
             </div>
             <AppleCredit />
           </main>
@@ -348,6 +351,7 @@ export function SliceApp() {
             </div>
           </main>
         )}
+      </div>
       </div>
     </div>
   );
