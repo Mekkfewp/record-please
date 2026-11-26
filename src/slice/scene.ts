@@ -52,8 +52,16 @@ export interface SceneObject {
 export type Device = 'turntable' | 'walkman' | 'cd-player';
 const DEVICE_NAME: Record<Device, string> = { turntable: '唱机', walkman: '随身听', 'cd-player': 'CD 机' };
 
-/** The device follows the record's release year. */
-export function deviceFor(year: number): Device {
+/**
+ * The device follows the release year. The US brackets are the ones already fixed.
+ * Britain is later: cassette albums overtook LPs in 1985, and CD units overtook LPs in 1989.
+ */
+export function deviceFor(year: number, country = 'US'): Device {
+  if (country === 'GB') {
+    if (year <= 1984) return 'turntable';
+    if (year <= 1988) return 'walkman';
+    return 'cd-player';
+  }
   if (year <= 1982) return 'turntable';
   if (year <= 1987) return 'walkman';
   return 'cd-player';
@@ -95,7 +103,7 @@ const on = (id: ObjectId, action: ActionId, label: string): SceneObject => ({ id
 export function describe(state: GameState, slice: Slice, preview: PreviewStatus, muted: boolean): Scene {
   const step = current(state);
   const record = step ? slice.record(step.recordId) : null;
-  const device = record ? deviceFor(record.year) : null;
+  const device = record ? deviceFor(record.year, record.country) : null;
   const desk = state.phase === 'desk';
   const listening = desk && state.step === 'listening';
   const swapping = desk && state.step === 'swap';

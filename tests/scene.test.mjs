@@ -24,8 +24,9 @@ const slice = buildSlice({
 const open = () => reduce(initialState, { type: 'open', seed: 1 }, slice);
 const started = () => reduce(open(), { type: 'pick', recordId: 'd1' }, slice);
 
-test('the playback device follows the release year', () => {
-  assert.deepEqual([1980, 1982, 1983, 1987, 1988, 1989].map(deviceFor), ['turntable', 'turntable', 'walkman', 'walkman', 'cd-player', 'cd-player']);
+test('the playback device follows the release year, later in Britain', () => {
+  assert.deepEqual([1980, 1982, 1983, 1987, 1988, 1989].map((year) => deviceFor(year)), ['turntable', 'turntable', 'walkman', 'walkman', 'cd-player', 'cd-player']);
+  assert.deepEqual([1980, 1984, 1985, 1988, 1989].map((year) => deviceFor(year, 'GB')), ['turntable', 'turntable', 'walkman', 'walkman', 'cd-player']);
   assert.equal(describe(started(), slice, 'playing', false).device, 'turntable');
 });
 

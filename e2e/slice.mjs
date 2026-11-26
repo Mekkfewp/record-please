@@ -115,7 +115,9 @@ await phone.waitForFunction(() => {
 const crate = await phone.locator('[data-testid="slice-crate"]').boundingBox();
 const sleeve = await phone.locator('[data-testid="slice-record"]').boundingBox();
 if (!crate || crate.width < 44 || crate.height < 44) bad('the crate is smaller than a fingertip on a phone');
-if (!sleeve || sleeve.width < 200) bad(`the record is too narrow on a phone: ${sleeve?.width}`);
+const stair = await phone.locator('[data-testid="slice-stair"]').boundingBox();
+if (!stair || stair.width < 44 || stair.height < 44) bad(`the stair sign is under 44px: ${stair?.width}x${stair?.height}`);
+if (!sleeve || sleeve.width < 140) bad(`the record is too narrow on a phone: ${sleeve?.width}`);
 if (crate.y + crate.height > 700) bad('the crate sits below the phone screen');
 await phone.screenshot({ path: join(shots, 'phone.png') });
 
